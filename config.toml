@@ -18,8 +18,8 @@ enableRobotsTXT = true
 [params]
   text_color = ""
   author = "Nicholas M. Synovic"
-  #favicon = ""
-  # site_logo = "/images/hero.jpg"
+  favicon = "/images/favicon.ico"
+  # site_logo = "/images/android-chrome-192x192.png"
   description = "Researcher, Developer, Educator, Learner"
   background_color_class = "bg-mid-gray"
   recent_posts_number = 5
