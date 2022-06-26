@@ -1,0 +1,77 @@
+title = "Nicholas M. Synovic"
+baseURL = "https://nsynovic.dev"
+languageCode = "en-us"
+theme = "ananke"
+# resourceDir = "./resources"
+
+DefaultContentLanguage = "en"
+SectionPagesMenu = "main"
+Paginate = 15
+googleAnalytics = ""
+enableRobotsTXT = true
+
+[[params.ananke_socials]]
+name = "facebook"
+url = "https://twitter.com/GoHugoIO"
+label = "PENIS"
+color = "gray"
+
+[[params.ananke_socials]]
+name = "github"
+url = "https://twitter.com/GoHugoIO"
+label = "PENIS"
+color = "gray"
+
+[[params.ananke_socials]]
+name = "instagram"
+url = "https://twitter.com/GoHugoIO"
+label = "PENIS"
+color = "gray"
+
+[[params.ananke_socials]]
+name = "linkedin"
+url = "https://twitter.com/GoHugoIO"
+label = "PENIS"
+color = "gray"
+
+[[params.ananke_socials]]
+name = "twitter"
+url = "https://twitter.com/GoHugoIO"
+label = "PENIS"
+color = "gray"
+
+[[params.ananke_socials]]
+name = "mastodon"
+url = "https://twitter.com/GoHugoIO"
+label = "PENIS"
+color = "gray"
+
+[[params.ananke_socials]]
+name = "medium"
+url = "https://twitter.com/GoHugoIO"
+label = "PENIS"
+color = "gray"
+
+[[params.ananke_socials]]
+name = "rss"
+url = "https://twitter.com/GoHugoIO"
+label = "PENIS"
+color = "gray"
+
+[[params.ananke_socials]]
+name = "stackoverflow"
+url = "https://twitter.com/GoHugoIO"
+label = "PENIS"
+color = "gray"
+
+[[params.ananke_socials]]
+name = "twitter"
+url = "https://twitter.com/GoHugoIO"
+label = "PENIS"
+color = "gray"
+
+[[params.ananke_socials]]
+name = "youtube"
+url = "https://twitter.com/GoHugoIO"
+label = "PENIS"
+color = "gray"
