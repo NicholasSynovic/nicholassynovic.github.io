@@ -2,7 +2,7 @@ title = "Nicholas M. Synovic"
 baseURL = "https://nsynovic.dev"
 languageCode = "en-us"
 theme = "ananke"
-resourceDir = "./resources"
+# resourceDir = "./resources"
 
 DefaultContentLanguage = "en"
 SectionPagesMenu = "main"
