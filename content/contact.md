@@ -6,3 +6,7 @@ featured_image: "images/hero3.jpg"
 menu: "main"
 draft: false
 ---
+
+You can get in touch with me via the form below:
+
+{{< form-contact action="https://formspree.io/f/mknwkjjq" >}}

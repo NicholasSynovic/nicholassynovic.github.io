@@ -39,7 +39,7 @@ insights into processes.
 
 ### Where can I find your resume?
 
-Click the [Resume](resume.md) link at the top of the page.
+Click the [Resume](../resume) link at the top of the page.
 
 ## When
 
@@ -69,3 +69,7 @@ The site is currently hosted on [GitHub Pages](https://pages.github.com/).
 
 The [source code](https://github.com/NicholasSynovic/nsynovic.dev) is
 availible on [GitHub](https://github.com) as well.
+
+### How does the [Contact](../contact) page work?
+
+It's powered via [Formspree.io](https://formspree.io).
