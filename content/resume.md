@@ -6,3 +6,8 @@ featured_image: ""
 menu: "main"
 draft: false
 ---
+
+## Downloads
+
+- [PDF version]()
+- [ODT version]()
