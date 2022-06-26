@@ -9,5 +9,5 @@ draft: false
 
 ## Downloads
 
-- [PDF version]()
-- [ODT version]()
+- [PDF version](https://github.com/NicholasSynovic/nsynovic.dev/raw/main/static/resumes/Nicholas_Synovic-Resume.pdf)
+<!-- - [ODT version]() -->
