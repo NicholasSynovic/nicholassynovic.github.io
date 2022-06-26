@@ -1,0 +1,4 @@
+baseURL = 'https://nsynovic.dev'
+languageCode = 'en-us'
+title = 'Nicholas M. Synovic'
+theme = "ananke"
