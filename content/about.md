@@ -6,7 +6,7 @@ date: 2022-06-26T21:04:12-05:00
 description: "The Five W's and an H"
 draft: false
 expiryDate: ""
-featured_image: ""
+featured_image: "images/hero2.jpg"
 headless: false
 images: []
 include_toc: true
@@ -63,7 +63,7 @@ insights into processes.
 
 ### Where can I find your resume?
 
-Click the [Resume](../resume) link at the top of the page.
+Click the [Resume](https://github.com/NicholasSynovic/nsynovic.dev/raw/main/static/resumes/Nicholas_Synovic-Resume.pdf) link at the top of the page.
 
 ## When
 

@@ -6,7 +6,7 @@ date: 2022-06-26T21:04:17-05:00
 description: "Stalk... Get in Touch With Me!"
 draft: false
 expiryDate: ""
-featured_image: ""
+featured_image: "images/hero3.jpg"
 headless: false
 images: []
 include_toc: true

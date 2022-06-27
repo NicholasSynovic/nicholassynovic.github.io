@@ -2,7 +2,7 @@
 aliases: []
 audio: []
 cascade: {}
-date: 2022-06-26T21:04:19-05:00
+date: 2022-06-26T21:29:53-05:00
 description: ""
 draft: false
 expiryDate: ""
@@ -17,14 +17,13 @@ layout: ""
 lastmod: ""
 linkTitle: ""
 markup: "md"
-menu: "main"
 outputs: []
 publishDate: ""
 resource: ""
 series: ""
 slug: ""
 summary: ""
-title: "Resume"
+title: "Hello World"
 toc: true
 type: ""
 url: ""
@@ -32,6 +31,8 @@ videos: []
 weight: 0
 ---
 
-## Downloads
+## Hello World
 
-- [PDF version](https://github.com/NicholasSynovic/nsynovic.dev/raw/main/static/resumes/Nicholas_Synovic-Resume.pdf)
+This is my first post on my website.
+
+I hope it looks good!

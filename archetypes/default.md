@@ -17,7 +17,6 @@ layout: ""
 lastmod: ""
 linkTitle: ""
 markup: "md"
-menu: "main"
 outputs: []
 publishDate: ""
 resource: ""
