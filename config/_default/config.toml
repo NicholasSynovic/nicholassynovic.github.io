@@ -57,66 +57,36 @@ watch = false
 
 [[params.ananke_socials]]
 name = "facebook"
-url = "https://twitter.com/GoHugoIO"
-label = "PENIS"
-color = "gray"
+url = "https://www.facebook.com/nsynovic"
+label = "Facebook"
+color = "red"
 
 [[params.ananke_socials]]
 name = "github"
-url = "https://twitter.com/GoHugoIO"
-label = "PENIS"
-color = "gray"
+url = "https://github.com/NicholasSynovic"
+label = "GitHub"
+color = "orange"
 
 [[params.ananke_socials]]
 name = "instagram"
-url = "https://twitter.com/GoHugoIO"
-label = "PENIS"
-color = "gray"
+url = "https://instagram.com/nicholas_synovic"
+label = "Instagram"
+color = "yellow"
 
 [[params.ananke_socials]]
 name = "linkedin"
-url = "https://twitter.com/GoHugoIO"
-label = "PENIS"
-color = "gray"
+url = "https://linkedin.com/in/nsynovic"
+label = "LinkedIn"
+color = "green"
 
 [[params.ananke_socials]]
 name = "twitter"
-url = "https://twitter.com/GoHugoIO"
-label = "PENIS"
-color = "gray"
-
-[[params.ananke_socials]]
-name = "mastodon"
-url = "https://twitter.com/GoHugoIO"
-label = "PENIS"
-color = "gray"
-
-[[params.ananke_socials]]
-name = "medium"
-url = "https://twitter.com/GoHugoIO"
-label = "PENIS"
-color = "gray"
-
-[[params.ananke_socials]]
-name = "rss"
-url = "https://twitter.com/GoHugoIO"
-label = "PENIS"
-color = "gray"
-
-[[params.ananke_socials]]
-name = "stackoverflow"
-url = "https://twitter.com/GoHugoIO"
-label = "PENIS"
-color = "gray"
-
-[[params.ananke_socials]]
-name = "twitter"
-url = "https://twitter.com/GoHugoIO"
-label = "PENIS"
-color = "gray"
+url = "https://twitter.com/nick_synovic"
+label = "Twitter"
+color = "blue"
 
 [[params.ananke_socials]]
 name = "youtube"
-url = "https://twitter.com/GoHugoIO"
-label = "PENIS"
-color = "gray"
+url = "https://www.youtube.com/channel/UCVG2VYy7GJ86BLiUaj5LEZQ"
+label = "YouTube Channel"
+color = "indigo"
