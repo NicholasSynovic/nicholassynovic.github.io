@@ -17,6 +17,7 @@ layout: ""
 lastmod: ""
 linkTitle: ""
 markup: "md"
+menu: "main"
 outputs: []
 publishDate: ""
 resource: ""
@@ -24,6 +25,7 @@ series: ""
 slug: ""
 summary: ""
 title: ""
+toc: true
 type: ""
 url: ""
 videos: []

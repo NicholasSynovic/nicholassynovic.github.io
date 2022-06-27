@@ -1,10 +1,34 @@
 ---
-title: "About"
-date: 2022-06-26T09:00:39-05:00
+aliases: []
+audio: []
+cascade: {}
+date: 2022-06-26T21:04:12-05:00
 description: "The Five W's and an H"
-featured_image: "images/hero2.jpg"
-menu: "main"
 draft: false
+expiryDate: ""
+featured_image: ""
+headless: false
+images: []
+include_toc: true
+shiow_comments: false
+isCJKLanguage: false
+keywords: []
+layout: ""
+lastmod: ""
+linkTitle: ""
+markup: "md"
+menu: "main"
+outputs: []
+publishDate: ""
+resource: ""
+series: ""
+slug: ""
+summary: ""
+title: "About"
+type: ""
+url: ""
+videos: []
+weight: 0
 ---
 
 I'm going to write this page interview style.
