@@ -1,7 +1,31 @@
 ---
-title: "Nicholas M. Synovic"
+aliases: []
+audio: []
+cascade: {}
 date: {{ .Date }}
-description: "Researcher, Developer, Educator, Learner"
-featured_image: ""
+description: ""
 draft: true
+expiryDate: ""
+featured_image: ""
+headless: false
+images: []
+include_toc: true
+shiow_comments: false
+isCJKLanguage: false
+keywords: []
+layout: ""
+lastmod: ""
+linkTitle: ""
+markup: "md"
+outputs: []
+publishDate: ""
+resource: ""
+series: ""
+slug: ""
+summary: ""
+title: ""
+type: ""
+url: ""
+videos: []
+weight: 0
 ---
