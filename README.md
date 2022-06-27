@@ -1,2 +1,0 @@
-# nsynovic.dev
-Personal website
