@@ -79,6 +79,17 @@ To be the central hub of all the content that I post on social media.
 
 Also because it's cool to website in 2022.
 
+### Why is your head in a weird spot for your blog hero image?
+
+Here is the story.
+
+All of the hero's orginal sizes and aspect ratios where different.
+This caused the pages to jump around when navigating.
+So I cropped everything to the proper size and aspect ratio to solve the problem.
+
+This resolved the jumpiness, but it introduced that creepy image of my head just peeking up.
+
+To tell you the truth, this site looks better on mobile. And until I get around to fixing the theme's default styling for desktop regarding heros, I'm just going to leave it as is.
 ## How
 
 ### How did you build this site?
