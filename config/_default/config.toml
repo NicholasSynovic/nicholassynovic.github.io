@@ -48,12 +48,6 @@ uglyURLs = false
 watch = false
 
 [menu]
-[[menu.main]]
-  identifier = 'Resume'
-  name = 'Resume'
-  pre = "<i class='fa fa-heart'></i>"
-  url = 'https://github.com/NicholasSynovic/nsynovic.dev/raw/main/static/resumes/Nicholas_Synovic-Resume.pdf'
-  weight = 0
 
 [[params.ananke_socials]]
 name = "facebook"
