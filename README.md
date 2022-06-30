@@ -2,7 +2,14 @@
 
 > My personal website + blog
 
+[![deployment](https://github.com/NicholasSynovic/nsynovic.dev/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/NicholasSynovic/nsynovic.dev/actions/workflows/pages/pages-build-deployment)
+
 ## Table of Contents
+
+- [https://nsynovic.dev](#httpsnsynovicdev)
+  - [Table of Contents](#table-of-contents)
+  - [About](#about)
+  - [Develop/ Contribute/ Fork](#develop-contribute-fork)
 
 ## About
 
