@@ -6,18 +6,18 @@
 
 ## Table of Contents
 
-- [https://nsynovic.dev](#httpsnsynovicdev)
-  - [Table of Contents](#table-of-contents)
-  - [About](#about)
-  - [Develop/ Contribute/ Fork](#develop-contribute-fork)
+-   [https://nsynovic.dev](#httpsnsynovicdev)
+    -   [Table of Contents](#table-of-contents)
+    -   [About](#about)
+    -   [Develop/ Contribute/ Fork](#develop-contribute-fork)
 
 ## About
 
 [https://nsynovic.dev](https://nsynovic.dev) is the site where I:
 
-- Showcase my work
-- Post blogs
-- Attempt to centralize social media posts
+-   Showcase my work
+-   Post blogs
+-   Attempt to centralize social media posts
 
 ## Develop/ Contribute/ Fork
 

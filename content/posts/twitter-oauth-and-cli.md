@@ -88,8 +88,7 @@ But I have two good reasons for doing so:
 
 1. Most of the work that I do is in Python. As I may need to access an OAuth 2.0 endpoint at some point, I want to make sure that I have the knowledge to do so.
 2. There is more complexity in learning a new programming language than learning a new feature of a language you know.
-   I'd rathe
-   r not spend cycles figuring out syntax when I could be working.
+   I'd rather not spend cycles figuring out syntax when I could be working.
 
 ## Socket
 
