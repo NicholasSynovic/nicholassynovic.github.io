@@ -46,21 +46,10 @@ titleCaseStyle = "AP"
 uglyURLs = false
 watch = false
 
-[outputs]
-home = ["HTML", "ATOM"]
-section = ["HTML"]
-taxonomy = ["HTML"]
-taxonomyTerm = ["HTML"]
-
 [outputFormats]
-[outputFormats.ATOM]
-name = "ATOM"
-baseName = "feed"
-mediaType = "application/atom+xml"
-
-[mediaTypes]
-[mediaTypes."application/atom+xml"]
-suffixes = "attom"
+    [outputFormats.RSS]
+        mediaType = "application/rss+xml"
+        baseName = "feed"
 
 [menu]
 
