@@ -1,10 +1,13 @@
 ---
+title: ""
+description: ""
+summary: ""
+
 aliases: []
 audio: []
 cascade: {}
-date: {{ .Date }}
-description: ""
-draft: true
+date: { { .Date } }
+draft: false
 expiryDate: ""
 featured_image: ""
 headless: false
@@ -19,11 +22,10 @@ linkTitle: ""
 markup: "md"
 outputs: []
 publishDate: ""
+private: false
 resource: ""
 series: ""
 slug: ""
-summary: ""
-title: ""
 toc: true
 type: ""
 url: ""
