@@ -91,6 +91,6 @@ color = "indigo"
 
 [[params.ananke_socials]]
 name = "rss"
-url = "https://nsynovic.dev/rss.xml"
+url = "https://nsynovic.dev/feed.xml"
 label = "RSS Feed"
 color = "violet"
