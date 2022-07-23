@@ -41,3 +41,9 @@ weight: 0
 Hello world.
 
 Hopefully this worked...
+
+## Update
+
+It did!
+
+You can check out the RSS feed [here](https://nsynovic.dev/feed.xml).
