@@ -5,9 +5,8 @@ summary: "My experience with using Obsidian to take notes"
 
 aliases: []
 audio: []
-author: nicholasSynovic
 cascade: {}
-date: { { .Date } }
+date: 2022-07-23
 draft: false
 expiryDate: ""
 featured_image: ""

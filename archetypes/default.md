@@ -5,7 +5,6 @@ summary: ""
 
 aliases: []
 audio: []
-author: nicholasSynovic
 cascade: {}
 date: { { .Date } }
 draft: false

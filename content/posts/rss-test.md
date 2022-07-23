@@ -5,9 +5,8 @@ summary: "A test file to see if the RSS capabilities of my site worked"
 
 aliases: []
 audio: []
-author: nicholasSynovic
 cascade: {}
-date: { .Date }
+date: 2022-07-23
 draft: false
 expiryDate: ""
 featured_image: ""
