@@ -1,7 +1,7 @@
 ---
-title: ""
-description: ""
-summary: ""
+title: "RSS Test"
+description: "A test file to see if the RSS capabilities of my site worked"
+summary: "A test file to see if the RSS capabilities of my site worked"
 
 aliases: []
 audio: []
@@ -34,9 +34,9 @@ videos: []
 weight: 0
 ---
 
-# ATOM Test
+# RSS Test
 
-> This article was created to test the ATOM capabilities that I added to my site by following [this tutorial](https://www.jhaurawachsman.com/hugo-atom-syndication-xml-template/)
+> This article was created to test the ATOM capabilities that I added to my site by following [this tutorial](https://rimdev.io/creating-rss-feeds-using-hugo/)
 
 Hello world.
 
