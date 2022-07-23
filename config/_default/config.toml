@@ -35,7 +35,6 @@ relativeURLs = false
 refLinksErrorLevel = "ERROR"
 refLinksNotFoundURL = "https://nsynovic.dev"
 removePathAccents = false
-rssLimit = -1
 sectionPagesMenu = "main"
 summaryLength = 70
 theme = "ananke-custom"
@@ -46,6 +45,22 @@ title = "Nicholas M. Synovic"
 titleCaseStyle = "AP"
 uglyURLs = false
 watch = false
+
+[outputs]
+home = ["HTML", "ATOM"]
+section = ["HTML"]
+taxonomy = ["HTML"]
+taxonomyTerm = ["HTML"]
+
+[outputFormats]
+[outputFormats.ATOM]
+name = "ATOM"
+baseName = "feed"
+mediaType = "application/atom+xml"
+
+[mediaTypes]
+[mediaTypes."application/atom+xml"]
+suffixes = "attom"
 
 [menu]
 
