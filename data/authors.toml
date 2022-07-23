@@ -1,0 +1,12 @@
+[default]
+name = "Site Publisher"
+uri = "https://www.publisher.com/"
+email = "contact@publisher.com"
+twitter = "publisher"
+image = "default.png"
+
+[nicholasSynovic]
+name = "Nicholas M. Synovic"
+uri = "https://nsynovic.dev/"
+email = "nicholas.synovic@gmail.com"
+twitter = "nick_synovic"
