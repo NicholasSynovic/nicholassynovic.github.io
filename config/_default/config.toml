@@ -84,3 +84,9 @@ name = "youtube"
 url = "https://www.youtube.com/channel/UCVG2VYy7GJ86BLiUaj5LEZQ"
 label = "YouTube Channel"
 color = "indigo"
+
+[[params.ananke_socials]]
+name = "rss"
+url = "https://nsynovic.dev/rss.xml"
+label = "RSS Feed"
+color = "violet"
