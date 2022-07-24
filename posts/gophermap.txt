@@ -35,6 +35,8 @@ weight: 0
 
 
 
+0My Altweb Journey: Part 0	/posts/altweb-journey-part0/gophermap.txt	<no value>	70 
+
 0RSS Test	/posts/rss-test/gophermap.txt	<no value>	70 
 
 0Note Taking and Graph DBs	/posts/graphs-obsidian/gophermap.txt	<no value>	70 

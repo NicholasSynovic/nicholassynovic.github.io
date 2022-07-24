@@ -1,0 +1,15 @@
+# Contact
+
+
+You can get in touch with me via the form below:
+
+{{\< form-contact action="https://formspree.io/f/mknwkjjq" >}}
+
+
+You can get in touch with me via the form below:
+
+{{\< form-contact action="https://formspree.io/f/mknwkjjq" >}}
+
+
+=> /posts/hello-world/index.gmi ← Newer: Hello World
+=> /about/index.gmi → Older: About

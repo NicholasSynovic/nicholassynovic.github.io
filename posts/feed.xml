@@ -1,4 +1,63 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Nicholas M. Synovic</title><link>https://nsynovic.dev/posts/</link><description>Recent content in Posts on Nicholas M. Synovic</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Nicholas M. Synovic</copyright><lastBuildDate>Sun, 26 Jun 2022 21:29:53 -0500</lastBuildDate><atom:link href="https://nsynovic.dev/posts/feed.xml" rel="self" type="application/rss+xml"/><item><title>Note Taking and Graph DBs</title><link>https://nsynovic.dev/posts/graphs-obsidian/</link><pubDate>Sat, 23 Jul 2022 00:00:00 +0000</pubDate><guid>https://nsynovic.dev/posts/graphs-obsidian/</guid><description>&lt;h1 id="note-taking-and-graph-dbs">Note Taking and Graph DBs&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Nicholas M. Synovic</title><link>https://nsynovic.dev/posts/</link><description>Recent content in Posts on Nicholas M. Synovic</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Nicholas M. Synovic</copyright><lastBuildDate>Sun, 26 Jun 2022 21:29:53 -0500</lastBuildDate><atom:link href="https://nsynovic.dev/posts/feed.xml" rel="self" type="application/rss+xml"/><item><title>My Altweb Journey: Part 0</title><link>https://nsynovic.dev/posts/altweb-journey-part0/</link><pubDate>Sun, 24 Jul 2022 12:48:20 -0500</pubDate><guid>https://nsynovic.dev/posts/altweb-journey-part0/</guid><description>&lt;h1 id="my-altweb-journey-part-0">My Altweb Journey: Part 0&lt;/h1>
+&lt;p>&lt;em>What the heck is the altweb?&lt;/em>&lt;/p>
+&lt;p>This question has lead me down a rabbit hole of network protocols, computer
+ethics, philosophies on the internet, and enlightenment. Ok, maybe not
+enlightenment, but it definitely has exposed me to a whole side of computing
+that I haven&amp;rsquo;t seen before.&lt;/p>
+&lt;p>But before I go into this potentially long and rambling post, let me say one
+thing:&lt;/p>
+&lt;p>&lt;strong>Don&amp;rsquo;t panic.&lt;/strong>&lt;/p>
+&lt;p>Seriously, what I&amp;rsquo;m about to describe is not a new version of the internet, your
+boss most likely won&amp;rsquo;t bother you with this question ever, and your job is still
+safe if you haven&amp;rsquo;t heard of this before. The altweb (as people are now calling
+it) is an attempt at a simpler internet at its core.&lt;/p>
+&lt;p>Now what does that mean?&lt;/p>
+&lt;h2 id="the-altweb-a-macro-view">The Altweb: A Macro View&lt;/h2>
+&lt;p>The altweb is a collection of &lt;em>decentralized&lt;/em> networks that are powered by niche
+network protocols, focussed around peer to peer sharing. Compare that to today,
+where Google Cloud, Microsoft Azure, and AWS dominate the web hosting scene.
+These companies power 61% of the modern Internet&amp;rsquo;s web services [1]. This
+majority stakehold in providing the hosting, compute, and techical services for
+powering the Internet has led to these companies centralizing data to their
+servers. Because of this centralization, there are serious privacy concerns
+[2].&lt;/p>
+&lt;p>To address these security concerns, there has been a growign movement to bring
+back the decentralized web where individuals host data instead of these
+companies. Protocols such as &lt;code>Gopher&lt;/code> [3], &lt;code>Gemini&lt;/code> [4], &lt;code>BitTorent&lt;/code> [5],
+&lt;code>Hypercore&lt;/code> [6], and &lt;code>IPFS&lt;/code> [7] all try to address this challenge. Now,
+there is no reason why Google, Microsoft, or Amazon couldn&amp;rsquo;t come out tomorrow
+offering to host &lt;code>gopher&lt;/code> sites for example. After all, these are just web
+protocols that anyone with the right software can utilize.&lt;/p>
+&lt;p>But to make alternatives to these big players and put web hosting back into the
+people, Fediverse software [8] is being developed to introduce people to
+decentralized social media. In this case, the fediverse is predominately a
+collection of social media sites that rely on protocols such as &lt;code>diaspora&lt;/code>
+[9], &lt;code>Zot&lt;/code> [10], &lt;code>ActivityPub&lt;/code> [11], and &lt;code>OStatus&lt;/code> [12] to power their
+backends. For more traditional apps, decentralized apps (dapps) [13] powered
+by blockchain exist. And for those looking for a decentralized database, &lt;code>gun&lt;/code>
+[14] and similar databases now exist as well.&lt;/p>
+&lt;p>The point in all of this is that each one of these protocols, database schemes,
+social media sites, and blockchain technologies exist in their own unique
+spheres. As an example, there isn&amp;rsquo;t software out there that combines the power
+of the blockchain with &lt;code>gopher&lt;/code>. But that&amp;rsquo;s ok for now. All of this is still in
+its infancy with potential to grow into something larger.&lt;/p>
+&lt;h2 id="citations">Citations&lt;/h2>
+&lt;ol>
+&lt;li>&lt;a href="https://www.investopedia.com/articles/investing/011316/what-amazon-web-services-and-why-it-so-successful.asp">What Is Amazon Web Services and Why Is It So Successful?&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.bitsbook.com/">Blown to Bits&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://en.wikipedia.org/wiki/Gopher_(protocol)">Gopher (protocol)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://gemini.circumlunar.space/">Project Gemini&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://en.wikipedia.org/wiki/BitTorrent">BitTorrent&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://hypercore-protocol.org/">Hypercore&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://ipfs.io/">IPFS&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://fediverse.party/en/fediverse/">About Fediverse&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/diaspora/diaspora_federation">diaspora/diaspora_federation&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://zotlabs.org/help/en/developer/zot_protocol">What is Zot?&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://activitypub.rocks/">ActivityPub&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/OStatus">OStatus&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://ethereum.org/en/dapps/#what-are-dapps">Decentralized applications (dapps)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://gun.eco/">gun&lt;/a>&lt;/li>
+&lt;/ol></description></item><item><title>Note Taking and Graph DBs</title><link>https://nsynovic.dev/posts/graphs-obsidian/</link><pubDate>Sat, 23 Jul 2022 00:00:00 +0000</pubDate><guid>https://nsynovic.dev/posts/graphs-obsidian/</guid><description>&lt;h1 id="note-taking-and-graph-dbs">Note Taking and Graph DBs&lt;/h1>
 &lt;p>I enjoy note taking.&lt;/p>
 &lt;p>I think that taking notes all the time not only is a good habit, but reduces the
 mental energy in trying to remember everything and anything. In tech terms, it
