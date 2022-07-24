@@ -46,12 +46,15 @@ titleCaseStyle = "AP"
 uglyURLs = false
 watch = false
 
+[mediaTypes."text/gemini"]
+suffixes = [ "gmi" ]
+
 [outputs]
-home = ["HTML", "gopher", "RSS"]
+home = ["HTML", "gopher", "GEMINI", "RSS"]
 section = ["HTML", "gopher", "RSS"]
 taxonomy = ["HTML", "gopher", "RSS"]
 taxonomyTerm = ["HTML", "gopher", "RSS"]
-page = ["HTML", "gopher"]
+page = ["HTML", "gopher", "GEMINI"]
 
 [outputFormats]
     [outputFormats.RSS]
@@ -63,6 +66,13 @@ page = ["HTML", "gopher"]
         isPlainText = true
         protocol = "gopher://"
         noUgly = false
+    [outputFormats.GEMINI]
+        name = "GEMINI"
+        isPlainText = true
+        isHTML = false
+        mediaType = "text/gemini"
+        protocol = "gemini://"
+        permalinkable = true
 
 [menu]
 
