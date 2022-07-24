@@ -47,3 +47,6 @@ Hopefully this worked...
 It did!
 
 You can check out the RSS feed [here](https://nsynovic.dev/feed.xml).
+
+> I'm doing the [#100DaysToOffload](https://twitter.com/search?q=%23100daystooffload&src=typed_query) challenge.
+> Check [my Twitter](https://twitter.com/nick_synovic) for updates!

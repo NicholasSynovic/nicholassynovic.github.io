@@ -119,3 +119,6 @@ But Obsidian provides me with a way of referring to notes faster and more
 effieciently than I have before.
 
 So for that, it's alright in my book.
+
+> I'm doing the [#100DaysToOffload](https://twitter.com/search?q=%23100daystooffload&src=typed_query) challenge.
+> Check [my Twitter](https://twitter.com/nick_synovic) for updates!

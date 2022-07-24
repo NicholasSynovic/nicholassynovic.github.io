@@ -36,3 +36,6 @@ weight: 0
 This is my first post on my website.
 
 I hope it looks good!
+
+> I'm doing the [#100DaysToOffload](https://twitter.com/search?q=%23100daystooffload&src=typed_query) challenge.
+> Check [my Twitter](https://twitter.com/nick_synovic) for updates!
