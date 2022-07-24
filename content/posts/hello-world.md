@@ -3,30 +3,30 @@ aliases: []
 audio: []
 cascade: {}
 date: 2022-06-26T21:29:53-05:00
-description: ""
+description: ''
 draft: false
-expiryDate: ""
-featured_image: ""
+expiryDate: ''
+featured_image: ''
 headless: false
 images: []
 include_toc: true
 shiow_comments: false
 isCJKLanguage: false
 keywords: []
-layout: ""
-lastmod: ""
-linkTitle: ""
-markup: "md"
+layout: ''
+lastmod: ''
+linkTitle: ''
+markup: md
 outputs: []
-publishDate: ""
-resource: ""
-series: ""
-slug: ""
-summary: ""
-title: "Hello World"
+publishDate: ''
+resource: ''
+series: ''
+slug: ''
+summary: ''
+title: Hello World
 toc: true
-type: ""
-url: ""
+type: ''
+url: ''
 videos: []
 weight: 0
 ---

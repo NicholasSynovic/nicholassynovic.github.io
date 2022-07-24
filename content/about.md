@@ -3,30 +3,30 @@ aliases: []
 audio: []
 cascade: {}
 date: 2022-06-26T21:04:12-05:00
-description: "The Five W's and an H"
+description: The Five W's and an H
 draft: false
-expiryDate: ""
-featured_image: "images/hero2.jpg"
+expiryDate: ''
+featured_image: images/hero2.jpg
 headless: false
 images: []
 include_toc: true
 shiow_comments: false
 isCJKLanguage: false
 keywords: []
-layout: ""
-lastmod: ""
-linkTitle: ""
-markup: "md"
-menu: "main"
+layout: ''
+lastmod: ''
+linkTitle: ''
+markup: md
+menu: main
 outputs: []
-publishDate: ""
-resource: ""
-series: ""
-slug: ""
-summary: ""
-title: "About"
-type: ""
-url: ""
+publishDate: ''
+resource: ''
+series: ''
+slug: ''
+summary: ''
+title: About
+type: ''
+url: ''
 videos: []
 weight: 0
 ---
@@ -48,8 +48,8 @@ tools that don't exist.
 ### What do you do?
 
 Currently, I'm a Research Assistant at Loyola University Chicago exploring
-software supply chain security of machine learning model hubs and solutions
-for low powered computer vision.
+software supply chain security of machine learning model hubs and solutions for
+low powered computer vision.
 
 Additionally, I'm an Intel OneAPI Student Ambassador educating others through
 blogs, YouTube videos, and hot takes on social media.
@@ -63,7 +63,9 @@ insights into processes.
 
 ### Where can I find your resume?
 
-Click the [Resume](https://github.com/NicholasSynovic/nsynovic.dev/raw/main/static/resumes/Nicholas_Synovic-Resume.pdf) link at the top of the page.
+Click the
+[Resume](https://github.com/NicholasSynovic/nsynovic.dev/raw/main/static/resumes/Nicholas_Synovic-Resume.pdf)
+link at the top of the page.
 
 ## When
 
@@ -83,29 +85,31 @@ Also because it's cool to website in 2022.
 
 Here is the story.
 
-All of the hero's orginal sizes and aspect ratios where different.
-This caused the pages to jump around when navigating.
-So I cropped everything to the proper size and aspect ratio to solve the problem.
+All of the hero's orginal sizes and aspect ratios where different. This caused
+the pages to jump around when navigating. So I cropped everything to the proper
+size and aspect ratio to solve the problem.
 
-This resolved the jumpiness, but it introduced that creepy image of my head just peeking up.
+This resolved the jumpiness, but it introduced that creepy image of my head just
+peeking up.
 
-To tell you the truth, this site looks better on mobile.
-And until I get around to fixing the theme's default styling for desktop regarding heros, I'm just going to leave it as is.
+To tell you the truth, this site looks better on mobile. And until I get around
+to fixing the theme's default styling for desktop regarding heros, I'm just
+going to leave it as is.
 
 ## How
 
 ### How did you build this site?
 
 Using [Hugo](https://gohugo.io) and the
-[Ananke theme](https://github.com/theNewDynamic/gohugo-theme-ananke)
-because it's easy peasy.
+[Ananke theme](https://github.com/theNewDynamic/gohugo-theme-ananke) because
+it's easy peasy.
 
 The domain was bought using [Google Domains](https://domains.google.com).
 
 The site is currently hosted on [GitHub Pages](https://pages.github.com/).
 
-The [source code](https://github.com/NicholasSynovic/nsynovic.dev) is
-availible on [GitHub](https://github.com) as well.
+The [source code](https://github.com/NicholasSynovic/nsynovic.dev) is availible
+on [GitHub](https://github.com) as well.
 
 ### How does the [Contact](../contact) page work?
 
