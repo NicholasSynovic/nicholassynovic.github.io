@@ -6,7 +6,7 @@ summary: ""
 aliases: []
 audio: []
 cascade: {}
-date: { { .Date } }
+date: {{ .Date }}
 draft: false
 expiryDate: ""
 featured_image: ""
