@@ -1,6 +1,0 @@
-rules:
-  max-len:
-    code: 80
-    tabWidth: 4
-    comments: 80
-    ignoreUrls: true
