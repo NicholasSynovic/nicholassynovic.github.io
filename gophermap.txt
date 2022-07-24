@@ -1,0 +1,53 @@
+!Nicholas M. Synovic
+
+---
+aliases: []
+audio: []
+cascade: {}
+date: 2022-06-26T21:04:02-05:00
+description: Researcher, Developer, Educator, Learner
+draft: false
+expiryDate: ''
+featured_image: images/hero.jpg
+headless: false
+images: []
+include_toc: true
+shiow_comments: false
+isCJKLanguage: false
+keywords: []
+layout: ''
+lastmod: ''
+linkTitle: ''
+markup: md
+outputs: []
+publishDate: ''
+resource: ''
+series: ''
+slug: ''
+summary: ''
+title: Nicholas M. Synovic
+toc: true
+type: ''
+url: ''
+videos: []
+weight: 0
+---
+
+
+Site sections:
+
+1About		<no value>	70
+
+1Contact		<no value>	70
+
+1Posts	posts	<no value>	70
+
+
+Most recent articles
+
+0Posts	/posts/gophermap.txt	<no value>	70 
+
+0Contact	/contact/gophermap.txt	<no value>	70 
+
+0About	/about/gophermap.txt	<no value>	70 
+

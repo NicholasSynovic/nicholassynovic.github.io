@@ -1,0 +1,10 @@
+# Contact
+
+June 2022 · 1 minute read
+
+      
+
+You can get in touch with me via the form below:
+
+{{\< form-contact action="https://formspree.io/f/mknwkjjq" >}}
+
