@@ -46,10 +46,23 @@ titleCaseStyle = "AP"
 uglyURLs = false
 watch = false
 
+[outputs]
+home = ["HTML", "gopher", "RSS"]
+section = ["HTML", "gopher", "RSS"]
+taxonomy = ["HTML", "gopher", "RSS"]
+taxonomyTerm = ["HTML", "gopher", "RSS"]
+page = ["HTML", "gopher"]
+
 [outputFormats]
     [outputFormats.RSS]
         mediaType = "application/rss+xml"
         baseName = "feed"
+    [outputFormats.gopher]
+        mediaType = "text/plain"
+        baseName = "gophermap"
+        isPlainText = true
+        protocol = "gopher://"
+        noUgly = false
 
 [menu]
 
