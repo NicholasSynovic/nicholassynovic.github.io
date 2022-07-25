@@ -2,7 +2,6 @@
 title: Twitter, OAuth 2.0, and the Command Line
 description: How I handled OAuth 2.0 authentication with a recent project
 summary: How I handled OAuth 2.0 authentication with a recent project
-keywords: []
 
 aliases: []
 audio: []
@@ -14,8 +13,8 @@ featured_image: ''
 headless: false
 images: []
 include_toc: true
-shiow_comments: false
 isCJKLanguage: false
+keywords: []
 layout: ''
 lastmod: ''
 linkTitle: ''
@@ -24,6 +23,7 @@ outputs: []
 publishDate: ''
 resource: ''
 series: ''
+show_comments: false
 slug: ''
 toc: true
 type: ''

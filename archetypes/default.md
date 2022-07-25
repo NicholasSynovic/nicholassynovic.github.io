@@ -2,7 +2,6 @@
 title: ""
 description: ""
 summary: ""
-keywords: []
 
 aliases: []
 audio: []
@@ -16,6 +15,7 @@ images: []
 include_toc: true
 shiow_comments: false
 isCJKLanguage: false
+keywords: []
 layout: ""
 lastmod: ""
 linkTitle: ""

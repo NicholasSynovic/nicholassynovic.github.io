@@ -1,8 +1,7 @@
 ---
-title: 'My Altweb Journey: Part 0'
+title: "My Altweb Journey: Part 0"
 description: What the heck is the altweb?
-summary: What the heck is the altweb
-keywords: []
+summary: What the heck is the altweb?
 
 aliases: []
 audio: []
@@ -14,8 +13,8 @@ featured_image: ''
 headless: false
 images: []
 include_toc: true
-shiow_comments: false
 isCJKLanguage: false
+keywords: []
 layout: ''
 lastmod: ''
 linkTitle: ''
@@ -25,6 +24,7 @@ publishDate: ''
 private: false
 resource: ''
 series: ''
+show_comments: false
 slug: ''
 toc: true
 type: ''

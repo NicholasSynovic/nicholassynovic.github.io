@@ -2,7 +2,6 @@
 title: Posts
 description: A feed of all the stuff I post on the internet.
 summary: ''
-keywords: []
 
 aliases: []
 audio: []
@@ -14,8 +13,8 @@ featured_image: images/hero4.jpg
 headless: false
 images: []
 include_toc: true
-shiow_comments: false
 isCJKLanguage: false
+keywords: []
 layout: ''
 lastmod: ''
 linkTitle: ''
@@ -24,6 +23,7 @@ outputs: []
 publishDate: ''
 resource: ''
 series: ''
+show_comments: false
 slug: ''
 toc: true
 type: ''
