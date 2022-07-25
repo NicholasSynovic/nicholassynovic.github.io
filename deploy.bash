@@ -12,3 +12,6 @@ mkdir gemini
 find -L ./public -name "index.gmi" -exec cp --parents {} gemini \;
 mv ./gemini/public/* ./gemini/
 rm -r ./gemini/public
+
+mv ./gemini/ ./public/
+mv ./gopher/ ./public/
