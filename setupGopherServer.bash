@@ -1,5 +1,6 @@
 #!/bin/bash
 # Instructions adapted from: https://www.paritybit.ca/blog/setting-up-a-gopher-site
+# Copy files into /var/gopher
 
 sudo apt update
 # sudo apt upgrade -y
@@ -16,7 +17,7 @@ make
 sudo make install
 
 sudo cp /etc/default/gophernicus /etc/default/gophernicus.backup
-echo 'OPTIONS="-h gopherhole -nv -nx -nt -nq -no -nl -nu"' | sudo tee /etc/default/gophernicus
+echo 'OPTIONS="-h raspberrypi -nv -nx -nt -nq -no -nl -nu"' | sudo tee /etc/default/gophernicus
 
 sudo systemctl enable gophernicus.socket
 sudo systemctl start gophernicus.socket
