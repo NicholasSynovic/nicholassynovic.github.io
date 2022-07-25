@@ -1,0 +1,8 @@
+## Posts grouped by year
+
+
+### 2022
+
+=> /contact/index.gmi Contact
+=> /about/index.gmi About
+
