@@ -165,3 +165,6 @@ It was definitely useful to learn a little bit of `socket`s programming and to
 work with OAuth 2.0. But I don't think that I'll be going down this route again
 unless absolutely necessary.
 
+> I'm doing the [#100DaysToOffload](https://twitter.com/search?q=%23100daystooffload&src=typed_query) challenge.
+> Check [my Twitter](https://twitter.com/nick_synovic) for updates!
+

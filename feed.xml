@@ -57,7 +57,11 @@ its infancy with potential to grow into something larger.&lt;/p>
 &lt;li>&lt;a href="https://github.com/OStatus">OStatus&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://ethereum.org/en/dapps/#what-are-dapps">Decentralized applications (dapps)&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://gun.eco/">gun&lt;/a>&lt;/li>
-&lt;/ol></description></item><item><title>Note Taking and Graph DBs</title><link>https://nsynovic.dev/posts/graphs-obsidian/</link><pubDate>Sat, 23 Jul 2022 00:00:00 +0000</pubDate><guid>https://nsynovic.dev/posts/graphs-obsidian/</guid><description>&lt;h1 id="note-taking-and-graph-dbs">Note Taking and Graph DBs&lt;/h1>
+&lt;/ol>
+&lt;blockquote>
+&lt;p>I&amp;rsquo;m doing the &lt;a href="https://twitter.com/search?q=%23100daystooffload&amp;amp;src=typed_query">#100DaysToOffload&lt;/a> challenge.
+Check &lt;a href="https://twitter.com/nick_synovic">my Twitter&lt;/a> for updates!&lt;/p>
+&lt;/blockquote></description></item><item><title>Note Taking and Graph DBs</title><link>https://nsynovic.dev/posts/graphs-obsidian/</link><pubDate>Sat, 23 Jul 2022 00:00:00 +0000</pubDate><guid>https://nsynovic.dev/posts/graphs-obsidian/</guid><description>&lt;h1 id="note-taking-and-graph-dbs">Note Taking and Graph DBs&lt;/h1>
 &lt;p>I enjoy note taking.&lt;/p>
 &lt;p>I think that taking notes all the time not only is a good habit, but reduces the
 mental energy in trying to remember everything and anything. In tech terms, it
@@ -119,16 +123,11 @@ are many features not present in Obsidian that I wish were availible, such as
 clicking on two tags to visualize the paths between each tag.&lt;/p>
 &lt;p>But Obsidian provides me with a way of referring to notes faster and more
 effieciently than I have before.&lt;/p>
-&lt;p>So for that, it&amp;rsquo;s alright in my book.&lt;/p></description></item><item><title>RSS Test</title><link>https://nsynovic.dev/posts/rss-test/</link><pubDate>Sat, 23 Jul 2022 00:00:00 +0000</pubDate><guid>https://nsynovic.dev/posts/rss-test/</guid><description>&lt;h1 id="rss-test">RSS Test&lt;/h1>
+&lt;p>So for that, it&amp;rsquo;s alright in my book.&lt;/p>
 &lt;blockquote>
-&lt;p>This article was created to test the ATOM capabilities that I added to my site
-by following &lt;a href="https://rimdev.io/creating-rss-feeds-using-hugo/">this tutorial&lt;/a>&lt;/p>
-&lt;/blockquote>
-&lt;p>Hello world.&lt;/p>
-&lt;p>Hopefully this worked&amp;hellip;&lt;/p>
-&lt;h2 id="update">Update&lt;/h2>
-&lt;p>It did!&lt;/p>
-&lt;p>You can check out the RSS feed &lt;a href="https://nsynovic.dev/feed.xml">here&lt;/a>.&lt;/p></description></item><item><title>Twitter, OAuth 2.0, and the Command Line</title><link>https://nsynovic.dev/posts/twitter-oauth-and-cli/</link><pubDate>Fri, 01 Jul 2022 09:25:35 -0500</pubDate><guid>https://nsynovic.dev/posts/twitter-oauth-and-cli/</guid><description>&lt;h2 id="preface">Preface&lt;/h2>
+&lt;p>I&amp;rsquo;m doing the &lt;a href="https://twitter.com/search?q=%23100daystooffload&amp;amp;src=typed_query">#100DaysToOffload&lt;/a> challenge.
+Check &lt;a href="https://twitter.com/nick_synovic">my Twitter&lt;/a> for updates!&lt;/p>
+&lt;/blockquote></description></item><item><title>Twitter, OAuth 2.0, and the Command Line</title><link>https://nsynovic.dev/posts/twitter-oauth-and-cli/</link><pubDate>Fri, 01 Jul 2022 09:25:35 -0500</pubDate><guid>https://nsynovic.dev/posts/twitter-oauth-and-cli/</guid><description>&lt;h2 id="preface">Preface&lt;/h2>
 &lt;p>I don&amp;rsquo;t use social media that often. I think that it gets in the way of my day
 to day life. Like really, I &lt;em>need&lt;/em> to tell everyone that I&amp;rsquo;m eating food right
 now? It seems crazy writing that down anyways.&lt;/p>
@@ -254,9 +253,11 @@ parsing it from there. I &lt;em>think&lt;/em> this is similar to what
 &lt;p>Was it worth it? Eh?&lt;/p>
 &lt;p>It was definitely useful to learn a little bit of &lt;code>socket&lt;/code>s programming and to
 work with OAuth 2.0. But I don&amp;rsquo;t think that I&amp;rsquo;ll be going down this route again
-unless absolutely necessary.&lt;/p></description></item><item><title>Hello World</title><link>https://nsynovic.dev/posts/hello-world/</link><pubDate>Sun, 26 Jun 2022 21:29:53 -0500</pubDate><guid>https://nsynovic.dev/posts/hello-world/</guid><description>&lt;h2 id="hello-world">Hello World&lt;/h2>
-&lt;p>This is my first post on my website.&lt;/p>
-&lt;p>I hope it looks good!&lt;/p></description></item><item><title>Contact</title><link>https://nsynovic.dev/contact/</link><pubDate>Sun, 26 Jun 2022 21:04:17 -0500</pubDate><guid>https://nsynovic.dev/contact/</guid><description>&lt;p>You can get in touch with me via the form below:&lt;/p>
+unless absolutely necessary.&lt;/p>
+&lt;blockquote>
+&lt;p>I&amp;rsquo;m doing the &lt;a href="https://twitter.com/search?q=%23100daystooffload&amp;amp;src=typed_query">#100DaysToOffload&lt;/a> challenge.
+Check &lt;a href="https://twitter.com/nick_synovic">my Twitter&lt;/a> for updates!&lt;/p>
+&lt;/blockquote></description></item><item><title>Contact</title><link>https://nsynovic.dev/contact/</link><pubDate>Sun, 26 Jun 2022 21:04:17 -0500</pubDate><guid>https://nsynovic.dev/contact/</guid><description>&lt;p>You can get in touch with me via the form below:&lt;/p>
 &lt;p>{{&amp;lt; form-contact action=&amp;ldquo;&lt;a href="https://formspree.io/f/mknwkjjq%22">https://formspree.io/f/mknwkjjq&amp;quot;&lt;/a> &amp;gt;}}&lt;/p></description></item><item><title>About</title><link>https://nsynovic.dev/about/</link><pubDate>Sun, 26 Jun 2022 21:04:12 -0500</pubDate><guid>https://nsynovic.dev/about/</guid><description>&lt;p>I&amp;rsquo;m going to write this page interview style.&lt;/p>
 &lt;h2 id="who">Who&lt;/h2>
 &lt;h3 id="who-is-this-international-man-of-mystery">Who is this international man of mystery?&lt;/h3>
