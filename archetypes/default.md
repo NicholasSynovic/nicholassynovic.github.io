@@ -13,7 +13,6 @@ featured_image: ""
 headless: false
 images: []
 include_toc: true
-shiow_comments: false
 isCJKLanguage: false
 keywords: []
 layout: ""
@@ -25,6 +24,7 @@ publishDate: ""
 private: false
 resource: ""
 series: ""
+show_comments: false
 slug: ""
 toc: true
 type: ""

@@ -1,7 +1,7 @@
 ---
-title: 'My Altweb Journey: Part 0'
+title: "My Altweb Journey: Part 0"
 description: What the heck is the altweb?
-summary: What the heck is the altweb
+summary: What the heck is the altweb?
 
 aliases: []
 audio: []
@@ -13,7 +13,6 @@ featured_image: ''
 headless: false
 images: []
 include_toc: true
-shiow_comments: false
 isCJKLanguage: false
 keywords: []
 layout: ''
@@ -25,6 +24,7 @@ publishDate: ''
 private: false
 resource: ''
 series: ''
+show_comments: false
 slug: ''
 toc: true
 type: ''
@@ -91,16 +91,19 @@ its infancy with potential to grow into something larger.
 ## Citations
 
 1. [What Is Amazon Web Services and Why Is It So Successful?](https://www.investopedia.com/articles/investing/011316/what-amazon-web-services-and-why-it-so-successful.asp)
-1. [Blown to Bits](https://www.bitsbook.com/)
-1. [Gopher (protocol)](<https://en.wikipedia.org/wiki/Gopher_(protocol)>)
-1. [Project Gemini](https://gemini.circumlunar.space/)
-1. [BitTorrent](https://en.wikipedia.org/wiki/BitTorrent)
-1. [Hypercore](https://hypercore-protocol.org/)
-1. [IPFS](https://ipfs.io/)
-1. [About Fediverse](https://fediverse.party/en/fediverse/)
-1. [diaspora/diaspora_federation](https://github.com/diaspora/diaspora_federation)
-1. [What is Zot?](https://zotlabs.org/help/en/developer/zot_protocol)
-1. [ActivityPub](https://activitypub.rocks/)
-1. [OStatus](https://github.com/OStatus)
-1. [Decentralized applications (dapps)](https://ethereum.org/en/dapps/#what-are-dapps)
-1. [gun](https://gun.eco/)
+2. [Blown to Bits](https://www.bitsbook.com/) 
+3. [Gopher (protocol)](<https://en.wikipedia.org/wiki/Gopher_(protocol)>)
+4. [Project Gemini](https://gemini.circumlunar.space/)
+5. [BitTorrent](https://en.wikipedia.org/wiki/BitTorrent)
+6. [Hypercore](https://hypercore-protocol.org/) 
+7. [IPFS](https://ipfs.io/) 
+8. [About Fediverse](https://fediverse.party/en/fediverse/)
+9. [diaspora/diaspora_federation](https://github.com/diaspora/diaspora_federation)
+10. [What is Zot?](https://zotlabs.org/help/en/developer/zot_protocol)
+11. [ActivityPub](https://activitypub.rocks/)
+12. [OStatus](https://github.com/OStatus)
+13. [Decentralized applications (dapps)](https://ethereum.org/en/dapps/#what-are-dapps)
+14. [gun](https://gun.eco/)
+
+> I'm doing the [#100DaysToOffload](https://twitter.com/search?q=%23100daystooffload&src=typed_query) challenge.
+> Check [my Twitter](https://twitter.com/nick_synovic) for updates!

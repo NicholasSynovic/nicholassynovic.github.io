@@ -1,16 +1,18 @@
 ---
+title: Posts
+description: A feed of all the stuff I post on the internet.
+summary: ''
+
 aliases: []
 audio: []
 cascade: {}
 date: 2022-06-26T21:29:53-05:00
-description: A feed of all the stuff I post on the internet.
 draft: false
 expiryDate: ''
 featured_image: images/hero4.jpg
 headless: false
 images: []
 include_toc: true
-shiow_comments: false
 isCJKLanguage: false
 keywords: []
 layout: ''
@@ -21,9 +23,8 @@ outputs: []
 publishDate: ''
 resource: ''
 series: ''
+show_comments: false
 slug: ''
-summary: ''
-title: Posts
 toc: true
 type: ''
 url: ''

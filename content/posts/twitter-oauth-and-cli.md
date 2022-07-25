@@ -1,16 +1,18 @@
 ---
+title: Twitter, OAuth 2.0, and the Command Line
+description: How I handled OAuth 2.0 authentication with a recent project
+summary: How I handled OAuth 2.0 authentication with a recent project
+
 aliases: []
 audio: []
 cascade: {}
 date: 2022-07-01T09:25:35-05:00
-description: How I handled OAuth 2.0 authentication with a recent project
 draft: false
 expiryDate: ''
 featured_image: ''
 headless: false
 images: []
 include_toc: true
-shiow_comments: false
 isCJKLanguage: false
 keywords: []
 layout: ''
@@ -21,9 +23,8 @@ outputs: []
 publishDate: ''
 resource: ''
 series: ''
+show_comments: false
 slug: ''
-summary: How I handled OAuth 2.0 authentication with a recent project
-title: Twitter, OAuth 2.0, and the Command Line
 toc: true
 type: ''
 url: ''
@@ -191,3 +192,6 @@ Was it worth it? Eh?
 It was definitely useful to learn a little bit of `socket`s programming and to
 work with OAuth 2.0. But I don't think that I'll be going down this route again
 unless absolutely necessary.
+
+> I'm doing the [#100DaysToOffload](https://twitter.com/search?q=%23100daystooffload&src=typed_query) challenge.
+> Check [my Twitter](https://twitter.com/nick_synovic) for updates!

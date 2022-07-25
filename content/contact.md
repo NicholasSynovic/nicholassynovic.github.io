@@ -1,16 +1,18 @@
 ---
+title: Contact
+description: Get in touch with me!
+summary: ''
+
 aliases: []
 audio: []
 cascade: {}
 date: 2022-06-26T21:04:17-05:00
-description: Stalk... Get in Touch With Me!
 draft: false
 expiryDate: ''
 featured_image: images/hero3.jpg
 headless: false
 images: []
 include_toc: true
-shiow_comments: false
 isCJKLanguage: false
 keywords: []
 layout: ''
@@ -22,9 +24,8 @@ outputs: []
 publishDate: ''
 resource: ''
 series: ''
+show_comments: false
 slug: ''
-summary: ''
-title: Contact
 type: ''
 url: ''
 videos: []
