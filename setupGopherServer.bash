@@ -17,7 +17,6 @@ make
 sudo make install
 
 sudo cp /etc/default/gophernicus /etc/default/gophernicus.backup
-echo 'OPTIONS="-h raspberrypi -nv -nx -nt -nq -no -nl -nu"' | sudo tee /etc/default/gophernicus
 
 sudo systemctl enable gophernicus.socket
 sudo systemctl start gophernicus.socket
