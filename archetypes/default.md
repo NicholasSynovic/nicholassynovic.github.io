@@ -32,3 +32,6 @@ url: ""
 videos: []
 weight: 0
 ---
+
+> I'm doing the [#100DaysToOffload](https://twitter.com/search?q=%23100daystooffload&src=typed_query) challenge.
+> Check [my Twitter](https://twitter.com/nick_synovic) for updates!
