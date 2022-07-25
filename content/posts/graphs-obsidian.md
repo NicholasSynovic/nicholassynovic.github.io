@@ -2,6 +2,7 @@
 title: Note Taking and Graph DBs
 description: My experience with using Obsidian to take notes
 summary: My experience with using Obsidian to take notes
+keywords: []
 
 aliases: []
 audio: []
@@ -15,7 +16,6 @@ images: []
 include_toc: true
 shiow_comments: false
 isCJKLanguage: false
-keywords: []
 layout: ''
 lastmod: ''
 linkTitle: ''
