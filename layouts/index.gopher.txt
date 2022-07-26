@@ -18,4 +18,4 @@ Sections
 
 {{ range .Site.Menus.main }}
 1{{ .Name }}    {{ .Identifier }}   {{ $.Site.Params.hostname }}	70
-{{ end }
+{{ end }}
