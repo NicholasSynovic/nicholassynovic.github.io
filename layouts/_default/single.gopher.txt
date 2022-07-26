@@ -1,8 +1,7 @@
-# {{ .Title }}
+!{{ .Title }}
 
-{{ .Date.Format (.Site.Params.dateform | default "January 2006") }} · {{ .ReadingTime }} minute read
-{{ if .Params.tags }}      
-Posted in:  {{ range .Params.tags }}{{ . }} {{ end }}
-{{ end }}
-      
-{{ .RawContent }}
+{{ .Date.Format (.Site.Params.dateform | default "Monday, January 2, 2006") }} · {{ .ReadingTime }} minute read
+
+{{ .Content }}
+
+.
