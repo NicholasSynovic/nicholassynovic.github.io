@@ -21,6 +21,16 @@
 
 ## Gopher and Gemini Support
 
+This site supports both the `gopher` and `gemini` protocols.
+
+To build directories specific to each protocol:
+
+1. Clone this repository
+2. Checkout the `gh-pages` branch
+3. Run `./buildGopherGemini.bash`
+
+Use the newly created `gopher` and `gemini` folders with their respective protocols.
+
 ## Develop/ Contribute/ Fork
 
 [https://nsynovic.dev](https://nsynovic.dev) is a static site that is built
