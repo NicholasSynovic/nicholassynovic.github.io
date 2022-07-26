@@ -8,7 +8,10 @@ Nicholas M. Synovic's Phlog
 Sections:
 ---------
 
-1Posts  posts/  {{ $.Site.Params.hostname }}    70
+1Posts	posts
+
+hHTTP Site	URL:https://nsynovic.dev
+hGitHub	URL:https://nsynovic.dev
 
 Articles
 --------
