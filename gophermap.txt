@@ -26,17 +26,21 @@
 > Take your time and lurk around.
 > Regardless, have a great day!
 
-Stickies
+Sections
 --------
 
-0about	about
-
-Sections:
----------
-
+1About	about
 1Posts	posts
 
 hHTTP Site	URL:https://nsynovic.dev
 hGitHub	URL:https://nsynovic.dev
+
+Attributions
+------------
+
+hTextTool	URL:https://www.texttool.com/ascii-font
+hHugo to Gopher Guide	URL:https://jfm.carcosa.net/blog/computing/hugo-gopher/
+hGophermap Syntax	URL:https://github.com/gophernicus/gophernicus/blob/master/README.gophermap
+htilde.team	URL:gopher://tilde.team
 
 .
