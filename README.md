@@ -19,6 +19,8 @@
 - Post blogs
 - Attempt to centralize social media posts
 
+## Gopher and Gemini Support
+
 ## Develop/ Contribute/ Fork
 
 [https://nsynovic.dev](https://nsynovic.dev) is a static site that is built
