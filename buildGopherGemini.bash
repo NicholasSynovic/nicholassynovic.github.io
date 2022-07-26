@@ -7,6 +7,7 @@ rm -r gemini
 
 mkdir gopher
 find -type f -name '*.txt' -print0 | while read -d $'\0' f; do mv "$f" "${f%.txt}"; done
+find -L . -name 'gophermap' -exec fold -w 67 -s {} \;
 # find -L . -name "gophermap.txt" -exec rename ".txt"  '' {} \;
 find -L . -name "gophermap" -exec cp --parents {} gopher \;
 
