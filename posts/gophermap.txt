@@ -6,11 +6,11 @@
 > These posts are mirrored from my HTTP site.
 
 
-0My Altweb Journey: Part 0	/posts/altweb-journey-part0/gophermap.txt	raspberrypi	70 
+0My Altweb Journey: Part 0	/posts/altweb-journey-part0/gophermap.txt
 
-0Note Taking and Graph DBs	/posts/graphs-obsidian/gophermap.txt	raspberrypi	70 
+0Note Taking and Graph DBs	/posts/graphs-obsidian/gophermap.txt
 
-0Twitter, OAuth 2.0, and the Command Line	/posts/twitter-oauth-and-cli/gophermap.txt	raspberrypi	70 
+0Twitter, OAuth 2.0, and the Command Line	/posts/twitter-oauth-and-cli/gophermap.txt
 
 
 .
