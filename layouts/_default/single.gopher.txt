@@ -2,23 +2,4 @@
 
 {{ .Date.Format (.Site.Params.dateform | default "Monday, January 2, 2006") }} · {{ .ReadingTime }} minute read
 
-{{ if .Description }}
-Description
------------
-
-{{ .Description }}
-{{ endif }}
-{{ if .Summary}}
-
-Summary
--------
-
-{{ .Summary}}
-{{ endif }}
-
-Content
--------
-
-{{ .RawContent }}
-
 .
