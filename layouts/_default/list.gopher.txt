@@ -1,12 +1,12 @@
-!{{ .Title }}
-
-These posts are mirrored from my HTTP site.
-
-Posts
------
+  ____           _       
+ |  _ \ ___  ___| |_ ___ 
+ | |_) / _ \/ __| __/ __|
+ |  __/ (_) \__ \ |_\__ \
+ |_|   \___/|___/\__|___/
+> These posts are mirrored from my HTTP site.
 
 {{ range .Pages.ByPublishDate.Reverse }}
 0{{ .Title }}	{{ with .OutputFormats.Get "gopher" -}}{{ .RelPermalink }}	{{ $.Site.Params.hostname}}	70 {{ end }}
 {{ end }}
 
-hHTTP Site	URL:https://nsynovic.dev
+.
