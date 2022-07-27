@@ -19,25 +19,27 @@
  |_|    |_| |_|_|\___/ \__, |                
                         __/ |                
                        |___/
-----------------------------------------------
-
 > Hi there!
 > Thanks for checking out my Phlog.
 > Take your time and lurk around.
 > Regardless, have a great day!
 
-Sections
---------
-
+  ____            _   _                 
+ / ___|  ___  ___| |_(_) ___  _ __  ___ 
+ \___ \ / _ \/ __| __| |/ _ \| '_ \/ __|
+  ___) |  __/ (__| |_| | (_) | | | \__ \
+ |____/ \___|\___|\__|_|\___/|_| |_|___/
 1About	about
 1Posts	posts
 
 hHTTP Site	URL:https://nsynovic.dev
 hGitHub	URL:https://nsynovic.dev
 
-Attributions
-------------
-
+   ____              _ _ _       
+  / ___|_ __ ___  __| (_) |_ ___ 
+ | |   | '__/ _ \/ _` | | __/ __|
+ | |___| | |  __/ (_| | | |_\__ \
+  \____|_|  \___|\__,_|_|\__|___/
 hTextTool	URL:https://www.texttool.com/ascii-font
 hHugo to Gopher Guide	URL:https://jfm.carcosa.net/blog/computing/hugo-gopher/
 hGophermap Syntax	URL:https://github.com/gophernicus/gophernicus/blob/master/README.gophermap
