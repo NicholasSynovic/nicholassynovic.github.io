@@ -2,4 +2,8 @@
 
 Sunday, June 26, 2022 · 1 minute read
 
+<p>You can get in touch with me via the form below:</p>
+<p>{{&lt; form-contact action=&ldquo;<a href="https://formspree.io/f/mknwkjjq%22">https://formspree.io/f/mknwkjjq&quot;</a> &gt;}}</p>
+
+
 .

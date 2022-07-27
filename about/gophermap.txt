@@ -2,4 +2,56 @@
 
 Sunday, June 26, 2022 · 2 minute read
 
+<p>I&rsquo;m going to write this page interview style.</p>
+<h2 id="who">Who</h2>
+<h3 id="who-is-this-international-man-of-mystery">Who is this international man of mystery?</h3>
+<p>Nicholas M. Synovic (the last time I&rsquo;ll refer to myself like that) is committed
+to creating a better world through education via developing software.</p>
+<p>In other words, I want to teach others or educate them on topcis by creating
+tools that don&rsquo;t exist.</p>
+<h2 id="what">What</h2>
+<h3 id="what-do-you-do">What do you do?</h3>
+<p>Currently, I&rsquo;m a Research Assistant at Loyola University Chicago exploring
+software supply chain security of machine learning model hubs and solutions for
+low powered computer vision.</p>
+<p>Additionally, I&rsquo;m an Intel OneAPI Student Ambassador educating others through
+blogs, YouTube videos, and hot takes on social media.</p>
+<h3 id="what-have-you-done">What have you done?</h3>
+<p>I&rsquo;ve worked on both research and corporate tools that simplify and provide
+insights into processes.</p>
+<h2 id="where">Where</h2>
+<h3 id="where-can-i-find-your-resume">Where can I find your resume?</h3>
+<p>Click the
+<a href="https://github.com/NicholasSynovic/nsynovic.dev/raw/main/static/resumes/Nicholas_Synovic-Resume.pdf">Resume</a>
+link at the top of the page.</p>
+<h2 id="when">When</h2>
+<h3 id="when-will-you-post-on-social-media-next">When will you post on social media next?</h3>
+<p>Great question.</p>
+<h2 id="why">Why</h2>
+<h3 id="why-are-you-creating-this-site">Why are you creating this site?</h3>
+<p>To be the central hub of all the content that I post on social media.</p>
+<p>Also because it&rsquo;s cool to website in 2022.</p>
+<h3 id="why-is-your-head-in-a-weird-spot-for-your-blog-hero-image">Why is your head in a weird spot for your blog hero image?</h3>
+<p>Here is the story.</p>
+<p>All of the hero&rsquo;s orginal sizes and aspect ratios where different. This caused
+the pages to jump around when navigating. So I cropped everything to the proper
+size and aspect ratio to solve the problem.</p>
+<p>This resolved the jumpiness, but it introduced that creepy image of my head just
+peeking up.</p>
+<p>To tell you the truth, this site looks better on mobile. And until I get around
+to fixing the theme&rsquo;s default styling for desktop regarding heros, I&rsquo;m just
+going to leave it as is.</p>
+<h2 id="how">How</h2>
+<h3 id="how-did-you-build-this-site">How did you build this site?</h3>
+<p>Using <a href="https://gohugo.io">Hugo</a> and the
+<a href="https://github.com/theNewDynamic/gohugo-theme-ananke">Ananke theme</a> because
+it&rsquo;s easy peasy.</p>
+<p>The domain was bought using <a href="https://domains.google.com">Google Domains</a>.</p>
+<p>The site is currently hosted on <a href="https://pages.github.com/">GitHub Pages</a>.</p>
+<p>The <a href="https://github.com/NicholasSynovic/nsynovic.dev">source code</a> is availible
+on <a href="https://github.com">GitHub</a> as well.</p>
+<h3 id="how-does-the-contactcontact-page-work">How does the <a href="../contact">Contact</a> page work?</h3>
+<p>It&rsquo;s powered via <a href="https://formspree.io">Formspree.io</a>.</p>
+
+
 .
