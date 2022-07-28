@@ -6,11 +6,11 @@
 > These posts are mirrored from my HTTP site.
 
 
-My Altweb Journey: Part 0	/posts/altweb-journey-part0/
+1My Altweb Journey: Part 0	posts/altweb-journey-part0/
 
-Note Taking and Graph DBs	/posts/graphs-obsidian/
+1Note Taking and Graph DBs	posts/graphs-obsidian/
 
-Twitter, OAuth 2.0, and the Command Line	/posts/twitter-oauth-and-cli/
+1Twitter, OAuth 2.0, and the Command Line	posts/twitter-oauth-and-cli/
 
 
 .
