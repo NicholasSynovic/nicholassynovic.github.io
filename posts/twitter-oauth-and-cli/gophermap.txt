@@ -3,7 +3,7 @@
 Friday, July 1, 2022 · 6 minute read
 
 
-## Preface
+ Preface
 
 I don't use social media that often. I think that it gets in the way of my day
 to day life. Like really, I _need_ to tell everyone that I'm eating food right
@@ -22,7 +22,7 @@ That's how this project got started: I want to tweet rapidly from the command
 line. "_No problem_," I naively thought, "_I'll just use Twitter's REST API. It
 can't be that hard._" But alas, it was a beast far greater than I ever expected.
 
-## Completing the First Leg
+ Completing the First Leg
 
 As an end user, I've experienced the benefits of OAuth 2.0. As a developer
 though, I've never had to handle client side access via OAuth 2.0. I've also
@@ -56,7 +56,7 @@ an access token (the end goal). This is where I gulped in fear as I opened the
 Python documentation for
 [`socket`](https://docs.python.org/3/library/socket.html).
 
-### Sidebar: Did I Mention That I'm Wrting This in Python?
+ Sidebar: Did I Mention That I'm Wrting This in Python?
 
 Yeah... maybe not the smartest decision. Twitter and other developers have
 solved this problem in other languages. But I have two good reasons for doing
@@ -69,7 +69,7 @@ so:
    a new feature of a language you know. I'd rather not spend cycles figuring
    out syntax when I could be working.
 
-## Socket
+ Socket
 
 [`socket`](https://docs.python.org/3/library/socket.html) is a Python module
 that provides an interface into the
@@ -100,7 +100,7 @@ import socket
 def getAuthToken(ip: str = "127.0.0.1", port: int = 4269) -> BytesIO:
     data: BytesIO = BytesIO()
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as server:
-        server.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)  # Reuse port
+        server.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)   Reuse port
         server.bind((ip, port))
         server.listen()
         conn, addr = server.accept()
@@ -121,7 +121,7 @@ With this function, I accomplished the above tasks.
 But there is a problem with this code. And it is a problem that system's
 engineers have had to deal with since forever: Blocking.
 
-## Blocking
+ Blocking
 
 Blocking is when an application is halted, but doesn't close, because it is
 waiting for a task to accomplis that never will. The blocking problem with
@@ -141,7 +141,7 @@ Then the question is, "What is the actual/correct solution to this problem?"
 It's to put a termination charachter or accepted stopping charachter to the end
 of the message so that the recipient knows when to stop listenting for more
 data. The problem is that there is not a general, accepted termination
-charachter that is implemented in **every** message or system. Twitter, from
+charachter that is implemented in every message or system. Twitter, from
 what I can tell, in their OAuth 2.0 implementation does not add a stopping
 charachter to their messages to the redirect URL. Because of this, I ended up
 having to create a large buffer of data to hold the recieved data even though
@@ -149,7 +149,7 @@ that wouldn't be necessary if I knew what the termination charachter was.
 
 Oh well.
 
-## Conclusion
+ Conclusion
 
 Is this the best solution? No. The best solution would be a webserver that
 listens for the HTTP GET request that Twitter sends to the redirect URL and
@@ -164,7 +164,7 @@ It was definitely useful to learn a little bit of `socket`s programming and to
 work with OAuth 2.0. But I don't think that I'll be going down this route again
 unless absolutely necessary.
 
-> I'm doing the [#100DaysToOffload](https://twitter.com/search?q=%23100daystooffload&src=typed_query) challenge.
+> I'm doing the [100DaysToOffload](https://twitter.com/search?q=percent23100daystooffload&src=typed_query) challenge.
 > Check [my Twitter](https://twitter.com/nick_synovic) for updates!
 
 

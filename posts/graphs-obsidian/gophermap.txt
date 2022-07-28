@@ -3,7 +3,7 @@
 Saturday, July 23, 2022 · 4 minute read
 
 
-# Note Taking and Graph DBs
+ Note Taking and Graph DBs
 
 I enjoy note taking.
 
@@ -19,10 +19,10 @@ Honestly, I could probably write about my note taking strategy and formats, as
 well as the rules that I've developed for myself, but that isn't the point of
 this article.
 
-I want to talk about how using a *graph database* can improve **your** note
+I want to talk about how using a graph database can improve your note
 taking (if you're taking notes on a computer).
 
-## Obsidian
+ Obsidian
 
 I started to use the [Obsidian](https://obsidian.md/) software to take my notes.
 
@@ -38,10 +38,10 @@ That last point is what I want to write about briefly.
 By leveraging a graph database, Obsidian allows users to link notes together
 based on tags rather than on hyper links. In other words, If I write a note such
 as, "The perceptron is the building block of machine learning," I can reference
-it elsewhere by tagging it like *#ml #perceptron #...*. Then, if I ever refernce
-something else using the *#perceptron* tag and want to see related notes I've
-made using that tag, I can search for *#perceptron* and get results both **in
-file** and across **folders and subdirectories**. It is even possible to get
+it elsewhere by tagging it like ml perceptron .... Then, if I ever refernce
+something else using the perceptron tag and want to see related notes I've
+made using that tag, I can search for perceptron and get results both in
+file and across folders and subdirectories. It is even possible to get
 results from other folders not in the same branch!
 
 It's a pretty cool searching feature that allows me to spend less time
@@ -52,7 +52,7 @@ need to store the keys to a map/dictionary which will return me an array of note
 file paths. Storing the keys to this map is so much easier to remember and
 utilize than remembering an array (at least for me).
 
-### The Graph Database
+ The Graph Database
 
 So I brought up tagging which is cool, but how does this have to do anything
 regarding graph databases?
@@ -66,7 +66,7 @@ looking at their shared tags. This is of finding out how one subject relates to
 another. In practice, it looks like this:
 
 ```
-I have a note that contains the tags *#ml #perceptron #adaline #linear-seperability*.
+I have a note that contains the tags ml perceptron adaline linear-seperability.
 Using Obsidian's graph database visualization, I can see that this particular file talks about those tags.
 
 Now I have 100 files with a thousand tags total.
@@ -76,7 +76,7 @@ I can also click on a note and see what tags it references.
 
 Both of these examples allow me to visualize the relatedness of notes and tags.
 
-## Is It Perfect?
+ Is It Perfect?
 
 No.
 
@@ -90,7 +90,7 @@ effieciently than I have before.
 
 So for that, it's alright in my book.
 
-> I'm doing the [#100DaysToOffload](https://twitter.com/search?q=%23100daystooffload&src=typed_query) challenge.
+> I'm doing the [100DaysToOffload](https://twitter.com/search?q=percent23100daystooffload&src=typed_query) challenge.
 > Check [my Twitter](https://twitter.com/nick_synovic) for updates!
 
 

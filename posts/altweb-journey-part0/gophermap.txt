@@ -3,9 +3,9 @@
 Sunday, July 24, 2022 · 3 minute read
 
 
-# My Altweb Journey: Part 0
+ My Altweb Journey: Part 0
 
-*What the heck is the altweb?*
+What the heck is the altweb?
 
 This question has lead me down a rabbit hole of network protocols, computer
 ethics, philosophies on the internet, and enlightenment. Ok, maybe not
@@ -15,7 +15,7 @@ that I haven't seen before.
 But before I go into this potentially long and rambling post, let me say one
 thing:
 
-**Don't panic.**
+Don't panic.
 
 Seriously, what I'm about to describe is not a new version of the internet, your
 boss most likely won't bother you with this question ever, and your job is still
@@ -24,12 +24,12 @@ it) is an attempt at a simpler internet at its core.
 
 Now what does that mean?
 
-## The Altweb: A Macro View
+ The Altweb: A Macro View
 
-The altweb is a collection of *decentralized* networks that are powered by niche
+The altweb is a collection of decentralized networks that are powered by niche
 network protocols, focussed around peer to peer sharing. Compare that to today,
 where Google Cloud, Microsoft Azure, and AWS dominate the web hosting scene.
-These companies power 61% of the modern Internet's web services \[1\]. This
+These companies power 61percent of the modern Internet's web services \[1\]. This
 majority stakehold in providing the hosting, compute, and techical services for
 powering the Internet has led to these companies centralizing data to their
 servers. Because of this centralization, there are serious privacy concerns
@@ -58,7 +58,7 @@ spheres. As an example, there isn't software out there that combines the power
 of the blockchain with `gopher`. But that's ok for now. All of this is still in
 its infancy with potential to grow into something larger.
 
-## Citations
+ Citations
 
 1. [What Is Amazon Web Services and Why Is It So Successful?](https://www.investopedia.com/articles/investing/011316/what-amazon-web-services-and-why-it-so-successful.asp)
 2. [Blown to Bits](https://www.bitsbook.com/) 
@@ -72,10 +72,10 @@ its infancy with potential to grow into something larger.
 10. [What is Zot?](https://zotlabs.org/help/en/developer/zot_protocol)
 11. [ActivityPub](https://activitypub.rocks/)
 12. [OStatus](https://github.com/OStatus)
-13. [Decentralized applications (dapps)](https://ethereum.org/en/dapps/#what-are-dapps)
+13. [Decentralized applications (dapps)](https://ethereum.org/en/dapps/what-are-dapps)
 14. [gun](https://gun.eco/)
 
-> I'm doing the [#100DaysToOffload](https://twitter.com/search?q=%23100daystooffload&src=typed_query) challenge.
+> I'm doing the [100DaysToOffload](https://twitter.com/search?q=percent23100daystooffload&src=typed_query) challenge.
 > Check [my Twitter](https://twitter.com/nick_synovic) for updates!
 
 
