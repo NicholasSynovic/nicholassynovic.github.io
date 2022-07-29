@@ -1,14 +1,9 @@
 # {{ .Title }}
 
-{{ .RawContent }}
+{{ .Date.Format (.Site.Params.dateform | default "Monday, January 2, 2006") }} · {{ .ReadingTime }} minute read
 
-{{- $content := .RawContent -}}
-{{- $content = $content | replaceRE `\!\[(.+?)\]\((.+?)\)` "=> $2 Image: $1" }}
-{{ $content }}
-
-{{- range findRE `\[.+?\]\(.+?\)` $content }}
-    {{- $content = $content | replaceRE `\[(.+?)\]\((.+?)\)(.+)` "$1$3\n\n=> $2 $1 " }}
-{{- end }}
-
-{{ if .Next }}=> {{ .Next.RelPermalink }} ← Newer: {{ .Next.Title }}{{ end }}
-{{ if .Prev -}}=> {{ .Prev.RelPermalink }} → Older: {{ .Prev.Title }}{{- end }}
+{{ .Plain }}
+{{ range $index, $citation := $.Param "citations" }}
+=> {{ $citation }}	{{ $index }}. {{ $citation }}
+{{ end}}
+.
