@@ -1,34 +1,34 @@
 ---
-title: ""
-description: ""
-summary: ""
+title: ''
+description: ''
+summary: ''
 
 aliases: []
 audio: []
 cascade: {}
-date: {{ .Date }}
+date: {{.Date: null}: null}
 draft: false
-expiryDate: ""
-featured_image: ""
+expiryDate: ''
+featured_image: ''
 headless: false
 images: []
 include_toc: true
 isCJKLanguage: false
 keywords: []
-layout: ""
-lastmod: ""
-linkTitle: ""
-markup: "md"
+layout: ''
+lastmod: ''
+linkTitle: ''
+markup: md
 outputs: []
-publishDate: ""
+publishDate: ''
 private: false
-resource: ""
-series: ""
+resource: ''
+series: ''
 show_comments: false
-slug: ""
+slug: ''
 toc: true
-type: ""
-url: ""
+type: ''
+url: ''
 videos: []
 weight: 0
 ---

@@ -26,8 +26,8 @@ This site supports both the `gopher` and `gemini` protocols.
 To build directories specific to each protocol:
 
 1. Clone this repository
-2. Checkout the `gh-pages` branch
-3. Run `./buildGopherGemini.bash`
+1. Checkout the `gh-pages` branch
+1. Run `./buildGopherGemini.bash`
 
 **NOTE:** the `buildGopherGemini.bash` relies on `rename` from version 2.38 of the [`util-linux`](https://github.com/util-linux/util-linux) package.
 

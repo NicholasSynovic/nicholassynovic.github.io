@@ -10,7 +10,7 @@ sudo apt install build-essential libwrap0-dev -y
 
 wget -O gophernicus.tar.xz https://github.com/gophernicus/gophernicus/releases/download/3.1.1/gophernicus-3.1.1.tar.gz
 
-tar -xf gophernicus.tar.xz 
+tar -xf gophernicus.tar.xz
 cd gophernicus-*
 
 ./configure --listener=systemd

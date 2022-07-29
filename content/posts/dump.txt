@@ -34,7 +34,7 @@ And with the proper tools, they got to work hosting `gopher` sites once again.
 
 Huzzah!
 
-But, why haven't we heard about this yet? 
+But, why haven't we heard about this yet?
 And if the small Internet was so great, why haven't we all switched back to it?
 
 In order, we haven't heard about it because it's *small*.

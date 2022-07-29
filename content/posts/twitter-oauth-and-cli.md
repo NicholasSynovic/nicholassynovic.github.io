@@ -126,6 +126,8 @@ GitHub as well
 ```python
 from io import BytesIO
 import socket
+
+
 def getAuthToken(ip: str = "127.0.0.1", port: int = 4269) -> BytesIO:
     data: BytesIO = BytesIO()
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as server:
