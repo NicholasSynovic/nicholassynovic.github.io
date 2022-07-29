@@ -15,6 +15,7 @@ markup: md
 outputs: []
 show_comments: false
 toc: true
+show_reading_time: true
 ---
 
 # Title
@@ -25,3 +26,6 @@ toc: true
 
 <!-- mdformat-toc start -->
 
+---
+
+## Citations

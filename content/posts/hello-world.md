@@ -22,6 +22,7 @@ markup: md
 outputs: []
 show_comments: false
 toc: true
+show_reading_time: true
 ---
 
 # Hello World<a name="hello-world"></a>
@@ -36,6 +37,7 @@ ______________________________________________________________________
   - [Hi there!](#hi-there)
   - [What's up with this site?](#whats-up-with-this-site)
   - [What content is coming?](#what-content-is-coming)
+  - [Citations](#citations)
 
 <!-- mdformat-toc end -->
 
@@ -94,3 +96,7 @@ I don't have a set plan at the moment, however, I intend to provide less
 academicly leaning posts on this site. Think more opinion pieces, tutorials, or
 other ramblings. Primarily text based content will be posted on this site as
 there are other platforms that are better at hosting multimedia content.
+
+______________________________________________________________________
+
+## Citations<a name="citations"></a>
