@@ -24,8 +24,6 @@ show_reading_time: true
 
 ---
 
-<!-- mdformat-toc start -->
-
 ---
 
 ## Citations

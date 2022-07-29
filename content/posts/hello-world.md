@@ -31,16 +31,6 @@ show_reading_time: true
 
 ______________________________________________________________________
 
-<!-- mdformat-toc start --slug=github --maxlevel=6 --minlevel=1 -->
-
-- [Hello World](#hello-world)
-  - [Hi there!](#hi-there)
-  - [What's up with this site?](#whats-up-with-this-site)
-  - [What content is coming?](#what-content-is-coming)
-  - [Citations](#citations)
-
-<!-- mdformat-toc end -->
-
 ## Hi there!<a name="hi-there"></a>
 
 My name is Nicholas M. Synovic.
