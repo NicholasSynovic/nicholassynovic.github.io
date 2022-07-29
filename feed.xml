@@ -6,49 +6,49 @@
 &lt;h2 id="hi-therea-namehi-therea">Hi there!&lt;!-- raw HTML omitted -->&lt;!-- raw HTML omitted -->&lt;/h2>
 &lt;p>My name is Nicholas M. Synovic.&lt;/p>
 &lt;p>At the time of writing, I&amp;rsquo;m a Research Assistant at Loyola University Chicago
-[1] with the Software and Systems Laboratory [2]. I graduated Loyola in May
+[0] with the Software and Systems Laboratory [1]. I graduated Loyola in May
 of 2022 with a B.S in Computer Science. Currently, I&amp;rsquo;m pursuing a M.S in
 Computer Science with a concentration in Artificial Intelligence. My
 concentration is more specifically targetting low power computer vision systems.&lt;/p>
 &lt;p>As an undergrad, I pursued and lead Software Engineering Metrics research and
-was successfully able to publish a paper into the IEEE ASE 2022 [3]
-confrence&amp;rsquo;s tools track as the lead author [4]. In addition, I was fortunate
+was successfully able to publish a paper into the IEEE ASE 2022 [2]
+confrence&amp;rsquo;s tools track as the lead author [3]. In addition, I was fortunate
 enough to be an author on a Software Engineering paper focussing on deep
-learning model reuse with researchers from Purude University [5]. I currently
+learning model reuse with researchers from Purude University [4]. I currently
 work on both Software Engineering and Computer Vision research.&lt;/p>
 &lt;p>In addition to my academic work, I have experience leading IT teams and
 developing full stack software. I was one of the first in my high school to join
 the student IT program which performed real world maintaince on my district&amp;rsquo;s
-network, personal, and tech infrastructure [6]. As a 2nd year student at
+network, personal, and tech infrastructure [5]. As a 2nd year student at
 Loyola, I won second place at the Fall Student Showcase for my work in
 identifying and providing solution for Congress.gov&amp;rsquo;s search functionality as
-well as creating a dataset of all the content on Congress.gov [7]. And as a
-4th year senior, I developed an application for Medline Industries [8] to
+well as creating a dataset of all the content on Congress.gov [6]. And as a
+4th year senior, I developed an application for Medline Industries [7] to
 facilitate their corporate wide Talent Planning Process. This application was
 used to assess ~30,000 employees in 2022 to find the next generation of leaders.&lt;/p>
 &lt;p>On the social side of things, I am currently a board member of the Loyola AI
-Club [9] as well as a student ambassador for Intel&amp;rsquo;s OneAPI platform [10].&lt;/p>
-&lt;p>For further information on how to contact me, see my Contact page [11].&lt;/p>
+Club [8] as well as a student ambassador for Intel&amp;rsquo;s OneAPI platform [9].&lt;/p>
+&lt;p>For further information on how to contact me, see my Contact page [10].&lt;/p>
 &lt;h2 id="whats-up-with-this-sitea-namewhats-up-with-this-sitea">What&amp;rsquo;s up with this site?&lt;!-- raw HTML omitted -->&lt;!-- raw HTML omitted -->&lt;/h2>
-&lt;p>This site is generated from Markdown using Hugo [12] and the Ananke theme
-[13].&lt;/p>
+&lt;p>This site is generated from Markdown using Hugo [11] and the Ananke theme
+[12].&lt;/p>
 &lt;p>This decision was made due to Hugo&amp;rsquo;s extensive templating feature, which allows
-me to accessible to those using HTTP [14], Gopher [15], and Gemini [16]
+me to accessible to those using HTTP [13], Gopher [14], and Gemini [15]
 protocols. I intend to use this site to experiment with other alternative
 network protocols as they are developed.&lt;/p>
 &lt;p>This site is also mirrored across several different services. Currently, it is
-hosted on both GitHub Pages [17] as &lt;code>https://nsynovic.dev&lt;/code> [18]. Blog posts
+hosted on both GitHub Pages [16] as &lt;code>https://nsynovic.dev&lt;/code> [17]. Blog posts
 are mirrored on my the Gopher and Gemini versions of this site, as well as my
-Dev.to [19] page. In addition, I intend to use my account at &lt;code>tilde.team&lt;/code>
-[20] to add an additional backup of the HTTP site there as well.&lt;/p>
+Dev.to [18] page. In addition, I intend to use my account at &lt;code>tilde.team&lt;/code>
+[19] to add an additional backup of the HTTP site there as well.&lt;/p>
 &lt;h2 id="what-content-is-cominga-namewhat-content-is-cominga">What content is coming?&lt;!-- raw HTML omitted -->&lt;!-- raw HTML omitted -->&lt;/h2>
 &lt;p>I don&amp;rsquo;t have a set plan at the moment, however, I intend to provide less
 academicly leaning posts on this site. Think more opinion pieces, tutorials, or
 other ramblings. Primarily text based content will be posted on this site as
 there are other platforms that are better at hosting multimedia content.&lt;/p>
 &lt;hr>
-&lt;h2 id="citationsa-namecitationsa">Citations&lt;!-- raw HTML omitted -->&lt;!-- raw HTML omitted -->&lt;/h2></content><category>[hello introduction first-post personal]</category></item><item><title>Contact</title><link>https://nsynovic.dev/contact/</link><pubDate>Sun, 26 Jun 2022 21:04:17 -0500</pubDate><guid>https://nsynovic.dev/contact/</guid><content>&lt;p>You can get in touch with me via the form below:&lt;/p>
-&lt;p>{{&amp;lt; form-contact action=&amp;ldquo;&lt;a href="https://formspree.io/f/mknwkjjq%22">https://formspree.io/f/mknwkjjq&amp;quot;&lt;/a> &amp;gt;}}&lt;/p></content><category/></item><item><title>About</title><link>https://nsynovic.dev/about/</link><pubDate>Sun, 26 Jun 2022 21:04:12 -0500</pubDate><guid>https://nsynovic.dev/about/</guid><content>&lt;p>I&amp;rsquo;m going to write this page interview style.&lt;/p>
+&lt;h2 id="citationsa-namecitationsa">Citations&lt;!-- raw HTML omitted -->&lt;!-- raw HTML omitted -->&lt;/h2></content><category>hello</category><category>introduction</category><category>first-post</category><category>personal</category></item><item><title>Contact</title><link>https://nsynovic.dev/contact/</link><pubDate>Sun, 26 Jun 2022 21:04:17 -0500</pubDate><guid>https://nsynovic.dev/contact/</guid><content>&lt;p>You can get in touch with me via the form below:&lt;/p>
+&lt;p>{{&amp;lt; form-contact action=&amp;ldquo;&lt;a href="https://formspree.io/f/mknwkjjq%22">https://formspree.io/f/mknwkjjq&amp;quot;&lt;/a> &amp;gt;}}&lt;/p></content></item><item><title>About</title><link>https://nsynovic.dev/about/</link><pubDate>Sun, 26 Jun 2022 21:04:12 -0500</pubDate><guid>https://nsynovic.dev/about/</guid><content>&lt;p>I&amp;rsquo;m going to write this page interview style.&lt;/p>
 &lt;h2 id="who">Who&lt;/h2>
 &lt;h3 id="who-is-this-international-man-of-mystery">Who is this international man of mystery?&lt;/h3>
 &lt;p>Nicholas M. Synovic (the last time I&amp;rsquo;ll refer to myself like that) is committed
@@ -97,4 +97,4 @@ it&amp;rsquo;s easy peasy.&lt;/p>
 &lt;p>The &lt;a href="https://github.com/NicholasSynovic/nsynovic.dev">source code&lt;/a> is availible
 on &lt;a href="https://github.com">GitHub&lt;/a> as well.&lt;/p>
 &lt;h3 id="how-does-the-contactcontact-page-work">How does the &lt;a href="../contact">Contact&lt;/a> page work?&lt;/h3>
-&lt;p>It&amp;rsquo;s powered via &lt;a href="https://formspree.io">Formspree.io&lt;/a>.&lt;/p></content><category/></item></channel></rss>
+&lt;p>It&amp;rsquo;s powered via &lt;a href="https://formspree.io">Formspree.io&lt;/a>.&lt;/p></content></item></channel></rss>
