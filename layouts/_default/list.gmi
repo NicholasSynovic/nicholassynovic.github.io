@@ -1,7 +1,12 @@
-!{{ .Title }}
-
-{{ .RawContent }}
+  ____           _
+ |  _ \ ___  ___| |_ ___
+ | |_) / _ \/ __| __/ __|
+ |  __/ (_) \__ \ |_\__ \
+ |_|   \___/|___/\__|___/
+These posts are mirrored from my HTTP site.
 
 {{ range .Pages.ByPublishDate.Reverse }}
-0{{ .Title }}	{{ with .OutputFormats.Get "gopher" -}}{{ .RelPermalink }}	{{ $.Site.Params.hostname}}	70 {{ end }}
+1{{ .Title }}   {{ with .OutputFormats.Get "GEMINI" -}}{{ replace ( replace .RelPermalink "/index.gmi" "" ) "/posts/" "" }}{{ end }}
 {{ end }}
+
+.
