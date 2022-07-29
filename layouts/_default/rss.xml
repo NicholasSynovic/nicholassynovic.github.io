@@ -33,7 +33,9 @@
       {{ with .Site.Author.email }}<author>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</author>{{end}}
       <guid>{{ .Permalink }}</guid>
       <content>{{ .Content | html }}</content>
-      <category>{{ .Param "categories" }}</category>
+      {{ range $category := .Param "categories" }}
+      <category>{{ $category }}</category>
+      {{ end }}
     </item>
     {{ end }}
   </channel>
