@@ -1,139 +1,58 @@
 # Hello World
 
+Thursday, July 28, 2022 · 3 minute read
 
-# Hello World<a name="hello-world"></a>
+Hello World An introduction to me, this site, and the content I want to make.
+Hi there! My name is Nicholas M. Synovic.
+At the time of writing, I&rsquo;m a Research Assistant at Loyola University Chicago [0] with the Software and Systems Laboratory [1]. I graduated Loyola in May of 2022 with a B.S in Computer Science. Currently, I&rsquo;m pursuing a M.S in Computer Science with a concentration in Artificial Intelligence. My concentration is more specifically targetting low power computer vision systems.
+As an undergrad, I pursued and lead Software Engineering Metrics research and was successfully able to publish a paper into the IEEE ASE 2022 [2] confrence&rsquo;s tools track as the lead author [3]. In addition, I was fortunate enough to be an author on a Software Engineering paper focussing on deep learning model reuse with researchers from Purude University [4]. I currently work on both Software Engineering and Computer Vision research.
+In addition to my academic work, I have experience leading IT teams and developing full stack software. I was one of the first in my high school to join the student IT program which performed real world maintaince on my district&rsquo;s network, personal, and tech infrastructure [5]. As a 2nd year student at Loyola, I won second place at the Fall Student Showcase for my work in identifying and providing solution for Congress.gov&rsquo;s search functionality as well as creating a dataset of all the content on Congress.gov [6]. And as a 4th year senior, I developed an application for Medline Industries [7] to facilitate their corporate wide Talent Planning Process. This application was used to assess ~30,000 employees in 2022 to find the next generation of leaders.
+On the social side of things, I am currently a board member of the Loyola AI Club [8] as well as a student ambassador for Intel&rsquo;s OneAPI platform [9].
+For further information on how to contact me, see my Contact page [10].
+What&rsquo;s up with this site? This site is generated from Markdown using Hugo [11] and the Ananke theme [12].
+This decision was made due to Hugo&rsquo;s extensive templating feature, which allows me to accessible to those using HTTP [13], Gopher [14], and Gemini [15] protocols. I intend to use this site to experiment with other alternative network protocols as they are developed.
+This site is also mirrored across several different services. Currently, it is hosted on both GitHub Pages [16] as https://nsynovic.dev [17]. Blog posts are mirrored on my the Gopher and Gemini versions of this site, as well as my Dev.to [18] page. In addition, I intend to use my account at tilde.team [19] to add an additional backup of the HTTP site there as well.
+What content is coming? I don&rsquo;t have a set plan at the moment, however, I intend to provide less academicly leaning posts on this site. Think more opinion pieces, tutorials, or other ramblings. Primarily text based content will be posted on this site as there are other platforms that are better at hosting multimedia content.
+Citations 
 
-> An introduction to me, this site, and the content I want to make.
+=> https://luc.edu	0. https://luc.edu
 
-______________________________________________________________________
+=> https://ssl.cs.luc.edu	1. https://ssl.cs.luc.edu
 
-## Hi there!<a name="hi-there"></a>
+=> https://conf.researchr.org/home/ase-2022	2. https://conf.researchr.org/home/ase-2022
 
-My name is Nicholas M. Synovic.
+=> https://arxiv.org/abs/2207.11767	3. https://arxiv.org/abs/2207.11767
 
-At the time of writing, I'm a Research Assistant at Loyola University Chicago
-\[0\] with the Software and Systems Laboratory \[1\]. I graduated Loyola in May
-of 2022 with a B.S in Computer Science. Currently, I'm pursuing a M.S in
-Computer Science with a concentration in Artificial Intelligence. My
-concentration is more specifically targetting low power computer vision systems.
+=> https://www.purdue.edu/	4. https://www.purdue.edu/
 
-As an undergrad, I pursued and lead Software Engineering Metrics research and
-was successfully able to publish a paper into the IEEE ASE 2022 \[2\]
-confrence's tools track as the lead author \[3\]. In addition, I was fortunate
-enough to be an author on a Software Engineering paper focussing on deep
-learning model reuse with researchers from Purude University \[4\]. I currently
-work on both Software Engineering and Computer Vision research.
+=> https://lakescommunityhs.rschoolteams.com/page/3455	5. https://lakescommunityhs.rschoolteams.com/page/3455
 
-In addition to my academic work, I have experience leading IT teams and
-developing full stack software. I was one of the first in my high school to join
-the student IT program which performed real world maintaince on my district's
-network, personal, and tech infrastructure \[5\]. As a 2nd year student at
-Loyola, I won second place at the Fall Student Showcase for my work in
-identifying and providing solution for Congress.gov's search functionality as
-well as creating a dataset of all the content on Congress.gov \[6\]. And as a
-4th year senior, I developed an application for Medline Industries \[7\] to
-facilitate their corporate wide Talent Planning Process. This application was
-used to assess ~30,000 employees in 2022 to find the next generation of leaders.
+=> https://www.instagram.com/p/B7oj2NNJMrc/	6. https://www.instagram.com/p/B7oj2NNJMrc/
 
-On the social side of things, I am currently a board member of the Loyola AI
-Club \[8\] as well as a student ambassador for Intel's OneAPI platform \[9\].
+=> https://www.medline.com/	7. https://www.medline.com/
 
-For further information on how to contact me, see my Contact page \[10\].
+=> https://loyolaaiclub.github.io	8. https://loyolaaiclub.github.io
 
-## What's up with this site?<a name="whats-up-with-this-site"></a>
+=> https://www.intel.com/content/www/us/en/developer/tools/oneapi/training/academic-program/student-ambassador.html	9. https://www.intel.com/content/www/us/en/developer/tools/oneapi/training/academic-program/student-ambassador.html
 
-This site is generated from Markdown using Hugo \[11\] and the Ananke theme
-\[12\].
+=> https://nsynovic.dev/contact/	10. https://nsynovic.dev/contact/
 
-This decision was made due to Hugo's extensive templating feature, which allows
-me to accessible to those using HTTP \[13\], Gopher \[14\], and Gemini \[15\]
-protocols. I intend to use this site to experiment with other alternative
-network protocols as they are developed.
+=> https://gohugo.io	11. https://gohugo.io
 
-This site is also mirrored across several different services. Currently, it is
-hosted on both GitHub Pages \[16\] as `https://nsynovic.dev` \[17\]. Blog posts
-are mirrored on my the Gopher and Gemini versions of this site, as well as my
-Dev.to \[18\] page. In addition, I intend to use my account at `tilde.team`
-\[19\] to add an additional backup of the HTTP site there as well.
+=> https://github.com/theNewDynamic/gohugo-theme-ananke	12. https://github.com/theNewDynamic/gohugo-theme-ananke
 
-## What content is coming?<a name="what-content-is-coming"></a>
+=> https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol	13. https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol
 
-I don't have a set plan at the moment, however, I intend to provide less
-academicly leaning posts on this site. Think more opinion pieces, tutorials, or
-other ramblings. Primarily text based content will be posted on this site as
-there are other platforms that are better at hosting multimedia content.
+=> https://en.wikipedia.org/wiki/Gopher_(protocol)	14. https://en.wikipedia.org/wiki/Gopher_(protocol)
 
-______________________________________________________________________
+=> https://gemini.circumlunar.space/	15. https://gemini.circumlunar.space/
 
-## Citations<a name="citations"></a>
+=> https://pages.github.com/	16. https://pages.github.com/
 
+=> https://nsynovic.dev/	17. https://nsynovic.dev/
 
-# Hello World<a name="hello-world"></a>
+=> https://dev.to/nicholassynovic	18. https://dev.to/nicholassynovic
 
-> An introduction to me, this site, and the content I want to make.
+=> https://tilde.team/	19. https://tilde.team/
 
-______________________________________________________________________
-
-## Hi there!<a name="hi-there"></a>
-
-My name is Nicholas M. Synovic.
-
-At the time of writing, I'm a Research Assistant at Loyola University Chicago
-\[0\] with the Software and Systems Laboratory \[1\]. I graduated Loyola in May
-of 2022 with a B.S in Computer Science. Currently, I'm pursuing a M.S in
-Computer Science with a concentration in Artificial Intelligence. My
-concentration is more specifically targetting low power computer vision systems.
-
-As an undergrad, I pursued and lead Software Engineering Metrics research and
-was successfully able to publish a paper into the IEEE ASE 2022 \[2\]
-confrence's tools track as the lead author \[3\]. In addition, I was fortunate
-enough to be an author on a Software Engineering paper focussing on deep
-learning model reuse with researchers from Purude University \[4\]. I currently
-work on both Software Engineering and Computer Vision research.
-
-In addition to my academic work, I have experience leading IT teams and
-developing full stack software. I was one of the first in my high school to join
-the student IT program which performed real world maintaince on my district's
-network, personal, and tech infrastructure \[5\]. As a 2nd year student at
-Loyola, I won second place at the Fall Student Showcase for my work in
-identifying and providing solution for Congress.gov's search functionality as
-well as creating a dataset of all the content on Congress.gov \[6\]. And as a
-4th year senior, I developed an application for Medline Industries \[7\] to
-facilitate their corporate wide Talent Planning Process. This application was
-used to assess ~30,000 employees in 2022 to find the next generation of leaders.
-
-On the social side of things, I am currently a board member of the Loyola AI
-Club \[8\] as well as a student ambassador for Intel's OneAPI platform \[9\].
-
-For further information on how to contact me, see my Contact page \[10\].
-
-## What's up with this site?<a name="whats-up-with-this-site"></a>
-
-This site is generated from Markdown using Hugo \[11\] and the Ananke theme
-\[12\].
-
-This decision was made due to Hugo's extensive templating feature, which allows
-me to accessible to those using HTTP \[13\], Gopher \[14\], and Gemini \[15\]
-protocols. I intend to use this site to experiment with other alternative
-network protocols as they are developed.
-
-This site is also mirrored across several different services. Currently, it is
-hosted on both GitHub Pages \[16\] as `https://nsynovic.dev` \[17\]. Blog posts
-are mirrored on my the Gopher and Gemini versions of this site, as well as my
-Dev.to \[18\] page. In addition, I intend to use my account at `tilde.team`
-\[19\] to add an additional backup of the HTTP site there as well.
-
-## What content is coming?<a name="what-content-is-coming"></a>
-
-I don't have a set plan at the moment, however, I intend to provide less
-academicly leaning posts on this site. Think more opinion pieces, tutorials, or
-other ramblings. Primarily text based content will be posted on this site as
-there are other platforms that are better at hosting multimedia content.
-
-______________________________________________________________________
-
-## Citations<a name="citations"></a>
-
-
-
-=> /contact/index.gmi → Older: Contact
+.

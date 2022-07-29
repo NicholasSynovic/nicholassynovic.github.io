@@ -1,15 +1,9 @@
 # Contact
 
+Sunday, June 26, 2022 · 1 minute read
 
 You can get in touch with me via the form below:
-
-{{\< form-contact action="https://formspree.io/f/mknwkjjq" >}}
-
-
-You can get in touch with me via the form below:
-
-{{\< form-contact action="https://formspree.io/f/mknwkjjq" >}}
+{{&lt; form-contact action=&ldquo;https://formspree.io/f/mknwkjjq&quot; &gt;}}
 
 
-=> /posts/hello-world/index.gmi ← Newer: Hello World
-=> /about/index.gmi → Older: About
+.
