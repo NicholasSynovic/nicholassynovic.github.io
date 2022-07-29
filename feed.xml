@@ -1,264 +1,54 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Nicholas M. Synovic</title><link>https://nsynovic.dev/</link><description>Recent content on Nicholas M. Synovic</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Nicholas M. Synovic</copyright><lastBuildDate>Sun, 26 Jun 2022 21:04:02 -0500</lastBuildDate><atom:link href="https://nsynovic.dev/feed.xml" rel="self" type="application/rss+xml"/><item><title>My Altweb Journey: Part 0</title><link>https://nsynovic.dev/posts/altweb-journey-part0/</link><pubDate>Sun, 24 Jul 2022 12:48:20 -0500</pubDate><guid>https://nsynovic.dev/posts/altweb-journey-part0/</guid><description>&lt;h1 id="my-altweb-journey-part-0">My Altweb Journey: Part 0&lt;/h1>
-&lt;p>&lt;em>What the heck is the altweb?&lt;/em>&lt;/p>
-&lt;p>This question has lead me down a rabbit hole of network protocols, computer
-ethics, philosophies on the internet, and enlightenment. Ok, maybe not
-enlightenment, but it definitely has exposed me to a whole side of computing
-that I haven&amp;rsquo;t seen before.&lt;/p>
-&lt;p>But before I go into this potentially long and rambling post, let me say one
-thing:&lt;/p>
-&lt;p>&lt;strong>Don&amp;rsquo;t panic.&lt;/strong>&lt;/p>
-&lt;p>Seriously, what I&amp;rsquo;m about to describe is not a new version of the internet, your
-boss most likely won&amp;rsquo;t bother you with this question ever, and your job is still
-safe if you haven&amp;rsquo;t heard of this before. The altweb (as people are now calling
-it) is an attempt at a simpler internet at its core.&lt;/p>
-&lt;p>Now what does that mean?&lt;/p>
-&lt;h2 id="the-altweb-a-macro-view">The Altweb: A Macro View&lt;/h2>
-&lt;p>The altweb is a collection of &lt;em>decentralized&lt;/em> networks that are powered by niche
-network protocols, focussed around peer to peer sharing. Compare that to today,
-where Google Cloud, Microsoft Azure, and AWS dominate the web hosting scene.
-These companies power 61% of the modern Internet&amp;rsquo;s web services [1]. This
-majority stakehold in providing the hosting, compute, and techical services for
-powering the Internet has led to these companies centralizing data to their
-servers. Because of this centralization, there are serious privacy concerns
-[2].&lt;/p>
-&lt;p>To address these security concerns, there has been a growign movement to bring
-back the decentralized web where individuals host data instead of these
-companies. Protocols such as &lt;code>Gopher&lt;/code> [3], &lt;code>Gemini&lt;/code> [4], &lt;code>BitTorent&lt;/code> [5],
-&lt;code>Hypercore&lt;/code> [6], and &lt;code>IPFS&lt;/code> [7] all try to address this challenge. Now,
-there is no reason why Google, Microsoft, or Amazon couldn&amp;rsquo;t come out tomorrow
-offering to host &lt;code>gopher&lt;/code> sites for example. After all, these are just web
-protocols that anyone with the right software can utilize.&lt;/p>
-&lt;p>But to make alternatives to these big players and put web hosting back into the
-people, Fediverse software [8] is being developed to introduce people to
-decentralized social media. In this case, the fediverse is predominately a
-collection of social media sites that rely on protocols such as &lt;code>diaspora&lt;/code>
-[9], &lt;code>Zot&lt;/code> [10], &lt;code>ActivityPub&lt;/code> [11], and &lt;code>OStatus&lt;/code> [12] to power their
-backends. For more traditional apps, decentralized apps (dapps) [13] powered
-by blockchain exist. And for those looking for a decentralized database, &lt;code>gun&lt;/code>
-[14] and similar databases now exist as well.&lt;/p>
-&lt;p>The point in all of this is that each one of these protocols, database schemes,
-social media sites, and blockchain technologies exist in their own unique
-spheres. As an example, there isn&amp;rsquo;t software out there that combines the power
-of the blockchain with &lt;code>gopher&lt;/code>. But that&amp;rsquo;s ok for now. All of this is still in
-its infancy with potential to grow into something larger.&lt;/p>
-&lt;h2 id="citations">Citations&lt;/h2>
-&lt;ol>
-&lt;li>&lt;a href="https://www.investopedia.com/articles/investing/011316/what-amazon-web-services-and-why-it-so-successful.asp">What Is Amazon Web Services and Why Is It So Successful?&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.bitsbook.com/">Blown to Bits&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://en.wikipedia.org/wiki/Gopher_(protocol)">Gopher (protocol)&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://gemini.circumlunar.space/">Project Gemini&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://en.wikipedia.org/wiki/BitTorrent">BitTorrent&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://hypercore-protocol.org/">Hypercore&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://ipfs.io/">IPFS&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://fediverse.party/en/fediverse/">About Fediverse&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/diaspora/diaspora_federation">diaspora/diaspora_federation&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://zotlabs.org/help/en/developer/zot_protocol">What is Zot?&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://activitypub.rocks/">ActivityPub&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/OStatus">OStatus&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://ethereum.org/en/dapps/#what-are-dapps">Decentralized applications (dapps)&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://gun.eco/">gun&lt;/a>&lt;/li>
-&lt;/ol>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Nicholas M. Synovic</title><link>https://nsynovic.dev/</link><description>Recent content on Nicholas M. Synovic</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Nicholas M. Synovic</copyright><lastBuildDate>Sun, 26 Jun 2022 21:04:02 -0500</lastBuildDate><atom:link href="https://nsynovic.dev/feed.xml" rel="self" type="application/rss+xml"/><item><title>Hello World</title><link>https://nsynovic.dev/posts/hello-world/</link><pubDate>Thu, 28 Jul 2022 19:47:48 -0500</pubDate><guid>https://nsynovic.dev/posts/hello-world/</guid><content>&lt;h1 id="hello-worlda-namehello-worlda">Hello World&lt;!-- raw HTML omitted -->&lt;!-- raw HTML omitted -->&lt;/h1>
 &lt;blockquote>
-&lt;p>I&amp;rsquo;m doing the &lt;a href="https://twitter.com/search?q=%23100daystooffload&amp;amp;src=typed_query">#100DaysToOffload&lt;/a> challenge.
-Check &lt;a href="https://twitter.com/nick_synovic">my Twitter&lt;/a> for updates!&lt;/p>
-&lt;/blockquote></description></item><item><title>Note Taking and Graph DBs</title><link>https://nsynovic.dev/posts/graphs-obsidian/</link><pubDate>Sat, 23 Jul 2022 00:00:00 +0000</pubDate><guid>https://nsynovic.dev/posts/graphs-obsidian/</guid><description>&lt;h1 id="note-taking-and-graph-dbs">Note Taking and Graph DBs&lt;/h1>
-&lt;p>I enjoy note taking.&lt;/p>
-&lt;p>I think that taking notes all the time not only is a good habit, but reduces the
-mental energy in trying to remember everything and anything. In tech terms, it
-takes a significantly smaller footprint to store a pointer (location of a note)
-in memory than everything within that note. This way, if someone says, &amp;ldquo;Hey
-remember that thing last week&amp;rdquo;, I can say, &amp;ldquo;No. But I did take a note of it, let
-me see what we discussed | did | &amp;hellip; &amp;quot; and nearly instantly find the note in my
-notebook or laptop.&lt;/p>
-&lt;p>Honestly, I could probably write about my note taking strategy and formats, as
-well as the rules that I&amp;rsquo;ve developed for myself, but that isn&amp;rsquo;t the point of
-this article.&lt;/p>
-&lt;p>I want to talk about how using a &lt;em>graph database&lt;/em> can improve &lt;strong>your&lt;/strong> note
-taking (if you&amp;rsquo;re taking notes on a computer).&lt;/p>
-&lt;h2 id="obsidian">Obsidian&lt;/h2>
-&lt;p>I started to use the &lt;a href="https://obsidian.md/">Obsidian&lt;/a> software to take my notes.&lt;/p>
-&lt;p>I was drawn to it for a few reasons.&lt;/p>
-&lt;ul>
-&lt;li>It used markdown which, to me, is the fastest way to take notes&lt;/li>
-&lt;li>It had pretty good shortcut keys out of the box&lt;/li>
-&lt;li>It allows for extensions to expand the capabilities of the software&lt;/li>
-&lt;li>It utilizes a graph database to link notes together&lt;/li>
-&lt;/ul>
-&lt;p>That last point is what I want to write about briefly.&lt;/p>
-&lt;p>By leveraging a graph database, Obsidian allows users to link notes together
-based on tags rather than on hyper links. In other words, If I write a note such
-as, &amp;ldquo;The perceptron is the building block of machine learning,&amp;rdquo; I can reference
-it elsewhere by tagging it like &lt;em>#ml #perceptron #&amp;hellip;&lt;/em>. Then, if I ever refernce
-something else using the &lt;em>#perceptron&lt;/em> tag and want to see related notes I&amp;rsquo;ve
-made using that tag, I can search for &lt;em>#perceptron&lt;/em> and get results both &lt;strong>in
-file&lt;/strong> and across &lt;strong>folders and subdirectories&lt;/strong>. It is even possible to get
-results from other folders not in the same branch!&lt;/p>
-&lt;p>It&amp;rsquo;s a pretty cool searching feature that allows me to spend less time
-remembering where I put every note about perceptrons, and spend more time
-communicatiing my notes to others. Going back to the computer analogy, I no
-longer need to store an array of file paths for each topic, rather, I now just
-need to store the keys to a map/dictionary which will return me an array of note
-file paths. Storing the keys to this map is so much easier to remember and
-utilize than remembering an array (at least for me).&lt;/p>
-&lt;h3 id="the-graph-database">The Graph Database&lt;/h3>
-&lt;p>So I brought up tagging which is cool, but how does this have to do anything
-regarding graph databases?&lt;/p>
-&lt;p>Obsidian automatically adds files and tags to a graph database which allows for
-a visual representation of how each file is related to one another. This allows
-for (what I call) meta-discovery of knowledge.&lt;/p>
-&lt;p>Meta-discovery is the act of finding out how each file relates to one another by
-looking at their shared tags. This is of finding out how one subject relates to
-another. In practice, it looks like this:&lt;/p>
-&lt;pre tabindex="0">&lt;code>I have a note that contains the tags *#ml #perceptron #adaline #linear-seperability*.
-Using Obsidian&amp;#39;s graph database visualization, I can see that this particular file talks about those tags.
-Now I have 100 files with a thousand tags total.
-I can click on a tag and visualize the notes that reference a tag.
-I can also click on a note and see what tags it references.
-&lt;/code>&lt;/pre>&lt;p>Both of these examples allow me to visualize the relatedness of notes and tags.&lt;/p>
-&lt;h2 id="is-it-perfect">Is It Perfect?&lt;/h2>
-&lt;p>No.&lt;/p>
-&lt;p>I have forgone using technical terms in this article that properly describe
-graph databases for the sake of talking about my experience with the tool. There
-are many features not present in Obsidian that I wish were availible, such as
-clicking on two tags to visualize the paths between each tag.&lt;/p>
-&lt;p>But Obsidian provides me with a way of referring to notes faster and more
-effieciently than I have before.&lt;/p>
-&lt;p>So for that, it&amp;rsquo;s alright in my book.&lt;/p>
-&lt;blockquote>
-&lt;p>I&amp;rsquo;m doing the &lt;a href="https://twitter.com/search?q=%23100daystooffload&amp;amp;src=typed_query">#100DaysToOffload&lt;/a> challenge.
-Check &lt;a href="https://twitter.com/nick_synovic">my Twitter&lt;/a> for updates!&lt;/p>
-&lt;/blockquote></description></item><item><title>Twitter, OAuth 2.0, and the Command Line</title><link>https://nsynovic.dev/posts/twitter-oauth-and-cli/</link><pubDate>Fri, 01 Jul 2022 09:25:35 -0500</pubDate><guid>https://nsynovic.dev/posts/twitter-oauth-and-cli/</guid><description>&lt;h2 id="preface">Preface&lt;/h2>
-&lt;p>I don&amp;rsquo;t use social media that often. I think that it gets in the way of my day
-to day life. Like really, I &lt;em>need&lt;/em> to tell everyone that I&amp;rsquo;m eating food right
-now? It seems crazy writing that down anyways.&lt;/p>
-&lt;p>But due to an opportunity with Intel, I now have to join the masses. So I
-decided to reopen my Twitter account, and realized something right away: I hate
-the interface.&lt;/p>
-&lt;p>I don&amp;rsquo;t care about my likes, reccomendations, or the trending news. I have other
-ways of getting some of that information. All I want to do is tweet into the
-void my thoughts on technology, in a nice, cozy space. And what can be cozier
-than the command line!&lt;/p>
-&lt;p>That&amp;rsquo;s how this project got started: I want to tweet rapidly from the command
-line. &amp;ldquo;&lt;em>No problem&lt;/em>,&amp;rdquo; I naively thought, &amp;ldquo;&lt;em>I&amp;rsquo;ll just use Twitter&amp;rsquo;s REST API. It
-can&amp;rsquo;t be that hard.&lt;/em>&amp;rdquo; But alas, it was a beast far greater than I ever expected.&lt;/p>
-&lt;h2 id="completing-the-first-leg">Completing the First Leg&lt;/h2>
-&lt;p>As an end user, I&amp;rsquo;ve experienced the benefits of OAuth 2.0. As a developer
-though, I&amp;rsquo;ve never had to handle client side access via OAuth 2.0. I&amp;rsquo;ve also
-never had to implement OAuth 2.0 into an app as an authentication layer, but
-that&amp;rsquo;s a future project problem. However, I do have lots of experience with
-accessing web APIs and web scraping.&lt;/p>
-&lt;p>With my history of experience I figured this should be a cake walk. And
-reviewing Twitter&amp;rsquo;s OAuth 2.0 diagram, it seemed relatively straight forward.&lt;/p>
-&lt;p>&lt;img src="https://nsynovic.dev/twitterOAuthDiagram.png" alt="Twitter OAuth 2.0 Diagram" title="Twitter OAuth 2.0 Diagram">
-&lt;a href="https://developer.twitter.com/en/docs/authentication/oauth-2-0/authorization-code">&lt;em>Twitter OAuth 2.0 Diagram&lt;/em>&lt;/a>&lt;/p>
-&lt;p>But nothing is ever as easy as it seems. Following the documentation, I created
-my OAuth 2.0 client ID and Secret but I noticed something: I needed a redirect
-URL.&lt;/p>
-&lt;p>As I don&amp;rsquo;t have a registered webserver that I can send these requests to, I
-figured &lt;code>http://localhost:4269&lt;/code> will do. But in testing, it failed. Why? I&amp;rsquo;m not
-sure, but upon checking &lt;a href="https://stackoverflow.com/a/1979559">StackOverflow&lt;/a>,
-the answer was really odd: For some reason, Twitter doesn&amp;rsquo;t like sending
-requests to &lt;code>localhost&lt;/code>. But they are ok with sending requests to an ip address
-that points to &lt;code>localhost&lt;/code>. So I implemented a fix to my OAuth registration and
-changed the redirect URL to &lt;code>http://127.0.0.1:4269&lt;/code>.&lt;/p>
-&lt;p>Now I can send requests to Twitter, thus cmpleting the first leg of the
-authentication chain, but I have no way of listening for a response on that
-port. This is needed as OAuth 2.0 sends a &lt;code>state&lt;/code> to verify that the request
-wasn&amp;rsquo;t tampered and a &lt;code>code&lt;/code> that act as authentication token to for generating
-an access token (the end goal). This is where I gulped in fear as I opened the
-Python documentation for
-&lt;a href="https://docs.python.org/3/library/socket.html">&lt;code>socket&lt;/code>&lt;/a>.&lt;/p>
-&lt;h3 id="sidebar-did-i-mention-that-im-wrting-this-in-python">Sidebar: Did I Mention That I&amp;rsquo;m Wrting This in Python?&lt;/h3>
-&lt;p>Yeah&amp;hellip; maybe not the smartest decision. Twitter and other developers have
-solved this problem in other languages. But I have two good reasons for doing
-so:&lt;/p>
-&lt;ol>
-&lt;li>Most of the work that I do is in Python. As I may need to access an OAuth 2.0
-endpoint at some point, I want to make sure that I have the knowledge to do
-so.&lt;/li>
-&lt;li>There is more complexity in learning a new programming language than learning
-a new feature of a language you know. I&amp;rsquo;d rather not spend cycles figuring
-out syntax when I could be working.&lt;/li>
-&lt;/ol>
-&lt;h2 id="socket">Socket&lt;/h2>
-&lt;p>&lt;a href="https://docs.python.org/3/library/socket.html">&lt;code>socket&lt;/code>&lt;/a> is a Python module
-that provides an interface into the
-&lt;a href="https://manpages.debian.org/bullseye/manpages-dev/socket.2.en.html">C socket library&lt;/a>.
-It allows for a developer to create low level connections to both local and
-external ports to send and recieve communication. It also inherits all of the
-blocking problems that handling socket communications has as well (more on that
-later).&lt;/p>
-&lt;p>I did also look for other libraries prior to working with &lt;code>sockets&lt;/code>, but I
-decided against the other options. This was due to when they were last updated
-(most of them were years ago) and that I wanted to challenge myself with
-learning a new skill.&lt;/p>
-&lt;p>I&amp;rsquo;m going to skip a lot of the debugging here as that&amp;rsquo;s boring and jump right
-into the meat of this. Here was my task:&lt;/p>
-&lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> Listen to port 4269 on 127.0.0.1&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> When data is recieved, store it as a &lt;code>ByteStreamIO&lt;/code> object&lt;/li>
-&lt;/ul>
-&lt;p>Here is my code for accomplishing these tasks You can also view the code on
-GitHub as well
-&lt;a href="https://github.com/NicholasSynovic/hushtweet/blob/main/hushtweet/utils/server.py">here&lt;/a>.&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-python" data-lang="python">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">from&lt;/span> io &lt;span style="color:#f92672">import&lt;/span> BytesIO
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">import&lt;/span> socket
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">def&lt;/span> &lt;span style="color:#a6e22e">getAuthToken&lt;/span>(ip: str &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#e6db74">&amp;#34;127.0.0.1&amp;#34;&lt;/span>, port: int &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#ae81ff">4269&lt;/span>) &lt;span style="color:#f92672">-&amp;gt;&lt;/span> BytesIO:
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> data: BytesIO &lt;span style="color:#f92672">=&lt;/span> BytesIO()
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">with&lt;/span> socket&lt;span style="color:#f92672">.&lt;/span>socket(socket&lt;span style="color:#f92672">.&lt;/span>AF_INET, socket&lt;span style="color:#f92672">.&lt;/span>SOCK_STREAM) &lt;span style="color:#66d9ef">as&lt;/span> server:
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> server&lt;span style="color:#f92672">.&lt;/span>setsockopt(socket&lt;span style="color:#f92672">.&lt;/span>SOL_SOCKET, socket&lt;span style="color:#f92672">.&lt;/span>SO_REUSEADDR, &lt;span style="color:#ae81ff">1&lt;/span>) &lt;span style="color:#75715e"># Reuse port&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> server&lt;span style="color:#f92672">.&lt;/span>bind((ip, port))
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> server&lt;span style="color:#f92672">.&lt;/span>listen()
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> conn, addr &lt;span style="color:#f92672">=&lt;/span> server&lt;span style="color:#f92672">.&lt;/span>accept()
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">with&lt;/span> conn:
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> data&lt;span style="color:#f92672">.&lt;/span>write(conn&lt;span style="color:#f92672">.&lt;/span>recv(&lt;span style="color:#ae81ff">4096&lt;/span>))
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> conn&lt;span style="color:#f92672">.&lt;/span>close()
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> server&lt;span style="color:#f92672">.&lt;/span>close()
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span> data
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>With this function, I accomplished the above tasks.&lt;/p>
-&lt;ul>
-&lt;li>&lt;input checked="" disabled="" type="checkbox"> Listen to port 4269 on 127.0.0.1&lt;/li>
-&lt;li>&lt;input checked="" disabled="" type="checkbox"> When data is recieved, store it as a &lt;code>ByteStreamIO&lt;/code> object&lt;/li>
-&lt;/ul>
-&lt;p>But there is a problem with this code. And it is a problem that system&amp;rsquo;s
-engineers have had to deal with since forever: Blocking.&lt;/p>
-&lt;h2 id="blocking">Blocking&lt;/h2>
-&lt;p>Blocking is when an application is halted, but doesn&amp;rsquo;t close, because it is
-waiting for a task to accomplis that never will. The blocking problem with
-&lt;code>socket&lt;/code>s programming is that if you are waiting for data to be recieved, you
-won&amp;rsquo;t know when the entire data stream arrives. To solve this, I implemented a
-&lt;em>trivial&lt;/em> solution by accepting the first 4096 bytes (4 kilobytes) of data.&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-python" data-lang="python">&lt;span style="display:flex;">&lt;span>data&lt;span style="color:#f92672">.&lt;/span>write(conn&lt;span style="color:#f92672">.&lt;/span>recv(&lt;span style="color:#ae81ff">4096&lt;/span>))
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>In testing, this buffer is nearly 4 times larger than what it needs to be. But
-as this isn&amp;rsquo;t meant to be the most performant code ever written, I&amp;rsquo;m just going
-to ignore that observation.&lt;/p>
-&lt;p>Then the question is, &amp;ldquo;What is the actual/correct solution to this problem?&amp;rdquo;
-It&amp;rsquo;s to put a termination charachter or accepted stopping charachter to the end
-of the message so that the recipient knows when to stop listenting for more
-data. The problem is that there is not a general, accepted termination
-charachter that is implemented in &lt;strong>every&lt;/strong> message or system. Twitter, from
-what I can tell, in their OAuth 2.0 implementation does not add a stopping
-charachter to their messages to the redirect URL. Because of this, I ended up
-having to create a large buffer of data to hold the recieved data even though
-that wouldn&amp;rsquo;t be necessary if I knew what the termination charachter was.&lt;/p>
-&lt;p>Oh well.&lt;/p>
-&lt;h2 id="conclusion">Conclusion&lt;/h2>
-&lt;p>Is this the best solution? No. The best solution would be a webserver that
-listens for the HTTP GET request that Twitter sends to the redirect URL and
-parsing it from there. I &lt;em>think&lt;/em> this is similar to what
-&lt;a href="https://rclone.org/">&lt;code>rclone&lt;/code>&lt;/a> does to handle thier OAuth 2.0 requests.&lt;/p>
-&lt;p>However, does it work? Yes.&lt;/p>
-&lt;p>Was it worth it? Eh?&lt;/p>
-&lt;p>It was definitely useful to learn a little bit of &lt;code>socket&lt;/code>s programming and to
-work with OAuth 2.0. But I don&amp;rsquo;t think that I&amp;rsquo;ll be going down this route again
-unless absolutely necessary.&lt;/p>
-&lt;blockquote>
-&lt;p>I&amp;rsquo;m doing the &lt;a href="https://twitter.com/search?q=%23100daystooffload&amp;amp;src=typed_query">#100DaysToOffload&lt;/a> challenge.
-Check &lt;a href="https://twitter.com/nick_synovic">my Twitter&lt;/a> for updates!&lt;/p>
-&lt;/blockquote></description></item><item><title>Contact</title><link>https://nsynovic.dev/contact/</link><pubDate>Sun, 26 Jun 2022 21:04:17 -0500</pubDate><guid>https://nsynovic.dev/contact/</guid><description>&lt;p>You can get in touch with me via the form below:&lt;/p>
-&lt;p>{{&amp;lt; form-contact action=&amp;ldquo;&lt;a href="https://formspree.io/f/mknwkjjq%22">https://formspree.io/f/mknwkjjq&amp;quot;&lt;/a> &amp;gt;}}&lt;/p></description></item><item><title>About</title><link>https://nsynovic.dev/about/</link><pubDate>Sun, 26 Jun 2022 21:04:12 -0500</pubDate><guid>https://nsynovic.dev/about/</guid><description>&lt;p>I&amp;rsquo;m going to write this page interview style.&lt;/p>
+&lt;p>An introduction to me, this site, and the content I want to make.&lt;/p>
+&lt;/blockquote>
+&lt;hr>
+&lt;h2 id="hi-therea-namehi-therea">Hi there!&lt;!-- raw HTML omitted -->&lt;!-- raw HTML omitted -->&lt;/h2>
+&lt;p>My name is Nicholas M. Synovic.&lt;/p>
+&lt;p>At the time of writing, I&amp;rsquo;m a Research Assistant at Loyola University Chicago
+[1] with the Software and Systems Laboratory [2]. I graduated Loyola in May
+of 2022 with a B.S in Computer Science. Currently, I&amp;rsquo;m pursuing a M.S in
+Computer Science with a concentration in Artificial Intelligence. My
+concentration is more specifically targetting low power computer vision systems.&lt;/p>
+&lt;p>As an undergrad, I pursued and lead Software Engineering Metrics research and
+was successfully able to publish a paper into the IEEE ASE 2022 [3]
+confrence&amp;rsquo;s tools track as the lead author [4]. In addition, I was fortunate
+enough to be an author on a Software Engineering paper focussing on deep
+learning model reuse with researchers from Purude University [5]. I currently
+work on both Software Engineering and Computer Vision research.&lt;/p>
+&lt;p>In addition to my academic work, I have experience leading IT teams and
+developing full stack software. I was one of the first in my high school to join
+the student IT program which performed real world maintaince on my district&amp;rsquo;s
+network, personal, and tech infrastructure [6]. As a 2nd year student at
+Loyola, I won second place at the Fall Student Showcase for my work in
+identifying and providing solution for Congress.gov&amp;rsquo;s search functionality as
+well as creating a dataset of all the content on Congress.gov [7]. And as a
+4th year senior, I developed an application for Medline Industries [8] to
+facilitate their corporate wide Talent Planning Process. This application was
+used to assess ~30,000 employees in 2022 to find the next generation of leaders.&lt;/p>
+&lt;p>On the social side of things, I am currently a board member of the Loyola AI
+Club [9] as well as a student ambassador for Intel&amp;rsquo;s OneAPI platform [10].&lt;/p>
+&lt;p>For further information on how to contact me, see my Contact page [11].&lt;/p>
+&lt;h2 id="whats-up-with-this-sitea-namewhats-up-with-this-sitea">What&amp;rsquo;s up with this site?&lt;!-- raw HTML omitted -->&lt;!-- raw HTML omitted -->&lt;/h2>
+&lt;p>This site is generated from Markdown using Hugo [12] and the Ananke theme
+[13].&lt;/p>
+&lt;p>This decision was made due to Hugo&amp;rsquo;s extensive templating feature, which allows
+me to accessible to those using HTTP [14], Gopher [15], and Gemini [16]
+protocols. I intend to use this site to experiment with other alternative
+network protocols as they are developed.&lt;/p>
+&lt;p>This site is also mirrored across several different services. Currently, it is
+hosted on both GitHub Pages [17] as &lt;code>https://nsynovic.dev&lt;/code> [18]. Blog posts
+are mirrored on my the Gopher and Gemini versions of this site, as well as my
+Dev.to [19] page. In addition, I intend to use my account at &lt;code>tilde.team&lt;/code>
+[20] to add an additional backup of the HTTP site there as well.&lt;/p>
+&lt;h2 id="what-content-is-cominga-namewhat-content-is-cominga">What content is coming?&lt;!-- raw HTML omitted -->&lt;!-- raw HTML omitted -->&lt;/h2>
+&lt;p>I don&amp;rsquo;t have a set plan at the moment, however, I intend to provide less
+academicly leaning posts on this site. Think more opinion pieces, tutorials, or
+other ramblings. Primarily text based content will be posted on this site as
+there are other platforms that are better at hosting multimedia content.&lt;/p>
+&lt;hr>
+&lt;h2 id="citationsa-namecitationsa">Citations&lt;!-- raw HTML omitted -->&lt;!-- raw HTML omitted -->&lt;/h2></content><category>[hello introduction first-post personal]</category></item><item><title>Contact</title><link>https://nsynovic.dev/contact/</link><pubDate>Sun, 26 Jun 2022 21:04:17 -0500</pubDate><guid>https://nsynovic.dev/contact/</guid><content>&lt;p>You can get in touch with me via the form below:&lt;/p>
+&lt;p>{{&amp;lt; form-contact action=&amp;ldquo;&lt;a href="https://formspree.io/f/mknwkjjq%22">https://formspree.io/f/mknwkjjq&amp;quot;&lt;/a> &amp;gt;}}&lt;/p></content><category/></item><item><title>About</title><link>https://nsynovic.dev/about/</link><pubDate>Sun, 26 Jun 2022 21:04:12 -0500</pubDate><guid>https://nsynovic.dev/about/</guid><content>&lt;p>I&amp;rsquo;m going to write this page interview style.&lt;/p>
 &lt;h2 id="who">Who&lt;/h2>
 &lt;h3 id="who-is-this-international-man-of-mystery">Who is this international man of mystery?&lt;/h3>
 &lt;p>Nicholas M. Synovic (the last time I&amp;rsquo;ll refer to myself like that) is committed
@@ -307,4 +97,4 @@ it&amp;rsquo;s easy peasy.&lt;/p>
 &lt;p>The &lt;a href="https://github.com/NicholasSynovic/nsynovic.dev">source code&lt;/a> is availible
 on &lt;a href="https://github.com">GitHub&lt;/a> as well.&lt;/p>
 &lt;h3 id="how-does-the-contactcontact-page-work">How does the &lt;a href="../contact">Contact&lt;/a> page work?&lt;/h3>
-&lt;p>It&amp;rsquo;s powered via &lt;a href="https://formspree.io">Formspree.io&lt;/a>.&lt;/p></description></item></channel></rss>
+&lt;p>It&amp;rsquo;s powered via &lt;a href="https://formspree.io">Formspree.io&lt;/a>.&lt;/p></content><category/></item></channel></rss>

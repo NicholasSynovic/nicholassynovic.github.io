@@ -10,5 +10,5 @@ find -type f -name '*.txt' -print0 | while read -d $'\0' f; do mv "$f" "${f%.txt
 # find -L . -name "gophermap.txt" -exec rename ".txt"  '' {} \;
 find -L . -name "gophermap" -exec cp --parents {} gopher \;
 
-mkdir gemini 
+mkdir gemini
 find -L . -name "index.gmi" -exec cp --parents {} gemini \;
