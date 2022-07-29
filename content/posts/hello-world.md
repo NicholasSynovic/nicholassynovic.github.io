@@ -36,11 +36,11 @@ ______________________________________________________________________
 
 My name is Nicholas M. Synovic.
 
-At the time of writing, I'm a Research Assistant at Loyola University Chicago. I
-graduated Loyola in May of 2022 with a B.S in Computer Science. Currently, I'm
-pursuing a M.S in Computer Science with a concentration in Artificial
-Intelligence. My concentration is more specifically targetting low power
-computer vision systems.
+At the time of writing, I'm a Research Assistant at Loyola University Chicago
+with the Software and Systems Laboratory. I graduated Loyola in May of 2022 with
+a B.S in Computer Science. Currently, I'm pursuing a M.S in Computer Science
+with a concentration in Artificial Intelligence. My concentration is more
+specifically targetting low power computer vision systems.
 
 As an undergrad, I pursued and lead Software Engineering Metrics research and
 was successfully able to publish a paper into the IEEE ASE 2022 confrence's
