@@ -1,37 +1,27 @@
 ---
-title: ''
-description: ''
-summary: ''
+title: 'CHANGE ME'
+description: 'CHANGE ME'
+summary: 'CHANGE ME'
 
-aliases: []
-audio: []
-cascade: {}
-date: {{.Date: null}: null}
+catagories: ['']
+citations: ['']
+
 draft: false
-expiryDate: ''
+
+date: {{ .Date }}
 featured_image: ''
-headless: false
-images: []
 include_toc: true
-isCJKLanguage: false
-keywords: []
-layout: ''
-lastmod: ''
-linkTitle: ''
 markup: md
 outputs: []
-publishDate: ''
-private: false
-resource: ''
-series: ''
 show_comments: false
-slug: ''
 toc: true
-type: ''
-url: ''
-videos: []
-weight: 0
 ---
 
-> I'm doing the [#100DaysToOffload](https://twitter.com/search?q=%23100daystooffload&src=typed_query) challenge.
-> Check [my Twitter](https://twitter.com/nick_synovic) for updates!
+# Title
+
+> Summary
+
+---
+
+<!-- mdformat-toc start -->
+
