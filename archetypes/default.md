@@ -3,7 +3,7 @@ title: 'CHANGE ME'
 description: 'CHANGE ME'
 summary: 'CHANGE ME'
 
-catagories: ['']
+categories: ['']
 citations: ['']
 
 draft: false
