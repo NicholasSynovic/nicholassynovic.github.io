@@ -1,41 +1,17 @@
-  _   _  _        _             _
- | \ | |(_)  ___ | |__    ___  | |  __ _  ___
- |  \| || | / __|| '_ \  / _ \ | | / _` |/ __|
- | |\  || || (__ | | | || (_) || || (_| |\__ \
- |_| \_||_| \___||_| |_| \___/ |_| \__,_||___/
+# Nicholas Synovic's Capsule
 
-  ____                              _        _
- / ___|  _   _  _ __    ___ __   __(_)  ___ ( )___
- \___ \ | | | || '_ \  / _ \\ \ / /| | / __||// __|
-  ___) || |_| || | | || (_) |\ V / | || (__   \__ \
- |____/  \__, ||_| |_| \___/  \_/  |_| \___|  |___/
-         |___/
-   ____                           _
-  / ___| __ _  _ __   ___  _   _ | |  ___
- | |    / _` || '_ \ / __|| | | || | / _ \
- | |___| (_| || |_) |\__ \| |_| || ||  __/
-  \____|\__,_|| .__/ |___/ \__,_||_| \___|
-              |_|
 Hi there!
-Thanks for checking out my Phlog.
+Thanks for checking out my Capsule.
 Take your time and lurk around.
 Regardless, have a great day!
 
-  ____            _   _
- / ___|  ___  ___| |_(_) ___  _ __  ___
- \___ \ / _ \/ __| __| |/ _ \| '_ \/ __|
-  ___) |  __/ (__| |_| | (_) | | | \__ \
- |____/ \___|\___|\__|_|\___/|_| |_|___/
+## Sections
 => posts	Posts
 
 => https://nsynovic.dev	HTTP Site
 => https://github.com/NicholasSynovic	GitHub URL
 
-   ____              _ _ _
-  / ___|_ __ ___  __| (_) |_ ___
- | |   | '__/ _ \/ _` | | __/ __|
- | |___| | |  __/ (_| | | |_\__ \
-  \____|_|  \___|\__,_|_|\__|___/
+## Credits
 => https://www.texttool.com/ascii-font	TextTool
 => https://brainbaking.com/post/2021/04/using-hugo-to-launch-a-gemini-capsule/	Hugo to Gemini Guide
 => https://gemini.circumlunar.space/docs/gemtext.gmi	Gemtex Markup Syntax
