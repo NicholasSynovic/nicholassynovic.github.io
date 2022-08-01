@@ -47,5 +47,38 @@ academicly leaning posts on this site. Think more opinion pieces, tutorials, or
 other ramblings. Primarily text based content will be posted on this site as
 there are other platforms that are better at hosting multimedia content.&lt;/p>
 &lt;hr>
-&lt;h2 id="citationsa-namecitationsa">Citations&lt;!-- raw HTML omitted -->&lt;!-- raw HTML omitted -->&lt;/h2></content><category>hello</category><category>introduction</category><category>first-post</category><category>personal</category></item><item><title>Contact</title><link>https://nsynovic.dev/contact/</link><pubDate>Sun, 26 Jun 2022 21:04:17 -0500</pubDate><guid>https://nsynovic.dev/contact/</guid><content>&lt;p>You can get in touch with me via the form below:&lt;/p>
-&lt;p>{{&amp;lt; form-contact action=&amp;ldquo;&lt;a href="https://formspree.io/f/mknwkjjq%22">https://formspree.io/f/mknwkjjq&amp;quot;&lt;/a> &amp;gt;}}&lt;/p></content></item></channel></rss>
+&lt;h2 id="citationsa-namecitationsa">Citations&lt;!-- raw HTML omitted -->&lt;!-- raw HTML omitted -->&lt;/h2></content><category>hello</category><category>introduction</category><category>first-post</category><category>personal</category></item><item><title/><link>https://nsynovic.dev/contact/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nsynovic.dev/contact/</guid><content>&lt;hr>
+&lt;p>title: Contact description: How to Contact Me summary: How to Contact Me&lt;/p>
+&lt;p>categories: [&amp;rsquo;&amp;rsquo;] citations: [&amp;rsquo;&amp;rsquo;]&lt;/p>
+&lt;p>draft: false&lt;/p>
+&lt;h2 id="date-08-01-2022-featured_image-imageshero3jpg-include_toc-true-markup-md-outputs--show_comments-false-toc-true-show_reading_time-true">date: 08-01-2022 featured_image: images/hero3.jpg include_toc: true markup: md outputs: [] show_comments: false toc: true show_reading_time: true&lt;/h2>
+&lt;h1 id="contact-me">Contact Me&lt;/h1>
+&lt;blockquote>
+&lt;p>How to Contact Me&lt;/p>
+&lt;/blockquote>
+&lt;hr>
+&lt;h2 id="social-media">Social Media&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.facebook.com/nsynovic">Facebook&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://twitter.com/nick_synovic">Twitter&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.instagram.com/nicholas_synovic/">Instagram&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.youtube.com/channel/UCVG2VYy7GJ86BLiUaj5LEZQ">Youtube&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.linkedin.com/in/nsynovic/">LinkedIn&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/NicholasSynovic">GitHub&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="blogging-platforms">Blogging Platforms&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://dev.to/nicholassynovic">Dev.to&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="mirrors-of-this-site">Mirrors of this Site&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://tilde.team/~nosnow">https://tilde.team/~nosnow&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="alternative-protocols">Alternative Protocols&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://nsynovic.dev/posts/feed.xml">RSS&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://tilde.team/~nosnow/posts/feed.xml">RSS #2&lt;/a>&lt;/li>
+&lt;li>&lt;a href="gopher://tilde.team/1/~nosnow%22">Gopher&lt;/a>&lt;/li>
+&lt;li>&lt;a href="gemini://tilde.team/~nosnow%22">Gemini&lt;/a>&lt;/li>
+&lt;li>&lt;a href="spartan://tilde.team/~nosnow%22">Spartan&lt;/a>&lt;/li>
+&lt;/ul></content></item></channel></rss>

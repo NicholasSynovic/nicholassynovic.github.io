@@ -1,9 +1,11 @@
-# Contact
+# 
 
-Sunday, June 26, 2022 · 1 minute read
+Monday, January 1, 0001 · 1 minute read
 
-You can get in touch with me via the form below:
-{{&lt; form-contact action=&ldquo;https://formspree.io/f/mknwkjjq&quot; &gt;}}
-
+ title: Contact description: How to Contact Me summary: How to Contact Me
+categories: [&rsquo;&rsquo;] citations: [&rsquo;&rsquo;]
+draft: false
+date: 08-01-2022 featured_image: images/hero3.jpg include_toc: true markup: md outputs: [] show_comments: false toc: true show_reading_time: true Contact Me How to Contact Me
+Social Media Facebook Twitter Instagram Youtube LinkedIn GitHub Blogging Platforms Dev.to Mirrors of this Site https://tilde.team/~nosnow Alternative Protocols RSS RSS #2 Gopher Gemini Spartan 
 
 .
