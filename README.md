@@ -31,5 +31,5 @@ Use the newly created `gopher` and `gemini` folders with their respective protoc
 [https://nsynovic.dev](https://nsynovic.dev) is a static site that is built
 using [Markdown](https://github.github.com/gfm/) and [Hugo](https://gohugo.io).
 
-The Hugo theme that I'm using is a my fork of the
+The Hugo theme that I'm using is the
 [Ananke theme](https://github.com/theNewDynamic/gohugo-theme-ananke).
