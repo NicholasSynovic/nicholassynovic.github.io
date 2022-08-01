@@ -75,6 +75,10 @@ page = ["HTML", "gopher", "GEMINI"]
         permalinkable = true
 
 [menu]
+[[menu.main]]
+  identifier = 'Contact'
+  name = 'Contact Me'
+  url = '/contact/'
 
 [[params.ananke_socials]]
 name = "facebook"
