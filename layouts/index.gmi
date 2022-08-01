@@ -26,7 +26,6 @@ Regardless, have a great day!
  \___ \ / _ \/ __| __| |/ _ \| '_ \/ __|
   ___) |  __/ (__| |_| | (_) | | | \__ \
  |____/ \___|\___|\__|_|\___/|_| |_|___/
-=> about	About
 => posts	Posts
 
 => https://nsynovic.dev	HTTP Site
