@@ -22,10 +22,7 @@ To build directories for each protocol:
 1. Checkout the `gh-pages` branch
 1. Run `./buildGopherGemini.bash`
 
-**NOTE:** the `buildGopherGemini.bash` relies on `rename` from version 2.38 of the [`util-linux`](https://github.com/util-linux/util-linux) package.
-
-Use the newly created `gopher` and `gemini` folders with their respective protocols.
-
+Directories are named after 
 ## Develop and/or Contribute
 
 [https://nsynovic.dev](https://nsynovic.dev) is a static site that is built
