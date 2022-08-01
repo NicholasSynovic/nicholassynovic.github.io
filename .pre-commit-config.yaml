@@ -21,3 +21,4 @@ repos:
       - mdformat-gfm
       - mdformat-tables
       - mdformat-toc
+      - mdformat-frontmatter

@@ -1,22 +1,12 @@
----
-title: Contact
-description: How to Contact Me
-summary: How to Contact Me
+______________________________________________________________________
 
-categories: ['']
-citations: ['']
+title: Contact description: How to Contact Me summary: How to Contact Me
+
+categories: \[''\] citations: \[''\]
 
 draft: false
 
-date: {{.Date: null}: null}
-featured_image: images/hero3.jpg
-include_toc: true
-markup: md
-outputs: []
-show_comments: false
-toc: true
-show_reading_time: true
----
+## date: 08-01-2022 featured_image: images/hero3.jpg include_toc: true markup: md outputs: \[\] show_comments: false toc: true show_reading_time: true
 
 # Contact Me
 
