@@ -2,56 +2,72 @@
 
 Thursday, July 28, 2022 · 3 minute read
 
-<h1 id="hello-worlda-namehello-worlda">Hello World<!-- raw HTML omitted --><!-- raw HTML omitted --></h1>
-<blockquote>
-<p>An introduction to me, this site, and the content I want to make.</p>
-</blockquote>
-<hr>
-<h2 id="hi-therea-namehi-therea">Hi there!<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
-<p>My name is Nicholas M. Synovic.</p>
-<p>At the time of writing, I&rsquo;m a Research Assistant at Loyola University Chicago
-[0] with the Software and Systems Laboratory [1]. I graduated Loyola in May
-of 2022 with a B.S in Computer Science. Currently, I&rsquo;m pursuing a M.S in
+
+# Hello World<a name="hello-world"></a>
+
+> An introduction to me, this site, and the content I want to make.
+
+______________________________________________________________________
+
+## Hi there!<a name="hi-there"></a>
+
+My name is Nicholas M. Synovic.
+
+At the time of writing, I'm a Research Assistant at Loyola University Chicago
+\[0\] with the Software and Systems Laboratory \[1\]. I graduated Loyola in May
+of 2022 with a B.S in Computer Science. Currently, I'm pursuing a M.S in
 Computer Science with a concentration in Artificial Intelligence. My
-concentration is more specifically targetting low power computer vision systems.</p>
-<p>As an undergrad, I pursued and lead Software Engineering Metrics research and
-was successfully able to publish a paper into the IEEE ASE 2022 [2]
-confrence&rsquo;s tools track as the lead author [3]. In addition, I was fortunate
+concentration is more specifically targetting low power computer vision systems.
+
+As an undergrad, I pursued and lead Software Engineering Metrics research and
+was successfully able to publish a paper into the IEEE ASE 2022 \[2\]
+confrence's tools track as the lead author \[3\]. In addition, I was fortunate
 enough to be an author on a Software Engineering paper focussing on deep
-learning model reuse with researchers from Purude University [4]. I currently
-work on both Software Engineering and Computer Vision research.</p>
-<p>In addition to my academic work, I have experience leading IT teams and
+learning model reuse with researchers from Purude University \[4\]. I currently
+work on both Software Engineering and Computer Vision research.
+
+In addition to my academic work, I have experience leading IT teams and
 developing full stack software. I was one of the first in my high school to join
-the student IT program which performed real world maintaince on my district&rsquo;s
-network, personal, and tech infrastructure [5]. As a 2nd year student at
+the student IT program which performed real world maintaince on my district's
+network, personal, and tech infrastructure \[5\]. As a 2nd year student at
 Loyola, I won second place at the Fall Student Showcase for my work in
-identifying and providing solution for Congress.gov&rsquo;s search functionality as
-well as creating a dataset of all the content on Congress.gov [6]. And as a
-4th year senior, I developed an application for Medline Industries [7] to
+identifying and providing solution for Congress.gov's search functionality as
+well as creating a dataset of all the content on Congress.gov \[6\]. And as a
+4th year senior, I developed an application for Medline Industries \[7\] to
 facilitate their corporate wide Talent Planning Process. This application was
-used to assess ~30,000 employees in 2022 to find the next generation of leaders.</p>
-<p>On the social side of things, I am currently a board member of the Loyola AI
-Club [8] as well as a student ambassador for Intel&rsquo;s OneAPI platform [9].</p>
-<p>For further information on how to contact me, see my Contact page [10].</p>
-<h2 id="whats-up-with-this-sitea-namewhats-up-with-this-sitea">What&rsquo;s up with this site?<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
-<p>This site is generated from Markdown using Hugo [11] and the Ananke theme
-[12].</p>
-<p>This decision was made due to Hugo&rsquo;s extensive templating feature, which allows
-me to accessible to those using HTTP [13], Gopher [14], and Gemini [15]
+used to assess ~30,000 employees in 2022 to find the next generation of leaders.
+
+On the social side of things, I am currently a board member of the Loyola AI
+Club \[8\] as well as a student ambassador for Intel's OneAPI platform \[9\].
+
+For further information on how to contact me, see my Contact page \[10\].
+
+## What's up with this site?<a name="whats-up-with-this-site"></a>
+
+This site is generated from Markdown using Hugo \[11\] and the Ananke theme
+\[12\].
+
+This decision was made due to Hugo's extensive templating feature, which allows
+me to accessible to those using HTTP \[13\], Gopher \[14\], and Gemini \[15\]
 protocols. I intend to use this site to experiment with other alternative
-network protocols as they are developed.</p>
-<p>This site is also mirrored across several different services. Currently, it is
-hosted on both GitHub Pages [16] as <code>https://nsynovic.dev</code> [17]. Blog posts
+network protocols as they are developed.
+
+This site is also mirrored across several different services. Currently, it is
+hosted on both GitHub Pages \[16\] as `https://nsynovic.dev` \[17\]. Blog posts
 are mirrored on my the Gopher and Gemini versions of this site, as well as my
-Dev.to [18] page. In addition, I intend to use my account at <code>tilde.team</code>
-[19] to add an additional backup of the HTTP site there as well.</p>
-<h2 id="what-content-is-cominga-namewhat-content-is-cominga">What content is coming?<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
-<p>I don&rsquo;t have a set plan at the moment, however, I intend to provide less
+Dev.to \[18\] page. In addition, I intend to use my account at `tilde.team`
+\[19\] to add an additional backup of the HTTP site there as well.
+
+## What content is coming?<a name="what-content-is-coming"></a>
+
+I don't have a set plan at the moment, however, I intend to provide less
 academicly leaning posts on this site. Think more opinion pieces, tutorials, or
 other ramblings. Primarily text based content will be posted on this site as
-there are other platforms that are better at hosting multimedia content.</p>
-<hr>
-<h2 id="citationsa-namecitationsa">Citations<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
+there are other platforms that are better at hosting multimedia content.
+
+______________________________________________________________________
+
+## Citations<a name="citations"></a>
 
 
 => https://luc.edu	0. https://luc.edu
