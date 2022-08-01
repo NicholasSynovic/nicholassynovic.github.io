@@ -2,8 +2,7 @@
 
 {{ .Date.Format (.Site.Params.dateform | default "Monday, January 2, 2006") }} · {{ .ReadingTime }} minute read
 
-{{ .Plain }}
+{{ .Content}}
 {{ range $index, $citation := $.Param "citations" }}
 => {{ $citation }}	{{ $index }}. {{ $citation }}
 {{ end}}
-.
