@@ -14,5 +14,13 @@
 
 1first-post	/categories/first-post
 
+1security	/categories/security
+
+1identity	/categories/identity
+
+1gpg	/categories/gpg
+
+1git	/categories/git
+
 
 .

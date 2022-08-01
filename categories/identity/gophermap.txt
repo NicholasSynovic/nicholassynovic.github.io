@@ -8,7 +8,5 @@
 
 1Why Sign Commits?	why-sign-commits
 
-1Hello World	hello-world
-
 
 .
