@@ -4,13 +4,6 @@
 
 [![pages-build-deployment](https://github.com/NicholasSynovic/nsynovic.dev/actions/workflows/pages/pages-build-deployment/badge.svg?branch=gh-pages)](https://github.com/NicholasSynovic/nsynovic.dev/actions/workflows/pages/pages-build-deployment)
 
-## Table of Contents
-
-- [https://nsynovic.dev](#httpsnsynovicdev)
-  - [Table of Contents](#table-of-contents)
-  - [About](#about)
-  - [Develop/ Contribute/ Fork](#develop-contribute-fork)
-
 ## About
 
 [https://nsynovic.dev](https://nsynovic.dev) is the site where I:
@@ -19,11 +12,11 @@
 - Post blogs
 - Attempt to centralize social media posts
 
-## Gopher and Gemini Support
+## Gopher, Gemini, Spartan, etc. Protocol Support
 
-This site supports both the `gopher` and `gemini` protocols.
+This site supports the `gopher`, `gemini`, `spartan`, and other *small* protocols.
 
-To build directories specific to each protocol:
+To build directories for each protocol:
 
 1. Clone this repository
 1. Checkout the `gh-pages` branch
