@@ -6,7 +6,7 @@
 > These posts are mirrored from my HTTP site.
 
 {{ range .Pages.ByPublishDate.Reverse }}
-1{{ .Title }}	{{ with .OutputFormats.Get "gopher" -}}{{ replace ( replace .RelPermalink "/gophermap.txt" "" ) "/posts/" "" }}{{ end }}
+1{{ .Title }}	{{ with .OutputFormats.Get "gopher" -}}{{ replace ( replace ( replace .RelPermalink "/gophermap.txt" "" ) "/posts/" "" ) "/~nosnow" "" }}{{ end }}
 {{ end }}
 
 .
