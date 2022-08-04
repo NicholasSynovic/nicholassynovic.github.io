@@ -34,7 +34,6 @@
       <guid>{{ .Permalink }}</guid>
       <content>{{ .Content | html }} Citations availible at {{ .Permalink }}</content>
       {{ range $category := .Param "categories" }}
-      <category>{{ $category }}</category>
       {{ end }}
     </item>
     {{ end }}
