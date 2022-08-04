@@ -1,4 +1,74 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Nicholas M. Synovic</title><link>https://nsynovic.dev/</link><description>Recent content on Nicholas M. Synovic</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Nicholas M. Synovic</copyright><lastBuildDate>Sun, 26 Jun 2022 21:04:02 -0500</lastBuildDate><atom:link href="https://nsynovic.dev/feed.xml" rel="self" type="application/rss+xml"/><item><title>Why Sign Commits?</title><link>https://nsynovic.dev/posts/why-sign-commits/</link><pubDate>Mon, 01 Aug 2022 15:38:48 -0500</pubDate><guid>https://nsynovic.dev/posts/why-sign-commits/</guid><content>&lt;h1 id="why-sign-commits">Why Sign Commits?&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Nicholas M. Synovic</title><link>https://nsynovic.dev/</link><description>Recent content on Nicholas M. Synovic</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Nicholas M. Synovic</copyright><lastBuildDate>Sun, 26 Jun 2022 21:04:02 -0500</lastBuildDate><atom:link href="https://nsynovic.dev/feed.xml" rel="self" type="application/rss+xml"/><item><title>Hugo, Gopher, Gemini, and Annoyances</title><link>https://nsynovic.dev/posts/hugo-gopher-gemini-annoyance/</link><pubDate>Thu, 04 Aug 2022 08:38:05 -0500</pubDate><guid>https://nsynovic.dev/posts/hugo-gopher-gemini-annoyance/</guid><content>&lt;h1 id="hugo-gopher-gemini-and-annoyances">Hugo, Gopher, Gemini, and Annoyances&lt;/h1>
+&lt;blockquote>
+&lt;p>My story with setting up a Gopher and Gemini compatible website powered by
+Hugo.&lt;/p>
+&lt;/blockquote>
+&lt;hr>
+&lt;p>A little while ago, I wanted to create my own website. I struggle with creating
+frontends for websites, so I choose to use the Hugo [0] static site generator
+as it has many great themes. Learning Hugo was simple enough since the most
+basic sites are just &lt;code>md&lt;/code> content files and &lt;code>toml&lt;/code> config files. So, after a
+brief learning period, I built my website, got it hosted on GitHub Pages [1],
+and setup a domain from Google Domains [2] to link to it all.&lt;/p>
+&lt;p>That should be it, right?&lt;/p>
+&lt;p>Well then I saw these two videos from DistroTube [3] [4] and got interested
+in creating and hosting my own Gopher [5] phlog and Gemini [6] capsule. This
+is where the annoyances began.&lt;/p>
+&lt;h2 id="gopher-the-bane-of-my-existence-for-about-a-week">Gopher: The Bane of my Existence (for about a week)&lt;/h2>
+&lt;p>I wanted to create a Gopher phlog because I thought it was just plain cool. Who
+wouldn&amp;rsquo;t want a text only mirror of their site not indexed by modern search
+engines (probably everyone)? I was aware the Hugo could output my website in a
+variety of different formats. But, I had no idea how to do that.&lt;/p>
+&lt;p>Luckily, Jason F. McBrayer had already figured this out in a blog post on his
+website [7]. So I copied and pasted away. I ran the Hugo site generator and I
+got output! Huzzah! But when I tested the site with the &lt;code>gophernicus&lt;/code> [8]
+server, the site was malformed. Links to blog pages lead to nowhere or returned
+error message.&lt;/p>
+&lt;p>So I deleted my edits, re-copied, re-pasted (?), and ran the generator. Still,
+no dice. Even manually typing in his work into my project didn&amp;rsquo;t work.&lt;/p>
+&lt;p>At this point it was getting late, so I put the project into the back of my head
+and would continue to work on it for the next week. My stuborness was because I
+knew it was possible to do this conversion, after all, I had gotten output. But
+there was a syntax error somewhere that I just couldn&amp;rsquo;t find.&lt;/p>
+&lt;p>Eventually, I found documentation for the &lt;code>gophermap&lt;/code> syntax [9] and it all
+clicked. I use &lt;code>neovim&lt;/code> [10] as my editor of choice. I use spaces instead of
+tabs. &lt;code>gophermaps&lt;/code>, as a product of the 90s, require tabs for link formatting.&lt;/p>
+&lt;p>Insert face palm here.&lt;/p>
+&lt;p>The fix for this problem was to &lt;code>:set noexpandtab&lt;/code> and then paste in McBrayer&amp;rsquo;s
+work.&lt;/p>
+&lt;p>After that, the links worked. I then spent some time setting the Gopher template
+that he provided to what I wanted, but that was minor work.&lt;/p>
+&lt;p>In all, it took me a week to RTFM and move on from this arguably ridiculous
+project.&lt;/p>
+&lt;h2 id="gemini-a-lot-easier-than-gopher">Gemini: A lot easier than Gopher&lt;/h2>
+&lt;p>It was significantly easier to create the Gemini capsule than a Gopher Phlog.&lt;/p>
+&lt;p>But before that, I had to create the templates and output settings for Gemini in
+Hugo. This, again, was taken care of by Sylvain Durand [11]. With my
+&lt;code>:set noexpandtab&lt;/code> option, I copied and pasted his work into my project&amp;hellip; And
+boom! It worked.&lt;/p>
+&lt;p>That was anticlimatic wasn&amp;rsquo;t it? Again, some formatting of the provided template
+was necessary, but that was minor.&lt;/p>
+&lt;p>The new problem, was how to distribute this site.&lt;/p>
+&lt;h2 id="pubnix-whats-old-is-new-again">PubNix: What&amp;rsquo;s Old is New Again&lt;/h2>
+&lt;p>In my research of both the Gopher and Gemini protocols, I found out about
+PubNixs: community ran servers that run on low powered machines. These servers
+are a modern implementation of the time sharing servers of yore where there were
+a few large mainframes in the country that only a few people could log into at a
+time. A subset of these PubNixs is the &lt;code>tildeverse&lt;/code> [12]. These are &lt;strong>very&lt;/strong>
+community oriented servers that offer free webhosting of the Gemini, Gopher,
+HTTP, and Spartan sites. All that&amp;rsquo;s required is to create an account and start
+uploading.&lt;/p>
+&lt;p>For those that are interested in hosting a Gemini and/or Gopher site, I
+encourage the usage of these servers as it takes the problems of hosting content
+(maintainence, privacy, port forwarding, etc.) off of your shoulders&lt;/p>
+&lt;h2 id="the-end">The End?&lt;/h2>
+&lt;p>If you ware interested in doing something similar, here is a link to my websites
+source code on GitHub [13]. There you can see my templates, scripts, and
+config options for generating Gemini, Gopher and HTTP sites. Best of luck, and
+happy hacking!&lt;/p>
+&lt;hr>
+&lt;h2 id="citations">Citations&lt;/h2>
+Citations availible at https://nsynovic.dev/posts/hugo-gopher-gemini-annoyance/</content></item><item><title>Why Sign Commits?</title><link>https://nsynovic.dev/posts/why-sign-commits/</link><pubDate>Mon, 01 Aug 2022 15:38:48 -0500</pubDate><guid>https://nsynovic.dev/posts/why-sign-commits/</guid><content>&lt;h1 id="why-sign-commits">Why Sign Commits?&lt;/h1>
 &lt;blockquote>
 &lt;p>Why should you sign your commits?&lt;/p>
 &lt;/blockquote>
@@ -57,7 +127,7 @@ the verification of work done by legitimate developers, instead of allowing the
 work of theives to perforate throughout our community.&lt;/p>
 &lt;hr>
 &lt;h2 id="citations">Citations&lt;/h2>
-Citations availible at https://nsynovic.dev/posts/why-sign-commits/</content><category>git</category><category>gpg</category><category>security</category><category>identity</category></item><item><title>Hello World</title><link>https://nsynovic.dev/posts/hello-world/</link><pubDate>Thu, 28 Jul 2022 19:47:48 -0500</pubDate><guid>https://nsynovic.dev/posts/hello-world/</guid><content>&lt;h1 id="hello-worlda-namehello-worlda">Hello World&lt;!-- raw HTML omitted -->&lt;!-- raw HTML omitted -->&lt;/h1>
+Citations availible at https://nsynovic.dev/posts/why-sign-commits/</content></item><item><title>Hello World</title><link>https://nsynovic.dev/posts/hello-world/</link><pubDate>Thu, 28 Jul 2022 19:47:48 -0500</pubDate><guid>https://nsynovic.dev/posts/hello-world/</guid><content>&lt;h1 id="hello-worlda-namehello-worlda">Hello World&lt;!-- raw HTML omitted -->&lt;!-- raw HTML omitted -->&lt;/h1>
 &lt;blockquote>
 &lt;p>An introduction to me, this site, and the content I want to make.&lt;/p>
 &lt;/blockquote>
@@ -107,7 +177,7 @@ other ramblings. Primarily text based content will be posted on this site as
 there are other platforms that are better at hosting multimedia content.&lt;/p>
 &lt;hr>
 &lt;h2 id="citationsa-namecitationsa">Citations&lt;!-- raw HTML omitted -->&lt;!-- raw HTML omitted -->&lt;/h2>
-Citations availible at https://nsynovic.dev/posts/hello-world/</content><category>hello</category><category>introduction</category><category>first-post</category><category>personal</category></item><item><title>Contact</title><link>https://nsynovic.dev/contact/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nsynovic.dev/contact/</guid><content>&lt;h1 id="contact-me">Contact Me&lt;/h1>
+Citations availible at https://nsynovic.dev/posts/hello-world/</content></item><item><title>Contact</title><link>https://nsynovic.dev/contact/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nsynovic.dev/contact/</guid><content>&lt;h1 id="contact-me">Contact Me&lt;/h1>
 &lt;blockquote>
 &lt;p>How to Contact Me&lt;/p>
 &lt;/blockquote>
@@ -137,4 +207,4 @@ Citations availible at https://nsynovic.dev/posts/hello-world/</content><categor
 &lt;li>&lt;a href="gemini://tilde.team/~nosnow%22">Gemini&lt;/a>&lt;/li>
 &lt;li>&lt;a href="spartan://tilde.team/~nosnow%22">Spartan&lt;/a>&lt;/li>
 &lt;/ul>
-Citations availible at https://nsynovic.dev/contact/</content><category/></item></channel></rss>
+Citations availible at https://nsynovic.dev/contact/</content></item></channel></rss>

@@ -22,5 +22,13 @@
 
 1git	/categories/git
 
+1webdev	/categories/webdev
+
+1jamstack	/categories/jamstack
+
+1gopher	/categories/gopher
+
+1gemini	/categories/gemini
+
 
 .
