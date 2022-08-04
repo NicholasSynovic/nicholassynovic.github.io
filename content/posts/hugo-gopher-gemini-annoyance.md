@@ -6,7 +6,12 @@ summary: My story with setting up a Gopher and Gemini compatible website powered
   Hugo
 
 categories: [jamstack, gopher, gemini, webdev]
-citations: ['']
+citations: [https://gohugo.io/, https://pages.github.com/, https://domains.google.com/,
+  https://tinyurl.com/mrcttsj3, https://tinyurl.com/2p8wu35v, https://en.wikipedia.org/wiki/Gopher_(protocol),
+  https://gemini.circumlunar.space/, https://jfm.carcosa.net/blog/computing/hugo-gopher/,
+  https://github.com/gophernicus/gophernicus, https://github.com/gophernicus/gophernicus/blob/master/gophermap.sample,
+  https://neovim.io/, https://sylvaindurand.org/gemini-and-hugo/, https://tildeverse.org/,
+  https://github.com/NicholasSynovic/nsynovic.dev]
 
 draft: false
 
