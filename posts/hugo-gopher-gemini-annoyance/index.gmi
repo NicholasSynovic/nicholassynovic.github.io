@@ -88,7 +88,7 @@ For those that are interested in hosting a Gemini and/or Gopher site, I
 encourage the usage of these servers as it takes the problems of hosting content
 (maintainence, privacy, port forwarding, etc.) off of your shoulders
 
-## The End?
+## The End
 
 If you ware interested in doing something similar, here is a link to my websites
 source code on GitHub \[13\]. There you can see my templates, scripts, and

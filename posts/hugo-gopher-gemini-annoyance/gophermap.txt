@@ -21,7 +21,7 @@ That was anticlimatic wasn&rsquo;t it? Again, some formatting of the provided te
 The new problem, was how to distribute this site.
 PubNix: What&rsquo;s Old is New Again In my research of both the Gopher and Gemini protocols, I found out about PubNixs: community ran servers that run on low powered machines. These servers are a modern implementation of the time sharing servers of yore where there were a few large mainframes in the country that only a few people could log into at a time. A subset of these PubNixs is the tildeverse [12]. These are very community oriented servers that offer free webhosting of the Gemini, Gopher, HTTP, and Spartan sites. All that&rsquo;s required is to create an account and start uploading.
 For those that are interested in hosting a Gemini and/or Gopher site, I encourage the usage of these servers as it takes the problems of hosting content (maintainence, privacy, port forwarding, etc.) off of your shoulders
-The End? If you ware interested in doing something similar, here is a link to my websites source code on GitHub [13]. There you can see my templates, scripts, and config options for generating Gemini, Gopher and HTTP sites. Best of luck, and happy hacking!
+The End If you ware interested in doing something similar, here is a link to my websites source code on GitHub [13]. There you can see my templates, scripts, and config options for generating Gemini, Gopher and HTTP sites. Best of luck, and happy hacking!
 Citations 
 
 h0. https://gohugo.io/	URL:https://gohugo.io/
