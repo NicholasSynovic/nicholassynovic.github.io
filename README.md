@@ -14,15 +14,17 @@
 
 ## Gopher, Gemini, Spartan, etc. Protocol Support
 
-This site supports the `gopher`, `gemini`, `spartan`, and other *small* protocols.
+This site supports the `gopher`, `gemini`, `spartan`, and other *small*
+protocols.
 
 To build directories for each protocol:
 
 1. Clone this repository
-1. Checkout the `gh-pages` branch
-1. Run `./buildGopherGemini.bash`
+2. Checkout the `gh-pages` branch
+3. Run `./buildGopherGemini.bash`
 
-Directories are named after 
+Directories are named after
+
 ## Develop and/or Contribute
 
 [https://nsynovic.dev](https://nsynovic.dev) is a static site that is built
