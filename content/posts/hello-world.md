@@ -25,13 +25,13 @@ toc: true
 show_reading_time: true
 ---
 
-# Hello World<a name="hello-world"></a>
+# Hello World
 
 > An introduction to me, this site, and the content I want to make.
 
 ______________________________________________________________________
 
-## Hi there!<a name="hi-there"></a>
+## Hi there!
 
 My name is Nicholas M. Synovic.
 
@@ -64,7 +64,7 @@ Club \[8\] as well as a student ambassador for Intel's OneAPI platform \[9\].
 
 For further information on how to contact me, see my Contact page \[10\].
 
-## What's up with this site?<a name="whats-up-with-this-site"></a>
+## What's up with this site?
 
 This site is generated from Markdown using Hugo \[11\] and the Ananke theme
 \[12\].
@@ -80,7 +80,7 @@ are mirrored on my the Gopher and Gemini versions of this site, as well as my
 Dev.to \[18\] page. In addition, I intend to use my account at `tilde.team`
 \[19\] to add an additional backup of the HTTP site there as well.
 
-## What content is coming?<a name="what-content-is-coming"></a>
+## What content is coming?
 
 I don't have a set plan at the moment, however, I intend to provide less
 academicly leaning posts on this site. Think more opinion pieces, tutorials, or
@@ -89,4 +89,4 @@ there are other platforms that are better at hosting multimedia content.
 
 ______________________________________________________________________
 
-## Citations<a name="citations"></a>
+## Citations
