@@ -17,3 +17,7 @@ show_comments: false
 toc: true
 show_reading_time: true
 ---
+
+## Table of Contents
+
+- [Table of Contents](#table-of-contents)
