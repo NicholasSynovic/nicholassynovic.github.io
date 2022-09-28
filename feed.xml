@@ -203,8 +203,8 @@ Citations availible at https://nsynovic.dev/posts/hello-world/</description></it
 &lt;ul>
 &lt;li>&lt;a href="https://nsynovic.dev/posts/feed.xml">RSS&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://tilde.team/~nosnow/posts/feed.xml">RSS #2&lt;/a>&lt;/li>
-&lt;li>&lt;a href="gopher://tilde.team/1/~nosnow%22">Gopher&lt;/a>&lt;/li>
-&lt;li>&lt;a href="gemini://tilde.team/~nosnow%22">Gemini&lt;/a>&lt;/li>
-&lt;li>&lt;a href="spartan://tilde.team/~nosnow%22">Spartan&lt;/a>&lt;/li>
+&lt;li>&lt;a href="gopher://tilde.team/1/~nosnow">Gopher&lt;/a>&lt;/li>
+&lt;li>&lt;a href="gemini://tilde.team/~nosnow">Gemini&lt;/a>&lt;/li>
+&lt;li>&lt;a href="spartan://tilde.team/~nosnow">Spartan&lt;/a>&lt;/li>
 &lt;/ul>
 Citations availible at https://nsynovic.dev/contact/</description></item></channel></rss>
