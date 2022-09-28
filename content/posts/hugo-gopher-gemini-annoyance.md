@@ -5,7 +5,7 @@ description: My story with setting up a Gopher and Gemini compatible website pow
 summary: My story with setting up a Gopher and Gemini compatible website powered by
   Hugo
 
-categories: [jamstack, gopher, gemini, webdev]
+categories: [jamstack, gopher, gemini, webdev, blog]
 citations: [https://gohugo.io/, https://pages.github.com/, https://domains.google.com/,
   https://tinyurl.com/mrcttsj3, https://tinyurl.com/2p8wu35v, https://en.wikipedia.org/wiki/Gopher_(protocol),
   https://gemini.circumlunar.space/, https://jfm.carcosa.net/blog/computing/hugo-gopher/,

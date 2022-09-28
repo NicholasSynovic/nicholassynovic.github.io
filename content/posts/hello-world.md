@@ -3,7 +3,7 @@ title: Hello World
 description: An introduction to me, this site, and the content I want to make.
 summary: An introduction to me, this site, and the content I want to make.
 
-categories: [hello, introduction, first-post, personal]
+categories: [hello, introduction, first-post, personal, blog]
 citations: [https://luc.edu, https://ssl.cs.luc.edu, https://conf.researchr.org/home/ase-2022,
   https://arxiv.org/abs/2207.11767, https://www.purdue.edu/, https://lakescommunityhs.rschoolteams.com/page/3455,
   https://www.instagram.com/p/B7oj2NNJMrc/, https://www.medline.com/, https://loyolaaiclub.github.io,
