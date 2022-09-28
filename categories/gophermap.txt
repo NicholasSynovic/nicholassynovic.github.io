@@ -32,5 +32,13 @@
 
 1blog	/categories/blog
 
+1summary	/categories/summary
+
+1meta	/categories/meta
+
+1acm sigcomm	/categories/acm-sigcomm
+
+1acm	/categories/acm
+
 
 .
