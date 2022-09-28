@@ -30,5 +30,7 @@
 
 1gemini	/categories/gemini
 
+1blog	/categories/blog
+
 
 .
