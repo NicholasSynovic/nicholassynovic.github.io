@@ -44,6 +44,6 @@ ______________________________________________________________________
 
 - [RSS](https://nsynovic.dev/posts/feed.xml)
 - [RSS #2](https://tilde.team/~nosnow/posts/feed.xml)
-- [Gopher](gopher://tilde.team/1/~nosnow%22)
-- [Gemini](gemini://tilde.team/~nosnow%22)
-- [Spartan](spartan://tilde.team/~nosnow%22)
+- [Gopher](gopher://tilde.team/1/~nosnow)
+- [Gemini](gemini://tilde.team/~nosnow)
+- [Spartan](spartan://tilde.team/~nosnow)
