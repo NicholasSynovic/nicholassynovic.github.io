@@ -55,11 +55,11 @@ For the summary of the paper, go to the [Summary](#summary) section of this arti
 
 ### Category
 
-> What type of paper is this?
+> What type of paper is this work?
 
 ### Context
 
-> What other papers is it related to?
+> What other *types* of papers is the work related to?
 
 ### Correctness
 
@@ -67,7 +67,7 @@ For the summary of the paper, go to the [Summary](#summary) section of this arti
 
 ### Contributions
 
-> What are the authors main contributions?
+> What are the author's main contributions?
 
 ### Clarity
 
@@ -76,8 +76,6 @@ For the summary of the paper, go to the [Summary](#summary) section of this arti
 ---
 
 ## Second Pass
-
-> Read the paper with greater care by ignore details (e.g. proofs)
 
 ### Figures, Diagrams, Illustrations, and Graphs
 
@@ -88,12 +86,14 @@ For the summary of the paper, go to the [Summary](#summary) section of this arti
 
 > Mark relevant work for review
 
+The following relevant work can be found in the [Citations](#citations) section of this article.
+
 ---
 
 ## Third Pass
 
-> A virtual re-implementation of the paper
-
+> This section can only be complete after a virtual re-implementation of the paper
+>
 ### Author Assumptions
 
 > What assumptions does the author(s) make? Are they justified assumptions?
