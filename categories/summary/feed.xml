@@ -1,6 +1,153 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>summary on Nicholas M. Synovic</title><link>https://nsynovic.dev/categories/summary/</link><description>Recent content in summary on Nicholas M. Synovic</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Nicholas M. Synovic</copyright><lastBuildDate>Wed, 28 Sep 2022 20:07:40 -0500</lastBuildDate><atom:link href="https://nsynovic.dev/categories/summary/feed.xml" rel="self" type="application/rss+xml"/><item><title>A summary of Going deeper with convolutions by Christian Szegedy etal.</title><link>https://nsynovic.dev/summaries/going-deeper-with-convolutions/</link><pubDate>Wed, 28 Sep 2022 20:07:40 -0500</pubDate><guid>https://nsynovic.dev/summaries/going-deeper-with-convolutions/</guid><description>&lt;h1 id="a-summary-of-going-deeper-with-convolutions">A summary of &lt;em>Going deeper with convolutions&lt;/em>&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>summary on Nicholas M. Synovic</title><link>https://nsynovic.dev/categories/summary/</link><description>Recent content in summary on Nicholas M. Synovic</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Nicholas M. Synovic</copyright><lastBuildDate>Wed, 28 Sep 2022 22:40:46 -0500</lastBuildDate><atom:link href="https://nsynovic.dev/categories/summary/feed.xml" rel="self" type="application/rss+xml"/><item><title>A summary of Very Deept Cnvolutional Networks for Large-Scale Image Recognition by Karen Simonyan and Andrew Zisserman</title><link>https://nsynovic.dev/summaries/very-deep-convolutional-networks-for-large-scale-image-recognition/</link><pubDate>Wed, 28 Sep 2022 22:40:46 -0500</pubDate><guid>https://nsynovic.dev/summaries/very-deep-convolutional-networks-for-large-scale-image-recognition/</guid><description>&lt;h1 id="a-summary-of-very-deept-cnvolutional-networks-for-large-scale-image-recognition-by-karen-simonyan-and-andrew-zisserman">A summary of &lt;em>Very Deept Cnvolutional Networks for Large-Scale Image Recognition&lt;/em> by Karen Simonyan and Andrew Zisserman&lt;/h1>
 &lt;blockquote>
-&lt;p>Christian Szegedy etal; INSERT DOI&lt;/p>
+&lt;p>Author names
+&lt;a href="https://doi.org/10.48550/arXiv.1409.1556">https://doi.org/10.48550/arXiv.1409.1556&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;p>For the summary of the paper, go to the &lt;a href="#summary">Summary&lt;/a> section of this
+article.&lt;/p>
+&lt;h2 id="table-of-contents">Table of Contents&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="#a-summary-of-very-deept-cnvolutional-networks-for-large-scale-image-recognition-by-karen-simonyan-and-andrew-zisserman">A summary of &lt;em>Very Deept Cnvolutional Networks for Large-Scale Image Recognition&lt;/em> by Karen Simonyan and Andrew Zisserman&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#table-of-contents">Table of Contents&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#first-pass">First Pass&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#category">Category&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#context">Context&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#contributions">Contributions&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#second-pass">Second Pass&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#background-work">Background Work&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#motivation">Motivation&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#clarity">Clarity&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#relevant-work">Relevant Work&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#third-pass">Third Pass&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#author-assumptions">Author Assumptions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#correctness">Correctness&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#discussion-of-the-proofs">Discussion of the Proofs&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#how-would-i-present-the-ideas">How Would I Present the Idea(s)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#future-directions">Future Directions&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#summary">Summary&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#summarization-technique">Summarization Technique&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#citations">Citations&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="first-pass">First Pass&lt;/h2>
+&lt;blockquote>
+&lt;p>Discussion about the title, abstract, introduction, section and sub-section
+headings, and conclusion&lt;/p>
+&lt;/blockquote>
+&lt;p>The paper &lt;em>Very Deep Convolutional Networks for Large Scale Image Recognition&lt;/em>
+by Karen Simonyan and ndrew Zissernman discusses the SOTA performance of their
+model in the 2014 ImageNet Challenge on localisation and classification tasks.
+They discuss that be extending the depth of convolutional neural networks to 16
+up to 19 layers, with a 3x3 filter size, SOTA performance is possible without
+redeveloping the architecture of existing convolutional neural networks. This is
+in contrast to &lt;a href="going-deeper-with-convolutions.md">Szegedy&amp;rsquo;s work&lt;/a> who proposes
+the Inception architecture for classification and object detection; with which
+the reference implementation also came first in the 2014 ImageNet Challenge in
+its respective tasks. Simoyan et al. discuss the architecture and training that
+went into their model (VGG) and how to architect future models to perform as
+well or better.&lt;/p>
+&lt;h3 id="category">Category&lt;/h3>
+&lt;blockquote>
+&lt;p>What type of paper is this work?&lt;/p>
+&lt;/blockquote>
+&lt;p>This is both a computer vision model evaluation and architecture paper.&lt;/p>
+&lt;h3 id="context">Context&lt;/h3>
+&lt;blockquote>
+&lt;p>What other &lt;em>types&lt;/em> of papers is the work related to?&lt;/p>
+&lt;/blockquote>
+&lt;p>This paper is most closely related to others who publish work regarding SOTA
+performance on CV architecture and models.&lt;/p>
+&lt;h3 id="contributions">Contributions&lt;/h3>
+&lt;blockquote>
+&lt;p>What are the author&amp;rsquo;s main contributions?&lt;/p>
+&lt;/blockquote>
+&lt;p>Their main contributions is an exploration of depth in traditional convulational
+neural networks to achieve SOTA performance.&lt;/p>
+&lt;hr>
+&lt;h2 id="second-pass">Second Pass&lt;/h2>
+&lt;h2 id="background-work">Background Work&lt;/h2>
+&lt;blockquote>
+&lt;p>What has been done prior to this paper?&lt;/p>
+&lt;/blockquote>
+&lt;p>Prior work has gone into optimizing the width and intial convulations of
+convultional neural networks.&lt;/p>
+&lt;p>&lt;a href="going-deeper-with-convolutions.md">Szegedy et al.&lt;/a> proposed a new architecture
+(Inception) that achieved SOTA performance in the 2014 ImageNet Challenge. Else,
+Krizhevsky et al. [2] and others have proposed improvments to the
+convulational neural network architecture.&lt;/p>
+&lt;h2 id="motivation">Motivation&lt;/h2>
+&lt;blockquote>
+&lt;p>Why should we care about this paper?&lt;/p>
+&lt;/blockquote>
+&lt;p>We should care about the authors work as increasing the depth of a neural
+network by their proposed architecture allows for easy expansion of existing
+convulational neural networks without redesigning the libraries used to create
+them.&lt;/p>
+&lt;h3 id="figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/h3>
+&lt;blockquote>
+&lt;p>Are the axes properly labeled? Are results shown with error bars, so that
+conclusions are statistically significant?&lt;/p>
+&lt;/blockquote>
+&lt;p>The tables that are presented are easy to read, but can be improved upon. Often,
+multiple rows will correspond with a single model configuration. This is fine,
+however, it is difficult to make out what configuration each row corresponds to.&lt;/p>
+&lt;h3 id="clarity">Clarity&lt;/h3>
+&lt;blockquote>
+&lt;p>Is the paper well written?&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="relevant-work">Relevant Work&lt;/h3>
+&lt;blockquote>
+&lt;p>Mark relevant work for review&lt;/p>
+&lt;/blockquote>
+&lt;p>The following relevant work can be found in the &lt;a href="#citations">Citations&lt;/a> section
+of this article.&lt;/p>
+&lt;hr>
+&lt;h2 id="third-pass">Third Pass&lt;/h2>
+&lt;blockquote>
+&lt;p>This section can only be complete after a virtual re-implementation of the
+paper&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="author-assumptions">Author Assumptions&lt;/h3>
+&lt;blockquote>
+&lt;p>What assumptions does the author(s) make? Are they justified assumptions?&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="correctness">Correctness&lt;/h3>
+&lt;blockquote>
+&lt;p>Do the assumptions seem valid?&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="discussion-of-the-proofs">Discussion of the Proofs&lt;/h3>
+&lt;h3 id="how-would-i-present-the-ideas">How Would I Present the Idea(s)&lt;/h3>
+&lt;h3 id="future-directions">Future Directions&lt;/h3>
+&lt;blockquote>
+&lt;p>My own proposed future directions for the work&lt;/p>
+&lt;/blockquote>
+&lt;hr>
+&lt;h2 id="summary">Summary&lt;/h2>
+&lt;blockquote>
+&lt;p>A summary of the paper&lt;/p>
+&lt;/blockquote>
+&lt;hr>
+&lt;h2 id="summarization-technique">Summarization Technique&lt;/h2>
+&lt;p>This paper was summarized using the technique proposed by S. Keshav in his work
+&lt;em>How to Read a Paper&lt;/em> [0].&lt;/p>
+&lt;h2 id="citations">Citations&lt;/h2>
+Citations availible at https://nsynovic.dev/summaries/very-deep-convolutional-networks-for-large-scale-image-recognition/</description></item><item><title>A summary of Going deeper with convolutions by Christian Szegedy et al..</title><link>https://nsynovic.dev/summaries/going-deeper-with-convolutions/</link><pubDate>Wed, 28 Sep 2022 20:07:40 -0500</pubDate><guid>https://nsynovic.dev/summaries/going-deeper-with-convolutions/</guid><description>&lt;h1 id="a-summary-of-going-deeper-with-convolutions">A summary of &lt;em>Going deeper with convolutions&lt;/em>&lt;/h1>
+&lt;blockquote>
+&lt;p>Christian Szegedy et al.;
+&lt;a href="https://doi.org/10.48550/arXiv.1409.4842">https://doi.org/10.48550/arXiv.1409.4842&lt;/a>&lt;/p>
 &lt;/blockquote>
 &lt;p>For the summary of the paper, go to the &lt;a href="#summary">Summary&lt;/a> section of this
 article.&lt;/p>
@@ -42,7 +189,7 @@ article.&lt;/p>
 &lt;p>Discussion about the title, abstract, introduction, section and sub-section
 headings, and conclusion&lt;/p>
 &lt;/blockquote>
-&lt;p>The paper &lt;em>Going deeper with convolutions&lt;/em> by Christian Szegedy etal [1]
+&lt;p>The paper &lt;em>Going deeper with convolutions&lt;/em> by Christian Szegedy et al. [1]
 describes a 2014 state of the art computer vision model (on the ImageNet
 Large-Scale Visual Recognition Challenge) called GoogLeNet architected based on
 Hebbian principles (i.e. neruons that fire together, are wired together)and a
@@ -51,7 +198,7 @@ neuroscience principles and aims to be a more power effiecient model for mobile
 devices by limiting the computations during infrencing. Additionally, their
 model is deep but not wide and is considered &amp;ldquo;sparse&amp;rdquo; by the authors. In other
 words, there are as few nodes as possible within the neural network.&lt;/p>
-&lt;p>Szegedy etal&amp;rsquo;s contributions are a state of the art computer vision model that
+&lt;p>Szegedy et al.&amp;rsquo;s contributions are a state of the art computer vision model that
 provides experimental evidence that, &amp;ldquo;&amp;hellip; Approximating the expected optimal
 sparse structure by readily avilible dense building blocks is a viable method
 for improving neural networks for computer vision&amp;rdquo;. This means that this model
@@ -74,7 +221,7 @@ Challenge.&lt;/p>
 &lt;blockquote>
 &lt;p>What are the author&amp;rsquo;s main contributions?&lt;/p>
 &lt;/blockquote>
-&lt;p>Szegedy etal&amp;rsquo;s contributions are:&lt;/p>
+&lt;p>Szegedy et al.&amp;rsquo;s contributions are:&lt;/p>
 &lt;ul>
 &lt;li>A computer vision model architecture (Inception) that is both sparse and aims
 to be computationally efficient on mobile (non-server) devices,&lt;/li>
@@ -189,7 +336,7 @@ given to support this.&lt;/p>
 &lt;blockquote>
 &lt;p>A summary of the paper&lt;/p>
 &lt;/blockquote>
-&lt;p>The paper &lt;em>Going deeper with convolutions&lt;/em> by Szegedy etal [1] introduces a
+&lt;p>The paper &lt;em>Going deeper with convolutions&lt;/em> by Szegedy et al. [1] introduces a
 computer vision model architecture called Inception and a reference model called
 GoogLeNet.&lt;/p>
 &lt;p>Inception is a model architecuture that is both sparse and (attempts to be)

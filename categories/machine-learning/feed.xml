@@ -1,6 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>machine learning on Nicholas M. Synovic</title><link>https://nsynovic.dev/categories/machine-learning/</link><description>Recent content in machine learning on Nicholas M. Synovic</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Nicholas M. Synovic</copyright><lastBuildDate>Wed, 28 Sep 2022 20:07:40 -0500</lastBuildDate><atom:link href="https://nsynovic.dev/categories/machine-learning/feed.xml" rel="self" type="application/rss+xml"/><item><title>A summary of Going deeper with convolutions by Christian Szegedy etal.</title><link>https://nsynovic.dev/summaries/going-deeper-with-convolutions/</link><pubDate>Wed, 28 Sep 2022 20:07:40 -0500</pubDate><guid>https://nsynovic.dev/summaries/going-deeper-with-convolutions/</guid><description>&lt;h1 id="a-summary-of-going-deeper-with-convolutions">A summary of &lt;em>Going deeper with convolutions&lt;/em>&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>machine learning on Nicholas M. Synovic</title><link>https://nsynovic.dev/categories/machine-learning/</link><description>Recent content in machine learning on Nicholas M. Synovic</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Nicholas M. Synovic</copyright><lastBuildDate>Wed, 28 Sep 2022 20:07:40 -0500</lastBuildDate><atom:link href="https://nsynovic.dev/categories/machine-learning/feed.xml" rel="self" type="application/rss+xml"/><item><title>A summary of Going deeper with convolutions by Christian Szegedy et al..</title><link>https://nsynovic.dev/summaries/going-deeper-with-convolutions/</link><pubDate>Wed, 28 Sep 2022 20:07:40 -0500</pubDate><guid>https://nsynovic.dev/summaries/going-deeper-with-convolutions/</guid><description>&lt;h1 id="a-summary-of-going-deeper-with-convolutions">A summary of &lt;em>Going deeper with convolutions&lt;/em>&lt;/h1>
 &lt;blockquote>
-&lt;p>Christian Szegedy etal; INSERT DOI&lt;/p>
+&lt;p>Christian Szegedy et al.;
+&lt;a href="https://doi.org/10.48550/arXiv.1409.4842">https://doi.org/10.48550/arXiv.1409.4842&lt;/a>&lt;/p>
 &lt;/blockquote>
 &lt;p>For the summary of the paper, go to the &lt;a href="#summary">Summary&lt;/a> section of this
 article.&lt;/p>
@@ -42,7 +43,7 @@ article.&lt;/p>
 &lt;p>Discussion about the title, abstract, introduction, section and sub-section
 headings, and conclusion&lt;/p>
 &lt;/blockquote>
-&lt;p>The paper &lt;em>Going deeper with convolutions&lt;/em> by Christian Szegedy etal [1]
+&lt;p>The paper &lt;em>Going deeper with convolutions&lt;/em> by Christian Szegedy et al. [1]
 describes a 2014 state of the art computer vision model (on the ImageNet
 Large-Scale Visual Recognition Challenge) called GoogLeNet architected based on
 Hebbian principles (i.e. neruons that fire together, are wired together)and a
@@ -51,7 +52,7 @@ neuroscience principles and aims to be a more power effiecient model for mobile
 devices by limiting the computations during infrencing. Additionally, their
 model is deep but not wide and is considered &amp;ldquo;sparse&amp;rdquo; by the authors. In other
 words, there are as few nodes as possible within the neural network.&lt;/p>
-&lt;p>Szegedy etal&amp;rsquo;s contributions are a state of the art computer vision model that
+&lt;p>Szegedy et al.&amp;rsquo;s contributions are a state of the art computer vision model that
 provides experimental evidence that, &amp;ldquo;&amp;hellip; Approximating the expected optimal
 sparse structure by readily avilible dense building blocks is a viable method
 for improving neural networks for computer vision&amp;rdquo;. This means that this model
@@ -74,7 +75,7 @@ Challenge.&lt;/p>
 &lt;blockquote>
 &lt;p>What are the author&amp;rsquo;s main contributions?&lt;/p>
 &lt;/blockquote>
-&lt;p>Szegedy etal&amp;rsquo;s contributions are:&lt;/p>
+&lt;p>Szegedy et al.&amp;rsquo;s contributions are:&lt;/p>
 &lt;ul>
 &lt;li>A computer vision model architecture (Inception) that is both sparse and aims
 to be computationally efficient on mobile (non-server) devices,&lt;/li>
@@ -189,7 +190,7 @@ given to support this.&lt;/p>
 &lt;blockquote>
 &lt;p>A summary of the paper&lt;/p>
 &lt;/blockquote>
-&lt;p>The paper &lt;em>Going deeper with convolutions&lt;/em> by Szegedy etal [1] introduces a
+&lt;p>The paper &lt;em>Going deeper with convolutions&lt;/em> by Szegedy et al. [1] introduces a
 computer vision model architecture called Inception and a reference model called
 GoogLeNet.&lt;/p>
 &lt;p>Inception is a model architecuture that is both sparse and (attempts to be)
