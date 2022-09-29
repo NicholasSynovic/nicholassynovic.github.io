@@ -32,13 +32,23 @@
 
 1blog	/categories/blog
 
-1summary	/categories/summary
-
 1meta	/categories/meta
 
 1acm sigcomm	/categories/acm-sigcomm
 
 1acm	/categories/acm
+
+1summary	/categories/summary
+
+1ml	/categories/ml
+
+1machine learning architecture	/categories/machine-learning-architecture
+
+1machine learning	/categories/machine-learning
+
+1cv	/categories/cv
+
+1computer vision	/categories/computer-vision
 
 
 .

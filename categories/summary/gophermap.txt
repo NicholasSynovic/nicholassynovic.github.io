@@ -6,6 +6,8 @@
 > These posts are mirrored from my HTTP site.
 
 
+1A summary of Going deeper with convolutions by Christian Szegedy etal.	/summaries/going-deeper-with-convolutions
+
 1A summary of How to Read a Paper by S. Keshav	/summaries/how-to-read-a-paper
 
 
