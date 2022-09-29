@@ -1,10 +1,10 @@
 ---
-title: 'A summary of CHANGE ME'
-description: 'A summary of CHANGE ME'
-summary: 'A summary of CHANGE ME'
+title: 'A summary of CHANGE ME by AUTHOR'
+description: 'A summary of CHANGE ME by AUTHOR'
+summary: 'A summary of CHANGE ME by AUTHOR'
 
-categories: ['summary', '']
-citations: ['https://doi.org/10.1145/1273445.1273458']
+categories: [summary,]
+citations: [https://doi.org/10.1145/1273445.1273458]
 
 draft: false
 
@@ -32,14 +32,14 @@ For the summary of the paper, go to the [Summary](#summary) section of this arti
   - [First Pass](#first-pass)
     - [Category](#category)
     - [Context](#context)
-    - [Correctness](#correctness)
     - [Contributions](#contributions)
-    - [Clarity](#clarity)
   - [Second Pass](#second-pass)
     - [Figures, Diagrams, Illustrations, and Graphs](#figures-diagrams-illustrations-and-graphs)
+    - [Clarity](#clarity)
     - [Relevant Work](#relevant-work)
   - [Third Pass](#third-pass)
     - [Author Assumptions](#author-assumptions)
+    - [Correctness](#correctness)
     - [Discussion of the Proofs](#discussion-of-the-proofs)
     - [How Would I Present the Idea(s)](#how-would-i-present-the-ideas)
     - [Future Directions](#future-directions)
@@ -61,17 +61,10 @@ For the summary of the paper, go to the [Summary](#summary) section of this arti
 
 > What other *types* of papers is the work related to?
 
-### Correctness
-
-> Do the assumptions seem valid?
 
 ### Contributions
 
 > What are the author's main contributions?
-
-### Clarity
-
-> Is the paper well written?
 
 ---
 
@@ -81,6 +74,10 @@ For the summary of the paper, go to the [Summary](#summary) section of this arti
 
 > Are the axes properly labeled?
 > Are results shown with error bars, so that conclusions are statistically significant?
+
+### Clarity
+
+> Is the paper well written?
 
 ### Relevant Work
 
@@ -97,6 +94,10 @@ The following relevant work can be found in the [Citations](#citations) section 
 ### Author Assumptions
 
 > What assumptions does the author(s) make? Are they justified assumptions?
+
+### Correctness
+
+> Do the assumptions seem valid?
 
 ### Discussion of the Proofs
 
