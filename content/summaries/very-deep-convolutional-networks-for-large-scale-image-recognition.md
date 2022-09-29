@@ -8,7 +8,8 @@ summary: A summary of Very Deept Cnvolutional Networks for Large-Scale Image Rec
 
 categories: [summary, vgg, cv, computer vision]
 citations: [https://doi.org/10.1145/1273445.1273458, https://doi.org/10.48550/arXiv.1409.1556,
-  https://doi.org/10.1145/3065386]
+  https://doi.org/10.1145/3065386, https://doi.org/10.1162/neco.1989.1.4.541, https://doi.org/10.1145/3065386,
+  https://doi.org/10.1007/978-3-319-10590-1_53, https://doi.org/10.48550/arXiv.1312.6229]
 
 draft: false
 
@@ -22,7 +23,7 @@ toc: true
 show_reading_time: true
 ---
 
-# A summary of *Very Deept Cnvolutional Networks for Large-Scale Image Recognition* by Karen Simonyan and Andrew Zisserman
+# A summary of \*Very Deept Cnvolutional Networks for Large-Scale Image Recognition by Karen Simonyan and Andrew Zisserman
 
 > Author names
 > [https://doi.org/10.48550/arXiv.1409.1556](https://doi.org/10.48550/arXiv.1409.1556)
@@ -32,7 +33,7 @@ article.
 
 ## Table of Contents
 
-- [A summary of *Very Deept Cnvolutional Networks for Large-Scale Image Recognition* by Karen Simonyan and Andrew Zisserman](#a-summary-of-very-deept-cnvolutional-networks-for-large-scale-image-recognition-by-karen-simonyan-and-andrew-zisserman)
+- [A summary of \*Very Deept Cnvolutional Networks for Large-Scale Image Recognition by Karen Simonyan and Andrew Zisserman](#a-summary-of-very-deept-cnvolutional-networks-for-large-scale-image-recognition-by-karen-simonyan-and-andrew-zisserman)
   - [Table of Contents](#table-of-contents)
   - [First Pass](#first-pass)
     - [Category](#category)
@@ -47,8 +48,6 @@ article.
   - [Third Pass](#third-pass)
     - [Author Assumptions](#author-assumptions)
     - [Correctness](#correctness)
-    - [Discussion of the Proofs](#discussion-of-the-proofs)
-    - [How Would I Present the Idea(s)](#how-would-i-present-the-ideas)
     - [Future Directions](#future-directions)
   - [Summary](#summary)
   - [Summarization Technique](#summarization-technique)
@@ -127,10 +126,14 @@ them.
 The tables that are presented are easy to read, but can be improved upon. Often,
 multiple rows will correspond with a single model configuration. This is fine,
 however, it is difficult to make out what configuration each row corresponds to.
+Additionally, the tables make comparing error percentages easy across model
+configurations.
 
 ### Clarity
 
 > Is the paper well written?
+
+The paper is well written and can be understood.
 
 ### Relevant Work
 
@@ -138,6 +141,14 @@ however, it is difficult to make out what configuration each row corresponds to.
 
 The following relevant work can be found in the [Citations](#citations) section
 of this article.
+
+- Classical convultional neural network architecture - \[3\]
+- GoogLeNet - \[2\]
+- Clarifai
+- ImageNet classification with deep convolutional neural net- works \[4\]
+- Isotropically-rescaled training image
+- ImageNet 2013 submissions - \[5\], \[6\] Localization and Detection using
+  Convolutional Networks
 
 ______________________________________________________________________
 
@@ -150,23 +161,47 @@ ______________________________________________________________________
 
 > What assumptions does the author(s) make? Are they justified assumptions?
 
+The authors assume that the performance improvements that convulational neural
+networks are achieving are based off of larger datasets and better compute
+optimization.
+
 ### Correctness
 
 > Do the assumptions seem valid?
 
-### Discussion of the Proofs
-
-### How Would I Present the Idea(s)
+I agree with their assumption. However, \[2\] created a SOTA model utilizing a
+new architecture, rather than improving upon an existing one.
 
 ### Future Directions
 
 > My own proposed future directions for the work
+
+I would love to try and optimize the input layer of convulational neural
+networks by having a computation that not only looks at the color space, but
+also the opacity of an image. This would allow for images to have their
+background removed for the purposes of classification by making the background
+less opaque than the foreground.
 
 ______________________________________________________________________
 
 ## Summary
 
 > A summary of the paper
+
+The paper *Very Deep Convolutional Networks for Large Scale Image Recognition*
+by Karen Simonyan and ndrew Zissernman discusses the SOTA performance of their
+model in the 2014 ImageNet Challenge on localisation and classification tasks.
+They discuss that be extending the depth of convolutional neural networks to 16
+up to 19 layers, with a 3x3 filter size, SOTA performance is possible without
+redeveloping the architecture of existing convolutional neural networks. Their
+work builds of previous efforts of improving convulational neural network
+performance by optimizing the filter size and intial layer, but contrasts
+contemporaries \[2\] by not developing a new architecture. Their work has
+importance as it shows that the existing convulational neural network
+architecture is capable of SOTA performance by increasing the depth of the
+model. They justify this by trying six different model configurations, and
+finding that models with 16 to 19 layers performed best on the 2014 ImageNet
+Challenge classification and localisation challenges.
 
 ______________________________________________________________________
 
