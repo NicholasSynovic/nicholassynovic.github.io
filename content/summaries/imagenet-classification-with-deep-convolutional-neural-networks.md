@@ -1,0 +1,173 @@
+---
+title: A summary of ImageNet Classification with Deep Convolutional Neural Networks
+  by Krizhevsky et al.
+description: A summary of ImageNet Classification with Deep Convolutional Neural Networks
+  by Krizhevsky et al.
+summary: A summary of ImageNet Classification with Deep Convolutional Neural Networks
+  by Krizhevsky et al.
+
+categories: [summary, deep learning, computer vision, ImageNet, GPU]
+citations: [https://doi.org/10.1145/1273445.1273458]
+
+draft: false
+
+date: 2022-09-29T14:33:01-05:00
+featured_image: ''
+include_toc: true
+markup: md
+outputs: []
+show_comments: false
+toc: true
+show_reading_time: true
+---
+
+# A summary of *ImageNet Classification with Deep Convolutional Neural Networks*
+
+> Krizhevsky et al.;
+> [https://doi.org/10.1145/3065386](https://doi.org/10.1145/3065386)
+
+For the summary of the paper, go to the [Summary](#summary) section of this
+article.
+
+## Table of Contents
+
+- [A summary of *ImageNet Classification with Deep Convolutional Neural Networks*](#a-summary-of-imagenet-classification-with-deep-convolutional-neural-networks)
+  - [Table of Contents](#table-of-contents)
+  - [First Pass](#first-pass)
+    - [Category](#category)
+    - [Context](#context)
+    - [Contributions](#contributions)
+  - [Second Pass](#second-pass)
+  - [Background Work](#background-work)
+  - [Motivation](#motivation)
+    - [Figures, Diagrams, Illustrations, and Graphs](#figures-diagrams-illustrations-and-graphs)
+    - [Clarity](#clarity)
+    - [Relevant Work](#relevant-work)
+  - [Third Pass](#third-pass)
+    - [Author Assumptions](#author-assumptions)
+    - [Correctness](#correctness)
+    - [Discussion of the Proofs](#discussion-of-the-proofs)
+    - [How Would I Present the Idea(s)](#how-would-i-present-the-ideas)
+    - [Future Directions](#future-directions)
+  - [Summary](#summary)
+  - [Summarization Technique](#summarization-technique)
+  - [Citations](#citations)
+
+______________________________________________________________________
+
+## First Pass
+
+> Discussion about the title, abstract, introduction, section and sub-section
+> headings, and conclusion
+
+The paper *ImageNet Classification with Deep Convolutional Neural Networks* by
+Krizhevsky et al. discusses the AlexNet model and its architecture as well as
+its SOTA achievements in the 2012 ImageNet Challenge. The difference between
+AlexNet and other contestants was that the model relies on GPU training to train
+the convulational neural network model. By utilizing the GPU, training time can
+be accelerated significatnly more than what was previously possible. Their major
+contributions is that a large, deep convulational neural network is capable of
+achieving record-breaking resuls via supervised learning. They did not utilize
+unsupervised pre-training, but the authors suspect that it would improve the
+accuracy of the model.
+
+### Category
+
+> What type of paper is this work?
+
+This is a computer vision model evaluation and architecture paper.
+
+### Context
+
+> What other *types* of papers is the work related to?
+
+This paper is similar to others that have published about SOTA results from the
+ImageNet Challenge.
+
+### Contributions
+
+> What are the author's main contributions?
+
+Their main contributions were that training on GPUs allows for accelerated
+training, that large and deep convulutional neural networks are effective at
+clasifying images, and that removing layers does decrease the performance of
+models. Therefore, a larger, deeper model is applicable.
+
+______________________________________________________________________
+
+## Second Pass
+
+## Background Work
+
+> What has been done prior to this paper?
+
+Previous work on designing convulational neural networks and architectures.
+However, they were bounded by not being particularly deep.
+
+## Motivation
+
+> Why should we care about this paper?
+
+Because it is one of the key papers that demonstrates that large, deep,
+convulational neural networks are effective for image classification. As well as
+providing evidence that training on GPUs is not only effective but recommended
+for optimal performance.
+
+### Figures, Diagrams, Illustrations, and Graphs
+
+> Are the axes properly labeled? Are results shown with error bars, so that
+> conclusions are statistically significant?
+
+Nearly all of the figures are designed well, with the exception of Figure 2.
+Figure 2 is the model architecture of AlexNet. This figure suffers from
+information density and a three dimensional design which makes it hard to
+determin what is going on and in what dimension are images being manipulated.
+
+### Clarity
+
+> Is the paper well written?
+
+### Relevant Work
+
+> Mark relevant work for review
+
+The following relevant work can be found in the [Citations](#citations) section
+of this article.
+
+______________________________________________________________________
+
+## Third Pass
+
+> This section can only be complete after a virtual re-implementation of the
+> paper
+
+### Author Assumptions
+
+> What assumptions does the author(s) make? Are they justified assumptions?
+
+### Correctness
+
+> Do the assumptions seem valid?
+
+### Discussion of the Proofs
+
+### How Would I Present the Idea(s)
+
+### Future Directions
+
+> My own proposed future directions for the work
+
+______________________________________________________________________
+
+## Summary
+
+> A summary of the paper
+
+______________________________________________________________________
+
+## Summarization Technique
+
+This paper was summarized using the technique proposed by S. Keshav in his work
+*How to Read a Paper* \[0\].
+
+## Citations
