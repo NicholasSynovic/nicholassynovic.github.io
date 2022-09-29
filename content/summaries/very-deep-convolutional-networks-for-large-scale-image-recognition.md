@@ -1,13 +1,14 @@
 ---
 title: A summary of Very Deept Cnvolutional Networks for Large-Scale Image Recognition
-  by karen Simonyan and Andrew Zisserman
+  by Karen Simonyan and Andrew Zisserman
 description: A summary of Very Deept Cnvolutional Networks for Large-Scale Image Recognition
-  by karen Simonyan and Andrew Zisserman
+  by Karen Simonyan and Andrew Zisserman
 summary: A summary of Very Deept Cnvolutional Networks for Large-Scale Image Recognition
-  by karen Simonyan and Andrew Zisserman
+  by Karen Simonyan and Andrew Zisserman
 
 categories: [summary, vgg, cv, computer vision]
-citations: [https://doi.org/10.1145/1273445.1273458, https://doi.org/10.48550/arXiv.1409.1556]
+citations: [https://doi.org/10.1145/1273445.1273458, https://doi.org/10.48550/arXiv.1409.1556,
+  https://doi.org/10.1145/3065386]
 
 draft: false
 
@@ -21,16 +22,17 @@ toc: true
 show_reading_time: true
 ---
 
-# A summary of *TITLE*
+# A summary of *Very Deept Cnvolutional Networks for Large-Scale Image Recognition* by Karen Simonyan and Andrew Zisserman
 
-> Author names DOI
+> Author names
+> [https://doi.org/10.48550/arXiv.1409.1556](https://doi.org/10.48550/arXiv.1409.1556)
 
 For the summary of the paper, go to the [Summary](#summary) section of this
 article.
 
 ## Table of Contents
 
-- [A summary of *TITLE*](#a-summary-of-title)
+- [A summary of *Very Deept Cnvolutional Networks for Large-Scale Image Recognition* by Karen Simonyan and Andrew Zisserman](#a-summary-of-very-deept-cnvolutional-networks-for-large-scale-image-recognition-by-karen-simonyan-and-andrew-zisserman)
   - [Table of Contents](#table-of-contents)
   - [First Pass](#first-pass)
     - [Category](#category)
@@ -59,17 +61,38 @@ ______________________________________________________________________
 > Discussion about the title, abstract, introduction, section and sub-section
 > headings, and conclusion
 
+The paper *Very Deep Convolutional Networks for Large Scale Image Recognition*
+by Karen Simonyan and ndrew Zissernman discusses the SOTA performance of their
+model in the 2014 ImageNet Challenge on localisation and classification tasks.
+They discuss that be extending the depth of convolutional neural networks to 16
+up to 19 layers, with a 3x3 filter size, SOTA performance is possible without
+redeveloping the architecture of existing convolutional neural networks. This is
+in contrast to [Szegedy's work](going-deeper-with-convolutions.md) who proposes
+the Inception architecture for classification and object detection; with which
+the reference implementation also came first in the 2014 ImageNet Challenge in
+its respective tasks. Simoyan et al. discuss the architecture and training that
+went into their model (VGG) and how to architect future models to perform as
+well or better.
+
 ### Category
 
 > What type of paper is this work?
+
+This is both a computer vision model evaluation and architecture paper.
 
 ### Context
 
 > What other *types* of papers is the work related to?
 
+This paper is most closely related to others who publish work regarding SOTA
+performance on CV architecture and models.
+
 ### Contributions
 
 > What are the author's main contributions?
+
+Their main contributions is an exploration of depth in traditional convulational
+neural networks to achieve SOTA performance.
 
 ______________________________________________________________________
 
@@ -79,14 +102,31 @@ ______________________________________________________________________
 
 > What has been done prior to this paper?
 
+Prior work has gone into optimizing the width and intial convulations of
+convultional neural networks.
+
+[Szegedy et al.](going-deeper-with-convolutions.md) proposed a new architecture
+(Inception) that achieved SOTA performance in the 2014 ImageNet Challenge. Else,
+Krizhevsky et al. \[2\] and others have proposed improvments to the
+convulational neural network architecture.
+
 ## Motivation
 
 > Why should we care about this paper?
+
+We should care about the authors work as increasing the depth of a neural
+network by their proposed architecture allows for easy expansion of existing
+convulational neural networks without redesigning the libraries used to create
+them.
 
 ### Figures, Diagrams, Illustrations, and Graphs
 
 > Are the axes properly labeled? Are results shown with error bars, so that
 > conclusions are statistically significant?
+
+The tables that are presented are easy to read, but can be improved upon. Often,
+multiple rows will correspond with a single model configuration. This is fine,
+however, it is difficult to make out what configuration each row corresponds to.
 
 ### Clarity
 

@@ -1,7 +1,7 @@
 ---
-title: A summary of Going deeper with convolutions by Christian Szegedy etal.
-description: A summary of Going deeper with convolutions by Christian Szegedy etal.
-summary: A summary of Going deeper with convolutions by Christian Szegedy etal.
+title: A summary of Going deeper with convolutions by Christian Szegedy et al..
+description: A summary of Going deeper with convolutions by Christian Szegedy et al..
+summary: A summary of Going deeper with convolutions by Christian Szegedy et al..
 
 categories: [summary, computer vision, cv, ml, machine learning, machine learning
       architecture]
@@ -27,7 +27,7 @@ show_reading_time: true
 
 # A summary of *Going deeper with convolutions*
 
-> Christian Szegedy etal;
+> Christian Szegedy et al.;
 > [https://doi.org/10.48550/arXiv.1409.4842](https://doi.org/10.48550/arXiv.1409.4842)
 
 For the summary of the paper, go to the [Summary](#summary) section of this
@@ -60,7 +60,7 @@ ______________________________________________________________________
 > Discussion about the title, abstract, introduction, section and sub-section
 > headings, and conclusion
 
-The paper *Going deeper with convolutions* by Christian Szegedy etal \[1\]
+The paper *Going deeper with convolutions* by Christian Szegedy et al. \[1\]
 describes a 2014 state of the art computer vision model (on the ImageNet
 Large-Scale Visual Recognition Challenge) called GoogLeNet architected based on
 Hebbian principles (i.e. neruons that fire together, are wired together)and a
@@ -70,7 +70,7 @@ devices by limiting the computations during infrencing. Additionally, their
 model is deep but not wide and is considered "sparse" by the authors. In other
 words, there are as few nodes as possible within the neural network.
 
-Szegedy etal's contributions are a state of the art computer vision model that
+Szegedy et al.'s contributions are a state of the art computer vision model that
 provides experimental evidence that, "... Approximating the expected optimal
 sparse structure by readily avilible dense building blocks is a viable method
 for improving neural networks for computer vision". This means that this model
@@ -96,7 +96,7 @@ Challenge.
 
 > What are the author's main contributions?
 
-Szegedy etal's contributions are:
+Szegedy et al.'s contributions are:
 
 - A computer vision model architecture (Inception) that is both sparse and aims
   to be computationally efficient on mobile (non-server) devices,
@@ -224,7 +224,7 @@ ______________________________________________________________________
 
 > A summary of the paper
 
-The paper *Going deeper with convolutions* by Szegedy etal \[1\] introduces a
+The paper *Going deeper with convolutions* by Szegedy et al. \[1\] introduces a
 computer vision model architecture called Inception and a reference model called
 GoogLeNet.
 
