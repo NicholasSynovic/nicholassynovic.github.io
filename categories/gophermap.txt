@@ -46,9 +46,15 @@
 
 1vgg	/categories/vgg
 
+1cv	/categories/cv
+
 1summary	/categories/summary
 
-1cv	/categories/cv
+1ImageNet	/categories/imagenet
+
+1GPU	/categories/gpu
+
+1deep learning	/categories/deep-learning
 
 1computer vision	/categories/computer-vision
 
