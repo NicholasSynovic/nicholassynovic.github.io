@@ -27,7 +27,8 @@ show_reading_time: true
 
 # A summary of *Going deeper with convolutions*
 
-> Christian Szegedy etal; INSERT DOI
+> Christian Szegedy etal;
+> [https://doi.org/10.48550/arXiv.1409.4842](https://doi.org/10.48550/arXiv.1409.4842)
 
 For the summary of the paper, go to the [Summary](#summary) section of this
 article.
