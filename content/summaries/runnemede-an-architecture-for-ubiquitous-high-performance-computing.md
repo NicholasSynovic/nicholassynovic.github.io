@@ -7,7 +7,8 @@ summary: 'A summary of Runnemede: An Architecture for Ubiquitous High-Performanc
   Computing by Nicholas P. Carter et al.'
 
 categories: [summary, hpc, high performance computing, architecture, systems]
-citations: [https://doi.org/10.1145/1273445.1273458, https://doi.org/10.1109/HPCA.2013.6522319]
+citations: [https://doi.org/10.1145/1273445.1273458, https://doi.org/10.1109/HPCA.2013.6522319,
+  https://doi.org/10.1109/MM.2011.89]
 
 draft: false
 
@@ -46,9 +47,6 @@ article.
   - [Third Pass](#third-pass)
     - [Author Assumptions](#author-assumptions)
     - [Correctness](#correctness)
-    - [Discussion of the Proofs](#discussion-of-the-proofs)
-    - [How Would I Present the Idea(s)](#how-would-i-present-the-ideas)
-    - [Future Directions](#future-directions)
   - [Summary](#summary)
   - [Summarization Technique](#summarization-technique)
   - [Citations](#citations)
@@ -61,14 +59,14 @@ ______________________________________________________________________
 > headings, and conclusion
 
 The paper *Runnemede: An Architecture for Ubiquitous High-Performance Computing*
-by Nicholas P. Carter et al. describes the Runnemede high performance computing
-architecture targeting extrene-scale systems. This architecture was developed
-for the DARPA's Ubiquitous High-Performance Computing program. The authors
-describe multiple facets of the architecture including the networking, hardware
-and software design, the energy effeciencies of the architecture. They also
-evaluate the performance of the architecture as well. Their mainy contributions
-are a theoretical architecture that is well optimized for energy effiecieny on
-extra-scale computers.
+by Nicholas P. Carter et al. \[1\] describes the Runnemede high performance
+computing architecture targeting extrene-scale systems. This architecture was
+developed for the DARPA's Ubiquitous High-Performance Computing program. The
+authors describe multiple facets of the architecture including the networking,
+hardware and software design, the energy effeciencies of the architecture. They
+also evaluate the performance of the architecture as well. Their mainy
+contributions are a theoretical architecture that is well optimized for energy
+effiecieny on extra-scale computers.
 
 ### Category
 
@@ -108,17 +106,23 @@ computers, and HPC.
 
 The justification for this work is that there exists a theory that larger and
 larger HPC computers will require more and more power, without fully utilizing
-the entire device array. Additionally, this paper proposes an architecture
-focussed on an architecture that will
+the entire device array. Additionally, a test chip was designed, but never
+produced, called "Sunshine". By designing this chip, the authors were able to
+theoretically test the ideas presented in the paper as well as develop new ones
+for the architecture.
 
 ### Figures, Diagrams, Illustrations, and Graphs
 
 > Are the axes properly labeled? Are results shown with error bars, so that
 > conclusions are statistically significant?
 
+All of the figures and tables are clear and easy to understand.
+
 ### Clarity
 
 > Is the paper well written?
+
+The paper is well written and clear to understand.
 
 ### Relevant Work
 
@@ -126,6 +130,8 @@ focussed on an architecture that will
 
 The following relevant work can be found in the [Citations](#citations) section
 of this article.
+
+- \[2\]
 
 ______________________________________________________________________
 
@@ -138,23 +144,38 @@ ______________________________________________________________________
 
 > What assumptions does the author(s) make? Are they justified assumptions?
 
+The author's assumed that, "... The power consumed by logic is expected to scale
+well as feature sizes shrink, but not as well as transistor density, leading to
+the design of *overprovisioned, energy-limited* systems that contain more
+hardware than they can operate simultanously". In other words, systems will have
+more and more *power hungry* hardware that cannot be utilized in its entirety.
+Additionally, they assume that the current trend with DRAM will cause power
+consumption to decrement over time, but not fast enough.
+
 ### Correctness
 
 > Do the assumptions seem valid?
 
-### Discussion of the Proofs
-
-### How Would I Present the Idea(s)
-
-### Future Directions
-
-> My own proposed future directions for the work
+As the year is 2022, the current next generation hardware from NVIDIA, Intel,
+and AMD has been announced, all of which require immense power draw to operate.
+Additionally, DDR5 DRAM exists and consumes less power than the previous DDR4
+DRAM. Therefore, I agree with the assumptions of the authors.
 
 ______________________________________________________________________
 
 ## Summary
 
 > A summary of the paper
+
+The paper *Runnemede: An Architecture for Ubiquitous High-Performance Computing*
+by Nicholas P. Carter et al. \[1\] describes the Runnemede high performance
+computing architecture targeting extrene-scale systems. This architecture was
+developed for the DARPA's Ubiquitous High-Performance Computing program to
+address overprovisioned, energy limited HPC architecture designs. The authors
+proposed a theoretical architecture design, and justify it via benchmarking that
+they performed with simulations. Their work assumes (correctly in my opinion)
+that systems will continue to require more power to operate in order to achieve
+better performance.
 
 ______________________________________________________________________
 
