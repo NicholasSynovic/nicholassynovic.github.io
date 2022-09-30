@@ -47,7 +47,6 @@ article.
     - [Author Assumptions](#author-assumptions)
     - [Correctness](#correctness)
     - [Discussion of the Proofs](#discussion-of-the-proofs)
-    - [How Would I Present the Idea(s)](#how-would-i-present-the-ideas)
     - [Future Directions](#future-directions)
   - [Summary](#summary)
   - [Summarization Technique](#summarization-technique)
@@ -91,7 +90,8 @@ ImageNet Challenge.
 Their main contributions were that training on GPUs allows for accelerated
 training, that large and deep convulutional neural networks are effective at
 clasifying images, and that removing layers does decrease the performance of
-models. Therefore, a larger, deeper model is applicable.
+models. Therefore, a larger, deeper model is applicable. It should be noted that
+AlexNet was the largest model ever at the time of publication.
 
 ______________________________________________________________________
 
@@ -111,7 +111,10 @@ However, they were bounded by not being particularly deep.
 Because it is one of the key papers that demonstrates that large, deep,
 convulational neural networks are effective for image classification. As well as
 providing evidence that training on GPUs is not only effective but recommended
-for optimal performance.
+for optimal performance. Additionally it provides empirical evidence that
+removing a layer from a convolutional neural network is detrimental to the
+performance of the model. In other words, the more layers you add, the more
+potential there is for improvement.
 
 ### Figures, Diagrams, Illustrations, and Graphs
 
@@ -145,23 +148,66 @@ ______________________________________________________________________
 
 > What assumptions does the author(s) make? Are they justified assumptions?
 
+They assume that it is because of the larger compute devices and datasets that
+make these deep convolutional neural networks possible.
+
 ### Correctness
 
 > Do the assumptions seem valid?
 
+While true, [Szegedy et al.](going-deeper-with-convolutions.md) designed thier
+own architecture using unique algorithms not prevelant in existing convolutional
+neural networks.
+
 ### Discussion of the Proofs
 
-### How Would I Present the Idea(s)
+Their training involved both dropout and data augmentation.
+
+Dropout involves not using the outputs of neurons whose activation is less than
+0.5.
+
+Data augmentation involves manipulating the input images such that 5 244 x 244
+images are derived from one 256 x 256 image (e.g. the four corners and one
+centered). Additionally, PCA was done on the RGB channels of all of the images
+in the ImageNet 2010 and 2012 datasets. These eigenvectors were then added to
+each of the images respective color channels.
 
 ### Future Directions
 
 > My own proposed future directions for the work
+
+A reimplemenation of the work would be interesting, with particular respect to
+benchmarking training time, as the authors were limited by their GPU compute
+units' performance.
 
 ______________________________________________________________________
 
 ## Summary
 
 > A summary of the paper
+
+*Taken from [First Pass](#first-pass)*
+
+The paper *ImageNet Classification with Deep Convolutional Neural Networks* by
+Krizhevsky et al. \[1\] discusses the AlexNet model and its architecture as well
+as its SOTA achievements in the 2012 ImageNet Challenge. The difference between
+AlexNet and other contestants was that the model relies on GPU training to train
+the convulational neural network model as well as being a deep convolutional
+neural network.
+
+By utilizing the GPU, training time can be accelerated significatnly more than
+what was previously possible. The benefits of being a deep convolutional neural
+network is that the classification of images builds off of the features found in
+the previous images. The result of this is that their top 1% and top 5% error
+were the lowest ever in the competition.
+
+They trained their model by utilizing both dropout, where neurons that activated
+with a value less than 0.5 are not inputted into the next layer, and by
+augmenting the Imagenet 2010 and 2012 datasets to increase the amount of data
+that they can throw at the model.
+
+Their work is important as it kicked off the usage of both deep convolutional
+neural networks and the usage of GPUs to reduce training time.
 
 ______________________________________________________________________
 
