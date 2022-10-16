@@ -1,9 +1,9 @@
 ---
-title: A summary of Very Deept Cnvolutional Networks for Large-Scale Image Recognition
+title: A summary of Very Deep Convolutional Networks for Large-Scale Image Recognition
   by Karen Simonyan and Andrew Zisserman
-description: A summary of Very Deept Cnvolutional Networks for Large-Scale Image Recognition
+description: A summary of Very Deep Convolutional Networks for Large-Scale Image Recognition
   by Karen Simonyan and Andrew Zisserman
-summary: A summary of Very Deept Cnvolutional Networks for Large-Scale Image Recognition
+summary: A summary of Very Deep Convolutional Networks for Large-Scale Image Recognition
   by Karen Simonyan and Andrew Zisserman
 
 categories: [summary, vgg, cv, computer vision]
