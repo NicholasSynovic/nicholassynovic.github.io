@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>vgg on Nicholas M. Synovic</title><link>https://nsynovic.dev/categories/vgg/</link><description>Recent content in vgg on Nicholas M. Synovic</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Nicholas M. Synovic</copyright><lastBuildDate>Wed, 28 Sep 2022 22:40:46 -0500</lastBuildDate><atom:link href="https://nsynovic.dev/categories/vgg/feed.xml" rel="self" type="application/rss+xml"/><item><title>A summary of Very Deept Cnvolutional Networks for Large-Scale Image Recognition by Karen Simonyan and Andrew Zisserman</title><link>https://nsynovic.dev/summaries/very-deep-convolutional-networks-for-large-scale-image-recognition/</link><pubDate>Wed, 28 Sep 2022 22:40:46 -0500</pubDate><guid>https://nsynovic.dev/summaries/very-deep-convolutional-networks-for-large-scale-image-recognition/</guid><description>&lt;h1 id="a-summary-of-very-deept-cnvolutional-networks-for-large-scale-image-recognition-by-karen-simonyan-and-andrew-zisserman">A summary of *Very Deept Cnvolutional Networks for Large-Scale Image Recognition by Karen Simonyan and Andrew Zisserman&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>vgg on Nicholas M. Synovic</title><link>https://nsynovic.dev/categories/vgg/</link><description>Recent content in vgg on Nicholas M. Synovic</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Nicholas M. Synovic</copyright><lastBuildDate>Wed, 28 Sep 2022 22:40:46 -0500</lastBuildDate><atom:link href="https://nsynovic.dev/categories/vgg/feed.xml" rel="self" type="application/rss+xml"/><item><title>A summary of Very Deept Cnvolutional Networks for Large-Scale Image Recognition by Karen Simonyan and Andrew Zisserman</title><link>https://nsynovic.dev/summaries/very-deep-convolutional-networks-for-large-scale-image-recognition/</link><pubDate>Wed, 28 Sep 2022 22:40:46 -0500</pubDate><guid>https://nsynovic.dev/summaries/very-deep-convolutional-networks-for-large-scale-image-recognition/</guid><description>&lt;h1 id="a-summary-of-very-deep-convolutional-networks-for-large-scale-image-recognition-by-karen-simonyan-and-andrew-zisserman">A summary of &lt;em>Very Deep Convolutional Networks for Large-Scale Image Recognition&lt;/em> by Karen Simonyan and Andrew Zisserman&lt;/h1>
 &lt;blockquote>
-&lt;p>Author names
+&lt;p>Karen Simonyan and Andrew Zisserman;
 &lt;a href="https://doi.org/10.48550/arXiv.1409.1556">https://doi.org/10.48550/arXiv.1409.1556&lt;/a>&lt;/p>
 &lt;/blockquote>
 &lt;p>For the summary of the paper, go to the &lt;a href="#summary">Summary&lt;/a> section of this
 article.&lt;/p>
 &lt;h2 id="table-of-contents">Table of Contents&lt;/h2>
 &lt;ul>
-&lt;li>&lt;a href="#a-summary-of-very-deept-cnvolutional-networks-for-large-scale-image-recognition-by-karen-simonyan-and-andrew-zisserman">A summary of *Very Deept Cnvolutional Networks for Large-Scale Image Recognition by Karen Simonyan and Andrew Zisserman&lt;/a>
+&lt;li>&lt;a href="#a-summary-of-very-deept-cnvolutional-networks-for-large-scale-image-recognition-by-karen-simonyan-and-andrew-zisserman">A summary of &lt;em>Very Deep Convolutional Networks for Large-Scale Image Recognition&lt;/em> by Karen Simonyan and Andrew Zisserman&lt;/a>
 &lt;ul>
 &lt;li>&lt;a href="#table-of-contents">Table of Contents&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#first-pass">First Pass&lt;/a>
@@ -46,7 +46,7 @@ article.&lt;/p>
 headings, and conclusion&lt;/p>
 &lt;/blockquote>
 &lt;p>The paper &lt;em>Very Deep Convolutional Networks for Large Scale Image Recognition&lt;/em>
-by Karen Simonyan and ndrew Zissernman discusses the SOTA performance of their
+by Karen Simonyan and Andrew Zissernman discusses the SOTA performance of their
 model in the 2014 ImageNet Challenge on localisation and classification tasks.
 They discuss that be extending the depth of convolutional neural networks to 16
 up to 19 layers, with a 3x3 filter size, SOTA performance is possible without
@@ -158,7 +158,7 @@ less opaque than the foreground.&lt;/p>
 &lt;p>A summary of the paper&lt;/p>
 &lt;/blockquote>
 &lt;p>The paper &lt;em>Very Deep Convolutional Networks for Large Scale Image Recognition&lt;/em>
-by Karen Simonyan and ndrew Zissernman discusses the SOTA performance of their
+by Karen Simonyan and Andrew Zissernman discusses the SOTA performance of their
 model in the 2014 ImageNet Challenge on localisation and classification tasks.
 They discuss that be extending the depth of convolutional neural networks to 16
 up to 19 layers, with a 3x3 filter size, SOTA performance is possible without
