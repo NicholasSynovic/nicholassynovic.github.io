@@ -8,7 +8,7 @@
 
 1A summary of ImageNet Classification with Deep Convolutional Neural Networks by Krizhevsky et al.	/summaries/imagenet-classification-with-deep-convolutional-neural-networks
 
-1A summary of Very Deept Cnvolutional Networks for Large-Scale Image Recognition by Karen Simonyan and Andrew Zisserman	/summaries/very-deep-convolutional-networks-for-large-scale-image-recognition
+1A summary of Very Deep Convolutional Networks for Large-Scale Image Recognition by Karen Simonyan and Andrew Zisserman	/summaries/very-deep-convolutional-networks-for-large-scale-image-recognition
 
 1A summary of Going deeper with convolutions by Christian Szegedy et al..	/summaries/going-deeper-with-convolutions
 
