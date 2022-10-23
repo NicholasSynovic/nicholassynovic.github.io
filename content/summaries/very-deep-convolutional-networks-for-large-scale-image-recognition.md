@@ -1,9 +1,9 @@
 ---
-title: A summary of Very Deept Cnvolutional Networks for Large-Scale Image Recognition
+title: A summary of Very Deep Convolutional Networks for Large-Scale Image Recognition
   by Karen Simonyan and Andrew Zisserman
-description: A summary of Very Deept Cnvolutional Networks for Large-Scale Image Recognition
+description: A summary of Very Deep Convolutional Networks for Large-Scale Image Recognition
   by Karen Simonyan and Andrew Zisserman
-summary: A summary of Very Deept Cnvolutional Networks for Large-Scale Image Recognition
+summary: A summary of Very Deep Convolutional Networks for Large-Scale Image Recognition
   by Karen Simonyan and Andrew Zisserman
 
 categories: [summary, vgg, cv, computer vision]
@@ -23,9 +23,9 @@ toc: true
 show_reading_time: true
 ---
 
-# A summary of \*Very Deept Cnvolutional Networks for Large-Scale Image Recognition by Karen Simonyan and Andrew Zisserman
+# A summary of *Very Deep Convolutional Networks for Large-Scale Image Recognition* by Karen Simonyan and Andrew Zisserman
 
-> Author names
+> Karen Simonyan and Andrew Zisserman;
 > [https://doi.org/10.48550/arXiv.1409.1556](https://doi.org/10.48550/arXiv.1409.1556)
 
 For the summary of the paper, go to the [Summary](#summary) section of this
@@ -33,7 +33,7 @@ article.
 
 ## Table of Contents
 
-- [A summary of \*Very Deept Cnvolutional Networks for Large-Scale Image Recognition by Karen Simonyan and Andrew Zisserman](#a-summary-of-very-deept-cnvolutional-networks-for-large-scale-image-recognition-by-karen-simonyan-and-andrew-zisserman)
+- [A summary of *Very Deep Convolutional Networks for Large-Scale Image Recognition* by Karen Simonyan and Andrew Zisserman](#a-summary-of-very-deept-cnvolutional-networks-for-large-scale-image-recognition-by-karen-simonyan-and-andrew-zisserman)
   - [Table of Contents](#table-of-contents)
   - [First Pass](#first-pass)
     - [Category](#category)
@@ -61,7 +61,7 @@ ______________________________________________________________________
 > headings, and conclusion
 
 The paper *Very Deep Convolutional Networks for Large Scale Image Recognition*
-by Karen Simonyan and ndrew Zissernman discusses the SOTA performance of their
+by Karen Simonyan and Andrew Zissernman discusses the SOTA performance of their
 model in the 2014 ImageNet Challenge on localisation and classification tasks.
 They discuss that be extending the depth of convolutional neural networks to 16
 up to 19 layers, with a 3x3 filter size, SOTA performance is possible without
@@ -189,7 +189,7 @@ ______________________________________________________________________
 > A summary of the paper
 
 The paper *Very Deep Convolutional Networks for Large Scale Image Recognition*
-by Karen Simonyan and ndrew Zissernman discusses the SOTA performance of their
+by Karen Simonyan and Andrew Zissernman discusses the SOTA performance of their
 model in the 2014 ImageNet Challenge on localisation and classification tasks.
 They discuss that be extending the depth of convolutional neural networks to 16
 up to 19 layers, with a 3x3 filter size, SOTA performance is possible without
