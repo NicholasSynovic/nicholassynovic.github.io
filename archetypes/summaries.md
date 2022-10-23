@@ -63,7 +63,6 @@ For the summary of the paper, go to the [Summary](#summary) section of this arti
 
 > What other *types* of papers is the work related to?
 
-
 ### Contributions
 
 > What are the author's main contributions?
@@ -100,7 +99,7 @@ The following relevant work can be found in the [Citations](#citations) section 
 ## Third Pass
 
 > This section can only be complete after a virtual re-implementation of the paper
->
+
 ### Author Assumptions
 
 > What assumptions does the author(s) make? Are they justified assumptions?
