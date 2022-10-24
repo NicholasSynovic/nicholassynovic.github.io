@@ -17,10 +17,10 @@ article.&lt;/p>
 &lt;li>&lt;a href="#contributions">Contributions&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>&lt;a href="#second-pass">Second Pass&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#background-work">Background Work&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#motivation">Motivation&lt;/a>
+&lt;li>&lt;a href="#second-pass">Second Pass&lt;/a>
 &lt;ul>
+&lt;li>&lt;a href="#background-work">Background Work&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#motivation">Motivation&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#clarity">Clarity&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#relevant-work">Relevant Work&lt;/a>&lt;/li>
@@ -78,13 +78,13 @@ models. Therefore, a larger, deeper model is applicable. It should be noted that
 AlexNet was the largest model ever at the time of publication.&lt;/p>
 &lt;hr>
 &lt;h2 id="second-pass">Second Pass&lt;/h2>
-&lt;h2 id="background-work">Background Work&lt;/h2>
+&lt;h3 id="background-work">Background Work&lt;/h3>
 &lt;blockquote>
 &lt;p>What has been done prior to this paper?&lt;/p>
 &lt;/blockquote>
 &lt;p>Previous work on designing convulational neural networks and architectures.
 However, they were bounded by not being particularly deep.&lt;/p>
-&lt;h2 id="motivation">Motivation&lt;/h2>
+&lt;h3 id="motivation">Motivation&lt;/h3>
 &lt;blockquote>
 &lt;p>Why should we care about this paper?&lt;/p>
 &lt;/blockquote>
@@ -186,7 +186,7 @@ Citations availible at https://nsynovic.dev/summaries/imagenet-classification-wi
 article.&lt;/p>
 &lt;h2 id="table-of-contents">Table of Contents&lt;/h2>
 &lt;ul>
-&lt;li>&lt;a href="#a-summary-of-very-deept-cnvolutional-networks-for-large-scale-image-recognition-by-karen-simonyan-and-andrew-zisserman">A summary of &lt;em>Very Deep Convolutional Networks for Large-Scale Image Recognition&lt;/em> by Karen Simonyan and Andrew Zisserman&lt;/a>
+&lt;li>&lt;a href="#a-summary-of-very-deep-convolutional-networks-for-large-scale-image-recognition-by-karen-simonyan-and-andrew-zisserman">A summary of &lt;em>Very Deep Convolutional Networks for Large-Scale Image Recognition&lt;/em> by Karen Simonyan and Andrew Zisserman&lt;/a>
 &lt;ul>
 &lt;li>&lt;a href="#table-of-contents">Table of Contents&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#first-pass">First Pass&lt;/a>
@@ -196,10 +196,10 @@ article.&lt;/p>
 &lt;li>&lt;a href="#contributions">Contributions&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>&lt;a href="#second-pass">Second Pass&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#background-work">Background Work&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#motivation">Motivation&lt;/a>
+&lt;li>&lt;a href="#second-pass">Second Pass&lt;/a>
 &lt;ul>
+&lt;li>&lt;a href="#background-work">Background Work&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#motivation">Motivation&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#clarity">Clarity&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#relevant-work">Relevant Work&lt;/a>&lt;/li>
@@ -255,7 +255,7 @@ performance on CV architecture and models.&lt;/p>
 neural networks to achieve SOTA performance.&lt;/p>
 &lt;hr>
 &lt;h2 id="second-pass">Second Pass&lt;/h2>
-&lt;h2 id="background-work">Background Work&lt;/h2>
+&lt;h3 id="background-work">Background Work&lt;/h3>
 &lt;blockquote>
 &lt;p>What has been done prior to this paper?&lt;/p>
 &lt;/blockquote>
@@ -265,7 +265,7 @@ convultional neural networks.&lt;/p>
 (Inception) that achieved SOTA performance in the 2014 ImageNet Challenge. Else,
 Krizhevsky et al. [2] and others have proposed improvments to the
 convulational neural network architecture.&lt;/p>
-&lt;h2 id="motivation">Motivation&lt;/h2>
+&lt;h3 id="motivation">Motivation&lt;/h3>
 &lt;blockquote>
 &lt;p>Why should we care about this paper?&lt;/p>
 &lt;/blockquote>

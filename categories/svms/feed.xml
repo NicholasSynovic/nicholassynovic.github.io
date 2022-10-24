@@ -16,10 +16,10 @@ article.&lt;/p>
 &lt;li>&lt;a href="#contributions">Contributions&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>&lt;a href="#second-pass">Second Pass&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#background-work">Background Work&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#motivation">Motivation&lt;/a>
+&lt;li>&lt;a href="#second-pass">Second Pass&lt;/a>
 &lt;ul>
+&lt;li>&lt;a href="#background-work">Background Work&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#motivation">Motivation&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#clarity">Clarity&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#relevant-work">Relevant Work&lt;/a>&lt;/li>
@@ -71,13 +71,13 @@ related to this essay.&lt;/p>
 implement them efficently.&lt;/p>
 &lt;hr>
 &lt;h2 id="second-pass">Second Pass&lt;/h2>
-&lt;h2 id="background-work">Background Work&lt;/h2>
+&lt;h3 id="background-work">Background Work&lt;/h3>
 &lt;blockquote>
 &lt;p>What has been done prior to this paper?&lt;/p>
 &lt;/blockquote>
 &lt;p>Work has already been done on experimenting optimal SVM algorithms and
 minimization functions.&lt;/p>
-&lt;h2 id="motivation">Motivation&lt;/h2>
+&lt;h3 id="motivation">Motivation&lt;/h3>
 &lt;blockquote>
 &lt;p>Why should we care about this paper?&lt;/p>
 &lt;/blockquote>
@@ -178,10 +178,10 @@ article.&lt;/p>
 &lt;li>&lt;a href="#contributions">Contributions&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>&lt;a href="#second-pass">Second Pass&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#background-work">Background Work&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#motivation">Motivation&lt;/a>
+&lt;li>&lt;a href="#second-pass">Second Pass&lt;/a>
 &lt;ul>
+&lt;li>&lt;a href="#background-work">Background Work&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#motivation">Motivation&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#clarity">Clarity&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#relevant-work">Relevant Work&lt;/a>&lt;/li>
@@ -234,7 +234,7 @@ facial detection. Additionally, their contributions include a discuss of
 previous systems that attempted this task.&lt;/p>
 &lt;hr>
 &lt;h2 id="second-pass">Second Pass&lt;/h2>
-&lt;h2 id="background-work">Background Work&lt;/h2>
+&lt;h3 id="background-work">Background Work&lt;/h3>
 &lt;blockquote>
 &lt;p>What has been done prior to this paper?&lt;/p>
 &lt;/blockquote>
@@ -244,7 +244,7 @@ techniques in the last few years, including neural networks [2] [3],
 detection of face features and use of geometrical constraints [4], density
 estimation of the training data [5], labeled graphs [6], and clustering and
 distribution-based modeling [7] [8].&amp;rdquo;&lt;/p>
-&lt;h2 id="motivation">Motivation&lt;/h2>
+&lt;h3 id="motivation">Motivation&lt;/h3>
 &lt;blockquote>
 &lt;p>Why should we care about this paper?&lt;/p>
 &lt;/blockquote>
@@ -364,10 +364,10 @@ article.&lt;/p>
 &lt;li>&lt;a href="#contributions">Contributions&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>&lt;a href="#second-pass">Second Pass&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#background-work">Background Work&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#motivation">Motivation&lt;/a>
+&lt;li>&lt;a href="#second-pass">Second Pass&lt;/a>
 &lt;ul>
+&lt;li>&lt;a href="#background-work">Background Work&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#motivation">Motivation&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#clarity">Clarity&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#relevant-work">Relevant Work&lt;/a>&lt;/li>
@@ -419,12 +419,12 @@ well as work that goes into the theory behind SVMs.&lt;/p>
 SVMs are practical.&lt;/p>
 &lt;hr>
 &lt;h2 id="second-pass">Second Pass&lt;/h2>
-&lt;h2 id="background-work">Background Work&lt;/h2>
+&lt;h3 id="background-work">Background Work&lt;/h3>
 &lt;blockquote>
 &lt;p>What has been done prior to this paper?&lt;/p>
 &lt;/blockquote>
 &lt;p>Work has been done to develop and implement the SVM alogirthm.&lt;/p>
-&lt;h2 id="motivation">Motivation&lt;/h2>
+&lt;h3 id="motivation">Motivation&lt;/h3>
 &lt;blockquote>
 &lt;p>Why should we care about this paper?&lt;/p>
 &lt;/blockquote>

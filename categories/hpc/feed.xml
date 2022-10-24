@@ -17,10 +17,10 @@ article.&lt;/p>
 &lt;li>&lt;a href="#contributions">Contributions&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>&lt;a href="#second-pass">Second Pass&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#background-work">Background Work&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#motivation">Motivation&lt;/a>
+&lt;li>&lt;a href="#second-pass">Second Pass&lt;/a>
 &lt;ul>
+&lt;li>&lt;a href="#background-work">Background Work&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#motivation">Motivation&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#clarity">Clarity&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#relevant-work">Relevant Work&lt;/a>&lt;/li>
@@ -72,14 +72,14 @@ computing architectures as well.&lt;/p>
 focused on energy effieciency.&lt;/p>
 &lt;hr>
 &lt;h2 id="second-pass">Second Pass&lt;/h2>
-&lt;h2 id="background-work">Background Work&lt;/h2>
+&lt;h3 id="background-work">Background Work&lt;/h3>
 &lt;blockquote>
 &lt;p>What has been done prior to this paper?&lt;/p>
 &lt;/blockquote>
 &lt;p>Runnemede is a one of four architectures under the DARPA UHPC program.
 Additionally, work has been done before to build both low powered cluster
 computers, and HPC.&lt;/p>
-&lt;h2 id="motivation">Motivation&lt;/h2>
+&lt;h3 id="motivation">Motivation&lt;/h3>
 &lt;blockquote>
 &lt;p>Why should we care about this paper?&lt;/p>
 &lt;/blockquote>

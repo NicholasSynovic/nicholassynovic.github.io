@@ -1,0 +1,38 @@
+!A summary of Learning Deep Features for Discriminative Localization by Bolei Zhou et al.
+
+Monday, October 24, 2022 · 4 minute read
+
+A summary of Learning Deep Features for Discriminative Localization Bolei Zhou et al.; DOI
+For the summary of the paper, go to the Summary section of this article.
+Table of Contents A summary of Learning Deep Features for Discriminative Localization Table of Contents First Pass Category Context Contributions Second Pass Background Work Motivation Figures, Diagrams, Illustrations, and Graphs Clarity Relevant Work Third Pass Author Assumptions Correctness Discussion of the Proofs How Would I Present the Idea(s) Future Directions Summary Summarization Technique Citations First Pass Discussion about the title, abstract, introduction, section and sub-section headings, and conclusion
+The paper Learning Deep Features for Discriminative Localization by Bolei Zhou et al. [1] describes using the global average pooling layer of CNNs to not only regularize data, but also to localize objects in an image even if the network wasn&rsquo;t trained for object detection. The authors propose a method for object localization that involves a simple modification to the layer to generate what they call &ldquo;class activation maps&rdquo; (CAMs), which are heatmaps of where the CNN is &ldquo;looking&rdquo; at an image for labeling. The hotter the heatmap, the more focus the CNN is putting on that specific image region.
+The authors go into detail as to how one would accomplish this with a weakly-supervised object localization method, and its applications towards deep features for generic localization, fine-grained recognition, and pattern discovery. They conclude with visualizing class specific units.
+Their technique accomplishes object localization in a single forward pass on existing CNN models that utilize a global average pooling layer.
+Category What type of paper is this work?
+This paper is a CNN understanding and technique paper. It discusses a method for understanding what a CNN is looking at as well as expanding the usage of image classifiers for object localization.
+Context What other types of papers is the work related to?
+This paper is related to works involving object localization, image classification, CNNs, and Deep Learning papers.
+Contributions What are the author&rsquo;s main contributions?
+The author&rsquo;s main contribution is a method for modifying the global average pooling layer in CNNs to perform object localization in a single forward pass.
+Second Pass Background Work What has been done prior to this paper?
+There has been work done in utilizing weakly-supervised learning to perform object localization. However, these works either don&rsquo;t evaluate the object localization task, or utilize multiple passes to perform the task.
+There has been numerous work that has gone into visualizing what occurs within a CNN. Additionally, there has been work that has looked at the global max pooling layer, however, this work is the first to utilize the global average layer.
+Motivation Why should we care about this paper?
+We should care about this paper as
+Figures, Diagrams, Illustrations, and Graphs Are the axes properly labeled? Are results shown with error bars, so that conclusions are statistically significant?
+Clarity Is the paper well written?
+Relevant Work Mark relevant work for review
+The following relevant work can be found in the Citations section of this article.
+Self-taught object localization with deep networks Weakly supervised object localization with multi-fold multiple instance learning Learning and transferring mid-level image representations using convolutional neural networks Is object localization for free? weakly-supervised learning with convolutional neural networks Visualizing and understanding convolutional networks Object detectors emerge in deep scene cnns Network in network Going deeper with convolutions Third Pass This section can only be complete after a virtual re-implementation of the paper
+Author Assumptions What assumptions does the author(s) make? Are they justified assumptions?
+Correctness Do the assumptions seem valid?
+Discussion of the Proofs How Would I Present the Idea(s) Future Directions My own proposed future directions for the work
+Summary A summary of the paper
+Summarization Technique This paper was summarized using the technique proposed by S. Keshav in his work How to Read a Paper [0].
+Citations 
+
+h0. https://doi.org/10.1145/1273445.1273458	URL:https://doi.org/10.1145/1273445.1273458
+
+h1. http://arxiv.org/abs/1512.04150	URL:http://arxiv.org/abs/1512.04150
+
+.

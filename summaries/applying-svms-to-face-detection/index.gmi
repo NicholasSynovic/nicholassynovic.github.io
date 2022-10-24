@@ -19,8 +19,8 @@ article.
     - [Context](#context)
     - [Contributions](#contributions)
   - [Second Pass](#second-pass)
-  - [Background Work](#background-work)
-  - [Motivation](#motivation)
+    - [Background Work](#background-work)
+    - [Motivation](#motivation)
     - [Figures, Diagrams, Illustrations, and Graphs](#figures-diagrams-illustrations-and-graphs)
     - [Clarity](#clarity)
     - [Relevant Work](#relevant-work)
@@ -73,7 +73,7 @@ ______________________________________________________________________
 
 ## Second Pass
 
-## Background Work
+### Background Work
 
 > What has been done prior to this paper?
 
@@ -85,7 +85,7 @@ detection of face features and use of geometrical constraints \[4\], density
 estimation of the training data \[5\], labeled graphs \[6\], and clustering and
 distribution-based modeling \[7\] \[8\]."
 
-## Motivation
+### Motivation
 
 > Why should we care about this paper?
 
