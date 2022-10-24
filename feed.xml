@@ -27,10 +27,6 @@ article.&lt;/p>
 &lt;/li>
 &lt;li>&lt;a href="#third-pass">Third Pass&lt;/a>
 &lt;ul>
-&lt;li>&lt;a href="#author-assumptions">Author Assumptions&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#correctness">Correctness&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#discussion-of-the-proofs">Discussion of the Proofs&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#how-would-i-present-the-ideas">How Would I Present the Idea(s)&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#future-directions">Future Directions&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/li>
@@ -96,16 +92,22 @@ layer.&lt;/p>
 &lt;blockquote>
 &lt;p>Why should we care about this paper?&lt;/p>
 &lt;/blockquote>
-&lt;p>We should care about this paper as&lt;/p>
+&lt;p>We should care about this paper as it provides a methodology of utilizing
+existing CNNs trained on image classification to perform object localization
+tasks &amp;ldquo;for free&amp;rdquo;. In other words, this paper presents a methodology for object
+localization by reusing existing SOTA CNNs.&lt;/p>
 &lt;h3 id="figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/h3>
 &lt;blockquote>
 &lt;p>Are the axes properly labeled? Are results shown with error bars, so that
 conclusions are statistically significant?&lt;/p>
 &lt;/blockquote>
+&lt;p>All of the figures and tables are labelled clearly, have detailed captions, and
+make sense with respect to the paper.&lt;/p>
 &lt;h3 id="clarity">Clarity&lt;/h3>
 &lt;blockquote>
 &lt;p>Is the paper well written?&lt;/p>
 &lt;/blockquote>
+&lt;p>The paper is well written.&lt;/p>
 &lt;h3 id="relevant-work">Relevant Work&lt;/h3>
 &lt;blockquote>
 &lt;p>Mark relevant work for review&lt;/p>
@@ -131,20 +133,17 @@ neural networks&lt;/li>
 &lt;p>This section can only be complete after a virtual re-implementation of the
 paper&lt;/p>
 &lt;/blockquote>
-&lt;h3 id="author-assumptions">Author Assumptions&lt;/h3>
-&lt;blockquote>
-&lt;p>What assumptions does the author(s) make? Are they justified assumptions?&lt;/p>
-&lt;/blockquote>
-&lt;h3 id="correctness">Correctness&lt;/h3>
-&lt;blockquote>
-&lt;p>Do the assumptions seem valid?&lt;/p>
-&lt;/blockquote>
-&lt;h3 id="discussion-of-the-proofs">Discussion of the Proofs&lt;/h3>
-&lt;h3 id="how-would-i-present-the-ideas">How Would I Present the Idea(s)&lt;/h3>
 &lt;h3 id="future-directions">Future Directions&lt;/h3>
 &lt;blockquote>
 &lt;p>My own proposed future directions for the work&lt;/p>
 &lt;/blockquote>
+&lt;p>I would love to take this work and apply it to my current research in low
+powered computer vision. By utilizing larger networks to localize where in a
+static scene the object of interest is most likely to be in (for example, a
+static video of a bird sitting on a wire), I can pass in this mapping into a CNN
+to specifically be interested in that region of the video/ image. Additionally,
+by figuring out where a larger CNN is localizing data, I can then mask out any
+cold area of the image prior to analysis by a smaller CNN.&lt;/p>
 &lt;hr>
 &lt;h2 id="summary">Summary&lt;/h2>
 &lt;blockquote>
