@@ -5,12 +5,10 @@ description: 'A summary of SVMs: A Practical Consequence of Learning Theory by B
   Scholkopf'
 summary: 'A summary of SVMs: A Practical Consequence of Learning Theory by Bernhard
   Scholkopf'
-
+categories: [summary, svms, learning theory, ml, theory,]
 citations: [https://doi.org/10.1145/1273445.1273458, https://doi.ieeecomputersociety.org/10.1109/5254.708428,
   https://www.google.com/books/edition/_/sna9BaxVbj8C?hl=en&gbpv=0]
-
 draft: false
-
 date: 2022-10-23T10:02:41-05:00
 featured_image: ''
 include_toc: true
