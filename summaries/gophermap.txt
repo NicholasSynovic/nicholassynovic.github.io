@@ -6,6 +6,8 @@
 > These posts are mirrored from my HTTP site.
 
 
+1A summary of Applying SVMS To Face Detection by Edgar Osuna	/summaries/applying-svms-to-face-detection
+
 1A summary of Using SVMs For Text Categorization by Susan Dumais et al	/summaries/using-svms-for-text-categorization
 
 1A summary of SVMs - A Practical Consequence of Learning Theory by Bernhard Scholkopf	/summaries/svms-a-practical-consequence-of-learning-theory

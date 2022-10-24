@@ -43,10 +43,12 @@ article.&lt;/p>
 &lt;p>Discussion about the title, abstract, introduction, section and sub-section
 headings, and conclusion&lt;/p>
 &lt;/blockquote>
-&lt;p>The essay &lt;em>Using SVMs For Text Categorization&lt;/em> by Susan Dumais et al. provides
-examples of when using a Support Vector Machine (SVM) is beneficial with respect
-to text classification. They discuss text classification, text representation
-and feature selection, and an example use case on the Reuters collection. They
+&lt;p>The essay &lt;em>Using SVMs For Text Categorization&lt;/em> by Susan Dumais et al. (as part
+of the larger &lt;em>Support vector machine&lt;/em> collection of essays in the July/ August
+edition of the 1998 IEEE Intelligent Systems magazine) [1] provides examples
+of when using a Support Vector Machine (SVM) is beneficial with respect to text
+classification. They discuss text classification, text representation and
+feature selection, and an example use case on the Reuters collection. They
 support the position that using SVMs for text classification (or really any
 algorithm so long as it isn&amp;rsquo;t run by a human) is beneficial for this task.&lt;/p>
 &lt;h3 id="category">Category&lt;/h3>
@@ -114,10 +116,12 @@ are: Findsim, Naive Bayes, BayesNets, Trees, and LinearSVM.&lt;/p>
 &lt;blockquote>
 &lt;p>A summary of the paper&lt;/p>
 &lt;/blockquote>
-&lt;p>The essay &lt;em>Using SVMs For Text Categorization&lt;/em> by Susan Dumais et al. presents
-the usage of SVMs for text categorization on the Reuters collection in
-comparison to other classification algorithms. They found that SVMs perform best
-on this classification task.&lt;/p>
+&lt;p>The essay &lt;em>Using SVMs For Text Categorization&lt;/em> by Susan Dumais et al. (as part
+of the larger &lt;em>Support vector machine&lt;/em> collection of essays in the July/ August
+edition of the 1998 IEEE Intelligent Systems magazine) [1] presents the usage
+of SVMs for text categorization on the Reuters collection in comparison to other
+classification algorithms. They found that SVMs perform best on this
+classification task.&lt;/p>
 &lt;p>The greater reason for this essay is to encourage engineers to use learning
 algorithms for human intensive tasks - such as text classification.&lt;/p>
 &lt;hr>

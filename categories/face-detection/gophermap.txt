@@ -8,7 +8,5 @@
 
 1A summary of Applying SVMS To Face Detection by Edgar Osuna	/summaries/applying-svms-to-face-detection
 
-1A summary of SVMs - A Practical Consequence of Learning Theory by Bernhard Scholkopf	/summaries/svms-a-practical-consequence-of-learning-theory
-
 
 .

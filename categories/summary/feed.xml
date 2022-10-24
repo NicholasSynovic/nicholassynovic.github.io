@@ -1,4 +1,121 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>summary on Nicholas M. Synovic</title><link>https://nsynovic.dev/categories/summary/</link><description>Recent content in summary on Nicholas M. Synovic</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Nicholas M. Synovic</copyright><lastBuildDate>Sun, 23 Oct 2022 16:45:32 -0500</lastBuildDate><atom:link href="https://nsynovic.dev/categories/summary/feed.xml" rel="self" type="application/rss+xml"/><item><title>A summary of Using SVMs For Text Categorization by Susan Dumais et al</title><link>https://nsynovic.dev/summaries/using-svms-for-text-categorization/</link><pubDate>Sun, 23 Oct 2022 16:45:32 -0500</pubDate><guid>https://nsynovic.dev/summaries/using-svms-for-text-categorization/</guid><description>&lt;h1 id="a-summary-of-using-svms-for-text-categorization">A summary of &lt;em>Using SVMs For Text Categorization&lt;/em>&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>summary on Nicholas M. Synovic</title><link>https://nsynovic.dev/categories/summary/</link><description>Recent content in summary on Nicholas M. Synovic</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Nicholas M. Synovic</copyright><lastBuildDate>Mon, 24 Oct 2022 09:20:40 -0500</lastBuildDate><atom:link href="https://nsynovic.dev/categories/summary/feed.xml" rel="self" type="application/rss+xml"/><item><title>A summary of Applying SVMS To Face Detection by Edgar Osuna</title><link>https://nsynovic.dev/summaries/applying-svms-to-face-detection/</link><pubDate>Mon, 24 Oct 2022 09:20:40 -0500</pubDate><guid>https://nsynovic.dev/summaries/applying-svms-to-face-detection/</guid><description>&lt;h1 id="a-summary-of-title">A summary of &lt;em>TITLE&lt;/em>&lt;/h1>
+&lt;blockquote>
+&lt;p>Author names DOI&lt;/p>
+&lt;/blockquote>
+&lt;p>For the summary of the paper, go to the &lt;a href="#summary">Summary&lt;/a> section of this
+article.&lt;/p>
+&lt;h2 id="table-of-contents">Table of Contents&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="#a-summary-of-title">A summary of &lt;em>TITLE&lt;/em>&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#table-of-contents">Table of Contents&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#first-pass">First Pass&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#category">Category&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#context">Context&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#contributions">Contributions&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#second-pass">Second Pass&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#background-work">Background Work&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#motivation">Motivation&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#clarity">Clarity&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#relevant-work">Relevant Work&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#third-pass">Third Pass&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#author-assumptions">Author Assumptions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#correctness">Correctness&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#discussion-of-the-proofs">Discussion of the Proofs&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#how-would-i-present-the-ideas">How Would I Present the Idea(s)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#future-directions">Future Directions&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#summary">Summary&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#summarization-technique">Summarization Technique&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#citations">Citations&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="first-pass">First Pass&lt;/h2>
+&lt;blockquote>
+&lt;p>Discussion about the title, abstract, introduction, section and sub-section
+headings, and conclusion&lt;/p>
+&lt;/blockquote>
+&lt;p>(as part of the larger &lt;em>Support vector machine&lt;/em> collection of essays in the
+July/ August edition of the 1998 IEEE Intelligent Systems magazine) [1]&lt;/p>
+&lt;h3 id="category">Category&lt;/h3>
+&lt;blockquote>
+&lt;p>What type of paper is this work?&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="context">Context&lt;/h3>
+&lt;blockquote>
+&lt;p>What other &lt;em>types&lt;/em> of papers is the work related to?&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="contributions">Contributions&lt;/h3>
+&lt;blockquote>
+&lt;p>What are the author&amp;rsquo;s main contributions?&lt;/p>
+&lt;/blockquote>
+&lt;hr>
+&lt;h2 id="second-pass">Second Pass&lt;/h2>
+&lt;h2 id="background-work">Background Work&lt;/h2>
+&lt;blockquote>
+&lt;p>What has been done prior to this paper?&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="motivation">Motivation&lt;/h2>
+&lt;blockquote>
+&lt;p>Why should we care about this paper?&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/h3>
+&lt;blockquote>
+&lt;p>Are the axes properly labeled? Are results shown with error bars, so that
+conclusions are statistically significant?&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="clarity">Clarity&lt;/h3>
+&lt;blockquote>
+&lt;p>Is the paper well written?&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="relevant-work">Relevant Work&lt;/h3>
+&lt;blockquote>
+&lt;p>Mark relevant work for review&lt;/p>
+&lt;/blockquote>
+&lt;p>The following relevant work can be found in the &lt;a href="#citations">Citations&lt;/a> section
+of this article.&lt;/p>
+&lt;hr>
+&lt;h2 id="third-pass">Third Pass&lt;/h2>
+&lt;blockquote>
+&lt;p>This section can only be complete after a virtual re-implementation of the
+paper&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="author-assumptions">Author Assumptions&lt;/h3>
+&lt;blockquote>
+&lt;p>What assumptions does the author(s) make? Are they justified assumptions?&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="correctness">Correctness&lt;/h3>
+&lt;blockquote>
+&lt;p>Do the assumptions seem valid?&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="discussion-of-the-proofs">Discussion of the Proofs&lt;/h3>
+&lt;h3 id="how-would-i-present-the-ideas">How Would I Present the Idea(s)&lt;/h3>
+&lt;h3 id="future-directions">Future Directions&lt;/h3>
+&lt;blockquote>
+&lt;p>My own proposed future directions for the work&lt;/p>
+&lt;/blockquote>
+&lt;hr>
+&lt;h2 id="summary">Summary&lt;/h2>
+&lt;blockquote>
+&lt;p>A summary of the paper&lt;/p>
+&lt;/blockquote>
+&lt;hr>
+&lt;h2 id="summarization-technique">Summarization Technique&lt;/h2>
+&lt;p>This paper was summarized using the technique proposed by S. Keshav in his work
+&lt;em>How to Read a Paper&lt;/em> [0].&lt;/p>
+&lt;h2 id="citations">Citations&lt;/h2>
+Citations availible at https://nsynovic.dev/summaries/applying-svms-to-face-detection/</description></item><item><title>A summary of Using SVMs For Text Categorization by Susan Dumais et al</title><link>https://nsynovic.dev/summaries/using-svms-for-text-categorization/</link><pubDate>Sun, 23 Oct 2022 16:45:32 -0500</pubDate><guid>https://nsynovic.dev/summaries/using-svms-for-text-categorization/</guid><description>&lt;h1 id="a-summary-of-using-svms-for-text-categorization">A summary of &lt;em>Using SVMs For Text Categorization&lt;/em>&lt;/h1>
 &lt;blockquote>
 &lt;p>Susan Dumais et al.;
 &lt;a href="https://doi.ieeecomputersociety.org/10.1109/5254.708428">DOI&lt;/a>&lt;/p>
@@ -43,10 +160,12 @@ article.&lt;/p>
 &lt;p>Discussion about the title, abstract, introduction, section and sub-section
 headings, and conclusion&lt;/p>
 &lt;/blockquote>
-&lt;p>The essay &lt;em>Using SVMs For Text Categorization&lt;/em> by Susan Dumais et al. provides
-examples of when using a Support Vector Machine (SVM) is beneficial with respect
-to text classification. They discuss text classification, text representation
-and feature selection, and an example use case on the Reuters collection. They
+&lt;p>The essay &lt;em>Using SVMs For Text Categorization&lt;/em> by Susan Dumais et al. (as part
+of the larger &lt;em>Support vector machine&lt;/em> collection of essays in the July/ August
+edition of the 1998 IEEE Intelligent Systems magazine) [1] provides examples
+of when using a Support Vector Machine (SVM) is beneficial with respect to text
+classification. They discuss text classification, text representation and
+feature selection, and an example use case on the Reuters collection. They
 support the position that using SVMs for text classification (or really any
 algorithm so long as it isn&amp;rsquo;t run by a human) is beneficial for this task.&lt;/p>
 &lt;h3 id="category">Category&lt;/h3>
@@ -114,10 +233,12 @@ are: Findsim, Naive Bayes, BayesNets, Trees, and LinearSVM.&lt;/p>
 &lt;blockquote>
 &lt;p>A summary of the paper&lt;/p>
 &lt;/blockquote>
-&lt;p>The essay &lt;em>Using SVMs For Text Categorization&lt;/em> by Susan Dumais et al. presents
-the usage of SVMs for text categorization on the Reuters collection in
-comparison to other classification algorithms. They found that SVMs perform best
-on this classification task.&lt;/p>
+&lt;p>The essay &lt;em>Using SVMs For Text Categorization&lt;/em> by Susan Dumais et al. (as part
+of the larger &lt;em>Support vector machine&lt;/em> collection of essays in the July/ August
+edition of the 1998 IEEE Intelligent Systems magazine) [1] presents the usage
+of SVMs for text categorization on the Reuters collection in comparison to other
+classification algorithms. They found that SVMs perform best on this
+classification task.&lt;/p>
 &lt;p>The greater reason for this essay is to encourage engineers to use learning
 algorithms for human intensive tasks - such as text classification.&lt;/p>
 &lt;hr>
@@ -172,7 +293,7 @@ headings, and conclusion&lt;/p>
 &lt;/blockquote>
 &lt;p>The essay &lt;em>SVMs - a practical consequence of learning theory&lt;/em> by Bernhard
 Scholkopf (as part of the larger &lt;em>Support vector machine&lt;/em> collection of essays
-in the July/ August edition of the 1998 IEEE Intelligent Systems magazine)
+in the July/ August edition of the 1998 IEEE Intelligent Systems magazine) [1]
 discusses the underlying theory that powers Support Vector Machine (SVM)
 algorithms and argues that these algortihms are useful and performant. His essay
 contains sections on &lt;em>Learning pattern recognition from examples&lt;/em>,
@@ -254,14 +375,16 @@ centric metrics.&lt;/p>
 &lt;p>A summary of the paper&lt;/p>
 &lt;/blockquote>
 &lt;p>The essay &lt;em>SVMs: A Practical Consequence of Learning Theory&lt;/em> by Bernhard
-Scholkopf discuss both the mathematical theory and current practice of using
-SVMs. SVMs are useful in a research aspect as their functionality can be
-mathematically explained. SVMs are a linear classifier that operate in
-multi-dimensional space through the usage of a hyper plane. Hyper planes are
-choosen by finding support vectors, which are instances of a class that are
-closest to one another. The hyper plane then splits these two instances into two
-seperable sides. To assist in this calculation, a kernel algorthm is applied to
-map one dimensionality space to another for easier computation.&lt;/p>
+Scholkopf (as part of the larger &lt;em>Support vector machine&lt;/em> collection of essays
+in the July/ August edition of the 1998 IEEE Intelligent Systems magazine) [1]
+discuss both the mathematical theory and current practice of using SVMs. SVMs
+are useful in a research aspect as their functionality can be mathematically
+explained. SVMs are a linear classifier that operate in multi-dimensional space
+through the usage of a hyper plane. Hyper planes are choosen by finding support
+vectors, which are instances of a class that are closest to one another. The
+hyper plane then splits these two instances into two seperable sides. To assist
+in this calculation, a kernel algorthm is applied to map one dimensionality
+space to another for easier computation.&lt;/p>
 &lt;p>Overall, this paper provides a good understanding of the theory behind SVMs. It
 also alludes to additional usages of SVMs and their current problems, but it is
 not focused on discussing or resolving them.&lt;/p>
