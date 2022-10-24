@@ -9,7 +9,7 @@ summary: A summary of Deep Residual Learning for Image Recognition by Kaiming He
 categories: [summary, computer vision, architecture, residual learning]
 citations: [https://doi.org/10.1145/1273445.1273458]
 
-draft: false
+draft: true
 
 date: 2022-09-29T20:24:46-05:00
 featured_image: ''
