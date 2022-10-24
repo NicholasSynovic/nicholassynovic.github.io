@@ -50,8 +50,6 @@
 
 1deep learning	/categories/deep-learning
 
-1residual learning	/categories/residual-learning
-
 1computer vision	/categories/computer-vision
 
 1systems	/categories/systems

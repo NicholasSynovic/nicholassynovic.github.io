@@ -6,15 +6,13 @@
 > These posts are mirrored from my HTTP site.
 
 
-1A summary of Applying SVMS To Face Detection by Edgar Osuna	/summaries/applying-svms-to-face-detection
+1A summary of Applying SVMS to Face Detection by Edgar Osuna	/summaries/applying-svms-to-face-detection
 
 1A summary of Using SVMs For Text Categorization by Susan Dumais et al	/summaries/using-svms-for-text-categorization
 
 1A summary of SVMs - A Practical Consequence of Learning Theory by Bernhard Scholkopf	/summaries/svms-a-practical-consequence-of-learning-theory
 
 1A summary of Runnemede: An Architecture for Ubiquitous High-Performance Computing by Nicholas P. Carter et al.	/summaries/runnemede-an-architecture-for-ubiquitous-high-performance-computing
-
-1A summary of Deep Residual Learning for Image Recognition by Kaiming He et al.	/summaries/deep-residual-learning-for-image-recognition
 
 1A summary of ImageNet Classification with Deep Convolutional Neural Networks by Krizhevsky et al.	/summaries/imagenet-classification-with-deep-convolutional-neural-networks
 

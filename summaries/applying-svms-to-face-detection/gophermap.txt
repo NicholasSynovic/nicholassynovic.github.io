@@ -1,30 +1,58 @@
-!A summary of Applying SVMS To Face Detection by Edgar Osuna
+!A summary of Applying SVMS to Face Detection by Edgar Osuna
 
-Monday, October 24, 2022 · 2 minute read
+Monday, October 24, 2022 · 5 minute read
 
-A summary of TITLE Author names DOI
+A summary of Applying SVMs to Face Detection Edgar Isuna; DOI
 For the summary of the paper, go to the Summary section of this article.
-Table of Contents A summary of TITLE Table of Contents First Pass Category Context Contributions Second Pass Background Work Motivation Figures, Diagrams, Illustrations, and Graphs Clarity Relevant Work Third Pass Author Assumptions Correctness Discussion of the Proofs How Would I Present the Idea(s) Future Directions Summary Summarization Technique Citations First Pass Discussion about the title, abstract, introduction, section and sub-section headings, and conclusion
-(as part of the larger Support vector machine collection of essays in the July/ August edition of the 1998 IEEE Intelligent Systems magazine) [1]
+Table of Contents A summary of Applying SVMs to Face Detection Table of Contents First Pass Category Context Contributions Second Pass Background Work Motivation Figures, Diagrams, Illustrations, and Graphs Clarity Relevant Work Third Pass Author Assumptions Correctness Future Directions Summary Summarization Technique Citations First Pass Discussion about the title, abstract, introduction, section and sub-section headings, and conclusion
+The essay Applying SVMS to Face Detection by Edgar Osuna (as part of the largerSupport vector machine collection of essays in the July/ August edition of the 1998 IEEE Intelligent Systems magazine) [1] describes the usage of Support Vector Machines (SVMs) to identify faces in static images and real time systems. The work goes into detail about previous systems that attempted this task, as well as a real time system that can classify images at 4 to 5 frames per second.
 Category What type of paper is this work?
+This paper is both a small systems essay, as well as a CV task analysis of the state of the art when using this particular technique.
 Context What other types of papers is the work related to?
+This essay is most similar to papers that discuss systems that implement face detection.
 Contributions What are the author&rsquo;s main contributions?
+The author&rsquo;s main contributions are a system that utilizes SVMs for real time facial detection. Additionally, their contributions include a discuss of previous systems that attempted this task.
 Second Pass Background Work What has been done prior to this paper?
+Quote from the Previous systems section of the paper:
+&ldquo;Researchers have approached the face-detection problem with different techniques in the last few years, including neural networks [2] [3], detection of face features and use of geometrical constraints [4], density estimation of the training data [5], labeled graphs [6], and clustering and distribution-based modeling [7] [8].&rdquo;
 Motivation Why should we care about this paper?
+We should care about this essay as it proposes an SVM based solution for both static image and real time face detection.
 Figures, Diagrams, Illustrations, and Graphs Are the axes properly labeled? Are results shown with error bars, so that conclusions are statistically significant?
+The figures are clear and explained well through their captions. However, Table 2 uses a metric called &ldquo;False Alarms&rdquo; to measure the number of times the system reported a &ldquo;face&rdquo; that wasn&rsquo;t a face. A more appropriate metric, such as recall, would have been appropriate in this case.
 Clarity Is the paper well written?
+The paper is well written, however, it can be improved upon. The biggest complaint that I have is the usage of bullet points to describe tasks/ steps that were taken to complete a task. Additionally, many bullet points contained more than one sentence. I find it to be more appropriate for papers to utilize bullet points for short, unordered lists. Most appropriately used when listing off different techniques or definitions, which this essay does utilize. Aside from that, the individual steps are written well and clearly, and seem to be fairly reproducable.
 Relevant Work Mark relevant work for review
 The following relevant work can be found in the Citations section of this article.
-Third Pass This section can only be complete after a virtual re-implementation of the paper
+Detection and localization of faces on digital images [2] Human Face Detection in Visual Scenes [3] Human face detection in a complex background [4] Probabilistic visual learning for object detection [5] Determination of face position and pose with a learned representation based on labelled graphs [6] Learning and Example Selection for Object and Pattern Detection [7] Example-based learning for view-based human face detection [8] Third Pass This section can only be complete after a virtual re-implementation of the paper
 Author Assumptions What assumptions does the author(s) make? Are they justified assumptions?
+The authors trained their system to identify vertically oriented, gray-scale images of faces for their static image face detector. They make no mention as to whether this detector is capable of identifying faces in off axis positions, or if their system is capable enough to orient faces properly.
 Correctness Do the assumptions seem valid?
-Discussion of the Proofs How Would I Present the Idea(s) Future Directions My own proposed future directions for the work
+Without understanding the availiblity of datasets at the time, this seems like a valid assumption to make. However, simple data augmentation (such as rotating the image) could&rsquo;ve been done to increase the number of training examples of faces not in the vertical orientation.
+Future Directions My own proposed future directions for the work
+A reimplementation of their work, both on static images and real time image capture, would be interesting to perform on devices such as cameras, Raspberry Pis, or other low powered systems. Additionally, comparing the power draw between an SVM based solution and one that is powered by DL would be interesting as well.
 Summary A summary of the paper
+The essay Applying SVMS to Face Detection by Edgar Osuna (as part of the largerSupport vector machine collection of essays in the July/ August edition of the 1998 IEEE Intelligent Systems magazine) [1] describes the usage of Support Vector Machines (SVMs) to identify faces in static images and real time systems. The author goes into detail about existing systems that were powered by non-SVM techniques, as well as presenting their own system (for both static image and real time image capture) for face detection.
+Their satic image system only works on gray scale images of vertically aligned faces. Additionally, they used a small dataset to train the SVM. In doing so, they limit the usage of the static image system to that specific domain, as well as potentially creating a system that is unable to detect a face in all potential cases (such as different ethnicities, lighting conditions, face orientations, etc.).
+Their real time image capture system works on full color images of vertically aligned faces by using a combination of a skin detector and a &ldquo;primitive&rdquo; motion detector. This system was capable of recognizing faces at 4 to 5 frames per second.
 Summarization Technique This paper was summarized using the technique proposed by S. Keshav in his work How to Read a Paper [0].
 Citations 
 
 h0. https://doi.org/10.1145/1273445.1273458	URL:https://doi.org/10.1145/1273445.1273458
 
 h1. https://doi.ieeecomputersociety.org/10.1109/5254.708428	URL:https://doi.ieeecomputersociety.org/10.1109/5254.708428
+
+h2. https://www.sciencedirect.com/science/article/abs/pii/0167865594900272	URL:https://www.sciencedirect.com/science/article/abs/pii/0167865594900272
+
+h3. https://proceedings.neurips.cc/paper/1995/hash/2f29b6e3abc6ebdefb55456ea6ca5dc8-Abstract.html	URL:https://proceedings.neurips.cc/paper/1995/hash/2f29b6e3abc6ebdefb55456ea6ca5dc8-Abstract.html
+
+h4. https://www.sciencedirect.com/science/article/abs/pii/0031320394900175	URL:https://www.sciencedirect.com/science/article/abs/pii/0031320394900175
+
+h5. https://ieeexplore.ieee.org/document/466858	URL:https://ieeexplore.ieee.org/document/466858
+
+h6. https://www.sciencedirect.com/science/article/pii/S0262885697000127	URL:https://www.sciencedirect.com/science/article/pii/S0262885697000127
+
+h7. https://dspace.mit.edu/handle/1721.1/6774	URL:https://dspace.mit.edu/handle/1721.1/6774
+
+h8. https://ieeexplore.ieee.org/document/655648	URL:https://ieeexplore.ieee.org/document/655648
 
 .
