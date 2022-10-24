@@ -1,11 +1,11 @@
 ---
-title: A summary of Using SVMs For Text Categorization by Susan Dumais et al.
-description: A summary of Using SVMs For Text Categorization by Susan Dumais et al.
-summary: A summary of Using SVMs For Text Categorization by Susan Dumais et al.
+title: A summary of Using SVMs For Text Categorization by Susan Dumais et al
+description: A summary of Using SVMs For Text Categorization by Susan Dumais et al
+summary: A summary of Using SVMs For Text Categorization by Susan Dumais et al
 
 categories: [summary, svm, text categorization, applications, ml]
 citations: [https://doi.org/10.1145/1273445.1273458, https://doi.ieeecomputersociety.org/10.1109/5254.708428,
-  https://agris.fao.org/agris-search/search.do?recordID=US201300296398, https://www.microsoft.com/en-us/research/publication/sequential-minimal-optimization-a-fast-algorithm-for-training-support-vector-machines/]
+  Introduction to modern information retrieval, https://www.microsoft.com/en-us/research/publication/sequential-minimal-optimization-a-fast-algorithm-for-training-support-vector-machines]
 
 draft: false
 
