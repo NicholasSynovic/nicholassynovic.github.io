@@ -1,4 +1,546 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>summary on Nicholas M. Synovic</title><link>https://nsynovic.dev/categories/summary/</link><description>Recent content in summary on Nicholas M. Synovic</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Nicholas M. Synovic</copyright><lastBuildDate>Thu, 29 Sep 2022 14:33:01 -0500</lastBuildDate><atom:link href="https://nsynovic.dev/categories/summary/feed.xml" rel="self" type="application/rss+xml"/><item><title>A summary of ImageNet Classification with Deep Convolutional Neural Networks by Krizhevsky et al.</title><link>https://nsynovic.dev/summaries/imagenet-classification-with-deep-convolutional-neural-networks/</link><pubDate>Thu, 29 Sep 2022 14:33:01 -0500</pubDate><guid>https://nsynovic.dev/summaries/imagenet-classification-with-deep-convolutional-neural-networks/</guid><description>&lt;h1 id="a-summary-of-imagenet-classification-with-deep-convolutional-neural-networks">A summary of &lt;em>ImageNet Classification with Deep Convolutional Neural Networks&lt;/em>&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>summary on Nicholas M. Synovic</title><link>https://nsynovic.dev/categories/summary/</link><description>Recent content in summary on Nicholas M. Synovic</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Nicholas M. Synovic</copyright><lastBuildDate>Sun, 23 Oct 2022 16:45:32 -0500</lastBuildDate><atom:link href="https://nsynovic.dev/categories/summary/feed.xml" rel="self" type="application/rss+xml"/><item><title>A summary of Using SVMs For Text Categorization by Susan Dumais et al</title><link>https://nsynovic.dev/summaries/using-svms-for-text-categorization/</link><pubDate>Sun, 23 Oct 2022 16:45:32 -0500</pubDate><guid>https://nsynovic.dev/summaries/using-svms-for-text-categorization/</guid><description>&lt;h1 id="a-summary-of-using-svms-for-text-categorization">A summary of &lt;em>Using SVMs For Text Categorization&lt;/em>&lt;/h1>
+&lt;blockquote>
+&lt;p>Susan Dumais et al.;
+&lt;a href="https://doi.ieeecomputersociety.org/10.1109/5254.708428">DOI&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;p>For the summary of the paper, go to the &lt;a href="#summary">Summary&lt;/a> section of this
+article.&lt;/p>
+&lt;h2 id="table-of-contents">Table of Contents&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="#a-summary-of-using-svms-for-text-categorization">A summary of &lt;em>Using SVMs For Text Categorization&lt;/em>&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#table-of-contents">Table of Contents&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#first-pass">First Pass&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#category">Category&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#context">Context&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#contributions">Contributions&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#second-pass">Second Pass&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#background-work">Background Work&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#motivation">Motivation&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#clarity">Clarity&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#relevant-work">Relevant Work&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#third-pass">Third Pass&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#future-directions">Future Directions&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#summary">Summary&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#summarization-technique">Summarization Technique&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#citations">Citations&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="first-pass">First Pass&lt;/h2>
+&lt;blockquote>
+&lt;p>Discussion about the title, abstract, introduction, section and sub-section
+headings, and conclusion&lt;/p>
+&lt;/blockquote>
+&lt;p>The essay &lt;em>Using SVMs For Text Categorization&lt;/em> by Susan Dumais et al. provides
+examples of when using a Support Vector Machine (SVM) is beneficial with respect
+to text classification. They discuss text classification, text representation
+and feature selection, and an example use case on the Reuters collection. They
+support the position that using SVMs for text classification (or really any
+algorithm so long as it isn&amp;rsquo;t run by a human) is beneficial for this task.&lt;/p>
+&lt;h3 id="category">Category&lt;/h3>
+&lt;blockquote>
+&lt;p>What type of paper is this work?&lt;/p>
+&lt;/blockquote>
+&lt;p>This essay is more arguementative and position oriented.&lt;/p>
+&lt;h3 id="context">Context&lt;/h3>
+&lt;blockquote>
+&lt;p>What other &lt;em>types&lt;/em> of papers is the work related to?&lt;/p>
+&lt;/blockquote>
+&lt;p>This essay would most likely be classified alongside similar works that
+evaluated the usefulness of SVMs with respect to human tasks.&lt;/p>
+&lt;h3 id="contributions">Contributions&lt;/h3>
+&lt;blockquote>
+&lt;p>What are the author&amp;rsquo;s main contributions?&lt;/p>
+&lt;/blockquote>
+&lt;p>Their contributions is an analysis of SVMs for text classification.&lt;/p>
+&lt;hr>
+&lt;h2 id="second-pass">Second Pass&lt;/h2>
+&lt;h2 id="background-work">Background Work&lt;/h2>
+&lt;blockquote>
+&lt;p>What has been done prior to this paper?&lt;/p>
+&lt;/blockquote>
+&lt;p>Work has been done to understand what SVMs are, as well as usecases for SVMs.&lt;/p>
+&lt;h2 id="motivation">Motivation&lt;/h2>
+&lt;blockquote>
+&lt;p>Why should we care about this paper?&lt;/p>
+&lt;/blockquote>
+&lt;p>Because it provides a case study of using SVMs on the Reuters collection with
+respect to text classification.&lt;/p>
+&lt;h3 id="figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/h3>
+&lt;blockquote>
+&lt;p>Are the axes properly labeled? Are results shown with error bars, so that
+conclusions are statistically significant?&lt;/p>
+&lt;/blockquote>
+&lt;p>All of the graphs and charts are clear to understand and have properly labeled
+axis.&lt;/p>
+&lt;h3 id="clarity">Clarity&lt;/h3>
+&lt;blockquote>
+&lt;p>Is the paper well written?&lt;/p>
+&lt;/blockquote>
+&lt;p>This essay is clearly written.&lt;/p>
+&lt;h3 id="relevant-work">Relevant Work&lt;/h3>
+&lt;blockquote>
+&lt;p>Mark relevant work for review&lt;/p>
+&lt;/blockquote>
+&lt;p>The following relevant work can be found in the &lt;a href="#citations">Citations&lt;/a> section
+of this article.&lt;/p>
+&lt;ul>
+&lt;li>Introduction to Modern Information Retrieval [2]&lt;/li>
+&lt;li>Fast Training of SVMs Using Sequential Minimal Optimization [3]&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="third-pass">Third Pass&lt;/h2>
+&lt;h3 id="future-directions">Future Directions&lt;/h3>
+&lt;blockquote>
+&lt;p>My own proposed future directions for the work&lt;/p>
+&lt;/blockquote>
+&lt;p>I would like to reimplement their study using the five different learning
+algorithms they utilized to validate their results. The algorithms in question
+are: Findsim, Naive Bayes, BayesNets, Trees, and LinearSVM.&lt;/p>
+&lt;hr>
+&lt;h2 id="summary">Summary&lt;/h2>
+&lt;blockquote>
+&lt;p>A summary of the paper&lt;/p>
+&lt;/blockquote>
+&lt;p>The essay &lt;em>Using SVMs For Text Categorization&lt;/em> by Susan Dumais et al. presents
+the usage of SVMs for text categorization on the Reuters collection in
+comparison to other classification algorithms. They found that SVMs perform best
+on this classification task.&lt;/p>
+&lt;p>The greater reason for this essay is to encourage engineers to use learning
+algorithms for human intensive tasks - such as text classification.&lt;/p>
+&lt;hr>
+&lt;h2 id="summarization-technique">Summarization Technique&lt;/h2>
+&lt;p>This paper was summarized using the technique proposed by S. Keshav in his work
+&lt;em>How to Read a Paper&lt;/em> [0].&lt;/p>
+&lt;h2 id="citations">Citations&lt;/h2>
+Citations availible at https://nsynovic.dev/summaries/using-svms-for-text-categorization/</description></item><item><title>A summary of SVMs - A Practical Consequence of Learning Theory by Bernhard Scholkopf</title><link>https://nsynovic.dev/summaries/svms-a-practical-consequence-of-learning-theory/</link><pubDate>Sun, 23 Oct 2022 10:02:41 -0500</pubDate><guid>https://nsynovic.dev/summaries/svms-a-practical-consequence-of-learning-theory/</guid><description>&lt;h1 id="a-summary-of-svms-a-practical-consequence-of-learning-theory">A summary of &lt;em>SVMs: A Practical Consequence of Learning Theory&lt;/em>&lt;/h1>
+&lt;blockquote>
+&lt;p>Bernhard Scholkopf;
+&lt;a href="https://doi.ieeecomputersociety.org/10.1109/5254.708428">DOI&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;p>For the summary of the paper, go to the &lt;a href="#summary">Summary&lt;/a> section of this
+article.&lt;/p>
+&lt;h2 id="table-of-contents">Table of Contents&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="#a-summary-of-svms-a-practical-consequence-of-learning-theory">A summary of &lt;em>SVMs: A Practical Consequence of Learning Theory&lt;/em>&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#table-of-contents">Table of Contents&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#first-pass">First Pass&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#category">Category&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#context">Context&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#contributions">Contributions&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#second-pass">Second Pass&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#background-work">Background Work&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#motivation">Motivation&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#clarity">Clarity&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#relevant-work">Relevant Work&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#third-pass">Third Pass&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#future-directions">Future Directions&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#summary">Summary&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#summarization-technique">Summarization Technique&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#citations">Citations&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="first-pass">First Pass&lt;/h2>
+&lt;blockquote>
+&lt;p>Discussion about the title, abstract, introduction, section and sub-section
+headings, and conclusion&lt;/p>
+&lt;/blockquote>
+&lt;p>The essay &lt;em>SVMs - a practical consequence of learning theory&lt;/em> by Bernhard
+Scholkopf (as part of the larger &lt;em>Support vector machine&lt;/em> collection of essays
+in the July/ August edition of the 1998 IEEE Intelligent Systems magazine)
+discusses the underlying theory that powers Support Vector Machine (SVM)
+algorithms and argues that these algortihms are useful and performant. His essay
+contains sections on &lt;em>Learning pattern recognition from examples&lt;/em>,
+&lt;em>Hyperplanes&lt;/em>, &lt;em>Feature spaces and kernels&lt;/em>, &lt;em>SVMs&lt;/em>, and &lt;em>Current developments
+and open issues&lt;/em> which indicates an essay that will wholistically look at SVMs,
+rather than a particualr facet of them.&lt;/p>
+&lt;h3 id="category">Category&lt;/h3>
+&lt;blockquote>
+&lt;p>What type of paper is this work?&lt;/p>
+&lt;/blockquote>
+&lt;p>This paper is best classified as an informative essay on the benefits of SVMs
+from a theoretical and practical view.&lt;/p>
+&lt;h3 id="context">Context&lt;/h3>
+&lt;blockquote>
+&lt;p>What other &lt;em>types&lt;/em> of papers is the work related to?&lt;/p>
+&lt;/blockquote>
+&lt;p>This paper is most related to other papers within the magazine&amp;rsquo;s collection, as
+well as work that goes into the theory behind SVMs.&lt;/p>
+&lt;h3 id="contributions">Contributions&lt;/h3>
+&lt;blockquote>
+&lt;p>What are the author&amp;rsquo;s main contributions?&lt;/p>
+&lt;/blockquote>
+&lt;p>A brief description of the theory that powers SVMs, as well as identifying where
+SVMs are practical.&lt;/p>
+&lt;hr>
+&lt;h2 id="second-pass">Second Pass&lt;/h2>
+&lt;h2 id="background-work">Background Work&lt;/h2>
+&lt;blockquote>
+&lt;p>What has been done prior to this paper?&lt;/p>
+&lt;/blockquote>
+&lt;p>Work has been done to develop and implement the SVM alogirthm.&lt;/p>
+&lt;h2 id="motivation">Motivation&lt;/h2>
+&lt;blockquote>
+&lt;p>Why should we care about this paper?&lt;/p>
+&lt;/blockquote>
+&lt;p>Because it provides a concise description of the theory that powers SVMs, and
+practical usages of SVMs.&lt;/p>
+&lt;h3 id="figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/h3>
+&lt;blockquote>
+&lt;p>Are the axes properly labeled? Are results shown with error bars, so that
+conclusions are statistically significant?&lt;/p>
+&lt;/blockquote>
+&lt;p>The paper doesn&amp;rsquo;t provide and graphs or charts. However, the figures and
+diagrams that are presented are clearly explained in the descriptions, are well
+made, and are easy to comprehand.&lt;/p>
+&lt;h3 id="clarity">Clarity&lt;/h3>
+&lt;blockquote>
+&lt;p>Is the paper well written?&lt;/p>
+&lt;/blockquote>
+&lt;p>Sort of? The theory components of the essay are written distinctly differently
+than the introduction and concluding sections of the paper. This could be due to
+the discussion of mathematical prose; but due to this, the essay has two
+different voices.&lt;/p>
+&lt;h3 id="relevant-work">Relevant Work&lt;/h3>
+&lt;blockquote>
+&lt;p>Mark relevant work for review&lt;/p>
+&lt;/blockquote>
+&lt;p>The following relevant work can be found in the &lt;a href="#citations">Citations&lt;/a> section
+of this article.&lt;/p>
+&lt;ul>
+&lt;li>The Nature of Statistical Learning Theory [2]&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="third-pass">Third Pass&lt;/h2>
+&lt;blockquote>
+&lt;p>This section can only be complete after a virtual re-implementation of the
+paper&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="future-directions">Future Directions&lt;/h3>
+&lt;blockquote>
+&lt;p>My own proposed future directions for the work&lt;/p>
+&lt;/blockquote>
+&lt;p>I&amp;rsquo;d like to explore the usage of SVMs for face or object detection and compare
+it against the usage of DL techniques on both traditional and low-powered
+centric metrics.&lt;/p>
+&lt;hr>
+&lt;h2 id="summary">Summary&lt;/h2>
+&lt;blockquote>
+&lt;p>A summary of the paper&lt;/p>
+&lt;/blockquote>
+&lt;p>The essay &lt;em>SVMs: A Practical Consequence of Learning Theory&lt;/em> by Bernhard
+Scholkopf discuss both the mathematical theory and current practice of using
+SVMs. SVMs are useful in a research aspect as their functionality can be
+mathematically explained. SVMs are a linear classifier that operate in
+multi-dimensional space through the usage of a hyper plane. Hyper planes are
+choosen by finding support vectors, which are instances of a class that are
+closest to one another. The hyper plane then splits these two instances into two
+seperable sides. To assist in this calculation, a kernel algorthm is applied to
+map one dimensionality space to another for easier computation.&lt;/p>
+&lt;p>Overall, this paper provides a good understanding of the theory behind SVMs. It
+also alludes to additional usages of SVMs and their current problems, but it is
+not focused on discussing or resolving them.&lt;/p>
+&lt;hr>
+&lt;h2 id="summarization-technique">Summarization Technique&lt;/h2>
+&lt;p>This paper was summarized using the technique proposed by S. Keshav in his work
+&lt;em>How to Read a Paper&lt;/em> [0].&lt;/p>
+&lt;h2 id="citations">Citations&lt;/h2>
+Citations availible at https://nsynovic.dev/summaries/svms-a-practical-consequence-of-learning-theory/</description></item><item><title>A summary of Runnemede: An Architecture for Ubiquitous High-Performance Computing by Nicholas P. Carter et al.</title><link>https://nsynovic.dev/summaries/runnemede-an-architecture-for-ubiquitous-high-performance-computing/</link><pubDate>Fri, 30 Sep 2022 09:07:41 -0500</pubDate><guid>https://nsynovic.dev/summaries/runnemede-an-architecture-for-ubiquitous-high-performance-computing/</guid><description>&lt;h1 id="a-summary-of-runnemede-an-architecture-for-ubiquitous-high-performance-computing">A summary of &lt;em>Runnemede: An Architecture for Ubiquitous High-Performance Computing&lt;/em>&lt;/h1>
+&lt;blockquote>
+&lt;p>Nicholas P. Carter et al;
+&lt;a href="https://doi.org/10.1109/HPCA.2013.6522319">https://doi.org/10.1109/HPCA.2013.6522319&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;p>For the summary of the paper, go to the &lt;a href="#summary">Summary&lt;/a> section of this
+article.&lt;/p>
+&lt;h2 id="table-of-contents">Table of Contents&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="#a-summary-of-runnemede-an-architecture-for-ubiquitous-high-performance-computing">A summary of &lt;em>Runnemede: An Architecture for Ubiquitous High-Performance Computing&lt;/em>&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#table-of-contents">Table of Contents&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#first-pass">First Pass&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#category">Category&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#context">Context&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#contributions">Contributions&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#second-pass">Second Pass&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#background-work">Background Work&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#motivation">Motivation&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#clarity">Clarity&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#relevant-work">Relevant Work&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#third-pass">Third Pass&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#author-assumptions">Author Assumptions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#correctness">Correctness&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#summary">Summary&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#summarization-technique">Summarization Technique&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#citations">Citations&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="first-pass">First Pass&lt;/h2>
+&lt;blockquote>
+&lt;p>Discussion about the title, abstract, introduction, section and sub-section
+headings, and conclusion&lt;/p>
+&lt;/blockquote>
+&lt;p>The paper &lt;em>Runnemede: An Architecture for Ubiquitous High-Performance Computing&lt;/em>
+by Nicholas P. Carter et al. [1] describes the Runnemede high performance
+computing architecture targeting extrene-scale systems. This architecture was
+developed for the DARPA&amp;rsquo;s Ubiquitous High-Performance Computing program. The
+authors describe multiple facets of the architecture including the networking,
+hardware and software design, the energy effeciencies of the architecture. They
+also evaluate the performance of the architecture as well. Their mainy
+contributions are a theoretical architecture that is well optimized for energy
+effiecieny on extra-scale computers.&lt;/p>
+&lt;h3 id="category">Category&lt;/h3>
+&lt;blockquote>
+&lt;p>What type of paper is this work?&lt;/p>
+&lt;/blockquote>
+&lt;p>This is a theoretical paper describing an architecture for HPC systems.&lt;/p>
+&lt;h3 id="context">Context&lt;/h3>
+&lt;blockquote>
+&lt;p>What other &lt;em>types&lt;/em> of papers is the work related to?&lt;/p>
+&lt;/blockquote>
+&lt;p>Similar works would involve HPC architecture descriptions as well as low powered
+computing architectures as well.&lt;/p>
+&lt;h3 id="contributions">Contributions&lt;/h3>
+&lt;blockquote>
+&lt;p>What are the author&amp;rsquo;s main contributions?&lt;/p>
+&lt;/blockquote>
+&lt;p>Their contributions are a theoretical design and analysis of a HPC architecture
+focused on energy effieciency.&lt;/p>
+&lt;hr>
+&lt;h2 id="second-pass">Second Pass&lt;/h2>
+&lt;h2 id="background-work">Background Work&lt;/h2>
+&lt;blockquote>
+&lt;p>What has been done prior to this paper?&lt;/p>
+&lt;/blockquote>
+&lt;p>Runnemede is a one of four architectures under the DARPA UHPC program.
+Additionally, work has been done before to build both low powered cluster
+computers, and HPC.&lt;/p>
+&lt;h2 id="motivation">Motivation&lt;/h2>
+&lt;blockquote>
+&lt;p>Why should we care about this paper?&lt;/p>
+&lt;/blockquote>
+&lt;p>The justification for this work is that there exists a theory that larger and
+larger HPC computers will require more and more power, without fully utilizing
+the entire device array. Additionally, a test chip was designed, but never
+produced, called &amp;ldquo;Sunshine&amp;rdquo;. By designing this chip, the authors were able to
+theoretically test the ideas presented in the paper as well as develop new ones
+for the architecture.&lt;/p>
+&lt;h3 id="figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/h3>
+&lt;blockquote>
+&lt;p>Are the axes properly labeled? Are results shown with error bars, so that
+conclusions are statistically significant?&lt;/p>
+&lt;/blockquote>
+&lt;p>All of the figures and tables are clear and easy to understand.&lt;/p>
+&lt;h3 id="clarity">Clarity&lt;/h3>
+&lt;blockquote>
+&lt;p>Is the paper well written?&lt;/p>
+&lt;/blockquote>
+&lt;p>The paper is well written and clear to understand.&lt;/p>
+&lt;h3 id="relevant-work">Relevant Work&lt;/h3>
+&lt;blockquote>
+&lt;p>Mark relevant work for review&lt;/p>
+&lt;/blockquote>
+&lt;p>The following relevant work can be found in the &lt;a href="#citations">Citations&lt;/a> section
+of this article.&lt;/p>
+&lt;ul>
+&lt;li>[2]&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="third-pass">Third Pass&lt;/h2>
+&lt;blockquote>
+&lt;p>This section can only be complete after a virtual re-implementation of the
+paper&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="author-assumptions">Author Assumptions&lt;/h3>
+&lt;blockquote>
+&lt;p>What assumptions does the author(s) make? Are they justified assumptions?&lt;/p>
+&lt;/blockquote>
+&lt;p>The author&amp;rsquo;s assumed that, &amp;ldquo;&amp;hellip; The power consumed by logic is expected to scale
+well as feature sizes shrink, but not as well as transistor density, leading to
+the design of &lt;em>overprovisioned, energy-limited&lt;/em> systems that contain more
+hardware than they can operate simultanously&amp;rdquo;. In other words, systems will have
+more and more &lt;em>power hungry&lt;/em> hardware that cannot be utilized in its entirety.
+Additionally, they assume that the current trend with DRAM will cause power
+consumption to decrement over time, but not fast enough.&lt;/p>
+&lt;h3 id="correctness">Correctness&lt;/h3>
+&lt;blockquote>
+&lt;p>Do the assumptions seem valid?&lt;/p>
+&lt;/blockquote>
+&lt;p>As the year is 2022, the current next generation hardware from NVIDIA, Intel,
+and AMD has been announced, all of which require immense power draw to operate.
+Additionally, DDR5 DRAM exists and consumes less power than the previous DDR4
+DRAM. Therefore, I agree with the assumptions of the authors.&lt;/p>
+&lt;hr>
+&lt;h2 id="summary">Summary&lt;/h2>
+&lt;blockquote>
+&lt;p>A summary of the paper&lt;/p>
+&lt;/blockquote>
+&lt;p>The paper &lt;em>Runnemede: An Architecture for Ubiquitous High-Performance Computing&lt;/em>
+by Nicholas P. Carter et al. [1] describes the Runnemede high performance
+computing architecture targeting extrene-scale systems. This architecture was
+developed for the DARPA&amp;rsquo;s Ubiquitous High-Performance Computing program to
+address overprovisioned, energy limited HPC architecture designs. The authors
+proposed a theoretical architecture design, and justify it via benchmarking that
+they performed with simulations. Their work assumes (correctly in my opinion)
+that systems will continue to require more power to operate in order to achieve
+better performance.&lt;/p>
+&lt;hr>
+&lt;h2 id="summarization-technique">Summarization Technique&lt;/h2>
+&lt;p>This paper was summarized using the technique proposed by S. Keshav in his work
+&lt;em>How to Read a Paper&lt;/em> [0].&lt;/p>
+&lt;h2 id="citations">Citations&lt;/h2>
+Citations availible at https://nsynovic.dev/summaries/runnemede-an-architecture-for-ubiquitous-high-performance-computing/</description></item><item><title>A summary of Deep Residual Learning for Image Recognition by Kaiming He et al.</title><link>https://nsynovic.dev/summaries/deep-residual-learning-for-image-recognition/</link><pubDate>Thu, 29 Sep 2022 20:24:46 -0500</pubDate><guid>https://nsynovic.dev/summaries/deep-residual-learning-for-image-recognition/</guid><description>&lt;h1 id="a-summary-of-deep-residual-learning-for-image-recognition">A summary of &lt;em>Deep Residual Learning for Image Recognition&lt;/em>&lt;/h1>
+&lt;blockquote>
+&lt;p>Kaiming He et al.; INSERT DOI&lt;/p>
+&lt;/blockquote>
+&lt;p>For the summary of the paper, go to the &lt;a href="#summary">Summary&lt;/a> section of this
+article.&lt;/p>
+&lt;h2 id="table-of-contents">Table of Contents&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="#a-summary-of-deep-residual-learning-for-image-recognition">A summary of &lt;em>Deep Residual Learning for Image Recognition&lt;/em>&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#table-of-contents">Table of Contents&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#first-pass">First Pass&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#category">Category&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#context">Context&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#contributions">Contributions&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#second-pass">Second Pass&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#background-work">Background Work&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#motivation">Motivation&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#clarity">Clarity&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#relevant-work">Relevant Work&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#third-pass">Third Pass&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#author-assumptions">Author Assumptions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#correctness">Correctness&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#discussion-of-the-proofs">Discussion of the Proofs&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#how-would-i-present-the-ideas">How Would I Present the Idea(s)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#future-directions">Future Directions&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#summary">Summary&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#summarization-technique">Summarization Technique&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#citations">Citations&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="first-pass">First Pass&lt;/h2>
+&lt;blockquote>
+&lt;p>Discussion about the title, abstract, introduction, section and sub-section
+headings, and conclusion&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="category">Category&lt;/h3>
+&lt;blockquote>
+&lt;p>What type of paper is this work?&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="context">Context&lt;/h3>
+&lt;blockquote>
+&lt;p>What other &lt;em>types&lt;/em> of papers is the work related to?&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="contributions">Contributions&lt;/h3>
+&lt;blockquote>
+&lt;p>What are the author&amp;rsquo;s main contributions?&lt;/p>
+&lt;/blockquote>
+&lt;hr>
+&lt;h2 id="second-pass">Second Pass&lt;/h2>
+&lt;h2 id="background-work">Background Work&lt;/h2>
+&lt;blockquote>
+&lt;p>What has been done prior to this paper?&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="motivation">Motivation&lt;/h2>
+&lt;blockquote>
+&lt;p>Why should we care about this paper?&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/h3>
+&lt;blockquote>
+&lt;p>Are the axes properly labeled? Are results shown with error bars, so that
+conclusions are statistically significant?&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="clarity">Clarity&lt;/h3>
+&lt;blockquote>
+&lt;p>Is the paper well written?&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="relevant-work">Relevant Work&lt;/h3>
+&lt;blockquote>
+&lt;p>Mark relevant work for review&lt;/p>
+&lt;/blockquote>
+&lt;p>The following relevant work can be found in the &lt;a href="#citations">Citations&lt;/a> section
+of this article.&lt;/p>
+&lt;hr>
+&lt;h2 id="third-pass">Third Pass&lt;/h2>
+&lt;blockquote>
+&lt;p>This section can only be complete after a virtual re-implementation of the
+paper&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="author-assumptions">Author Assumptions&lt;/h3>
+&lt;blockquote>
+&lt;p>What assumptions does the author(s) make? Are they justified assumptions?&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="correctness">Correctness&lt;/h3>
+&lt;blockquote>
+&lt;p>Do the assumptions seem valid?&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="discussion-of-the-proofs">Discussion of the Proofs&lt;/h3>
+&lt;h3 id="how-would-i-present-the-ideas">How Would I Present the Idea(s)&lt;/h3>
+&lt;h3 id="future-directions">Future Directions&lt;/h3>
+&lt;blockquote>
+&lt;p>My own proposed future directions for the work&lt;/p>
+&lt;/blockquote>
+&lt;hr>
+&lt;h2 id="summary">Summary&lt;/h2>
+&lt;blockquote>
+&lt;p>A summary of the paper&lt;/p>
+&lt;/blockquote>
+&lt;hr>
+&lt;h2 id="summarization-technique">Summarization Technique&lt;/h2>
+&lt;p>This paper was summarized using the technique proposed by S. Keshav in his work
+&lt;em>How to Read a Paper&lt;/em> [0].&lt;/p>
+&lt;h2 id="citations">Citations&lt;/h2>
+Citations availible at https://nsynovic.dev/summaries/deep-residual-learning-for-image-recognition/</description></item><item><title>A summary of ImageNet Classification with Deep Convolutional Neural Networks by Krizhevsky et al.</title><link>https://nsynovic.dev/summaries/imagenet-classification-with-deep-convolutional-neural-networks/</link><pubDate>Thu, 29 Sep 2022 14:33:01 -0500</pubDate><guid>https://nsynovic.dev/summaries/imagenet-classification-with-deep-convolutional-neural-networks/</guid><description>&lt;h1 id="a-summary-of-imagenet-classification-with-deep-convolutional-neural-networks">A summary of &lt;em>ImageNet Classification with Deep Convolutional Neural Networks&lt;/em>&lt;/h1>
 &lt;blockquote>
 &lt;p>Krizhevsky et al.;
 &lt;a href="https://doi.org/10.1145/3065386">https://doi.org/10.1145/3065386&lt;/a>&lt;/p>
@@ -31,7 +573,6 @@ article.&lt;/p>
 &lt;li>&lt;a href="#author-assumptions">Author Assumptions&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#correctness">Correctness&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#discussion-of-the-proofs">Discussion of the Proofs&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#how-would-i-present-the-ideas">How Would I Present the Idea(s)&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#future-directions">Future Directions&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/li>
@@ -75,7 +616,8 @@ ImageNet Challenge.&lt;/p>
 &lt;p>Their main contributions were that training on GPUs allows for accelerated
 training, that large and deep convulutional neural networks are effective at
 clasifying images, and that removing layers does decrease the performance of
-models. Therefore, a larger, deeper model is applicable.&lt;/p>
+models. Therefore, a larger, deeper model is applicable. It should be noted that
+AlexNet was the largest model ever at the time of publication.&lt;/p>
 &lt;hr>
 &lt;h2 id="second-pass">Second Pass&lt;/h2>
 &lt;h2 id="background-work">Background Work&lt;/h2>
@@ -91,7 +633,10 @@ However, they were bounded by not being particularly deep.&lt;/p>
 &lt;p>Because it is one of the key papers that demonstrates that large, deep,
 convulational neural networks are effective for image classification. As well as
 providing evidence that training on GPUs is not only effective but recommended
-for optimal performance.&lt;/p>
+for optimal performance. Additionally it provides empirical evidence that
+removing a layer from a convolutional neural network is detrimental to the
+performance of the model. In other words, the more layers you add, the more
+potential there is for improvement.&lt;/p>
 &lt;h3 id="figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/h3>
 &lt;blockquote>
 &lt;p>Are the axes properly labeled? Are results shown with error bars, so that
@@ -121,21 +666,54 @@ paper&lt;/p>
 &lt;blockquote>
 &lt;p>What assumptions does the author(s) make? Are they justified assumptions?&lt;/p>
 &lt;/blockquote>
+&lt;p>They assume that it is because of the larger compute devices and datasets that
+make these deep convolutional neural networks possible.&lt;/p>
 &lt;h3 id="correctness">Correctness&lt;/h3>
 &lt;blockquote>
 &lt;p>Do the assumptions seem valid?&lt;/p>
 &lt;/blockquote>
+&lt;p>While true, &lt;a href="going-deeper-with-convolutions.md">Szegedy et al.&lt;/a> designed thier
+own architecture using unique algorithms not prevelant in existing convolutional
+neural networks.&lt;/p>
 &lt;h3 id="discussion-of-the-proofs">Discussion of the Proofs&lt;/h3>
-&lt;h3 id="how-would-i-present-the-ideas">How Would I Present the Idea(s)&lt;/h3>
+&lt;p>Their training involved both dropout and data augmentation.&lt;/p>
+&lt;p>Dropout involves not using the outputs of neurons whose activation is less than
+0.5.&lt;/p>
+&lt;p>Data augmentation involves manipulating the input images such that 5 244 x 244
+images are derived from one 256 x 256 image (e.g. the four corners and one
+centered). Additionally, PCA was done on the RGB channels of all of the images
+in the ImageNet 2010 and 2012 datasets. These eigenvectors were then added to
+each of the images respective color channels.&lt;/p>
 &lt;h3 id="future-directions">Future Directions&lt;/h3>
 &lt;blockquote>
 &lt;p>My own proposed future directions for the work&lt;/p>
 &lt;/blockquote>
+&lt;p>A reimplemenation of the work would be interesting, with particular respect to
+benchmarking training time, as the authors were limited by their GPU compute
+units&amp;rsquo; performance.&lt;/p>
 &lt;hr>
 &lt;h2 id="summary">Summary&lt;/h2>
 &lt;blockquote>
 &lt;p>A summary of the paper&lt;/p>
 &lt;/blockquote>
+&lt;p>&lt;em>Taken from &lt;a href="#first-pass">First Pass&lt;/a>&lt;/em>&lt;/p>
+&lt;p>The paper &lt;em>ImageNet Classification with Deep Convolutional Neural Networks&lt;/em> by
+Krizhevsky et al. [1] discusses the AlexNet model and its architecture as well
+as its SOTA achievements in the 2012 ImageNet Challenge. The difference between
+AlexNet and other contestants was that the model relies on GPU training to train
+the convulational neural network model as well as being a deep convolutional
+neural network.&lt;/p>
+&lt;p>By utilizing the GPU, training time can be accelerated significatnly more than
+what was previously possible. The benefits of being a deep convolutional neural
+network is that the classification of images builds off of the features found in
+the previous images. The result of this is that their top 1% and top 5% error
+were the lowest ever in the competition.&lt;/p>
+&lt;p>They trained their model by utilizing both dropout, where neurons that activated
+with a value less than 0.5 are not inputted into the next layer, and by
+augmenting the Imagenet 2010 and 2012 datasets to increase the amount of data
+that they can throw at the model.&lt;/p>
+&lt;p>Their work is important as it kicked off the usage of both deep convolutional
+neural networks and the usage of GPUs to reduce training time.&lt;/p>
 &lt;hr>
 &lt;h2 id="summarization-technique">Summarization Technique&lt;/h2>
 &lt;p>This paper was summarized using the technique proposed by S. Keshav in his work

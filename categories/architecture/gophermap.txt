@@ -1,0 +1,14 @@
+  ____           _
+ |  _ \ ___  ___| |_ ___
+ | |_) / _ \/ __| __/ __|
+ |  __/ (_) \__ \ |_\__ \
+ |_|   \___/|___/\__|___/
+> These posts are mirrored from my HTTP site.
+
+
+1A summary of Runnemede: An Architecture for Ubiquitous High-Performance Computing by Nicholas P. Carter et al.	/summaries/runnemede-an-architecture-for-ubiquitous-high-performance-computing
+
+1A summary of Deep Residual Learning for Image Recognition by Kaiming He et al.	/summaries/deep-residual-learning-for-image-recognition
+
+
+.

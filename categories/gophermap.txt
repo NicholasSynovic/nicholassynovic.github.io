@@ -38,8 +38,6 @@
 
 1acm	/categories/acm
 
-1ml	/categories/ml
-
 1machine learning architecture	/categories/machine-learning-architecture
 
 1machine learning	/categories/machine-learning
@@ -48,15 +46,39 @@
 
 1cv	/categories/cv
 
-1summary	/categories/summary
-
 1ImageNet	/categories/imagenet
 
 1GPU	/categories/gpu
 
 1deep learning	/categories/deep-learning
 
+1residual learning	/categories/residual-learning
+
 1computer vision	/categories/computer-vision
+
+1systems	/categories/systems
+
+1hpc	/categories/hpc
+
+1high performance computing	/categories/high-performance-computing
+
+1architecture	/categories/architecture
+
+1theory	/categories/theory
+
+1svms	/categories/svms
+
+1learning theory	/categories/learning-theory
+
+1text categorization	/categories/text-categorization
+
+1svm	/categories/svm
+
+1summary	/categories/summary
+
+1ml	/categories/ml
+
+1applications	/categories/applications
 
 
 .
