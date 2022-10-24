@@ -34,7 +34,7 @@ For the summary of the paper, go to the [Summary](#summary) section of this arti
     - [Context](#context)
     - [Contributions](#contributions)
   - [Second Pass](#second-pass)
-  - [Background Work](#background-work)
+    - [Background Work](#background-work)
     - [Motivation](#motivation)
     - [Figures, Diagrams, Illustrations, and Graphs](#figures-diagrams-illustrations-and-graphs)
     - [Clarity](#clarity)
@@ -73,7 +73,7 @@ For the summary of the paper, go to the [Summary](#summary) section of this arti
 
 > A proper read through of the paper
 
-## Background Work
+### Background Work
 
 > What has been done prior to this paper?
 
