@@ -57,7 +57,7 @@ ______________________________________________________________________
 
 The essay *SVMs - a practical consequence of learning theory* by Bernhard
 Scholkopf (as part of the larger *Support vector machine* collection of essays
-in the July/ August edition of the 1998 IEEE Intelligent Systems magazine)
+in the July/ August edition of the 1998 IEEE Intelligent Systems magazine) \[1\]
 discusses the underlying theory that powers Support Vector Machine (SVM)
 algorithms and argues that these algortihms are useful and performant. His essay
 contains sections on *Learning pattern recognition from examples*,
@@ -152,14 +152,16 @@ ______________________________________________________________________
 > A summary of the paper
 
 The essay *SVMs: A Practical Consequence of Learning Theory* by Bernhard
-Scholkopf discuss both the mathematical theory and current practice of using
-SVMs. SVMs are useful in a research aspect as their functionality can be
-mathematically explained. SVMs are a linear classifier that operate in
-multi-dimensional space through the usage of a hyper plane. Hyper planes are
-choosen by finding support vectors, which are instances of a class that are
-closest to one another. The hyper plane then splits these two instances into two
-seperable sides. To assist in this calculation, a kernel algorthm is applied to
-map one dimensionality space to another for easier computation.
+Scholkopf (as part of the larger *Support vector machine* collection of essays
+in the July/ August edition of the 1998 IEEE Intelligent Systems magazine) \[1\]
+discuss both the mathematical theory and current practice of using SVMs. SVMs
+are useful in a research aspect as their functionality can be mathematically
+explained. SVMs are a linear classifier that operate in multi-dimensional space
+through the usage of a hyper plane. Hyper planes are choosen by finding support
+vectors, which are instances of a class that are closest to one another. The
+hyper plane then splits these two instances into two seperable sides. To assist
+in this calculation, a kernel algorthm is applied to map one dimensionality
+space to another for easier computation.
 
 Overall, this paper provides a good understanding of the theory behind SVMs. It
 also alludes to additional usages of SVMs and their current problems, but it is

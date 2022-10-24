@@ -54,10 +54,12 @@ ______________________________________________________________________
 > Discussion about the title, abstract, introduction, section and sub-section
 > headings, and conclusion
 
-The essay *Using SVMs For Text Categorization* by Susan Dumais et al. provides
-examples of when using a Support Vector Machine (SVM) is beneficial with respect
-to text classification. They discuss text classification, text representation
-and feature selection, and an example use case on the Reuters collection. They
+The essay *Using SVMs For Text Categorization* by Susan Dumais et al. (as part
+of the larger *Support vector machine* collection of essays in the July/ August
+edition of the 1998 IEEE Intelligent Systems magazine) \[1\] provides examples
+of when using a Support Vector Machine (SVM) is beneficial with respect to text
+classification. They discuss text classification, text representation and
+feature selection, and an example use case on the Reuters collection. They
 support the position that using SVMs for text classification (or really any
 algorithm so long as it isn't run by a human) is beneficial for this task.
 
@@ -139,10 +141,12 @@ ______________________________________________________________________
 
 > A summary of the paper
 
-The essay *Using SVMs For Text Categorization* by Susan Dumais et al. presents
-the usage of SVMs for text categorization on the Reuters collection in
-comparison to other classification algorithms. They found that SVMs perform best
-on this classification task.
+The essay *Using SVMs For Text Categorization* by Susan Dumais et al. (as part
+of the larger *Support vector machine* collection of essays in the July/ August
+edition of the 1998 IEEE Intelligent Systems magazine) \[1\] presents the usage
+of SVMs for text categorization on the Reuters collection in comparison to other
+classification algorithms. They found that SVMs perform best on this
+classification task.
 
 The greater reason for this essay is to encourage engineers to use learning
 algorithms for human intensive tasks - such as text classification.
