@@ -36,8 +36,8 @@ article.
     - [Context](#context)
     - [Contributions](#contributions)
   - [Second Pass](#second-pass)
-  - [Background Work](#background-work)
-  - [Motivation](#motivation)
+    - [Background Work](#background-work)
+    - [Motivation](#motivation)
     - [Figures, Diagrams, Illustrations, and Graphs](#figures-diagrams-illustrations-and-graphs)
     - [Clarity](#clarity)
     - [Relevant Work](#relevant-work)
@@ -86,13 +86,13 @@ ______________________________________________________________________
 
 ## Second Pass
 
-## Background Work
+### Background Work
 
 > What has been done prior to this paper?
 
 Work has been done to understand what SVMs are, as well as usecases for SVMs.
 
-## Motivation
+### Motivation
 
 > Why should we care about this paper?
 

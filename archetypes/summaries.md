@@ -1,7 +1,7 @@
 ---
-title: 'A summary of CHANGE ME by AUTHOR'
-description: 'A summary of CHANGE ME by AUTHOR'
-summary: 'A summary of CHANGE ME by AUTHOR'
+title: A summary of CHANGE ME by AUTHOR
+description: A summary of CHANGE ME by AUTHOR
+summary: A summary of CHANGE ME by AUTHOR
 
 categories: [summary,]
 citations: [https://doi.org/10.1145/1273445.1273458]
@@ -35,7 +35,7 @@ For the summary of the paper, go to the [Summary](#summary) section of this arti
     - [Contributions](#contributions)
   - [Second Pass](#second-pass)
   - [Background Work](#background-work)
-  - [Motivation](#motivation)
+    - [Motivation](#motivation)
     - [Figures, Diagrams, Illustrations, and Graphs](#figures-diagrams-illustrations-and-graphs)
     - [Clarity](#clarity)
     - [Relevant Work](#relevant-work)
@@ -71,11 +71,13 @@ For the summary of the paper, go to the [Summary](#summary) section of this arti
 
 ## Second Pass
 
+> A proper read through of the paper
+
 ## Background Work
 
 > What has been done prior to this paper?
 
-## Motivation
+### Motivation
 
 > Why should we care about this paper?
 
