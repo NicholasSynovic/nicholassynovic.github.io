@@ -43,10 +43,6 @@ article.
     - [Clarity](#clarity)
     - [Relevant Work](#relevant-work)
   - [Third Pass](#third-pass)
-    - [Author Assumptions](#author-assumptions)
-    - [Correctness](#correctness)
-    - [Discussion of the Proofs](#discussion-of-the-proofs)
-    - [How Would I Present the Idea(s)](#how-would-i-present-the-ideas)
     - [Future Directions](#future-directions)
   - [Summary](#summary)
   - [Summarization Technique](#summarization-technique)
@@ -119,16 +115,24 @@ layer.
 
 > Why should we care about this paper?
 
-We should care about this paper as
+We should care about this paper as it provides a methodology of utilizing
+existing CNNs trained on image classification to perform object localization
+tasks "for free". In other words, this paper presents a methodology for object
+localization by reusing existing SOTA CNNs.
 
 ### Figures, Diagrams, Illustrations, and Graphs
 
 > Are the axes properly labeled? Are results shown with error bars, so that
 > conclusions are statistically significant?
 
+All of the figures and tables are labelled clearly, have detailed captions, and
+make sense with respect to the paper.
+
 ### Clarity
 
 > Is the paper well written?
+
+The paper is well written.
 
 ### Relevant Work
 
@@ -156,21 +160,17 @@ ______________________________________________________________________
 > This section can only be complete after a virtual re-implementation of the
 > paper
 
-### Author Assumptions
-
-> What assumptions does the author(s) make? Are they justified assumptions?
-
-### Correctness
-
-> Do the assumptions seem valid?
-
-### Discussion of the Proofs
-
-### How Would I Present the Idea(s)
-
 ### Future Directions
 
 > My own proposed future directions for the work
+
+I would love to take this work and apply it to my current research in low
+powered computer vision. By utilizing larger networks to localize where in a
+static scene the object of interest is most likely to be in (for example, a
+static video of a bird sitting on a wire), I can pass in this mapping into a CNN
+to specifically be interested in that region of the video/ image. Additionally,
+by figuring out where a larger CNN is localizing data, I can then mask out any
+cold area of the image prior to analysis by a smaller CNN.
 
 ______________________________________________________________________
 
