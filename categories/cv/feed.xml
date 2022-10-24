@@ -1,4 +1,166 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>cv on Nicholas M. Synovic</title><link>https://nsynovic.dev/categories/cv/</link><description>Recent content in cv on Nicholas M. Synovic</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Nicholas M. Synovic</copyright><lastBuildDate>Mon, 24 Oct 2022 09:20:40 -0500</lastBuildDate><atom:link href="https://nsynovic.dev/categories/cv/feed.xml" rel="self" type="application/rss+xml"/><item><title>A summary of Applying SVMS to Face Detection by Edgar Osuna</title><link>https://nsynovic.dev/summaries/applying-svms-to-face-detection/</link><pubDate>Mon, 24 Oct 2022 09:20:40 -0500</pubDate><guid>https://nsynovic.dev/summaries/applying-svms-to-face-detection/</guid><description>&lt;h1 id="a-summary-of-applying-svms-to-face-detection">A summary of &lt;em>Applying SVMs to Face Detection&lt;/em>&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>cv on Nicholas M. Synovic</title><link>https://nsynovic.dev/categories/cv/</link><description>Recent content in cv on Nicholas M. Synovic</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Nicholas M. Synovic</copyright><lastBuildDate>Mon, 24 Oct 2022 13:46:36 -0500</lastBuildDate><atom:link href="https://nsynovic.dev/categories/cv/feed.xml" rel="self" type="application/rss+xml"/><item><title>A summary of How to implement SVMs by John Platt</title><link>https://nsynovic.dev/summaries/how-to-implement-svms/</link><pubDate>Mon, 24 Oct 2022 13:46:36 -0500</pubDate><guid>https://nsynovic.dev/summaries/how-to-implement-svms/</guid><description>&lt;h1 id="a-summary-of-how-to-implement-svms">A summary of &lt;em>How to implement SVMs&lt;/em>&lt;/h1>
+&lt;blockquote>
+&lt;p>John Platt; &lt;a href="https://doi.ieeecomputersociety.org/10.1109/5254.708428">DOI&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;p>For the summary of the paper, go to the &lt;a href="#summary">Summary&lt;/a> section of this
+article.&lt;/p>
+&lt;h2 id="table-of-contents">Table of Contents&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="#a-summary-of-how-to-implement-svms">A summary of &lt;em>How to implement SVMs&lt;/em>&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#table-of-contents">Table of Contents&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#first-pass">First Pass&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#category">Category&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#context">Context&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#contributions">Contributions&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#second-pass">Second Pass&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#background-work">Background Work&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#motivation">Motivation&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#clarity">Clarity&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#relevant-work">Relevant Work&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#third-pass">Third Pass&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#author-assumptions">Author Assumptions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#correctness">Correctness&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#future-directions">Future Directions&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#summary">Summary&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#summarization-technique">Summarization Technique&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#citations">Citations&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="first-pass">First Pass&lt;/h2>
+&lt;blockquote>
+&lt;p>Discussion about the title, abstract, introduction, section and sub-section
+headings, and conclusion&lt;/p>
+&lt;/blockquote>
+&lt;p>The essay &lt;em>How to implement SVMs&lt;/em> by John Platt (as part of the larger &lt;em>Support
+vector machine&lt;/em> collection of essays in the July/ August edition of the 1998
+IEEE Intelligent Systems magazine) [1] discusses how to implement a Support
+Vector Machine (SVM). This essay goes into great detail on implementation
+strategies for handling larger datasets, as well as methods for training SVMs.
+Topics include understanding the Quadratic Problem (what SVMs aim to solve),
+sequential minimal optimization (reaching a global minimal value), and where to
+find SVM implementations.&lt;/p>
+&lt;h3 id="category">Category&lt;/h3>
+&lt;blockquote>
+&lt;p>What type of paper is this work?&lt;/p>
+&lt;/blockquote>
+&lt;p>This essay seems to be a tutorial/ workshop paper about SVMs.&lt;/p>
+&lt;h3 id="context">Context&lt;/h3>
+&lt;blockquote>
+&lt;p>What other &lt;em>types&lt;/em> of papers is the work related to?&lt;/p>
+&lt;/blockquote>
+&lt;p>I would expect papers that are about implementing SVMs from scratch would be
+related to this essay.&lt;/p>
+&lt;h3 id="contributions">Contributions&lt;/h3>
+&lt;blockquote>
+&lt;p>What are the author&amp;rsquo;s main contributions?&lt;/p>
+&lt;/blockquote>
+&lt;p>Their main contributions are an understanding of how SVMs work as well as how to
+implement them efficently.&lt;/p>
+&lt;hr>
+&lt;h2 id="second-pass">Second Pass&lt;/h2>
+&lt;h2 id="background-work">Background Work&lt;/h2>
+&lt;blockquote>
+&lt;p>What has been done prior to this paper?&lt;/p>
+&lt;/blockquote>
+&lt;p>Work has already been done on experimenting optimal SVM algorithms and
+minimization functions.&lt;/p>
+&lt;h2 id="motivation">Motivation&lt;/h2>
+&lt;blockquote>
+&lt;p>Why should we care about this paper?&lt;/p>
+&lt;/blockquote>
+&lt;p>We should care about this paper as it provides an understanding of what a SVM is
+and how they function.&lt;/p>
+&lt;h3 id="figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/h3>
+&lt;blockquote>
+&lt;p>Are the axes properly labeled? Are results shown with error bars, so that
+conclusions are statistically significant?&lt;/p>
+&lt;/blockquote>
+&lt;p>The figure and charts have proper labels and captions that explain what they are
+representing.&lt;/p>
+&lt;h3 id="clarity">Clarity&lt;/h3>
+&lt;blockquote>
+&lt;p>Is the paper well written?&lt;/p>
+&lt;/blockquote>
+&lt;p>For the most part, yes. However, the essay expects the reader to be knowledgable
+about SVMs prior to reading the essay. This is shown mostly through the usage of
+mathematical notation specific to the problem domain, and linking to other work
+to explain it. While this is a short essay for a magazine, a brief sentence or
+two about the notation would have been appreciated.&lt;/p>
+&lt;h3 id="relevant-work">Relevant Work&lt;/h3>
+&lt;blockquote>
+&lt;p>Mark relevant work for review&lt;/p>
+&lt;/blockquote>
+&lt;p>The following relevant work can be found in the &lt;a href="#citations">Citations&lt;/a> section
+of this article.&lt;/p>
+&lt;ul>
+&lt;li>A Tutorial on Support Vector Machines for Pattern Recognition [2]&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="third-pass">Third Pass&lt;/h2>
+&lt;blockquote>
+&lt;p>This section can only be complete after a virtual re-implementation of the
+paper&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="author-assumptions">Author Assumptions&lt;/h3>
+&lt;blockquote>
+&lt;p>What assumptions does the author(s) make? Are they justified assumptions?&lt;/p>
+&lt;/blockquote>
+&lt;p>The author assumes that the reader, should they implement their own SVM
+algorithm, will be using a commericial numerical analysis package.&lt;/p>
+&lt;h3 id="correctness">Correctness&lt;/h3>
+&lt;blockquote>
+&lt;p>Do the assumptions seem valid?&lt;/p>
+&lt;/blockquote>
+&lt;p>Without understanding the nature of the numerical analysis packages of 1998, I
+would assume that this assumption is correct. I base this on that the author
+mentions that free numerical analysis packages (not if they were open sourced or
+not) run slower than commercial packages and may have errors due to precision
+mistakes.&lt;/p>
+&lt;h3 id="future-directions">Future Directions&lt;/h3>
+&lt;blockquote>
+&lt;p>My own proposed future directions for the work&lt;/p>
+&lt;/blockquote>
+&lt;p>I&amp;rsquo;m not interested in creating my own SVM algorithm. However, having a better
+understanding of how SVMs work as well as the different minimization functions
+that they implement, would be nice to know.&lt;/p>
+&lt;hr>
+&lt;h2 id="summary">Summary&lt;/h2>
+&lt;blockquote>
+&lt;p>A summary of the paper&lt;/p>
+&lt;/blockquote>
+&lt;p>The essay &lt;em>How to implement SVMs&lt;/em> by John Platt (as part of the larger &lt;em>Support
+vector machine&lt;/em> collection of essays in the July/ August edition of the 1998
+IEEE Intelligent Systems magazine) [1] discusses how to implement a Support
+Vector Machine (SVM). The author goes into detail about what an SVM is trying to
+accomplish (minimize a quadratic problem on a high dimensional matrix), what
+techniques exist to solve this problem, as well as availible programs to allow
+for researchers to utilize SVMs in their work.&lt;/p>
+&lt;p>Overall, the essay does a good job of explaining the problem space as well as
+implementation details, however, the essay is very much a product of its time.
+There is less of a need to develop new SVM algorithms as there are many that are
+provided off of the shelf in free and open source numerical analysis packages
+[3] [4]. Additionally, the suggestion that readers should purchase a
+numerical analysis package to create thier own SVM is dated in my opinion, as
+again, there are many free options availible [5].&lt;/p>
+&lt;hr>
+&lt;h2 id="summarization-technique">Summarization Technique&lt;/h2>
+&lt;p>This paper was summarized using the technique proposed by S. Keshav in his work
+&lt;em>How to Read a Paper&lt;/em> [0].&lt;/p>
+&lt;h2 id="citations">Citations&lt;/h2>
+Citations availible at https://nsynovic.dev/summaries/how-to-implement-svms/</description></item><item><title>A summary of Applying SVMS to Face Detection by Edgar Osuna</title><link>https://nsynovic.dev/summaries/applying-svms-to-face-detection/</link><pubDate>Mon, 24 Oct 2022 09:20:40 -0500</pubDate><guid>https://nsynovic.dev/summaries/applying-svms-to-face-detection/</guid><description>&lt;h1 id="a-summary-of-applying-svms-to-face-detection">A summary of &lt;em>Applying SVMs to Face Detection&lt;/em>&lt;/h1>
 &lt;blockquote>
 &lt;p>Edgar Isuna; &lt;a href="https://doi.ieeecomputersociety.org/10.1109/5254.708428">DOI&lt;/a>&lt;/p>
 &lt;/blockquote>
@@ -45,7 +207,7 @@ article.&lt;/p>
 headings, and conclusion&lt;/p>
 &lt;/blockquote>
 &lt;p>The essay &lt;em>Applying SVMS to Face Detection&lt;/em> by Edgar Osuna (as part of the
-larger&lt;em>Support vector machine&lt;/em> collection of essays in the July/ August edition
+larger &lt;em>Support vector machine&lt;/em> collection of essays in the July/ August edition
 of the 1998 IEEE Intelligent Systems magazine) [1] describes the usage of
 Support Vector Machines (SVMs) to identify faces in static images and real time
 systems. The work goes into detail about previous systems that attempted this
@@ -162,7 +324,7 @@ as well.&lt;/p>
 &lt;p>A summary of the paper&lt;/p>
 &lt;/blockquote>
 &lt;p>The essay &lt;em>Applying SVMS to Face Detection&lt;/em> by Edgar Osuna (as part of the
-larger&lt;em>Support vector machine&lt;/em> collection of essays in the July/ August edition
+larger &lt;em>Support vector machine&lt;/em> collection of essays in the July/ August edition
 of the 1998 IEEE Intelligent Systems magazine) [1] describes the usage of
 Support Vector Machines (SVMs) to identify faces in static images and real time
 systems. The author goes into detail about existing systems that were powered by

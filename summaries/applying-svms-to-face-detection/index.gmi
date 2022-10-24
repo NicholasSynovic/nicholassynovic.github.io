@@ -40,7 +40,7 @@ ______________________________________________________________________
 > headings, and conclusion
 
 The essay *Applying SVMS to Face Detection* by Edgar Osuna (as part of the
-larger*Support vector machine* collection of essays in the July/ August edition
+larger *Support vector machine* collection of essays in the July/ August edition
 of the 1998 IEEE Intelligent Systems magazine) \[1\] describes the usage of
 Support Vector Machines (SVMs) to identify faces in static images and real time
 systems. The work goes into detail about previous systems that attempted this
@@ -173,7 +173,7 @@ ______________________________________________________________________
 > A summary of the paper
 
 The essay *Applying SVMS to Face Detection* by Edgar Osuna (as part of the
-larger*Support vector machine* collection of essays in the July/ August edition
+larger *Support vector machine* collection of essays in the July/ August edition
 of the 1998 IEEE Intelligent Systems magazine) \[1\] describes the usage of
 Support Vector Machines (SVMs) to identify faces in static images and real time
 systems. The author goes into detail about existing systems that were powered by

@@ -70,13 +70,15 @@
 
 1applications	/categories/applications
 
+1face detection	/categories/face-detection
+
 1svms	/categories/svms
 
 1summary	/categories/summary
 
 1ml	/categories/ml
 
-1face detection	/categories/face-detection
+1implementation	/categories/implementation
 
 1cv	/categories/cv
 
