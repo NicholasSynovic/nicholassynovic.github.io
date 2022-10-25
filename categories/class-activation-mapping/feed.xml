@@ -115,17 +115,17 @@ make sense with respect to the paper.&lt;/p>
 &lt;p>The following relevant work can be found in the &lt;a href="#citations">Citations&lt;/a> section
 of this article.&lt;/p>
 &lt;ul>
-&lt;li>Self-taught object localization with deep networks&lt;/li>
+&lt;li>Self-taught object localization with deep networks [2]&lt;/li>
 &lt;li>Weakly supervised object localization with multi-fold multiple instance
-learning&lt;/li>
+learning [3]&lt;/li>
 &lt;li>Learning and transferring mid-level image representations using convolutional
-neural networks&lt;/li>
+neural networks [4]&lt;/li>
 &lt;li>Is object localization for free? weakly-supervised learning with convolutional
-neural networks&lt;/li>
-&lt;li>Visualizing and understanding convolutional networks&lt;/li>
-&lt;li>Object detectors emerge in deep scene cnns&lt;/li>
-&lt;li>Network in network&lt;/li>
-&lt;li>Going deeper with convolutions&lt;/li>
+neural networks [5]&lt;/li>
+&lt;li>Visualizing and understanding convolutional networks [6]&lt;/li>
+&lt;li>Object detectors emerge in deep scene cnns [7]&lt;/li>
+&lt;li>Network in network [8]&lt;/li>
+&lt;li>Going deeper with convolutions [9]&lt;/li>
 &lt;/ul>
 &lt;hr>
 &lt;h2 id="third-pass">Third Pass&lt;/h2>
@@ -149,6 +149,17 @@ cold area of the image prior to analysis by a smaller CNN.&lt;/p>
 &lt;blockquote>
 &lt;p>A summary of the paper&lt;/p>
 &lt;/blockquote>
+&lt;p>The paper &lt;em>Learning Deep Features for Discriminative Localization&lt;/em> by Bolei Zhou
+et al. [1] discusses a weakly supervised method of performing object
+localization on existing CNN models. Their method involves replacing the fully
+connected layer at the end of a CNN performing image classifcation, with a
+global average pooling layer into a softmax layer. This is so that the models
+original functionality is not cut from the new model. However, the global
+average pooling layer is modified so that a heatmap can be extracted focusing on
+what the CNN is focussing on prior to labelling the image.&lt;/p>
+&lt;p>Previous work involved the usage of weakly supervised CNNs, but relied on global
+max pooling. Additional work utilized deconvolutional layers to perform a
+similar task.&lt;/p>
 &lt;hr>
 &lt;h2 id="summarization-technique">Summarization Technique&lt;/h2>
 &lt;p>This paper was summarized using the technique proposed by S. Keshav in his work
