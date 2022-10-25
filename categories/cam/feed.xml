@@ -23,10 +23,6 @@ article.&lt;/p>
 &lt;li>&lt;a href="#figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#clarity">Clarity&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#relevant-work">Relevant Work&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;a href="#third-pass">Third Pass&lt;/a>
-&lt;ul>
 &lt;li>&lt;a href="#future-directions">Future Directions&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/li>
@@ -127,12 +123,6 @@ neural networks [5]&lt;/li>
 &lt;li>Network in network [8]&lt;/li>
 &lt;li>Going deeper with convolutions [9]&lt;/li>
 &lt;/ul>
-&lt;hr>
-&lt;h2 id="third-pass">Third Pass&lt;/h2>
-&lt;blockquote>
-&lt;p>This section can only be complete after a virtual re-implementation of the
-paper&lt;/p>
-&lt;/blockquote>
 &lt;h3 id="future-directions">Future Directions&lt;/h3>
 &lt;blockquote>
 &lt;p>My own proposed future directions for the work&lt;/p>
@@ -162,7 +152,7 @@ max pooling. Additional work utilized deconvolutional layers to perform a
 similar task.&lt;/p>
 &lt;hr>
 &lt;h2 id="summarization-technique">Summarization Technique&lt;/h2>
-&lt;p>This paper was summarized using the technique proposed by S. Keshav in his work
-&lt;em>How to Read a Paper&lt;/em> [0].&lt;/p>
+&lt;p>This paper was summarized using a modified technique proposed by S. Keshav in
+his work &lt;em>How to Read a Paper&lt;/em> [0].&lt;/p>
 &lt;h2 id="citations">Citations&lt;/h2>
 Citations availible at https://nsynovic.dev/summaries/learning-deep-features-for-discriminative-localization/</description></item></channel></rss>

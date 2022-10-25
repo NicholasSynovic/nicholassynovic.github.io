@@ -24,10 +24,6 @@ article.&lt;/p>
 &lt;li>&lt;a href="#figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#clarity">Clarity&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#relevant-work">Relevant Work&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;a href="#third-pass">Third Pass&lt;/a>
-&lt;ul>
 &lt;li>&lt;a href="#future-directions">Future Directions&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/li>
@@ -102,8 +98,6 @@ of this article.&lt;/p>
 &lt;li>Introduction to Modern Information Retrieval [2]&lt;/li>
 &lt;li>Fast Training of SVMs Using Sequential Minimal Optimization [3]&lt;/li>
 &lt;/ul>
-&lt;hr>
-&lt;h2 id="third-pass">Third Pass&lt;/h2>
 &lt;h3 id="future-directions">Future Directions&lt;/h3>
 &lt;blockquote>
 &lt;p>My own proposed future directions for the work&lt;/p>
@@ -126,7 +120,7 @@ classification task.&lt;/p>
 algorithms for human intensive tasks - such as text classification.&lt;/p>
 &lt;hr>
 &lt;h2 id="summarization-technique">Summarization Technique&lt;/h2>
-&lt;p>This paper was summarized using the technique proposed by S. Keshav in his work
-&lt;em>How to Read a Paper&lt;/em> [0].&lt;/p>
+&lt;p>This paper was summarized using a modified technique proposed by S. Keshav in
+his work &lt;em>How to Read a Paper&lt;/em> [0].&lt;/p>
 &lt;h2 id="citations">Citations&lt;/h2>
 Citations availible at https://nsynovic.dev/summaries/using-svms-for-text-categorization/</description></item></channel></rss>

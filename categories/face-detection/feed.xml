@@ -24,10 +24,6 @@ article.&lt;/p>
 &lt;li>&lt;a href="#figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#clarity">Clarity&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#relevant-work">Relevant Work&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;a href="#third-pass">Third Pass&lt;/a>
-&lt;ul>
 &lt;li>&lt;a href="#future-directions">Future Directions&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/li>
@@ -125,12 +121,6 @@ of this article.&lt;/p>
 &lt;li>A Decision-Theoretic Generalization of On-Line Learning and an Application to
 Boosting [2]&lt;/li>
 &lt;/ul>
-&lt;hr>
-&lt;h2 id="third-pass">Third Pass&lt;/h2>
-&lt;blockquote>
-&lt;p>This section can only be complete after a virtual re-implementation of the
-paper&lt;/p>
-&lt;/blockquote>
 &lt;h3 id="future-directions">Future Directions&lt;/h3>
 &lt;blockquote>
 &lt;p>My own proposed future directions for the work&lt;/p>
@@ -159,8 +149,8 @@ This same application could be more performant on modern smartphones in
 comparison to the system that it was originally tested on.&lt;/p>
 &lt;hr>
 &lt;h2 id="summarization-technique">Summarization Technique&lt;/h2>
-&lt;p>This paper was summarized using the technique proposed by S. Keshav in his work
-&lt;em>How to Read a Paper&lt;/em> [0].&lt;/p>
+&lt;p>This paper was summarized using a modified technique proposed by S. Keshav in
+his work &lt;em>How to Read a Paper&lt;/em> [0].&lt;/p>
 &lt;h2 id="citations">Citations&lt;/h2>
 Citations availible at https://nsynovic.dev/summaries/robust-real-time-face-detection/</description></item><item><title>A summary of Applying SVMS to Face Detection by Edgar Osuna</title><link>https://nsynovic.dev/summaries/applying-svms-to-face-detection/</link><pubDate>Mon, 24 Oct 2022 09:20:40 -0500</pubDate><guid>https://nsynovic.dev/summaries/applying-svms-to-face-detection/</guid><description>&lt;h1 id="a-summary-of-applying-svms-to-face-detection">A summary of &lt;em>Applying SVMs to Face Detection&lt;/em>&lt;/h1>
 &lt;blockquote>
@@ -187,12 +177,11 @@ article.&lt;/p>
 &lt;li>&lt;a href="#figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#clarity">Clarity&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#relevant-work">Relevant Work&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#author-assumptions">Author Assumptions&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#correctness">Correctness&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>&lt;a href="#third-pass">Third Pass&lt;/a>
-&lt;ul>
-&lt;li>&lt;a href="#author-assumptions">Author Assumptions&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#correctness">Correctness&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#future-directions">Future Directions&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/li>
@@ -289,12 +278,6 @@ labelled graphs [6]&lt;/li>
 &lt;li>Learning and Example Selection for Object and Pattern Detection [7]&lt;/li>
 &lt;li>Example-based learning for view-based human face detection [8]&lt;/li>
 &lt;/ul>
-&lt;hr>
-&lt;h2 id="third-pass">Third Pass&lt;/h2>
-&lt;blockquote>
-&lt;p>This section can only be complete after a virtual re-implementation of the
-paper&lt;/p>
-&lt;/blockquote>
 &lt;h3 id="author-assumptions">Author Assumptions&lt;/h3>
 &lt;blockquote>
 &lt;p>What assumptions does the author(s) make? Are they justified assumptions?&lt;/p>
@@ -303,7 +286,7 @@ paper&lt;/p>
 images of faces for their static image face detector. They make no mention as to
 whether this detector is capable of identifying faces in off axis positions, or
 if their system is capable enough to orient faces properly.&lt;/p>
-&lt;h3 id="correctness">Correctness&lt;/h3>
+&lt;h4 id="correctness">Correctness&lt;/h4>
 &lt;blockquote>
 &lt;p>Do the assumptions seem valid?&lt;/p>
 &lt;/blockquote>
@@ -344,7 +327,7 @@ detector. This system was capable of recognizing faces at 4 to 5 frames per
 second.&lt;/p>
 &lt;hr>
 &lt;h2 id="summarization-technique">Summarization Technique&lt;/h2>
-&lt;p>This paper was summarized using the technique proposed by S. Keshav in his work
-&lt;em>How to Read a Paper&lt;/em> [0].&lt;/p>
+&lt;p>This paper was summarized using a modified technique proposed by S. Keshav in
+his work &lt;em>How to Read a Paper&lt;/em> [0].&lt;/p>
 &lt;h2 id="citations">Citations&lt;/h2>
 Citations availible at https://nsynovic.dev/summaries/applying-svms-to-face-detection/</description></item></channel></rss>

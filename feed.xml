@@ -24,10 +24,6 @@ article.&lt;/p>
 &lt;li>&lt;a href="#figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#clarity">Clarity&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#relevant-work">Relevant Work&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;a href="#third-pass">Third Pass&lt;/a>
-&lt;ul>
 &lt;li>&lt;a href="#future-directions">Future Directions&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/li>
@@ -125,12 +121,6 @@ of this article.&lt;/p>
 &lt;li>A Decision-Theoretic Generalization of On-Line Learning and an Application to
 Boosting [2]&lt;/li>
 &lt;/ul>
-&lt;hr>
-&lt;h2 id="third-pass">Third Pass&lt;/h2>
-&lt;blockquote>
-&lt;p>This section can only be complete after a virtual re-implementation of the
-paper&lt;/p>
-&lt;/blockquote>
 &lt;h3 id="future-directions">Future Directions&lt;/h3>
 &lt;blockquote>
 &lt;p>My own proposed future directions for the work&lt;/p>
@@ -159,8 +149,8 @@ This same application could be more performant on modern smartphones in
 comparison to the system that it was originally tested on.&lt;/p>
 &lt;hr>
 &lt;h2 id="summarization-technique">Summarization Technique&lt;/h2>
-&lt;p>This paper was summarized using the technique proposed by S. Keshav in his work
-&lt;em>How to Read a Paper&lt;/em> [0].&lt;/p>
+&lt;p>This paper was summarized using a modified technique proposed by S. Keshav in
+his work &lt;em>How to Read a Paper&lt;/em> [0].&lt;/p>
 &lt;h2 id="citations">Citations&lt;/h2>
 Citations availible at https://nsynovic.dev/summaries/robust-real-time-face-detection/</description></item><item><title>A summary of Learning Deep Features for Discriminative Localization by Bolei Zhou et al.</title><link>https://nsynovic.dev/summaries/learning-deep-features-for-discriminative-localization/</link><pubDate>Mon, 24 Oct 2022 14:44:26 -0500</pubDate><guid>https://nsynovic.dev/summaries/learning-deep-features-for-discriminative-localization/</guid><description>&lt;h1 id="a-summary-of-learning-deep-features-for-discriminative-localization">A summary of &lt;em>Learning Deep Features for Discriminative Localization&lt;/em>&lt;/h1>
 &lt;blockquote>
@@ -187,10 +177,6 @@ article.&lt;/p>
 &lt;li>&lt;a href="#figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#clarity">Clarity&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#relevant-work">Relevant Work&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;a href="#third-pass">Third Pass&lt;/a>
-&lt;ul>
 &lt;li>&lt;a href="#future-directions">Future Directions&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/li>
@@ -291,12 +277,6 @@ neural networks [5]&lt;/li>
 &lt;li>Network in network [8]&lt;/li>
 &lt;li>Going deeper with convolutions [9]&lt;/li>
 &lt;/ul>
-&lt;hr>
-&lt;h2 id="third-pass">Third Pass&lt;/h2>
-&lt;blockquote>
-&lt;p>This section can only be complete after a virtual re-implementation of the
-paper&lt;/p>
-&lt;/blockquote>
 &lt;h3 id="future-directions">Future Directions&lt;/h3>
 &lt;blockquote>
 &lt;p>My own proposed future directions for the work&lt;/p>
@@ -326,8 +306,8 @@ max pooling. Additional work utilized deconvolutional layers to perform a
 similar task.&lt;/p>
 &lt;hr>
 &lt;h2 id="summarization-technique">Summarization Technique&lt;/h2>
-&lt;p>This paper was summarized using the technique proposed by S. Keshav in his work
-&lt;em>How to Read a Paper&lt;/em> [0].&lt;/p>
+&lt;p>This paper was summarized using a modified technique proposed by S. Keshav in
+his work &lt;em>How to Read a Paper&lt;/em> [0].&lt;/p>
 &lt;h2 id="citations">Citations&lt;/h2>
 Citations availible at https://nsynovic.dev/summaries/learning-deep-features-for-discriminative-localization/</description></item><item><title>A summary of How to implement SVMs by John Platt</title><link>https://nsynovic.dev/summaries/how-to-implement-svms/</link><pubDate>Mon, 24 Oct 2022 13:46:36 -0500</pubDate><guid>https://nsynovic.dev/summaries/how-to-implement-svms/</guid><description>&lt;h1 id="a-summary-of-how-to-implement-svms">A summary of &lt;em>How to implement SVMs&lt;/em>&lt;/h1>
 &lt;blockquote>
@@ -354,10 +334,6 @@ article.&lt;/p>
 &lt;li>&lt;a href="#figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#clarity">Clarity&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#relevant-work">Relevant Work&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;a href="#third-pass">Third Pass&lt;/a>
-&lt;ul>
 &lt;li>&lt;a href="#author-assumptions">Author Assumptions&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#correctness">Correctness&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#future-directions">Future Directions&lt;/a>&lt;/li>
@@ -439,19 +415,13 @@ of this article.&lt;/p>
 &lt;ul>
 &lt;li>A Tutorial on Support Vector Machines for Pattern Recognition [2]&lt;/li>
 &lt;/ul>
-&lt;hr>
-&lt;h2 id="third-pass">Third Pass&lt;/h2>
-&lt;blockquote>
-&lt;p>This section can only be complete after a virtual re-implementation of the
-paper&lt;/p>
-&lt;/blockquote>
 &lt;h3 id="author-assumptions">Author Assumptions&lt;/h3>
 &lt;blockquote>
 &lt;p>What assumptions does the author(s) make? Are they justified assumptions?&lt;/p>
 &lt;/blockquote>
 &lt;p>The author assumes that the reader, should they implement their own SVM
 algorithm, will be using a commericial numerical analysis package.&lt;/p>
-&lt;h3 id="correctness">Correctness&lt;/h3>
+&lt;h4 id="correctness">Correctness&lt;/h4>
 &lt;blockquote>
 &lt;p>Do the assumptions seem valid?&lt;/p>
 &lt;/blockquote>
@@ -488,8 +458,8 @@ numerical analysis package to create thier own SVM is dated in my opinion, as
 again, there are many free options availible [5].&lt;/p>
 &lt;hr>
 &lt;h2 id="summarization-technique">Summarization Technique&lt;/h2>
-&lt;p>This paper was summarized using the technique proposed by S. Keshav in his work
-&lt;em>How to Read a Paper&lt;/em> [0].&lt;/p>
+&lt;p>This paper was summarized using a modified technique proposed by S. Keshav in
+his work &lt;em>How to Read a Paper&lt;/em> [0].&lt;/p>
 &lt;h2 id="citations">Citations&lt;/h2>
 Citations availible at https://nsynovic.dev/summaries/how-to-implement-svms/</description></item><item><title>A summary of Applying SVMS to Face Detection by Edgar Osuna</title><link>https://nsynovic.dev/summaries/applying-svms-to-face-detection/</link><pubDate>Mon, 24 Oct 2022 09:20:40 -0500</pubDate><guid>https://nsynovic.dev/summaries/applying-svms-to-face-detection/</guid><description>&lt;h1 id="a-summary-of-applying-svms-to-face-detection">A summary of &lt;em>Applying SVMs to Face Detection&lt;/em>&lt;/h1>
 &lt;blockquote>
@@ -516,12 +486,11 @@ article.&lt;/p>
 &lt;li>&lt;a href="#figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#clarity">Clarity&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#relevant-work">Relevant Work&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#author-assumptions">Author Assumptions&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#correctness">Correctness&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>&lt;a href="#third-pass">Third Pass&lt;/a>
-&lt;ul>
-&lt;li>&lt;a href="#author-assumptions">Author Assumptions&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#correctness">Correctness&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#future-directions">Future Directions&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/li>
@@ -618,12 +587,6 @@ labelled graphs [6]&lt;/li>
 &lt;li>Learning and Example Selection for Object and Pattern Detection [7]&lt;/li>
 &lt;li>Example-based learning for view-based human face detection [8]&lt;/li>
 &lt;/ul>
-&lt;hr>
-&lt;h2 id="third-pass">Third Pass&lt;/h2>
-&lt;blockquote>
-&lt;p>This section can only be complete after a virtual re-implementation of the
-paper&lt;/p>
-&lt;/blockquote>
 &lt;h3 id="author-assumptions">Author Assumptions&lt;/h3>
 &lt;blockquote>
 &lt;p>What assumptions does the author(s) make? Are they justified assumptions?&lt;/p>
@@ -632,7 +595,7 @@ paper&lt;/p>
 images of faces for their static image face detector. They make no mention as to
 whether this detector is capable of identifying faces in off axis positions, or
 if their system is capable enough to orient faces properly.&lt;/p>
-&lt;h3 id="correctness">Correctness&lt;/h3>
+&lt;h4 id="correctness">Correctness&lt;/h4>
 &lt;blockquote>
 &lt;p>Do the assumptions seem valid?&lt;/p>
 &lt;/blockquote>
@@ -673,8 +636,8 @@ detector. This system was capable of recognizing faces at 4 to 5 frames per
 second.&lt;/p>
 &lt;hr>
 &lt;h2 id="summarization-technique">Summarization Technique&lt;/h2>
-&lt;p>This paper was summarized using the technique proposed by S. Keshav in his work
-&lt;em>How to Read a Paper&lt;/em> [0].&lt;/p>
+&lt;p>This paper was summarized using a modified technique proposed by S. Keshav in
+his work &lt;em>How to Read a Paper&lt;/em> [0].&lt;/p>
 &lt;h2 id="citations">Citations&lt;/h2>
 Citations availible at https://nsynovic.dev/summaries/applying-svms-to-face-detection/</description></item><item><title>A summary of Using SVMs For Text Categorization by Susan Dumais et al</title><link>https://nsynovic.dev/summaries/using-svms-for-text-categorization/</link><pubDate>Sun, 23 Oct 2022 16:45:32 -0500</pubDate><guid>https://nsynovic.dev/summaries/using-svms-for-text-categorization/</guid><description>&lt;h1 id="a-summary-of-using-svms-for-text-categorization">A summary of &lt;em>Using SVMs For Text Categorization&lt;/em>&lt;/h1>
 &lt;blockquote>
@@ -702,10 +665,6 @@ article.&lt;/p>
 &lt;li>&lt;a href="#figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#clarity">Clarity&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#relevant-work">Relevant Work&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;a href="#third-pass">Third Pass&lt;/a>
-&lt;ul>
 &lt;li>&lt;a href="#future-directions">Future Directions&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/li>
@@ -780,8 +739,6 @@ of this article.&lt;/p>
 &lt;li>Introduction to Modern Information Retrieval [2]&lt;/li>
 &lt;li>Fast Training of SVMs Using Sequential Minimal Optimization [3]&lt;/li>
 &lt;/ul>
-&lt;hr>
-&lt;h2 id="third-pass">Third Pass&lt;/h2>
 &lt;h3 id="future-directions">Future Directions&lt;/h3>
 &lt;blockquote>
 &lt;p>My own proposed future directions for the work&lt;/p>
@@ -804,8 +761,8 @@ classification task.&lt;/p>
 algorithms for human intensive tasks - such as text classification.&lt;/p>
 &lt;hr>
 &lt;h2 id="summarization-technique">Summarization Technique&lt;/h2>
-&lt;p>This paper was summarized using the technique proposed by S. Keshav in his work
-&lt;em>How to Read a Paper&lt;/em> [0].&lt;/p>
+&lt;p>This paper was summarized using a modified technique proposed by S. Keshav in
+his work &lt;em>How to Read a Paper&lt;/em> [0].&lt;/p>
 &lt;h2 id="citations">Citations&lt;/h2>
 Citations availible at https://nsynovic.dev/summaries/using-svms-for-text-categorization/</description></item><item><title>A summary of SVMs - A Practical Consequence of Learning Theory by Bernhard Scholkopf</title><link>https://nsynovic.dev/summaries/svms-a-practical-consequence-of-learning-theory/</link><pubDate>Sun, 23 Oct 2022 10:02:41 -0500</pubDate><guid>https://nsynovic.dev/summaries/svms-a-practical-consequence-of-learning-theory/</guid><description>&lt;h1 id="a-summary-of-svms-a-practical-consequence-of-learning-theory">A summary of &lt;em>SVMs: A Practical Consequence of Learning Theory&lt;/em>&lt;/h1>
 &lt;blockquote>
@@ -833,10 +790,6 @@ article.&lt;/p>
 &lt;li>&lt;a href="#figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#clarity">Clarity&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#relevant-work">Relevant Work&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;a href="#third-pass">Third Pass&lt;/a>
-&lt;ul>
 &lt;li>&lt;a href="#future-directions">Future Directions&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/li>
@@ -917,12 +870,6 @@ of this article.&lt;/p>
 &lt;ul>
 &lt;li>The Nature of Statistical Learning Theory [2]&lt;/li>
 &lt;/ul>
-&lt;hr>
-&lt;h2 id="third-pass">Third Pass&lt;/h2>
-&lt;blockquote>
-&lt;p>This section can only be complete after a virtual re-implementation of the
-paper&lt;/p>
-&lt;/blockquote>
 &lt;h3 id="future-directions">Future Directions&lt;/h3>
 &lt;blockquote>
 &lt;p>My own proposed future directions for the work&lt;/p>
@@ -951,8 +898,8 @@ also alludes to additional usages of SVMs and their current problems, but it is
 not focused on discussing or resolving them.&lt;/p>
 &lt;hr>
 &lt;h2 id="summarization-technique">Summarization Technique&lt;/h2>
-&lt;p>This paper was summarized using the technique proposed by S. Keshav in his work
-&lt;em>How to Read a Paper&lt;/em> [0].&lt;/p>
+&lt;p>This paper was summarized using a modified technique proposed by S. Keshav in
+his work &lt;em>How to Read a Paper&lt;/em> [0].&lt;/p>
 &lt;h2 id="citations">Citations&lt;/h2>
 Citations availible at https://nsynovic.dev/summaries/svms-a-practical-consequence-of-learning-theory/</description></item><item><title>A summary of Runnemede: An Architecture for Ubiquitous High-Performance Computing by Nicholas P. Carter et al.</title><link>https://nsynovic.dev/summaries/runnemede-an-architecture-for-ubiquitous-high-performance-computing/</link><pubDate>Fri, 30 Sep 2022 09:07:41 -0500</pubDate><guid>https://nsynovic.dev/summaries/runnemede-an-architecture-for-ubiquitous-high-performance-computing/</guid><description>&lt;h1 id="a-summary-of-runnemede-an-architecture-for-ubiquitous-high-performance-computing">A summary of &lt;em>Runnemede: An Architecture for Ubiquitous High-Performance Computing&lt;/em>&lt;/h1>
 &lt;blockquote>
@@ -980,10 +927,6 @@ article.&lt;/p>
 &lt;li>&lt;a href="#figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#clarity">Clarity&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#relevant-work">Relevant Work&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;a href="#third-pass">Third Pass&lt;/a>
-&lt;ul>
 &lt;li>&lt;a href="#author-assumptions">Author Assumptions&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#correctness">Correctness&lt;/a>&lt;/li>
 &lt;/ul>
@@ -1065,12 +1008,6 @@ of this article.&lt;/p>
 &lt;ul>
 &lt;li>[2]&lt;/li>
 &lt;/ul>
-&lt;hr>
-&lt;h2 id="third-pass">Third Pass&lt;/h2>
-&lt;blockquote>
-&lt;p>This section can only be complete after a virtual re-implementation of the
-paper&lt;/p>
-&lt;/blockquote>
 &lt;h3 id="author-assumptions">Author Assumptions&lt;/h3>
 &lt;blockquote>
 &lt;p>What assumptions does the author(s) make? Are they justified assumptions?&lt;/p>
@@ -1082,7 +1019,7 @@ hardware than they can operate simultanously&amp;rdquo;. In other words, systems
 more and more &lt;em>power hungry&lt;/em> hardware that cannot be utilized in its entirety.
 Additionally, they assume that the current trend with DRAM will cause power
 consumption to decrement over time, but not fast enough.&lt;/p>
-&lt;h3 id="correctness">Correctness&lt;/h3>
+&lt;h4 id="correctness">Correctness&lt;/h4>
 &lt;blockquote>
 &lt;p>Do the assumptions seem valid?&lt;/p>
 &lt;/blockquote>
@@ -1106,8 +1043,8 @@ that systems will continue to require more power to operate in order to achieve
 better performance.&lt;/p>
 &lt;hr>
 &lt;h2 id="summarization-technique">Summarization Technique&lt;/h2>
-&lt;p>This paper was summarized using the technique proposed by S. Keshav in his work
-&lt;em>How to Read a Paper&lt;/em> [0].&lt;/p>
+&lt;p>This paper was summarized using a modified technique proposed by S. Keshav in
+his work &lt;em>How to Read a Paper&lt;/em> [0].&lt;/p>
 &lt;h2 id="citations">Citations&lt;/h2>
 Citations availible at https://nsynovic.dev/summaries/runnemede-an-architecture-for-ubiquitous-high-performance-computing/</description></item><item><title>A summary of ImageNet Classification with Deep Convolutional Neural Networks by Krizhevsky et al.</title><link>https://nsynovic.dev/summaries/imagenet-classification-with-deep-convolutional-neural-networks/</link><pubDate>Thu, 29 Sep 2022 14:33:01 -0500</pubDate><guid>https://nsynovic.dev/summaries/imagenet-classification-with-deep-convolutional-neural-networks/</guid><description>&lt;h1 id="a-summary-of-imagenet-classification-with-deep-convolutional-neural-networks">A summary of &lt;em>ImageNet Classification with Deep Convolutional Neural Networks&lt;/em>&lt;/h1>
 &lt;blockquote>
@@ -1135,10 +1072,6 @@ article.&lt;/p>
 &lt;li>&lt;a href="#figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#clarity">Clarity&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#relevant-work">Relevant Work&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;a href="#third-pass">Third Pass&lt;/a>
-&lt;ul>
 &lt;li>&lt;a href="#author-assumptions">Author Assumptions&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#correctness">Correctness&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#discussion-of-the-proofs">Discussion of the Proofs&lt;/a>&lt;/li>
@@ -1225,19 +1158,13 @@ determin what is going on and in what dimension are images being manipulated.&lt
 &lt;/blockquote>
 &lt;p>The following relevant work can be found in the &lt;a href="#citations">Citations&lt;/a> section
 of this article.&lt;/p>
-&lt;hr>
-&lt;h2 id="third-pass">Third Pass&lt;/h2>
-&lt;blockquote>
-&lt;p>This section can only be complete after a virtual re-implementation of the
-paper&lt;/p>
-&lt;/blockquote>
 &lt;h3 id="author-assumptions">Author Assumptions&lt;/h3>
 &lt;blockquote>
 &lt;p>What assumptions does the author(s) make? Are they justified assumptions?&lt;/p>
 &lt;/blockquote>
 &lt;p>They assume that it is because of the larger compute devices and datasets that
 make these deep convolutional neural networks possible.&lt;/p>
-&lt;h3 id="correctness">Correctness&lt;/h3>
+&lt;h4 id="correctness">Correctness&lt;/h4>
 &lt;blockquote>
 &lt;p>Do the assumptions seem valid?&lt;/p>
 &lt;/blockquote>
@@ -1285,8 +1212,8 @@ that they can throw at the model.&lt;/p>
 neural networks and the usage of GPUs to reduce training time.&lt;/p>
 &lt;hr>
 &lt;h2 id="summarization-technique">Summarization Technique&lt;/h2>
-&lt;p>This paper was summarized using the technique proposed by S. Keshav in his work
-&lt;em>How to Read a Paper&lt;/em> [0].&lt;/p>
+&lt;p>This paper was summarized using a modified technique proposed by S. Keshav in
+his work &lt;em>How to Read a Paper&lt;/em> [0].&lt;/p>
 &lt;h2 id="citations">Citations&lt;/h2>
 Citations availible at https://nsynovic.dev/summaries/imagenet-classification-with-deep-convolutional-neural-networks/</description></item><item><title>A summary of Very Deep Convolutional Networks for Large-Scale Image Recognition by Karen Simonyan and Andrew Zisserman</title><link>https://nsynovic.dev/summaries/very-deep-convolutional-networks-for-large-scale-image-recognition/</link><pubDate>Wed, 28 Sep 2022 22:40:46 -0500</pubDate><guid>https://nsynovic.dev/summaries/very-deep-convolutional-networks-for-large-scale-image-recognition/</guid><description>&lt;h1 id="a-summary-of-very-deep-convolutional-networks-for-large-scale-image-recognition-by-karen-simonyan-and-andrew-zisserman">A summary of &lt;em>Very Deep Convolutional Networks for Large-Scale Image Recognition&lt;/em> by Karen Simonyan and Andrew Zisserman&lt;/h1>
 &lt;blockquote>
@@ -1314,10 +1241,6 @@ article.&lt;/p>
 &lt;li>&lt;a href="#figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#clarity">Clarity&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#relevant-work">Relevant Work&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;a href="#third-pass">Third Pass&lt;/a>
-&lt;ul>
 &lt;li>&lt;a href="#author-assumptions">Author Assumptions&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#correctness">Correctness&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#future-directions">Future Directions&lt;/a>&lt;/li>
@@ -1414,12 +1337,6 @@ of this article.&lt;/p>
 &lt;li>ImageNet 2013 submissions - [5], [6] Localization and Detection using
 Convolutional Networks&lt;/li>
 &lt;/ul>
-&lt;hr>
-&lt;h2 id="third-pass">Third Pass&lt;/h2>
-&lt;blockquote>
-&lt;p>This section can only be complete after a virtual re-implementation of the
-paper&lt;/p>
-&lt;/blockquote>
 &lt;h3 id="author-assumptions">Author Assumptions&lt;/h3>
 &lt;blockquote>
 &lt;p>What assumptions does the author(s) make? Are they justified assumptions?&lt;/p>
@@ -1427,7 +1344,7 @@ paper&lt;/p>
 &lt;p>The authors assume that the performance improvements that convulational neural
 networks are achieving are based off of larger datasets and better compute
 optimization.&lt;/p>
-&lt;h3 id="correctness">Correctness&lt;/h3>
+&lt;h4 id="correctness">Correctness&lt;/h4>
 &lt;blockquote>
 &lt;p>Do the assumptions seem valid?&lt;/p>
 &lt;/blockquote>
@@ -1463,8 +1380,8 @@ finding that models with 16 to 19 layers performed best on the 2014 ImageNet
 Challenge classification and localisation challenges.&lt;/p>
 &lt;hr>
 &lt;h2 id="summarization-technique">Summarization Technique&lt;/h2>
-&lt;p>This paper was summarized using the technique proposed by S. Keshav in his work
-&lt;em>How to Read a Paper&lt;/em> [0].&lt;/p>
+&lt;p>This paper was summarized using a modified technique proposed by S. Keshav in
+his work &lt;em>How to Read a Paper&lt;/em> [0].&lt;/p>
 &lt;h2 id="citations">Citations&lt;/h2>
 Citations availible at https://nsynovic.dev/summaries/very-deep-convolutional-networks-for-large-scale-image-recognition/</description></item><item><title>A summary of Going deeper with convolutions by Christian Szegedy et al..</title><link>https://nsynovic.dev/summaries/going-deeper-with-convolutions/</link><pubDate>Wed, 28 Sep 2022 20:07:40 -0500</pubDate><guid>https://nsynovic.dev/summaries/going-deeper-with-convolutions/</guid><description>&lt;h1 id="a-summary-of-going-deeper-with-convolutions">A summary of &lt;em>Going deeper with convolutions&lt;/em>&lt;/h1>
 &lt;blockquote>
@@ -1490,10 +1407,6 @@ article.&lt;/p>
 &lt;li>&lt;a href="#figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#clarity">Clarity&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#relevant-work">Relevant Work&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;a href="#third-pass">Third Pass&lt;/a>
-&lt;ul>
 &lt;li>&lt;a href="#author-assumptions">Author Assumptions&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#correctness">Correctness&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#future-directions">Future Directions&lt;/a>&lt;/li>
@@ -1602,12 +1515,6 @@ of this article.&lt;/p>
 &lt;li>Selective Search - [12]&lt;/li>
 &lt;li>Photometric Distortions - [13]&lt;/li>
 &lt;/ul>
-&lt;hr>
-&lt;h2 id="third-pass">Third Pass&lt;/h2>
-&lt;blockquote>
-&lt;p>This section can only be complete after a virtual re-implementation of the
-paper&lt;/p>
-&lt;/blockquote>
 &lt;h3 id="author-assumptions">Author Assumptions&lt;/h3>
 &lt;blockquote>
 &lt;p>What assumptions does the author(s) make? Are they justified assumptions?&lt;/p>
@@ -1631,7 +1538,7 @@ to, &amp;ldquo;infrastructural inefficiences&amp;rdquo; in the implementation.&l
 model. The authors had been training and testing other models for months prior,
 however, it is unclear what the testing methodology was and why a particular
 model was choosen to compete in the ImageNet competition.&lt;/p>
-&lt;h3 id="correctness">Correctness&lt;/h3>
+&lt;h4 id="correctness">Correctness&lt;/h4>
 &lt;blockquote>
 &lt;p>Do the assumptions seem valid?&lt;/p>
 &lt;/blockquote>
@@ -1706,8 +1613,8 @@ neural architecture search. As well as evaluating the performance of the model
 by both increasing and decreasing the depth of the model.&lt;/p>
 &lt;hr>
 &lt;h2 id="summarization-technique">Summarization Technique&lt;/h2>
-&lt;p>This paper was summarized using the technique proposed by S. Keshav in his work
-&lt;em>How to Read a Paper&lt;/em> [0].&lt;/p>
+&lt;p>This paper was summarized using a modified technique proposed by S. Keshav in
+his work &lt;em>How to Read a Paper&lt;/em> [0].&lt;/p>
 &lt;h2 id="citations">Citations&lt;/h2>
 Citations availible at https://nsynovic.dev/summaries/going-deeper-with-convolutions/</description></item><item><title>A summary of How to Read a Paper by S. Keshav</title><link>https://nsynovic.dev/summaries/how-to-read-a-paper/</link><pubDate>Wed, 28 Sep 2022 15:11:09 -0500</pubDate><guid>https://nsynovic.dev/summaries/how-to-read-a-paper/</guid><description>&lt;h1 id="a-summary-of-how-to-read-a-paper">A summary of &lt;em>How to Read a Paper&lt;/em>&lt;/h1>
 &lt;blockquote>
@@ -1734,10 +1641,6 @@ article.&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="#figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#relevant-work">Relevant Work&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;a href="#third-pass">Third Pass&lt;/a>
-&lt;ul>
 &lt;li>&lt;a href="#author-assumptions">Author Assumptions&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#discussion-of-the-proofs">Discussion of the Proofs&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#how-would-i-present-the-ideas">How Would I Present the Idea(s)&lt;/a>&lt;/li>
@@ -1778,7 +1681,7 @@ applied this or similar methods to reading papers.&lt;/p>
 &lt;/blockquote>
 &lt;p>This paper is most closely related to papers that discuss the writing of
 academic works and the review process of academic works.&lt;/p>
-&lt;h3 id="correctness">Correctness&lt;/h3>
+&lt;h4 id="correctness">Correctness&lt;/h4>
 &lt;blockquote>
 &lt;p>Do the assumptions seem valid?&lt;/p>
 &lt;/blockquote>
@@ -1816,12 +1719,6 @@ of this article.&lt;/p>
 &lt;ul>
 &lt;li>[1], [2], [3], and [4]&lt;/li>
 &lt;/ul>
-&lt;hr>
-&lt;h2 id="third-pass">Third Pass&lt;/h2>
-&lt;blockquote>
-&lt;p>This section can only be complete after a virtual re-implementation of the
-paper&lt;/p>
-&lt;/blockquote>
 &lt;h3 id="author-assumptions">Author Assumptions&lt;/h3>
 &lt;blockquote>
 &lt;p>What assumptions does the author(s) make? Are they justified assumptions?&lt;/p>
@@ -1895,8 +1792,8 @@ implemented as artifacts that ensure that readers are properly following the
 review method that the author has laid out.&lt;/p>
 &lt;hr>
 &lt;h2 id="summarization-technique">Summarization Technique&lt;/h2>
-&lt;p>This paper was summarized using the technique proposed by S. Keshav in his work
-&lt;em>How to Read a Paper&lt;/em> [0].&lt;/p>
+&lt;p>This paper was summarized using a modified technique proposed by S. Keshav in
+his work &lt;em>How to Read a Paper&lt;/em> [0].&lt;/p>
 &lt;h2 id="citations">Citations&lt;/h2>
 Citations availible at https://nsynovic.dev/summaries/how-to-read-a-paper/</description></item><item><title>Hugo, Gopher, Gemini, and Annoyances</title><link>https://nsynovic.dev/posts/hugo-gopher-gemini-annoyance/</link><pubDate>Thu, 04 Aug 2022 08:38:05 -0500</pubDate><guid>https://nsynovic.dev/posts/hugo-gopher-gemini-annoyance/</guid><description>&lt;h1 id="hugo-gopher-gemini-and-annoyances">Hugo, Gopher, Gemini, and Annoyances&lt;/h1>
 &lt;blockquote>

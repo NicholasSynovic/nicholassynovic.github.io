@@ -4,7 +4,7 @@ Sunday, October 23, 2022 · 3 minute read
 
 A summary of Using SVMs For Text Categorization Susan Dumais et al.; DOI
 For the summary of the paper, go to the Summary section of this article.
-Table of Contents A summary of Using SVMs For Text Categorization Table of Contents First Pass Category Context Contributions Second Pass Background Work Motivation Figures, Diagrams, Illustrations, and Graphs Clarity Relevant Work Third Pass Future Directions Summary Summarization Technique Citations First Pass Discussion about the title, abstract, introduction, section and sub-section headings, and conclusion
+Table of Contents A summary of Using SVMs For Text Categorization Table of Contents First Pass Category Context Contributions Second Pass Background Work Motivation Figures, Diagrams, Illustrations, and Graphs Clarity Relevant Work Future Directions Summary Summarization Technique Citations First Pass Discussion about the title, abstract, introduction, section and sub-section headings, and conclusion
 The essay Using SVMs For Text Categorization by Susan Dumais et al. (as part of the larger Support vector machine collection of essays in the July/ August edition of the 1998 IEEE Intelligent Systems magazine) [1] provides examples of when using a Support Vector Machine (SVM) is beneficial with respect to text classification. They discuss text classification, text representation and feature selection, and an example use case on the Reuters collection. They support the position that using SVMs for text classification (or really any algorithm so long as it isn&rsquo;t run by a human) is beneficial for this task.
 Category What type of paper is this work?
 This essay is more arguementative and position oriented.
@@ -22,12 +22,12 @@ Clarity Is the paper well written?
 This essay is clearly written.
 Relevant Work Mark relevant work for review
 The following relevant work can be found in the Citations section of this article.
-Introduction to Modern Information Retrieval [2] Fast Training of SVMs Using Sequential Minimal Optimization [3] Third Pass Future Directions My own proposed future directions for the work
+Introduction to Modern Information Retrieval [2] Fast Training of SVMs Using Sequential Minimal Optimization [3] Future Directions My own proposed future directions for the work
 I would like to reimplement their study using the five different learning algorithms they utilized to validate their results. The algorithms in question are: Findsim, Naive Bayes, BayesNets, Trees, and LinearSVM.
 Summary A summary of the paper
 The essay Using SVMs For Text Categorization by Susan Dumais et al. (as part of the larger Support vector machine collection of essays in the July/ August edition of the 1998 IEEE Intelligent Systems magazine) [1] presents the usage of SVMs for text categorization on the Reuters collection in comparison to other classification algorithms. They found that SVMs perform best on this classification task.
 The greater reason for this essay is to encourage engineers to use learning algorithms for human intensive tasks - such as text classification.
-Summarization Technique This paper was summarized using the technique proposed by S. Keshav in his work How to Read a Paper [0].
+Summarization Technique This paper was summarized using a modified technique proposed by S. Keshav in his work How to Read a Paper [0].
 Citations 
 
 h0. https://doi.org/10.1145/1273445.1273458	URL:https://doi.org/10.1145/1273445.1273458

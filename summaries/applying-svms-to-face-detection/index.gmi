@@ -24,9 +24,8 @@ article.
     - [Figures, Diagrams, Illustrations, and Graphs](#figures-diagrams-illustrations-and-graphs)
     - [Clarity](#clarity)
     - [Relevant Work](#relevant-work)
-  - [Third Pass](#third-pass)
     - [Author Assumptions](#author-assumptions)
-    - [Correctness](#correctness)
+      - [Correctness](#correctness)
     - [Future Directions](#future-directions)
   - [Summary](#summary)
   - [Summarization Technique](#summarization-technique)
@@ -131,13 +130,6 @@ of this article.
 - Learning and Example Selection for Object and Pattern Detection \[7\]
 - Example-based learning for view-based human face detection \[8\]
 
-______________________________________________________________________
-
-## Third Pass
-
-> This section can only be complete after a virtual re-implementation of the
-> paper
-
 ### Author Assumptions
 
 > What assumptions does the author(s) make? Are they justified assumptions?
@@ -147,7 +139,7 @@ images of faces for their static image face detector. They make no mention as to
 whether this detector is capable of identifying faces in off axis positions, or
 if their system is capable enough to orient faces properly.
 
-### Correctness
+#### Correctness
 
 > Do the assumptions seem valid?
 
@@ -196,8 +188,8 @@ ______________________________________________________________________
 
 ## Summarization Technique
 
-This paper was summarized using the technique proposed by S. Keshav in his work
-*How to Read a Paper* \[0\].
+This paper was summarized using a modified technique proposed by S. Keshav in
+his work *How to Read a Paper* \[0\].
 
 ## Citations
 

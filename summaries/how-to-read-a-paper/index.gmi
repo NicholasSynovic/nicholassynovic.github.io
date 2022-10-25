@@ -24,7 +24,6 @@ article.
   - [Second Pass](#second-pass)
     - [Figures, Diagrams, Illustrations, and Graphs](#figures-diagrams-illustrations-and-graphs)
     - [Relevant Work](#relevant-work)
-  - [Third Pass](#third-pass)
     - [Author Assumptions](#author-assumptions)
     - [Discussion of the Proofs](#discussion-of-the-proofs)
     - [How Would I Present the Idea(s)](#how-would-i-present-the-ideas)
@@ -65,7 +64,7 @@ applied this or similar methods to reading papers.
 This paper is most closely related to papers that discuss the writing of
 academic works and the review process of academic works.
 
-### Correctness
+#### Correctness
 
 > Do the assumptions seem valid?
 
@@ -108,13 +107,6 @@ The following relevant work can be found in the [Citations](#citations) section
 of this article.
 
 - \[1\], \[2\], \[3\], and \[4\]
-
-______________________________________________________________________
-
-## Third Pass
-
-> This section can only be complete after a virtual re-implementation of the
-> paper
 
 ### Author Assumptions
 
@@ -199,8 +191,8 @@ ______________________________________________________________________
 
 ## Summarization Technique
 
-This paper was summarized using the technique proposed by S. Keshav in his work
-*How to Read a Paper* \[0\].
+This paper was summarized using a modified technique proposed by S. Keshav in
+his work *How to Read a Paper* \[0\].
 
 ## Citations
 

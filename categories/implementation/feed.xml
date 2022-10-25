@@ -23,10 +23,6 @@ article.&lt;/p>
 &lt;li>&lt;a href="#figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#clarity">Clarity&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#relevant-work">Relevant Work&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;a href="#third-pass">Third Pass&lt;/a>
-&lt;ul>
 &lt;li>&lt;a href="#author-assumptions">Author Assumptions&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#correctness">Correctness&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#future-directions">Future Directions&lt;/a>&lt;/li>
@@ -108,19 +104,13 @@ of this article.&lt;/p>
 &lt;ul>
 &lt;li>A Tutorial on Support Vector Machines for Pattern Recognition [2]&lt;/li>
 &lt;/ul>
-&lt;hr>
-&lt;h2 id="third-pass">Third Pass&lt;/h2>
-&lt;blockquote>
-&lt;p>This section can only be complete after a virtual re-implementation of the
-paper&lt;/p>
-&lt;/blockquote>
 &lt;h3 id="author-assumptions">Author Assumptions&lt;/h3>
 &lt;blockquote>
 &lt;p>What assumptions does the author(s) make? Are they justified assumptions?&lt;/p>
 &lt;/blockquote>
 &lt;p>The author assumes that the reader, should they implement their own SVM
 algorithm, will be using a commericial numerical analysis package.&lt;/p>
-&lt;h3 id="correctness">Correctness&lt;/h3>
+&lt;h4 id="correctness">Correctness&lt;/h4>
 &lt;blockquote>
 &lt;p>Do the assumptions seem valid?&lt;/p>
 &lt;/blockquote>
@@ -157,7 +147,7 @@ numerical analysis package to create thier own SVM is dated in my opinion, as
 again, there are many free options availible [5].&lt;/p>
 &lt;hr>
 &lt;h2 id="summarization-technique">Summarization Technique&lt;/h2>
-&lt;p>This paper was summarized using the technique proposed by S. Keshav in his work
-&lt;em>How to Read a Paper&lt;/em> [0].&lt;/p>
+&lt;p>This paper was summarized using a modified technique proposed by S. Keshav in
+his work &lt;em>How to Read a Paper&lt;/em> [0].&lt;/p>
 &lt;h2 id="citations">Citations&lt;/h2>
 Citations availible at https://nsynovic.dev/summaries/how-to-implement-svms/</description></item></channel></rss>
