@@ -1407,8 +1407,11 @@ article.&lt;/p>
 &lt;li>&lt;a href="#figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#clarity">Clarity&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#relevant-work">Relevant Work&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#author-assumptions">Author Assumptions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#author-assumptions">Author Assumptions&lt;/a>
+&lt;ul>
 &lt;li>&lt;a href="#correctness">Correctness&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
 &lt;li>&lt;a href="#future-directions">Future Directions&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/li>
