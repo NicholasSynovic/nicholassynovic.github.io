@@ -41,7 +41,6 @@ article.
     - [Figures, Diagrams, Illustrations, and Graphs](#figures-diagrams-illustrations-and-graphs)
     - [Clarity](#clarity)
     - [Relevant Work](#relevant-work)
-  - [Third Pass](#third-pass)
     - [Future Directions](#future-directions)
   - [Summary](#summary)
   - [Summarization Technique](#summarization-technique)
@@ -123,10 +122,6 @@ of this article.
 - Introduction to Modern Information Retrieval \[2\]
 - Fast Training of SVMs Using Sequential Minimal Optimization \[3\]
 
-______________________________________________________________________
-
-## Third Pass
-
 ### Future Directions
 
 > My own proposed future directions for the work
@@ -155,7 +150,7 @@ ______________________________________________________________________
 
 ## Summarization Technique
 
-This paper was summarized using the technique proposed by S. Keshav in his work
-*How to Read a Paper* \[0\].
+This paper was summarized using a modified technique proposed by S. Keshav in
+his work *How to Read a Paper* \[0\].
 
 ## Citations

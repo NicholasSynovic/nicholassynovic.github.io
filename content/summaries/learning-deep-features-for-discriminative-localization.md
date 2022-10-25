@@ -47,7 +47,6 @@ article.
     - [Figures, Diagrams, Illustrations, and Graphs](#figures-diagrams-illustrations-and-graphs)
     - [Clarity](#clarity)
     - [Relevant Work](#relevant-work)
-  - [Third Pass](#third-pass)
     - [Future Directions](#future-directions)
   - [Summary](#summary)
   - [Summarization Technique](#summarization-technique)
@@ -158,13 +157,6 @@ of this article.
 - Network in network \[8\]
 - Going deeper with convolutions \[9\]
 
-______________________________________________________________________
-
-## Third Pass
-
-> This section can only be complete after a virtual re-implementation of the
-> paper
-
 ### Future Directions
 
 > My own proposed future directions for the work
@@ -200,7 +192,7 @@ ______________________________________________________________________
 
 ## Summarization Technique
 
-This paper was summarized using the technique proposed by S. Keshav in his work
-*How to Read a Paper* \[0\].
+This paper was summarized using a modified technique proposed by S. Keshav in
+his work *How to Read a Paper* \[0\].
 
 ## Citations

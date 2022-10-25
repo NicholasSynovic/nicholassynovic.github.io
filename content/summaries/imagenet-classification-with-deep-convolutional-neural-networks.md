@@ -43,7 +43,6 @@ article.
     - [Figures, Diagrams, Illustrations, and Graphs](#figures-diagrams-illustrations-and-graphs)
     - [Clarity](#clarity)
     - [Relevant Work](#relevant-work)
-  - [Third Pass](#third-pass)
     - [Author Assumptions](#author-assumptions)
     - [Correctness](#correctness)
     - [Discussion of the Proofs](#discussion-of-the-proofs)
@@ -137,13 +136,6 @@ determin what is going on and in what dimension are images being manipulated.
 The following relevant work can be found in the [Citations](#citations) section
 of this article.
 
-______________________________________________________________________
-
-## Third Pass
-
-> This section can only be complete after a virtual re-implementation of the
-> paper
-
 ### Author Assumptions
 
 > What assumptions does the author(s) make? Are they justified assumptions?
@@ -151,7 +143,7 @@ ______________________________________________________________________
 They assume that it is because of the larger compute devices and datasets that
 make these deep convolutional neural networks possible.
 
-### Correctness
+#### Correctness
 
 > Do the assumptions seem valid?
 
@@ -213,7 +205,7 @@ ______________________________________________________________________
 
 ## Summarization Technique
 
-This paper was summarized using the technique proposed by S. Keshav in his work
-*How to Read a Paper* \[0\].
+This paper was summarized using a modified technique proposed by S. Keshav in
+his work *How to Read a Paper* \[0\].
 
 ## Citations

@@ -45,7 +45,6 @@ article.
     - [Figures, Diagrams, Illustrations, and Graphs](#figures-diagrams-illustrations-and-graphs)
     - [Clarity](#clarity)
     - [Relevant Work](#relevant-work)
-  - [Third Pass](#third-pass)
     - [Author Assumptions](#author-assumptions)
     - [Correctness](#correctness)
     - [Future Directions](#future-directions)
@@ -150,13 +149,6 @@ of this article.
 - ImageNet 2013 submissions - \[5\], \[6\] Localization and Detection using
   Convolutional Networks
 
-______________________________________________________________________
-
-## Third Pass
-
-> This section can only be complete after a virtual re-implementation of the
-> paper
-
 ### Author Assumptions
 
 > What assumptions does the author(s) make? Are they justified assumptions?
@@ -165,7 +157,7 @@ The authors assume that the performance improvements that convulational neural
 networks are achieving are based off of larger datasets and better compute
 optimization.
 
-### Correctness
+#### Correctness
 
 > Do the assumptions seem valid?
 
@@ -207,7 +199,7 @@ ______________________________________________________________________
 
 ## Summarization Technique
 
-This paper was summarized using the technique proposed by S. Keshav in his work
-*How to Read a Paper* \[0\].
+This paper was summarized using a modified technique proposed by S. Keshav in
+his work *How to Read a Paper* \[0\].
 
 ## Citations

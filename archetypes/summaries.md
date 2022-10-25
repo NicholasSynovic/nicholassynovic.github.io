@@ -30,21 +30,21 @@ For the summary of the paper, go to the [Summary](#summary) section of this arti
 - [A summary of *TITLE*](#a-summary-of-title)
   - [Table of Contents](#table-of-contents)
   - [First Pass](#first-pass)
+    - [Problem](#problem)
+    - [Motivation](#motivation)
     - [Category](#category)
     - [Context](#context)
     - [Contributions](#contributions)
   - [Second Pass](#second-pass)
     - [Background Work](#background-work)
-    - [Motivation](#motivation)
     - [Figures, Diagrams, Illustrations, and Graphs](#figures-diagrams-illustrations-and-graphs)
     - [Clarity](#clarity)
     - [Relevant Work](#relevant-work)
-  - [Third Pass](#third-pass)
+    - [Methodology](#methodology)
     - [Author Assumptions](#author-assumptions)
-    - [Correctness](#correctness)
-    - [Discussion of the Proofs](#discussion-of-the-proofs)
-    - [How Would I Present the Idea(s)](#how-would-i-present-the-ideas)
+      - [Correctness](#correctness)
     - [Future Directions](#future-directions)
+    - [Open Questions](#open-questions)
   - [Summary](#summary)
   - [Summarization Technique](#summarization-technique)
   - [Citations](#citations)
@@ -53,7 +53,15 @@ For the summary of the paper, go to the [Summary](#summary) section of this arti
 
 ## First Pass
 
-> Discussion about the title, abstract, introduction, section and sub-section headings, and conclusion
+> Read the title, abstract, introduction, section and sub-section headings, and conclusion
+
+### Problem
+
+> What is the problem addressed in the paper?
+
+### Motivation
+
+> Why should we care about this paper?
 
 ### Category
 
@@ -71,15 +79,11 @@ For the summary of the paper, go to the [Summary](#summary) section of this arti
 
 ## Second Pass
 
-> A proper read through of the paper
+> A proper read through of the paper is required to answer this
 
 ### Background Work
 
 > What has been done prior to this paper?
-
-### Motivation
-
-> Why should we care about this paper?
 
 ### Figures, Diagrams, Illustrations, and Graphs
 
@@ -96,27 +100,25 @@ For the summary of the paper, go to the [Summary](#summary) section of this arti
 
 The following relevant work can be found in the [Citations](#citations) section of this article.
 
----
+### Methodology
 
-## Third Pass
-
-> This section can only be complete after a virtual re-implementation of the paper
+> What methodology did the author's use to validate their contributions?
 
 ### Author Assumptions
 
 > What assumptions does the author(s) make? Are they justified assumptions?
 
-### Correctness
+##### Correctness
 
 > Do the assumptions seem valid?
-
-### Discussion of the Proofs
-
-### How Would I Present the Idea(s)
 
 ### Future Directions
 
 > My own proposed future directions for the work
+
+### Open Questions
+
+> What open questions do I have about the work?
 
 ---
 
@@ -128,6 +130,6 @@ The following relevant work can be found in the [Citations](#citations) section 
 
 ## Summarization Technique
 
-This paper was summarized using the technique proposed by S. Keshav in his work *How to Read a Paper* \[0\].
+This paper was summarized using a modified technique proposed by S. Keshav in his work *How to Read a Paper* \[0\].
 
 ## Citations

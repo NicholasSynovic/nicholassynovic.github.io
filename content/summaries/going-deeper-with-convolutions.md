@@ -45,7 +45,6 @@ article.
     - [Figures, Diagrams, Illustrations, and Graphs](#figures-diagrams-illustrations-and-graphs)
     - [Clarity](#clarity)
     - [Relevant Work](#relevant-work)
-  - [Third Pass](#third-pass)
     - [Author Assumptions](#author-assumptions)
     - [Correctness](#correctness)
     - [Future Directions](#future-directions)
@@ -160,13 +159,6 @@ of this article.
 - Selective Search - \[12\]
 - Photometric Distortions - \[13\]
 
-______________________________________________________________________
-
-## Third Pass
-
-> This section can only be complete after a virtual re-implementation of the
-> paper
-
 ### Author Assumptions
 
 > What assumptions does the author(s) make? Are they justified assumptions?
@@ -193,7 +185,7 @@ model. The authors had been training and testing other models for months prior,
 however, it is unclear what the testing methodology was and why a particular
 model was choosen to compete in the ImageNet competition.
 
-### Correctness
+#### Correctness
 
 > Do the assumptions seem valid?
 
@@ -282,7 +274,7 @@ ______________________________________________________________________
 
 ## Summarization Technique
 
-This paper was summarized using the technique proposed by S. Keshav in his work
-*How to Read a Paper* \[0\].
+This paper was summarized using a modified technique proposed by S. Keshav in
+his work *How to Read a Paper* \[0\].
 
 ## Citations
