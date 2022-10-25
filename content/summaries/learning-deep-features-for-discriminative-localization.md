@@ -7,7 +7,12 @@ summary: A summary of Learning Deep Features for Discriminative Localization by 
   Zhou et al.
 
 categories: [summary, cnn, dl, object detection, cam, class activation mapping]
-citations: [https://doi.org/10.1145/1273445.1273458, http://arxiv.org/abs/1512.04150]
+citations: [https://doi.org/10.1145/1273445.1273458, http://arxiv.org/abs/1512.04150,
+  https://doi.org/10.1109/WACV.2016.7477688, https://doi.org/10.1109/TPAMI.2016.2535231,
+  https://openaccess.thecvf.com/content_cvpr_2014/html/Oquab_Learning_and_Transferring_2014_CVPR_paper.html,
+  https://openaccess.thecvf.com/content_cvpr_2015/html/Oquab_Is_Object_Localization_2015_CVPR_paper.html,
+  https://doi.org/10.1007/978-3-319-10590-1_53, https://arxiv.org/abs/1412.6856, https://arxiv.org/abs/1312.4400,
+  https://doi.org/10.48550/arXiv.1409.4842]
 
 draft: false
 
@@ -141,17 +146,17 @@ The paper is well written.
 The following relevant work can be found in the [Citations](#citations) section
 of this article.
 
-- Self-taught object localization with deep networks
+- Self-taught object localization with deep networks \[2\]
 - Weakly supervised object localization with multi-fold multiple instance
-  learning
+  learning \[3\]
 - Learning and transferring mid-level image representations using convolutional
-  neural networks
+  neural networks \[4\]
 - Is object localization for free? weakly-supervised learning with convolutional
-  neural networks
-- Visualizing and understanding convolutional networks
-- Object detectors emerge in deep scene cnns
-- Network in network
-- Going deeper with convolutions
+  neural networks \[5\]
+- Visualizing and understanding convolutional networks \[6\]
+- Object detectors emerge in deep scene cnns \[7\]
+- Network in network \[8\]
+- Going deeper with convolutions \[9\]
 
 ______________________________________________________________________
 
@@ -177,6 +182,19 @@ ______________________________________________________________________
 ## Summary
 
 > A summary of the paper
+
+The paper *Learning Deep Features for Discriminative Localization* by Bolei Zhou
+et al. \[1\] discusses a weakly supervised method of performing object
+localization on existing CNN models. Their method involves replacing the fully
+connected layer at the end of a CNN performing image classifcation, with a
+global average pooling layer into a softmax layer. This is so that the models
+original functionality is not cut from the new model. However, the global
+average pooling layer is modified so that a heatmap can be extracted focusing on
+what the CNN is focussing on prior to labelling the image.
+
+Previous work involved the usage of weakly supervised CNNs, but relied on global
+max pooling. Additional work utilized deconvolutional layers to perform a
+similar task.
 
 ______________________________________________________________________
 
