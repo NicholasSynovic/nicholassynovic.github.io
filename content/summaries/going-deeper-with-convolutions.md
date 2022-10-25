@@ -46,7 +46,7 @@ article.
     - [Clarity](#clarity)
     - [Relevant Work](#relevant-work)
     - [Author Assumptions](#author-assumptions)
-    - [Correctness](#correctness)
+      - [Correctness](#correctness)
     - [Future Directions](#future-directions)
   - [Summary](#summary)
   - [Summarization Technique](#summarization-technique)

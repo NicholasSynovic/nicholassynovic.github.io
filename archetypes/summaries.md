@@ -45,6 +45,7 @@ For the summary of the paper, go to the [Summary](#summary) section of this arti
       - [Correctness](#correctness)
     - [Future Directions](#future-directions)
     - [Open Questions](#open-questions)
+    - [Author Feedback](#author-feedback)
   - [Summary](#summary)
   - [Summarization Technique](#summarization-technique)
   - [Citations](#citations)
@@ -108,7 +109,7 @@ The following relevant work can be found in the [Citations](#citations) section 
 
 > What assumptions does the author(s) make? Are they justified assumptions?
 
-##### Correctness
+#### Correctness
 
 > Do the assumptions seem valid?
 
@@ -119,6 +120,10 @@ The following relevant work can be found in the [Citations](#citations) section 
 ### Open Questions
 
 > What open questions do I have about the work?
+
+### Author Feedback
+
+> What feedback would I give to the authors?
 
 ---
 
