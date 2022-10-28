@@ -40,16 +40,16 @@ article.&lt;/p>
 headings, and conclusion&lt;/p>
 &lt;/blockquote>
 &lt;p>The paper &lt;em>Robust Real-Time Face Detection&lt;/em> by P. Viola and M.J. Jones [1]
-presents a new methodology for effieciently performing face detection. They due
+presents a new methodology for efficiently performing face detection. They due
 this through the usage of an integral image which is able to reduce the
 computational complexity to constant time (O(1)) of analyzing an image as it
-doesn&amp;rsquo;t rely on scale invarience and thus an image pyramid. Additionaly, the
+doesn&amp;rsquo;t rely on scale invariance and thus an image pyramid. Additional, the
 classifier that they build is &amp;ldquo;simple and efficient&amp;rdquo; and allows for the engineer
-to specify a large number of features to be analyzed without comprimising on
-performance as it relies upon the AdaBoost algorithm to select imporant
+to specify a large number of features to be analyzed without compromising on
+performance as it relies upon the Ada Boost algorithm to select important
 features. Furthermore, the authors propose a method for building a cascade of
 classifiers which further reduces computation time as each classifier specifies
-. Finally, they propose experiments that can be ran on face detection datasets
+. Finally, they propose experiments that can be ran on face detection data sets
 to conduct supervised learning.&lt;/p>
 &lt;p>While this paper does propose many new and innovative ideas, the paper
 originates from 2003.&lt;/p>
@@ -57,8 +57,8 @@ originates from 2003.&lt;/p>
 &lt;blockquote>
 &lt;p>What type of paper is this work?&lt;/p>
 &lt;/blockquote>
-&lt;p>This is a research paper focussing on improving the Computer Vision task of face
-detection without the relience of CNNs.&lt;/p>
+&lt;p>This is a research paper focusing on improving the Computer Vision task of face
+detection without the reliance of CNNs.&lt;/p>
 &lt;h3 id="context">Context&lt;/h3>
 &lt;blockquote>
 &lt;p>What other &lt;em>types&lt;/em> of papers is the work related to?&lt;/p>
@@ -70,14 +70,14 @@ detection without the relience of CNNs.&lt;/p>
 &lt;/blockquote>
 &lt;p>They create an integral image which is able to reduce the computational
 complexity to constant time (O(1)) of analyzing an image as it doesn&amp;rsquo;t rely on
-scale invarience and thus an image pyramid. Additionaly, the classifier that
+scale invariance and thus an image pyramid. Additionally, the classifier that
 they build is &amp;ldquo;simple and efficient&amp;rdquo; and allows for the engineer to specify a
-large number of features to be analyzed without comprimising on performance as
-it relies upon the AdaBoost algorithm to select imporant features. Furthermore,
-the authors propose a method for building a cascade of classifiers which further
-reduces computation time as each classifier specifies . Finally, they propose
-experiments that can be ran on face detection datasets to conduct supervised
-learning.&lt;/p>
+large number of features to be analyzed without compromising on performance as
+it relies upon the Ada Boost algorithm to select important features.
+Furthermore, the authors propose a method for building a cascade of classifiers
+which further reduces computation time as each classifier specifies . Finally,
+they propose experiments that can be ran on face detection data sets to conduct
+supervised learning.&lt;/p>
 &lt;hr>
 &lt;h2 id="second-pass">Second Pass&lt;/h2>
 &lt;blockquote>
@@ -88,7 +88,7 @@ learning.&lt;/p>
 &lt;p>What has been done prior to this paper?&lt;/p>
 &lt;/blockquote>
 &lt;p>Prior work has been done in creating face detection systems. Prior work has been
-done in creating the AdaBoost algorithm that is used to create a cascade of
+done in creating the Ada Boost algorithm that is used to create a cascade of
 classifiers. Prior work has been done in identifying methodologies to create
 image features.&lt;/p>
 &lt;h3 id="motivation">Motivation&lt;/h3>
@@ -97,7 +97,7 @@ image features.&lt;/p>
 &lt;/blockquote>
 &lt;p>We should care about this paper as it presents a non-CNN methodology for
 reliably identifying faces in images. Additionally, the authors also present a
-methodology for doing this task effieciently on low end hardware.&lt;/p>
+methodology for doing this task efficiently on low end hardware.&lt;/p>
 &lt;h3 id="figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/h3>
 &lt;blockquote>
 &lt;p>Are the axes properly labeled? Are results shown with error bars, so that
@@ -109,7 +109,7 @@ conclusions are statistically significant?&lt;/p>
 &lt;p>Is the paper well written?&lt;/p>
 &lt;/blockquote>
 &lt;p>Yes, however a bit lengthy. Optimizations could have been made with respect to
-reducing the amount of content describing the background to the AdaBoost
+reducing the amount of content describing the background to the Ada Boost
 algorithm.&lt;/p>
 &lt;h3 id="relevant-work">Relevant Work&lt;/h3>
 &lt;blockquote>
@@ -125,7 +125,7 @@ Boosting [2]&lt;/li>
 &lt;blockquote>
 &lt;p>My own proposed future directions for the work&lt;/p>
 &lt;/blockquote>
-&lt;p>I&amp;rsquo;d like to reimplement their work on a low powered device and compare it to a
+&lt;p>I&amp;rsquo;d like to implement their work on a low powered device and compare it to a
 newer CNN model on ML metrics.&lt;/p>
 &lt;hr>
 &lt;h2 id="summary">Summary&lt;/h2>
@@ -133,16 +133,16 @@ newer CNN model on ML metrics.&lt;/p>
 &lt;p>A summary of the paper&lt;/p>
 &lt;/blockquote>
 &lt;p>The paper &lt;em>Robust Real-Time Face Detection&lt;/em> by P. Viola and M.J. Jones [1]
-presents a new methodology for effieciently performing face detection. They due
+presents a new methodology for efficiently performing face detection. They due
 this through the usage of an integral image which is able to reduce the
 computational complexity to constant time (O(1)) of analyzing an image as it
-doesn&amp;rsquo;t rely on scale invarience and thus an image pyramid. Additionaly, the
+doesn&amp;rsquo;t rely on scale invariance and thus an image pyramid. Additionally, the
 classifier that they build is &amp;ldquo;simple and efficient&amp;rdquo; and allows for the engineer
-to specify a large number of features to be analyzed without comprimising on
-performance as it relies upon the AdaBoost algorithm to select imporant
+to specify a large number of features to be analyzed without compromising on
+performance as it relies upon the Ada Boost algorithm to select important
 features. Furthermore, the authors propose a method for building a cascade of
 classifiers which further reduces computation time as each classifier specifies
-. Finally, they propose experiments that can be ran on face detection datasets
+. Finally, they propose experiments that can be ran on face detection data sets
 to conduct supervised learning.&lt;/p>
 &lt;p>The main &amp;ldquo;wow&amp;rdquo; factor of this work is that it was built on a low powered system.
 This same application could be more performant on modern smartphones in
@@ -200,10 +200,10 @@ headings, and conclusion&lt;/p>
 Krizhevsky et al. discusses the AlexNet model and its architecture as well as
 its SOTA achievements in the 2012 ImageNet Challenge. The difference between
 AlexNet and other contestants was that the model relies on GPU training to train
-the convulational neural network model. By utilizing the GPU, training time can
-be accelerated significatnly more than what was previously possible. Their major
-contributions is that a large, deep convulational neural network is capable of
-achieving record-breaking resuls via supervised learning. They did not utilize
+the convolutional neural network model. By utilizing the GPU, training time can
+be accelerated significantly more than what was previously possible. Their major
+contributions is that a large, deep convolutional neural network is capable of
+achieving record-breaking results via supervised learning. They did not utilize
 unsupervised pre-training, but the authors suspect that it would improve the
 accuracy of the model.&lt;/p>
 &lt;h3 id="category">Category&lt;/h3>
@@ -222,8 +222,8 @@ ImageNet Challenge.&lt;/p>
 &lt;p>What are the author&amp;rsquo;s main contributions?&lt;/p>
 &lt;/blockquote>
 &lt;p>Their main contributions were that training on GPUs allows for accelerated
-training, that large and deep convulutional neural networks are effective at
-clasifying images, and that removing layers does decrease the performance of
+training, that large and deep convolutional neural networks are effective at
+classifying images, and that removing layers does decrease the performance of
 models. Therefore, a larger, deeper model is applicable. It should be noted that
 AlexNet was the largest model ever at the time of publication.&lt;/p>
 &lt;hr>
@@ -232,14 +232,14 @@ AlexNet was the largest model ever at the time of publication.&lt;/p>
 &lt;blockquote>
 &lt;p>What has been done prior to this paper?&lt;/p>
 &lt;/blockquote>
-&lt;p>Previous work on designing convulational neural networks and architectures.
+&lt;p>Previous work on designing convolutional neural networks and architectures.
 However, they were bounded by not being particularly deep.&lt;/p>
 &lt;h3 id="motivation">Motivation&lt;/h3>
 &lt;blockquote>
 &lt;p>Why should we care about this paper?&lt;/p>
 &lt;/blockquote>
 &lt;p>Because it is one of the key papers that demonstrates that large, deep,
-convulational neural networks are effective for image classification. As well as
+convolutional neural networks are effective for image classification. As well as
 providing evidence that training on GPUs is not only effective but recommended
 for optimal performance. Additionally it provides empirical evidence that
 removing a layer from a convolutional neural network is detrimental to the
@@ -253,7 +253,7 @@ conclusions are statistically significant?&lt;/p>
 &lt;p>Nearly all of the figures are designed well, with the exception of Figure 2.
 Figure 2 is the model architecture of AlexNet. This figure suffers from
 information density and a three dimensional design which makes it hard to
-determin what is going on and in what dimension are images being manipulated.&lt;/p>
+determine what is going on and in what dimension are images being manipulated.&lt;/p>
 &lt;h3 id="clarity">Clarity&lt;/h3>
 &lt;blockquote>
 &lt;p>Is the paper well written?&lt;/p>
@@ -268,14 +268,14 @@ of this article.&lt;/p>
 &lt;blockquote>
 &lt;p>What assumptions does the author(s) make? Are they justified assumptions?&lt;/p>
 &lt;/blockquote>
-&lt;p>They assume that it is because of the larger compute devices and datasets that
+&lt;p>They assume that it is because of the larger compute devices and data sets that
 make these deep convolutional neural networks possible.&lt;/p>
 &lt;h4 id="correctness">Correctness&lt;/h4>
 &lt;blockquote>
 &lt;p>Do the assumptions seem valid?&lt;/p>
 &lt;/blockquote>
-&lt;p>While true, &lt;a href="going-deeper-with-convolutions.md">Szegedy et al.&lt;/a> designed thier
-own architecture using unique algorithms not prevelant in existing convolutional
+&lt;p>While true, &lt;a href="going-deeper-with-convolutions.md">Szegedy et al.&lt;/a> designed their
+own architecture using unique algorithms not prevalent in existing convolutional
 neural networks.&lt;/p>
 &lt;h3 id="discussion-of-the-proofs">Discussion of the Proofs&lt;/h3>
 &lt;p>Their training involved both dropout and data augmentation.&lt;/p>
@@ -284,14 +284,14 @@ neural networks.&lt;/p>
 &lt;p>Data augmentation involves manipulating the input images such that 5 244 x 244
 images are derived from one 256 x 256 image (e.g. the four corners and one
 centered). Additionally, PCA was done on the RGB channels of all of the images
-in the ImageNet 2010 and 2012 datasets. These eigenvectors were then added to
+in the ImageNet 2010 and 2012 data sets. These eigenvectors were then added to
 each of the images respective color channels.&lt;/p>
 &lt;h3 id="future-directions">Future Directions&lt;/h3>
 &lt;blockquote>
 &lt;p>My own proposed future directions for the work&lt;/p>
 &lt;/blockquote>
-&lt;p>A reimplemenation of the work would be interesting, with particular respect to
-benchmarking training time, as the authors were limited by their GPU compute
+&lt;p>A reimplementation of the work would be interesting, with particular respect to
+bench marking training time, as the authors were limited by their GPU compute
 units&amp;rsquo; performance.&lt;/p>
 &lt;hr>
 &lt;h2 id="summary">Summary&lt;/h2>
@@ -303,16 +303,16 @@ units&amp;rsquo; performance.&lt;/p>
 Krizhevsky et al. [1] discusses the AlexNet model and its architecture as well
 as its SOTA achievements in the 2012 ImageNet Challenge. The difference between
 AlexNet and other contestants was that the model relies on GPU training to train
-the convulational neural network model as well as being a deep convolutional
+the convolutional neural network model as well as being a deep convolutional
 neural network.&lt;/p>
-&lt;p>By utilizing the GPU, training time can be accelerated significatnly more than
+&lt;p>By utilizing the GPU, training time can be accelerated significantly more than
 what was previously possible. The benefits of being a deep convolutional neural
 network is that the classification of images builds off of the features found in
 the previous images. The result of this is that their top 1% and top 5% error
 were the lowest ever in the competition.&lt;/p>
 &lt;p>They trained their model by utilizing both dropout, where neurons that activated
 with a value less than 0.5 are not inputted into the next layer, and by
-augmenting the Imagenet 2010 and 2012 datasets to increase the amount of data
+augmenting the Imagenet 2010 and 2012 data sets to increase the amount of data
 that they can throw at the model.&lt;/p>
 &lt;p>Their work is important as it kicked off the usage of both deep convolutional
 neural networks and the usage of GPUs to reduce training time.&lt;/p>
@@ -366,7 +366,7 @@ headings, and conclusion&lt;/p>
 &lt;/blockquote>
 &lt;p>The paper &lt;em>Very Deep Convolutional Networks for Large Scale Image Recognition&lt;/em>
 by Karen Simonyan and Andrew Zissernman discusses the SOTA performance of their
-model in the 2014 ImageNet Challenge on localisation and classification tasks.
+model in the 2014 ImageNet Challenge on localization and classification tasks.
 They discuss that be extending the depth of convolutional neural networks to 16
 up to 19 layers, with a 3x3 filter size, SOTA performance is possible without
 redeveloping the architecture of existing convolutional neural networks. This is
@@ -391,7 +391,7 @@ performance on CV architecture and models.&lt;/p>
 &lt;blockquote>
 &lt;p>What are the author&amp;rsquo;s main contributions?&lt;/p>
 &lt;/blockquote>
-&lt;p>Their main contributions is an exploration of depth in traditional convulational
+&lt;p>Their main contributions is an exploration of depth in traditional convolutional
 neural networks to achieve SOTA performance.&lt;/p>
 &lt;hr>
 &lt;h2 id="second-pass">Second Pass&lt;/h2>
@@ -399,19 +399,19 @@ neural networks to achieve SOTA performance.&lt;/p>
 &lt;blockquote>
 &lt;p>What has been done prior to this paper?&lt;/p>
 &lt;/blockquote>
-&lt;p>Prior work has gone into optimizing the width and intial convulations of
-convultional neural networks.&lt;/p>
+&lt;p>Prior work has gone into optimizing the width and initial convolutions of
+convolutional neural networks.&lt;/p>
 &lt;p>&lt;a href="going-deeper-with-convolutions.md">Szegedy et al.&lt;/a> proposed a new architecture
 (Inception) that achieved SOTA performance in the 2014 ImageNet Challenge. Else,
-Krizhevsky et al. [2] and others have proposed improvments to the
-convulational neural network architecture.&lt;/p>
+Krizhevsky et al. [2] and others have proposed improvements to the
+convolutional neural network architecture.&lt;/p>
 &lt;h3 id="motivation">Motivation&lt;/h3>
 &lt;blockquote>
 &lt;p>Why should we care about this paper?&lt;/p>
 &lt;/blockquote>
 &lt;p>We should care about the authors work as increasing the depth of a neural
 network by their proposed architecture allows for easy expansion of existing
-convulational neural networks without redesigning the libraries used to create
+convolutional neural networks without redesigning the libraries used to create
 them.&lt;/p>
 &lt;h3 id="figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/h3>
 &lt;blockquote>
@@ -435,7 +435,7 @@ configurations.&lt;/p>
 &lt;p>The following relevant work can be found in the &lt;a href="#citations">Citations&lt;/a> section
 of this article.&lt;/p>
 &lt;ul>
-&lt;li>Classical convultional neural network architecture - [3]&lt;/li>
+&lt;li>Classical convolutional neural network architecture - [3]&lt;/li>
 &lt;li>GoogLeNet - [2]&lt;/li>
 &lt;li>Clarifai&lt;/li>
 &lt;li>ImageNet classification with deep convolutional neural net- works [4]&lt;/li>
@@ -447,8 +447,8 @@ Convolutional Networks&lt;/li>
 &lt;blockquote>
 &lt;p>What assumptions does the author(s) make? Are they justified assumptions?&lt;/p>
 &lt;/blockquote>
-&lt;p>The authors assume that the performance improvements that convulational neural
-networks are achieving are based off of larger datasets and better compute
+&lt;p>The authors assume that the performance improvements that convolutional neural
+networks are achieving are based off of larger data sets and better compute
 optimization.&lt;/p>
 &lt;h4 id="correctness">Correctness&lt;/h4>
 &lt;blockquote>
@@ -460,7 +460,7 @@ new architecture, rather than improving upon an existing one.&lt;/p>
 &lt;blockquote>
 &lt;p>My own proposed future directions for the work&lt;/p>
 &lt;/blockquote>
-&lt;p>I would love to try and optimize the input layer of convulational neural
+&lt;p>I would love to try and optimize the input layer of convolutional neural
 networks by having a computation that not only looks at the color space, but
 also the opacity of an image. This would allow for images to have their
 background removed for the purposes of classification by making the background
@@ -472,18 +472,18 @@ less opaque than the foreground.&lt;/p>
 &lt;/blockquote>
 &lt;p>The paper &lt;em>Very Deep Convolutional Networks for Large Scale Image Recognition&lt;/em>
 by Karen Simonyan and Andrew Zissernman discusses the SOTA performance of their
-model in the 2014 ImageNet Challenge on localisation and classification tasks.
+model in the 2014 ImageNet Challenge on localization and classification tasks.
 They discuss that be extending the depth of convolutional neural networks to 16
 up to 19 layers, with a 3x3 filter size, SOTA performance is possible without
 redeveloping the architecture of existing convolutional neural networks. Their
-work builds of previous efforts of improving convulational neural network
-performance by optimizing the filter size and intial layer, but contrasts
+work builds of previous efforts of improving convolutional neural network
+performance by optimizing the filter size and initial layer, but contrasts
 contemporaries [2] by not developing a new architecture. Their work has
-importance as it shows that the existing convulational neural network
+importance as it shows that the existing convolutional neural network
 architecture is capable of SOTA performance by increasing the depth of the
 model. They justify this by trying six different model configurations, and
 finding that models with 16 to 19 layers performed best on the 2014 ImageNet
-Challenge classification and localisation challenges.&lt;/p>
+Challenge classification and localization challenges.&lt;/p>
 &lt;hr>
 &lt;h2 id="summarization-technique">Summarization Technique&lt;/h2>
 &lt;p>This paper was summarized using a modified technique proposed by S. Keshav in
@@ -535,16 +535,16 @@ headings, and conclusion&lt;/p>
 &lt;/blockquote>
 &lt;p>The paper &lt;em>Going deeper with convolutions&lt;/em> by Christian Szegedy et al. [1]
 describes a 2014 state of the art computer vision model (on the ImageNet
-Large-Scale Visual Recognition Challenge) called GoogLeNet architected based on
-Hebbian principles (i.e. neruons that fire together, are wired together)and a
+Large-Scale Visual Recognition Challenge) called GoogLeNet architect ed based on
+Hebbian principles (i.e. neurons that fire together, are wired together)and a
 constant computational budget. Their approach relies on creative algorithms and
-neuroscience principles and aims to be a more power effiecient model for mobile
-devices by limiting the computations during infrencing. Additionally, their
-model is deep but not wide and is considered &amp;ldquo;sparse&amp;rdquo; by the authors. In other
-words, there are as few nodes as possible within the neural network.&lt;/p>
+neuroscience principles and aims to be a more power efficient model for mobile
+devices by limiting the computations during inference. Additionally, their model
+is deep but not wide and is considered &amp;ldquo;sparse&amp;rdquo; by the authors. In other words,
+there are as few nodes as possible within the neural network.&lt;/p>
 &lt;p>Szegedy et al.&amp;rsquo;s contributions are a state of the art computer vision model that
 provides experimental evidence that, &amp;ldquo;&amp;hellip; Approximating the expected optimal
-sparse structure by readily avilible dense building blocks is a viable method
+sparse structure by readily available dense building blocks is a viable method
 for improving neural networks for computer vision&amp;rdquo;. This means that this model
 proves that dense neural networks for computer vision are not necessary in the
 author&amp;rsquo;s viewpoint.&lt;/p>
@@ -553,7 +553,7 @@ author&amp;rsquo;s viewpoint.&lt;/p>
 &lt;p>What type of paper is this work?&lt;/p>
 &lt;/blockquote>
 &lt;p>This is a computer vision paper describing both a machine learning architecture
-and refernce model.&lt;/p>
+and reference model.&lt;/p>
 &lt;h3 id="context">Context&lt;/h3>
 &lt;blockquote>
 &lt;p>What other &lt;em>types&lt;/em> of papers is the work related to?&lt;/p>
@@ -582,7 +582,7 @@ conclusions are statistically significant?&lt;/p>
 &lt;/blockquote>
 &lt;p>All of the tables have proper column labels. However, Table 1 does not provide
 default values for blank cells. This is most likely due to the layer type not
-performaing a specific operation (as described in the column label). Regardless,
+performing a specific operation (as described in the column label). Regardless,
 the remaining tables look good.&lt;/p>
 &lt;p>Additionally, Figure 3 is very clear to read, if a little dense. However, as it
 describes all of the layers of GoogLeNet and how they are connected, I find the
@@ -628,25 +628,25 @@ of this article.&lt;/p>
 &lt;blockquote>
 &lt;p>What assumptions does the author(s) make? Are they justified assumptions?&lt;/p>
 &lt;/blockquote>
-&lt;p>One assumption that the authors make is that overfitting is more prone to occur
-in large models. Additionally, overfitting can occur when there is not enough
-labeled examples in a dataset when a large model is training. Furthermore,
+&lt;p>One assumption that the authors make is that over fitting is more prone to occur
+in large models. Additionally, over fitting can occur when there is not enough
+labeled examples in a data set when a large model is training. Furthermore,
 increasing the size of a model increases the number of computations that must be
-done between layers (e.g. chaining two convulational layers results in
-computation cost quadratically increasing) Their solutions relies on moving from
-fully connected to sparsely connected architectures including within
-convolutional layers. Also, their model architecutre is based on the idea that
-computers are inefficent when, &amp;ldquo;&amp;hellip; Computing numerical calculations on
+done between layers (e.g. chaining two convolutional layers results in
+computation cost quadratic ally increasing) Their solutions relies on moving
+from fully connected to sparsely connected architectures including within
+convolutional layers. Also, their model architecture is based on the idea that
+computers are inefficient when, &amp;ldquo;&amp;hellip; Computing numerical calculations on
 non-uniform sparse data structures&amp;rdquo;.&lt;/p>
 &lt;p>They assume that 1x1, 3x3, and 5x5 filters are the proper filters to use, but
 did not test other size of filters. They also assume that using, &amp;ldquo;Inception
 modules&amp;rdquo; is only useful at higher levels, whereas the initial levels are
-standard convultational levels. However, this was not tested either and was due
-to, &amp;ldquo;infrastructural inefficiences&amp;rdquo; in the implementation.&lt;/p>
+standard convolutional levels. However, this was not tested either and was due
+to, &amp;ldquo;infrastructural inefficiencies&amp;rdquo; in the implementation.&lt;/p>
 &lt;p>Finally, that the model that achieved state of the art performance was the best
 model. The authors had been training and testing other models for months prior,
 however, it is unclear what the testing methodology was and why a particular
-model was choosen to compete in the ImageNet competition.&lt;/p>
+model was chosen to compete in the ImageNet competition.&lt;/p>
 &lt;h4 id="correctness">Correctness&lt;/h4>
 &lt;blockquote>
 &lt;p>Do the assumptions seem valid?&lt;/p>
@@ -661,13 +661,13 @@ testing wasn&amp;rsquo;t performed.&lt;/p>
 &lt;blockquote>
 &lt;p>My own proposed future directions for the work&lt;/p>
 &lt;/blockquote>
-&lt;p>Based off of Section 3 (Motiviation and High Level Considerations), one
-promising area of study would be to perform a network architecture search
-utilizing the principles and reasoning of their approach to other machine
-learning and computer vision domains.&lt;/p>
+&lt;p>Based off of Section 3 (Motivation and High Level Considerations), one promising
+area of study would be to perform a network architecture search utilizing the
+principles and reasoning of their approach to other machine learning and
+computer vision domains.&lt;/p>
 &lt;p>An enhancement to their work is possible by analyzing what filter sizes most
 optimal improve performance. Currently the author&amp;rsquo;s are restricting GoogLeNet to
-1x1, 3x3, and 5x5 filter sizes, but this was due to convience and no data was
+1x1, 3x3, and 5x5 filter sizes, but this was due to convenience and no data was
 given to support this.&lt;/p>
 &lt;hr>
 &lt;h2 id="summary">Summary&lt;/h2>
@@ -677,11 +677,11 @@ given to support this.&lt;/p>
 &lt;p>The paper &lt;em>Going deeper with convolutions&lt;/em> by Szegedy et al. [1] introduces a
 computer vision model architecture called Inception and a reference model called
 GoogLeNet.&lt;/p>
-&lt;p>Inception is a model architecuture that is both sparse and (attempts to be)
-computationally efficent during inferencing with only 1.5 billion multiply-add
+&lt;p>Inception is a model architecture that is both sparse and (attempts to be)
+computationally efficient during inferencing with only 1.5 billion multiply-add
 operations allowed. Inception models are composed of multiple Inception modules
 that are stacked on top of each other. Each Inception module takes in data from
-the previous layer and passes it into small convultional filters (i.e. 1x1
+the previous layer and passes it into small convolutional filters (i.e. 1x1
 typically). There are three of these small filters that are wired to the input
 of the Inception module, with one of them connected directly to the output. The
 outputs of two of these filters are then passed into larger filters (i.e. 5x5)
@@ -695,16 +695,16 @@ green, blue), an image would have a depth of 3.&lt;/p>
 &lt;p>&lt;em>Example:&lt;/em> A 200 pixel by 200 pixel full color spectrum image would be
 represented as 200x200x3.&lt;/p>
 &lt;p>It is possible for Inception modules to have an additional connection to the
-input of the module to perform average pooling for softmax activation.&lt;/p>
+input of the module to perform average pooling for Softmax activation.&lt;/p>
 &lt;p>GoogLeNet achieved SOTA performance in the ImageNet Large-Scale Visual
 Recognition Challenge image classification task by having a top-5 error of 6.67%
-on both the validation and testing data. This is an improvment of 56.5% in
+on both the validation and testing data. This is an improvement of 56.5% in
 comparison to 2012&amp;rsquo;s SOTA performer (SuperVision) and 2013&amp;rsquo;s SOTA performer
-(Clarifai). Additionally, they achieved SOTA perfomance for the ImageNet
+(Clarifai). Additionally, they achieved SOTA performance for the ImageNet
 Large-Scale Visual Recognition Challenge detection task with a mean average
 precision of 43.9% utilizing an ensemble inference approach. This model was
 architected using the Inception architecture with 22 layers. However, not every
-layer was an Inception module; the first few layers were standard convulational
+layer was an Inception module; the first few layers were standard convolutional
 layers.&lt;/p>
 &lt;p>The author&amp;rsquo;s contributions were as follows;&lt;/p>
 &lt;ol>
@@ -715,7 +715,7 @@ detection.&lt;/li>
 &lt;p>My opinion on this paper is that while it is well written, the author&amp;rsquo;s make
 numerous assumptions about the optimal performance of their model&amp;rsquo;s
 architecture. They don&amp;rsquo;t test optimal sizes for filters as well as resolving
-bugs such as the usage of standard convulational layers early in the model. Both
+bugs such as the usage of standard convolutional layers early in the model. Both
 of which can be solved by performing a neural architecture search.&lt;/p>
 &lt;p>Future work for this paper would involve optimizing the model architecture via a
 neural architecture search. As well as evaluating the performance of the model

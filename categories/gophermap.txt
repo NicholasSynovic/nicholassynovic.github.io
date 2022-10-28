@@ -32,17 +32,17 @@
 
 1blog	/categories/blog
 
+1SIGCOMM	/categories/sigcomm
+
 1meta	/categories/meta
 
-1acm sigcomm	/categories/acm-sigcomm
+1ACM SIGCOMM	/categories/acm-sigcomm
 
-1acm	/categories/acm
+1ACM	/categories/acm
 
 1machine learning architecture	/categories/machine-learning-architecture
 
 1machine learning	/categories/machine-learning
-
-1vgg	/categories/vgg
 
 1ImageNet	/categories/imagenet
 
@@ -52,7 +52,7 @@
 
 1systems	/categories/systems
 
-1hpc	/categories/hpc
+1HPC	/categories/hpc
 
 1high performance computing	/categories/high-performance-computing
 
@@ -64,11 +64,11 @@
 
 1text categorization	/categories/text-categorization
 
-1svm	/categories/svm
+1SVM	/categories/svm
 
 1applications	/categories/applications
 
-1svms	/categories/svms
+1SVMs	/categories/svms
 
 1ml	/categories/ml
 
@@ -76,9 +76,9 @@
 
 1object detection	/categories/object-detection
 
-1dl	/categories/dl
+1DL	/categories/dl
 
-1cnn	/categories/cnn
+1CNN	/categories/cnn
 
 1class activation mapping	/categories/class-activation-mapping
 
@@ -86,7 +86,7 @@
 
 1face detection	/categories/face-detection
 
-1cv	/categories/cv
+1CV	/categories/cv
 
 1computer vision	/categories/computer-vision
 

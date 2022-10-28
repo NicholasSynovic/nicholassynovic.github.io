@@ -41,7 +41,7 @@ ______________________________________________________________________
 
 The paper *Very Deep Convolutional Networks for Large Scale Image Recognition*
 by Karen Simonyan and Andrew Zissernman discusses the SOTA performance of their
-model in the 2014 ImageNet Challenge on localisation and classification tasks.
+model in the 2014 ImageNet Challenge on localization and classification tasks.
 They discuss that be extending the depth of convolutional neural networks to 16
 up to 19 layers, with a 3x3 filter size, SOTA performance is possible without
 redeveloping the architecture of existing convolutional neural networks. This is
@@ -69,7 +69,7 @@ performance on CV architecture and models.
 
 > What are the author's main contributions?
 
-Their main contributions is an exploration of depth in traditional convulational
+Their main contributions is an exploration of depth in traditional convolutional
 neural networks to achieve SOTA performance.
 
 ______________________________________________________________________
@@ -80,13 +80,13 @@ ______________________________________________________________________
 
 > What has been done prior to this paper?
 
-Prior work has gone into optimizing the width and intial convulations of
-convultional neural networks.
+Prior work has gone into optimizing the width and initial convolutions of
+convolutional neural networks.
 
 [Szegedy et al.](going-deeper-with-convolutions.md) proposed a new architecture
 (Inception) that achieved SOTA performance in the 2014 ImageNet Challenge. Else,
-Krizhevsky et al. \[2\] and others have proposed improvments to the
-convulational neural network architecture.
+Krizhevsky et al. \[2\] and others have proposed improvements to the
+convolutional neural network architecture.
 
 ### Motivation
 
@@ -94,7 +94,7 @@ convulational neural network architecture.
 
 We should care about the authors work as increasing the depth of a neural
 network by their proposed architecture allows for easy expansion of existing
-convulational neural networks without redesigning the libraries used to create
+convolutional neural networks without redesigning the libraries used to create
 them.
 
 ### Figures, Diagrams, Illustrations, and Graphs
@@ -121,7 +121,7 @@ The paper is well written and can be understood.
 The following relevant work can be found in the [Citations](#citations) section
 of this article.
 
-- Classical convultional neural network architecture - \[3\]
+- Classical convolutional neural network architecture - \[3\]
 - GoogLeNet - \[2\]
 - Clarifai
 - ImageNet classification with deep convolutional neural net- works \[4\]
@@ -133,8 +133,8 @@ of this article.
 
 > What assumptions does the author(s) make? Are they justified assumptions?
 
-The authors assume that the performance improvements that convulational neural
-networks are achieving are based off of larger datasets and better compute
+The authors assume that the performance improvements that convolutional neural
+networks are achieving are based off of larger data sets and better compute
 optimization.
 
 #### Correctness
@@ -148,7 +148,7 @@ new architecture, rather than improving upon an existing one.
 
 > My own proposed future directions for the work
 
-I would love to try and optimize the input layer of convulational neural
+I would love to try and optimize the input layer of convolutional neural
 networks by having a computation that not only looks at the color space, but
 also the opacity of an image. This would allow for images to have their
 background removed for the purposes of classification by making the background
@@ -162,18 +162,18 @@ ______________________________________________________________________
 
 The paper *Very Deep Convolutional Networks for Large Scale Image Recognition*
 by Karen Simonyan and Andrew Zissernman discusses the SOTA performance of their
-model in the 2014 ImageNet Challenge on localisation and classification tasks.
+model in the 2014 ImageNet Challenge on localization and classification tasks.
 They discuss that be extending the depth of convolutional neural networks to 16
 up to 19 layers, with a 3x3 filter size, SOTA performance is possible without
 redeveloping the architecture of existing convolutional neural networks. Their
-work builds of previous efforts of improving convulational neural network
-performance by optimizing the filter size and intial layer, but contrasts
+work builds of previous efforts of improving convolutional neural network
+performance by optimizing the filter size and initial layer, but contrasts
 contemporaries \[2\] by not developing a new architecture. Their work has
-importance as it shows that the existing convulational neural network
+importance as it shows that the existing convolutional neural network
 architecture is capable of SOTA performance by increasing the depth of the
 model. They justify this by trying six different model configurations, and
 finding that models with 16 to 19 layers performed best on the 2014 ImageNet
-Challenge classification and localisation challenges.
+Challenge classification and localization challenges.
 
 ______________________________________________________________________
 

@@ -13,8 +13,11 @@ article.&lt;/p>
 &lt;li>&lt;a href="#first-pass">First Pass&lt;/a>
 &lt;ul>
 &lt;li>&lt;a href="#category">Category&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#context">Context&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#context">Context&lt;/a>
+&lt;ul>
 &lt;li>&lt;a href="#correctness">Correctness&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
 &lt;li>&lt;a href="#contributions">Contributions&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#clarity">Clarity&lt;/a>&lt;/li>
 &lt;/ul>
@@ -52,8 +55,8 @@ author.&lt;/p>
 &lt;blockquote>
 &lt;p>What type of paper is this work?&lt;/p>
 &lt;/blockquote>
-&lt;p>This paper is definetly a more causal piece of academic work that aims at easing
-students into the reading papers. I would classify this paper as &amp;ldquo;meta&amp;rdquo;,
+&lt;p>This paper is definitely a more causal piece of academic work that aims at
+easing students into the reading papers. I would classify this paper as &amp;ldquo;meta&amp;rdquo;,
 educational, or as a formal letter to students. The later classification is due
 to the lack of surveys or qualitative/ quantitative data from others that have
 applied this or similar methods to reading papers.&lt;/p>
@@ -69,7 +72,7 @@ academic works and the review process of academic works.&lt;/p>
 &lt;/blockquote>
 &lt;p>The assumptions in the abstract and introduction seem reasonable. However,
 assuming that only graduate students are the only ones that struggle with
-reading academic works is unrepresentative of &lt;em>my particular experinece&lt;/em>.
+reading academic works is unrepresentative of &lt;em>my particular experience&lt;/em>.
 Undergraduate students as well as professionals in industry also struggle with
 reading these works as well.&lt;/p>
 &lt;h3 id="contributions">Contributions&lt;/h3>
@@ -82,7 +85,7 @@ framework for performing literature reviews of a new field.&lt;/p>
 &lt;blockquote>
 &lt;p>Is the paper well written?&lt;/p>
 &lt;/blockquote>
-&lt;p>This paper is well written and is easy to comprehand. I would strongly recommend
+&lt;p>This paper is well written and is easy to comprehend. I would strongly recommend
 this paper to be read by everyone regardless of academic status.&lt;/p>
 &lt;hr>
 &lt;h2 id="second-pass">Second Pass&lt;/h2>
@@ -109,7 +112,7 @@ of this article.&lt;/p>
 the demographic that has trouble reading academic papers. Now while graduate
 students do typically read more papers than undergraduates, it is not unheard of
 for academic readings to be given to undergraduate students as homework
-assingments or for them to read them on their own. Addotionally, professionals
+assignments or for them to read them on their own. Additionally, professionals
 in industry also struggle with this task as well. A more inclusive audience
 would have been appreciated, but would not have improved the content or quality
 of this paper.&lt;/p>
@@ -119,7 +122,7 @@ of the author. An awfully biased proof, however, I do appreciate at least some
 quantifiable data for this method.&lt;/p>
 &lt;h3 id="how-would-i-present-the-ideas">How Would I Present the Idea(s)&lt;/h3>
 &lt;p>I think the author presented these ideas exceptionally well and clearly, and
-cannot think of any additional presenation method aside from the critiques of
+cannot think of any additional presentation method aside from the critiques of
 the assumptions mentioned in &lt;a href="#author-assumptions">Author Assumptions&lt;/a>.&lt;/p>
 &lt;h3 id="future-directions">Future Directions&lt;/h3>
 &lt;blockquote>
@@ -146,17 +149,17 @@ Conclusion, and section and sub-section headings are read first,&lt;/li>
 &lt;li>A deeper analysis of figures and content of the paper which involves finding
 new, unread references to the reader and evaluating the quality of
 illustrations to determine the quality of the paper,&lt;/li>
-&lt;li>A virtual reimplemenation of the paper where every claim of the paper is
+&lt;li>A virtual reimplementation of the paper where every claim of the paper is
 analyzed and critiqued; typically this done by reviewers or those that are
 doing a deeper analysis of the work.&lt;/li>
 &lt;/ol>
-&lt;p>I can see this process being useful for researchers as reimplementers of other&amp;rsquo;s
+&lt;p>I can see this process being useful for researchers as implementers of other&amp;rsquo;s
 research must accomplish all three steps to properly appreciate and understand
 what they need to do to perform their task. As for the literature review
 framework, it involves utilizing academic search engines (e.g.
 &lt;a href="https://https://scholar.google.com/">Google Scholar&lt;/a>) to find work within a
 particular field, finding shared citations or authors within that field, then
-evaluating top confrences within that field to see who the top researchers and
+evaluating top conferences within that field to see who the top researchers and
 research topics are within that field. For exploratory research, this is both an
 extremely simple and effective framework to follow and adapt to different
 domains.&lt;/p>

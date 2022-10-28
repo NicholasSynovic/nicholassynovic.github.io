@@ -267,16 +267,16 @@ article.&lt;/p>
 headings, and conclusion&lt;/p>
 &lt;/blockquote>
 &lt;p>The paper &lt;em>Robust Real-Time Face Detection&lt;/em> by P. Viola and M.J. Jones [1]
-presents a new methodology for effieciently performing face detection. They due
+presents a new methodology for efficiently performing face detection. They due
 this through the usage of an integral image which is able to reduce the
 computational complexity to constant time (O(1)) of analyzing an image as it
-doesn&amp;rsquo;t rely on scale invarience and thus an image pyramid. Additionaly, the
+doesn&amp;rsquo;t rely on scale invariance and thus an image pyramid. Additional, the
 classifier that they build is &amp;ldquo;simple and efficient&amp;rdquo; and allows for the engineer
-to specify a large number of features to be analyzed without comprimising on
-performance as it relies upon the AdaBoost algorithm to select imporant
+to specify a large number of features to be analyzed without compromising on
+performance as it relies upon the Ada Boost algorithm to select important
 features. Furthermore, the authors propose a method for building a cascade of
 classifiers which further reduces computation time as each classifier specifies
-. Finally, they propose experiments that can be ran on face detection datasets
+. Finally, they propose experiments that can be ran on face detection data sets
 to conduct supervised learning.&lt;/p>
 &lt;p>While this paper does propose many new and innovative ideas, the paper
 originates from 2003.&lt;/p>
@@ -284,8 +284,8 @@ originates from 2003.&lt;/p>
 &lt;blockquote>
 &lt;p>What type of paper is this work?&lt;/p>
 &lt;/blockquote>
-&lt;p>This is a research paper focussing on improving the Computer Vision task of face
-detection without the relience of CNNs.&lt;/p>
+&lt;p>This is a research paper focusing on improving the Computer Vision task of face
+detection without the reliance of CNNs.&lt;/p>
 &lt;h3 id="context">Context&lt;/h3>
 &lt;blockquote>
 &lt;p>What other &lt;em>types&lt;/em> of papers is the work related to?&lt;/p>
@@ -297,14 +297,14 @@ detection without the relience of CNNs.&lt;/p>
 &lt;/blockquote>
 &lt;p>They create an integral image which is able to reduce the computational
 complexity to constant time (O(1)) of analyzing an image as it doesn&amp;rsquo;t rely on
-scale invarience and thus an image pyramid. Additionaly, the classifier that
+scale invariance and thus an image pyramid. Additionally, the classifier that
 they build is &amp;ldquo;simple and efficient&amp;rdquo; and allows for the engineer to specify a
-large number of features to be analyzed without comprimising on performance as
-it relies upon the AdaBoost algorithm to select imporant features. Furthermore,
-the authors propose a method for building a cascade of classifiers which further
-reduces computation time as each classifier specifies . Finally, they propose
-experiments that can be ran on face detection datasets to conduct supervised
-learning.&lt;/p>
+large number of features to be analyzed without compromising on performance as
+it relies upon the Ada Boost algorithm to select important features.
+Furthermore, the authors propose a method for building a cascade of classifiers
+which further reduces computation time as each classifier specifies . Finally,
+they propose experiments that can be ran on face detection data sets to conduct
+supervised learning.&lt;/p>
 &lt;hr>
 &lt;h2 id="second-pass">Second Pass&lt;/h2>
 &lt;blockquote>
@@ -315,7 +315,7 @@ learning.&lt;/p>
 &lt;p>What has been done prior to this paper?&lt;/p>
 &lt;/blockquote>
 &lt;p>Prior work has been done in creating face detection systems. Prior work has been
-done in creating the AdaBoost algorithm that is used to create a cascade of
+done in creating the Ada Boost algorithm that is used to create a cascade of
 classifiers. Prior work has been done in identifying methodologies to create
 image features.&lt;/p>
 &lt;h3 id="motivation">Motivation&lt;/h3>
@@ -324,7 +324,7 @@ image features.&lt;/p>
 &lt;/blockquote>
 &lt;p>We should care about this paper as it presents a non-CNN methodology for
 reliably identifying faces in images. Additionally, the authors also present a
-methodology for doing this task effieciently on low end hardware.&lt;/p>
+methodology for doing this task efficiently on low end hardware.&lt;/p>
 &lt;h3 id="figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/h3>
 &lt;blockquote>
 &lt;p>Are the axes properly labeled? Are results shown with error bars, so that
@@ -336,7 +336,7 @@ conclusions are statistically significant?&lt;/p>
 &lt;p>Is the paper well written?&lt;/p>
 &lt;/blockquote>
 &lt;p>Yes, however a bit lengthy. Optimizations could have been made with respect to
-reducing the amount of content describing the background to the AdaBoost
+reducing the amount of content describing the background to the Ada Boost
 algorithm.&lt;/p>
 &lt;h3 id="relevant-work">Relevant Work&lt;/h3>
 &lt;blockquote>
@@ -352,7 +352,7 @@ Boosting [2]&lt;/li>
 &lt;blockquote>
 &lt;p>My own proposed future directions for the work&lt;/p>
 &lt;/blockquote>
-&lt;p>I&amp;rsquo;d like to reimplement their work on a low powered device and compare it to a
+&lt;p>I&amp;rsquo;d like to implement their work on a low powered device and compare it to a
 newer CNN model on ML metrics.&lt;/p>
 &lt;hr>
 &lt;h2 id="summary">Summary&lt;/h2>
@@ -360,16 +360,16 @@ newer CNN model on ML metrics.&lt;/p>
 &lt;p>A summary of the paper&lt;/p>
 &lt;/blockquote>
 &lt;p>The paper &lt;em>Robust Real-Time Face Detection&lt;/em> by P. Viola and M.J. Jones [1]
-presents a new methodology for effieciently performing face detection. They due
+presents a new methodology for efficiently performing face detection. They due
 this through the usage of an integral image which is able to reduce the
 computational complexity to constant time (O(1)) of analyzing an image as it
-doesn&amp;rsquo;t rely on scale invarience and thus an image pyramid. Additionaly, the
+doesn&amp;rsquo;t rely on scale invariance and thus an image pyramid. Additionally, the
 classifier that they build is &amp;ldquo;simple and efficient&amp;rdquo; and allows for the engineer
-to specify a large number of features to be analyzed without comprimising on
-performance as it relies upon the AdaBoost algorithm to select imporant
+to specify a large number of features to be analyzed without compromising on
+performance as it relies upon the Ada Boost algorithm to select important
 features. Furthermore, the authors propose a method for building a cascade of
 classifiers which further reduces computation time as each classifier specifies
-. Finally, they propose experiments that can be ran on face detection datasets
+. Finally, they propose experiments that can be ran on face detection data sets
 to conduct supervised learning.&lt;/p>
 &lt;p>The main &amp;ldquo;wow&amp;rdquo; factor of this work is that it was built on a low powered system.
 This same application could be more performant on modern smartphones in
@@ -424,8 +424,8 @@ et al. [1] describes using the global average pooling layer of CNNs to not
 only regularize data, but also to localize objects in an image &lt;strong>even if the
 network wasn&amp;rsquo;t trained for object detection&lt;/strong>. The authors propose a method for
 object localization that involves a simple modification to the layer to generate
-what they call &amp;ldquo;class activation maps&amp;rdquo; (CAMs), which are heatmaps of where the
-CNN is &amp;ldquo;looking&amp;rdquo; at an image for labeling. The hotter the heatmap, the more
+what they call &amp;ldquo;class activation maps&amp;rdquo; (CAMs), which are heat maps of where the
+CNN is &amp;ldquo;looking&amp;rdquo; at an image for labeling. The hotter the heat map, the more
 focus the CNN is putting on that specific image region.&lt;/p>
 &lt;p>The authors go into detail as to how one would accomplish this with a
 weakly-supervised object localization method, and its applications towards deep
@@ -478,7 +478,7 @@ localization by reusing existing SOTA CNNs.&lt;/p>
 &lt;p>Are the axes properly labeled? Are results shown with error bars, so that
 conclusions are statistically significant?&lt;/p>
 &lt;/blockquote>
-&lt;p>All of the figures and tables are labelled clearly, have detailed captions, and
+&lt;p>All of the figures and tables are labeled clearly, have detailed captions, and
 make sense with respect to the paper.&lt;/p>
 &lt;h3 id="clarity">Clarity&lt;/h3>
 &lt;blockquote>
@@ -500,7 +500,7 @@ neural networks [4]&lt;/li>
 &lt;li>Is object localization for free? weakly-supervised learning with convolutional
 neural networks [5]&lt;/li>
 &lt;li>Visualizing and understanding convolutional networks [6]&lt;/li>
-&lt;li>Object detectors emerge in deep scene cnns [7]&lt;/li>
+&lt;li>Object detectors emerge in deep scene CNNs [7]&lt;/li>
 &lt;li>Network in network [8]&lt;/li>
 &lt;li>Going deeper with convolutions [9]&lt;/li>
 &lt;/ul>
@@ -523,11 +523,11 @@ cold area of the image prior to analysis by a smaller CNN.&lt;/p>
 &lt;p>The paper &lt;em>Learning Deep Features for Discriminative Localization&lt;/em> by Bolei Zhou
 et al. [1] discusses a weakly supervised method of performing object
 localization on existing CNN models. Their method involves replacing the fully
-connected layer at the end of a CNN performing image classifcation, with a
-global average pooling layer into a softmax layer. This is so that the models
+connected layer at the end of a CNN performing image classification, with a
+global average pooling layer into a Softmax layer. This is so that the models
 original functionality is not cut from the new model. However, the global
-average pooling layer is modified so that a heatmap can be extracted focusing on
-what the CNN is focussing on prior to labelling the image.&lt;/p>
+average pooling layer is modified so that a heat map can be extracted focusing
+on what the CNN is focusing on prior to labeling the image.&lt;/p>
 &lt;p>Previous work involved the usage of weakly supervised CNNs, but relied on global
 max pooling. Additional work utilized deconvolutional layers to perform a
 similar task.&lt;/p>
@@ -582,7 +582,7 @@ headings, and conclusion&lt;/p>
 vector machine&lt;/em> collection of essays in the July/ August edition of the 1998
 IEEE Intelligent Systems magazine) [1] discusses how to implement a Support
 Vector Machine (SVM). This essay goes into great detail on implementation
-strategies for handling larger datasets, as well as methods for training SVMs.
+strategies for handling larger data sets, as well as methods for training SVMs.
 Topics include understanding the Quadratic Problem (what SVMs aim to solve),
 sequential minimal optimization (reaching a global minimal value), and where to
 find SVM implementations.&lt;/p>
@@ -602,7 +602,7 @@ related to this essay.&lt;/p>
 &lt;p>What are the author&amp;rsquo;s main contributions?&lt;/p>
 &lt;/blockquote>
 &lt;p>Their main contributions are an understanding of how SVMs work as well as how to
-implement them efficently.&lt;/p>
+implement them efficiently.&lt;/p>
 &lt;hr>
 &lt;h2 id="second-pass">Second Pass&lt;/h2>
 &lt;h3 id="background-work">Background Work&lt;/h3>
@@ -628,11 +628,11 @@ representing.&lt;/p>
 &lt;blockquote>
 &lt;p>Is the paper well written?&lt;/p>
 &lt;/blockquote>
-&lt;p>For the most part, yes. However, the essay expects the reader to be knowledgable
-about SVMs prior to reading the essay. This is shown mostly through the usage of
-mathematical notation specific to the problem domain, and linking to other work
-to explain it. While this is a short essay for a magazine, a brief sentence or
-two about the notation would have been appreciated.&lt;/p>
+&lt;p>For the most part, yes. However, the essay expects the reader to be
+knowledgeable about SVMs prior to reading the essay. This is shown mostly
+through the usage of mathematical notation specific to the problem domain, and
+linking to other work to explain it. While this is a short essay for a magazine,
+a brief sentence or two about the notation would have been appreciated.&lt;/p>
 &lt;h3 id="relevant-work">Relevant Work&lt;/h3>
 &lt;blockquote>
 &lt;p>Mark relevant work for review&lt;/p>
@@ -647,7 +647,7 @@ of this article.&lt;/p>
 &lt;p>What assumptions does the author(s) make? Are they justified assumptions?&lt;/p>
 &lt;/blockquote>
 &lt;p>The author assumes that the reader, should they implement their own SVM
-algorithm, will be using a commericial numerical analysis package.&lt;/p>
+algorithm, will be using a commercial numerical analysis package.&lt;/p>
 &lt;h4 id="correctness">Correctness&lt;/h4>
 &lt;blockquote>
 &lt;p>Do the assumptions seem valid?&lt;/p>
@@ -674,21 +674,21 @@ vector machine&lt;/em> collection of essays in the July/ August edition of the 1
 IEEE Intelligent Systems magazine) [1] discusses how to implement a Support
 Vector Machine (SVM). The author goes into detail about what an SVM is trying to
 accomplish (minimize a quadratic problem on a high dimensional matrix), what
-techniques exist to solve this problem, as well as availible programs to allow
+techniques exist to solve this problem, as well as available programs to allow
 for researchers to utilize SVMs in their work.&lt;/p>
 &lt;p>Overall, the essay does a good job of explaining the problem space as well as
 implementation details, however, the essay is very much a product of its time.
 There is less of a need to develop new SVM algorithms as there are many that are
 provided off of the shelf in free and open source numerical analysis packages
 [3] [4]. Additionally, the suggestion that readers should purchase a
-numerical analysis package to create thier own SVM is dated in my opinion, as
-again, there are many free options availible [5].&lt;/p>
+numerical analysis package to create their own SVM is dated in my opinion, as
+again, there are many free options available [5].&lt;/p>
 &lt;hr>
 &lt;h2 id="summarization-technique">Summarization Technique&lt;/h2>
 &lt;p>This paper was summarized using a modified technique proposed by S. Keshav in
 his work &lt;em>How to Read a Paper&lt;/em> [0].&lt;/p>
 &lt;h2 id="citations">Citations&lt;/h2>
-Citations availible at https://nsynovic.dev/summaries/how-to-implement-svms/</description></item><item><title>A summary of Applying SVMS to Face Detection by Edgar Osuna</title><link>https://nsynovic.dev/summaries/applying-svms-to-face-detection/</link><pubDate>Mon, 24 Oct 2022 09:20:40 -0500</pubDate><guid>https://nsynovic.dev/summaries/applying-svms-to-face-detection/</guid><description>&lt;h1 id="a-summary-of-applying-svms-to-face-detection">A summary of &lt;em>Applying SVMs to Face Detection&lt;/em>&lt;/h1>
+Citations availible at https://nsynovic.dev/summaries/how-to-implement-svms/</description></item><item><title>A summary of Applying SVMs to Face Detection by Edgar Osuna</title><link>https://nsynovic.dev/summaries/applying-svms-to-face-detection/</link><pubDate>Mon, 24 Oct 2022 09:20:40 -0500</pubDate><guid>https://nsynovic.dev/summaries/applying-svms-to-face-detection/</guid><description>&lt;h1 id="a-summary-of-applying-svms-to-face-detection">A summary of &lt;em>Applying SVMs to Face Detection&lt;/em>&lt;/h1>
 &lt;blockquote>
 &lt;p>Edgar Isuna; &lt;a href="https://doi.ieeecomputersociety.org/10.1109/5254.708428">DOI&lt;/a>&lt;/p>
 &lt;/blockquote>
@@ -733,7 +733,7 @@ article.&lt;/p>
 &lt;p>Discussion about the title, abstract, introduction, section and sub-section
 headings, and conclusion&lt;/p>
 &lt;/blockquote>
-&lt;p>The essay &lt;em>Applying SVMS to Face Detection&lt;/em> by Edgar Osuna (as part of the
+&lt;p>The essay &lt;em>Applying SVMs to Face Detection&lt;/em> by Edgar Osuna (as part of the
 larger &lt;em>Support vector machine&lt;/em> collection of essays in the July/ August edition
 of the 1998 IEEE Intelligent Systems magazine) [1] describes the usage of
 Support Vector Machines (SVMs) to identify faces in static images and real time
@@ -797,7 +797,7 @@ more than one sentence. I find it to be more appropriate for papers to utilize
 bullet points for short, unordered lists. Most appropriately used when listing
 off different techniques or definitions, which this essay does utilize. Aside
 from that, the individual steps are written well and clearly, and seem to be
-fairly reproducable.&lt;/p>
+fairly reproducible.&lt;/p>
 &lt;h3 id="relevant-work">Relevant Work&lt;/h3>
 &lt;blockquote>
 &lt;p>Mark relevant work for review&lt;/p>
@@ -810,7 +810,7 @@ of this article.&lt;/p>
 &lt;li>Human face detection in a complex background [4]&lt;/li>
 &lt;li>Probabilistic visual learning for object detection [5]&lt;/li>
 &lt;li>Determination of face position and pose with a learned representation based on
-labelled graphs [6]&lt;/li>
+labeled graphs [6]&lt;/li>
 &lt;li>Learning and Example Selection for Object and Pattern Detection [7]&lt;/li>
 &lt;li>Example-based learning for view-based human face detection [8]&lt;/li>
 &lt;/ul>
@@ -826,15 +826,15 @@ if their system is capable enough to orient faces properly.&lt;/p>
 &lt;blockquote>
 &lt;p>Do the assumptions seem valid?&lt;/p>
 &lt;/blockquote>
-&lt;p>Without understanding the availiblity of datasets at the time, this seems like a
-valid assumption to make. However, simple data augmentation (such as rotating
+&lt;p>Without understanding the availability of data sets at the time, this seems like
+a valid assumption to make. However, simple data augmentation (such as rotating
 the image) could&amp;rsquo;ve been done to increase the number of training examples of
 faces not in the vertical orientation.&lt;/p>
 &lt;h3 id="future-directions">Future Directions&lt;/h3>
 &lt;blockquote>
 &lt;p>My own proposed future directions for the work&lt;/p>
 &lt;/blockquote>
-&lt;p>A reimplementation of their work, both on static images and real time image
+&lt;p>A re-implementation of their work, both on static images and real time image
 capture, would be interesting to perform on devices such as cameras, Raspberry
 Pis, or other low powered systems. Additionally, comparing the power draw
 between an SVM based solution and one that is powered by DL would be interesting
@@ -851,11 +851,11 @@ Support Vector Machines (SVMs) to identify faces in static images and real time
 systems. The author goes into detail about existing systems that were powered by
 non-SVM techniques, as well as presenting their own system (for both static
 image and real time image capture) for face detection.&lt;/p>
-&lt;p>Their satic image system only works on gray scale images of vertically aligned
-faces. Additionally, they used a small dataset to train the SVM. In doing so,
+&lt;p>Their static image system only works on gray scale images of vertically aligned
+faces. Additionally, they used a small data set to train the SVM. In doing so,
 they limit the usage of the static image system to that specific domain, as well
 as potentially creating a system that is unable to detect a face in all
-potential cases (such as different ethnicities, lighting conditions, face
+potential cases (such as different ethnicity, lighting conditions, face
 orientations, etc.).&lt;/p>
 &lt;p>Their real time image capture system works on full color images of vertically
 aligned faces by using a combination of a skin detector and a &amp;ldquo;primitive&amp;rdquo; motion
@@ -919,7 +919,7 @@ algorithm so long as it isn&amp;rsquo;t run by a human) is beneficial for this t
 &lt;blockquote>
 &lt;p>What type of paper is this work?&lt;/p>
 &lt;/blockquote>
-&lt;p>This essay is more arguementative and position oriented.&lt;/p>
+&lt;p>This essay is more argumentative and position oriented.&lt;/p>
 &lt;h3 id="context">Context&lt;/h3>
 &lt;blockquote>
 &lt;p>What other &lt;em>types&lt;/em> of papers is the work related to?&lt;/p>
@@ -937,7 +937,7 @@ evaluated the usefulness of SVMs with respect to human tasks.&lt;/p>
 &lt;blockquote>
 &lt;p>What has been done prior to this paper?&lt;/p>
 &lt;/blockquote>
-&lt;p>Work has been done to understand what SVMs are, as well as usecases for SVMs.&lt;/p>
+&lt;p>Work has been done to understand what SVMs are, as well as use cases for SVMs.&lt;/p>
 &lt;h3 id="motivation">Motivation&lt;/h3>
 &lt;blockquote>
 &lt;p>Why should we care about this paper?&lt;/p>
@@ -970,7 +970,7 @@ of this article.&lt;/p>
 &lt;blockquote>
 &lt;p>My own proposed future directions for the work&lt;/p>
 &lt;/blockquote>
-&lt;p>I would like to reimplement their study using the five different learning
+&lt;p>I would like to implement their study using the five different learning
 algorithms they utilized to validate their results. The algorithms in question
 are: Findsim, Naive Bayes, BayesNets, Trees, and LinearSVM.&lt;/p>
 &lt;hr>
@@ -1036,11 +1036,11 @@ headings, and conclusion&lt;/p>
 Scholkopf (as part of the larger &lt;em>Support vector machine&lt;/em> collection of essays
 in the July/ August edition of the 1998 IEEE Intelligent Systems magazine) [1]
 discusses the underlying theory that powers Support Vector Machine (SVM)
-algorithms and argues that these algortihms are useful and performant. His essay
+algorithms and argues that these algorithms are useful and performant. His essay
 contains sections on &lt;em>Learning pattern recognition from examples&lt;/em>,
 &lt;em>Hyperplanes&lt;/em>, &lt;em>Feature spaces and kernels&lt;/em>, &lt;em>SVMs&lt;/em>, and &lt;em>Current developments
-and open issues&lt;/em> which indicates an essay that will wholistically look at SVMs,
-rather than a particualr facet of them.&lt;/p>
+and open issues&lt;/em> which indicates an essay that will holistically look at SVMs,
+rather than a particular facet of them.&lt;/p>
 &lt;h3 id="category">Category&lt;/h3>
 &lt;blockquote>
 &lt;p>What type of paper is this work?&lt;/p>
@@ -1065,7 +1065,7 @@ SVMs are practical.&lt;/p>
 &lt;blockquote>
 &lt;p>What has been done prior to this paper?&lt;/p>
 &lt;/blockquote>
-&lt;p>Work has been done to develop and implement the SVM alogirthm.&lt;/p>
+&lt;p>Work has been done to develop and implement the SVM algorithm.&lt;/p>
 &lt;h3 id="motivation">Motivation&lt;/h3>
 &lt;blockquote>
 &lt;p>Why should we care about this paper?&lt;/p>
@@ -1079,7 +1079,7 @@ conclusions are statistically significant?&lt;/p>
 &lt;/blockquote>
 &lt;p>The paper doesn&amp;rsquo;t provide and graphs or charts. However, the figures and
 diagrams that are presented are clearly explained in the descriptions, are well
-made, and are easy to comprehand.&lt;/p>
+made, and are easy to comprehend.&lt;/p>
 &lt;h3 id="clarity">Clarity&lt;/h3>
 &lt;blockquote>
 &lt;p>Is the paper well written?&lt;/p>
@@ -1103,7 +1103,7 @@ of this article.&lt;/p>
 &lt;/blockquote>
 &lt;p>I&amp;rsquo;d like to explore the usage of SVMs for face or object detection and compare
 it against the usage of DL techniques on both traditional and low-powered
-centric metrics.&lt;/p>
+metrics.&lt;/p>
 &lt;hr>
 &lt;h2 id="summary">Summary&lt;/h2>
 &lt;blockquote>
@@ -1115,10 +1115,10 @@ in the July/ August edition of the 1998 IEEE Intelligent Systems magazine) [1]
 discuss both the mathematical theory and current practice of using SVMs. SVMs
 are useful in a research aspect as their functionality can be mathematically
 explained. SVMs are a linear classifier that operate in multi-dimensional space
-through the usage of a hyper plane. Hyper planes are choosen by finding support
+through the usage of a hyper plane. Hyper planes are chosen by finding support
 vectors, which are instances of a class that are closest to one another. The
-hyper plane then splits these two instances into two seperable sides. To assist
-in this calculation, a kernel algorthm is applied to map one dimensionality
+hyper plane then splits these two instances into two separable sides. To assist
+in this calculation, a kernel algorithm is applied to map one multi-dimensional
 space to another for easier computation.&lt;/p>
 &lt;p>Overall, this paper provides a good understanding of the theory behind SVMs. It
 also alludes to additional usages of SVMs and their current problems, but it is
@@ -1172,13 +1172,13 @@ headings, and conclusion&lt;/p>
 &lt;/blockquote>
 &lt;p>The paper &lt;em>Runnemede: An Architecture for Ubiquitous High-Performance Computing&lt;/em>
 by Nicholas P. Carter et al. [1] describes the Runnemede high performance
-computing architecture targeting extrene-scale systems. This architecture was
+computing architecture targeting extreme-scale systems. This architecture was
 developed for the DARPA&amp;rsquo;s Ubiquitous High-Performance Computing program. The
 authors describe multiple facets of the architecture including the networking,
-hardware and software design, the energy effeciencies of the architecture. They
-also evaluate the performance of the architecture as well. Their mainy
+hardware and software design, the energy efficiencies of the architecture. They
+also evaluate the performance of the architecture as well. Their many
 contributions are a theoretical architecture that is well optimized for energy
-effiecieny on extra-scale computers.&lt;/p>
+efficiency on extra-scale computers.&lt;/p>
 &lt;h3 id="category">Category&lt;/h3>
 &lt;blockquote>
 &lt;p>What type of paper is this work?&lt;/p>
@@ -1195,7 +1195,7 @@ computing architectures as well.&lt;/p>
 &lt;p>What are the author&amp;rsquo;s main contributions?&lt;/p>
 &lt;/blockquote>
 &lt;p>Their contributions are a theoretical design and analysis of a HPC architecture
-focused on energy effieciency.&lt;/p>
+focused on energy efficiency.&lt;/p>
 &lt;hr>
 &lt;h2 id="second-pass">Second Pass&lt;/h2>
 &lt;h3 id="background-work">Background Work&lt;/h3>
@@ -1241,11 +1241,11 @@ of this article.&lt;/p>
 &lt;/blockquote>
 &lt;p>The author&amp;rsquo;s assumed that, &amp;ldquo;&amp;hellip; The power consumed by logic is expected to scale
 well as feature sizes shrink, but not as well as transistor density, leading to
-the design of &lt;em>overprovisioned, energy-limited&lt;/em> systems that contain more
-hardware than they can operate simultanously&amp;rdquo;. In other words, systems will have
-more and more &lt;em>power hungry&lt;/em> hardware that cannot be utilized in its entirety.
-Additionally, they assume that the current trend with DRAM will cause power
-consumption to decrement over time, but not fast enough.&lt;/p>
+the design of &lt;em>over provisioned, energy-limited&lt;/em> systems that contain more
+hardware than they can operate simultaneously&amp;rdquo;. In other words, systems will
+have more and more &lt;em>power hungry&lt;/em> hardware that cannot be utilized in its
+entirety. Additionally, they assume that the current trend with DRAM will cause
+power consumption to decrement over time, but not fast enough.&lt;/p>
 &lt;h4 id="correctness">Correctness&lt;/h4>
 &lt;blockquote>
 &lt;p>Do the assumptions seem valid?&lt;/p>
@@ -1261,13 +1261,13 @@ DRAM. Therefore, I agree with the assumptions of the authors.&lt;/p>
 &lt;/blockquote>
 &lt;p>The paper &lt;em>Runnemede: An Architecture for Ubiquitous High-Performance Computing&lt;/em>
 by Nicholas P. Carter et al. [1] describes the Runnemede high performance
-computing architecture targeting extrene-scale systems. This architecture was
+computing architecture targeting extreme-scale systems. This architecture was
 developed for the DARPA&amp;rsquo;s Ubiquitous High-Performance Computing program to
-address overprovisioned, energy limited HPC architecture designs. The authors
-proposed a theoretical architecture design, and justify it via benchmarking that
-they performed with simulations. Their work assumes (correctly in my opinion)
-that systems will continue to require more power to operate in order to achieve
-better performance.&lt;/p>
+address over provisioned, energy limited HPC architecture designs. The authors
+proposed a theoretical architecture design, and justify it via bench marking
+that they performed with simulations. Their work assumes (correctly in my
+opinion) that systems will continue to require more power to operate in order to
+achieve better performance.&lt;/p>
 &lt;hr>
 &lt;h2 id="summarization-technique">Summarization Technique&lt;/h2>
 &lt;p>This paper was summarized using a modified technique proposed by S. Keshav in
@@ -1321,10 +1321,10 @@ headings, and conclusion&lt;/p>
 Krizhevsky et al. discusses the AlexNet model and its architecture as well as
 its SOTA achievements in the 2012 ImageNet Challenge. The difference between
 AlexNet and other contestants was that the model relies on GPU training to train
-the convulational neural network model. By utilizing the GPU, training time can
-be accelerated significatnly more than what was previously possible. Their major
-contributions is that a large, deep convulational neural network is capable of
-achieving record-breaking resuls via supervised learning. They did not utilize
+the convolutional neural network model. By utilizing the GPU, training time can
+be accelerated significantly more than what was previously possible. Their major
+contributions is that a large, deep convolutional neural network is capable of
+achieving record-breaking results via supervised learning. They did not utilize
 unsupervised pre-training, but the authors suspect that it would improve the
 accuracy of the model.&lt;/p>
 &lt;h3 id="category">Category&lt;/h3>
@@ -1343,8 +1343,8 @@ ImageNet Challenge.&lt;/p>
 &lt;p>What are the author&amp;rsquo;s main contributions?&lt;/p>
 &lt;/blockquote>
 &lt;p>Their main contributions were that training on GPUs allows for accelerated
-training, that large and deep convulutional neural networks are effective at
-clasifying images, and that removing layers does decrease the performance of
+training, that large and deep convolutional neural networks are effective at
+classifying images, and that removing layers does decrease the performance of
 models. Therefore, a larger, deeper model is applicable. It should be noted that
 AlexNet was the largest model ever at the time of publication.&lt;/p>
 &lt;hr>
@@ -1353,14 +1353,14 @@ AlexNet was the largest model ever at the time of publication.&lt;/p>
 &lt;blockquote>
 &lt;p>What has been done prior to this paper?&lt;/p>
 &lt;/blockquote>
-&lt;p>Previous work on designing convulational neural networks and architectures.
+&lt;p>Previous work on designing convolutional neural networks and architectures.
 However, they were bounded by not being particularly deep.&lt;/p>
 &lt;h3 id="motivation">Motivation&lt;/h3>
 &lt;blockquote>
 &lt;p>Why should we care about this paper?&lt;/p>
 &lt;/blockquote>
 &lt;p>Because it is one of the key papers that demonstrates that large, deep,
-convulational neural networks are effective for image classification. As well as
+convolutional neural networks are effective for image classification. As well as
 providing evidence that training on GPUs is not only effective but recommended
 for optimal performance. Additionally it provides empirical evidence that
 removing a layer from a convolutional neural network is detrimental to the
@@ -1374,7 +1374,7 @@ conclusions are statistically significant?&lt;/p>
 &lt;p>Nearly all of the figures are designed well, with the exception of Figure 2.
 Figure 2 is the model architecture of AlexNet. This figure suffers from
 information density and a three dimensional design which makes it hard to
-determin what is going on and in what dimension are images being manipulated.&lt;/p>
+determine what is going on and in what dimension are images being manipulated.&lt;/p>
 &lt;h3 id="clarity">Clarity&lt;/h3>
 &lt;blockquote>
 &lt;p>Is the paper well written?&lt;/p>
@@ -1389,14 +1389,14 @@ of this article.&lt;/p>
 &lt;blockquote>
 &lt;p>What assumptions does the author(s) make? Are they justified assumptions?&lt;/p>
 &lt;/blockquote>
-&lt;p>They assume that it is because of the larger compute devices and datasets that
+&lt;p>They assume that it is because of the larger compute devices and data sets that
 make these deep convolutional neural networks possible.&lt;/p>
 &lt;h4 id="correctness">Correctness&lt;/h4>
 &lt;blockquote>
 &lt;p>Do the assumptions seem valid?&lt;/p>
 &lt;/blockquote>
-&lt;p>While true, &lt;a href="going-deeper-with-convolutions.md">Szegedy et al.&lt;/a> designed thier
-own architecture using unique algorithms not prevelant in existing convolutional
+&lt;p>While true, &lt;a href="going-deeper-with-convolutions.md">Szegedy et al.&lt;/a> designed their
+own architecture using unique algorithms not prevalent in existing convolutional
 neural networks.&lt;/p>
 &lt;h3 id="discussion-of-the-proofs">Discussion of the Proofs&lt;/h3>
 &lt;p>Their training involved both dropout and data augmentation.&lt;/p>
@@ -1405,14 +1405,14 @@ neural networks.&lt;/p>
 &lt;p>Data augmentation involves manipulating the input images such that 5 244 x 244
 images are derived from one 256 x 256 image (e.g. the four corners and one
 centered). Additionally, PCA was done on the RGB channels of all of the images
-in the ImageNet 2010 and 2012 datasets. These eigenvectors were then added to
+in the ImageNet 2010 and 2012 data sets. These eigenvectors were then added to
 each of the images respective color channels.&lt;/p>
 &lt;h3 id="future-directions">Future Directions&lt;/h3>
 &lt;blockquote>
 &lt;p>My own proposed future directions for the work&lt;/p>
 &lt;/blockquote>
-&lt;p>A reimplemenation of the work would be interesting, with particular respect to
-benchmarking training time, as the authors were limited by their GPU compute
+&lt;p>A reimplementation of the work would be interesting, with particular respect to
+bench marking training time, as the authors were limited by their GPU compute
 units&amp;rsquo; performance.&lt;/p>
 &lt;hr>
 &lt;h2 id="summary">Summary&lt;/h2>
@@ -1424,16 +1424,16 @@ units&amp;rsquo; performance.&lt;/p>
 Krizhevsky et al. [1] discusses the AlexNet model and its architecture as well
 as its SOTA achievements in the 2012 ImageNet Challenge. The difference between
 AlexNet and other contestants was that the model relies on GPU training to train
-the convulational neural network model as well as being a deep convolutional
+the convolutional neural network model as well as being a deep convolutional
 neural network.&lt;/p>
-&lt;p>By utilizing the GPU, training time can be accelerated significatnly more than
+&lt;p>By utilizing the GPU, training time can be accelerated significantly more than
 what was previously possible. The benefits of being a deep convolutional neural
 network is that the classification of images builds off of the features found in
 the previous images. The result of this is that their top 1% and top 5% error
 were the lowest ever in the competition.&lt;/p>
 &lt;p>They trained their model by utilizing both dropout, where neurons that activated
 with a value less than 0.5 are not inputted into the next layer, and by
-augmenting the Imagenet 2010 and 2012 datasets to increase the amount of data
+augmenting the Imagenet 2010 and 2012 data sets to increase the amount of data
 that they can throw at the model.&lt;/p>
 &lt;p>Their work is important as it kicked off the usage of both deep convolutional
 neural networks and the usage of GPUs to reduce training time.&lt;/p>
@@ -1487,7 +1487,7 @@ headings, and conclusion&lt;/p>
 &lt;/blockquote>
 &lt;p>The paper &lt;em>Very Deep Convolutional Networks for Large Scale Image Recognition&lt;/em>
 by Karen Simonyan and Andrew Zissernman discusses the SOTA performance of their
-model in the 2014 ImageNet Challenge on localisation and classification tasks.
+model in the 2014 ImageNet Challenge on localization and classification tasks.
 They discuss that be extending the depth of convolutional neural networks to 16
 up to 19 layers, with a 3x3 filter size, SOTA performance is possible without
 redeveloping the architecture of existing convolutional neural networks. This is
@@ -1512,7 +1512,7 @@ performance on CV architecture and models.&lt;/p>
 &lt;blockquote>
 &lt;p>What are the author&amp;rsquo;s main contributions?&lt;/p>
 &lt;/blockquote>
-&lt;p>Their main contributions is an exploration of depth in traditional convulational
+&lt;p>Their main contributions is an exploration of depth in traditional convolutional
 neural networks to achieve SOTA performance.&lt;/p>
 &lt;hr>
 &lt;h2 id="second-pass">Second Pass&lt;/h2>
@@ -1520,19 +1520,19 @@ neural networks to achieve SOTA performance.&lt;/p>
 &lt;blockquote>
 &lt;p>What has been done prior to this paper?&lt;/p>
 &lt;/blockquote>
-&lt;p>Prior work has gone into optimizing the width and intial convulations of
-convultional neural networks.&lt;/p>
+&lt;p>Prior work has gone into optimizing the width and initial convolutions of
+convolutional neural networks.&lt;/p>
 &lt;p>&lt;a href="going-deeper-with-convolutions.md">Szegedy et al.&lt;/a> proposed a new architecture
 (Inception) that achieved SOTA performance in the 2014 ImageNet Challenge. Else,
-Krizhevsky et al. [2] and others have proposed improvments to the
-convulational neural network architecture.&lt;/p>
+Krizhevsky et al. [2] and others have proposed improvements to the
+convolutional neural network architecture.&lt;/p>
 &lt;h3 id="motivation">Motivation&lt;/h3>
 &lt;blockquote>
 &lt;p>Why should we care about this paper?&lt;/p>
 &lt;/blockquote>
 &lt;p>We should care about the authors work as increasing the depth of a neural
 network by their proposed architecture allows for easy expansion of existing
-convulational neural networks without redesigning the libraries used to create
+convolutional neural networks without redesigning the libraries used to create
 them.&lt;/p>
 &lt;h3 id="figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/h3>
 &lt;blockquote>
@@ -1556,7 +1556,7 @@ configurations.&lt;/p>
 &lt;p>The following relevant work can be found in the &lt;a href="#citations">Citations&lt;/a> section
 of this article.&lt;/p>
 &lt;ul>
-&lt;li>Classical convultional neural network architecture - [3]&lt;/li>
+&lt;li>Classical convolutional neural network architecture - [3]&lt;/li>
 &lt;li>GoogLeNet - [2]&lt;/li>
 &lt;li>Clarifai&lt;/li>
 &lt;li>ImageNet classification with deep convolutional neural net- works [4]&lt;/li>
@@ -1568,8 +1568,8 @@ Convolutional Networks&lt;/li>
 &lt;blockquote>
 &lt;p>What assumptions does the author(s) make? Are they justified assumptions?&lt;/p>
 &lt;/blockquote>
-&lt;p>The authors assume that the performance improvements that convulational neural
-networks are achieving are based off of larger datasets and better compute
+&lt;p>The authors assume that the performance improvements that convolutional neural
+networks are achieving are based off of larger data sets and better compute
 optimization.&lt;/p>
 &lt;h4 id="correctness">Correctness&lt;/h4>
 &lt;blockquote>
@@ -1581,7 +1581,7 @@ new architecture, rather than improving upon an existing one.&lt;/p>
 &lt;blockquote>
 &lt;p>My own proposed future directions for the work&lt;/p>
 &lt;/blockquote>
-&lt;p>I would love to try and optimize the input layer of convulational neural
+&lt;p>I would love to try and optimize the input layer of convolutional neural
 networks by having a computation that not only looks at the color space, but
 also the opacity of an image. This would allow for images to have their
 background removed for the purposes of classification by making the background
@@ -1593,18 +1593,18 @@ less opaque than the foreground.&lt;/p>
 &lt;/blockquote>
 &lt;p>The paper &lt;em>Very Deep Convolutional Networks for Large Scale Image Recognition&lt;/em>
 by Karen Simonyan and Andrew Zissernman discusses the SOTA performance of their
-model in the 2014 ImageNet Challenge on localisation and classification tasks.
+model in the 2014 ImageNet Challenge on localization and classification tasks.
 They discuss that be extending the depth of convolutional neural networks to 16
 up to 19 layers, with a 3x3 filter size, SOTA performance is possible without
 redeveloping the architecture of existing convolutional neural networks. Their
-work builds of previous efforts of improving convulational neural network
-performance by optimizing the filter size and intial layer, but contrasts
+work builds of previous efforts of improving convolutional neural network
+performance by optimizing the filter size and initial layer, but contrasts
 contemporaries [2] by not developing a new architecture. Their work has
-importance as it shows that the existing convulational neural network
+importance as it shows that the existing convolutional neural network
 architecture is capable of SOTA performance by increasing the depth of the
 model. They justify this by trying six different model configurations, and
 finding that models with 16 to 19 layers performed best on the 2014 ImageNet
-Challenge classification and localisation challenges.&lt;/p>
+Challenge classification and localization challenges.&lt;/p>
 &lt;hr>
 &lt;h2 id="summarization-technique">Summarization Technique&lt;/h2>
 &lt;p>This paper was summarized using a modified technique proposed by S. Keshav in
@@ -1656,16 +1656,16 @@ headings, and conclusion&lt;/p>
 &lt;/blockquote>
 &lt;p>The paper &lt;em>Going deeper with convolutions&lt;/em> by Christian Szegedy et al. [1]
 describes a 2014 state of the art computer vision model (on the ImageNet
-Large-Scale Visual Recognition Challenge) called GoogLeNet architected based on
-Hebbian principles (i.e. neruons that fire together, are wired together)and a
+Large-Scale Visual Recognition Challenge) called GoogLeNet architect ed based on
+Hebbian principles (i.e. neurons that fire together, are wired together)and a
 constant computational budget. Their approach relies on creative algorithms and
-neuroscience principles and aims to be a more power effiecient model for mobile
-devices by limiting the computations during infrencing. Additionally, their
-model is deep but not wide and is considered &amp;ldquo;sparse&amp;rdquo; by the authors. In other
-words, there are as few nodes as possible within the neural network.&lt;/p>
+neuroscience principles and aims to be a more power efficient model for mobile
+devices by limiting the computations during inference. Additionally, their model
+is deep but not wide and is considered &amp;ldquo;sparse&amp;rdquo; by the authors. In other words,
+there are as few nodes as possible within the neural network.&lt;/p>
 &lt;p>Szegedy et al.&amp;rsquo;s contributions are a state of the art computer vision model that
 provides experimental evidence that, &amp;ldquo;&amp;hellip; Approximating the expected optimal
-sparse structure by readily avilible dense building blocks is a viable method
+sparse structure by readily available dense building blocks is a viable method
 for improving neural networks for computer vision&amp;rdquo;. This means that this model
 proves that dense neural networks for computer vision are not necessary in the
 author&amp;rsquo;s viewpoint.&lt;/p>
@@ -1674,7 +1674,7 @@ author&amp;rsquo;s viewpoint.&lt;/p>
 &lt;p>What type of paper is this work?&lt;/p>
 &lt;/blockquote>
 &lt;p>This is a computer vision paper describing both a machine learning architecture
-and refernce model.&lt;/p>
+and reference model.&lt;/p>
 &lt;h3 id="context">Context&lt;/h3>
 &lt;blockquote>
 &lt;p>What other &lt;em>types&lt;/em> of papers is the work related to?&lt;/p>
@@ -1703,7 +1703,7 @@ conclusions are statistically significant?&lt;/p>
 &lt;/blockquote>
 &lt;p>All of the tables have proper column labels. However, Table 1 does not provide
 default values for blank cells. This is most likely due to the layer type not
-performaing a specific operation (as described in the column label). Regardless,
+performing a specific operation (as described in the column label). Regardless,
 the remaining tables look good.&lt;/p>
 &lt;p>Additionally, Figure 3 is very clear to read, if a little dense. However, as it
 describes all of the layers of GoogLeNet and how they are connected, I find the
@@ -1749,25 +1749,25 @@ of this article.&lt;/p>
 &lt;blockquote>
 &lt;p>What assumptions does the author(s) make? Are they justified assumptions?&lt;/p>
 &lt;/blockquote>
-&lt;p>One assumption that the authors make is that overfitting is more prone to occur
-in large models. Additionally, overfitting can occur when there is not enough
-labeled examples in a dataset when a large model is training. Furthermore,
+&lt;p>One assumption that the authors make is that over fitting is more prone to occur
+in large models. Additionally, over fitting can occur when there is not enough
+labeled examples in a data set when a large model is training. Furthermore,
 increasing the size of a model increases the number of computations that must be
-done between layers (e.g. chaining two convulational layers results in
-computation cost quadratically increasing) Their solutions relies on moving from
-fully connected to sparsely connected architectures including within
-convolutional layers. Also, their model architecutre is based on the idea that
-computers are inefficent when, &amp;ldquo;&amp;hellip; Computing numerical calculations on
+done between layers (e.g. chaining two convolutional layers results in
+computation cost quadratic ally increasing) Their solutions relies on moving
+from fully connected to sparsely connected architectures including within
+convolutional layers. Also, their model architecture is based on the idea that
+computers are inefficient when, &amp;ldquo;&amp;hellip; Computing numerical calculations on
 non-uniform sparse data structures&amp;rdquo;.&lt;/p>
 &lt;p>They assume that 1x1, 3x3, and 5x5 filters are the proper filters to use, but
 did not test other size of filters. They also assume that using, &amp;ldquo;Inception
 modules&amp;rdquo; is only useful at higher levels, whereas the initial levels are
-standard convultational levels. However, this was not tested either and was due
-to, &amp;ldquo;infrastructural inefficiences&amp;rdquo; in the implementation.&lt;/p>
+standard convolutional levels. However, this was not tested either and was due
+to, &amp;ldquo;infrastructural inefficiencies&amp;rdquo; in the implementation.&lt;/p>
 &lt;p>Finally, that the model that achieved state of the art performance was the best
 model. The authors had been training and testing other models for months prior,
 however, it is unclear what the testing methodology was and why a particular
-model was choosen to compete in the ImageNet competition.&lt;/p>
+model was chosen to compete in the ImageNet competition.&lt;/p>
 &lt;h4 id="correctness">Correctness&lt;/h4>
 &lt;blockquote>
 &lt;p>Do the assumptions seem valid?&lt;/p>
@@ -1782,13 +1782,13 @@ testing wasn&amp;rsquo;t performed.&lt;/p>
 &lt;blockquote>
 &lt;p>My own proposed future directions for the work&lt;/p>
 &lt;/blockquote>
-&lt;p>Based off of Section 3 (Motiviation and High Level Considerations), one
-promising area of study would be to perform a network architecture search
-utilizing the principles and reasoning of their approach to other machine
-learning and computer vision domains.&lt;/p>
+&lt;p>Based off of Section 3 (Motivation and High Level Considerations), one promising
+area of study would be to perform a network architecture search utilizing the
+principles and reasoning of their approach to other machine learning and
+computer vision domains.&lt;/p>
 &lt;p>An enhancement to their work is possible by analyzing what filter sizes most
 optimal improve performance. Currently the author&amp;rsquo;s are restricting GoogLeNet to
-1x1, 3x3, and 5x5 filter sizes, but this was due to convience and no data was
+1x1, 3x3, and 5x5 filter sizes, but this was due to convenience and no data was
 given to support this.&lt;/p>
 &lt;hr>
 &lt;h2 id="summary">Summary&lt;/h2>
@@ -1798,11 +1798,11 @@ given to support this.&lt;/p>
 &lt;p>The paper &lt;em>Going deeper with convolutions&lt;/em> by Szegedy et al. [1] introduces a
 computer vision model architecture called Inception and a reference model called
 GoogLeNet.&lt;/p>
-&lt;p>Inception is a model architecuture that is both sparse and (attempts to be)
-computationally efficent during inferencing with only 1.5 billion multiply-add
+&lt;p>Inception is a model architecture that is both sparse and (attempts to be)
+computationally efficient during inferencing with only 1.5 billion multiply-add
 operations allowed. Inception models are composed of multiple Inception modules
 that are stacked on top of each other. Each Inception module takes in data from
-the previous layer and passes it into small convultional filters (i.e. 1x1
+the previous layer and passes it into small convolutional filters (i.e. 1x1
 typically). There are three of these small filters that are wired to the input
 of the Inception module, with one of them connected directly to the output. The
 outputs of two of these filters are then passed into larger filters (i.e. 5x5)
@@ -1816,16 +1816,16 @@ green, blue), an image would have a depth of 3.&lt;/p>
 &lt;p>&lt;em>Example:&lt;/em> A 200 pixel by 200 pixel full color spectrum image would be
 represented as 200x200x3.&lt;/p>
 &lt;p>It is possible for Inception modules to have an additional connection to the
-input of the module to perform average pooling for softmax activation.&lt;/p>
+input of the module to perform average pooling for Softmax activation.&lt;/p>
 &lt;p>GoogLeNet achieved SOTA performance in the ImageNet Large-Scale Visual
 Recognition Challenge image classification task by having a top-5 error of 6.67%
-on both the validation and testing data. This is an improvment of 56.5% in
+on both the validation and testing data. This is an improvement of 56.5% in
 comparison to 2012&amp;rsquo;s SOTA performer (SuperVision) and 2013&amp;rsquo;s SOTA performer
-(Clarifai). Additionally, they achieved SOTA perfomance for the ImageNet
+(Clarifai). Additionally, they achieved SOTA performance for the ImageNet
 Large-Scale Visual Recognition Challenge detection task with a mean average
 precision of 43.9% utilizing an ensemble inference approach. This model was
 architected using the Inception architecture with 22 layers. However, not every
-layer was an Inception module; the first few layers were standard convulational
+layer was an Inception module; the first few layers were standard convolutional
 layers.&lt;/p>
 &lt;p>The author&amp;rsquo;s contributions were as follows;&lt;/p>
 &lt;ol>
@@ -1836,7 +1836,7 @@ detection.&lt;/li>
 &lt;p>My opinion on this paper is that while it is well written, the author&amp;rsquo;s make
 numerous assumptions about the optimal performance of their model&amp;rsquo;s
 architecture. They don&amp;rsquo;t test optimal sizes for filters as well as resolving
-bugs such as the usage of standard convulational layers early in the model. Both
+bugs such as the usage of standard convolutional layers early in the model. Both
 of which can be solved by performing a neural architecture search.&lt;/p>
 &lt;p>Future work for this paper would involve optimizing the model architecture via a
 neural architecture search. As well as evaluating the performance of the model
@@ -1861,8 +1861,11 @@ article.&lt;/p>
 &lt;li>&lt;a href="#first-pass">First Pass&lt;/a>
 &lt;ul>
 &lt;li>&lt;a href="#category">Category&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#context">Context&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#context">Context&lt;/a>
+&lt;ul>
 &lt;li>&lt;a href="#correctness">Correctness&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
 &lt;li>&lt;a href="#contributions">Contributions&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#clarity">Clarity&lt;/a>&lt;/li>
 &lt;/ul>
@@ -1900,8 +1903,8 @@ author.&lt;/p>
 &lt;blockquote>
 &lt;p>What type of paper is this work?&lt;/p>
 &lt;/blockquote>
-&lt;p>This paper is definetly a more causal piece of academic work that aims at easing
-students into the reading papers. I would classify this paper as &amp;ldquo;meta&amp;rdquo;,
+&lt;p>This paper is definitely a more causal piece of academic work that aims at
+easing students into the reading papers. I would classify this paper as &amp;ldquo;meta&amp;rdquo;,
 educational, or as a formal letter to students. The later classification is due
 to the lack of surveys or qualitative/ quantitative data from others that have
 applied this or similar methods to reading papers.&lt;/p>
@@ -1917,7 +1920,7 @@ academic works and the review process of academic works.&lt;/p>
 &lt;/blockquote>
 &lt;p>The assumptions in the abstract and introduction seem reasonable. However,
 assuming that only graduate students are the only ones that struggle with
-reading academic works is unrepresentative of &lt;em>my particular experinece&lt;/em>.
+reading academic works is unrepresentative of &lt;em>my particular experience&lt;/em>.
 Undergraduate students as well as professionals in industry also struggle with
 reading these works as well.&lt;/p>
 &lt;h3 id="contributions">Contributions&lt;/h3>
@@ -1930,7 +1933,7 @@ framework for performing literature reviews of a new field.&lt;/p>
 &lt;blockquote>
 &lt;p>Is the paper well written?&lt;/p>
 &lt;/blockquote>
-&lt;p>This paper is well written and is easy to comprehand. I would strongly recommend
+&lt;p>This paper is well written and is easy to comprehend. I would strongly recommend
 this paper to be read by everyone regardless of academic status.&lt;/p>
 &lt;hr>
 &lt;h2 id="second-pass">Second Pass&lt;/h2>
@@ -1957,7 +1960,7 @@ of this article.&lt;/p>
 the demographic that has trouble reading academic papers. Now while graduate
 students do typically read more papers than undergraduates, it is not unheard of
 for academic readings to be given to undergraduate students as homework
-assingments or for them to read them on their own. Addotionally, professionals
+assignments or for them to read them on their own. Additionally, professionals
 in industry also struggle with this task as well. A more inclusive audience
 would have been appreciated, but would not have improved the content or quality
 of this paper.&lt;/p>
@@ -1967,7 +1970,7 @@ of the author. An awfully biased proof, however, I do appreciate at least some
 quantifiable data for this method.&lt;/p>
 &lt;h3 id="how-would-i-present-the-ideas">How Would I Present the Idea(s)&lt;/h3>
 &lt;p>I think the author presented these ideas exceptionally well and clearly, and
-cannot think of any additional presenation method aside from the critiques of
+cannot think of any additional presentation method aside from the critiques of
 the assumptions mentioned in &lt;a href="#author-assumptions">Author Assumptions&lt;/a>.&lt;/p>
 &lt;h3 id="future-directions">Future Directions&lt;/h3>
 &lt;blockquote>
@@ -1994,17 +1997,17 @@ Conclusion, and section and sub-section headings are read first,&lt;/li>
 &lt;li>A deeper analysis of figures and content of the paper which involves finding
 new, unread references to the reader and evaluating the quality of
 illustrations to determine the quality of the paper,&lt;/li>
-&lt;li>A virtual reimplemenation of the paper where every claim of the paper is
+&lt;li>A virtual reimplementation of the paper where every claim of the paper is
 analyzed and critiqued; typically this done by reviewers or those that are
 doing a deeper analysis of the work.&lt;/li>
 &lt;/ol>
-&lt;p>I can see this process being useful for researchers as reimplementers of other&amp;rsquo;s
+&lt;p>I can see this process being useful for researchers as implementers of other&amp;rsquo;s
 research must accomplish all three steps to properly appreciate and understand
 what they need to do to perform their task. As for the literature review
 framework, it involves utilizing academic search engines (e.g.
 &lt;a href="https://https://scholar.google.com/">Google Scholar&lt;/a>) to find work within a
 particular field, finding shared citations or authors within that field, then
-evaluating top confrences within that field to see who the top researchers and
+evaluating top conferences within that field to see who the top researchers and
 research topics are within that field. For exploratory research, this is both an
 extremely simple and effective framework to follow and adapt to different
 domains.&lt;/p>

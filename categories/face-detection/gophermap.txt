@@ -8,7 +8,7 @@
 
 1A summary of Robust Real Time-Face Detection by P. Viola and M.J. Jones	/summaries/robust-real-time-face-detection
 
-1A summary of Applying SVMS to Face Detection by Edgar Osuna	/summaries/applying-svms-to-face-detection
+1A summary of Applying SVMs to Face Detection by Edgar Osuna	/summaries/applying-svms-to-face-detection
 
 
 .

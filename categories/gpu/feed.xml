@@ -46,10 +46,10 @@ headings, and conclusion&lt;/p>
 Krizhevsky et al. discusses the AlexNet model and its architecture as well as
 its SOTA achievements in the 2012 ImageNet Challenge. The difference between
 AlexNet and other contestants was that the model relies on GPU training to train
-the convulational neural network model. By utilizing the GPU, training time can
-be accelerated significatnly more than what was previously possible. Their major
-contributions is that a large, deep convulational neural network is capable of
-achieving record-breaking resuls via supervised learning. They did not utilize
+the convolutional neural network model. By utilizing the GPU, training time can
+be accelerated significantly more than what was previously possible. Their major
+contributions is that a large, deep convolutional neural network is capable of
+achieving record-breaking results via supervised learning. They did not utilize
 unsupervised pre-training, but the authors suspect that it would improve the
 accuracy of the model.&lt;/p>
 &lt;h3 id="category">Category&lt;/h3>
@@ -68,8 +68,8 @@ ImageNet Challenge.&lt;/p>
 &lt;p>What are the author&amp;rsquo;s main contributions?&lt;/p>
 &lt;/blockquote>
 &lt;p>Their main contributions were that training on GPUs allows for accelerated
-training, that large and deep convulutional neural networks are effective at
-clasifying images, and that removing layers does decrease the performance of
+training, that large and deep convolutional neural networks are effective at
+classifying images, and that removing layers does decrease the performance of
 models. Therefore, a larger, deeper model is applicable. It should be noted that
 AlexNet was the largest model ever at the time of publication.&lt;/p>
 &lt;hr>
@@ -78,14 +78,14 @@ AlexNet was the largest model ever at the time of publication.&lt;/p>
 &lt;blockquote>
 &lt;p>What has been done prior to this paper?&lt;/p>
 &lt;/blockquote>
-&lt;p>Previous work on designing convulational neural networks and architectures.
+&lt;p>Previous work on designing convolutional neural networks and architectures.
 However, they were bounded by not being particularly deep.&lt;/p>
 &lt;h3 id="motivation">Motivation&lt;/h3>
 &lt;blockquote>
 &lt;p>Why should we care about this paper?&lt;/p>
 &lt;/blockquote>
 &lt;p>Because it is one of the key papers that demonstrates that large, deep,
-convulational neural networks are effective for image classification. As well as
+convolutional neural networks are effective for image classification. As well as
 providing evidence that training on GPUs is not only effective but recommended
 for optimal performance. Additionally it provides empirical evidence that
 removing a layer from a convolutional neural network is detrimental to the
@@ -99,7 +99,7 @@ conclusions are statistically significant?&lt;/p>
 &lt;p>Nearly all of the figures are designed well, with the exception of Figure 2.
 Figure 2 is the model architecture of AlexNet. This figure suffers from
 information density and a three dimensional design which makes it hard to
-determin what is going on and in what dimension are images being manipulated.&lt;/p>
+determine what is going on and in what dimension are images being manipulated.&lt;/p>
 &lt;h3 id="clarity">Clarity&lt;/h3>
 &lt;blockquote>
 &lt;p>Is the paper well written?&lt;/p>
@@ -114,14 +114,14 @@ of this article.&lt;/p>
 &lt;blockquote>
 &lt;p>What assumptions does the author(s) make? Are they justified assumptions?&lt;/p>
 &lt;/blockquote>
-&lt;p>They assume that it is because of the larger compute devices and datasets that
+&lt;p>They assume that it is because of the larger compute devices and data sets that
 make these deep convolutional neural networks possible.&lt;/p>
 &lt;h4 id="correctness">Correctness&lt;/h4>
 &lt;blockquote>
 &lt;p>Do the assumptions seem valid?&lt;/p>
 &lt;/blockquote>
-&lt;p>While true, &lt;a href="going-deeper-with-convolutions.md">Szegedy et al.&lt;/a> designed thier
-own architecture using unique algorithms not prevelant in existing convolutional
+&lt;p>While true, &lt;a href="going-deeper-with-convolutions.md">Szegedy et al.&lt;/a> designed their
+own architecture using unique algorithms not prevalent in existing convolutional
 neural networks.&lt;/p>
 &lt;h3 id="discussion-of-the-proofs">Discussion of the Proofs&lt;/h3>
 &lt;p>Their training involved both dropout and data augmentation.&lt;/p>
@@ -130,14 +130,14 @@ neural networks.&lt;/p>
 &lt;p>Data augmentation involves manipulating the input images such that 5 244 x 244
 images are derived from one 256 x 256 image (e.g. the four corners and one
 centered). Additionally, PCA was done on the RGB channels of all of the images
-in the ImageNet 2010 and 2012 datasets. These eigenvectors were then added to
+in the ImageNet 2010 and 2012 data sets. These eigenvectors were then added to
 each of the images respective color channels.&lt;/p>
 &lt;h3 id="future-directions">Future Directions&lt;/h3>
 &lt;blockquote>
 &lt;p>My own proposed future directions for the work&lt;/p>
 &lt;/blockquote>
-&lt;p>A reimplemenation of the work would be interesting, with particular respect to
-benchmarking training time, as the authors were limited by their GPU compute
+&lt;p>A reimplementation of the work would be interesting, with particular respect to
+bench marking training time, as the authors were limited by their GPU compute
 units&amp;rsquo; performance.&lt;/p>
 &lt;hr>
 &lt;h2 id="summary">Summary&lt;/h2>
@@ -149,16 +149,16 @@ units&amp;rsquo; performance.&lt;/p>
 Krizhevsky et al. [1] discusses the AlexNet model and its architecture as well
 as its SOTA achievements in the 2012 ImageNet Challenge. The difference between
 AlexNet and other contestants was that the model relies on GPU training to train
-the convulational neural network model as well as being a deep convolutional
+the convolutional neural network model as well as being a deep convolutional
 neural network.&lt;/p>
-&lt;p>By utilizing the GPU, training time can be accelerated significatnly more than
+&lt;p>By utilizing the GPU, training time can be accelerated significantly more than
 what was previously possible. The benefits of being a deep convolutional neural
 network is that the classification of images builds off of the features found in
 the previous images. The result of this is that their top 1% and top 5% error
 were the lowest ever in the competition.&lt;/p>
 &lt;p>They trained their model by utilizing both dropout, where neurons that activated
 with a value less than 0.5 are not inputted into the next layer, and by
-augmenting the Imagenet 2010 and 2012 datasets to increase the amount of data
+augmenting the Imagenet 2010 and 2012 data sets to increase the amount of data
 that they can throw at the model.&lt;/p>
 &lt;p>Their work is important as it kicked off the usage of both deep convolutional
 neural networks and the usage of GPUs to reduce training time.&lt;/p>

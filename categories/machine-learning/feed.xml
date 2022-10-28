@@ -44,16 +44,16 @@ headings, and conclusion&lt;/p>
 &lt;/blockquote>
 &lt;p>The paper &lt;em>Going deeper with convolutions&lt;/em> by Christian Szegedy et al. [1]
 describes a 2014 state of the art computer vision model (on the ImageNet
-Large-Scale Visual Recognition Challenge) called GoogLeNet architected based on
-Hebbian principles (i.e. neruons that fire together, are wired together)and a
+Large-Scale Visual Recognition Challenge) called GoogLeNet architect ed based on
+Hebbian principles (i.e. neurons that fire together, are wired together)and a
 constant computational budget. Their approach relies on creative algorithms and
-neuroscience principles and aims to be a more power effiecient model for mobile
-devices by limiting the computations during infrencing. Additionally, their
-model is deep but not wide and is considered &amp;ldquo;sparse&amp;rdquo; by the authors. In other
-words, there are as few nodes as possible within the neural network.&lt;/p>
+neuroscience principles and aims to be a more power efficient model for mobile
+devices by limiting the computations during inference. Additionally, their model
+is deep but not wide and is considered &amp;ldquo;sparse&amp;rdquo; by the authors. In other words,
+there are as few nodes as possible within the neural network.&lt;/p>
 &lt;p>Szegedy et al.&amp;rsquo;s contributions are a state of the art computer vision model that
 provides experimental evidence that, &amp;ldquo;&amp;hellip; Approximating the expected optimal
-sparse structure by readily avilible dense building blocks is a viable method
+sparse structure by readily available dense building blocks is a viable method
 for improving neural networks for computer vision&amp;rdquo;. This means that this model
 proves that dense neural networks for computer vision are not necessary in the
 author&amp;rsquo;s viewpoint.&lt;/p>
@@ -62,7 +62,7 @@ author&amp;rsquo;s viewpoint.&lt;/p>
 &lt;p>What type of paper is this work?&lt;/p>
 &lt;/blockquote>
 &lt;p>This is a computer vision paper describing both a machine learning architecture
-and refernce model.&lt;/p>
+and reference model.&lt;/p>
 &lt;h3 id="context">Context&lt;/h3>
 &lt;blockquote>
 &lt;p>What other &lt;em>types&lt;/em> of papers is the work related to?&lt;/p>
@@ -91,7 +91,7 @@ conclusions are statistically significant?&lt;/p>
 &lt;/blockquote>
 &lt;p>All of the tables have proper column labels. However, Table 1 does not provide
 default values for blank cells. This is most likely due to the layer type not
-performaing a specific operation (as described in the column label). Regardless,
+performing a specific operation (as described in the column label). Regardless,
 the remaining tables look good.&lt;/p>
 &lt;p>Additionally, Figure 3 is very clear to read, if a little dense. However, as it
 describes all of the layers of GoogLeNet and how they are connected, I find the
@@ -137,25 +137,25 @@ of this article.&lt;/p>
 &lt;blockquote>
 &lt;p>What assumptions does the author(s) make? Are they justified assumptions?&lt;/p>
 &lt;/blockquote>
-&lt;p>One assumption that the authors make is that overfitting is more prone to occur
-in large models. Additionally, overfitting can occur when there is not enough
-labeled examples in a dataset when a large model is training. Furthermore,
+&lt;p>One assumption that the authors make is that over fitting is more prone to occur
+in large models. Additionally, over fitting can occur when there is not enough
+labeled examples in a data set when a large model is training. Furthermore,
 increasing the size of a model increases the number of computations that must be
-done between layers (e.g. chaining two convulational layers results in
-computation cost quadratically increasing) Their solutions relies on moving from
-fully connected to sparsely connected architectures including within
-convolutional layers. Also, their model architecutre is based on the idea that
-computers are inefficent when, &amp;ldquo;&amp;hellip; Computing numerical calculations on
+done between layers (e.g. chaining two convolutional layers results in
+computation cost quadratic ally increasing) Their solutions relies on moving
+from fully connected to sparsely connected architectures including within
+convolutional layers. Also, their model architecture is based on the idea that
+computers are inefficient when, &amp;ldquo;&amp;hellip; Computing numerical calculations on
 non-uniform sparse data structures&amp;rdquo;.&lt;/p>
 &lt;p>They assume that 1x1, 3x3, and 5x5 filters are the proper filters to use, but
 did not test other size of filters. They also assume that using, &amp;ldquo;Inception
 modules&amp;rdquo; is only useful at higher levels, whereas the initial levels are
-standard convultational levels. However, this was not tested either and was due
-to, &amp;ldquo;infrastructural inefficiences&amp;rdquo; in the implementation.&lt;/p>
+standard convolutional levels. However, this was not tested either and was due
+to, &amp;ldquo;infrastructural inefficiencies&amp;rdquo; in the implementation.&lt;/p>
 &lt;p>Finally, that the model that achieved state of the art performance was the best
 model. The authors had been training and testing other models for months prior,
 however, it is unclear what the testing methodology was and why a particular
-model was choosen to compete in the ImageNet competition.&lt;/p>
+model was chosen to compete in the ImageNet competition.&lt;/p>
 &lt;h4 id="correctness">Correctness&lt;/h4>
 &lt;blockquote>
 &lt;p>Do the assumptions seem valid?&lt;/p>
@@ -170,13 +170,13 @@ testing wasn&amp;rsquo;t performed.&lt;/p>
 &lt;blockquote>
 &lt;p>My own proposed future directions for the work&lt;/p>
 &lt;/blockquote>
-&lt;p>Based off of Section 3 (Motiviation and High Level Considerations), one
-promising area of study would be to perform a network architecture search
-utilizing the principles and reasoning of their approach to other machine
-learning and computer vision domains.&lt;/p>
+&lt;p>Based off of Section 3 (Motivation and High Level Considerations), one promising
+area of study would be to perform a network architecture search utilizing the
+principles and reasoning of their approach to other machine learning and
+computer vision domains.&lt;/p>
 &lt;p>An enhancement to their work is possible by analyzing what filter sizes most
 optimal improve performance. Currently the author&amp;rsquo;s are restricting GoogLeNet to
-1x1, 3x3, and 5x5 filter sizes, but this was due to convience and no data was
+1x1, 3x3, and 5x5 filter sizes, but this was due to convenience and no data was
 given to support this.&lt;/p>
 &lt;hr>
 &lt;h2 id="summary">Summary&lt;/h2>
@@ -186,11 +186,11 @@ given to support this.&lt;/p>
 &lt;p>The paper &lt;em>Going deeper with convolutions&lt;/em> by Szegedy et al. [1] introduces a
 computer vision model architecture called Inception and a reference model called
 GoogLeNet.&lt;/p>
-&lt;p>Inception is a model architecuture that is both sparse and (attempts to be)
-computationally efficent during inferencing with only 1.5 billion multiply-add
+&lt;p>Inception is a model architecture that is both sparse and (attempts to be)
+computationally efficient during inferencing with only 1.5 billion multiply-add
 operations allowed. Inception models are composed of multiple Inception modules
 that are stacked on top of each other. Each Inception module takes in data from
-the previous layer and passes it into small convultional filters (i.e. 1x1
+the previous layer and passes it into small convolutional filters (i.e. 1x1
 typically). There are three of these small filters that are wired to the input
 of the Inception module, with one of them connected directly to the output. The
 outputs of two of these filters are then passed into larger filters (i.e. 5x5)
@@ -204,16 +204,16 @@ green, blue), an image would have a depth of 3.&lt;/p>
 &lt;p>&lt;em>Example:&lt;/em> A 200 pixel by 200 pixel full color spectrum image would be
 represented as 200x200x3.&lt;/p>
 &lt;p>It is possible for Inception modules to have an additional connection to the
-input of the module to perform average pooling for softmax activation.&lt;/p>
+input of the module to perform average pooling for Softmax activation.&lt;/p>
 &lt;p>GoogLeNet achieved SOTA performance in the ImageNet Large-Scale Visual
 Recognition Challenge image classification task by having a top-5 error of 6.67%
-on both the validation and testing data. This is an improvment of 56.5% in
+on both the validation and testing data. This is an improvement of 56.5% in
 comparison to 2012&amp;rsquo;s SOTA performer (SuperVision) and 2013&amp;rsquo;s SOTA performer
-(Clarifai). Additionally, they achieved SOTA perfomance for the ImageNet
+(Clarifai). Additionally, they achieved SOTA performance for the ImageNet
 Large-Scale Visual Recognition Challenge detection task with a mean average
 precision of 43.9% utilizing an ensemble inference approach. This model was
 architected using the Inception architecture with 22 layers. However, not every
-layer was an Inception module; the first few layers were standard convulational
+layer was an Inception module; the first few layers were standard convolutional
 layers.&lt;/p>
 &lt;p>The author&amp;rsquo;s contributions were as follows;&lt;/p>
 &lt;ol>
@@ -224,7 +224,7 @@ detection.&lt;/li>
 &lt;p>My opinion on this paper is that while it is well written, the author&amp;rsquo;s make
 numerous assumptions about the optimal performance of their model&amp;rsquo;s
 architecture. They don&amp;rsquo;t test optimal sizes for filters as well as resolving
-bugs such as the usage of standard convulational layers early in the model. Both
+bugs such as the usage of standard convolutional layers early in the model. Both
 of which can be solved by performing a neural architecture search.&lt;/p>
 &lt;p>Future work for this paper would involve optimizing the model architecture via a
 neural architecture search. As well as evaluating the performance of the model

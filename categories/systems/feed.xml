@@ -42,13 +42,13 @@ headings, and conclusion&lt;/p>
 &lt;/blockquote>
 &lt;p>The paper &lt;em>Runnemede: An Architecture for Ubiquitous High-Performance Computing&lt;/em>
 by Nicholas P. Carter et al. [1] describes the Runnemede high performance
-computing architecture targeting extrene-scale systems. This architecture was
+computing architecture targeting extreme-scale systems. This architecture was
 developed for the DARPA&amp;rsquo;s Ubiquitous High-Performance Computing program. The
 authors describe multiple facets of the architecture including the networking,
-hardware and software design, the energy effeciencies of the architecture. They
-also evaluate the performance of the architecture as well. Their mainy
+hardware and software design, the energy efficiencies of the architecture. They
+also evaluate the performance of the architecture as well. Their many
 contributions are a theoretical architecture that is well optimized for energy
-effiecieny on extra-scale computers.&lt;/p>
+efficiency on extra-scale computers.&lt;/p>
 &lt;h3 id="category">Category&lt;/h3>
 &lt;blockquote>
 &lt;p>What type of paper is this work?&lt;/p>
@@ -65,7 +65,7 @@ computing architectures as well.&lt;/p>
 &lt;p>What are the author&amp;rsquo;s main contributions?&lt;/p>
 &lt;/blockquote>
 &lt;p>Their contributions are a theoretical design and analysis of a HPC architecture
-focused on energy effieciency.&lt;/p>
+focused on energy efficiency.&lt;/p>
 &lt;hr>
 &lt;h2 id="second-pass">Second Pass&lt;/h2>
 &lt;h3 id="background-work">Background Work&lt;/h3>
@@ -111,11 +111,11 @@ of this article.&lt;/p>
 &lt;/blockquote>
 &lt;p>The author&amp;rsquo;s assumed that, &amp;ldquo;&amp;hellip; The power consumed by logic is expected to scale
 well as feature sizes shrink, but not as well as transistor density, leading to
-the design of &lt;em>overprovisioned, energy-limited&lt;/em> systems that contain more
-hardware than they can operate simultanously&amp;rdquo;. In other words, systems will have
-more and more &lt;em>power hungry&lt;/em> hardware that cannot be utilized in its entirety.
-Additionally, they assume that the current trend with DRAM will cause power
-consumption to decrement over time, but not fast enough.&lt;/p>
+the design of &lt;em>over provisioned, energy-limited&lt;/em> systems that contain more
+hardware than they can operate simultaneously&amp;rdquo;. In other words, systems will
+have more and more &lt;em>power hungry&lt;/em> hardware that cannot be utilized in its
+entirety. Additionally, they assume that the current trend with DRAM will cause
+power consumption to decrement over time, but not fast enough.&lt;/p>
 &lt;h4 id="correctness">Correctness&lt;/h4>
 &lt;blockquote>
 &lt;p>Do the assumptions seem valid?&lt;/p>
@@ -131,13 +131,13 @@ DRAM. Therefore, I agree with the assumptions of the authors.&lt;/p>
 &lt;/blockquote>
 &lt;p>The paper &lt;em>Runnemede: An Architecture for Ubiquitous High-Performance Computing&lt;/em>
 by Nicholas P. Carter et al. [1] describes the Runnemede high performance
-computing architecture targeting extrene-scale systems. This architecture was
+computing architecture targeting extreme-scale systems. This architecture was
 developed for the DARPA&amp;rsquo;s Ubiquitous High-Performance Computing program to
-address overprovisioned, energy limited HPC architecture designs. The authors
-proposed a theoretical architecture design, and justify it via benchmarking that
-they performed with simulations. Their work assumes (correctly in my opinion)
-that systems will continue to require more power to operate in order to achieve
-better performance.&lt;/p>
+address over provisioned, energy limited HPC architecture designs. The authors
+proposed a theoretical architecture design, and justify it via bench marking
+that they performed with simulations. Their work assumes (correctly in my
+opinion) that systems will continue to require more power to operate in order to
+achieve better performance.&lt;/p>
 &lt;hr>
 &lt;h2 id="summarization-technique">Summarization Technique&lt;/h2>
 &lt;p>This paper was summarized using a modified technique proposed by S. Keshav in

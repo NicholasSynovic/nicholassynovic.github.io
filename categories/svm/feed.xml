@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>svm on Nicholas M. Synovic</title><link>https://nsynovic.dev/categories/svm/</link><description>Recent content in svm on Nicholas M. Synovic</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Nicholas M. Synovic</copyright><lastBuildDate>Sun, 23 Oct 2022 16:45:32 -0500</lastBuildDate><atom:link href="https://nsynovic.dev/categories/svm/feed.xml" rel="self" type="application/rss+xml"/><item><title>A summary of Using SVMs For Text Categorization by Susan Dumais et al</title><link>https://nsynovic.dev/summaries/using-svms-for-text-categorization/</link><pubDate>Sun, 23 Oct 2022 16:45:32 -0500</pubDate><guid>https://nsynovic.dev/summaries/using-svms-for-text-categorization/</guid><description>&lt;h1 id="a-summary-of-using-svms-for-text-categorization">A summary of &lt;em>Using SVMs For Text Categorization&lt;/em>&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>SVM on Nicholas M. Synovic</title><link>https://nsynovic.dev/categories/svm/</link><description>Recent content in SVM on Nicholas M. Synovic</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Nicholas M. Synovic</copyright><lastBuildDate>Sun, 23 Oct 2022 16:45:32 -0500</lastBuildDate><atom:link href="https://nsynovic.dev/categories/svm/feed.xml" rel="self" type="application/rss+xml"/><item><title>A summary of Using SVMs For Text Categorization by Susan Dumais et al</title><link>https://nsynovic.dev/summaries/using-svms-for-text-categorization/</link><pubDate>Sun, 23 Oct 2022 16:45:32 -0500</pubDate><guid>https://nsynovic.dev/summaries/using-svms-for-text-categorization/</guid><description>&lt;h1 id="a-summary-of-using-svms-for-text-categorization">A summary of &lt;em>Using SVMs For Text Categorization&lt;/em>&lt;/h1>
 &lt;blockquote>
 &lt;p>Susan Dumais et al.;
 &lt;a href="https://doi.ieeecomputersociety.org/10.1109/5254.708428">DOI&lt;/a>&lt;/p>
@@ -51,7 +51,7 @@ algorithm so long as it isn&amp;rsquo;t run by a human) is beneficial for this t
 &lt;blockquote>
 &lt;p>What type of paper is this work?&lt;/p>
 &lt;/blockquote>
-&lt;p>This essay is more arguementative and position oriented.&lt;/p>
+&lt;p>This essay is more argumentative and position oriented.&lt;/p>
 &lt;h3 id="context">Context&lt;/h3>
 &lt;blockquote>
 &lt;p>What other &lt;em>types&lt;/em> of papers is the work related to?&lt;/p>
@@ -69,7 +69,7 @@ evaluated the usefulness of SVMs with respect to human tasks.&lt;/p>
 &lt;blockquote>
 &lt;p>What has been done prior to this paper?&lt;/p>
 &lt;/blockquote>
-&lt;p>Work has been done to understand what SVMs are, as well as usecases for SVMs.&lt;/p>
+&lt;p>Work has been done to understand what SVMs are, as well as use cases for SVMs.&lt;/p>
 &lt;h3 id="motivation">Motivation&lt;/h3>
 &lt;blockquote>
 &lt;p>Why should we care about this paper?&lt;/p>
@@ -102,7 +102,7 @@ of this article.&lt;/p>
 &lt;blockquote>
 &lt;p>My own proposed future directions for the work&lt;/p>
 &lt;/blockquote>
-&lt;p>I would like to reimplement their study using the five different learning
+&lt;p>I would like to implement their study using the five different learning
 algorithms they utilized to validate their results. The algorithms in question
 are: Findsim, Naive Bayes, BayesNets, Trees, and LinearSVM.&lt;/p>
 &lt;hr>
