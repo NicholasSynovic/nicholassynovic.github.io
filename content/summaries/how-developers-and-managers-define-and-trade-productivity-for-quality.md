@@ -206,7 +206,8 @@ managers consider to be quality work and vice versa.
 What prevented the authors from asking about what developers and managers
 *think* the other considers quality work?
 
-Can any of the SPACE or TRUCE definitions be quantified automatically by analyzing feature requests?
+Can any of the SPACE or TRUCE definitions be quantified automatically by
+analyzing feature requests?
 
 ### Author Feedback
 
