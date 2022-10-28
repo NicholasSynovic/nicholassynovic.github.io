@@ -127,10 +127,15 @@ The following relevant work can be found in the [Citations](#citations) section
 of this article.
 
 - [The SPACE of Developer Productivity: There’s More to It than You Think](https://doi.org/10.1145/3454122.3454124)
+  \[2\]
 - [Motivation and satisfaction of software engineers](https://doi.org/10.1109/TSE.2018.2842201)
+  \[3\]
 - [Why We Should Not Measure Productivity](https://doi.org/10.1007/978-1-4842-4221-6_3)
+  \[4\]
 - [Appendix to How Developers and Managers Define and Trade Off Productivity and Quality](https://www.microsoft.com/en-us/research/publication/appendix-to-productivity-quality-alignment)
+  \[5\]
 - [Towards a Theory of Software Developer Job Satisfaction and Perceived Productivity](https://doi.org/10.1109/TSE.2019.2944354)
+  \[6\]
 
 ### Methodology
 
