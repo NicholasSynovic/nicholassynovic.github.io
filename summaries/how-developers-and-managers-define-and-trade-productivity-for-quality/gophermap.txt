@@ -35,7 +35,7 @@ Future Directions My own proposed future directions for the work
 I&rsquo;d love to perform a literary review of related works and surveys to identify if the TRUCE framework is applicable. Additionally, I&rsquo;d like to perform a follow up study of answering and analyzing the question as to what developers think managers consider to be quality work and vice versa.
 Open Questions What open questions do I have about the work?
 What prevented the authors from asking about what developers and managers think the other considers quality work?
-Can any of the SPACE or TRUCE definitions be quantified? Longitudinally?
+Can any of the SPACE or TRUCE definitions be quantified automatically by analyzing feature requests?
 Author Feedback What feedback would I give to the authors?
 I appreciate the clear figures, charts, and tables. I don&rsquo;t like the style of the abstract as it doesn&rsquo;t engage me as a reader. But the finding boxes that summarize the survey results per subsection were a nice touch and are appreciated.
 Summary A summary of the paper
