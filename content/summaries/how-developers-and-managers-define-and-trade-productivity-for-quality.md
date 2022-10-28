@@ -6,7 +6,7 @@ description: A summary of How Developers and Managers Define and Trade Productiv
 summary: A summary of How Developers and Managers Define and Trade Productivity for
   Quality by Margaret-Anne Storey et al.
 
-categories: [summary, productivity, managers, developers, se, software engineering,
+categories: [summary, productivity, managers, developers, SE, software engineering,
   quality, survey, microsoft]
 citations: [https://doi.org/10.1145/1273445.1273458, https://doi.org/10.1145/3528579.3529177,
   https://doi.org/10.1145/3454122.3454124, https://doi.org/10.1109/TSE.2018.2842201,
@@ -83,31 +83,31 @@ Thereby allowing establishing what a sample of developers define productivity
 as, and what a sample of managers define it as well. Additionally, the authors
 propose utilize their existing framework SPACE to codify developer and manager
 responses. They also propose a new framework, TRUCE, designed to help developers
-and managers make decisions about software quality vs productivity tradeoffs.
-These frameworks are releated but provide different lenses into software
+and managers make decisions about software quality vs productivity trade-offs.
+These frameworks are related but provide different lenses into software
 development.
 
 ### Category
 
 > What type of paper is this work?
 
-This paper is a survey paper of practicioners in industry.
+This paper is a survey paper of practitioners in industry.
 
 ### Context
 
 > What other *types* of papers is the work related to?
 
-This paper is closely related to industry metric usage survey papers, productity
-and quality papers, and - more broadly - papers that disucss the usage of and of
-software metrics in teams.
+This paper is closely related to industry metric usage survey papers,
+productivity and quality papers, and - more broadly - papers that discuss the
+usage of and of software metrics in teams.
 
 ### Contributions
 
 > What are the author's main contributions?
 
-Thier contributions is a survey of what developers and managers at Microsoft
+Their contributions is a survey of what developers and managers at Microsoft
 consider to be productivity and quality, as well as the TRUCE framework for
-identifying when quality vs productivity should be tradedoff.
+identifying when productivity should be comprimised for quality.
 
 ______________________________________________________________________
 
@@ -191,7 +191,7 @@ User Needs, Collaboration Needs, and Evolvable) based on this study alone.
 > Do the assumptions seem valid?
 
 I don't think that TRUCE can stand on its own just on this work. Additional
-surveys and work need to be done to validate the usefulenss and how applicable
+surveys and work need to be done to validate the usefulness and how applicable
 this framework is outside of the subset of developers and managers at Microsoft
 that responded to the survey. The authors do address this in their paper.
 
