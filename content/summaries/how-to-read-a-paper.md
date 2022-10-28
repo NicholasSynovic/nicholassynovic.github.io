@@ -3,7 +3,7 @@ title: A summary of How to Read a Paper by S. Keshav
 description: A summary of How to Read a Paper by S. Keshav
 summary: A summary of How to Read a Paper by S. Keshav
 
-categories: [summary, meta, acm, acm sigcomm]
+categories: [summary, meta, ACM, ACM SIGCOMM, SIGCOMM]
 citations: [https://doi.org/10.1145/1273445.1273458, https://simon.peytonjones.org/great-research-talk/,
   http://people.inf.ethz.ch/troscoe/pubs/reviewwriting.pdf, http://www.cs.columbia.edu/hgs/etc/writingstyle.html,
   http://www.che.iitm.ac.in/misc/dd/writepaper.pdf]
@@ -35,7 +35,7 @@ article.
   - [First Pass](#first-pass)
     - [Category](#category)
     - [Context](#context)
-    - [Correctness](#correctness)
+      - [Correctness](#correctness)
     - [Contributions](#contributions)
     - [Clarity](#clarity)
   - [Second Pass](#second-pass)
@@ -68,8 +68,8 @@ author.
 
 > What type of paper is this work?
 
-This paper is definetly a more causal piece of academic work that aims at easing
-students into the reading papers. I would classify this paper as "meta",
+This paper is definitely a more causal piece of academic work that aims at
+easing students into the reading papers. I would classify this paper as "meta",
 educational, or as a formal letter to students. The later classification is due
 to the lack of surveys or qualitative/ quantitative data from others that have
 applied this or similar methods to reading papers.
@@ -87,7 +87,7 @@ academic works and the review process of academic works.
 
 The assumptions in the abstract and introduction seem reasonable. However,
 assuming that only graduate students are the only ones that struggle with
-reading academic works is unrepresentative of *my particular experinece*.
+reading academic works is unrepresentative of *my particular experience*.
 Undergraduate students as well as professionals in industry also struggle with
 reading these works as well.
 
@@ -102,7 +102,7 @@ framework for performing literature reviews of a new field.
 
 > Is the paper well written?
 
-This paper is well written and is easy to comprehand. I would strongly recommend
+This paper is well written and is easy to comprehend. I would strongly recommend
 this paper to be read by everyone regardless of academic status.
 
 ______________________________________________________________________
@@ -133,7 +133,7 @@ I'm nit-picking here, but the S. Keshav focuses solely on graduate students as
 the demographic that has trouble reading academic papers. Now while graduate
 students do typically read more papers than undergraduates, it is not unheard of
 for academic readings to be given to undergraduate students as homework
-assingments or for them to read them on their own. Addotionally, professionals
+assignments or for them to read them on their own. Additionally, professionals
 in industry also struggle with this task as well. A more inclusive audience
 would have been appreciated, but would not have improved the content or quality
 of this paper.
@@ -147,7 +147,7 @@ quantifiable data for this method.
 ### How Would I Present the Idea(s)
 
 I think the author presented these ideas exceptionally well and clearly, and
-cannot think of any additional presenation method aside from the critiques of
+cannot think of any additional presentation method aside from the critiques of
 the assumptions mentioned in [Author Assumptions](#author-assumptions).
 
 ### Future Directions
@@ -175,17 +175,17 @@ literature review in a new field. This three step process involves a:
 2. A deeper analysis of figures and content of the paper which involves finding
    new, unread references to the reader and evaluating the quality of
    illustrations to determine the quality of the paper,
-3. A virtual reimplemenation of the paper where every claim of the paper is
+3. A virtual reimplementation of the paper where every claim of the paper is
    analyzed and critiqued; typically this done by reviewers or those that are
    doing a deeper analysis of the work.
 
-I can see this process being useful for researchers as reimplementers of other's
+I can see this process being useful for researchers as implementers of other's
 research must accomplish all three steps to properly appreciate and understand
 what they need to do to perform their task. As for the literature review
 framework, it involves utilizing academic search engines (e.g.
 [Google Scholar](https://https://scholar.google.com/)) to find work within a
 particular field, finding shared citations or authors within that field, then
-evaluating top confrences within that field to see who the top researchers and
+evaluating top conferences within that field to see who the top researchers and
 research topics are within that field. For exploratory research, this is both an
 extremely simple and effective framework to follow and adapt to different
 domains.

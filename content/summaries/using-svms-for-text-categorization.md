@@ -3,7 +3,7 @@ title: A summary of Using SVMs For Text Categorization by Susan Dumais et al
 description: A summary of Using SVMs For Text Categorization by Susan Dumais et al
 summary: A summary of Using SVMs For Text Categorization by Susan Dumais et al
 
-categories: [summary, svm, text categorization, applications, ml]
+categories: [summary, SVM, text categorization, applications, ml]
 citations: [https://doi.org/10.1145/1273445.1273458, https://doi.ieeecomputersociety.org/10.1109/5254.708428,
   Introduction to modern information retrieval, https://www.microsoft.com/en-us/research/publication/sequential-minimal-optimization-a-fast-algorithm-for-training-support-vector-machines]
 
@@ -66,7 +66,7 @@ algorithm so long as it isn't run by a human) is beneficial for this task.
 
 > What type of paper is this work?
 
-This essay is more arguementative and position oriented.
+This essay is more argumentative and position oriented.
 
 ### Context
 
@@ -89,7 +89,7 @@ ______________________________________________________________________
 
 > What has been done prior to this paper?
 
-Work has been done to understand what SVMs are, as well as usecases for SVMs.
+Work has been done to understand what SVMs are, as well as use cases for SVMs.
 
 ### Motivation
 
@@ -126,7 +126,7 @@ of this article.
 
 > My own proposed future directions for the work
 
-I would like to reimplement their study using the five different learning
+I would like to implement their study using the five different learning
 algorithms they utilized to validate their results. The algorithms in question
 are: Findsim, Naive Bayes, BayesNets, Trees, and LinearSVM.
 

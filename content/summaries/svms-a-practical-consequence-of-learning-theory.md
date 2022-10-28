@@ -5,7 +5,7 @@ description: A summary of SVMs - A Practical Consequence of Learning Theory by B
   Scholkopf
 summary: A summary of SVMs - A Practical Consequence of Learning Theory by Bernhard
   Scholkopf
-categories: [summary, svms, learning theory, ml, theory]
+categories: [summary, SVMs, learning theory, ml, theory]
 citations: [https://doi.org/10.1145/1273445.1273458, https://doi.ieeecomputersociety.org/10.1109/5254.708428,
   The Nature of Statistical Learning Theory]
 
@@ -58,11 +58,11 @@ The essay *SVMs - a practical consequence of learning theory* by Bernhard
 Scholkopf (as part of the larger *Support vector machine* collection of essays
 in the July/ August edition of the 1998 IEEE Intelligent Systems magazine) \[1\]
 discusses the underlying theory that powers Support Vector Machine (SVM)
-algorithms and argues that these algortihms are useful and performant. His essay
+algorithms and argues that these algorithms are useful and performant. His essay
 contains sections on *Learning pattern recognition from examples*,
 *Hyperplanes*, *Feature spaces and kernels*, *SVMs*, and *Current developments
-and open issues* which indicates an essay that will wholistically look at SVMs,
-rather than a particualr facet of them.
+and open issues* which indicates an essay that will holistically look at SVMs,
+rather than a particular facet of them.
 
 ### Category
 
@@ -93,7 +93,7 @@ ______________________________________________________________________
 
 > What has been done prior to this paper?
 
-Work has been done to develop and implement the SVM alogirthm.
+Work has been done to develop and implement the SVM algorithm.
 
 ### Motivation
 
@@ -109,7 +109,7 @@ practical usages of SVMs.
 
 The paper doesn't provide and graphs or charts. However, the figures and
 diagrams that are presented are clearly explained in the descriptions, are well
-made, and are easy to comprehand.
+made, and are easy to comprehend.
 
 ### Clarity
 
@@ -135,7 +135,7 @@ of this article.
 
 I'd like to explore the usage of SVMs for face or object detection and compare
 it against the usage of DL techniques on both traditional and low-powered
-centric metrics.
+metrics.
 
 ______________________________________________________________________
 
@@ -149,10 +149,10 @@ in the July/ August edition of the 1998 IEEE Intelligent Systems magazine) \[1\]
 discuss both the mathematical theory and current practice of using SVMs. SVMs
 are useful in a research aspect as their functionality can be mathematically
 explained. SVMs are a linear classifier that operate in multi-dimensional space
-through the usage of a hyper plane. Hyper planes are choosen by finding support
+through the usage of a hyper plane. Hyper planes are chosen by finding support
 vectors, which are instances of a class that are closest to one another. The
-hyper plane then splits these two instances into two seperable sides. To assist
-in this calculation, a kernel algorthm is applied to map one dimensionality
+hyper plane then splits these two instances into two separable sides. To assist
+in this calculation, a kernel algorithm is applied to map one multi-dimensional
 space to another for easier computation.
 
 Overall, this paper provides a good understanding of the theory behind SVMs. It

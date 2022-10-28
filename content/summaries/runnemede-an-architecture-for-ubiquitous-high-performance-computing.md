@@ -6,7 +6,7 @@ description: 'A summary of Runnemede: An Architecture for Ubiquitous High-Perfor
 summary: 'A summary of Runnemede: An Architecture for Ubiquitous High-Performance
   Computing by Nicholas P. Carter et al.'
 
-categories: [summary, hpc, high performance computing, architecture, systems]
+categories: [summary, HPC, high performance computing, architecture, systems]
 citations: [https://doi.org/10.1145/1273445.1273458, https://doi.org/10.1109/HPCA.2013.6522319,
   https://doi.org/10.1109/MM.2011.89]
 
@@ -59,13 +59,13 @@ ______________________________________________________________________
 
 The paper *Runnemede: An Architecture for Ubiquitous High-Performance Computing*
 by Nicholas P. Carter et al. \[1\] describes the Runnemede high performance
-computing architecture targeting extrene-scale systems. This architecture was
+computing architecture targeting extreme-scale systems. This architecture was
 developed for the DARPA's Ubiquitous High-Performance Computing program. The
 authors describe multiple facets of the architecture including the networking,
-hardware and software design, the energy effeciencies of the architecture. They
-also evaluate the performance of the architecture as well. Their mainy
+hardware and software design, the energy efficiencies of the architecture. They
+also evaluate the performance of the architecture as well. Their many
 contributions are a theoretical architecture that is well optimized for energy
-effiecieny on extra-scale computers.
+efficiency on extra-scale computers.
 
 ### Category
 
@@ -85,7 +85,7 @@ computing architectures as well.
 > What are the author's main contributions?
 
 Their contributions are a theoretical design and analysis of a HPC architecture
-focused on energy effieciency.
+focused on energy efficiency.
 
 ______________________________________________________________________
 
@@ -138,11 +138,11 @@ of this article.
 
 The author's assumed that, "... The power consumed by logic is expected to scale
 well as feature sizes shrink, but not as well as transistor density, leading to
-the design of *overprovisioned, energy-limited* systems that contain more
-hardware than they can operate simultanously". In other words, systems will have
-more and more *power hungry* hardware that cannot be utilized in its entirety.
-Additionally, they assume that the current trend with DRAM will cause power
-consumption to decrement over time, but not fast enough.
+the design of *over provisioned, energy-limited* systems that contain more
+hardware than they can operate simultaneously". In other words, systems will
+have more and more *power hungry* hardware that cannot be utilized in its
+entirety. Additionally, they assume that the current trend with DRAM will cause
+power consumption to decrement over time, but not fast enough.
 
 #### Correctness
 
@@ -161,13 +161,13 @@ ______________________________________________________________________
 
 The paper *Runnemede: An Architecture for Ubiquitous High-Performance Computing*
 by Nicholas P. Carter et al. \[1\] describes the Runnemede high performance
-computing architecture targeting extrene-scale systems. This architecture was
+computing architecture targeting extreme-scale systems. This architecture was
 developed for the DARPA's Ubiquitous High-Performance Computing program to
-address overprovisioned, energy limited HPC architecture designs. The authors
-proposed a theoretical architecture design, and justify it via benchmarking that
-they performed with simulations. Their work assumes (correctly in my opinion)
-that systems will continue to require more power to operate in order to achieve
-better performance.
+address over provisioned, energy limited HPC architecture designs. The authors
+proposed a theoretical architecture design, and justify it via bench marking
+that they performed with simulations. Their work assumes (correctly in my
+opinion) that systems will continue to require more power to operate in order to
+achieve better performance.
 
 ______________________________________________________________________
 

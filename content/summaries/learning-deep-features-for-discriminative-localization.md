@@ -6,7 +6,7 @@ description: A summary of Learning Deep Features for Discriminative Localization
 summary: A summary of Learning Deep Features for Discriminative Localization by Bolei
   Zhou et al.
 
-categories: [summary, cnn, dl, object detection, cam, class activation mapping]
+categories: [summary, CNN, DL, object detection, cam, class activation mapping]
 citations: [https://doi.org/10.1145/1273445.1273458, http://arxiv.org/abs/1512.04150,
   https://doi.org/10.1109/WACV.2016.7477688, https://doi.org/10.1109/TPAMI.2016.2535231,
   https://openaccess.thecvf.com/content_cvpr_2014/html/Oquab_Learning_and_Transferring_2014_CVPR_paper.html,
@@ -64,8 +64,8 @@ et al. \[1\] describes using the global average pooling layer of CNNs to not
 only regularize data, but also to localize objects in an image **even if the
 network wasn't trained for object detection**. The authors propose a method for
 object localization that involves a simple modification to the layer to generate
-what they call "class activation maps" (CAMs), which are heatmaps of where the
-CNN is "looking" at an image for labeling. The hotter the heatmap, the more
+what they call "class activation maps" (CAMs), which are heat maps of where the
+CNN is "looking" at an image for labeling. The hotter the heat map, the more
 focus the CNN is putting on that specific image region.
 
 The authors go into detail as to how one would accomplish this with a
@@ -129,7 +129,7 @@ localization by reusing existing SOTA CNNs.
 > Are the axes properly labeled? Are results shown with error bars, so that
 > conclusions are statistically significant?
 
-All of the figures and tables are labelled clearly, have detailed captions, and
+All of the figures and tables are labeled clearly, have detailed captions, and
 make sense with respect to the paper.
 
 ### Clarity
@@ -153,7 +153,7 @@ of this article.
 - Is object localization for free? weakly-supervised learning with convolutional
   neural networks \[5\]
 - Visualizing and understanding convolutional networks \[6\]
-- Object detectors emerge in deep scene cnns \[7\]
+- Object detectors emerge in deep scene CNNs \[7\]
 - Network in network \[8\]
 - Going deeper with convolutions \[9\]
 
@@ -178,11 +178,11 @@ ______________________________________________________________________
 The paper *Learning Deep Features for Discriminative Localization* by Bolei Zhou
 et al. \[1\] discusses a weakly supervised method of performing object
 localization on existing CNN models. Their method involves replacing the fully
-connected layer at the end of a CNN performing image classifcation, with a
-global average pooling layer into a softmax layer. This is so that the models
+connected layer at the end of a CNN performing image classification, with a
+global average pooling layer into a Softmax layer. This is so that the models
 original functionality is not cut from the new model. However, the global
-average pooling layer is modified so that a heatmap can be extracted focusing on
-what the CNN is focussing on prior to labelling the image.
+average pooling layer is modified so that a heat map can be extracted focusing
+on what the CNN is focusing on prior to labeling the image.
 
 Previous work involved the usage of weakly supervised CNNs, but relied on global
 max pooling. Additional work utilized deconvolutional layers to perform a

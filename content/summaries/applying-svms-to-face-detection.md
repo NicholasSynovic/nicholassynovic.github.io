@@ -1,9 +1,9 @@
 ---
-title: A summary of Applying SVMS to Face Detection by Edgar Osuna
-description: A summary of Applying SVMS to Face Detection by Edgar Osuna
-summary: A summary of Applying SVMS to Face Detection by Edgar Osuna
+title: A summary of Applying SVMs to Face Detection by Edgar Osuna
+description: A summary of Applying SVMs to Face Detection by Edgar Osuna
+summary: A summary of Applying SVMs to Face Detection by Edgar Osuna
 
-categories: [summary, svms, ml, cv, face detection]
+categories: [summary, SVMs, ml, CV, face detection]
 citations: [https://doi.org/10.1145/1273445.1273458, https://doi.ieeecomputersociety.org/10.1109/5254.708428,
   https://www.sciencedirect.com/science/article/abs/pii/0167865594900272, https://proceedings.neurips.cc/paper/1995/hash/2f29b6e3abc6ebdefb55456ea6ca5dc8-Abstract.html,
   https://www.sciencedirect.com/science/article/abs/pii/0031320394900175, https://ieeexplore.ieee.org/document/466858,
@@ -57,7 +57,7 @@ ______________________________________________________________________
 > Discussion about the title, abstract, introduction, section and sub-section
 > headings, and conclusion
 
-The essay *Applying SVMS to Face Detection* by Edgar Osuna (as part of the
+The essay *Applying SVMs to Face Detection* by Edgar Osuna (as part of the
 larger *Support vector machine* collection of essays in the July/ August edition
 of the 1998 IEEE Intelligent Systems magazine) \[1\] describes the usage of
 Support Vector Machines (SVMs) to identify faces in static images and real time
@@ -131,7 +131,7 @@ more than one sentence. I find it to be more appropriate for papers to utilize
 bullet points for short, unordered lists. Most appropriately used when listing
 off different techniques or definitions, which this essay does utilize. Aside
 from that, the individual steps are written well and clearly, and seem to be
-fairly reproducable.
+fairly reproducible.
 
 ### Relevant Work
 
@@ -145,7 +145,7 @@ of this article.
 - Human face detection in a complex background \[4\]
 - Probabilistic visual learning for object detection \[5\]
 - Determination of face position and pose with a learned representation based on
-  labelled graphs \[6\]
+  labeled graphs \[6\]
 - Learning and Example Selection for Object and Pattern Detection \[7\]
 - Example-based learning for view-based human face detection \[8\]
 
@@ -162,8 +162,8 @@ if their system is capable enough to orient faces properly.
 
 > Do the assumptions seem valid?
 
-Without understanding the availiblity of datasets at the time, this seems like a
-valid assumption to make. However, simple data augmentation (such as rotating
+Without understanding the availability of data sets at the time, this seems like
+a valid assumption to make. However, simple data augmentation (such as rotating
 the image) could've been done to increase the number of training examples of
 faces not in the vertical orientation.
 
@@ -171,7 +171,7 @@ faces not in the vertical orientation.
 
 > My own proposed future directions for the work
 
-A reimplementation of their work, both on static images and real time image
+A re-implementation of their work, both on static images and real time image
 capture, would be interesting to perform on devices such as cameras, Raspberry
 Pis, or other low powered systems. Additionally, comparing the power draw
 between an SVM based solution and one that is powered by DL would be interesting
@@ -191,11 +191,11 @@ systems. The author goes into detail about existing systems that were powered by
 non-SVM techniques, as well as presenting their own system (for both static
 image and real time image capture) for face detection.
 
-Their satic image system only works on gray scale images of vertically aligned
-faces. Additionally, they used a small dataset to train the SVM. In doing so,
+Their static image system only works on gray scale images of vertically aligned
+faces. Additionally, they used a small data set to train the SVM. In doing so,
 they limit the usage of the static image system to that specific domain, as well
 as potentially creating a system that is unable to detect a face in all
-potential cases (such as different ethnicities, lighting conditions, face
+potential cases (such as different ethnicity, lighting conditions, face
 orientations, etc.).
 
 Their real time image capture system works on full color images of vertically
