@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>se on Nicholas M. Synovic</title><link>https://nsynovic.dev/categories/se/</link><description>Recent content in se on Nicholas M. Synovic</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Nicholas M. Synovic</copyright><lastBuildDate>Thu, 27 Oct 2022 16:03:42 -0500</lastBuildDate><atom:link href="https://nsynovic.dev/categories/se/feed.xml" rel="self" type="application/rss+xml"/><item><title>A summary of How Developers and Managers Define and Trade Productivity for Quality by Margaret-Anne Storey et al.</title><link>https://nsynovic.dev/summaries/how-developers-and-managers-define-and-trade-productivity-for-quality/</link><pubDate>Thu, 27 Oct 2022 16:03:42 -0500</pubDate><guid>https://nsynovic.dev/summaries/how-developers-and-managers-define-and-trade-productivity-for-quality/</guid><description>&lt;h1 id="a-summary-of-how-developers-and-managers-define-and-trade-productivity-for-quality">A summary of &lt;em>How Developers and Managers Define and Trade Productivity for Quality&lt;/em>&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>SE on Nicholas M. Synovic</title><link>https://nsynovic.dev/categories/se/</link><description>Recent content in SE on Nicholas M. Synovic</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Nicholas M. Synovic</copyright><lastBuildDate>Thu, 27 Oct 2022 16:03:42 -0500</lastBuildDate><atom:link href="https://nsynovic.dev/categories/se/feed.xml" rel="self" type="application/rss+xml"/><item><title>A summary of How Developers and Managers Define and Trade Productivity for Quality by Margaret-Anne Storey et al.</title><link>https://nsynovic.dev/summaries/how-developers-and-managers-define-and-trade-productivity-for-quality/</link><pubDate>Thu, 27 Oct 2022 16:03:42 -0500</pubDate><guid>https://nsynovic.dev/summaries/how-developers-and-managers-define-and-trade-productivity-for-quality/</guid><description>&lt;h1 id="a-summary-of-how-developers-and-managers-define-and-trade-productivity-for-quality">A summary of &lt;em>How Developers and Managers Define and Trade Productivity for Quality&lt;/em>&lt;/h1>
 &lt;blockquote>
 &lt;p>Margaret-Anne Storey et al.; &lt;a href="https://doi.org/10.1145/3528579.3529177">DOI&lt;/a>&lt;/p>
 &lt;/blockquote>
@@ -65,28 +65,28 @@ Thereby allowing establishing what a sample of developers define productivity
 as, and what a sample of managers define it as well. Additionally, the authors
 propose utilize their existing framework SPACE to codify developer and manager
 responses. They also propose a new framework, TRUCE, designed to help developers
-and managers make decisions about software quality vs productivity tradeoffs.
-These frameworks are releated but provide different lenses into software
+and managers make decisions about software quality vs productivity trade-offs.
+These frameworks are related but provide different lenses into software
 development.&lt;/p>
 &lt;h3 id="category">Category&lt;/h3>
 &lt;blockquote>
 &lt;p>What type of paper is this work?&lt;/p>
 &lt;/blockquote>
-&lt;p>This paper is a survey paper of practicioners in industry.&lt;/p>
+&lt;p>This paper is a survey paper of practitioners in industry.&lt;/p>
 &lt;h3 id="context">Context&lt;/h3>
 &lt;blockquote>
 &lt;p>What other &lt;em>types&lt;/em> of papers is the work related to?&lt;/p>
 &lt;/blockquote>
-&lt;p>This paper is closely related to industry metric usage survey papers, productity
-and quality papers, and - more broadly - papers that disucss the usage of and of
-software metrics in teams.&lt;/p>
+&lt;p>This paper is closely related to industry metric usage survey papers,
+productivity and quality papers, and - more broadly - papers that discuss the
+usage of and of software metrics in teams.&lt;/p>
 &lt;h3 id="contributions">Contributions&lt;/h3>
 &lt;blockquote>
 &lt;p>What are the author&amp;rsquo;s main contributions?&lt;/p>
 &lt;/blockquote>
-&lt;p>Thier contributions is a survey of what developers and managers at Microsoft
+&lt;p>Their contributions is a survey of what developers and managers at Microsoft
 consider to be productivity and quality, as well as the TRUCE framework for
-identifying when quality vs productivity should be tradedoff.&lt;/p>
+identifying when productivity should be comprimised for quality.&lt;/p>
 &lt;hr>
 &lt;h2 id="second-pass">Second Pass&lt;/h2>
 &lt;blockquote>
@@ -163,7 +163,7 @@ User Needs, Collaboration Needs, and Evolvable) based on this study alone.&lt;/p
 &lt;p>Do the assumptions seem valid?&lt;/p>
 &lt;/blockquote>
 &lt;p>I don&amp;rsquo;t think that TRUCE can stand on its own just on this work. Additional
-surveys and work need to be done to validate the usefulenss and how applicable
+surveys and work need to be done to validate the usefulness and how applicable
 this framework is outside of the subset of developers and managers at Microsoft
 that responded to the survey. The authors do address this in their paper.&lt;/p>
 &lt;h3 id="future-directions">Future Directions&lt;/h3>

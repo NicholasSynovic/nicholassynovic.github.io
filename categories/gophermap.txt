@@ -96,7 +96,7 @@
 
 1software engineering	/categories/software-engineering
 
-1se	/categories/se
+1SE	/categories/se
 
 1quality	/categories/quality
 
