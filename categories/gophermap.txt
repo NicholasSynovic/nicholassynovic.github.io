@@ -84,13 +84,29 @@
 
 1cam	/categories/cam
 
-1summary	/categories/summary
-
 1face detection	/categories/face-detection
 
 1cv	/categories/cv
 
 1computer vision	/categories/computer-vision
+
+1survey	/categories/survey
+
+1summary	/categories/summary
+
+1software engineering	/categories/software-engineering
+
+1se	/categories/se
+
+1quality	/categories/quality
+
+1productivity	/categories/productivity
+
+1microsoft	/categories/microsoft
+
+1managers	/categories/managers
+
+1developers	/categories/developers
 
 
 .

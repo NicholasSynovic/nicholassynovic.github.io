@@ -1,4 +1,224 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>summary on Nicholas M. Synovic</title><link>https://nsynovic.dev/categories/summary/</link><description>Recent content in summary on Nicholas M. Synovic</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Nicholas M. Synovic</copyright><lastBuildDate>Mon, 24 Oct 2022 19:29:57 -0500</lastBuildDate><atom:link href="https://nsynovic.dev/categories/summary/feed.xml" rel="self" type="application/rss+xml"/><item><title>A summary of Robust Real Time-Face Detection by P. Viola and M.J. Jones</title><link>https://nsynovic.dev/summaries/robust-real-time-face-detection/</link><pubDate>Mon, 24 Oct 2022 19:29:57 -0500</pubDate><guid>https://nsynovic.dev/summaries/robust-real-time-face-detection/</guid><description>&lt;h1 id="a-summary-of-robust-real-time-face-detection">A summary of &lt;em>Robust Real-Time Face Detection&lt;/em>&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>summary on Nicholas M. Synovic</title><link>https://nsynovic.dev/categories/summary/</link><description>Recent content in summary on Nicholas M. Synovic</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Nicholas M. Synovic</copyright><lastBuildDate>Thu, 27 Oct 2022 16:03:42 -0500</lastBuildDate><atom:link href="https://nsynovic.dev/categories/summary/feed.xml" rel="self" type="application/rss+xml"/><item><title>A summary of How Developers and Managers Define and Trade Productivity for Quality by Margaret-Anne Storey et al.</title><link>https://nsynovic.dev/summaries/how-developers-and-managers-define-and-trade-productivity-for-quality/</link><pubDate>Thu, 27 Oct 2022 16:03:42 -0500</pubDate><guid>https://nsynovic.dev/summaries/how-developers-and-managers-define-and-trade-productivity-for-quality/</guid><description>&lt;h1 id="a-summary-of-how-developers-and-managers-define-and-trade-productivity-for-quality">A summary of &lt;em>How Developers and Managers Define and Trade Productivity for Quality&lt;/em>&lt;/h1>
+&lt;blockquote>
+&lt;p>Margaret-Anne Storey et al.; &lt;a href="https://doi.org/10.1145/3528579.3529177">DOI&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;p>For the summary of the paper, go to the &lt;a href="#summary">Summary&lt;/a> section of this
+article.&lt;/p>
+&lt;h2 id="table-of-contents">Table of Contents&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="#a-summary-of-how-developers-and-managers-define-and-trade-productivity-for-quality">A summary of &lt;em>How Developers and Managers Define and Trade Productivity for Quality&lt;/em>&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#table-of-contents">Table of Contents&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#first-pass">First Pass&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#problem">Problem&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#motivation">Motivation&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#category">Category&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#context">Context&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#contributions">Contributions&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#second-pass">Second Pass&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#background-work">Background Work&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#clarity">Clarity&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#relevant-work">Relevant Work&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#methodology">Methodology&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#author-assumptions">Author Assumptions&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#correctness">Correctness&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#future-directions">Future Directions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#open-questions">Open Questions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#author-feedback">Author Feedback&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#summary">Summary&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#summarization-technique">Summarization Technique&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#citations">Citations&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="first-pass">First Pass&lt;/h2>
+&lt;blockquote>
+&lt;p>Read the title, abstract, introduction, section and sub-section headings, and
+conclusion&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="problem">Problem&lt;/h3>
+&lt;blockquote>
+&lt;p>What is the problem addressed in the paper?&lt;/p>
+&lt;/blockquote>
+&lt;p>This paper aims to understand the issue of developers and managers having
+differing views of productivity, and when to trade the quality of the product
+for more productivity. Additionally, this calls into question what is quality,
+as well as how does one measure both of these attributes.&lt;/p>
+&lt;h3 id="motivation">Motivation&lt;/h3>
+&lt;blockquote>
+&lt;p>Why should we care about this paper?&lt;/p>
+&lt;/blockquote>
+&lt;p>We should care about this paper as it provides a case study conducted with
+Microsoft developers and managers about how they measure and value productivity.
+Thereby allowing establishing what a sample of developers define productivity
+as, and what a sample of managers define it as well. Additionally, the authors
+propose utilize their existing framework SPACE to codify developer and manager
+responses. They also propose a new framework, TRUCE, designed to help developers
+and managers make decisions about software quality vs productivity tradeoffs.
+These frameworks are releated but provide different lenses into software
+development.&lt;/p>
+&lt;h3 id="category">Category&lt;/h3>
+&lt;blockquote>
+&lt;p>What type of paper is this work?&lt;/p>
+&lt;/blockquote>
+&lt;p>This paper is a survey paper of practicioners in industry.&lt;/p>
+&lt;h3 id="context">Context&lt;/h3>
+&lt;blockquote>
+&lt;p>What other &lt;em>types&lt;/em> of papers is the work related to?&lt;/p>
+&lt;/blockquote>
+&lt;p>This paper is closely related to industry metric usage survey papers, productity
+and quality papers, and - more broadly - papers that disucss the usage of and of
+software metrics in teams.&lt;/p>
+&lt;h3 id="contributions">Contributions&lt;/h3>
+&lt;blockquote>
+&lt;p>What are the author&amp;rsquo;s main contributions?&lt;/p>
+&lt;/blockquote>
+&lt;p>Thier contributions is a survey of what developers and managers at Microsoft
+consider to be productivity and quality, as well as the TRUCE framework for
+identifying when quality vs productivity should be tradedoff.&lt;/p>
+&lt;hr>
+&lt;h2 id="second-pass">Second Pass&lt;/h2>
+&lt;blockquote>
+&lt;p>A proper read through of the paper is required to answer this&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="background-work">Background Work&lt;/h3>
+&lt;blockquote>
+&lt;p>What has been done prior to this paper?&lt;/p>
+&lt;/blockquote>
+&lt;p>Work has been done into understanding what software quality is, how to measure
+productivity, and what is productivity. Also, the authors have previously
+described a framework called SPACE (Satisfaction, Performance, Activity,
+Collaboration, and Efficiency) which was used to codify the responses from the
+survey participants.&lt;/p>
+&lt;h3 id="figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/h3>
+&lt;blockquote>
+&lt;p>Are the axes properly labeled? Are results shown with error bars, so that
+conclusions are statistically significant?&lt;/p>
+&lt;/blockquote>
+&lt;p>All of the figures are labeled properly, easy to understand, and have clear
+captions.&lt;/p>
+&lt;h3 id="clarity">Clarity&lt;/h3>
+&lt;blockquote>
+&lt;p>Is the paper well written?&lt;/p>
+&lt;/blockquote>
+&lt;p>The paper is well written. However, I&amp;rsquo;m not a fan with how the abstract was
+structured. I found the topic-description approach didn&amp;rsquo;t engage me as a reader.
+But that is more of a personal opinion than an objective fact.&lt;/p>
+&lt;h3 id="relevant-work">Relevant Work&lt;/h3>
+&lt;blockquote>
+&lt;p>Mark relevant work for review&lt;/p>
+&lt;/blockquote>
+&lt;p>The following relevant work can be found in the &lt;a href="#citations">Citations&lt;/a> section
+of this article.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://doi.org/10.1145/3454122.3454124">The SPACE of Developer Productivity: There’s More to It than You Think&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doi.org/10.1109/TSE.2018.2842201">Motivation and satisfaction of software engineers&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doi.org/10.1007/978-1-4842-4221-6_3">Why We Should Not Measure Productivity&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.microsoft.com/en-us/research/publication/appendix-to-productivity-quality-alignment">Appendix to How Developers and Managers Define and Trade Off Productivity and Quality&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doi.org/10.1109/TSE.2019.2944354">Towards a Theory of Software Developer Job Satisfaction and Perceived Productivity&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="methodology">Methodology&lt;/h3>
+&lt;blockquote>
+&lt;p>What methodology did the author&amp;rsquo;s use to validate their contributions?&lt;/p>
+&lt;/blockquote>
+&lt;p>The authors conducted a survey of Microsoft developers and managers on how they
+define productivity and quality, as well as the trade offs between productivity
+and quality. 167 responses were collected, with 131 responses being from
+developers and 34 from managers. Responses were codified using the SPACE
+methodology proposed by the authors in a previous work.&lt;/p>
+&lt;p>Comparisons were made between how:&lt;/p>
+&lt;ul>
+&lt;li>Developers define productivity&lt;/li>
+&lt;li>Managers define team productivity&lt;/li>
+&lt;li>Developers define quality&lt;/li>
+&lt;li>Managers define team quality&lt;/li>
+&lt;li>How developers &lt;em>think&lt;/em> managers define team productivity&lt;/li>
+&lt;li>How managers &lt;em>think&lt;/em> developers define productivity&lt;/li>
+&lt;li>Do developers and managers trade quality for productivity?&lt;/li>
+&lt;/ul>
+&lt;h3 id="author-assumptions">Author Assumptions&lt;/h3>
+&lt;blockquote>
+&lt;p>What assumptions does the author(s) make? Are they justified assumptions?&lt;/p>
+&lt;/blockquote>
+&lt;p>They propose the TRUCE framework for software quality (Timeliness, Robustness,
+User Needs, Collaboration Needs, and Evolvable) based on this study alone.&lt;/p>
+&lt;h4 id="correctness">Correctness&lt;/h4>
+&lt;blockquote>
+&lt;p>Do the assumptions seem valid?&lt;/p>
+&lt;/blockquote>
+&lt;p>I don&amp;rsquo;t think that TRUCE can stand on its own just on this work. Additional
+surveys and work need to be done to validate the usefulenss and how applicable
+this framework is outside of the subset of developers and managers at Microsoft
+that responded to the survey. The authors do address this in their paper.&lt;/p>
+&lt;h3 id="future-directions">Future Directions&lt;/h3>
+&lt;blockquote>
+&lt;p>My own proposed future directions for the work&lt;/p>
+&lt;/blockquote>
+&lt;p>I&amp;rsquo;d love to perform a literary review of related works and surveys to identify
+if the TRUCE framework is applicable. Additionally, I&amp;rsquo;d like to perform a follow
+up study of answering and analyzing the question as to what developers &lt;em>think&lt;/em>
+managers consider to be quality work and vice versa.&lt;/p>
+&lt;h3 id="open-questions">Open Questions&lt;/h3>
+&lt;blockquote>
+&lt;p>What open questions do I have about the work?&lt;/p>
+&lt;/blockquote>
+&lt;p>What prevented the authors from asking about what developers and managers
+&lt;em>think&lt;/em> the other considers quality work?&lt;/p>
+&lt;h3 id="author-feedback">Author Feedback&lt;/h3>
+&lt;blockquote>
+&lt;p>What feedback would I give to the authors?&lt;/p>
+&lt;/blockquote>
+&lt;p>I appreciate the clear figures, charts, and tables. I don&amp;rsquo;t like the style of
+the abstract as it doesn&amp;rsquo;t engage me as a reader. But the finding boxes that
+summarize the survey results per subsection were a nice touch and are
+appreciated.&lt;/p>
+&lt;hr>
+&lt;h2 id="summary">Summary&lt;/h2>
+&lt;blockquote>
+&lt;p>A summary of the paper&lt;/p>
+&lt;/blockquote>
+&lt;p>The paper &lt;em>How Developers and Managers Define and Trade Productivity for
+Quality&lt;/em> by Margaret-Anne Storey et al. [1] presents the results of a survey
+conducted on 131 Microsoft developers and 34 managers about what they consider
+to be productive work, quality work, what the other cohort defines each topic,
+and if they have ever made explicit trade offs between productivity and quality.
+The authors took the responses and codified them using the SPACE framework that
+they proposed in an earlier paper [2].&lt;/p>
+&lt;p>They found that developers tend to define productive work as activities (number
+of tasks completed or iterations; 50%), efficiency and flow (entering a flow
+state; 38%), and productivity (delivering on projects; 35%). Managers tend to
+define productive work across the team in productivity (67%), efficiency and
+flow (45%), and collaboration (working with others to brainstorm ideas/
+providing feedback; 33%).&lt;/p>
+&lt;p>However, developers &lt;em>think&lt;/em> managers define team productivity in activity (53%),
+productivity (37%), and collaboration (19%). Whereas managers &lt;em>think&lt;/em> developers
+define productivity in activity (52%), efficiency and flow (42%), and
+productivity (24%). Here, both managers and developers &lt;em>think&lt;/em> the other defines
+productivity than what is actually true.&lt;/p>
+&lt;p>The take away with productivity, is that all participants defined productivity
+under the SPACE framework.&lt;/p>
+&lt;p>Quality was defined under the proposed TRUCE (Timeliness, Robustness, User
+Needs, Collaboration, Evolution) framework. Developers and managers both define
+quality similarly as robustness (71%, 88%), evolution (44%, 33%), and user need
+(38%, 39%). Managers rank user need higher than evolution, where as developers
+disagree with them.&lt;/p>
+&lt;hr>
+&lt;h2 id="summarization-technique">Summarization Technique&lt;/h2>
+&lt;p>This paper was summarized using a modified technique proposed by S. Keshav in
+his work &lt;em>How to Read a Paper&lt;/em> [0].&lt;/p>
+&lt;h2 id="citations">Citations&lt;/h2>
+Citations availible at https://nsynovic.dev/summaries/how-developers-and-managers-define-and-trade-productivity-for-quality/</description></item><item><title>A summary of Robust Real Time-Face Detection by P. Viola and M.J. Jones</title><link>https://nsynovic.dev/summaries/robust-real-time-face-detection/</link><pubDate>Mon, 24 Oct 2022 19:29:57 -0500</pubDate><guid>https://nsynovic.dev/summaries/robust-real-time-face-detection/</guid><description>&lt;h1 id="a-summary-of-robust-real-time-face-detection">A summary of &lt;em>Robust Real-Time Face Detection&lt;/em>&lt;/h1>
 &lt;blockquote>
 &lt;p>P. Viola and M.J. Jones;
 &lt;a href="https://doi.org/10.1023/B:VISI.0000013087.49260.fb">DOI&lt;/a>&lt;/p>
