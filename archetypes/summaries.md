@@ -1,7 +1,7 @@
 ---
 title: A summary of CHANGE ME by AUTHOR
-description: A summary of CHANGE ME by AUTHOR
-summary: A summary of CHANGE ME by AUTHOR
+description: Posted in the CONFRENCE | JOURNAL | etc. , YEAR
+summary: Posted in the CONFRENCE | JOURNAL | etc. , YEAR
 
 categories: [summary,]
 citations: [https://doi.org/10.1145/1273445.1273458]
@@ -21,6 +21,7 @@ show_reading_time: true
 # A summary of *TITLE*
 
 > Author names
+> Journal | Confrence | etc., Year
 > DOI
 
 For the summary of the paper, go to the [Summary](#summary) section of this article.
