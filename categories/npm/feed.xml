@@ -265,12 +265,13 @@ could have helped when deciding on weak link criteria.&lt;/p>
 &lt;p>A summary of the paper&lt;/p>
 &lt;/blockquote>
 &lt;p>The paper, &lt;em>What are Weak Links in the npm Supply Chain?&lt;/em> by Nursat Zahan et al.
-was published in 2022 in the proceedings of the 44th International Conference on
-Software Engineering: Software Engineering in Practice (ICSE-SEIP). This paper
-discusses six potential signals that could identify a package as a weak link
-within the &lt;code>npm&lt;/code> supply chain. Additionally, the paper conducted a survey with
-470 &lt;code>npm&lt;/code> maintainers about the proposed weak links to understand their validity
-and to additionally find potential signals that could also identify weak links.&lt;/p>
+[1] was published in 2022 in the proceedings of the 44th International
+Conference on Software Engineering: Software Engineering in Practice
+(ICSE-SEIP). This paper discusses six potential signals that could identify a
+package as a weak link within the &lt;code>npm&lt;/code> supply chain. Additionally, the paper
+conducted a survey with 470 &lt;code>npm&lt;/code> maintainers about the proposed weak links to
+understand their validity and to additionally find potential signals that could
+also identify weak links.&lt;/p>
 &lt;p>They drew upon industry experience and understanding when determining the six
 weak links. Furthermore, these weak links relied upon maintainer and contributor
 information derived from the &lt;code>package.json&lt;/code> file of the &lt;code>npm&lt;/code> packages. These
