@@ -5,9 +5,20 @@ description: Posted in the Proceedings of ICSE-SEIP 2022
 summary: Posted in the Proceedings of ICSE-SEIP 2022
 
 categories: [summary, software, software engineering, SE, reuse, npm, supply chains]
-citations: [https://doi.org/10.1145/1273445.1273458, https://doi.org/10.1145/3510457.3513044]
+citations: [https://doi.org/10.1145/1273445.1273458, https://doi.org/10.1145/3510457.3513044,
+  https://doi.org/10.1109/ICSE.2009.5070550, https://doi.org/10.1145/2025113.2025119,
+  https://www.csoonline.com/article/3601508/solarwinds-supply-chain-attack-explained-why-organizations-were-not-prepared.html,
+  https://www.perl.com/article/the-hijacking-of-perl-com/, https://doi.org/10.48550/arXiv.2002.01139,
+  https://doi.org/10.1109/ICSE-NIER.2019.00012, https://doi.org/10.1109/ICSE-SEIP52600.2021.00035,
+  https://snyk.io/blog/solarwinds-orion-security-breach-a-shift-in-the-software-supply-chain-paradigm/,
+  https://medium.com/intrinsic-blog/compromised-npm-package-event-stream-d47d08605502,
+  https://github.blog/2020-09-02-secure-your-software-supply-chain-and-protect-against-supply-chain-threats-github-blog/,
+  https://thehackernews.com/2018/04/ccleaner-malware-attack.html, https://www.idagent.com/blog/2017-08-03-notpetya-threat-supply-chains-across-ukraine/,
+  https://doi.org/10.1145/1653662.1653717, https://snyk.io/open-source-security/,
+  https://doi.org/10.1007/978-3-030-52683-2_2, https://bestpractices.coreinfrastructure.org/en,
+  https://metrics.openssf.org/, https://github.com/ossf/scorecard, https://www.usenix.org/conference/usenixsecurity19/presentation/zimmerman]
 
-draft: true
+draft: false
 
 date: 2022-10-31T09:50:49-05:00
 featured_image: ''
@@ -155,7 +166,7 @@ Work has been done to identify that the human element of package management
 > Are the axes properly labeled? Are results shown with error bars, so that
 > conclusions are statistically significant?
 
-The figures and charts are properly labelled, and are clear to read and
+The figures and charts are properly labeled, and are clear to read and
 understand.
 
 ### Clarity
@@ -173,69 +184,163 @@ The following relevant work can be found in the [Citations](#citations) section
 of this article.
 
 - Does distributed development affect software quality? an empirical case study
-  of windows vista
+  of windows vista \[2\]
 - Don’t touch my code! Examining the effects of ownership on software quality
-- SolarWinds attack explained: And why it was so hard to detect
-  (https://www.csoonline.com/article/3601508/solarwinds-supply-chain-attack-explained-why-organizations-were-not-prepared.html)
-- The Hijacking of Perl.com
-  (https://www.perl.com/article/the-hijacking-of-perl-com/)
+  \[3\]
+- SolarWinds attack explained: And why it was so hard to detect \[4\]
+- The Hijacking of Perl.com \[5\]
 - Towards Measuring Supply Chain Attacks on Package Managers for Interpreted
-  Languages
-- Detecting suspicious package updates
+  Languages \[6\]
+- Detecting suspicious package updates \[7\]
 - Anomalicious: Automated Detection of Anomalous and Potentially Malicious
-  Commits on GitHub
+  Commits on GitHub \[8\]
 - SolarWinds Orion Security Breach: A Shift In The Software Supply Chain
-  Paradigm
-  (https://snyk.io/blog/solarwinds-orion-security-breach-a-shift-in-the-software-supply-chain-paradigm/)
-- Compromised npm Package: event-stream
-  (https://medium.com/intrinsic-blog/compromised-npm-package-event-stream-d47d08605502)
+  Paradigm \[9\]
+- Compromised npm Package: event-stream \[10\]
 - Secure at every step: What is software supply chain security and why does it
-  matter?
-  (https://github.blog/2020-09-02-secure-your-software-supply-chain-and-protect-against-supply-chain-threats-github-blog/)
-- CCleaner Attack Timeline—Here’s How Hackers Infected 2.3 Million PCs.
-  (https://thehackernews.com/2018/04/ccleaner-malware-attack.html)
+  matter? \[11\]
+- CCleaner Attack Timeline—Here’s How Hackers Infected 2.3 Million PCs \[12\]
 - The Untold Story of NotPetya, the Most Devastating Cyberattack in History
-  (https://www.idagent.com/blog/2017-08-03-notpetya-threat-supply-chains-across-ukraine/)
-- Secure open source collaboration: an empirical study of linus’ law
-- The State of Open Source Security (https://snyk.io/open-source-security/)
+  \[13\]
+- Secure open source collaboration: an empirical study of linus’ law \[14\]
+- The State of Open Source Security \[15\]
 - Backstabber’s knife collection: A review of open source software supply chain
-  attacks
-- CII Best Practices Badge Program
-  (https://bestpractices.coreinfrastructure.org/en)
-- Open Source Security Metrics (https://metrics.openssf.org/)
-- Security Scorecards for Open Source Projects
-  (https://github.com/ossf/scorecard)
+  attacks \[16\]
+- CII Best Practices Badge Program \[17\]
+- Open Source Security Metrics \[18\]
+- Security Scorecards for Open Source Projects \[19\]
 - Small world with high risks: A study of security threats in the npm ecosystem
+  \[20\]
 
 ### Methodology
 
 > What methodology did the author's use to validate their contributions?
 
+The author's identified weak link signals by analyzing potential vulnerabilities
+regarding the maintainer and contributor information in a `npm` package's
+`package.json` file. They then validated their weak links by measuring how
+frequently they appear in the unique set of the join between the top 10,000 most
+popular and the most frequently downloaded packages (with duplicates removed).
+This resulted in 14,892 packages to analyze.
+
+Their proposed weak links were:
+
+- Expired Maintainer Email Domain
+- Package Installation Script
+- Unmaintained Package
+- Too Many Maintainers
+- Too Many Contributors
+- Overloaded Maintainer
+
+Then they validated the usefulness of their weak links by surveying 470
+maintainers about how useful the proposed weak links are as well as other
+potential weak links to consider.
+
 ### Author Assumptions
 
 > What assumptions does the author(s) make? Are they justified assumptions?
+
+All weak links proposed by the authors, except for the package installation
+script, relied upon an assumption.
+
+The author's assumed that an accounts with an expired email domain don't have
+2FA enabled in their analysis. Additionally, their measurement of expired email
+domains is flawed as it relied upon checking if a domain was available for
+purchase, and had no check to see if the domain was considered to be a
+compromised domain.
+
+The author's were unable to distinguish between a feature complete package and
+an unmaintained package in their analysis.
+
+The author's arbitrarily assigned a number to represent the max number of
+maintainers and contributors to a repository. They also assumed the amount of
+work that a maintainer can take on.
 
 #### Correctness
 
 > Do the assumptions seem valid?
 
+These assumptions don't seem valid to me.
+
+While being unable to check the 2FA status of an account makes sense, their
+methodology for checking email domains was described to flawed and a manual
+undertaking even by the author's.
+
+Additionally, they mentioned that it was difficult to distinguish between a
+feature complete and an unmaintained package.
+
+Finally, they were critiqued by their reviewers (to which I agree with on this
+point) that assuming that too many maintainers or contributors is an incorrect
+weak link as the nature of open source encourages collaboration and a "more the
+merrier" approach to developing software.
+
 ### Future Directions
 
 > My own proposed future directions for the work
+
+I'd love to expand off of this work and see if the same issues exist within
+pre-trained model supply chains. Additionally, the author's propose further work
+into the matter in *Section 6: LIMITATIONS* that seems promising and
+interesting.
 
 ### Open Questions
 
 > What open questions do I have about the work?
 
+I am curious as to the ethics behind such a study when tooling is built to
+analyze potential package vulnerabilities. In other words, is it ethical to
+*keep* tools to analyze for vulnerabilities, or should they be destroyed after
+their intended usage?
+
 ### Author Feedback
 
 > What feedback would I give to the authors?
+
+Please run the paper through a grammar checking service. Additionally,
+understanding the nature and desired outcome of developing open-source software
+could have helped when deciding on weak link criteria.
 
 ______________________________________________________________________
 
 ## Summary
 
 > A summary of the paper
+
+The paper, *What are Weak Links in the npm Supply Chain?* by Nursat Zahan et al.
+was published in 2022 in the proceedings of the 44th International Conference on
+Software Engineering: Software Engineering in Practice (ICSE-SEIP). This paper
+discusses six potential signals that could identify a package as a weak link
+within the `npm` supply chain. Additionally, the paper conducted a survey with
+470 `npm` maintainers about the proposed weak links to understand their validity
+and to additionally find potential signals that could also identify weak links.
+
+They drew upon industry experience and understanding when determining the six
+weak links. Furthermore, these weak links relied upon maintainer and contributor
+information derived from the `package.json` file of the `npm` packages. These
+weak links were:
+
+- Expired Maintainer Email Domain
+- Package Installation Script
+- Unmaintained Package
+- Too Many Maintainers
+- Too Many Contributors
+- Overloaded Maintainer
+
+The author's performed a case study on 14,892 packages to identify the
+prevalence of these weak links. They then validated the usefulness of these weak
+links by surveying 470 contributors. They found that surveyors agreed with the
+first three weak links, but not the remaining three as it went against the ethos
+of open source development. They also proposed eight new weak links which were
+not validated by the authors:
+
+- Ownership Transfer
+- Adding New Maintainers
+- Maintainer Identity
+- Maintainer Two-Factor Authentication
+- No Source Code Repository
+- `npm` Package vs Source Code Repository
+- CI/CD Pipeline
+- Open Pull Request
 
 ______________________________________________________________________
 
