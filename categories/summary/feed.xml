@@ -1,4 +1,310 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>summary on Nicholas M. Synovic</title><link>https://nsynovic.dev/categories/summary/</link><description>Recent content in summary on Nicholas M. Synovic</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Nicholas M. Synovic</copyright><lastBuildDate>Thu, 27 Oct 2022 16:03:42 -0500</lastBuildDate><atom:link href="https://nsynovic.dev/categories/summary/feed.xml" rel="self" type="application/rss+xml"/><item><title>A summary of How Developers and Managers Define and Trade Productivity for Quality by Margaret-Anne Storey et al.</title><link>https://nsynovic.dev/summaries/how-developers-and-managers-define-and-trade-productivity-for-quality/</link><pubDate>Thu, 27 Oct 2022 16:03:42 -0500</pubDate><guid>https://nsynovic.dev/summaries/how-developers-and-managers-define-and-trade-productivity-for-quality/</guid><description>&lt;h1 id="a-summary-of-how-developers-and-managers-define-and-trade-productivity-for-quality">A summary of &lt;em>How Developers and Managers Define and Trade Productivity for Quality&lt;/em>&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>summary on Nicholas M. Synovic</title><link>https://nsynovic.dev/categories/summary/</link><description>Recent content in summary on Nicholas M. Synovic</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Nicholas M. Synovic</copyright><lastBuildDate>Mon, 31 Oct 2022 09:50:49 -0500</lastBuildDate><atom:link href="https://nsynovic.dev/categories/summary/feed.xml" rel="self" type="application/rss+xml"/><item><title>A summary of "What are Weak Links in the npm Supply Chain?", by Nusrat Zahan et al.</title><link>https://nsynovic.dev/summaries/what-are-weak-links-in-the-npm-supply-chain/</link><pubDate>Mon, 31 Oct 2022 09:50:49 -0500</pubDate><guid>https://nsynovic.dev/summaries/what-are-weak-links-in-the-npm-supply-chain/</guid><description>&lt;h1 id="a-summary-of-what-are-weak-links-in-the-npm-supply-chain">A summary of &lt;em>&amp;ldquo;What are Weak Links in the npm Supply Chain?&amp;rdquo;&lt;/em>&lt;/h1>
+&lt;blockquote>
+&lt;p>Nusrat Zahan et al.; Proceedings of ICSE-SEIP 2022;
+&lt;a href="https://doi.org/10.1145/3510457.3513044">DOI&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;p>For the summary of the paper, go to the &lt;a href="#summary">Summary&lt;/a> section of this
+article.&lt;/p>
+&lt;h2 id="table-of-contents">Table of Contents&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="#a-summary-of-what-are-weak-links-in-the-npm-supply-chain">A summary of &lt;em>&amp;ldquo;What are Weak Links in the npm Supply Chain?&amp;rdquo;&lt;/em>&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#table-of-contents">Table of Contents&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#first-pass">First Pass&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#problem">Problem&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#motivation">Motivation&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#category">Category&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#context">Context&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#contributions">Contributions&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#second-pass">Second Pass&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#background-work">Background Work&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#clarity">Clarity&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#relevant-work">Relevant Work&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#methodology">Methodology&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#author-assumptions">Author Assumptions&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#correctness">Correctness&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#future-directions">Future Directions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#open-questions">Open Questions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#author-feedback">Author Feedback&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#summary">Summary&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#summarization-technique">Summarization Technique&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#citations">Citations&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="first-pass">First Pass&lt;/h2>
+&lt;blockquote>
+&lt;p>Read the title, abstract, introduction, section and sub-section headings, and
+conclusion&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="problem">Problem&lt;/h3>
+&lt;blockquote>
+&lt;p>What is the problem addressed in the paper?&lt;/p>
+&lt;/blockquote>
+&lt;p>Supply chain attacks stem from a data-driven approach where malicious actors
+analyze signals in packages to identify weak links that can be exploited through
+the insertion of malicious code. These attacks propagate through the supply
+chain and affect unsuspecting users who rely on packages dependent upon the
+compromised package.&lt;/p>
+&lt;h3 id="motivation">Motivation&lt;/h3>
+&lt;blockquote>
+&lt;p>Why should we care about this paper?&lt;/p>
+&lt;/blockquote>
+&lt;p>Reports indicate that in 2021 supply chain attacks increased by 650%. An example
+supply chain attack that crippled significant infrastructure was the SolarWinds
+attack, which affected 425 Fortune 500 companies and several U.S. federal
+agencies. Attacks on the supply chain stem from a data-driven approach, where
+attackers analyze package metadata to identify which packages are most
+vulnerable based on several signals, and then insert malicious code into the
+package. This malicious code then propagates through the supply chain, thereby
+affecting many unsuspecting downstream users. The more signals a package has,
+the weaker it is considered to be within the supply chain - thereby earning the
+name: &amp;ldquo;weak link&amp;rdquo;. Weak links exposes a package to a higher risk of a supply
+chain attack and an attacker can exploit signals to execute a supply chain
+attack.&lt;/p>
+&lt;h3 id="category">Category&lt;/h3>
+&lt;blockquote>
+&lt;p>What type of paper is this work?&lt;/p>
+&lt;/blockquote>
+&lt;p>This paper is similar to a bug study in that it proposes classifications for
+weak link signals. It also is a survey paper, as 470 &lt;code>npm&lt;/code> package maintainers
+were interviewed to identify if weak link signals are of importance.
+Additionally, this paper proposes a framework for identifying weak link packages
+as well.&lt;/p>
+&lt;h3 id="context">Context&lt;/h3>
+&lt;blockquote>
+&lt;p>What other &lt;em>types&lt;/em> of papers is the work related to?&lt;/p>
+&lt;/blockquote>
+&lt;p>This paper is similar to papers that study supply chain vulnerabilities, &lt;code>npm&lt;/code>
+analysis papers, MSR papers, and developer survey papers.&lt;/p>
+&lt;h3 id="contributions">Contributions&lt;/h3>
+&lt;blockquote>
+&lt;p>What are the author&amp;rsquo;s main contributions?&lt;/p>
+&lt;/blockquote>
+&lt;p>The authors contributions are:&lt;/p>
+&lt;ul>
+&lt;li>A proposal of six weak link signals based on an empirical study of 1.63
+million &lt;code>npm&lt;/code> packages (91% of all packages on &lt;code>npm&lt;/code> as of 2021)&lt;/li>
+&lt;li>A survey of how &lt;code>npm&lt;/code> package maintainers perceive the proposed weak link
+signals
+&lt;ul>
+&lt;li>Three of which were considered to be &lt;strong>strong&lt;/strong> signals by the maintainers&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Eight new signals suggested by the surveyed maintainers&lt;/li>
+&lt;li>A framework to collect, categorize, and analyze package metadata in &lt;code>npm&lt;/code> to
+evaluate weak link signals&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="second-pass">Second Pass&lt;/h2>
+&lt;blockquote>
+&lt;p>A proper read through of the paper is required to answer this&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="background-work">Background Work&lt;/h3>
+&lt;blockquote>
+&lt;p>What has been done prior to this paper?&lt;/p>
+&lt;/blockquote>
+&lt;p>Work has been done to define supply chain attacks:&lt;/p>
+&lt;ul>
+&lt;li>Supply Chain Attack: &amp;ldquo;A supply chain attack is a cyber-attack that aims to
+infect organizations and end-users by targeting less-secure components in the
+supply chain&amp;rdquo;&lt;/li>
+&lt;/ul>
+&lt;p>Work has been done to define supply chain attacks:&lt;/p>
+&lt;ul>
+&lt;li>Malicious package release&lt;/li>
+&lt;li>Social Engineering: Getting a maintainer to hand over sensitive information&lt;/li>
+&lt;li>Account Takeover: Taking over an account to inject malicious code under the
+maintainer&amp;rsquo;s name&lt;/li>
+&lt;li>Ownership Transfer: Taking over an abandoned package&lt;/li>
+&lt;li>Remote Execution: Taking over a package by compromising its dependencies&lt;/li>
+&lt;/ul>
+&lt;p>Work has been done to identify that supply chain attacks are a real threat, and
+that no proposed framework is all-encompassing to prevent these attacks from
+occurring.&lt;/p>
+&lt;p>Work has been done to identify that the human element of package management
+(maintainer and contributor information) is the most likely vector to attack.&lt;/p>
+&lt;h3 id="figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/h3>
+&lt;blockquote>
+&lt;p>Are the axes properly labeled? Are results shown with error bars, so that
+conclusions are statistically significant?&lt;/p>
+&lt;/blockquote>
+&lt;p>The figures and charts are properly labeled, and are clear to read and
+understand.&lt;/p>
+&lt;h3 id="clarity">Clarity&lt;/h3>
+&lt;blockquote>
+&lt;p>Is the paper well written?&lt;/p>
+&lt;/blockquote>
+&lt;p>The paper is clear to read, however, there are numerous grammatical errors that
+are throughout the paper (punctuation and capitalization errors).&lt;/p>
+&lt;h3 id="relevant-work">Relevant Work&lt;/h3>
+&lt;blockquote>
+&lt;p>Mark relevant work for review&lt;/p>
+&lt;/blockquote>
+&lt;p>The following relevant work can be found in the &lt;a href="#citations">Citations&lt;/a> section
+of this article.&lt;/p>
+&lt;ul>
+&lt;li>Does distributed development affect software quality? an empirical case study
+of windows vista [2]&lt;/li>
+&lt;li>Don’t touch my code! Examining the effects of ownership on software quality
+[3]&lt;/li>
+&lt;li>SolarWinds attack explained: And why it was so hard to detect [4]&lt;/li>
+&lt;li>The Hijacking of Perl.com [5]&lt;/li>
+&lt;li>Towards Measuring Supply Chain Attacks on Package Managers for Interpreted
+Languages [6]&lt;/li>
+&lt;li>Detecting suspicious package updates [7]&lt;/li>
+&lt;li>Anomalicious: Automated Detection of Anomalous and Potentially Malicious
+Commits on GitHub [8]&lt;/li>
+&lt;li>SolarWinds Orion Security Breach: A Shift In The Software Supply Chain
+Paradigm [9]&lt;/li>
+&lt;li>Compromised npm Package: event-stream [10]&lt;/li>
+&lt;li>Secure at every step: What is software supply chain security and why does it
+matter? [11]&lt;/li>
+&lt;li>CCleaner Attack Timeline—Here’s How Hackers Infected 2.3 Million PCs [12]&lt;/li>
+&lt;li>The Untold Story of NotPetya, the Most Devastating Cyberattack in History
+[13]&lt;/li>
+&lt;li>Secure open source collaboration: an empirical study of linus’ law [14]&lt;/li>
+&lt;li>The State of Open Source Security [15]&lt;/li>
+&lt;li>Backstabber’s knife collection: A review of open source software supply chain
+attacks [16]&lt;/li>
+&lt;li>CII Best Practices Badge Program [17]&lt;/li>
+&lt;li>Open Source Security Metrics [18]&lt;/li>
+&lt;li>Security Scorecards for Open Source Projects [19]&lt;/li>
+&lt;li>Small world with high risks: A study of security threats in the npm ecosystem
+[20]&lt;/li>
+&lt;/ul>
+&lt;h3 id="methodology">Methodology&lt;/h3>
+&lt;blockquote>
+&lt;p>What methodology did the author&amp;rsquo;s use to validate their contributions?&lt;/p>
+&lt;/blockquote>
+&lt;p>The author&amp;rsquo;s identified weak link signals by analyzing potential vulnerabilities
+regarding the maintainer and contributor information in a &lt;code>npm&lt;/code> package&amp;rsquo;s
+&lt;code>package.json&lt;/code> file. They then validated their weak links by measuring how
+frequently they appear in the unique set of the join between the top 10,000 most
+popular and the most frequently downloaded packages (with duplicates removed).
+This resulted in 14,892 packages to analyze.&lt;/p>
+&lt;p>Their proposed weak links were:&lt;/p>
+&lt;ul>
+&lt;li>Expired Maintainer Email Domain&lt;/li>
+&lt;li>Package Installation Script&lt;/li>
+&lt;li>Unmaintained Package&lt;/li>
+&lt;li>Too Many Maintainers&lt;/li>
+&lt;li>Too Many Contributors&lt;/li>
+&lt;li>Overloaded Maintainer&lt;/li>
+&lt;/ul>
+&lt;p>Then they validated the usefulness of their weak links by surveying 470
+maintainers about how useful the proposed weak links are as well as other
+potential weak links to consider.&lt;/p>
+&lt;h3 id="author-assumptions">Author Assumptions&lt;/h3>
+&lt;blockquote>
+&lt;p>What assumptions does the author(s) make? Are they justified assumptions?&lt;/p>
+&lt;/blockquote>
+&lt;p>All weak links proposed by the authors, except for the package installation
+script, relied upon an assumption.&lt;/p>
+&lt;p>The author&amp;rsquo;s assumed that an accounts with an expired email domain don&amp;rsquo;t have
+2FA enabled in their analysis. Additionally, their measurement of expired email
+domains is flawed as it relied upon checking if a domain was available for
+purchase, and had no check to see if the domain was considered to be a
+compromised domain.&lt;/p>
+&lt;p>The author&amp;rsquo;s were unable to distinguish between a feature complete package and
+an unmaintained package in their analysis.&lt;/p>
+&lt;p>The author&amp;rsquo;s arbitrarily assigned a number to represent the max number of
+maintainers and contributors to a repository. They also assumed the amount of
+work that a maintainer can take on.&lt;/p>
+&lt;h4 id="correctness">Correctness&lt;/h4>
+&lt;blockquote>
+&lt;p>Do the assumptions seem valid?&lt;/p>
+&lt;/blockquote>
+&lt;p>These assumptions don&amp;rsquo;t seem valid to me.&lt;/p>
+&lt;p>While being unable to check the 2FA status of an account makes sense, their
+methodology for checking email domains was described to flawed and a manual
+undertaking even by the author&amp;rsquo;s.&lt;/p>
+&lt;p>Additionally, they mentioned that it was difficult to distinguish between a
+feature complete and an unmaintained package.&lt;/p>
+&lt;p>Finally, they were critiqued by their reviewers (to which I agree with on this
+point) that assuming that too many maintainers or contributors is an incorrect
+weak link as the nature of open source encourages collaboration and a &amp;ldquo;more the
+merrier&amp;rdquo; approach to developing software.&lt;/p>
+&lt;h3 id="future-directions">Future Directions&lt;/h3>
+&lt;blockquote>
+&lt;p>My own proposed future directions for the work&lt;/p>
+&lt;/blockquote>
+&lt;p>I&amp;rsquo;d love to expand off of this work and see if the same issues exist within
+pre-trained model supply chains. Additionally, the author&amp;rsquo;s propose further work
+into the matter in &lt;em>Section 6: LIMITATIONS&lt;/em> that seems promising and
+interesting.&lt;/p>
+&lt;h3 id="open-questions">Open Questions&lt;/h3>
+&lt;blockquote>
+&lt;p>What open questions do I have about the work?&lt;/p>
+&lt;/blockquote>
+&lt;p>I am curious as to the ethics behind such a study when tooling is built to
+analyze potential package vulnerabilities. In other words, is it ethical to
+&lt;em>keep&lt;/em> tools to analyze for vulnerabilities, or should they be destroyed after
+their intended usage?&lt;/p>
+&lt;h3 id="author-feedback">Author Feedback&lt;/h3>
+&lt;blockquote>
+&lt;p>What feedback would I give to the authors?&lt;/p>
+&lt;/blockquote>
+&lt;p>Please run the paper through a grammar checking service. Additionally,
+understanding the nature and desired outcome of developing open-source software
+could have helped when deciding on weak link criteria.&lt;/p>
+&lt;hr>
+&lt;h2 id="summary">Summary&lt;/h2>
+&lt;blockquote>
+&lt;p>A summary of the paper&lt;/p>
+&lt;/blockquote>
+&lt;p>The paper, &lt;em>What are Weak Links in the npm Supply Chain?&lt;/em> by Nursat Zahan et al.
+was published in 2022 in the proceedings of the 44th International Conference on
+Software Engineering: Software Engineering in Practice (ICSE-SEIP). This paper
+discusses six potential signals that could identify a package as a weak link
+within the &lt;code>npm&lt;/code> supply chain. Additionally, the paper conducted a survey with
+470 &lt;code>npm&lt;/code> maintainers about the proposed weak links to understand their validity
+and to additionally find potential signals that could also identify weak links.&lt;/p>
+&lt;p>They drew upon industry experience and understanding when determining the six
+weak links. Furthermore, these weak links relied upon maintainer and contributor
+information derived from the &lt;code>package.json&lt;/code> file of the &lt;code>npm&lt;/code> packages. These
+weak links were:&lt;/p>
+&lt;ul>
+&lt;li>Expired Maintainer Email Domain&lt;/li>
+&lt;li>Package Installation Script&lt;/li>
+&lt;li>Unmaintained Package&lt;/li>
+&lt;li>Too Many Maintainers&lt;/li>
+&lt;li>Too Many Contributors&lt;/li>
+&lt;li>Overloaded Maintainer&lt;/li>
+&lt;/ul>
+&lt;p>The author&amp;rsquo;s performed a case study on 14,892 packages to identify the
+prevalence of these weak links. They then validated the usefulness of these weak
+links by surveying 470 contributors. They found that surveyors agreed with the
+first three weak links, but not the remaining three as it went against the ethos
+of open source development. They also proposed eight new weak links which were
+not validated by the authors:&lt;/p>
+&lt;ul>
+&lt;li>Ownership Transfer&lt;/li>
+&lt;li>Adding New Maintainers&lt;/li>
+&lt;li>Maintainer Identity&lt;/li>
+&lt;li>Maintainer Two-Factor Authentication&lt;/li>
+&lt;li>No Source Code Repository&lt;/li>
+&lt;li>&lt;code>npm&lt;/code> Package vs Source Code Repository&lt;/li>
+&lt;li>CI/CD Pipeline&lt;/li>
+&lt;li>Open Pull Request&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="summarization-technique">Summarization Technique&lt;/h2>
+&lt;p>This paper was summarized using a modified technique proposed by S. Keshav in
+his work &lt;em>How to Read a Paper&lt;/em> [0].&lt;/p>
+&lt;h2 id="citations">Citations&lt;/h2>
+Citations availible at https://nsynovic.dev/summaries/what-are-weak-links-in-the-npm-supply-chain/</description></item><item><title>A summary of How Developers and Managers Define and Trade Productivity for Quality by Margaret-Anne Storey et al.</title><link>https://nsynovic.dev/summaries/how-developers-and-managers-define-and-trade-productivity-for-quality/</link><pubDate>Thu, 27 Oct 2022 16:03:42 -0500</pubDate><guid>https://nsynovic.dev/summaries/how-developers-and-managers-define-and-trade-productivity-for-quality/</guid><description>&lt;h1 id="a-summary-of-how-developers-and-managers-define-and-trade-productivity-for-quality">A summary of &lt;em>How Developers and Managers Define and Trade Productivity for Quality&lt;/em>&lt;/h1>
 &lt;blockquote>
 &lt;p>Margaret-Anne Storey et al.; &lt;a href="https://doi.org/10.1145/3528579.3529177">DOI&lt;/a>&lt;/p>
 &lt;/blockquote>

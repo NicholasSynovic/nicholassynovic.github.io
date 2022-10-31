@@ -92,12 +92,6 @@
 
 1survey	/categories/survey
 
-1summary	/categories/summary
-
-1software engineering	/categories/software-engineering
-
-1SE	/categories/se
-
 1quality	/categories/quality
 
 1productivity	/categories/productivity
@@ -107,6 +101,20 @@
 1managers	/categories/managers
 
 1developers	/categories/developers
+
+1supply chains	/categories/supply-chains
+
+1summary	/categories/summary
+
+1software engineering	/categories/software-engineering
+
+1software	/categories/software
+
+1SE	/categories/se
+
+1reuse	/categories/reuse
+
+1npm	/categories/npm
 
 
 .

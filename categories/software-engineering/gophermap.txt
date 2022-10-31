@@ -6,6 +6,8 @@
 > These posts are mirrored from my HTTP site.
 
 
+1A summary of "What are Weak Links in the npm Supply Chain?", by Nusrat Zahan et al.	/summaries/what-are-weak-links-in-the-npm-supply-chain
+
 1A summary of How Developers and Managers Define and Trade Productivity for Quality by Margaret-Anne Storey et al.	/summaries/how-developers-and-managers-define-and-trade-productivity-for-quality
 
 
