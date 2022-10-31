@@ -306,13 +306,14 @@ ______________________________________________________________________
 
 > A summary of the paper
 
-The paper, *What are Weak Links in the npm Supply Chain?* by Nursat Zahan et al. \[1\]
-was published in 2022 in the proceedings of the 44th International Conference on
-Software Engineering: Software Engineering in Practice (ICSE-SEIP). This paper
-discusses six potential signals that could identify a package as a weak link
-within the `npm` supply chain. Additionally, the paper conducted a survey with
-470 `npm` maintainers about the proposed weak links to understand their validity
-and to additionally find potential signals that could also identify weak links.
+The paper, *What are Weak Links in the npm Supply Chain?* by Nursat Zahan et al.
+\[1\] was published in 2022 in the proceedings of the 44th International
+Conference on Software Engineering: Software Engineering in Practice
+(ICSE-SEIP). This paper discusses six potential signals that could identify a
+package as a weak link within the `npm` supply chain. Additionally, the paper
+conducted a survey with 470 `npm` maintainers about the proposed weak links to
+understand their validity and to additionally find potential signals that could
+also identify weak links.
 
 They drew upon industry experience and understanding when determining the six
 weak links. Furthermore, these weak links relied upon maintainer and contributor
