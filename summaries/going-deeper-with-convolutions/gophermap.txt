@@ -1,4 +1,4 @@
-!A summary of Going deeper with convolutions by Christian Szegedy et al..
+!A summary of Going deeper with convolutions by Christian Szegedy et al.
 
 Wednesday, September 28, 2022 · 8 minute read
 

@@ -868,8 +868,11 @@ article.&lt;/p>
 &lt;li>&lt;a href="#figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#clarity">Clarity&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#relevant-work">Relevant Work&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#author-assumptions">Author Assumptions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#author-assumptions">Author Assumptions&lt;/a>
+&lt;ul>
 &lt;li>&lt;a href="#correctness">Correctness&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
 &lt;li>&lt;a href="#future-directions">Future Directions&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/li>
@@ -1461,8 +1464,11 @@ article.&lt;/p>
 &lt;li>&lt;a href="#figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#clarity">Clarity&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#relevant-work">Relevant Work&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#author-assumptions">Author Assumptions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#author-assumptions">Author Assumptions&lt;/a>
+&lt;ul>
 &lt;li>&lt;a href="#correctness">Correctness&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;li>&lt;a href="#summary">Summary&lt;/a>&lt;/li>
@@ -1606,8 +1612,11 @@ article.&lt;/p>
 &lt;li>&lt;a href="#figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#clarity">Clarity&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#relevant-work">Relevant Work&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#author-assumptions">Author Assumptions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#author-assumptions">Author Assumptions&lt;/a>
+&lt;ul>
 &lt;li>&lt;a href="#correctness">Correctness&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
 &lt;li>&lt;a href="#discussion-of-the-proofs">Discussion of the Proofs&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#future-directions">Future Directions&lt;/a>&lt;/li>
 &lt;/ul>
@@ -1920,7 +1929,7 @@ Challenge classification and localization challenges.&lt;/p>
 &lt;p>This paper was summarized using a modified technique proposed by S. Keshav in
 his work &lt;em>How to Read a Paper&lt;/em> [0].&lt;/p>
 &lt;h2 id="citations">Citations&lt;/h2>
-Citations availible at https://nsynovic.dev/summaries/very-deep-convolutional-networks-for-large-scale-image-recognition/</description></item><item><title>A summary of Going deeper with convolutions by Christian Szegedy et al..</title><link>https://nsynovic.dev/summaries/going-deeper-with-convolutions/</link><pubDate>Wed, 28 Sep 2022 20:07:40 -0500</pubDate><guid>https://nsynovic.dev/summaries/going-deeper-with-convolutions/</guid><description>&lt;h1 id="a-summary-of-going-deeper-with-convolutions">A summary of &lt;em>Going deeper with convolutions&lt;/em>&lt;/h1>
+Citations availible at https://nsynovic.dev/summaries/very-deep-convolutional-networks-for-large-scale-image-recognition/</description></item><item><title>A summary of Going deeper with convolutions by Christian Szegedy et al.</title><link>https://nsynovic.dev/summaries/going-deeper-with-convolutions/</link><pubDate>Wed, 28 Sep 2022 20:07:40 -0500</pubDate><guid>https://nsynovic.dev/summaries/going-deeper-with-convolutions/</guid><description>&lt;h1 id="a-summary-of-going-deeper-with-convolutions">A summary of &lt;em>Going deeper with convolutions&lt;/em>&lt;/h1>
 &lt;blockquote>
 &lt;p>Christian Szegedy et al.;
 &lt;a href="https://doi.org/10.48550/arXiv.1409.4842">https://doi.org/10.48550/arXiv.1409.4842&lt;/a>&lt;/p>

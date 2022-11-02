@@ -14,7 +14,7 @@
 
 1A summary of SVMs - A Practical Consequence of Learning Theory by Bernhard Scholkopf	/summaries/svms-a-practical-consequence-of-learning-theory
 
-1A summary of Going deeper with convolutions by Christian Szegedy et al..	/summaries/going-deeper-with-convolutions
+1A summary of Going deeper with convolutions by Christian Szegedy et al.	/summaries/going-deeper-with-convolutions
 
 
 .

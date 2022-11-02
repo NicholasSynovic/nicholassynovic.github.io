@@ -36,13 +36,23 @@
 
 1meta	/categories/meta
 
+1ACM SIGCOMM Computer Communication Review	/categories/acm-sigcomm-computer-communication-review
+
 1ACM SIGCOMM	/categories/acm-sigcomm
 
 1ACM	/categories/acm
 
+12007	/categories/2007
+
 1machine learning architecture	/categories/machine-learning-architecture
 
 1machine learning	/categories/machine-learning
+
+1arXive	/categories/arxive
+
+12014	/categories/2014
+
+1ICLR	/categories/iclr
 
 1ImageNet	/categories/imagenet
 
@@ -50,13 +60,29 @@
 
 1deep learning	/categories/deep-learning
 
-1systems	/categories/systems
+1computer vision	/categories/computer-vision
 
-1HPC	/categories/hpc
+1Communications of the ACM	/categories/communications-of-the-acm
 
-1high performance computing	/categories/high-performance-computing
+12017	/categories/2017
 
-1architecture	/categories/architecture
+1Xenon	/categories/xenon
+
+1System-on-chip	/categories/system-on-chip
+
+1Runtime	/categories/runtime
+
+1Random access memory	/categories/random-access-memory
+
+1Memory management	/categories/memory-management
+
+1IEEE HPCA	/categories/ieee-hpca
+
+1Hardware	/categories/hardware
+
+1Clocks	/categories/clocks
+
+12013	/categories/2013
 
 1theory	/categories/theory
 
@@ -74,6 +100,12 @@
 
 1implementation	/categories/implementation
 
+1IEEE Intelligent Systems	/categories/ieee-intelligent-systems
+
+1CV	/categories/cv
+
+11998	/categories/1998
+
 1object detection	/categories/object-detection
 
 1DL	/categories/dl
@@ -84,37 +116,41 @@
 
 1cam	/categories/cam
 
+1arxiv	/categories/arxiv
+
+12015	/categories/2015
+
+1International Journal of Computer Vision	/categories/international-journal-of-computer-vision
+
+1human sensing	/categories/human-sensing
+
 1face detection	/categories/face-detection
 
-1CV	/categories/cv
+1boosting	/categories/boosting
 
-1computer vision	/categories/computer-vision
-
-1survey	/categories/survey
-
-1quality	/categories/quality
-
-1productivity	/categories/productivity
-
-1microsoft	/categories/microsoft
-
-1managers	/categories/managers
-
-1developers	/categories/developers
-
-1supply chains	/categories/supply-chains
-
-1summary	/categories/summary
+12004	/categories/2004
 
 1software engineering	/categories/software-engineering
 
-1software	/categories/software
+1Software creation	/categories/software-creation
 
-1SE	/categories/se
+1Software	/categories/software
 
-1reuse	/categories/reuse
+1management	/categories/management
+
+1Weak link Signal	/categories/weak-link-signal
+
+1Supply Chain Security	/categories/supply-chain-security
+
+1summary	/categories/summary
+
+1Software Ecosystem	/categories/software-ecosystem
 
 1npm	/categories/npm
+
+1ICSE-SEIP	/categories/icse-seip
+
+12022	/categories/2022
 
 
 .

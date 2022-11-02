@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ICLR on Nicholas M. Synovic</title><link>https://nsynovic.dev/categories/iclr/</link><description>Recent content in ICLR on Nicholas M. Synovic</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Nicholas M. Synovic</copyright><lastBuildDate>Wed, 28 Sep 2022 22:40:46 -0500</lastBuildDate><atom:link href="https://nsynovic.dev/categories/iclr/feed.xml" rel="self" type="application/rss+xml"/><item><title>A summary of Very Deep Convolutional Networks for Large-Scale Image Recognition by Karen Simonyan and Andrew Zisserman</title><link>https://nsynovic.dev/summaries/very-deep-convolutional-networks-for-large-scale-image-recognition/</link><pubDate>Wed, 28 Sep 2022 22:40:46 -0500</pubDate><guid>https://nsynovic.dev/summaries/very-deep-convolutional-networks-for-large-scale-image-recognition/</guid><description>&lt;h1 id="a-summary-of-very-deep-convolutional-networks-for-large-scale-image-recognition-by-karen-simonyan-and-andrew-zisserman">A summary of &lt;em>Very Deep Convolutional Networks for Large-Scale Image Recognition&lt;/em> by Karen Simonyan and Andrew Zisserman&lt;/h1>
+&lt;blockquote>
+&lt;p>Karen Simonyan and Andrew Zisserman;
+&lt;a href="https://doi.org/10.48550/arXiv.1409.1556">https://doi.org/10.48550/arXiv.1409.1556&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;p>For the summary of the paper, go to the &lt;a href="#summary">Summary&lt;/a> section of this
+article.&lt;/p>
+&lt;h2 id="table-of-contents">Table of Contents&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="#a-summary-of-very-deep-convolutional-networks-for-large-scale-image-recognition-by-karen-simonyan-and-andrew-zisserman">A summary of &lt;em>Very Deep Convolutional Networks for Large-Scale Image Recognition&lt;/em> by Karen Simonyan and Andrew Zisserman&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#table-of-contents">Table of Contents&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#first-pass">First Pass&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#category">Category&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#context">Context&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#contributions">Contributions&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#second-pass">Second Pass&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#background-work">Background Work&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#motivation">Motivation&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#clarity">Clarity&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#relevant-work">Relevant Work&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#author-assumptions">Author Assumptions&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#correctness">Correctness&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#future-directions">Future Directions&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#summary">Summary&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#summarization-technique">Summarization Technique&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#citations">Citations&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="first-pass">First Pass&lt;/h2>
+&lt;blockquote>
+&lt;p>Discussion about the title, abstract, introduction, section and sub-section
+headings, and conclusion&lt;/p>
+&lt;/blockquote>
+&lt;p>The paper &lt;em>Very Deep Convolutional Networks for Large Scale Image Recognition&lt;/em>
+by Karen Simonyan and Andrew Zissernman discusses the SOTA performance of their
+model in the 2014 ImageNet Challenge on localization and classification tasks.
+They discuss that be extending the depth of convolutional neural networks to 16
+up to 19 layers, with a 3x3 filter size, SOTA performance is possible without
+redeveloping the architecture of existing convolutional neural networks. This is
+in contrast to &lt;a href="going-deeper-with-convolutions.md">Szegedy&amp;rsquo;s work&lt;/a> who proposes
+the Inception architecture for classification and object detection; with which
+the reference implementation also came first in the 2014 ImageNet Challenge in
+its respective tasks. Simoyan et al. discuss the architecture and training that
+went into their model (VGG) and how to architect future models to perform as
+well or better.&lt;/p>
+&lt;h3 id="category">Category&lt;/h3>
+&lt;blockquote>
+&lt;p>What type of paper is this work?&lt;/p>
+&lt;/blockquote>
+&lt;p>This is both a computer vision model evaluation and architecture paper.&lt;/p>
+&lt;h3 id="context">Context&lt;/h3>
+&lt;blockquote>
+&lt;p>What other &lt;em>types&lt;/em> of papers is the work related to?&lt;/p>
+&lt;/blockquote>
+&lt;p>This paper is most closely related to others who publish work regarding SOTA
+performance on CV architecture and models.&lt;/p>
+&lt;h3 id="contributions">Contributions&lt;/h3>
+&lt;blockquote>
+&lt;p>What are the author&amp;rsquo;s main contributions?&lt;/p>
+&lt;/blockquote>
+&lt;p>Their main contributions is an exploration of depth in traditional convolutional
+neural networks to achieve SOTA performance.&lt;/p>
+&lt;hr>
+&lt;h2 id="second-pass">Second Pass&lt;/h2>
+&lt;h3 id="background-work">Background Work&lt;/h3>
+&lt;blockquote>
+&lt;p>What has been done prior to this paper?&lt;/p>
+&lt;/blockquote>
+&lt;p>Prior work has gone into optimizing the width and initial convolutions of
+convolutional neural networks.&lt;/p>
+&lt;p>&lt;a href="going-deeper-with-convolutions.md">Szegedy et al.&lt;/a> proposed a new architecture
+(Inception) that achieved SOTA performance in the 2014 ImageNet Challenge. Else,
+Krizhevsky et al. [2] and others have proposed improvements to the
+convolutional neural network architecture.&lt;/p>
+&lt;h3 id="motivation">Motivation&lt;/h3>
+&lt;blockquote>
+&lt;p>Why should we care about this paper?&lt;/p>
+&lt;/blockquote>
+&lt;p>We should care about the authors work as increasing the depth of a neural
+network by their proposed architecture allows for easy expansion of existing
+convolutional neural networks without redesigning the libraries used to create
+them.&lt;/p>
+&lt;h3 id="figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/h3>
+&lt;blockquote>
+&lt;p>Are the axes properly labeled? Are results shown with error bars, so that
+conclusions are statistically significant?&lt;/p>
+&lt;/blockquote>
+&lt;p>The tables that are presented are easy to read, but can be improved upon. Often,
+multiple rows will correspond with a single model configuration. This is fine,
+however, it is difficult to make out what configuration each row corresponds to.
+Additionally, the tables make comparing error percentages easy across model
+configurations.&lt;/p>
+&lt;h3 id="clarity">Clarity&lt;/h3>
+&lt;blockquote>
+&lt;p>Is the paper well written?&lt;/p>
+&lt;/blockquote>
+&lt;p>The paper is well written and can be understood.&lt;/p>
+&lt;h3 id="relevant-work">Relevant Work&lt;/h3>
+&lt;blockquote>
+&lt;p>Mark relevant work for review&lt;/p>
+&lt;/blockquote>
+&lt;p>The following relevant work can be found in the &lt;a href="#citations">Citations&lt;/a> section
+of this article.&lt;/p>
+&lt;ul>
+&lt;li>Classical convolutional neural network architecture - [3]&lt;/li>
+&lt;li>GoogLeNet - [2]&lt;/li>
+&lt;li>Clarifai&lt;/li>
+&lt;li>ImageNet classification with deep convolutional neural net- works [4]&lt;/li>
+&lt;li>Isotropically-rescaled training image&lt;/li>
+&lt;li>ImageNet 2013 submissions - [5], [6] Localization and Detection using
+Convolutional Networks&lt;/li>
+&lt;/ul>
+&lt;h3 id="author-assumptions">Author Assumptions&lt;/h3>
+&lt;blockquote>
+&lt;p>What assumptions does the author(s) make? Are they justified assumptions?&lt;/p>
+&lt;/blockquote>
+&lt;p>The authors assume that the performance improvements that convolutional neural
+networks are achieving are based off of larger data sets and better compute
+optimization.&lt;/p>
+&lt;h4 id="correctness">Correctness&lt;/h4>
+&lt;blockquote>
+&lt;p>Do the assumptions seem valid?&lt;/p>
+&lt;/blockquote>
+&lt;p>I agree with their assumption. However, [2] created a SOTA model utilizing a
+new architecture, rather than improving upon an existing one.&lt;/p>
+&lt;h3 id="future-directions">Future Directions&lt;/h3>
+&lt;blockquote>
+&lt;p>My own proposed future directions for the work&lt;/p>
+&lt;/blockquote>
+&lt;p>I would love to try and optimize the input layer of convolutional neural
+networks by having a computation that not only looks at the color space, but
+also the opacity of an image. This would allow for images to have their
+background removed for the purposes of classification by making the background
+less opaque than the foreground.&lt;/p>
+&lt;hr>
+&lt;h2 id="summary">Summary&lt;/h2>
+&lt;blockquote>
+&lt;p>A summary of the paper&lt;/p>
+&lt;/blockquote>
+&lt;p>The paper &lt;em>Very Deep Convolutional Networks for Large Scale Image Recognition&lt;/em>
+by Karen Simonyan and Andrew Zissernman discusses the SOTA performance of their
+model in the 2014 ImageNet Challenge on localization and classification tasks.
+They discuss that be extending the depth of convolutional neural networks to 16
+up to 19 layers, with a 3x3 filter size, SOTA performance is possible without
+redeveloping the architecture of existing convolutional neural networks. Their
+work builds of previous efforts of improving convolutional neural network
+performance by optimizing the filter size and initial layer, but contrasts
+contemporaries [2] by not developing a new architecture. Their work has
+importance as it shows that the existing convolutional neural network
+architecture is capable of SOTA performance by increasing the depth of the
+model. They justify this by trying six different model configurations, and
+finding that models with 16 to 19 layers performed best on the 2014 ImageNet
+Challenge classification and localization challenges.&lt;/p>
+&lt;hr>
+&lt;h2 id="summarization-technique">Summarization Technique&lt;/h2>
+&lt;p>This paper was summarized using a modified technique proposed by S. Keshav in
+his work &lt;em>How to Read a Paper&lt;/em> [0].&lt;/p>
+&lt;h2 id="citations">Citations&lt;/h2>
+Citations availible at https://nsynovic.dev/summaries/very-deep-convolutional-networks-for-large-scale-image-recognition/</description></item></channel></rss>

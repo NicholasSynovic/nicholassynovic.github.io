@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2014 on Nicholas M. Synovic</title><link>https://nsynovic.dev/categories/2014/</link><description>Recent content in 2014 on Nicholas M. Synovic</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Nicholas M. Synovic</copyright><lastBuildDate>Wed, 28 Sep 2022 20:07:40 -0500</lastBuildDate><atom:link href="https://nsynovic.dev/categories/2014/feed.xml" rel="self" type="application/rss+xml"/><item><title>A summary of Going deeper with convolutions by Christian Szegedy et al.</title><link>https://nsynovic.dev/summaries/going-deeper-with-convolutions/</link><pubDate>Wed, 28 Sep 2022 20:07:40 -0500</pubDate><guid>https://nsynovic.dev/summaries/going-deeper-with-convolutions/</guid><description>&lt;h1 id="a-summary-of-going-deeper-with-convolutions">A summary of &lt;em>Going deeper with convolutions&lt;/em>&lt;/h1>
+&lt;blockquote>
+&lt;p>Christian Szegedy et al.;
+&lt;a href="https://doi.org/10.48550/arXiv.1409.4842">https://doi.org/10.48550/arXiv.1409.4842&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;p>For the summary of the paper, go to the &lt;a href="#summary">Summary&lt;/a> section of this
+article.&lt;/p>
+&lt;h2 id="table-of-contents">Table of Contents&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="#a-summary-of-going-deeper-with-convolutions">A summary of &lt;em>Going deeper with convolutions&lt;/em>&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#table-of-contents">Table of Contents&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#first-pass">First Pass&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#category">Category&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#context">Context&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#contributions">Contributions&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#second-pass">Second Pass&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#clarity">Clarity&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#relevant-work">Relevant Work&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#author-assumptions">Author Assumptions&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#correctness">Correctness&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#future-directions">Future Directions&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#summary">Summary&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#summarization-technique">Summarization Technique&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#citations">Citations&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="first-pass">First Pass&lt;/h2>
+&lt;blockquote>
+&lt;p>Discussion about the title, abstract, introduction, section and sub-section
+headings, and conclusion&lt;/p>
+&lt;/blockquote>
+&lt;p>The paper &lt;em>Going deeper with convolutions&lt;/em> by Christian Szegedy et al. [1]
+describes a 2014 state of the art computer vision model (on the ImageNet
+Large-Scale Visual Recognition Challenge) called GoogLeNet architect ed based on
+Hebbian principles (i.e. neurons that fire together, are wired together)and a
+constant computational budget. Their approach relies on creative algorithms and
+neuroscience principles and aims to be a more power efficient model for mobile
+devices by limiting the computations during inference. Additionally, their model
+is deep but not wide and is considered &amp;ldquo;sparse&amp;rdquo; by the authors. In other words,
+there are as few nodes as possible within the neural network.&lt;/p>
+&lt;p>Szegedy et al.&amp;rsquo;s contributions are a state of the art computer vision model that
+provides experimental evidence that, &amp;ldquo;&amp;hellip; Approximating the expected optimal
+sparse structure by readily available dense building blocks is a viable method
+for improving neural networks for computer vision&amp;rdquo;. This means that this model
+proves that dense neural networks for computer vision are not necessary in the
+author&amp;rsquo;s viewpoint.&lt;/p>
+&lt;h3 id="category">Category&lt;/h3>
+&lt;blockquote>
+&lt;p>What type of paper is this work?&lt;/p>
+&lt;/blockquote>
+&lt;p>This is a computer vision paper describing both a machine learning architecture
+and reference model.&lt;/p>
+&lt;h3 id="context">Context&lt;/h3>
+&lt;blockquote>
+&lt;p>What other &lt;em>types&lt;/em> of papers is the work related to?&lt;/p>
+&lt;/blockquote>
+&lt;p>This paper is related to other computer vision papers that achieve state of the
+art performance values based on the ImageNet Large-Scale Visual Recognition
+Challenge.&lt;/p>
+&lt;h3 id="contributions">Contributions&lt;/h3>
+&lt;blockquote>
+&lt;p>What are the author&amp;rsquo;s main contributions?&lt;/p>
+&lt;/blockquote>
+&lt;p>Szegedy et al.&amp;rsquo;s contributions are:&lt;/p>
+&lt;ul>
+&lt;li>A computer vision model architecture (Inception) that is both sparse and aims
+to be computationally efficient on mobile (non-server) devices,&lt;/li>
+&lt;li>A reference model of the aforementioned computer vision model architecture&lt;/li>
+&lt;li>A comparison of previous state of the art work to justify their claims that
+sparser networks are the future of computer vision models.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="second-pass">Second Pass&lt;/h2>
+&lt;h3 id="figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/h3>
+&lt;blockquote>
+&lt;p>Are the axes properly labeled? Are results shown with error bars, so that
+conclusions are statistically significant?&lt;/p>
+&lt;/blockquote>
+&lt;p>All of the tables have proper column labels. However, Table 1 does not provide
+default values for blank cells. This is most likely due to the layer type not
+performing a specific operation (as described in the column label). Regardless,
+the remaining tables look good.&lt;/p>
+&lt;p>Additionally, Figure 3 is very clear to read, if a little dense. However, as it
+describes all of the layers of GoogLeNet and how they are connected, I find the
+size to be appropriate.&lt;/p>
+&lt;h3 id="clarity">Clarity&lt;/h3>
+&lt;blockquote>
+&lt;p>Is the paper well written?&lt;/p>
+&lt;/blockquote>
+&lt;p>The paper is fairly well written. The only complaints that I have are minor
+grammatical mistakes that the author&amp;rsquo;s left in (by accident I assume).
+Additionally, that the authors didn&amp;rsquo;t optimize their tables and figures to
+better fit on the pages. As tables and figures are stacked on top of one
+another, it would be possible to reclaim paper space by rearranging multiple
+tables and figures to be next to one another, with the exception of Figure 3 due
+to the sheer size of it.&lt;/p>
+&lt;h3 id="relevant-work">Relevant Work&lt;/h3>
+&lt;blockquote>
+&lt;p>Mark relevant work for review&lt;/p>
+&lt;/blockquote>
+&lt;p>The following relevant work can be found in the &lt;a href="#citations">Citations&lt;/a> section
+of this article.&lt;/p>
+&lt;ul>
+&lt;li>Contrast Normalization&lt;/li>
+&lt;li>Max Pooling&lt;/li>
+&lt;li>Average Pooling&lt;/li>
+&lt;li>Softmax Activation&lt;/li>
+&lt;li>Dropout - [2]&lt;/li>
+&lt;li>Localization Task - [3]&lt;/li>
+&lt;li>Gabor Filters - [4]&lt;/li>
+&lt;li>Network in Network - [5]&lt;/li>
+&lt;li>Rectified Linear Activation - [6]&lt;/li>
+&lt;li>Regions with Convolutional Neural Networks - [7]&lt;/li>
+&lt;li>Multi-Box Prediction - [8]&lt;/li>
+&lt;li>Arora proof - [9]&lt;/li>
+&lt;li>LeNet 5 - [10]&lt;/li>
+&lt;li>Fisher vectors&lt;/li>
+&lt;li>Polyak Averaging - [11]&lt;/li>
+&lt;li>Jaccard index&lt;/li>
+&lt;li>Selective Search - [12]&lt;/li>
+&lt;li>Photometric Distortions - [13]&lt;/li>
+&lt;/ul>
+&lt;h3 id="author-assumptions">Author Assumptions&lt;/h3>
+&lt;blockquote>
+&lt;p>What assumptions does the author(s) make? Are they justified assumptions?&lt;/p>
+&lt;/blockquote>
+&lt;p>One assumption that the authors make is that over fitting is more prone to occur
+in large models. Additionally, over fitting can occur when there is not enough
+labeled examples in a data set when a large model is training. Furthermore,
+increasing the size of a model increases the number of computations that must be
+done between layers (e.g. chaining two convolutional layers results in
+computation cost quadratic ally increasing) Their solutions relies on moving
+from fully connected to sparsely connected architectures including within
+convolutional layers. Also, their model architecture is based on the idea that
+computers are inefficient when, &amp;ldquo;&amp;hellip; Computing numerical calculations on
+non-uniform sparse data structures&amp;rdquo;.&lt;/p>
+&lt;p>They assume that 1x1, 3x3, and 5x5 filters are the proper filters to use, but
+did not test other size of filters. They also assume that using, &amp;ldquo;Inception
+modules&amp;rdquo; is only useful at higher levels, whereas the initial levels are
+standard convolutional levels. However, this was not tested either and was due
+to, &amp;ldquo;infrastructural inefficiencies&amp;rdquo; in the implementation.&lt;/p>
+&lt;p>Finally, that the model that achieved state of the art performance was the best
+model. The authors had been training and testing other models for months prior,
+however, it is unclear what the testing methodology was and why a particular
+model was chosen to compete in the ImageNet competition.&lt;/p>
+&lt;h4 id="correctness">Correctness&lt;/h4>
+&lt;blockquote>
+&lt;p>Do the assumptions seem valid?&lt;/p>
+&lt;/blockquote>
+&lt;p>The first paragraph of assumptions seems reasonable and correct. However, the
+remaining two paragraphs seem unreasonable. This is due to the lack of testing
+that the author&amp;rsquo;s put in when optimizing their model with respect to the filter
+sizes and choosing models. Furthermore, if testing did occur to address these
+issues, it is not addressed in this paper, thus leaving the reader to wonder why
+testing wasn&amp;rsquo;t performed.&lt;/p>
+&lt;h3 id="future-directions">Future Directions&lt;/h3>
+&lt;blockquote>
+&lt;p>My own proposed future directions for the work&lt;/p>
+&lt;/blockquote>
+&lt;p>Based off of Section 3 (Motivation and High Level Considerations), one promising
+area of study would be to perform a network architecture search utilizing the
+principles and reasoning of their approach to other machine learning and
+computer vision domains.&lt;/p>
+&lt;p>An enhancement to their work is possible by analyzing what filter sizes most
+optimal improve performance. Currently the author&amp;rsquo;s are restricting GoogLeNet to
+1x1, 3x3, and 5x5 filter sizes, but this was due to convenience and no data was
+given to support this.&lt;/p>
+&lt;hr>
+&lt;h2 id="summary">Summary&lt;/h2>
+&lt;blockquote>
+&lt;p>A summary of the paper&lt;/p>
+&lt;/blockquote>
+&lt;p>The paper &lt;em>Going deeper with convolutions&lt;/em> by Szegedy et al. [1] introduces a
+computer vision model architecture called Inception and a reference model called
+GoogLeNet.&lt;/p>
+&lt;p>Inception is a model architecture that is both sparse and (attempts to be)
+computationally efficient during inferencing with only 1.5 billion multiply-add
+operations allowed. Inception models are composed of multiple Inception modules
+that are stacked on top of each other. Each Inception module takes in data from
+the previous layer and passes it into small convolutional filters (i.e. 1x1
+typically). There are three of these small filters that are wired to the input
+of the Inception module, with one of them connected directly to the output. The
+outputs of two of these filters are then passed into larger filters (i.e. 5x5)
+to which it is then passed into a DepthConcat function. Additionally, a 3x3
+filter is wired to the input of the module and the output of which goes into a
+1x1 filter to be passed into the DepthConcat function as well. From there, it is
+passed into another Inception module and the process repeats.&lt;/p>
+&lt;p>&lt;strong>Note:&lt;/strong> Depth when referring to two dimensional images refers to the color
+channel of the image. As images typically have three color channels (i.e. red,
+green, blue), an image would have a depth of 3.&lt;/p>
+&lt;p>&lt;em>Example:&lt;/em> A 200 pixel by 200 pixel full color spectrum image would be
+represented as 200x200x3.&lt;/p>
+&lt;p>It is possible for Inception modules to have an additional connection to the
+input of the module to perform average pooling for Softmax activation.&lt;/p>
+&lt;p>GoogLeNet achieved SOTA performance in the ImageNet Large-Scale Visual
+Recognition Challenge image classification task by having a top-5 error of 6.67%
+on both the validation and testing data. This is an improvement of 56.5% in
+comparison to 2012&amp;rsquo;s SOTA performer (SuperVision) and 2013&amp;rsquo;s SOTA performer
+(Clarifai). Additionally, they achieved SOTA performance for the ImageNet
+Large-Scale Visual Recognition Challenge detection task with a mean average
+precision of 43.9% utilizing an ensemble inference approach. This model was
+architected using the Inception architecture with 22 layers. However, not every
+layer was an Inception module; the first few layers were standard convolutional
+layers.&lt;/p>
+&lt;p>The author&amp;rsquo;s contributions were as follows;&lt;/p>
+&lt;ol>
+&lt;li>The Inception computer vision architecture,&lt;/li>
+&lt;li>The GoogLeNet SOTA computer vision model for classification and object
+detection.&lt;/li>
+&lt;/ol>
+&lt;p>My opinion on this paper is that while it is well written, the author&amp;rsquo;s make
+numerous assumptions about the optimal performance of their model&amp;rsquo;s
+architecture. They don&amp;rsquo;t test optimal sizes for filters as well as resolving
+bugs such as the usage of standard convolutional layers early in the model. Both
+of which can be solved by performing a neural architecture search.&lt;/p>
+&lt;p>Future work for this paper would involve optimizing the model architecture via a
+neural architecture search. As well as evaluating the performance of the model
+by both increasing and decreasing the depth of the model.&lt;/p>
+&lt;hr>
+&lt;h2 id="summarization-technique">Summarization Technique&lt;/h2>
+&lt;p>This paper was summarized using a modified technique proposed by S. Keshav in
+his work &lt;em>How to Read a Paper&lt;/em> [0].&lt;/p>
+&lt;h2 id="citations">Citations&lt;/h2>
+Citations availible at https://nsynovic.dev/summaries/going-deeper-with-convolutions/</description></item></channel></rss>

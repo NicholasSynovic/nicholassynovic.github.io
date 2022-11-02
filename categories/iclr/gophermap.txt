@@ -1,0 +1,12 @@
+  ____           _
+ |  _ \ ___  ___| |_ ___
+ | |_) / _ \/ __| __/ __|
+ |  __/ (_) \__ \ |_\__ \
+ |_|   \___/|___/\__|___/
+> These posts are mirrored from my HTTP site.
+
+
+1A summary of Very Deep Convolutional Networks for Large-Scale Image Recognition by Karen Simonyan and Andrew Zisserman	/summaries/very-deep-convolutional-networks-for-large-scale-image-recognition
+
+
+.
