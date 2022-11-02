@@ -1,9 +1,12 @@
 ---
 title: A summary of How to Read a Paper by S. Keshav
-description: A summary of How to Read a Paper by S. Keshav
-summary: A summary of How to Read a Paper by S. Keshav
+description: Published in the 37th volume, issue 3 of the ACM SIGCOMM Computer Communication
+  Review in 2007
+summary: Published in the 37th volume, issue 3 of the ACM SIGCOMM Computer Communication
+  Review in 2007
 
-categories: [summary, meta, ACM, ACM SIGCOMM, SIGCOMM]
+categories: [summary, meta, ACM, ACM SIGCOMM, SIGCOMM, 2007, ACM SIGCOMM Computer
+      Communication Review]
 citations: [https://doi.org/10.1145/1273445.1273458, https://simon.peytonjones.org/great-research-talk/,
   http://people.inf.ethz.ch/troscoe/pubs/reviewwriting.pdf, http://www.cs.columbia.edu/hgs/etc/writingstyle.html,
   http://www.che.iitm.ac.in/misc/dd/writepaper.pdf]

@@ -4,7 +4,8 @@ title: A summary of "What are Weak Links in the npm Supply Chain?", by Nusrat Za
 description: Posted in the Proceedings of ICSE-SEIP 2022
 summary: Posted in the Proceedings of ICSE-SEIP 2022
 
-categories: [summary, software, software engineering, SE, reuse, npm, supply chains]
+categories: [summary, Software Ecosystem, Supply Chain Security, npm, Weak link Signal,
+  ICSE-SEIP, 2022]
 citations: [https://doi.org/10.1145/1273445.1273458, https://doi.org/10.1145/3510457.3513044,
   https://doi.org/10.1109/ICSE.2009.5070550, https://doi.org/10.1145/2025113.2025119,
   https://www.csoonline.com/article/3601508/solarwinds-supply-chain-attack-explained-why-organizations-were-not-prepared.html,

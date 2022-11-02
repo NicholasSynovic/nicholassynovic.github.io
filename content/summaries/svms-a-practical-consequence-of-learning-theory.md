@@ -1,11 +1,11 @@
 ---
 title: A summary of SVMs - A Practical Consequence of Learning Theory by Bernhard
   Scholkopf
-description: A summary of SVMs - A Practical Consequence of Learning Theory by Bernhard
-  Scholkopf
-summary: A summary of SVMs - A Practical Consequence of Learning Theory by Bernhard
-  Scholkopf
-categories: [summary, SVMs, learning theory, ml, theory]
+description: Published as an article in the 1998 July/August publication of the IEEE
+  Intelligent Systems magazine's Support Vector Machines section
+summary: Published as an article in the 1998 July/August publication of the IEEE Intelligent
+  Systems magazine's Support Vector Machines section
+categories: [summary, SVMs, learning theory, ml, theory, 1998, IEEE Intelligent Systems]
 citations: [https://doi.org/10.1145/1273445.1273458, https://doi.ieeecomputersociety.org/10.1109/5254.708428,
   The Nature of Statistical Learning Theory]
 

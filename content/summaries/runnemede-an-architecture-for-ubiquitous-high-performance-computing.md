@@ -1,12 +1,13 @@
 ---
 title: 'A summary of Runnemede: An Architecture for Ubiquitous High-Performance Computing
   by Nicholas P. Carter et al.'
-description: 'A summary of Runnemede: An Architecture for Ubiquitous High-Performance
-  Computing by Nicholas P. Carter et al.'
-summary: 'A summary of Runnemede: An Architecture for Ubiquitous High-Performance
-  Computing by Nicholas P. Carter et al.'
+description: Published in the procceedings of the 2013 IEEE Symposium on High-Performance
+  Computer Architecture
+summary: Published in the procceedings of the 2013 IEEE Symposium on High-Performance
+  Computer Architecture (HPCA)
 
-categories: [summary, HPC, high performance computing, architecture, systems]
+categories: [summary, Hardware, Xenon, Runtime, Random access memory, System-on-chip,
+  Memory management, Clocks, 2013, IEEE HPCA]
 citations: [https://doi.org/10.1145/1273445.1273458, https://doi.org/10.1109/HPCA.2013.6522319,
   https://doi.org/10.1109/MM.2011.89]
 
@@ -45,7 +46,7 @@ article.
     - [Clarity](#clarity)
     - [Relevant Work](#relevant-work)
     - [Author Assumptions](#author-assumptions)
-    - [Correctness](#correctness)
+      - [Correctness](#correctness)
   - [Summary](#summary)
   - [Summarization Technique](#summarization-technique)
   - [Citations](#citations)

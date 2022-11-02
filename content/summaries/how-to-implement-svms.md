@@ -1,9 +1,11 @@
 ---
 title: A summary of How to implement SVMs by John Platt
-description: A summary of How to implement SVMs by John Platt
-summary: A summary of How to implement SVMs by John Platt
+description: Published as an article in the 1998 July/August publication of the IEEE
+  Intelligent Systems magazine's Support Vector Machines section
+summary: Published as an article in the 1998 July/August publication of the IEEE Intelligent
+  Systems magazine's Support Vector Machines section
 
-categories: [summary, SVMs, ml, CV, implementation]
+categories: [summary, SVMs, ml, CV, implementation, 1998, IEEE Intelligent Systems]
 citations: [https://doi.org/10.1145/1273445.1273458, https://doi.ieeecomputersociety.org/10.1109/5254.708428,
   https://link.springer.com/article/10.1023/A:1009715923555, https://scikit-learn.org/stable/modules/svm.html,
   https://www.rdocumentation.org/packages/e1071/versions/1.7-11/topics/svm, https://hyperpolyglot.org/numerical-analysis]
@@ -42,7 +44,7 @@ article.
     - [Clarity](#clarity)
     - [Relevant Work](#relevant-work)
     - [Author Assumptions](#author-assumptions)
-    - [Correctness](#correctness)
+      - [Correctness](#correctness)
     - [Future Directions](#future-directions)
   - [Summary](#summary)
   - [Summarization Technique](#summarization-technique)

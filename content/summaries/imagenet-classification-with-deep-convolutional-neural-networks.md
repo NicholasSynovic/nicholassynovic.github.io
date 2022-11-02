@@ -1,13 +1,12 @@
 ---
 title: A summary of ImageNet Classification with Deep Convolutional Neural Networks
   by Krizhevsky et al.
-description: A summary of ImageNet Classification with Deep Convolutional Neural Networks
-  by Krizhevsky et al.
-summary: A summary of ImageNet Classification with Deep Convolutional Neural Networks
-  by Krizhevsky et al.
+description: Published in the 60th volume, number 6 Communications of the ACM in 2017
+summary: Published in the 60th volume, number 6 Communications of the ACM in 2017
 
-categories: [summary, deep learning, computer vision, ImageNet, GPU]
-citations: [https://doi.org/10.1145/1273445.1273458]
+categories: [summary, deep learning, computer vision, ImageNet, GPU, 2017, Communications
+      of the ACM]
+citations: [https://doi.org/10.1145/1273445.1273458, https://doi.org/10.1145/3065386]
 
 draft: false
 
@@ -44,7 +43,7 @@ article.
     - [Clarity](#clarity)
     - [Relevant Work](#relevant-work)
     - [Author Assumptions](#author-assumptions)
-    - [Correctness](#correctness)
+      - [Correctness](#correctness)
     - [Discussion of the Proofs](#discussion-of-the-proofs)
     - [Future Directions](#future-directions)
   - [Summary](#summary)

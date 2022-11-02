@@ -1,10 +1,10 @@
 ---
-title: A summary of Going deeper with convolutions by Christian Szegedy et al..
-description: A summary of Going deeper with convolutions by Christian Szegedy et al..
-summary: A summary of Going deeper with convolutions by Christian Szegedy et al..
+title: A summary of Going deeper with convolutions by Christian Szegedy et al.
+description: Published on arXive in 2014
+summary: Published on arXive in 2014
 
 categories: [summary, computer vision, CV, ml, machine learning, machine learning
-      architecture]
+      architecture, arXive, 2014]
 citations: [https://doi.org/10.1145/1273445.1273458, https://doi.org/10.48550/arXiv.1409.4842,
   https://doi.org/10.48550/arXiv.1207.0580, https://doi.org/10.48550/arXiv.1312.6229,
   https://doi.org/10.1109/TPAMI.2007.56, https://doi.org/10.48550/arXiv.1312.4400,
