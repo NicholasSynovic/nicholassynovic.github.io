@@ -1,4 +1,282 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>summary on Nicholas M. Synovic</title><link>https://nsynovic.dev/categories/summary/</link><description>Recent content in summary on Nicholas M. Synovic</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Nicholas M. Synovic</copyright><lastBuildDate>Mon, 31 Oct 2022 09:50:49 -0500</lastBuildDate><atom:link href="https://nsynovic.dev/categories/summary/feed.xml" rel="self" type="application/rss+xml"/><item><title>A summary of "What are Weak Links in the npm Supply Chain?", by Nusrat Zahan et al.</title><link>https://nsynovic.dev/summaries/what-are-weak-links-in-the-npm-supply-chain/</link><pubDate>Mon, 31 Oct 2022 09:50:49 -0500</pubDate><guid>https://nsynovic.dev/summaries/what-are-weak-links-in-the-npm-supply-chain/</guid><description>&lt;h1 id="a-summary-of-what-are-weak-links-in-the-npm-supply-chain">A summary of &lt;em>&amp;ldquo;What are Weak Links in the npm Supply Chain?&amp;rdquo;&lt;/em>&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>summary on Nicholas M. Synovic</title><link>https://nsynovic.dev/categories/summary/</link><description>Recent content in summary on Nicholas M. Synovic</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Nicholas M. Synovic</copyright><lastBuildDate>Wed, 02 Nov 2022 22:49:58 -0500</lastBuildDate><atom:link href="https://nsynovic.dev/categories/summary/feed.xml" rel="self" type="application/rss+xml"/><item><title>A summary of Small World with High Risks: A Study of Security Threats in the npm Ecosystem by Markus Zimmermann et al.</title><link>https://nsynovic.dev/summaries/small-world-with-high-risks-a-study-of-security-threats-in-the-npm-ecosystem/</link><pubDate>Wed, 02 Nov 2022 22:49:58 -0500</pubDate><guid>https://nsynovic.dev/summaries/small-world-with-high-risks-a-study-of-security-threats-in-the-npm-ecosystem/</guid><description>&lt;h1 id="a-summary-of-small-world-with-high-risks-a-study-of-security-threats-in-the-npm-ecosystem">A summary of &lt;em>Small World with High Risks: A Study of Security Threats in the npm Ecosystem&lt;/em>&lt;/h1>
+&lt;blockquote>
+&lt;p>Markus Zimmermann et al. 28th USENIX Security Symposium; 2019
+&lt;a href="https://www.usenix.org/conference/usenixsecurity19/presentation/zimmerman">DOI&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;p>For the summary of the paper, go to the &lt;a href="#summary">Summary&lt;/a> section of this
+article.&lt;/p>
+&lt;h2 id="table-of-contents">Table of Contents&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="#a-summary-of-small-world-with-high-risks-a-study-of-security-threats-in-the-npm-ecosystem">A summary of &lt;em>Small World with High Risks: A Study of Security Threats in the npm Ecosystem&lt;/em>&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#table-of-contents">Table of Contents&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#first-pass">First Pass&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#problem">Problem&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#motivation">Motivation&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#category">Category&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#context">Context&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#contributions">Contributions&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#second-pass">Second Pass&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#background-work">Background Work&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#clarity">Clarity&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#relevant-work">Relevant Work&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#methodology">Methodology&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#author-assumptions">Author Assumptions&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#correctness">Correctness&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#future-directions">Future Directions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#open-questions">Open Questions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#author-feedback">Author Feedback&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#summary">Summary&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#summarization-technique">Summarization Technique&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#citations">Citations&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="first-pass">First Pass&lt;/h2>
+&lt;blockquote>
+&lt;p>Read the title, abstract, introduction, section and sub-section headings, and
+conclusion&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="problem">Problem&lt;/h3>
+&lt;blockquote>
+&lt;p>What is the problem addressed in the paper?&lt;/p>
+&lt;/blockquote>
+&lt;p>This paper analyzes the security risks that the &lt;code>npm&lt;/code> package manager exposes
+end users to directly and indirectly through dependency analysis.&lt;/p>
+&lt;h3 id="motivation">Motivation&lt;/h3>
+&lt;blockquote>
+&lt;p>Why should we care about this paper?&lt;/p>
+&lt;/blockquote>
+&lt;p>The 2016 &lt;code>left-pad&lt;/code> and 2018 &lt;code>eslint-scope&lt;/code> caused many dependent packages to
+become exposed to security vulnerabilities after being taken down and
+compromised respectfully.&lt;/p>
+&lt;p>Additionally (and quoted from the paper):&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-md" data-lang="md">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">-&lt;/span> Installing an average npm package introduces an implicit trust on 79
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>third-party packages and 39 maintainers, creating a surprisingly large attack
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>surface.
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">-&lt;/span> Highly popular packages directly or indirectly influence many other packages
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>(often more than 100,000) and are thus potential targets for injecting malware.
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">-&lt;/span> Some maintainers have an impact on hundreds of thousands of packages. As a
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>result, a very small number of compromised maintainer accounts suffices to
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>inject malware into the majority of all packages.
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">-&lt;/span> The influence of individual packages and maintainers has been continuously
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>growing over the past few years, aggravating the risk of malware injection
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>attacks.
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">-&lt;/span> A significant percentage (up to 40%) of all packages depend on code with at
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>least one publicly known vulnerability.
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="category">Category&lt;/h3>
+&lt;blockquote>
+&lt;p>What type of paper is this work?&lt;/p>
+&lt;/blockquote>
+&lt;p>This is a security paper with particular focus on security analysis of software
+supply chains.&lt;/p>
+&lt;h3 id="context">Context&lt;/h3>
+&lt;blockquote>
+&lt;p>What other &lt;em>types&lt;/em> of papers is the work related to?&lt;/p>
+&lt;/blockquote>
+&lt;p>Papers that analyze and quantify the risks to software hosting platforms/
+software ecosystems. Additionally, papers that discuss the threat models of
+software ecosystems are also related.&lt;/p>
+&lt;h3 id="contributions">Contributions&lt;/h3>
+&lt;blockquote>
+&lt;p>What are the author&amp;rsquo;s main contributions?&lt;/p>
+&lt;/blockquote>
+&lt;p>Their main contributions can be found in &lt;a href="#motivation">Motivation&lt;/a>. More
+generally, they show that &lt;code>npm&lt;/code> is small in that packages are tightly dependent
+upon one another, and that a single security vulnerability is enough to
+seriously cripple the functionality of the ecosystem. Furthermore, they analyze
+the different threat models to &lt;code>npm&lt;/code>, as well as the role of maintainers with
+respect to the wider ecosystem. In addition, they propose several different
+mitigations for their proposed threat models. These include:&lt;/p>
+&lt;ul>
+&lt;li>a vetting process to create &amp;ldquo;trusted&amp;rdquo; maintainers&lt;/li>
+&lt;li>a vetting process to analyze newly contributed code of specific packages&lt;/li>
+&lt;/ul>
+&lt;p>If both process were to be created for a single package, that package would be
+considered to have, &amp;ldquo;perfect first-party security&amp;rdquo;. And if this was to be
+extended to all transitive packages of that sole package, then it would be
+considered to have &amp;ldquo;perfect third-party security&amp;rdquo; If both of the considerations
+were to be met, then the package would be considered to be a &amp;ldquo;fully secured
+package&amp;rdquo;.&lt;/p>
+&lt;hr>
+&lt;h2 id="second-pass">Second Pass&lt;/h2>
+&lt;blockquote>
+&lt;p>A proper read through of the paper is required to answer this&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="background-work">Background Work&lt;/h3>
+&lt;blockquote>
+&lt;p>What has been done prior to this paper?&lt;/p>
+&lt;/blockquote>
+&lt;p>Work has been done understanding the usage of &amp;ldquo;micro packages&amp;rdquo;, or packages that
+accomplish a small functionality.&lt;/p>
+&lt;p>Work has been done to understand the server and client security vulnerabilities
+in JavaScript.&lt;/p>
+&lt;p>Work has been done to understand software ecosystems and to raise questions that
+need to be answered with respect to understanding the evolution of the
+ecosystems.&lt;/p>
+&lt;h3 id="figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/h3>
+&lt;blockquote>
+&lt;p>Are the axes properly labeled? Are results shown with error bars, so that
+conclusions are statistically significant?&lt;/p>
+&lt;/blockquote>
+&lt;p>All of the figures are clearly made, as well as well captioned.&lt;/p>
+&lt;h3 id="clarity">Clarity&lt;/h3>
+&lt;blockquote>
+&lt;p>Is the paper well written?&lt;/p>
+&lt;/blockquote>
+&lt;p>This paper is well written and dense. I do wonder if this paper could have been
+broken up into potentially two smaller papers. But at the same time, if the
+author&amp;rsquo;s were to do that, it might be hard to justify the overall contribution
+of the work per paper.&lt;/p>
+&lt;h3 id="relevant-work">Relevant Work&lt;/h3>
+&lt;blockquote>
+&lt;p>Mark relevant work for review&lt;/p>
+&lt;/blockquote>
+&lt;p>The following relevant work can be found in the &lt;a href="#citations">Citations&lt;/a> section
+of this article.&lt;/p>
+&lt;ul>
+&lt;li>Revisiting software ecosystems research: A longitudinal literature study [2]&lt;/li>
+&lt;li>Challenges in software ecosystems research [3]&lt;/li>
+&lt;li>An ecosystem and socio-technical view on software maintenance and evolution
+[4]&lt;/li>
+&lt;li>A look at the dynamics of the JavaScript package ecosystem [5]&lt;/li>
+&lt;li>Structure and evolution of package dependency networks [6]&lt;/li>
+&lt;li>An empirical comparison of dependency network evolution in seven software
+packaging ecosystems [7]&lt;/li>
+&lt;li>The evolution of the R software ecosystem [8]&lt;/li>
+&lt;li>The evolution of project inter-dependencies in a software ecosystem: The case
+of Apache [9]&lt;/li>
+&lt;li>Gentoo package dependencies over time [10]&lt;/li>
+&lt;/ul>
+&lt;h3 id="methodology">Methodology&lt;/h3>
+&lt;blockquote>
+&lt;p>What methodology did the author&amp;rsquo;s use to validate their contributions?&lt;/p>
+&lt;/blockquote>
+&lt;p>The author&amp;rsquo;s used &lt;code>npm&lt;/code> package metadata from 2011 to April of 2018 to generate
+several graphs of how packages are related to one another. Following this, they
+then utilized graph metrics to measure the potential vulnerabilities &lt;code>npm&lt;/code> is
+exposed to, as well as the actual reach of vulnerable packages within &lt;code>npm&lt;/code>.
+Additionally, they utilized the package metadata to visualize and understand the
+growth of &lt;code>npm&lt;/code> year over year. They utilized these metrics to understand how
+potentially dangerous their proposed threat models are to engineers who use
+&lt;code>npm&lt;/code>.&lt;/p>
+&lt;h3 id="author-assumptions">Author Assumptions&lt;/h3>
+&lt;blockquote>
+&lt;p>What assumptions does the author(s) make? Are they justified assumptions?&lt;/p>
+&lt;/blockquote>
+&lt;p>The author&amp;rsquo;s assume that all proposed threat models are of the same concern. For
+some engineers, different models can be of different levels of concern.&lt;/p>
+&lt;h4 id="correctness">Correctness&lt;/h4>
+&lt;blockquote>
+&lt;p>Do the assumptions seem valid?&lt;/p>
+&lt;/blockquote>
+&lt;p>Yes, as this would have involved a survey of engineers to understand&lt;/p>
+&lt;h3 id="future-directions">Future Directions&lt;/h3>
+&lt;blockquote>
+&lt;p>My own proposed future directions for the work&lt;/p>
+&lt;/blockquote>
+&lt;p>While the study of &lt;code>npm&lt;/code> is useful as it is the world&amp;rsquo;s largest software package
+ecosystem, I&amp;rsquo;d like to apply the metrics implemented in this work to
+understanding PTM software ecosystems, such as Hugging Face and PyTorch Hub.&lt;/p>
+&lt;h3 id="open-questions">Open Questions&lt;/h3>
+&lt;blockquote>
+&lt;p>What open questions do I have about the work?&lt;/p>
+&lt;/blockquote>
+&lt;p>Will the author&amp;rsquo;s perform a survey to understand if developers feel like the
+proposed threat models are feasible?&lt;/p>
+&lt;p>What is the &lt;code>npm&lt;/code> community&amp;rsquo;s opinion on reducing the number of micro packages
+hosted on &lt;code>npm&lt;/code>?&lt;/p>
+&lt;h3 id="author-feedback">Author Feedback&lt;/h3>
+&lt;blockquote>
+&lt;p>What feedback would I give to the authors?&lt;/p>
+&lt;/blockquote>
+&lt;p>This work is very interesting and allows for easy expansion and exploration into
+other software ecosystems. I suggest to make their graphs publicly available, as
+well as to submit the graph to services such as Snyk so that they can further
+analyze the data for security concerns (if they haven&amp;rsquo;t already).&lt;/p>
+&lt;hr>
+&lt;h2 id="summary">Summary&lt;/h2>
+&lt;blockquote>
+&lt;p>A summary of the paper&lt;/p>
+&lt;/blockquote>
+&lt;p>The paper &lt;em>Small World with High Risks: A Study of Security Threats in the npm
+Ecosystem&lt;/em> by Markus Zimmermann et al. [1] was a large scale study on &lt;code>npm&lt;/code>
+packages and package dependencies taken from 2011 to April 2018. This study was
+done to understand the various different threat models that exist on &lt;code>npm&lt;/code> as
+well as to understand how &lt;code>npm&lt;/code> has evolved. By studying the evolution of &lt;code>npm&lt;/code>,
+the author&amp;rsquo;s were able to analyze the growth of potentially vulnerable software
+that can be affected by the proposed threat models. These threat models target
+the underlying software package supply chain, and as &lt;code>npm&lt;/code> is considered to be a
+small world (packages are tightly coupled to one another often resulting in long
+chains), their are high risks involved when a single package is compromised, as
+potentially countless more are affected by it.&lt;/p>
+&lt;p>The author&amp;rsquo;s main contributions were (taken from the paper):&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-md" data-lang="md">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">-&lt;/span> Installing an average npm package introduces an implicit trust on 79
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>third-party packages and 39 maintainers, creating a surprisingly large attack
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>surface.
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">-&lt;/span> Highly popular packages directly or indirectly influence many other packages
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>(often more than 100,000) and are thus potential targets for injecting malware.
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">-&lt;/span> Some maintainers have an impact on hundreds of thousands of packages. As a
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>result, a very small number of compromised maintainer accounts suffices to
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>inject malware into the majority of all packages.
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">-&lt;/span> The influence of individual packages and maintainers has been continuously
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>growing over the past few years, aggravating the risk of malware injection
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>attacks.
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">-&lt;/span> A significant percentage (up to 40%) of all packages depend on code with at
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>least one publicly known vulnerability.
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>In addition, they propose several different mitigations for their proposed
+threat models. These include:&lt;/p>
+&lt;ul>
+&lt;li>a vetting process to create &amp;ldquo;trusted&amp;rdquo; maintainers&lt;/li>
+&lt;li>a vetting process to analyze newly contributed code of specific packages&lt;/li>
+&lt;/ul>
+&lt;p>If both process were to be created for a single package, that package would be
+considered to have, &amp;ldquo;perfect first-party security&amp;rdquo;. And if this was to be
+extended to all transitive packages of that sole package, then it would be
+considered to have &amp;ldquo;perfect third-party security&amp;rdquo; If both of the considerations
+were to be met, then the package would be considered to be a &amp;ldquo;fully secured
+package&amp;rdquo;.&lt;/p>
+&lt;p>The threat models that the author&amp;rsquo;s identified were:&lt;/p>
+&lt;ul>
+&lt;li>Malicious packages&lt;/li>
+&lt;li>Exploiting Unmaintained Legacy Code&lt;/li>
+&lt;li>Package Takeover&lt;/li>
+&lt;li>Account Takeover&lt;/li>
+&lt;li>Collusion Attacks&lt;/li>
+&lt;/ul>
+&lt;p>They found that:&lt;/p>
+&lt;ul>
+&lt;li>The number of maintainers on &lt;code>npm&lt;/code> is growing significantly slower than the
+number of released packages. In other words, maintainers are creating more and
+more packages and are there by creating a larger and larger threat space for
+an attacker to execute an Account or Package Takeover attack.&lt;/li>
+&lt;li>That packages on &lt;code>npm&lt;/code> have a linear growth of direct dependencies, but a
+super linear growth of transitive dependencies&lt;/li>
+&lt;li>That the average package reach is growing at an exponential rate year over
+year&lt;/li>
+&lt;li>That there is growth in implicitly trusting maintainers&lt;/li>
+&lt;li>That there is fairly linear growth in the number of unpatched advisories year
+over year&lt;/li>
+&lt;li>That the rate at which published vulnerabilities per 10,000 packages has been
+rapidly increasing year over year.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="summarization-technique">Summarization Technique&lt;/h2>
+&lt;p>This paper was summarized using a modified technique proposed by S. Keshav in
+his work &lt;em>How to Read a Paper&lt;/em> [0].&lt;/p>
+&lt;h2 id="citations">Citations&lt;/h2>
+Citations availible at https://nsynovic.dev/summaries/small-world-with-high-risks-a-study-of-security-threats-in-the-npm-ecosystem/</description></item><item><title>A summary of "What are Weak Links in the npm Supply Chain?", by Nusrat Zahan et al.</title><link>https://nsynovic.dev/summaries/what-are-weak-links-in-the-npm-supply-chain/</link><pubDate>Mon, 31 Oct 2022 09:50:49 -0500</pubDate><guid>https://nsynovic.dev/summaries/what-are-weak-links-in-the-npm-supply-chain/</guid><description>&lt;h1 id="a-summary-of-what-are-weak-links-in-the-npm-supply-chain">A summary of &lt;em>&amp;ldquo;What are Weak Links in the npm Supply Chain?&amp;rdquo;&lt;/em>&lt;/h1>
 &lt;blockquote>
 &lt;p>Nusrat Zahan et al.; Proceedings of ICSE-SEIP 2022;
 &lt;a href="https://doi.org/10.1145/3510457.3513044">DOI&lt;/a>&lt;/p>

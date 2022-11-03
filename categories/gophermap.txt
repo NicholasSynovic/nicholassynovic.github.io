@@ -142,8 +142,6 @@
 
 1Supply Chain Security	/categories/supply-chain-security
 
-1summary	/categories/summary
-
 1Software Ecosystem	/categories/software-ecosystem
 
 1npm	/categories/npm
@@ -151,6 +149,12 @@
 1ICSE-SEIP	/categories/icse-seip
 
 12022	/categories/2022
+
+1USENIX Security Symposium	/categories/usenix-security-symposium
+
+1summary	/categories/summary
+
+12019	/categories/2019
 
 
 .

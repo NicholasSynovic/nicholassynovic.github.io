@@ -1,0 +1,12 @@
+  ____           _
+ |  _ \ ___  ___| |_ ___
+ | |_) / _ \/ __| __/ __|
+ |  __/ (_) \__ \ |_\__ \
+ |_|   \___/|___/\__|___/
+> These posts are mirrored from my HTTP site.
+
+
+1A summary of Small World with High Risks: A Study of Security Threats in the npm Ecosystem by Markus Zimmermann et al.	/summaries/small-world-with-high-risks-a-study-of-security-threats-in-the-npm-ecosystem
+
+
+.
