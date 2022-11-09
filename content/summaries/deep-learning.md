@@ -67,9 +67,9 @@ This paper discusses the usage of deep learning (DL) models and how they have
 led to improvements in speech recognition, visual object recognition, object
 detection, drug discovery, and genomics. It talks about how these models are
 created, what type of models are typically applied to what domains, and the
-usage of the backpropogation algorithm to train the model. Additionally, a
-discussion about the usage of Recurent Neural Networks (RNNs) and their benefits
-is had.
+usage of the backpropagation algorithm to train the model. Additionally, a
+discussion about the usage of Recurrent Neural Networks (RNNs) and their
+benefits is had.
 
 ### Motivation
 
@@ -95,7 +95,7 @@ purposes of understanding what the current SOTA techniques for a problem are.
 
 > What are the author's main contributions?
 
-Thier main contribution is a discussion of DL, its usages, RNNs, and a general
+Their main contribution is a discussion of DL, its usages, RNNs, and a general
 summary of the SOTA DL techniques for different problem domains.
 
 ______________________________________________________________________
@@ -149,7 +149,7 @@ the future than supervised learning.
 > Do the assumptions seem valid?
 
 Potentially. Unsupervised learning presents problems and challenges not explored
-in this paper, and is therfore treated as the next logical evolution of
+in this paper, and is therefore treated as the next logical evolution of
 techniques, rather than a series of unknowns and problems that need to be solved
 first.
 
