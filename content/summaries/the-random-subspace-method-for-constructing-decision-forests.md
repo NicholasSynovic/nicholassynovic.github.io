@@ -149,10 +149,10 @@ of this article.
 4. D. Heath, S. Kasif, and S. Salzberg, “*Induction of Oblique Decision Trees*,”
    Proc. 13th Int’l Joint Conf. Artificial Intelligence, vol. 2, pp.
    1,002-1,007, Chambery, France, 28 Aug.-3 Sept. 1993.
-5. T.K. Ho, “Random Decision Forests,” Proc. Third Int’l Conf. Document Analysis
-   and Recognition, pp. 278-282, Montreal, Canada, 14-18 Aug. 1995.
-6. T.K. Ho, “C4.5 Decision Forests,” Proc. 14th Int’l Conf. Pattern Recognition,
-   Brisbane, Australia, 17-20 Aug. 1998.
+5. T.K. Ho, “*Random Decision Forests*,” Proc. Third Int’l Conf. Document
+   Analysis and Recognition, pp. 278-282, Montreal, Canada, 14-18 Aug. 1995.
+6. T.K. Ho, “*C4.5 Decision Forests*,” Proc. 14th Int’l Conf. Pattern
+   Recognition, Brisbane, Australia, 17-20 Aug. 1998.
 
 ### Methodology
 
