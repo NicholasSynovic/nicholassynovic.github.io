@@ -6,7 +6,12 @@ summary: Posted in Nature, 2015
 categories: [summary, Pattern recognition, decision tree, decision forest, stochastic
       discrimination, decision combination, classifier combination, multiple-classifier
       system, bootstrapping, Nature, 2015]
-citations: [https://doi.org/10.1145/1273445.1273458, https://doi.org/10.1038/nature14539]
+citations: [https://doi.org/10.1145/1273445.1273458, https://doi.org/10.1038/nature14539,
+  https://doi.org/10.1145/3065386, https://doi.org/10.1109/MSP.2012.2205597, https://proceedings.neurips.cc/paper/2014/hash/a14ac55a4f27472c5d894ec1c3c743d2-Abstract.html,
+  https://proceedings.mlr.press/v15/glorot11a.html, https://doi.org/10.1162/neco.2006.18.7.1527,
+  https://proceedings.neurips.cc/paper/2006/hash/5da713a690c067105aeb2fae32403405-Abstract.html,
+  https://proceedings.neurips.cc/paper/1989/hash/53c3bce66e43be4f209556518c2fcb54-Abstract.html,
+  https://doi.org/10.1109/5.726791, https://doi.org/10.1162/neco.1997.9.8.1735]
 
 draft: false
 
@@ -22,7 +27,7 @@ show_reading_time: true
 
 # A summary of *Deep Learning*
 
-> Yann LeCunn et al., Nature, 2015 [DOI](https://doi.org/10.1038/nature14539)
+> Yann LeCunn et al, Nature, 2015 [DOI](https://doi.org/10.1038/nature14539)
 
 For the summary of the paper, go to the [Summary](#summary) section of this
 article.
@@ -130,6 +135,30 @@ This paper is well written.
 The following relevant work can be found in the [Citations](#citations) section
 of this article.
 
+02. Krizhevsky, A., Sutskever, I. & Hinton, G. *ImageNet classification with
+    deep convolutional neural networks.* In Proc. Advances in Neural Information
+    Processing Systems 25 1090–1098 (2012).
+03. Hinton, G. et al. *Deep neural networks for acoustic modeling in speech*
+    recognition. IEEE Signal Processing Magazine 29, 82–97 (2012).
+04. Sutskever, I. Vinyals, O. & Le. Q. V. *Sequence to sequence learning with
+    neural* networks. In Proc. Advances in Neural Information Processing Systems
+    27 3104–3112 (2014)
+05. Glorot, X., Bordes, A. & Bengio. Y. *Deep sparse rectifier neural networks.*
+    In Proc. 14th International Conference on Artificial Intelligence and
+    Statistics 315–323 (2011).
+06. Hinton, G. E., Osindero, S. & Teh, Y.-W. *A fast learning algorithm for deep
+    belief nets*. Neural Comp. 18, 1527–1554 (2006).
+07. Bengio, Y., Lamblin, P., Popovici, D. & Larochelle, H. *Greedy layer-wise
+    training of deep networks.* In Proc. Advances in Neural Information
+    Processing Systems 19 153–160 (2006).
+08. LeCun, Y. et al. *Handwritten digit recognition with a back-propagation
+    network.* In Proc. Advances in Neural Information Processing Systems 396–404
+    (1990).
+09. LeCun, Y., Bottou, L., Bengio, Y. & Haffner, P. G*radient-based learning
+    applied to document recognition*. Proc. IEEE 86, 2278–2324 (1998).
+10. Hochreiter, S. & Schmidhuber, J. *Long short-term memory*. Neural Comput. 9,
+    1735–1780 (1997).
+
 ### Methodology
 
 > What methodology did the author's use to validate their contributions?
@@ -179,6 +208,38 @@ ______________________________________________________________________
 ## Summary
 
 > A summary of the paper
+
+The review paper *Deep Learning* by Yann LeCun et al \[1\]. discusses the
+advances and advantages of deep learning (DL) techniques made up to 2015. The
+authors discuss what is DL, how and where it is applied, commercial and academic
+usages of DL, the advantages of merging two different architectures together to
+solve challenging tasks, and the usage of Recurrent Neural Networks (RNNs) for
+handling natural language processing and speech recognition tasks. As their
+paper is purely a listing of work that others have done prior to them, their
+contributions were mostly the synthesis of such information into a digestible
+document. With that said, each section of their work can be summarized, which is
+what I have done here.
+
+DL allows for machine learning to surpass its previous limitations of having to
+manually represent data in a suitable internal representation (through feature
+extraction) by learning the representation itself. Current DL models are
+typically trained using labeled datasets in what is known as supervised
+learning. A sub-set of the data is used for training, which when ran through the
+model, adjusts the hidden weights. These weights are adjusted using a technique
+called stochastic gradient descent (SGD). SGD is accomplished by working
+backwards through the model and taking the derivative of each weight which is
+then used to adjust the hidden weights. Algorithms to do this include `tanh(x)`
+and `ReLU`. `ReLU` is the most popular algorithm for this task which is more
+commonly known as backpropagation.
+
+Convolutional neural networks (ConvNets) are useful for analyzing data
+structured as a series of multi-dimensional arrays. A typical application of
+ConvNets are for analyzing images. RNNs are useful for analyzing data that is
+dependent upon prior understanding. Chat bots, speech recognition, and answering
+questions about data (i.e where is a character in a book?) are all problems that
+are reliant upon the model having some sort of "memory". Memory solutions
+include `long short-term memory` which has been useful for accomplishing these
+tasks.
 
 ______________________________________________________________________
 
