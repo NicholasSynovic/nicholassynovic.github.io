@@ -22,7 +22,7 @@ show_reading_time: true
 
 # A summary of *Deep Learning*
 
-> Yann LeCunn Nature, 2015 [DOI](https://doi.org/10.1038/nature14539)
+> Yann LeCunn et al., Nature, 2015 [DOI](https://doi.org/10.1038/nature14539)
 
 For the summary of the paper, go to the [Summary](#summary) section of this
 article.
