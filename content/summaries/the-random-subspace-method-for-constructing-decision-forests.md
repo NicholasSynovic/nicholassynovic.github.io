@@ -76,7 +76,7 @@ This paper addresses the problem of decision tree forest construction.
 > Why should we care about this paper?
 
 We should care about this paper as it compares eight forest construction
-algorithms against the author's alogorithm on publicly availible datasets. This
+algorithms against the author's algorithm on publicly available datasets. This
 allows the reader to understand the pros and cons of using a particular
 algorithm over another as well as validating the author's claims. Furthermore,
 this algorithm can monotonically increase in generalization accuracy while
@@ -101,8 +101,8 @@ forests.
 
 Her main contributions were:
 
-- An efficent algorithm for generating decision trees
-- A comparison of 8 forest construction algorithms on publicly availible
+- An efficient algorithm for generating decision trees
+- A comparison of 8 forest construction algorithms on publicly available
   datasets
 
 ______________________________________________________________________
@@ -132,7 +132,7 @@ Additionally, figure 1 is difficult to tell what is supposed to represented.
 > Is the paper well written?
 
 I found this work hard to follow. I think that this is due to me not
-understanding the problem domain, rather than her explainations.
+understanding the problem domain, rather than her explanations.
 
 ### Relevant Work
 
@@ -161,7 +161,7 @@ of this article.
 The author compared the performance of different forest generation methods
 against her own generation method. The different forest generation methods were:
 
-- Single feature split wtih best gain ratio
+- Single feature split with best gain ratio
 - Distribution mapping
 - Class centroids
 - Unsupervised clustering
@@ -200,8 +200,8 @@ When would I ever use a decision tree over a SVM or DL model?
 
 > What feedback would I give to the authors?
 
-I'd appreciate the usage of color to seperate different lines on the figures.
-Additionally (and this could be due to the limited availible citation), please
+I'd appreciate the usage of color to separate different lines on the figures.
+Additionally (and this could be due to the limited available citation), please
 reduce the number of self-citations in future works.
 
 ______________________________________________________________________
@@ -211,10 +211,10 @@ ______________________________________________________________________
 > A summary of the paper
 
 The paper *The Random Subspace Method for Constructing Decision Forests* by Tin
-Kam Ho \[1\] discusses a method of generating many decision trees efficently
+Kam Ho \[1\] discusses a method of generating many decision trees efficiently
 without affecting accuracy. She validates this method by comparing it against
-eight other forest construction methods, all on publicly availible datasets. The
-benefits of her work is that it is parellizable; meaning that with some tuning
+eight other forest construction methods, all on publicly available datasets. The
+benefits of her work is that it is parallelized; meaning that with some tuning
 to the algorithm, it can run on multiple CPU cores or threads (potentially even
 faster on GPU cores).
 
