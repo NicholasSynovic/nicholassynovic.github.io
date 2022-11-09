@@ -6,7 +6,7 @@
 > These posts are mirrored from my HTTP site.
 
 
-1A summary of Deep Learning by Yann LeCun et al,	/summaries/deep-learning
+1A summary of The Random Subspace Method for Constructing Decision Forests by Tin Kam Ho	/summaries/the-random-subspace-method-for-constructing-decision-forests
 
 
 .

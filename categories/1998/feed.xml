@@ -1,4 +1,197 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>1998 on Nicholas M. Synovic</title><link>https://nsynovic.dev/categories/1998/</link><description>Recent content in 1998 on Nicholas M. Synovic</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Nicholas M. Synovic</copyright><lastBuildDate>Mon, 24 Oct 2022 13:46:36 -0500</lastBuildDate><atom:link href="https://nsynovic.dev/categories/1998/feed.xml" rel="self" type="application/rss+xml"/><item><title>A summary of How to implement SVMs by John Platt</title><link>https://nsynovic.dev/summaries/how-to-implement-svms/</link><pubDate>Mon, 24 Oct 2022 13:46:36 -0500</pubDate><guid>https://nsynovic.dev/summaries/how-to-implement-svms/</guid><description>&lt;h1 id="a-summary-of-how-to-implement-svms">A summary of &lt;em>How to implement SVMs&lt;/em>&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>1998 on Nicholas M. Synovic</title><link>https://nsynovic.dev/categories/1998/</link><description>Recent content in 1998 on Nicholas M. Synovic</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Nicholas M. Synovic</copyright><lastBuildDate>Wed, 09 Nov 2022 15:17:53 -0600</lastBuildDate><atom:link href="https://nsynovic.dev/categories/1998/feed.xml" rel="self" type="application/rss+xml"/><item><title>A summary of The Random Subspace Method for Constructing Decision Forests by Tin Kam Ho</title><link>https://nsynovic.dev/summaries/the-random-subspace-method-for-constructing-decision-forests/</link><pubDate>Wed, 09 Nov 2022 15:17:53 -0600</pubDate><guid>https://nsynovic.dev/summaries/the-random-subspace-method-for-constructing-decision-forests/</guid><description>&lt;h1 id="a-summary-of-the-random-subspace-method-for-constructing-decision-forests">A summary of &lt;em>The Random Subspace Method for Constructing Decision Forests&lt;/em>&lt;/h1>
+&lt;blockquote>
+&lt;p>Tin Kam Ho, IEEE TRANSACTIONS ON PATTERN ANALYSIS AND MACHINE INTELLIGENCE,
+1998 &lt;a href="https://doi.org/10.1109/34.709601">DOI&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;p>For the summary of the paper, go to the &lt;a href="#summary">Summary&lt;/a> section of this
+article.&lt;/p>
+&lt;h2 id="table-of-contents">Table of Contents&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="#a-summary-of-the-random-subspace-method-for-constructing-decision-forests">A summary of &lt;em>The Random Subspace Method for Constructing Decision Forests&lt;/em>&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#table-of-contents">Table of Contents&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#first-pass">First Pass&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#problem">Problem&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#motivation">Motivation&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#category">Category&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#context">Context&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#contributions">Contributions&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#second-pass">Second Pass&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#background-work">Background Work&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#clarity">Clarity&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#relevant-work">Relevant Work&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#methodology">Methodology&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#author-assumptions">Author Assumptions&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#correctness">Correctness&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#future-directions">Future Directions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#open-questions">Open Questions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#author-feedback">Author Feedback&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#summary">Summary&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#summarization-technique">Summarization Technique&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#citations">Citations&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="first-pass">First Pass&lt;/h2>
+&lt;blockquote>
+&lt;p>Read the title, abstract, introduction, section and sub-section headings, and
+conclusion&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="problem">Problem&lt;/h3>
+&lt;blockquote>
+&lt;p>What is the problem addressed in the paper?&lt;/p>
+&lt;/blockquote>
+&lt;p>This paper addresses the problem of decision tree forest construction.&lt;/p>
+&lt;h3 id="motivation">Motivation&lt;/h3>
+&lt;blockquote>
+&lt;p>Why should we care about this paper?&lt;/p>
+&lt;/blockquote>
+&lt;p>We should care about this paper as it compares eight forest construction
+algorithms against the author&amp;rsquo;s algorithm on publicly available datasets. This
+allows the reader to understand the pros and cons of using a particular
+algorithm over another as well as validating the author&amp;rsquo;s claims. Furthermore,
+this algorithm can monotonically increase in generalization accuracy while
+preserving perfect accuracy.&lt;/p>
+&lt;h3 id="category">Category&lt;/h3>
+&lt;blockquote>
+&lt;p>What type of paper is this work?&lt;/p>
+&lt;/blockquote>
+&lt;p>This is an algorithms paper.&lt;/p>
+&lt;h3 id="context">Context&lt;/h3>
+&lt;blockquote>
+&lt;p>What other &lt;em>types&lt;/em> of papers is the work related to?&lt;/p>
+&lt;/blockquote>
+&lt;p>This paper is related to papers that present ways of constructing random
+forests.&lt;/p>
+&lt;h3 id="contributions">Contributions&lt;/h3>
+&lt;blockquote>
+&lt;p>What are the author&amp;rsquo;s main contributions?&lt;/p>
+&lt;/blockquote>
+&lt;p>Her main contributions were:&lt;/p>
+&lt;ul>
+&lt;li>An efficient algorithm for generating decision trees&lt;/li>
+&lt;li>A comparison of 8 forest construction algorithms on publicly available
+datasets&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="second-pass">Second Pass&lt;/h2>
+&lt;blockquote>
+&lt;p>A proper read through of the paper is required to answer this&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="background-work">Background Work&lt;/h3>
+&lt;blockquote>
+&lt;p>What has been done prior to this paper?&lt;/p>
+&lt;/blockquote>
+&lt;p>Work has been done before to describe what decision trees are, as well as how to
+generate many of them for the purposes of classification.&lt;/p>
+&lt;h3 id="figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/h3>
+&lt;blockquote>
+&lt;p>Are the axes properly labeled? Are results shown with error bars, so that
+conclusions are statistically significant?&lt;/p>
+&lt;/blockquote>
+&lt;p>All of the tables are clear and easy to read. However, all of the line charts
+are difficult to read as each line is the same color in my copy of the paper.
+Additionally, figure 1 is difficult to tell what is supposed to represented.&lt;/p>
+&lt;h3 id="clarity">Clarity&lt;/h3>
+&lt;blockquote>
+&lt;p>Is the paper well written?&lt;/p>
+&lt;/blockquote>
+&lt;p>I found this work hard to follow. I think that this is due to me not
+understanding the problem domain, rather than her explanations.&lt;/p>
+&lt;h3 id="relevant-work">Relevant Work&lt;/h3>
+&lt;blockquote>
+&lt;p>Mark relevant work for review&lt;/p>
+&lt;/blockquote>
+&lt;p>The following relevant work can be found in the &lt;a href="#citations">Citations&lt;/a> section
+of this article.&lt;/p>
+&lt;ol start="2">
+&lt;li>Y. Amit, D. Geman, and K. Wilder, “&lt;em>Joint Induction of Shape Features and
+Tree Classifiers&lt;/em>,” IEEE Trans. Pattern Analysis and Machine Intelligence,
+vol. 19, no. 11, pp. 1,300-1,305, Nov. 1997&lt;/li>
+&lt;li>L. Breiman, J.H. Friedman, R.A. Olshen, and C.J. Stone, &lt;em>Classification and
+Regression Trees&lt;/em>. Belmont, Calif.: Wadsworth, 1984&lt;/li>
+&lt;li>D. Heath, S. Kasif, and S. Salzberg, “&lt;em>Induction of Oblique Decision Trees&lt;/em>,”
+Proc. 13th Int’l Joint Conf. Artificial Intelligence, vol. 2, pp.
+1,002-1,007, Chambery, France, 28 Aug.-3 Sept. 1993.&lt;/li>
+&lt;li>T.K. Ho, “Random Decision Forests,” Proc. Third Int’l Conf. Document Analysis
+and Recognition, pp. 278-282, Montreal, Canada, 14-18 Aug. 1995.&lt;/li>
+&lt;li>T.K. Ho, “C4.5 Decision Forests,” Proc. 14th Int’l Conf. Pattern Recognition,
+Brisbane, Australia, 17-20 Aug. 1998.&lt;/li>
+&lt;/ol>
+&lt;h3 id="methodology">Methodology&lt;/h3>
+&lt;blockquote>
+&lt;p>What methodology did the author&amp;rsquo;s use to validate their contributions?&lt;/p>
+&lt;/blockquote>
+&lt;p>The author compared the performance of different forest generation methods
+against her own generation method. The different forest generation methods were:&lt;/p>
+&lt;ul>
+&lt;li>Single feature split with best gain ratio&lt;/li>
+&lt;li>Distribution mapping&lt;/li>
+&lt;li>Class centroids&lt;/li>
+&lt;li>Unsupervised clustering&lt;/li>
+&lt;li>Supervised clustering&lt;/li>
+&lt;li>Central axis projection&lt;/li>
+&lt;li>Perceptron&lt;/li>
+&lt;li>Support Vector Machine&lt;/li>
+&lt;/ul>
+&lt;h3 id="author-assumptions">Author Assumptions&lt;/h3>
+&lt;blockquote>
+&lt;p>What assumptions does the author(s) make? Are they justified assumptions?&lt;/p>
+&lt;/blockquote>
+&lt;p>The author assumes that the reader has worked with decision trees prior to
+reading.&lt;/p>
+&lt;h4 id="correctness">Correctness&lt;/h4>
+&lt;blockquote>
+&lt;p>Do the assumptions seem valid?&lt;/p>
+&lt;/blockquote>
+&lt;p>Yes.&lt;/p>
+&lt;h3 id="future-directions">Future Directions&lt;/h3>
+&lt;blockquote>
+&lt;p>My own proposed future directions for the work&lt;/p>
+&lt;/blockquote>
+&lt;p>I&amp;rsquo;d like to learn more about decision trees and compare them against Deep
+Learning models.&lt;/p>
+&lt;h3 id="open-questions">Open Questions&lt;/h3>
+&lt;blockquote>
+&lt;p>What open questions do I have about the work?&lt;/p>
+&lt;/blockquote>
+&lt;p>When would I ever use a decision tree over a SVM or DL model?&lt;/p>
+&lt;h3 id="author-feedback">Author Feedback&lt;/h3>
+&lt;blockquote>
+&lt;p>What feedback would I give to the authors?&lt;/p>
+&lt;/blockquote>
+&lt;p>I&amp;rsquo;d appreciate the usage of color to separate different lines on the figures.
+Additionally (and this could be due to the limited available citation), please
+reduce the number of self-citations in future works.&lt;/p>
+&lt;hr>
+&lt;h2 id="summary">Summary&lt;/h2>
+&lt;blockquote>
+&lt;p>A summary of the paper&lt;/p>
+&lt;/blockquote>
+&lt;p>The paper &lt;em>The Random Subspace Method for Constructing Decision Forests&lt;/em> by Tin
+Kam Ho [1] discusses a method of generating many decision trees efficiently
+without affecting accuracy. She validates this method by comparing it against
+eight other forest construction methods, all on publicly available datasets. The
+benefits of her work is that it is parallelized; meaning that with some tuning
+to the algorithm, it can run on multiple CPU cores or threads (potentially even
+faster on GPU cores).&lt;/p>
+&lt;hr>
+&lt;h2 id="summarization-technique">Summarization Technique&lt;/h2>
+&lt;p>This paper was summarized using a modified technique proposed by S. Keshav in
+his work &lt;em>How to Read a Paper&lt;/em> [0].&lt;/p>
+&lt;h2 id="citations">Citations&lt;/h2>
+Citations availible at https://nsynovic.dev/summaries/the-random-subspace-method-for-constructing-decision-forests/</description></item><item><title>A summary of How to implement SVMs by John Platt</title><link>https://nsynovic.dev/summaries/how-to-implement-svms/</link><pubDate>Mon, 24 Oct 2022 13:46:36 -0500</pubDate><guid>https://nsynovic.dev/summaries/how-to-implement-svms/</guid><description>&lt;h1 id="a-summary-of-how-to-implement-svms">A summary of &lt;em>How to implement SVMs&lt;/em>&lt;/h1>
 &lt;blockquote>
 &lt;p>John Platt; &lt;a href="https://doi.ieeecomputersociety.org/10.1109/5254.708428">DOI&lt;/a>&lt;/p>
 &lt;/blockquote>

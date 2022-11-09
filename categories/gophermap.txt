@@ -104,8 +104,6 @@
 
 1CV	/categories/cv
 
-11998	/categories/1998
-
 1object detection	/categories/object-detection
 
 1DL	/categories/dl
@@ -152,13 +150,15 @@
 
 12019	/categories/2019
 
+1Nature	/categories/nature
+
+12015	/categories/2015
+
 1summary	/categories/summary
 
 1stochastic discrimination	/categories/stochastic-discrimination
 
 1Pattern recognition	/categories/pattern-recognition
-
-1Nature	/categories/nature
 
 1multiple-classifier system	/categories/multiple-classifier-system
 
@@ -172,7 +172,7 @@
 
 1bootstrapping	/categories/bootstrapping
 
-12015	/categories/2015
+11998	/categories/1998
 
 
 .

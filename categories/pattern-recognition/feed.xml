@@ -1,12 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pattern recognition on Nicholas M. Synovic</title><link>https://nsynovic.dev/categories/pattern-recognition/</link><description>Recent content in Pattern recognition on Nicholas M. Synovic</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Nicholas M. Synovic</copyright><lastBuildDate>Tue, 08 Nov 2022 12:55:10 -0600</lastBuildDate><atom:link href="https://nsynovic.dev/categories/pattern-recognition/feed.xml" rel="self" type="application/rss+xml"/><item><title>A summary of Deep Learning by Yann LeCun et al,</title><link>https://nsynovic.dev/summaries/deep-learning/</link><pubDate>Tue, 08 Nov 2022 12:55:10 -0600</pubDate><guid>https://nsynovic.dev/summaries/deep-learning/</guid><description>&lt;h1 id="a-summary-of-deep-learning">A summary of &lt;em>Deep Learning&lt;/em>&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pattern recognition on Nicholas M. Synovic</title><link>https://nsynovic.dev/categories/pattern-recognition/</link><description>Recent content in Pattern recognition on Nicholas M. Synovic</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Nicholas M. Synovic</copyright><lastBuildDate>Wed, 09 Nov 2022 15:17:53 -0600</lastBuildDate><atom:link href="https://nsynovic.dev/categories/pattern-recognition/feed.xml" rel="self" type="application/rss+xml"/><item><title>A summary of The Random Subspace Method for Constructing Decision Forests by Tin Kam Ho</title><link>https://nsynovic.dev/summaries/the-random-subspace-method-for-constructing-decision-forests/</link><pubDate>Wed, 09 Nov 2022 15:17:53 -0600</pubDate><guid>https://nsynovic.dev/summaries/the-random-subspace-method-for-constructing-decision-forests/</guid><description>&lt;h1 id="a-summary-of-the-random-subspace-method-for-constructing-decision-forests">A summary of &lt;em>The Random Subspace Method for Constructing Decision Forests&lt;/em>&lt;/h1>
 &lt;blockquote>
-&lt;p>Yann LeCunn et al, Nature, 2015 &lt;a href="https://doi.org/10.1038/nature14539">DOI&lt;/a>&lt;/p>
+&lt;p>Tin Kam Ho, IEEE TRANSACTIONS ON PATTERN ANALYSIS AND MACHINE INTELLIGENCE,
+1998 &lt;a href="https://doi.org/10.1109/34.709601">DOI&lt;/a>&lt;/p>
 &lt;/blockquote>
 &lt;p>For the summary of the paper, go to the &lt;a href="#summary">Summary&lt;/a> section of this
 article.&lt;/p>
 &lt;h2 id="table-of-contents">Table of Contents&lt;/h2>
 &lt;ul>
-&lt;li>&lt;a href="#a-summary-of-deep-learning">A summary of &lt;em>Deep Learning&lt;/em>&lt;/a>
+&lt;li>&lt;a href="#a-summary-of-the-random-subspace-method-for-constructing-decision-forests">A summary of &lt;em>The Random Subspace Method for Constructing Decision Forests&lt;/em>&lt;/a>
 &lt;ul>
 &lt;li>&lt;a href="#table-of-contents">Table of Contents&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#first-pass">First Pass&lt;/a>
@@ -51,36 +52,38 @@ conclusion&lt;/p>
 &lt;blockquote>
 &lt;p>What is the problem addressed in the paper?&lt;/p>
 &lt;/blockquote>
-&lt;p>This paper discusses the usage of deep learning (DL) models and how they have
-led to improvements in speech recognition, visual object recognition, object
-detection, drug discovery, and genomics. It talks about how these models are
-created, what type of models are typically applied to what domains, and the
-usage of the backpropagation algorithm to train the model. Additionally, a
-discussion about the usage of Recurrent Neural Networks (RNNs) and their
-benefits is had.&lt;/p>
+&lt;p>This paper addresses the problem of decision tree forest construction.&lt;/p>
 &lt;h3 id="motivation">Motivation&lt;/h3>
 &lt;blockquote>
 &lt;p>Why should we care about this paper?&lt;/p>
 &lt;/blockquote>
-&lt;p>We should care about this paper as it is a review of different DL techniques for
-different problem domains.&lt;/p>
+&lt;p>We should care about this paper as it compares eight forest construction
+algorithms against the author&amp;rsquo;s algorithm on publicly available datasets. This
+allows the reader to understand the pros and cons of using a particular
+algorithm over another as well as validating the author&amp;rsquo;s claims. Furthermore,
+this algorithm can monotonically increase in generalization accuracy while
+preserving perfect accuracy.&lt;/p>
 &lt;h3 id="category">Category&lt;/h3>
 &lt;blockquote>
 &lt;p>What type of paper is this work?&lt;/p>
 &lt;/blockquote>
-&lt;p>This paper is a literary review paper.&lt;/p>
+&lt;p>This is an algorithms paper.&lt;/p>
 &lt;h3 id="context">Context&lt;/h3>
 &lt;blockquote>
 &lt;p>What other &lt;em>types&lt;/em> of papers is the work related to?&lt;/p>
 &lt;/blockquote>
-&lt;p>It is closest related to papers that summarize a body of literature for the
-purposes of understanding what the current SOTA techniques for a problem are.&lt;/p>
+&lt;p>This paper is related to papers that present ways of constructing random
+forests.&lt;/p>
 &lt;h3 id="contributions">Contributions&lt;/h3>
 &lt;blockquote>
 &lt;p>What are the author&amp;rsquo;s main contributions?&lt;/p>
 &lt;/blockquote>
-&lt;p>Their main contribution is a discussion of DL, its usages, RNNs, and a general
-summary of the SOTA DL techniques for different problem domains.&lt;/p>
+&lt;p>Her main contributions were:&lt;/p>
+&lt;ul>
+&lt;li>An efficient algorithm for generating decision trees&lt;/li>
+&lt;li>A comparison of 8 forest construction algorithms on publicly available
+datasets&lt;/li>
+&lt;/ul>
 &lt;hr>
 &lt;h2 id="second-pass">Second Pass&lt;/h2>
 &lt;blockquote>
@@ -90,18 +93,22 @@ summary of the SOTA DL techniques for different problem domains.&lt;/p>
 &lt;blockquote>
 &lt;p>What has been done prior to this paper?&lt;/p>
 &lt;/blockquote>
-&lt;p>Work has been done to develop DL and RNN techniques.&lt;/p>
+&lt;p>Work has been done before to describe what decision trees are, as well as how to
+generate many of them for the purposes of classification.&lt;/p>
 &lt;h3 id="figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/h3>
 &lt;blockquote>
 &lt;p>Are the axes properly labeled? Are results shown with error bars, so that
 conclusions are statistically significant?&lt;/p>
 &lt;/blockquote>
-&lt;p>All of the figures are clear and easy to understand.&lt;/p>
+&lt;p>All of the tables are clear and easy to read. However, all of the line charts
+are difficult to read as each line is the same color in my copy of the paper.
+Additionally, figure 1 is difficult to tell what is supposed to represented.&lt;/p>
 &lt;h3 id="clarity">Clarity&lt;/h3>
 &lt;blockquote>
 &lt;p>Is the paper well written?&lt;/p>
 &lt;/blockquote>
-&lt;p>This paper is well written.&lt;/p>
+&lt;p>I found this work hard to follow. I think that this is due to me not
+understanding the problem domain, rather than her explanations.&lt;/p>
 &lt;h3 id="relevant-work">Relevant Work&lt;/h3>
 &lt;blockquote>
 &lt;p>Mark relevant work for review&lt;/p>
@@ -109,105 +116,79 @@ conclusions are statistically significant?&lt;/p>
 &lt;p>The following relevant work can be found in the &lt;a href="#citations">Citations&lt;/a> section
 of this article.&lt;/p>
 &lt;ol start="2">
-&lt;li>Krizhevsky, A., Sutskever, I. &amp;amp; Hinton, G. &lt;em>ImageNet classification with
-deep convolutional neural networks.&lt;/em> In Proc. Advances in Neural Information
-Processing Systems 25 1090–1098 (2012).&lt;/li>
-&lt;li>Hinton, G. et al. &lt;em>Deep neural networks for acoustic modeling in speech&lt;/em>
-recognition. IEEE Signal Processing Magazine 29, 82–97 (2012).&lt;/li>
-&lt;li>Sutskever, I. Vinyals, O. &amp;amp; Le. Q. V. &lt;em>Sequence to sequence learning with
-neural&lt;/em> networks. In Proc. Advances in Neural Information Processing Systems
-27 3104–3112 (2014)&lt;/li>
-&lt;li>Glorot, X., Bordes, A. &amp;amp; Bengio. Y. &lt;em>Deep sparse rectifier neural networks.&lt;/em>
-In Proc. 14th International Conference on Artificial Intelligence and
-Statistics 315–323 (2011).&lt;/li>
-&lt;li>Hinton, G. E., Osindero, S. &amp;amp; Teh, Y.-W. &lt;em>A fast learning algorithm for deep
-belief nets&lt;/em>. Neural Comp. 18, 1527–1554 (2006).&lt;/li>
-&lt;li>Bengio, Y., Lamblin, P., Popovici, D. &amp;amp; Larochelle, H. &lt;em>Greedy layer-wise
-training of deep networks.&lt;/em> In Proc. Advances in Neural Information
-Processing Systems 19 153–160 (2006).&lt;/li>
-&lt;li>LeCun, Y. et al. &lt;em>Handwritten digit recognition with a back-propagation
-network.&lt;/em> In Proc. Advances in Neural Information Processing Systems 396–404
-(1990).&lt;/li>
-&lt;li>LeCun, Y., Bottou, L., Bengio, Y. &amp;amp; Haffner, P. G&lt;em>radient-based learning
-applied to document recognition&lt;/em>. Proc. IEEE 86, 2278–2324 (1998).&lt;/li>
-&lt;li>Hochreiter, S. &amp;amp; Schmidhuber, J. &lt;em>Long short-term memory&lt;/em>. Neural Comput. 9,
-1735–1780 (1997).&lt;/li>
+&lt;li>Y. Amit, D. Geman, and K. Wilder, “&lt;em>Joint Induction of Shape Features and
+Tree Classifiers&lt;/em>,” IEEE Trans. Pattern Analysis and Machine Intelligence,
+vol. 19, no. 11, pp. 1,300-1,305, Nov. 1997&lt;/li>
+&lt;li>L. Breiman, J.H. Friedman, R.A. Olshen, and C.J. Stone, &lt;em>Classification and
+Regression Trees&lt;/em>. Belmont, Calif.: Wadsworth, 1984&lt;/li>
+&lt;li>D. Heath, S. Kasif, and S. Salzberg, “&lt;em>Induction of Oblique Decision Trees&lt;/em>,”
+Proc. 13th Int’l Joint Conf. Artificial Intelligence, vol. 2, pp.
+1,002-1,007, Chambery, France, 28 Aug.-3 Sept. 1993.&lt;/li>
+&lt;li>T.K. Ho, “Random Decision Forests,” Proc. Third Int’l Conf. Document Analysis
+and Recognition, pp. 278-282, Montreal, Canada, 14-18 Aug. 1995.&lt;/li>
+&lt;li>T.K. Ho, “C4.5 Decision Forests,” Proc. 14th Int’l Conf. Pattern Recognition,
+Brisbane, Australia, 17-20 Aug. 1998.&lt;/li>
 &lt;/ol>
 &lt;h3 id="methodology">Methodology&lt;/h3>
 &lt;blockquote>
 &lt;p>What methodology did the author&amp;rsquo;s use to validate their contributions?&lt;/p>
 &lt;/blockquote>
-&lt;p>The author&amp;rsquo;s of this paper reviewed literary sources for examples and usage of
-DL and RNN techniques applied to different problem domains.&lt;/p>
+&lt;p>The author compared the performance of different forest generation methods
+against her own generation method. The different forest generation methods were:&lt;/p>
+&lt;ul>
+&lt;li>Single feature split with best gain ratio&lt;/li>
+&lt;li>Distribution mapping&lt;/li>
+&lt;li>Class centroids&lt;/li>
+&lt;li>Unsupervised clustering&lt;/li>
+&lt;li>Supervised clustering&lt;/li>
+&lt;li>Central axis projection&lt;/li>
+&lt;li>Perceptron&lt;/li>
+&lt;li>Support Vector Machine&lt;/li>
+&lt;/ul>
 &lt;h3 id="author-assumptions">Author Assumptions&lt;/h3>
 &lt;blockquote>
 &lt;p>What assumptions does the author(s) make? Are they justified assumptions?&lt;/p>
 &lt;/blockquote>
-&lt;p>The author&amp;rsquo;s assume that unsupervised learning will become far more important in
-the future than supervised learning.&lt;/p>
+&lt;p>The author assumes that the reader has worked with decision trees prior to
+reading.&lt;/p>
 &lt;h4 id="correctness">Correctness&lt;/h4>
 &lt;blockquote>
 &lt;p>Do the assumptions seem valid?&lt;/p>
 &lt;/blockquote>
-&lt;p>Potentially. Unsupervised learning presents problems and challenges not explored
-in this paper, and is therefore treated as the next logical evolution of
-techniques, rather than a series of unknowns and problems that need to be solved
-first.&lt;/p>
+&lt;p>Yes.&lt;/p>
 &lt;h3 id="future-directions">Future Directions&lt;/h3>
 &lt;blockquote>
 &lt;p>My own proposed future directions for the work&lt;/p>
 &lt;/blockquote>
-&lt;p>I&amp;rsquo;d like to implement the different DL techniques to the suggested problem
-domains presented in this paper.&lt;/p>
+&lt;p>I&amp;rsquo;d like to learn more about decision trees and compare them against Deep
+Learning models.&lt;/p>
 &lt;h3 id="open-questions">Open Questions&lt;/h3>
 &lt;blockquote>
 &lt;p>What open questions do I have about the work?&lt;/p>
 &lt;/blockquote>
-&lt;p>Why wasn&amp;rsquo;t a discussion about Generative Adversarial Networks (GANs) not had in
-this work? What are the performance differences of the presented loss functions?&lt;/p>
+&lt;p>When would I ever use a decision tree over a SVM or DL model?&lt;/p>
 &lt;h3 id="author-feedback">Author Feedback&lt;/h3>
 &lt;blockquote>
 &lt;p>What feedback would I give to the authors?&lt;/p>
 &lt;/blockquote>
-&lt;p>Overall, a pretty good paper. A follow up paper on unsupervised learning would
-be nice to read.&lt;/p>
+&lt;p>I&amp;rsquo;d appreciate the usage of color to separate different lines on the figures.
+Additionally (and this could be due to the limited available citation), please
+reduce the number of self-citations in future works.&lt;/p>
 &lt;hr>
 &lt;h2 id="summary">Summary&lt;/h2>
 &lt;blockquote>
 &lt;p>A summary of the paper&lt;/p>
 &lt;/blockquote>
-&lt;p>The review paper &lt;em>Deep Learning&lt;/em> by Yann LeCun et al [1]. discusses the
-advances and advantages of deep learning (DL) techniques made up to 2015. The
-authors discuss what is DL, how and where it is applied, commercial and academic
-usages of DL, the advantages of merging two different architectures together to
-solve challenging tasks, and the usage of Recurrent Neural Networks (RNNs) for
-handling natural language processing and speech recognition tasks. As their
-paper is purely a listing of work that others have done prior to them, their
-contributions were mostly the synthesis of such information into a digestible
-document. With that said, each section of their work can be summarized, which is
-what I have done here.&lt;/p>
-&lt;p>DL allows for machine learning to surpass its previous limitations of having to
-manually represent data in a suitable internal representation (through feature
-extraction) by learning the representation itself. Current DL models are
-typically trained using labeled datasets in what is known as supervised
-learning. A sub-set of the data is used for training, which when ran through the
-model, adjusts the hidden weights. These weights are adjusted using a technique
-called stochastic gradient descent (SGD). SGD is accomplished by working
-backwards through the model and taking the derivative of each weight which is
-then used to adjust the hidden weights. Algorithms to do this include &lt;code>tanh(x)&lt;/code>
-and &lt;code>ReLU&lt;/code>. &lt;code>ReLU&lt;/code> is the most popular algorithm for this task which is more
-commonly known as backpropagation.&lt;/p>
-&lt;p>Convolutional neural networks (ConvNets) are useful for analyzing data
-structured as a series of multi-dimensional arrays. A typical application of
-ConvNets are for analyzing images. RNNs are useful for analyzing data that is
-dependent upon prior understanding. Chat bots, speech recognition, and answering
-questions about data (i.e where is a character in a book?) are all problems that
-are reliant upon the model having some sort of &amp;ldquo;memory&amp;rdquo;. Memory solutions
-include &lt;code>long short-term memory&lt;/code> which has been useful for accomplishing these
-tasks.&lt;/p>
+&lt;p>The paper &lt;em>The Random Subspace Method for Constructing Decision Forests&lt;/em> by Tin
+Kam Ho [1] discusses a method of generating many decision trees efficiently
+without affecting accuracy. She validates this method by comparing it against
+eight other forest construction methods, all on publicly available datasets. The
+benefits of her work is that it is parallelized; meaning that with some tuning
+to the algorithm, it can run on multiple CPU cores or threads (potentially even
+faster on GPU cores).&lt;/p>
 &lt;hr>
 &lt;h2 id="summarization-technique">Summarization Technique&lt;/h2>
 &lt;p>This paper was summarized using a modified technique proposed by S. Keshav in
 his work &lt;em>How to Read a Paper&lt;/em> [0].&lt;/p>
 &lt;h2 id="citations">Citations&lt;/h2>
-Citations availible at https://nsynovic.dev/summaries/deep-learning/</description></item></channel></rss>
+Citations availible at https://nsynovic.dev/summaries/the-random-subspace-method-for-constructing-decision-forests/</description></item></channel></rss>
