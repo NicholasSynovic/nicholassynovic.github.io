@@ -3,9 +3,7 @@ title: A summary of Deep Learning by Yann LeCun et al,
 description: Posted in Nature, 2015
 summary: Posted in Nature, 2015
 
-categories: [summary, Pattern recognition, decision tree, decision forest, stochastic
-      discrimination, decision combination, classifier combination, multiple-classifier
-      system, bootstrapping, Nature, 2015]
+categories: [summary, Nature, 2015]
 citations: [https://doi.org/10.1145/1273445.1273458, https://doi.org/10.1038/nature14539,
   https://doi.org/10.1145/3065386, https://doi.org/10.1109/MSP.2012.2205597, https://proceedings.neurips.cc/paper/2014/hash/a14ac55a4f27472c5d894ec1c3c743d2-Abstract.html,
   https://proceedings.mlr.press/v15/glorot11a.html, https://doi.org/10.1162/neco.2006.18.7.1527,
