@@ -6,6 +6,8 @@
 > These posts are mirrored from my HTTP site.
 
 
+1A summary of Deep Learning by Yann LeCun et al,	/summaries/deep-learning
+
 1A summary of Small World with High Risks: A Study of Security Threats in the npm Ecosystem by Markus Zimmermann et al.	/summaries/small-world-with-high-risks-a-study-of-security-threats-in-the-npm-ecosystem
 
 1A summary of "What are Weak Links in the npm Supply Chain?", by Nusrat Zahan et al.	/summaries/what-are-weak-links-in-the-npm-supply-chain

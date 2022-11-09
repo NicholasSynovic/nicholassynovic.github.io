@@ -6,6 +6,8 @@
 > These posts are mirrored from my HTTP site.
 
 
+1A summary of Deep Learning by Yann LeCun et al,	/summaries/deep-learning
+
 1A summary of Learning Deep Features for Discriminative Localization by Bolei Zhou et al.	/summaries/learning-deep-features-for-discriminative-localization
 
 1A summary of Very Deep Convolutional Networks for Large-Scale Image Recognition by Karen Simonyan and Andrew Zisserman	/summaries/very-deep-convolutional-networks-for-large-scale-image-recognition

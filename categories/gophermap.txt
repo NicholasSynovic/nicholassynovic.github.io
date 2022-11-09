@@ -118,8 +118,6 @@
 
 1arxiv	/categories/arxiv
 
-12015	/categories/2015
-
 1International Journal of Computer Vision	/categories/international-journal-of-computer-vision
 
 1human sensing	/categories/human-sensing
@@ -152,9 +150,29 @@
 
 1USENIX Security Symposium	/categories/usenix-security-symposium
 
+12019	/categories/2019
+
 1summary	/categories/summary
 
-12019	/categories/2019
+1stochastic discrimination	/categories/stochastic-discrimination
+
+1Pattern recognition	/categories/pattern-recognition
+
+1Nature	/categories/nature
+
+1multiple-classifier system	/categories/multiple-classifier-system
+
+1decision tree	/categories/decision-tree
+
+1decision forest	/categories/decision-forest
+
+1decision combination	/categories/decision-combination
+
+1classifier combination	/categories/classifier-combination
+
+1bootstrapping	/categories/bootstrapping
+
+12015	/categories/2015
 
 
 .
