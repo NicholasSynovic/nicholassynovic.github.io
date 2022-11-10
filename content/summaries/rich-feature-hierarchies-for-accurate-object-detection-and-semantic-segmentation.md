@@ -1,8 +1,8 @@
 ---
 title: A summary of Rich feature hierarchies for accurate object detection and semantic
   segmentation by Ross Girshick et al.
-description: Posted in the Proceecdings of CVPR, 2014
-summary: Posted in the Proceecdings of CVPR, 2014
+description: Posted in the Proceedings of CVPR, 2014
+summary: Posted in the Proceedings of CVPR, 2014
 
 categories: [summary, CVPR, 2014]
 citations: [https://doi.org/10.1145/1273445.1273458]
@@ -63,7 +63,7 @@ ______________________________________________________________________
 > What is the problem addressed in the paper?
 
 This paper aims to achieve SOTA object detection by using a combination of
-computer vision and deep learning techniques. This was choosen because object
+computer vision and deep learning techniques. This was chosen because object
 detection on the PASCAL VOC 2012 dataset results have stagnated for the past two
 years prior to publication.
 
@@ -71,7 +71,7 @@ years prior to publication.
 
 > Why should we care about this paper?
 
-We should care about this paper because the author's propose an efficent method
+We should care about this paper because the author's propose an efficient method
 for performing object detection while also being more accurate than previous
 results. Furthermore, they introduce the usage of fine-tuning a larger CV model
 on a domain specific task in order to achieve better performance.
@@ -125,7 +125,7 @@ All of the figures and tables are easy to read and are clear.
 > Is the paper well written?
 
 The paper is well written. It goes into great technical length about the
-attributes of hte model as well as how the model operates via an ablation study.
+attributes of the model as well as how the model operates via an ablation study.
 
 ### Relevant Work
 
@@ -134,7 +134,7 @@ attributes of hte model as well as how the model operates via an ablation study.
 The following relevant work can be found in the [Citations](#citations) section
 of this article.
 
-TODO
+TO DO
 
 ### Methodology
 
@@ -160,7 +160,7 @@ There were no assumptions that I could find.
 
 > My own proposed future directions for the work
 
-I know that this work is the predescessor to many works that expand and improve
+I know that this work is the predecessor to many works that expand and improve
 upon the R-CNN algorithm presented here. Therefore, I'd like to read those
 papers.
 
@@ -189,7 +189,7 @@ segmentation* by Ross Girshick et al. \[1\] introduces and evaluates the Region
 Convolutional Neural Network (R-CNN) on variations of the PASCAL VOC dataset for
 both object classification and semantic segmentation. They compare this
 algorithm against previous SOTA models on that dataset as well. Additionally,
-they perform an alabation study on their R-CNN model to understand how it works.
+they perform an alibation study on their R-CNN model to understand how it works.
 
 R-CNN works by using an ensemble approach. First, a DL model identifies regions
 of interest of an image. These regions can number up into the tens of thousands.
