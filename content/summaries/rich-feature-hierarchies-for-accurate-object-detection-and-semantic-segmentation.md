@@ -64,7 +64,7 @@ ______________________________________________________________________
 
 This paper aims to achieve SOTA object detection by using a combination of
 computer vision and deep learning techniques. This was choosen because object
-detection on the PASCAL VOC 2007 dataset results have stagnated for the past two
+detection on the PASCAL VOC 2012 dataset results have stagnated for the past two
 years prior to publication.
 
 ### Motivation
@@ -148,29 +148,57 @@ their model to understand how it works internally.
 
 > What assumptions does the author(s) make? Are they justified assumptions?
 
-The author
+The authors don't seem to make any assumptions.
 
 #### Correctness
 
 > Do the assumptions seem valid?
 
+There were no assumptions that I could find.
+
 ### Future Directions
 
 > My own proposed future directions for the work
+
+I know that this work is the predescessor to many works that expand and improve
+upon the R-CNN algorithm presented here. Therefore, I'd like to read those
+papers.
 
 ### Open Questions
 
 > What open questions do I have about the work?
 
+What is the performance of other region proposal algorithms when used in the
+R-CNN architecture?
+
 ### Author Feedback
 
 > What feedback would I give to the authors?
+
+This is a solid paper. I appreciate the alibation study conducted to understand
+the model.
 
 ______________________________________________________________________
 
 ## Summary
 
 > A summary of the paper
+
+The paper *Rich feature hierarchies for accurate object detection and semantic
+segmentation* by Ross Girshick et al. \[1\] introduces and evaluates the Region
+Convolutional Neural Network (R-CNN) on variations of the PASCAL VOC dataset for
+both object classification and semantic segmentation. They compare this
+algorithm against previous SOTA models on that dataset as well. Additionally,
+they perform an alabation study on their R-CNN model to understand how it works.
+
+R-CNN works by using an ensemble approach. First, a DL model identifies regions
+of interest of an image. These regions can number up into the tens of thousands.
+These regions are then warped to fit a 224 x 224 pixel image. From this new
+image, it is passed into a traditional CNN model for object detection or
+semantic segmentation. By performing this region analysis first, the authors
+reduce the amount of data that the CNN needs to process, and therefore increases
+performance. Furthermore, the author's pruned their R-CNN model and found that
+94% of parameters could be dropped post-training.
 
 ______________________________________________________________________
 
