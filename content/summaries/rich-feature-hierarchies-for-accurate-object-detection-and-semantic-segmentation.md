@@ -5,7 +5,8 @@ description: Posted in the Proceedings of CVPR, 2014
 summary: Posted in the Proceedings of CVPR, 2014
 
 categories: [summary, CVPR, 2014]
-citations: [https://doi.org/10.1145/1273445.1273458]
+citations: [https://doi.org/10.1145/1273445.1273458, https://openaccess.thecvf.com/content_cvpr_2014/html/Girshick_Rich_Feature_Hierarchies_2014_CVPR_paper.html,
+  https://doi.org/10.1109/CVPR.2005.177]
 
 draft: false
 
@@ -21,7 +22,8 @@ show_reading_time: true
 
 # A summary of *Rich feature hierarchies for accurate object detection and semantic segmentation*
 
-> Ross Girshick et al. CVPR, 2014 DOI
+> Ross Girshick et al. CVPR, 2014
+> [DOI](https://openaccess.thecvf.com/content_cvpr_2014/html/Girshick_Rich_Feature_Hierarchies_2014_CVPR_paper.html)
 
 For the summary of the paper, go to the [Summary](#summary) section of this
 article.
@@ -134,7 +136,8 @@ attributes of the model as well as how the model operates via an ablation study.
 The following relevant work can be found in the [Citations](#citations) section
 of this article.
 
-TO DO
+2. N. Dalal and B. Triggs. Histograms of oriented gradients for human detection.
+   In CVPR, 2005.
 
 ### Methodology
 
