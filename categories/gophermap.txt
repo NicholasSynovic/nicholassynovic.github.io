@@ -170,11 +170,11 @@
 
 11998	/categories/1998
 
-1summary	/categories/summary
-
 1CVPR	/categories/cvpr
 
 12014	/categories/2014
+
+1summary	/categories/summary
 
 
 .

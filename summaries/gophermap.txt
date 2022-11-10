@@ -6,6 +6,8 @@
 > These posts are mirrored from my HTTP site.
 
 
+1A summary of CHANGE ME by AUTHOR	/summaries/fast-r-cnn
+
 1A summary of Rich feature hierarchies for accurate object detection and semantic segmentation by Ross Girshick et al.	/summaries/rich-feature-hierarchies-for-accurate-object-detection-and-semantic-segmentation
 
 1A summary of The Random Subspace Method for Constructing Decision Forests by Tin Kam Ho	/summaries/the-random-subspace-method-for-constructing-decision-forests
