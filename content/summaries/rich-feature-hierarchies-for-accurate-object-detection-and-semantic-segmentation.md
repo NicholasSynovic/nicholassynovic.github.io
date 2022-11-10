@@ -6,7 +6,10 @@ summary: Posted in the Proceedings of CVPR, 2014
 
 categories: [summary, CVPR, 2014]
 citations: [https://doi.org/10.1145/1273445.1273458, https://openaccess.thecvf.com/content_cvpr_2014/html/Girshick_Rich_Feature_Hierarchies_2014_CVPR_paper.html,
-  https://doi.org/10.1109/CVPR.2005.177]
+  https://doi.org/10.1109/CVPR.2005.177, https://doi.org/10.1109/TPAMI.2012.28, https://doi.org/10.1007/s11263-013-0620-5,
+  https://doi.org/10.1007/978-3-642-15555-0_42, https://doi.org/10.1109/TPAMI.2011.231,
+  https://openaccess.thecvf.com/content_cvpr_2014/html/Arbelaez_Multiscale_Combinatorial_Grouping_2014_CVPR_paper.html,
+  https://doi.org/10.1007/978-3-642-40763-5_51]
 
 draft: false
 
@@ -136,8 +139,21 @@ attributes of the model as well as how the model operates via an ablation study.
 The following relevant work can be found in the [Citations](#citations) section
 of this article.
 
-2. N. Dalal and B. Triggs. Histograms of oriented gradients for human detection.
-   In CVPR, 2005.
+2. N. Dalal and B. Triggs. *Histograms of oriented gradients for human
+   detection*. In CVPR, 2005.
+3. B. Alexe, T. Deselaers, and V. Ferrari. *Measuring the objectness of image
+   windows*. TPAMI, 2012.
+4. J. Uijlings, K. van de Sande, T. Gevers, and A. Smeulders. *Selective search
+   for object recognition*. IJCV, 2013.
+5. I. Endres and D. Hoiem. *Category independent object proposals*. In ECCV,
+   2010\.
+6. J. Carreira and C. Sminchisescu. *CPMC: Automatic object segmentation using
+   constrained parametric min-cuts*. TPAMI, 2012.
+7. P. Arbel´aez, J. Pont-Tuset, J. Barron, F. Marques, and J. Malik. *Multiscale
+   combinatorial grouping*. In CVPR, 2014.
+8. D. Cires¸an, A. Giusti, L. Gambardella, and J. Schmidhuber. *Mitosis
+   detection in breast cancer histology images with deep neural networks*. In
+   MICCAI, 2013.
 
 ### Methodology
 
