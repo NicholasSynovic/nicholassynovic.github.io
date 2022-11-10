@@ -8,7 +8,5 @@
 
 1A summary of Rich feature hierarchies for accurate object detection and semantic segmentation by Ross Girshick et al.	/summaries/rich-feature-hierarchies-for-accurate-object-detection-and-semantic-segmentation
 
-1A summary of Going deeper with convolutions by Christian Szegedy et al.	/summaries/going-deeper-with-convolutions
-
 
 .
