@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>CVPR on Nicholas M. Synovic</title><link>https://nsynovic.dev/categories/cvpr/</link><description>Recent content in CVPR on Nicholas M. Synovic</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Nicholas M. Synovic</copyright><lastBuildDate>Thu, 10 Nov 2022 10:05:51 -0600</lastBuildDate><atom:link href="https://nsynovic.dev/categories/cvpr/feed.xml" rel="self" type="application/rss+xml"/><item><title>A summary of Rich feature hierarchies for accurate object detection and semantic segmentation by Ross Girshick et al.</title><link>https://nsynovic.dev/summaries/rich-feature-hierarchies-for-accurate-object-detection-and-semantic-segmentation/</link><pubDate>Thu, 10 Nov 2022 10:05:51 -0600</pubDate><guid>https://nsynovic.dev/summaries/rich-feature-hierarchies-for-accurate-object-detection-and-semantic-segmentation/</guid><description>&lt;h1 id="a-summary-of-rich-feature-hierarchies-for-accurate-object-detection-and-semantic-segmentation">A summary of &lt;em>Rich feature hierarchies for accurate object detection and semantic segmentation&lt;/em>&lt;/h1>
 &lt;blockquote>
-&lt;p>Ross Girshick et al. CVPR, 2014 DOI&lt;/p>
+&lt;p>Ross Girshick et al. CVPR, 2014
+&lt;a href="https://openaccess.thecvf.com/content_cvpr_2014/html/Girshick_Rich_Feature_Hierarchies_2014_CVPR_paper.html">DOI&lt;/a>&lt;/p>
 &lt;/blockquote>
 &lt;p>For the summary of the paper, go to the &lt;a href="#summary">Summary&lt;/a> section of this
 article.&lt;/p>
@@ -113,7 +114,10 @@ attributes of the model as well as how the model operates via an ablation study.
 &lt;/blockquote>
 &lt;p>The following relevant work can be found in the &lt;a href="#citations">Citations&lt;/a> section
 of this article.&lt;/p>
-&lt;p>TO DO&lt;/p>
+&lt;ol start="2">
+&lt;li>N. Dalal and B. Triggs. Histograms of oriented gradients for human detection.
+In CVPR, 2005.&lt;/li>
+&lt;/ol>
 &lt;h3 id="methodology">Methodology&lt;/h3>
 &lt;blockquote>
 &lt;p>What methodology did the author&amp;rsquo;s use to validate their contributions?&lt;/p>
