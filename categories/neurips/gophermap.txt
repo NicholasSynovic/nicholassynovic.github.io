@@ -1,0 +1,12 @@
+  ____           _
+ |  _ \ ___  ___| |_ ___
+ | |_) / _ \/ __| __/ __|
+ |  __/ (_) \__ \ |_\__ \
+ |_|   \___/|___/\__|___/
+> These posts are mirrored from my HTTP site.
+
+
+1A summary of Hidden Technical Debt in Machine Learning Systems by D. Sculley et al.	/summaries/hidden-technical-debt-in-machine-learning-systems
+
+
+.

@@ -150,8 +150,6 @@
 
 1Nature	/categories/nature
 
-12015	/categories/2015
-
 1stochastic discrimination	/categories/stochastic-discrimination
 
 1Pattern recognition	/categories/pattern-recognition
@@ -175,6 +173,10 @@
 12014	/categories/2014
 
 1summary	/categories/summary
+
+1NeurIPS	/categories/neurips
+
+12015	/categories/2015
 
 
 .

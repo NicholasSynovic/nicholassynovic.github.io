@@ -115,8 +115,21 @@ attributes of the model as well as how the model operates via an ablation study.
 &lt;p>The following relevant work can be found in the &lt;a href="#citations">Citations&lt;/a> section
 of this article.&lt;/p>
 &lt;ol start="2">
-&lt;li>N. Dalal and B. Triggs. Histograms of oriented gradients for human detection.
-In CVPR, 2005.&lt;/li>
+&lt;li>N. Dalal and B. Triggs. &lt;em>Histograms of oriented gradients for human
+detection&lt;/em>. In CVPR, 2005.&lt;/li>
+&lt;li>B. Alexe, T. Deselaers, and V. Ferrari. &lt;em>Measuring the objectness of image
+windows&lt;/em>. TPAMI, 2012.&lt;/li>
+&lt;li>J. Uijlings, K. van de Sande, T. Gevers, and A. Smeulders. &lt;em>Selective search
+for object recognition&lt;/em>. IJCV, 2013.&lt;/li>
+&lt;li>I. Endres and D. Hoiem. &lt;em>Category independent object proposals&lt;/em>. In ECCV,
+2010.&lt;/li>
+&lt;li>J. Carreira and C. Sminchisescu. &lt;em>CPMC: Automatic object segmentation using
+constrained parametric min-cuts&lt;/em>. TPAMI, 2012.&lt;/li>
+&lt;li>P. Arbel´aez, J. Pont-Tuset, J. Barron, F. Marques, and J. Malik. &lt;em>Multiscale
+combinatorial grouping&lt;/em>. In CVPR, 2014.&lt;/li>
+&lt;li>D. Cires¸an, A. Giusti, L. Gambardella, and J. Schmidhuber. &lt;em>Mitosis
+detection in breast cancer histology images with deep neural networks&lt;/em>. In
+MICCAI, 2013.&lt;/li>
 &lt;/ol>
 &lt;h3 id="methodology">Methodology&lt;/h3>
 &lt;blockquote>
