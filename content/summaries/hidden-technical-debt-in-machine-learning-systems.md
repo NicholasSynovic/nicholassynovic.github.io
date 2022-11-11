@@ -49,7 +49,6 @@ article.
     - [Open Questions](#open-questions)
     - [Author Feedback](#author-feedback)
   - [Summary](#summary)
-  - [- *Cultural Debt*: Difficulty re-using academic research in industry](#--cultural-debt-difficulty-re-using-academic-research-in-industry)
   - [Summarization Technique](#summarization-technique)
   - [Citations](#citations)
 
@@ -156,6 +155,23 @@ of this article.
 4. . Langford and T. Zhang. *The epoch-greedy algorithm for multi-armed bandits
    with side information*. In Advances in neural information processing systems,
    pages 817–824, 2008.
+5. T. M. Chilimbi, Y. Suzue, J. Apacible, and K. Kalyanaraman. *Project adam:
+   Building an efficient and scalable deep learning training system*. In 11th
+   USENIX Symposium on Operating Systems Design and Implementation, OSDI ’14,
+   Broomfield, CO, USA, October 6-8, 2014., pages 571–582, 2014.
+6. B. Dalessandro, D. Chen, T. Raeder, C. Perlich, M. Han Williams, and F.
+   Provost. *Scalable hands free transfer learning for online advertising*. In
+   Proceedings of the 20th ACM SIGKDD international conference on Knowledge
+   discovery and data mining, pages 1573–1582. ACM, 2014.
+7. M. Li, D. G. Andersen, J. W. Park, A. J. Smola, A. Ahmed, V. Josifovski, J.
+   Long, E. J. Shekita, and B. Su. Scaling distributed machine learning with the
+   parameter server. In 11th USENIX Symposium on Operating Systems Design and
+   Implementation, OSDI ’14, Broomfield, CO, USA, October 6-8, 2014., pages
+   583–598, 2014.
+8. D. Sculley, M. E. Otey, M. Pohl, B. Spitznagel, J. Hainsworth, and Y. Zhou.
+   Detecting adversarial advertisements in the wild. In Proceedings of the 17th
+   ACM SIGKDD International Conference on Knowledge Discovery and Data Mining,
+   San Diego, CA, USA, August 21-24, 2011, 2011
 
 ### Methodology
 
