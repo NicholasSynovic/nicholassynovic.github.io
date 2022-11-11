@@ -76,8 +76,8 @@ not.
 
 > Why should we care about this paper?
 
-Because this paper aims at estabilishing definitions for potential technical
-debt that can be incurred while developing machine learning systems.
+Because this paper aims at establishing definitions for potential technical debt
+that can be incurred while developing machine learning systems.
 
 ### Category
 
@@ -132,7 +132,7 @@ system anti-patterns.
 > conclusions are statistically significant?
 
 There is one figure in this paper. While the visualization works, the usage of a
-grayscale image makes it difficult to read the text.
+gray scale image makes it difficult to read the text.
 
 ### Clarity
 
@@ -234,7 +234,7 @@ ______________________________________________________________________
 The paper *Hidden Technical Debt in Machine Learning Systems* by D. Sculley et
 al. \[1\] presents potential technical debt considerations that ML engineers
 need to consider when developing ML systems. These considerations stem both from
-experience as well as traditional software engineering technincal debt.
+experience as well as traditional software engineering technical debt.
 Furthermore, they pose several questions that engineers should ask when taking
 on technical debt.
 
@@ -246,7 +246,7 @@ These questions are:
 - Does improving one model or signal degrade others?
 - How quickly can new members of the team be brought up to speed?
 
-The authors defined several areas where technical debt can acrue:
+The authors defined several areas where technical debt can accrue:
 
 - **Model Boundary Erosion**
   - *Entanglement*: CACE principle (Changing Anything Changes Everything) which
@@ -256,7 +256,7 @@ The authors defined several areas where technical debt can acrue:
     architecture
   - *Undeclared Consumers*: Similar to visibility debt \[2\]; creates tight and
     hidden coupling to the model which if changed, could affect the wider system
-- **Data Dependencies**: Static analisys of data dependencies could resolve this
+- **Data Dependencies**: Static analysis of data dependencies could resolve this
   \[3\]
   - *Unstable Data Dependencies*: Some data signals change qualitatively or
     quantitatively over time. Therefore, improving input signals to the system
@@ -274,7 +274,7 @@ The authors defined several areas where technical debt can acrue:
       correlated features, one of which is causal (important) and the other
       non-causal (not important)
 - **Feedback Loops**
-  - *Direct Feeback Loops*: A model may directly influence the selection if its
+  - *Direct Feedback Loops*: A model may directly influence the selection if its
     own future training data based on the decisions it makes
   - *Hidden Feedback Loops*: Two systems may influence each other indirectly by
     affecting the sources of their data
@@ -290,7 +290,7 @@ The authors defined several areas where technical debt can acrue:
     - `Multiple-(Programming) Language Smell`
     - `Prototype Smell`
 - **Configuration Debt**
-  - Taken verbatum from the paper:
+  - Taken verbatim from the paper:
 
 ```md
 • It should be easy to specify a configuration as a small change from a previous configuration.
@@ -303,8 +303,8 @@ number of features used, transitive closure of data dependencies, etc.
 ```
 
 - **A Changing External World**
-  - *Fixed Threshold in Dynamic Systems*: Manually selecing a decision threshold
-    that a system has to abide by.
+  - *Fixed Threshold in Dynamic Systems*: Manually selecting a decision
+    threshold that a system has to abide by.
   - *Monitoring and Testing*: "Comprehensive live monitoring of system behavior
     in real time combined with automated response is critical for long-term
     system reliability"
