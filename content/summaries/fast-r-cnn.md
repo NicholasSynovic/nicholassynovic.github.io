@@ -9,7 +9,7 @@ categories: [summary, Training, Proposals, Feature extraction, Object detection,
   Computer architecture, Open source software, 2015, CVPR]
 citations: [https://doi.org/10.1145/1273445.1273458, https://openaccess.thecvf.com/content_iccv_2015/html/Girshick_Fast_R-CNN_ICCV_2015_paper.html]
 
-draft: false
+draft: true
 
 date: 2022-11-10T15:18:13-06:00
 featured_image: ''
