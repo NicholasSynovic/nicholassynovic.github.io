@@ -6,9 +6,9 @@ summary: Posted in the International Journal of Computer Vision, 2004
 
 categories: [summary, ICJV, 2004, invariant features, object recognition, scale invariance,
   image matching]
-citations: [https://doi.org/10.1145/1273445.1273458, https://doi.org/10.1023/B:VISI.0000029664.99615.94]
+citations: [https://doi.org/10.1145/1273445.1273458, https://doi.org/10.1023/B:VISI.0000029664.99615.94, https://ece631web.groups.et.byu.net/References/Invariant%20features%20from%20interest%20point%20groups.pdf, https://doi.org/10.1007/3-540-47969-4_19, https://doi.org/10.1109/TPAMI.1984.4767500, https://doi.org/10.1109/CVPR.2003.1211479, https://www.eng.tau.ac.il/~cvapps/Supplement/[%201988%20]%20A%20Combind%20Corner%20Aand%20Edge%20Detector.pdf, https://doi.org/10.1007/BF00336961]
 
-draft: true
+draft: false
 
 date: 2022-11-18T20:47:39-06:00
 featured_image: ''
@@ -191,7 +191,9 @@ usage.
 
 While I can't say that image retrieval is of much interest to me, I would like
 to explore how to perform object detection or image recognition using this
-feature extractor.
+feature extractor. Additionally, it would be really cool to see if I could
+utilize this feature extractor on low powered devices for the purposes of image
+classification.
 
 ### Open Questions
 
@@ -199,7 +201,9 @@ feature extractor.
 
 The `Background` section of this paper mentioned the usage of feature detectors
 for motion capture. Is that possible with this feature extractor? What does that
-space look like today vs 2004 vs 1990s?
+space look like today vs 2004 vs 1990s? What would happen if I trained a Deep
+Learning model on SIFT features? Could I get a comparable output to a CNN with
+respect to image classification (for example)?
 
 ### Author Feedback
 
@@ -215,6 +219,17 @@ ______________________________________________________________________
 ## Summary
 
 > A summary of the paper
+
+The paper *Distinctive Image Features from Scale-Invariant Keypoints* by David
+G. Lowe \[1\] presents a novel image feature extractor called Scale Invarient
+Feature Transform (SIFT). SIFT is an algorithm to extract features from an image
+that are invarient (do not change) to scale and rotation. These features can be
+used to perform image retrieval and object recognition by utililizing nearest
+neighbor algorithms such as KNN or ANN.
+
+This summary was kept short as I have been sitting on this summary for well over
+two weeks now with no progress and just want to get something out. Sorry for the
+berevity and weak summary.
 
 ______________________________________________________________________
 
