@@ -64,7 +64,7 @@ ______________________________________________________________________
 
 > What is the problem addressed in the paper?
 
-This paper aims to address image matching challenges by finding scale invarient
+This paper aims to address image matching challenges by finding scale invariant
 features from images. These features perform well against images that are
 subject to blurring and noise.
 
@@ -73,17 +73,17 @@ subject to blurring and noise.
 > Why should we care about this paper?
 
 We should care about this paper as it presents an efficient method for
-generating image featrues that are invariant to scale and rotation changes. This
+generating image features that are invariant to scale and rotation changes. This
 allows for images to be taken in arbitrary locations and at different locations
 to then be matched with similar objects in a different image. In other words, it
-presents an effiecient way of generating image features that can be used to
+presents an efficient way of generating image features that can be used to
 compare how similar two images are regardless of scale and rotation differences.
 
 ### Category
 
 > What type of paper is this work?
 
-This is an algorithms paper focused on image matching and retireval.
+This is an algorithms paper focused on image matching and retrieval.
 
 ### Context
 
@@ -96,7 +96,7 @@ matching and retrieval techniques.
 
 > What are the author's main contributions?
 
-Their main contributions were a methodology for extracting scale invarient image
+Their main contributions were a methodology for extracting scale invariant image
 features as well as methods for comparing features between images for the
 purposes of image matching and retrieval.
 
@@ -121,7 +121,7 @@ be used to compare one image against another.
 > Are the axes properly labeled? Are results shown with error bars, so that
 > conclusions are statistically significant?
 
-All of the figures are clearly labelled. I do find the lines on the line charts
+All of the figures are clearly labeled. I do find the lines on the line charts
 are a bit difficult to distinguish due to the usage of a tight dashed line. But
 that's on me, not the paper.
 
@@ -131,7 +131,7 @@ that's on me, not the paper.
 
 The paper is well written, if a bit dense. There is an argument to be made that
 this paper is two papers in one. One about a novel feature extraction technique,
-and a second about image retreival with the usage of feature extractors.
+and a second about image retrieval with the usage of feature extractors.
 
 ### Relevant Work
 
@@ -144,13 +144,13 @@ of this article.
    In British Machine Vision Conference, Cardiff, Wales, pp. 656–665.
 3. Carneiro, G. and Jepson, A.D. 2002. Phase-based local features. In European
    Conference on Computer Vision (ECCV), Copenhagen, Denmark, pp. 282–296.
-4. Crowley,J.L.andParker,A.C.1984.Arepresentationforshapebased on peaks and
+4. Crowley,J.L.and Parker,A.C.1984.Arepresentationforshapebased on peaks and
    ridges in the difference of low-pass transform. IEEE Trans. on Pattern
    Analysis and Machine Intelligence, 6(2):156–170.
 5. Fergus, R., Perona, P., and Zisserman, A. 2003. Object class recognition by
    unsupervised scale-invariant learning. In IEEE Conference on Computer Vision
    and Pattern Recognition, Madison, Wisconsin, pp. 264–271.
-6. Harris,C.andStephens,M.1988.A combined corner and edge detector. In Fourth
+6. Harris,C.and Stephens,M.1988.A combined corner and edge detector. In Fourth
    Alvey Vision Conference, Manchester, UK, pp. 147–151.
 7. Koenderink, J.J. 1984. The structure of images. Biological Cybernetics,
    50:363–396.
@@ -163,7 +163,7 @@ For their feature extractor, they created a dataset of images and their
 features, then performed transformations on images present in the dataset to
 generate new features. With these variables, they were able to measure the
 performance of their feature extractor and how well it was able to identify
-invarient features. With respect to their testing on object recognition and
+invariant features. With respect to their testing on object recognition and
 image retrieval, they utilized K Nearest Neighbor (KNN) algorithms to accomplish
 this.
 
@@ -210,7 +210,7 @@ respect to image classification (for example)?
 > What feedback would I give to the authors?
 
 This is a great paper that introduces a novel technique for performing feature
-extraction. However, it is a bit dense and could've been split into two seperate
+extraction. However, it is a bit dense and could've been split into two separate
 papers. One being an algorithms paper presenting the feature extractor, and
 another being a case study of feature extractor performance on many tasks.
 
@@ -221,15 +221,15 @@ ______________________________________________________________________
 > A summary of the paper
 
 The paper *Distinctive Image Features from Scale-Invariant Keypoints* by David
-G. Lowe \[1\] presents a novel image feature extractor called Scale Invarient
+G. Lowe \[1\] presents a novel image feature extractor called Scale Invariant
 Feature Transform (SIFT). SIFT is an algorithm to extract features from an image
-that are invarient (do not change) to scale and rotation. These features can be
-used to perform image retrieval and object recognition by utililizing nearest
+that are invariant (do not change) to scale and rotation. These features can be
+used to perform image retrieval and object recognition by utilizing nearest
 neighbor algorithms such as KNN or ANN.
 
 This summary was kept short as I have been sitting on this summary for well over
 two weeks now with no progress and just want to get something out. Sorry for the
-berevity and weak summary.
+brevity and weak summary.
 
 ______________________________________________________________________
 
