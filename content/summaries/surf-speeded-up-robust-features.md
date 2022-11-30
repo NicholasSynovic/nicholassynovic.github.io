@@ -3,7 +3,8 @@ title: 'A summary of SURF: Speeded Up Robust Features by Herbert Bay et al.'
 description: Posted in ECCV 2006
 summary: Posted in ECCV 2006
 
-categories: [summary]
+categories: [summary, Hessian Matrix, Interest Point, Integral Image, Robust Feature,
+  Viewpoint Change]
 citations: [https://doi.org/10.1145/1273445.1273458, http://link.springer.com/10.1007/11744023_32,
   https://doi.org/10.1109/CVPR.2004.1315206, https://doi.org/10.1007/BF00336961, https://doi.org/10.1023/B:VISI.0000029664.99615.94,
   https://doi.org/10.1109/TPAMI.2005.188, https://doi.org/10.1109/ICCV.1999.790410,
