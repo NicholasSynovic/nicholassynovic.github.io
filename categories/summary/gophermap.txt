@@ -6,6 +6,8 @@
 > These posts are mirrored from my HTTP site.
 
 
+1A summary of Deep Residual Learning for Image Recognition by Kaiming He et al.	/summaries/deep-residual-learning-for-image-recognition
+
 1A summary of Large-Scale Image Retrieval with Attentive Deep Local Features by Hyeonwoo Noh et al.	/summaries/large-scale-image-retrieval-with-attentive-deep-local-features
 
 1A summary of SURF: Speeded Up Robust Features by Herbert Bay et al.	/summaries/surf-speeded-up-robust-features

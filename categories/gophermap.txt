@@ -198,8 +198,6 @@
 
 1variable scales	/categories/variable-scales
 
-1summary	/categories/summary
-
 1network layers	/categories/network-layers
 
 1local descriptors	/categories/local-descriptors
@@ -231,6 +229,8 @@
 1attentive deep local features	/categories/attentive-deep-local-features
 
 1attention mechanism	/categories/attention-mechanism
+
+1summary	/categories/summary
 
 
 .
