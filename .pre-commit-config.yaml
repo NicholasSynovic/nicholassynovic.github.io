@@ -22,3 +22,10 @@ repos:
       - mdformat-tables
       - mdformat-toc
       - mdformat-frontmatter
+  - repo: local
+    hooks:
+    - id: hugo
+      name: Build Site
+      pass_filenames: false
+      entry: hugo
+      language: system
