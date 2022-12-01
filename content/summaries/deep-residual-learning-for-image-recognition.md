@@ -6,7 +6,8 @@ summary: Posted in arXiv, 2015
 
 categories: [summary]
 citations: [https://doi.org/10.1145/1273445.1273458, http://arxiv.org/abs/1512.03385,
-  https://doi.org/10.1109/CVPR.2007.383266, https://arxiv.org/abs/1505.00387, https://proceedings.neurips.cc/paper/2015/hash/215a71a12769b056c3c32e7299f1c5ed-Abstract.html]
+  https://doi.org/10.1109/CVPR.2007.383266, https://arxiv.org/abs/1505.00387, https://proceedings.neurips.cc/paper/2015/hash/215a71a12769b056c3c32e7299f1c5ed-Abstract.html,
+  https://openreview.net/forum?id=rkb15iZdZB]
 
 draft: false
 
@@ -75,11 +76,11 @@ large networks for the purposes of image recognition.
 
 > Why should we care about this paper?
 
-Because it introduces both the ReLU activation function and the idea of a deep
-residual learning framework. This framework is simple to implement, but allows
-for models to become far deeper than before due to its usage of skip
-connections. These skip connections simply add the identity of the previous
-residual learning building block to the output of the current building block.
+Because it introduces a deep residual learning framework. This framework is
+simple to implement, but allows for models to become far deeper than before due
+to its usage of skip connections. These skip connections simply add the identity
+of the previous residual learning building block to the output of the current
+building block.
 
 ### Category
 
@@ -97,10 +98,9 @@ This paper is related to works that aim to create better CV models.
 
 > What are the author's main contributions?
 
-Their main contributions are the ReLU activation function, and the deep residual
-learning framework. Additionally, they contribute the SOTA ResNet suite of
-models, as well as an understanding of how residual learning works via
-shortcuts.
+Their main contributions is the deep residual learning framework and the SOTA
+ResNet suite of models, as well as an understanding of how residual learning
+works via shortcuts.
 
 ______________________________________________________________________
 
@@ -141,6 +141,8 @@ of this article.
    arXiv:1505.00387, 2015.
 4. R. K. Srivastava, K. Greff, and J. Schmidhuber. Training very deep networks.
    1507.06228, 2015.
+5. V. Nair and G. E. Hinton. Rectified linear units improve restricted boltzmann
+   machines. In ICML, 2010.
 
 ### Methodology
 
@@ -195,14 +197,15 @@ ______________________________________________________________________
 
 The paper, *Deep Residual learning for Image Recognition* by Kaiming He et al.
 \[1\] introduced the ResNet family of DL CV models. These models are based on a
-deep residual learning framework that makes usage of shortcut connections and
-the ReLU activation function to reduce the total number of parameters within the
-model, while dramatically increasing the depth in comparison to former SOTA
-methods (i.e. VGG). The authors found that their deep models achieve SOTA
-performance on both Object Detection (using the Faster-RCNN method) and Image
-Recognition compared to existing SOTA models. Furthermore, they found that the
-deeper the network, the more accurate and less error prone it is with respect to
-image recognition.
+deep residual learning framework that makes usage of shortcut connections
+(taking the identity function of the previous deep residual block and summing it
+to the output of the current residual learning block) and the ReLU activation
+function to reduce the total number of parameters within the model, while
+dramatically increasing the depth in comparison to former SOTA methods (i.e.
+VGG). The authors found that their deep models achieve SOTA performance on both
+Object Detection (using the Faster-RCNN method) and Image Recognition compared
+to existing SOTA models. Furthermore, they found that the deeper the network,
+the more accurate and less error prone it is with respect to image recognition.
 
 ______________________________________________________________________
 
