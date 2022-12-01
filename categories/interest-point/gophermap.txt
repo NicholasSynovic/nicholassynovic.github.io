@@ -1,0 +1,12 @@
+  ____           _
+ |  _ \ ___  ___| |_ ___
+ | |_) / _ \/ __| __/ __|
+ |  __/ (_) \__ \ |_\__ \
+ |_|   \___/|___/\__|___/
+> These posts are mirrored from my HTTP site.
+
+
+1A summary of SURF: Speeded Up Robust Features by Herbert Bay et al.	/summaries/surf-speeded-up-robust-features
+
+
+.

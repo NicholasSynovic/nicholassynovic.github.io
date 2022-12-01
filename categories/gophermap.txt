@@ -122,8 +122,6 @@
 
 1boosting	/categories/boosting
 
-12004	/categories/2004
-
 1software engineering	/categories/software-engineering
 
 1Software creation	/categories/software-creation
@@ -172,11 +170,67 @@
 
 12014	/categories/2014
 
-1summary	/categories/summary
-
 1NeurIPS	/categories/neurips
 
 12015	/categories/2015
+
+1scale invariance	/categories/scale-invariance
+
+1object recognition	/categories/object-recognition
+
+1invariant features	/categories/invariant-features
+
+1image matching	/categories/image-matching
+
+1ICJV	/categories/icjv
+
+12004	/categories/2004
+
+1Viewpoint Change	/categories/viewpoint-change
+
+1Robust Feature	/categories/robust-feature
+
+1Interest Point	/categories/interest-point
+
+1Integral Image	/categories/integral-image
+
+1Hessian Matrix	/categories/hessian-matrix
+
+1variable scales	/categories/variable-scales
+
+1summary	/categories/summary
+
+1network layers	/categories/network-layers
+
+1local descriptors	/categories/local-descriptors
+
+1large-scale image retrieval	/categories/large-scale-image-retrieval
+
+1large-scale dataset	/categories/large-scale-dataset
+
+1landmark image dataset	/categories/landmark-image-dataset
+
+1keypoint detectors	/categories/keypoint-detectors
+
+1image-level annotations	/categories/image-level-annotations
+
+1Google-Landmarks dataset	/categories/google-landmarks-dataset
+
+1global descriptors	/categories/global-descriptors
+
+1geometric verification	/categories/geometric-verification
+
+1feature matching	/categories/feature-matching
+
+1DELE	/categories/dele
+
+1convolutional neural networks	/categories/convolutional-neural-networks
+
+1attentive local feature descriptor	/categories/attentive-local-feature-descriptor
+
+1attentive deep local features	/categories/attentive-deep-local-features
+
+1attention mechanism	/categories/attention-mechanism
 
 
 .

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Integral Image on Nicholas M. Synovic</title><link>https://nsynovic.dev/categories/integral-image/</link><description>Recent content in Integral Image on Nicholas M. Synovic</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Nicholas M. Synovic</copyright><lastBuildDate>Wed, 30 Nov 2022 15:14:56 -0600</lastBuildDate><atom:link href="https://nsynovic.dev/categories/integral-image/feed.xml" rel="self" type="application/rss+xml"/><item><title>A summary of SURF: Speeded Up Robust Features by Herbert Bay et al.</title><link>https://nsynovic.dev/summaries/surf-speeded-up-robust-features/</link><pubDate>Wed, 30 Nov 2022 15:14:56 -0600</pubDate><guid>https://nsynovic.dev/summaries/surf-speeded-up-robust-features/</guid><description>&lt;h1 id="a-summary-of-surf-speeded-up-robust-features">A summary of &lt;em>SURF: Speeded Up Robust Features&lt;/em>&lt;/h1>
+&lt;blockquote>
+&lt;p>Herbert Bay et al., 2006 &lt;a href="http://link.springer.com/10.1007/11744023_32">DOI&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;p>For the summary of the paper, go to the &lt;a href="#summary">Summary&lt;/a> section of this
+article.&lt;/p>
+&lt;h2 id="table-of-contents">Table of Contents&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="#a-summary-of-surf-speeded-up-robust-features">A summary of &lt;em>SURF: Speeded Up Robust Features&lt;/em>&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#table-of-contents">Table of Contents&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#first-pass">First Pass&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#problem">Problem&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#motivation">Motivation&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#category">Category&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#context">Context&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#contributions">Contributions&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#second-pass">Second Pass&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#background-work">Background Work&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#clarity">Clarity&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#relevant-work">Relevant Work&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#methodology">Methodology&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#author-assumptions">Author Assumptions&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#correctness">Correctness&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#future-directions">Future Directions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#open-questions">Open Questions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#author-feedback">Author Feedback&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#summary">Summary&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#summarization-technique">Summarization Technique&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#citations">Citations&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="first-pass">First Pass&lt;/h2>
+&lt;blockquote>
+&lt;p>Read the title, abstract, introduction, section and sub-section headings, and
+conclusion&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="problem">Problem&lt;/h3>
+&lt;blockquote>
+&lt;p>What is the problem addressed in the paper?&lt;/p>
+&lt;/blockquote>
+&lt;p>The authors aim to make a repeatable, robust, and fast image feature extractor
+that outperforms previous SOTA feature extractors.&lt;/p>
+&lt;h3 id="motivation">Motivation&lt;/h3>
+&lt;blockquote>
+&lt;p>Why should we care about this paper?&lt;/p>
+&lt;/blockquote>
+&lt;p>Because this paper builds off of SIFT and allows for even faster feature
+extraction without additional computational cost by relying upon Hessian
+matrices and integral images.&lt;/p>
+&lt;h3 id="category">Category&lt;/h3>
+&lt;blockquote>
+&lt;p>What type of paper is this work?&lt;/p>
+&lt;/blockquote>
+&lt;p>This is an algorithms paper.&lt;/p>
+&lt;h3 id="context">Context&lt;/h3>
+&lt;blockquote>
+&lt;p>What other &lt;em>types&lt;/em> of papers is the work related to?&lt;/p>
+&lt;/blockquote>
+&lt;p>This work is related to papers regarding image retrieval, object recognition,
+and image feature extraction.&lt;/p>
+&lt;h3 id="contributions">Contributions&lt;/h3>
+&lt;blockquote>
+&lt;p>What are the author&amp;rsquo;s main contributions?&lt;/p>
+&lt;/blockquote>
+&lt;p>Their main contributions is a SOTA algorithm for image feature extraction that
+is fast due to their usage of the Hessian matrices and the integral image. The
+Hessian matrices can be thought of as filters that are slid across the integral
+image to identify features.&lt;/p>
+&lt;hr>
+&lt;h2 id="second-pass">Second Pass&lt;/h2>
+&lt;blockquote>
+&lt;p>A proper read through of the paper is required to answer this&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="background-work">Background Work&lt;/h3>
+&lt;blockquote>
+&lt;p>What has been done prior to this paper?&lt;/p>
+&lt;/blockquote>
+&lt;p>Work has been done to create image feature extractors that are robust and
+invariant to scale and rotation.&lt;/p>
+&lt;h3 id="figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/h3>
+&lt;blockquote>
+&lt;p>Are the axes properly labeled? Are results shown with error bars, so that
+conclusions are statistically significant?&lt;/p>
+&lt;/blockquote>
+&lt;p>All of the figures are clearly labeled and have good captions.&lt;/p>
+&lt;h3 id="clarity">Clarity&lt;/h3>
+&lt;blockquote>
+&lt;p>Is the paper well written?&lt;/p>
+&lt;/blockquote>
+&lt;p>This paper is well written.&lt;/p>
+&lt;h3 id="relevant-work">Relevant Work&lt;/h3>
+&lt;blockquote>
+&lt;p>Mark relevant work for review&lt;/p>
+&lt;/blockquote>
+&lt;p>The following relevant work can be found in the &lt;a href="#citations">Citations&lt;/a> section
+of this article.&lt;/p>
+&lt;ol start="2">
+&lt;li>Ke, Y., Sukthankar, R.: PCA-SIFT: A more distinctive representation for local
+image descriptors. In: CVPR (2). (2004) 506 – 513&lt;/li>
+&lt;li>Koenderink, J.: The structure of images. Biological Cybernetics 50 (1984) 363
+370&lt;/li>
+&lt;li>Lowe, D.: Distinctive image features from scale-invariant keypoints, cascade
+filtering approach. IJCV 60 (2004) 91 – 110&lt;/li>
+&lt;li>Mikolajczyk, K., Schmid, C.: A performance evaluation of local descriptors.
+PAMI 27 (2005) 1615–1630&lt;/li>
+&lt;li>Lowe, D.: Object recognition from local scale-invariant features. In: ICCV.
+(1999)&lt;/li>
+&lt;li>Mikolajczyk, K., Schmid, C.: Indexing based on scale invariant interest
+points. In: ICCV. Volume 1. (2001) 525 – 531&lt;/li>
+&lt;/ol>
+&lt;h3 id="methodology">Methodology&lt;/h3>
+&lt;blockquote>
+&lt;p>What methodology did the author&amp;rsquo;s use to validate their contributions?&lt;/p>
+&lt;/blockquote>
+&lt;p>The authors compared the repeatability of the SURF descriptor (Fast-Hessian)
+against DoG [6], Harris-Laplace [7], and Hessian-Laplace [7] across
+several common bench marking images. Additionally, they measured the precision
+vs recall of different algorithms including SURF-128 (a variation of SURF the
+authors proposed that results in a higher dimensional feature space), SURF, SIFT
+[4], GLOH [5], and PCA-SIFT [2] with respect to object recognition.&lt;/p>
+&lt;h3 id="author-assumptions">Author Assumptions&lt;/h3>
+&lt;blockquote>
+&lt;p>What assumptions does the author(s) make? Are they justified assumptions?&lt;/p>
+&lt;/blockquote>
+&lt;p>Probably the biggest assumption that I saw in the paper is that a scale and
+image rotation invariance are the two biggest features to focus on when
+designing a detector.&lt;/p>
+&lt;h4 id="correctness">Correctness&lt;/h4>
+&lt;blockquote>
+&lt;p>Do the assumptions seem valid?&lt;/p>
+&lt;/blockquote>
+&lt;p>No their assumption doesn&amp;rsquo;t seem valid. In their own words, &amp;ldquo;Skew, anisotropic
+scaling, and perspective effects are assumed to be second-order effects, that
+are covered to some degree by the overall robustness of the descriptor,&amp;rdquo; [1]
+however, I would argue that with the advent of fish-eyed lenses on smartphones
+and action-cameras, skew is now (and should be) a first-order priority.&lt;/p>
+&lt;h3 id="future-directions">Future Directions&lt;/h3>
+&lt;blockquote>
+&lt;p>My own proposed future directions for the work&lt;/p>
+&lt;/blockquote>
+&lt;p>Similar to the future work that I proposed
+&lt;a href="distinctive-image-features-from-scale-invariant-keypoints.md">here&lt;/a>, I&amp;rsquo;d like
+to train a Deep Learning model on SURF descriptions and see what results I would
+get with respect to object recognition. Would it be better than a CNN based
+model?&lt;/p>
+&lt;h3 id="open-questions">Open Questions&lt;/h3>
+&lt;blockquote>
+&lt;p>What open questions do I have about the work?&lt;/p>
+&lt;/blockquote>
+&lt;p>How robust is this image on 180 degree images? 360 degree images? Does object
+recognition or image retrieval fail at such extreme angles?&lt;/p>
+&lt;h3 id="author-feedback">Author Feedback&lt;/h3>
+&lt;blockquote>
+&lt;p>What feedback would I give to the authors?&lt;/p>
+&lt;/blockquote>
+&lt;p>I really liked the work that I read here as well as the results of the paper.
+However, as this work is under a patent, I would like to see the source code
+open-sourced so that it could be improved upon and freely implemented in modern
+solutions.&lt;/p>
+&lt;hr>
+&lt;h2 id="summary">Summary&lt;/h2>
+&lt;blockquote>
+&lt;p>A summary of the paper&lt;/p>
+&lt;/blockquote>
+&lt;p>The paper &lt;em>A summary of SURF: Speeded Up Robust Features&lt;/em> by Herbert Bay et al.
+[1] describes an algorithm for extracting image features that are robust to
+scale and rotation while also being faster and more repeatable than previous
+SOTA methods. To achieve this, the authors utilized the source image&amp;rsquo;s integral
+image (the sum of all the pixels of a rectangular area of the image between the
+origin and the pixel) to compute Hessian filters that a then slid across the
+image at different scales to identify robust features. It should be noted that
+the filters are increased in size and not the image. This allows for robust
+features to be identified much faster than if the image was scaled down and the
+same filter was slid across the image.&lt;/p>
+&lt;p>The authors compare SURF&amp;rsquo;s repeatability by comparing it to other feature
+descriptors, as well as its ability at object recognition against other feature
+extractors using nearest neighbor algorithms.&lt;/p>
+&lt;p>The authors also propose U-SURF (Upright SURF), which is faster to compute as it
+doesn&amp;rsquo;t find features that are robust against rotation. Additionally, they
+propose SURF-128 which is similar to vanilla SURF, but reports features in a
+high dimensionality. This is computed in a similar time as SURF, but takes
+longer to match features against as there are more features to account for.&lt;/p>
+&lt;hr>
+&lt;h2 id="summarization-technique">Summarization Technique&lt;/h2>
+&lt;p>This paper was summarized using a modified technique proposed by S. Keshav in
+his work &lt;em>How to Read a Paper&lt;/em> [0].&lt;/p>
+&lt;h2 id="citations">Citations&lt;/h2>
+Citations availible at https://nsynovic.dev/summaries/surf-speeded-up-robust-features/</description></item></channel></rss>
