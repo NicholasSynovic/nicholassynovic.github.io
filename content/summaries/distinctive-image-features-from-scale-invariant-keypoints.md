@@ -5,7 +5,7 @@ description: Posted in the International Journal of Computer Vision, 2004
 summary: Posted in the International Journal of Computer Vision, 2004
 
 categories: [summary, ICJV, 2004, invariant features, object recognition, scale invariance, image matching]
-citations: [https://doi.org/10.1145/1273445.1273458, https://doi.org/10.1023/B:VISI.0000029664.99615.94, https://ece631web.groups.et.byu.net/References/Invariant%20features%20from%20interest%20point%20groups.pdf, https://doi.org/10.1007/3-540-47969-4_19, https://doi.org/10.1109/TPAMI.1984.4767500, https://doi.org/10.1109/CVPR.2003.1211479, https://www.eng.tau.ac.il/~cvapps/Supplement/[%201988%20]%20A%20Combind%20Corner%20Aand%20Edge%20Detector.pdf, https://doi.org/10.1007/BF00336961]
+citations: [https://doi.org/10.1145/1273445.1273458, https://doi.org/10.1023/B:VISI.0000029664.99615.94, https://ece631web.groups.et.byu.net/References/Invariant%20features%20from%20interest%20point%20groups.pdf, https://doi.org/10.1007/3-540-47969-4_19, https://doi.org/10.1109/TPAMI.1984.4767500, https://doi.org/10.1109/CVPR.2003.1211479, https://www.eng.tau.ac.il/~cvapps/Supplement/\[%201988%20\]%20A%20Combind%20Corner%20Aand%20Edge%20Detector.pdf, https://doi.org/10.1007/BF00336961]
 
 draft: false
 
