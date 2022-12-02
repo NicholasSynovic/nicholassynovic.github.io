@@ -8,6 +8,8 @@
 
 1A summary of Hidden Technical Debt in Machine Learning Systems by D. Sculley et al.	/summaries/hidden-technical-debt-in-machine-learning-systems
 
+1A summary of Fast R-CNN by Ross Girshick	/summaries/fast-r-cnn
+
 1A summary of Deep Learning by Yann LeCun et al,	/summaries/deep-learning
 
 1A summary of Learning Deep Features for Discriminative Localization by Bolei Zhou et al.	/summaries/learning-deep-features-for-discriminative-localization

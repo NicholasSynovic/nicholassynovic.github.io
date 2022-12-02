@@ -1,4 +1,181 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>object detection on Nicholas M. Synovic</title><link>https://nsynovic.dev/categories/object-detection/</link><description>Recent content in object detection on Nicholas M. Synovic</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Nicholas M. Synovic</copyright><lastBuildDate>Mon, 24 Oct 2022 14:44:26 -0500</lastBuildDate><atom:link href="https://nsynovic.dev/categories/object-detection/feed.xml" rel="self" type="application/rss+xml"/><item><title>A summary of Learning Deep Features for Discriminative Localization by Bolei Zhou et al.</title><link>https://nsynovic.dev/summaries/learning-deep-features-for-discriminative-localization/</link><pubDate>Mon, 24 Oct 2022 14:44:26 -0500</pubDate><guid>https://nsynovic.dev/summaries/learning-deep-features-for-discriminative-localization/</guid><description>&lt;h1 id="a-summary-of-learning-deep-features-for-discriminative-localization">A summary of &lt;em>Learning Deep Features for Discriminative Localization&lt;/em>&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Object detection on Nicholas M. Synovic</title><link>https://nsynovic.dev/categories/object-detection/</link><description>Recent content in Object detection on Nicholas M. Synovic</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Nicholas M. Synovic</copyright><lastBuildDate>Thu, 10 Nov 2022 15:18:13 -0600</lastBuildDate><atom:link href="https://nsynovic.dev/categories/object-detection/feed.xml" rel="self" type="application/rss+xml"/><item><title>A summary of Fast R-CNN by Ross Girshick</title><link>https://nsynovic.dev/summaries/fast-r-cnn/</link><pubDate>Thu, 10 Nov 2022 15:18:13 -0600</pubDate><guid>https://nsynovic.dev/summaries/fast-r-cnn/</guid><description>&lt;h1 id="a-summary-of-fast-r-cnn">A summary of &lt;em>Fast R-CNN&lt;/em>&lt;/h1>
+&lt;blockquote>
+&lt;p>Ross Girshick, IEEE International Conference on Computer Vision, 2015;
+&lt;a href="https://openaccess.thecvf.com/content_iccv_2015/html/Girshick_Fast_R-CNN_ICCV_2015_paper.html">DOI&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;p>For the summary of the paper, go to the &lt;a href="#summary">Summary&lt;/a> section of this
+article.&lt;/p>
+&lt;h2 id="table-of-contents">Table of Contents&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="#a-summary-of-fast-r-cnn">A summary of &lt;em>Fast R-CNN&lt;/em>&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#table-of-contents">Table of Contents&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#first-pass">First Pass&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#problem">Problem&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#motivation">Motivation&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#category">Category&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#context">Context&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#contributions">Contributions&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#second-pass">Second Pass&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#background-work">Background Work&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#clarity">Clarity&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#relevant-work">Relevant Work&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#methodology">Methodology&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#author-assumptions">Author Assumptions&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#correctness">Correctness&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#future-directions">Future Directions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#open-questions">Open Questions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#author-feedback">Author Feedback&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#summary">Summary&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#summarization-technique">Summarization Technique&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#citations">Citations&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="first-pass">First Pass&lt;/h2>
+&lt;blockquote>
+&lt;p>Read the title, abstract, introduction, section and sub-section headings, and
+conclusion&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="problem">Problem&lt;/h3>
+&lt;blockquote>
+&lt;p>What is the problem addressed in the paper?&lt;/p>
+&lt;/blockquote>
+&lt;p>The problem addressed in this paper is that there exists a method that is better
+at performing object detection and semantic segmentation within region proposals
+that is not implemented in either the original R-CNN model or the SPPNet model.&lt;/p>
+&lt;h3 id="motivation">Motivation&lt;/h3>
+&lt;blockquote>
+&lt;p>Why should we care about this paper?&lt;/p>
+&lt;/blockquote>
+&lt;p>Because it provides an updated model architecture for performing object
+detection and semantic segmentation within region proposals, thereby speeding up
+inference time and reducing computational cost.&lt;/p>
+&lt;h3 id="category">Category&lt;/h3>
+&lt;blockquote>
+&lt;p>What type of paper is this work?&lt;/p>
+&lt;/blockquote>
+&lt;p>This is a CNN paper.&lt;/p>
+&lt;h3 id="context">Context&lt;/h3>
+&lt;blockquote>
+&lt;p>What other &lt;em>types&lt;/em> of papers is the work related to?&lt;/p>
+&lt;/blockquote>
+&lt;p>Papers that discuss CNN models with respect to region proposals.&lt;/p>
+&lt;h3 id="contributions">Contributions&lt;/h3>
+&lt;blockquote>
+&lt;p>What are the author&amp;rsquo;s main contributions?&lt;/p>
+&lt;/blockquote>
+&lt;p>An updated R-CNN model that is substantially faster than the original R-CNN
+model and the competing SPPNet model. This Fast R-CNN model achieves SOTA mean
+average precision (mAP) on the PASCAL VOC 2007, 2010, and 2012 datasets. Fast
+training and testing compared to R-CNN and SPPNet. And that fine tuning ConvNet
+layers in VGG 16 improves mAP.&lt;/p>
+&lt;hr>
+&lt;h2 id="second-pass">Second Pass&lt;/h2>
+&lt;blockquote>
+&lt;p>A proper read through of the paper is required to answer this&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="background-work">Background Work&lt;/h3>
+&lt;blockquote>
+&lt;p>What has been done prior to this paper?&lt;/p>
+&lt;/blockquote>
+&lt;p>Region proposal convolutional neural networks have been created prior to this
+work. Furthermore, this work utilizes techniques that other successful CV DL
+models have utilized to achieve SOTA results.&lt;/p>
+&lt;h3 id="figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/h3>
+&lt;blockquote>
+&lt;p>Are the axes properly labeled? Are results shown with error bars, so that
+conclusions are statistically significant?&lt;/p>
+&lt;/blockquote>
+&lt;p>The majority of the figures are clear. Figure 2 is a bit difficult to read due
+to how squished the text is to each other. Additionally, the model architecture
+in Figure 1 uses an identical image as presented in the seminal R-CNN paper. It
+would have been nicer to see a different test image utilized for this paper.&lt;/p>
+&lt;h3 id="clarity">Clarity&lt;/h3>
+&lt;blockquote>
+&lt;p>Is the paper well written?&lt;/p>
+&lt;/blockquote>
+&lt;p>This paper is well written, if a bit technical. However, the technicality is
+important as it distinguishes the improvements made to the original R-CNN and
+SPPNet models.&lt;/p>
+&lt;h3 id="relevant-work">Relevant Work&lt;/h3>
+&lt;blockquote>
+&lt;p>Mark relevant work for review&lt;/p>
+&lt;/blockquote>
+&lt;p>The following relevant work can be found in the &lt;a href="#citations">Citations&lt;/a> section
+of this article.&lt;/p>
+&lt;h3 id="methodology">Methodology&lt;/h3>
+&lt;blockquote>
+&lt;p>What methodology did the author&amp;rsquo;s use to validate their contributions?&lt;/p>
+&lt;/blockquote>
+&lt;p>They performed a similar study to their previous paper (R-CNN) where they
+compared the mAP of competing models against their model. Additionally, they
+performed an analysis of their model where they tested different improvements
+and DL techniques used in other models to improve performance.&lt;/p>
+&lt;h3 id="author-assumptions">Author Assumptions&lt;/h3>
+&lt;blockquote>
+&lt;p>What assumptions does the author(s) make? Are they justified assumptions?&lt;/p>
+&lt;/blockquote>
+&lt;p>They utilized the VGG 16 model as their CNN model. However, other existing
+models could&amp;rsquo;ve been used/ re-implemented with their fast region proposal model
+to potentially improve performance.&lt;/p>
+&lt;h4 id="correctness">Correctness&lt;/h4>
+&lt;blockquote>
+&lt;p>Do the assumptions seem valid?&lt;/p>
+&lt;/blockquote>
+&lt;p>This assumption makes sense to a degree as VGG 16 is a popular model for
+research purposes. However, evaluating other CNN models would have been more
+interesting in my opinion.&lt;/p>
+&lt;h3 id="future-directions">Future Directions&lt;/h3>
+&lt;blockquote>
+&lt;p>My own proposed future directions for the work&lt;/p>
+&lt;/blockquote>
+&lt;p>I&amp;rsquo;d like to implement there work on non-VGG 16 models, such as ResNet or on a
+MobileNet.&lt;/p>
+&lt;h3 id="open-questions">Open Questions&lt;/h3>
+&lt;blockquote>
+&lt;p>What open questions do I have about the work?&lt;/p>
+&lt;/blockquote>
+&lt;p>Why weren&amp;rsquo;t other models implemented with the fast region proposal component?&lt;/p>
+&lt;h3 id="author-feedback">Author Feedback&lt;/h3>
+&lt;blockquote>
+&lt;p>What feedback would I give to the authors?&lt;/p>
+&lt;/blockquote>
+&lt;p>Overall good paper. I don&amp;rsquo;t recommend on creating a paper of a third variation
+of this model unless there are substantial improvements made. These improvements
+can be in further reducing computational or energy cost, an even simpler
+architecture, or an substantial overall increase of mAP on the PASCAL VOC
+datasets.&lt;/p>
+&lt;hr>
+&lt;h2 id="summary">Summary&lt;/h2>
+&lt;blockquote>
+&lt;p>A summary of the paper&lt;/p>
+&lt;/blockquote>
+&lt;p>The paper &lt;em>Fast R-CNN&lt;/em> by Ross Girshick [1] proposes a new method to perform
+region proposal CNN tasks that is significantly faster than the previously
+proposed method. To do so, both the region proposals and the image itself are
+passed into the CNN layer for analysis. Additionally, many layers of the
+previous architectures are collapsed into one to reduce the complexity.
+Furthermore, the SVM classifier was replaced with a Softmax classifier which is
+both faster and more accurate than the previous SVM classifier.&lt;/p>
+&lt;hr>
+&lt;hr>
+&lt;h2 id="summarization-technique">Summarization Technique&lt;/h2>
+&lt;p>This paper was summarized using a modified technique proposed by S. Keshav in
+his work &lt;em>How to Read a Paper&lt;/em> [0].&lt;/p>
+&lt;h2 id="citations">Citations&lt;/h2>
+Citations availible at https://nsynovic.dev/summaries/fast-r-cnn/</description></item><item><title>A summary of Learning Deep Features for Discriminative Localization by Bolei Zhou et al.</title><link>https://nsynovic.dev/summaries/learning-deep-features-for-discriminative-localization/</link><pubDate>Mon, 24 Oct 2022 14:44:26 -0500</pubDate><guid>https://nsynovic.dev/summaries/learning-deep-features-for-discriminative-localization/</guid><description>&lt;h1 id="a-summary-of-learning-deep-features-for-discriminative-localization">A summary of &lt;em>Learning Deep Features for Discriminative Localization&lt;/em>&lt;/h1>
 &lt;blockquote>
 &lt;p>Bolei Zhou et al.; &lt;a href="http://arxiv.org/abs/1512.04150">DOI&lt;/a>&lt;/p>
 &lt;/blockquote>

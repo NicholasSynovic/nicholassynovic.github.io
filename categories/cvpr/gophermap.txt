@@ -6,6 +6,8 @@
 > These posts are mirrored from my HTTP site.
 
 
+1A summary of Fast R-CNN by Ross Girshick	/summaries/fast-r-cnn
+
 1A summary of Rich feature hierarchies for accurate object detection and semantic segmentation by Ross Girshick et al.	/summaries/rich-feature-hierarchies-for-accurate-object-detection-and-semantic-segmentation
 
 

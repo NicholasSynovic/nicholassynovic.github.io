@@ -47,16 +47,16 @@ ______________________________________________________________________
 > What is the problem addressed in the paper?
 
 More and more CV models are getting better performance by "going deeper".
-However, these models can not be run effeciently on mobile and low powered
+However, these models can not be run efficiently on mobile and low powered
 devices. Therefore, a new class of models (MobileNets) needs to be developed in
-order to accomodate for these low powered and resource constrained devices.
+order to accommodate for these low powered and resource constrained devices.
 
 ### Motivation
 
 > Why should we care about this paper?
 
 We should care about this paper as it introduces a new class of CV models
-targetted at mobile and low powered devices (MobileNets) as well as a method for
+targeted at mobile and low powered devices (MobileNets) as well as a method for
 creating these models to meet specific latency and size specifications through
 the usage of two hyper parameters.
 
@@ -78,9 +78,9 @@ powered computer vision.
 > What are the author's main contributions?
 
 The author's main contributions are a new class of models for low powered
-devices (MobileNets) and a methodology to generate these models targetting
-specific sizes and latency requirements through the usage of two
-hyperparameters.
+devices (MobileNets) and a methodology to generate these models targeting
+specific sizes and latency requirements through the usage of two hyper
+parameters.
 
 ______________________________________________________________________
 
@@ -92,8 +92,8 @@ ______________________________________________________________________
 
 > What has been done prior to this paper?
 
-There has been work in developing small and effiecient CV models previously.
-Additionally, work has been done to develop depthwise seperable convolutions
+There has been work in developing small and efficient CV models previously.
+Additionally, work has been done to develop depth wise separable convolutions
 which are the backbone of this model class. Furthermore, work has been done in
 the area of model compression and optimization.
 
@@ -103,7 +103,7 @@ the area of model compression and optimization.
 > conclusions are statistically significant?
 
 All of the figures are clear. However, not all of the charts are made clear on
-their own. some of the charts use an unlabelled log scale that is described in
+their own. some of the charts use an unlabeled log scale that is described in
 the captions of the figure.
 
 ### Clarity
@@ -123,7 +123,7 @@ of this article.
    Keutzer. Squeezenet: Alexnet-level accuracy with 50x fewer parameters and¡
    1mb model size. arXiv preprint arXiv:1602.07360, 2016.
 3. J. Jin, A. Dundar, and E. Culurciello. Flattened convolutional neural
-   networks for feedforward acceleration. arXiv preprint arXiv:1412.5474, 2014.
+   networks for feed forward acceleration. arXiv preprint arXiv:1412.5474, 2014.
 4. M. Rastegari, V. Ordonez, J. Redmon, and A. Farhadi. Xnornet: Imagenet
    classification using binary convolutional neural networks. arXiv preprint
    arXiv:1603.05279, 2016.
@@ -166,7 +166,7 @@ No they do not. The name seems misleading without a proper test.
 I'd like to test variations of MobileNets on modern smartphones, low powered
 devices (i.e. Raspberry Pis, NVIDIA Jetson Nanos), and more powerful devices
 (i.e. laptops) in order to see how far I can push a MobileNet to give real-time
-(minimum 24 FPS) infrence without comprimising on accuracy.
+(minimum 24 FPS) inference without compromising on accuracy.
 
 ### Open Questions
 
@@ -178,8 +178,8 @@ Why wasn't a MobileNet variation tested on a mobile device?
 
 > What feedback would I give to the authors?
 
-Overall this was a good paper. I found the description of the depthwise
-seperable convolutions a little confusing. Additionally, the naming of the
+Overall this was a good paper. I found the description of the depth wise
+separable convolutions a little confusing. Additionally, the naming of the
 family models presented (MobileNets) is misleading to me as these models were
 not tested on mobile devices.
 
@@ -192,19 +192,19 @@ ______________________________________________________________________
 The paper *MobileNets: Efficient Convolutional Neural Networks for Mobile Vision
 Applications* by Andrew G. Howard et al. introduces a new class of models that
 are designed to be small and fast (low latency) called MobileNets. MobileNets
-are CNN based DV models that rely on depthwise seperable convultions to infrence
-data. A depthwise seperable convolution occurs in two steps:
+are CNN based DL models that rely on depth wise separable convulsions to
+inference data. A depth wise separable convolution occurs in two steps:
 
 1. Each channel of the input data structure is analyzed using a 3 x 3 x 1
    filter. This is different than traditional CNN building blocks that analyze
    all of the channels in one pass using a 3 x 3 x N filter (with N being the
    number of filters).
-2. The values from the aforementioned filters are multipled together and summed
-   with a pointwise convolution that analyzes all of the channels. This
-   pointwise convolution uses a 1 x 1 x N filter (with N being the number of
+2. The values from the aforementioned filters are multiples together and summed
+   with a point wise convolution that analyzes all of the channels. This point
+   wise convolution uses a 1 x 1 x N filter (with N being the number of
    filters).
 
-By using depthwise seperable filters, MobileNets decrease their latency due to
+By using depth wise separable filters, MobileNets decrease their latency due to
 the fewer number of multiply-add operations that they need to perform on the
 data.
 

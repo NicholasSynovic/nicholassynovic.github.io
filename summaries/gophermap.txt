@@ -18,6 +18,8 @@
 
 1A summary of Hidden Technical Debt in Machine Learning Systems by D. Sculley et al.	/summaries/hidden-technical-debt-in-machine-learning-systems
 
+1A summary of Fast R-CNN by Ross Girshick	/summaries/fast-r-cnn
+
 1A summary of Rich feature hierarchies for accurate object detection and semantic segmentation by Ross Girshick et al.	/summaries/rich-feature-hierarchies-for-accurate-object-detection-and-semantic-segmentation
 
 1A summary of The Random Subspace Method for Constructing Decision Forests by Tin Kam Ho	/summaries/the-random-subspace-method-for-constructing-decision-forests

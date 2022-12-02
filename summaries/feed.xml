@@ -52,15 +52,15 @@ conclusion&lt;/p>
 &lt;p>What is the problem addressed in the paper?&lt;/p>
 &lt;/blockquote>
 &lt;p>More and more CV models are getting better performance by &amp;ldquo;going deeper&amp;rdquo;.
-However, these models can not be run effeciently on mobile and low powered
+However, these models can not be run efficiently on mobile and low powered
 devices. Therefore, a new class of models (MobileNets) needs to be developed in
-order to accomodate for these low powered and resource constrained devices.&lt;/p>
+order to accommodate for these low powered and resource constrained devices.&lt;/p>
 &lt;h3 id="motivation">Motivation&lt;/h3>
 &lt;blockquote>
 &lt;p>Why should we care about this paper?&lt;/p>
 &lt;/blockquote>
 &lt;p>We should care about this paper as it introduces a new class of CV models
-targetted at mobile and low powered devices (MobileNets) as well as a method for
+targeted at mobile and low powered devices (MobileNets) as well as a method for
 creating these models to meet specific latency and size specifications through
 the usage of two hyper parameters.&lt;/p>
 &lt;h3 id="category">Category&lt;/h3>
@@ -79,9 +79,9 @@ powered computer vision.&lt;/p>
 &lt;p>What are the author&amp;rsquo;s main contributions?&lt;/p>
 &lt;/blockquote>
 &lt;p>The author&amp;rsquo;s main contributions are a new class of models for low powered
-devices (MobileNets) and a methodology to generate these models targetting
-specific sizes and latency requirements through the usage of two
-hyperparameters.&lt;/p>
+devices (MobileNets) and a methodology to generate these models targeting
+specific sizes and latency requirements through the usage of two hyper
+parameters.&lt;/p>
 &lt;hr>
 &lt;h2 id="second-pass">Second Pass&lt;/h2>
 &lt;blockquote>
@@ -91,8 +91,8 @@ hyperparameters.&lt;/p>
 &lt;blockquote>
 &lt;p>What has been done prior to this paper?&lt;/p>
 &lt;/blockquote>
-&lt;p>There has been work in developing small and effiecient CV models previously.
-Additionally, work has been done to develop depthwise seperable convolutions
+&lt;p>There has been work in developing small and efficient CV models previously.
+Additionally, work has been done to develop depth wise separable convolutions
 which are the backbone of this model class. Furthermore, work has been done in
 the area of model compression and optimization.&lt;/p>
 &lt;h3 id="figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/h3>
@@ -101,7 +101,7 @@ the area of model compression and optimization.&lt;/p>
 conclusions are statistically significant?&lt;/p>
 &lt;/blockquote>
 &lt;p>All of the figures are clear. However, not all of the charts are made clear on
-their own. some of the charts use an unlabelled log scale that is described in
+their own. some of the charts use an unlabeled log scale that is described in
 the captions of the figure.&lt;/p>
 &lt;h3 id="clarity">Clarity&lt;/h3>
 &lt;blockquote>
@@ -119,7 +119,7 @@ of this article.&lt;/p>
 Keutzer. Squeezenet: Alexnet-level accuracy with 50x fewer parameters and¡
 1mb model size. arXiv preprint arXiv:1602.07360, 2016.&lt;/li>
 &lt;li>J. Jin, A. Dundar, and E. Culurciello. Flattened convolutional neural
-networks for feedforward acceleration. arXiv preprint arXiv:1412.5474, 2014.&lt;/li>
+networks for feed forward acceleration. arXiv preprint arXiv:1412.5474, 2014.&lt;/li>
 &lt;li>M. Rastegari, V. Ordonez, J. Redmon, and A. Farhadi. Xnornet: Imagenet
 classification using binary convolutional neural networks. arXiv preprint
 arXiv:1603.05279, 2016.&lt;/li>
@@ -159,7 +159,7 @@ describe a test of running this model on a mobile device.&lt;/p>
 &lt;p>I&amp;rsquo;d like to test variations of MobileNets on modern smartphones, low powered
 devices (i.e. Raspberry Pis, NVIDIA Jetson Nanos), and more powerful devices
 (i.e. laptops) in order to see how far I can push a MobileNet to give real-time
-(minimum 24 FPS) infrence without comprimising on accuracy.&lt;/p>
+(minimum 24 FPS) inference without compromising on accuracy.&lt;/p>
 &lt;h3 id="open-questions">Open Questions&lt;/h3>
 &lt;blockquote>
 &lt;p>What open questions do I have about the work?&lt;/p>
@@ -169,8 +169,8 @@ devices (i.e. Raspberry Pis, NVIDIA Jetson Nanos), and more powerful devices
 &lt;blockquote>
 &lt;p>What feedback would I give to the authors?&lt;/p>
 &lt;/blockquote>
-&lt;p>Overall this was a good paper. I found the description of the depthwise
-seperable convolutions a little confusing. Additionally, the naming of the
+&lt;p>Overall this was a good paper. I found the description of the depth wise
+separable convolutions a little confusing. Additionally, the naming of the
 family models presented (MobileNets) is misleading to me as these models were
 not tested on mobile devices.&lt;/p>
 &lt;hr>
@@ -181,19 +181,19 @@ not tested on mobile devices.&lt;/p>
 &lt;p>The paper &lt;em>MobileNets: Efficient Convolutional Neural Networks for Mobile Vision
 Applications&lt;/em> by Andrew G. Howard et al. introduces a new class of models that
 are designed to be small and fast (low latency) called MobileNets. MobileNets
-are CNN based DV models that rely on depthwise seperable convultions to infrence
-data. A depthwise seperable convolution occurs in two steps:&lt;/p>
+are CNN based DL models that rely on depth wise separable convulsions to
+inference data. A depth wise separable convolution occurs in two steps:&lt;/p>
 &lt;ol>
 &lt;li>Each channel of the input data structure is analyzed using a 3 x 3 x 1
 filter. This is different than traditional CNN building blocks that analyze
 all of the channels in one pass using a 3 x 3 x N filter (with N being the
 number of filters).&lt;/li>
-&lt;li>The values from the aforementioned filters are multipled together and summed
-with a pointwise convolution that analyzes all of the channels. This
-pointwise convolution uses a 1 x 1 x N filter (with N being the number of
+&lt;li>The values from the aforementioned filters are multiples together and summed
+with a point wise convolution that analyzes all of the channels. This point
+wise convolution uses a 1 x 1 x N filter (with N being the number of
 filters).&lt;/li>
 &lt;/ol>
-&lt;p>By using depthwise seperable filters, MobileNets decrease their latency due to
+&lt;p>By using depth wise separable filters, MobileNets decrease their latency due to
 the fewer number of multiply-add operations that they need to perform on the
 data.&lt;/p>
 &lt;p>The authors tested the performance of MobileNets on a variety of tasks against
@@ -1310,7 +1310,184 @@ learning, initial conditions, and interactions with the external world&lt;/li>
 &lt;p>This paper was summarized using a modified technique proposed by S. Keshav in
 his work &lt;em>How to Read a Paper&lt;/em> [0].&lt;/p>
 &lt;h2 id="citations">Citations&lt;/h2>
-Citations availible at https://nsynovic.dev/summaries/hidden-technical-debt-in-machine-learning-systems/</description></item><item><title>A summary of Rich feature hierarchies for accurate object detection and semantic segmentation by Ross Girshick et al.</title><link>https://nsynovic.dev/summaries/rich-feature-hierarchies-for-accurate-object-detection-and-semantic-segmentation/</link><pubDate>Thu, 10 Nov 2022 10:05:51 -0600</pubDate><guid>https://nsynovic.dev/summaries/rich-feature-hierarchies-for-accurate-object-detection-and-semantic-segmentation/</guid><description>&lt;h1 id="a-summary-of-rich-feature-hierarchies-for-accurate-object-detection-and-semantic-segmentation">A summary of &lt;em>Rich feature hierarchies for accurate object detection and semantic segmentation&lt;/em>&lt;/h1>
+Citations availible at https://nsynovic.dev/summaries/hidden-technical-debt-in-machine-learning-systems/</description></item><item><title>A summary of Fast R-CNN by Ross Girshick</title><link>https://nsynovic.dev/summaries/fast-r-cnn/</link><pubDate>Thu, 10 Nov 2022 15:18:13 -0600</pubDate><guid>https://nsynovic.dev/summaries/fast-r-cnn/</guid><description>&lt;h1 id="a-summary-of-fast-r-cnn">A summary of &lt;em>Fast R-CNN&lt;/em>&lt;/h1>
+&lt;blockquote>
+&lt;p>Ross Girshick, IEEE International Conference on Computer Vision, 2015;
+&lt;a href="https://openaccess.thecvf.com/content_iccv_2015/html/Girshick_Fast_R-CNN_ICCV_2015_paper.html">DOI&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;p>For the summary of the paper, go to the &lt;a href="#summary">Summary&lt;/a> section of this
+article.&lt;/p>
+&lt;h2 id="table-of-contents">Table of Contents&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="#a-summary-of-fast-r-cnn">A summary of &lt;em>Fast R-CNN&lt;/em>&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#table-of-contents">Table of Contents&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#first-pass">First Pass&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#problem">Problem&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#motivation">Motivation&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#category">Category&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#context">Context&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#contributions">Contributions&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#second-pass">Second Pass&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#background-work">Background Work&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#clarity">Clarity&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#relevant-work">Relevant Work&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#methodology">Methodology&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#author-assumptions">Author Assumptions&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#correctness">Correctness&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#future-directions">Future Directions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#open-questions">Open Questions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#author-feedback">Author Feedback&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#summary">Summary&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#summarization-technique">Summarization Technique&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#citations">Citations&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="first-pass">First Pass&lt;/h2>
+&lt;blockquote>
+&lt;p>Read the title, abstract, introduction, section and sub-section headings, and
+conclusion&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="problem">Problem&lt;/h3>
+&lt;blockquote>
+&lt;p>What is the problem addressed in the paper?&lt;/p>
+&lt;/blockquote>
+&lt;p>The problem addressed in this paper is that there exists a method that is better
+at performing object detection and semantic segmentation within region proposals
+that is not implemented in either the original R-CNN model or the SPPNet model.&lt;/p>
+&lt;h3 id="motivation">Motivation&lt;/h3>
+&lt;blockquote>
+&lt;p>Why should we care about this paper?&lt;/p>
+&lt;/blockquote>
+&lt;p>Because it provides an updated model architecture for performing object
+detection and semantic segmentation within region proposals, thereby speeding up
+inference time and reducing computational cost.&lt;/p>
+&lt;h3 id="category">Category&lt;/h3>
+&lt;blockquote>
+&lt;p>What type of paper is this work?&lt;/p>
+&lt;/blockquote>
+&lt;p>This is a CNN paper.&lt;/p>
+&lt;h3 id="context">Context&lt;/h3>
+&lt;blockquote>
+&lt;p>What other &lt;em>types&lt;/em> of papers is the work related to?&lt;/p>
+&lt;/blockquote>
+&lt;p>Papers that discuss CNN models with respect to region proposals.&lt;/p>
+&lt;h3 id="contributions">Contributions&lt;/h3>
+&lt;blockquote>
+&lt;p>What are the author&amp;rsquo;s main contributions?&lt;/p>
+&lt;/blockquote>
+&lt;p>An updated R-CNN model that is substantially faster than the original R-CNN
+model and the competing SPPNet model. This Fast R-CNN model achieves SOTA mean
+average precision (mAP) on the PASCAL VOC 2007, 2010, and 2012 datasets. Fast
+training and testing compared to R-CNN and SPPNet. And that fine tuning ConvNet
+layers in VGG 16 improves mAP.&lt;/p>
+&lt;hr>
+&lt;h2 id="second-pass">Second Pass&lt;/h2>
+&lt;blockquote>
+&lt;p>A proper read through of the paper is required to answer this&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="background-work">Background Work&lt;/h3>
+&lt;blockquote>
+&lt;p>What has been done prior to this paper?&lt;/p>
+&lt;/blockquote>
+&lt;p>Region proposal convolutional neural networks have been created prior to this
+work. Furthermore, this work utilizes techniques that other successful CV DL
+models have utilized to achieve SOTA results.&lt;/p>
+&lt;h3 id="figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/h3>
+&lt;blockquote>
+&lt;p>Are the axes properly labeled? Are results shown with error bars, so that
+conclusions are statistically significant?&lt;/p>
+&lt;/blockquote>
+&lt;p>The majority of the figures are clear. Figure 2 is a bit difficult to read due
+to how squished the text is to each other. Additionally, the model architecture
+in Figure 1 uses an identical image as presented in the seminal R-CNN paper. It
+would have been nicer to see a different test image utilized for this paper.&lt;/p>
+&lt;h3 id="clarity">Clarity&lt;/h3>
+&lt;blockquote>
+&lt;p>Is the paper well written?&lt;/p>
+&lt;/blockquote>
+&lt;p>This paper is well written, if a bit technical. However, the technicality is
+important as it distinguishes the improvements made to the original R-CNN and
+SPPNet models.&lt;/p>
+&lt;h3 id="relevant-work">Relevant Work&lt;/h3>
+&lt;blockquote>
+&lt;p>Mark relevant work for review&lt;/p>
+&lt;/blockquote>
+&lt;p>The following relevant work can be found in the &lt;a href="#citations">Citations&lt;/a> section
+of this article.&lt;/p>
+&lt;h3 id="methodology">Methodology&lt;/h3>
+&lt;blockquote>
+&lt;p>What methodology did the author&amp;rsquo;s use to validate their contributions?&lt;/p>
+&lt;/blockquote>
+&lt;p>They performed a similar study to their previous paper (R-CNN) where they
+compared the mAP of competing models against their model. Additionally, they
+performed an analysis of their model where they tested different improvements
+and DL techniques used in other models to improve performance.&lt;/p>
+&lt;h3 id="author-assumptions">Author Assumptions&lt;/h3>
+&lt;blockquote>
+&lt;p>What assumptions does the author(s) make? Are they justified assumptions?&lt;/p>
+&lt;/blockquote>
+&lt;p>They utilized the VGG 16 model as their CNN model. However, other existing
+models could&amp;rsquo;ve been used/ re-implemented with their fast region proposal model
+to potentially improve performance.&lt;/p>
+&lt;h4 id="correctness">Correctness&lt;/h4>
+&lt;blockquote>
+&lt;p>Do the assumptions seem valid?&lt;/p>
+&lt;/blockquote>
+&lt;p>This assumption makes sense to a degree as VGG 16 is a popular model for
+research purposes. However, evaluating other CNN models would have been more
+interesting in my opinion.&lt;/p>
+&lt;h3 id="future-directions">Future Directions&lt;/h3>
+&lt;blockquote>
+&lt;p>My own proposed future directions for the work&lt;/p>
+&lt;/blockquote>
+&lt;p>I&amp;rsquo;d like to implement there work on non-VGG 16 models, such as ResNet or on a
+MobileNet.&lt;/p>
+&lt;h3 id="open-questions">Open Questions&lt;/h3>
+&lt;blockquote>
+&lt;p>What open questions do I have about the work?&lt;/p>
+&lt;/blockquote>
+&lt;p>Why weren&amp;rsquo;t other models implemented with the fast region proposal component?&lt;/p>
+&lt;h3 id="author-feedback">Author Feedback&lt;/h3>
+&lt;blockquote>
+&lt;p>What feedback would I give to the authors?&lt;/p>
+&lt;/blockquote>
+&lt;p>Overall good paper. I don&amp;rsquo;t recommend on creating a paper of a third variation
+of this model unless there are substantial improvements made. These improvements
+can be in further reducing computational or energy cost, an even simpler
+architecture, or an substantial overall increase of mAP on the PASCAL VOC
+datasets.&lt;/p>
+&lt;hr>
+&lt;h2 id="summary">Summary&lt;/h2>
+&lt;blockquote>
+&lt;p>A summary of the paper&lt;/p>
+&lt;/blockquote>
+&lt;p>The paper &lt;em>Fast R-CNN&lt;/em> by Ross Girshick [1] proposes a new method to perform
+region proposal CNN tasks that is significantly faster than the previously
+proposed method. To do so, both the region proposals and the image itself are
+passed into the CNN layer for analysis. Additionally, many layers of the
+previous architectures are collapsed into one to reduce the complexity.
+Furthermore, the SVM classifier was replaced with a Softmax classifier which is
+both faster and more accurate than the previous SVM classifier.&lt;/p>
+&lt;hr>
+&lt;hr>
+&lt;h2 id="summarization-technique">Summarization Technique&lt;/h2>
+&lt;p>This paper was summarized using a modified technique proposed by S. Keshav in
+his work &lt;em>How to Read a Paper&lt;/em> [0].&lt;/p>
+&lt;h2 id="citations">Citations&lt;/h2>
+Citations availible at https://nsynovic.dev/summaries/fast-r-cnn/</description></item><item><title>A summary of Rich feature hierarchies for accurate object detection and semantic segmentation by Ross Girshick et al.</title><link>https://nsynovic.dev/summaries/rich-feature-hierarchies-for-accurate-object-detection-and-semantic-segmentation/</link><pubDate>Thu, 10 Nov 2022 10:05:51 -0600</pubDate><guid>https://nsynovic.dev/summaries/rich-feature-hierarchies-for-accurate-object-detection-and-semantic-segmentation/</guid><description>&lt;h1 id="a-summary-of-rich-feature-hierarchies-for-accurate-object-detection-and-semantic-segmentation">A summary of &lt;em>Rich feature hierarchies for accurate object detection and semantic segmentation&lt;/em>&lt;/h1>
 &lt;blockquote>
 &lt;p>Ross Girshick et al. CVPR, 2014
 &lt;a href="https://openaccess.thecvf.com/content_cvpr_2014/html/Girshick_Rich_Feature_Hierarchies_2014_CVPR_paper.html">DOI&lt;/a>&lt;/p>

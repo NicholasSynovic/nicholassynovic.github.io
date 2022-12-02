@@ -102,8 +102,6 @@
 
 1CV	/categories/cv
 
-1object detection	/categories/object-detection
-
 1DL	/categories/dl
 
 1CNN	/categories/cnn
@@ -166,9 +164,23 @@
 
 11998	/categories/1998
 
+12014	/categories/2014
+
+1Training	/categories/training
+
+1Proposals	/categories/proposals
+
+1Pipelines	/categories/pipelines
+
+1Open source software	/categories/open-source-software
+
+1Object detection	/categories/object-detection
+
+1Feature extraction	/categories/feature-extraction
+
 1CVPR	/categories/cvpr
 
-12014	/categories/2014
+1Computer architecture	/categories/computer-architecture
 
 1NeurIPS	/categories/neurips
 
