@@ -6,7 +6,7 @@
 > These posts are mirrored from my HTTP site.
 
 
-1A summary of MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications by Andrew G. Howard	/summaries/mobilenets-efficient-convolutional-neural-networks-for-mobile-vision-applications
+1A summary of MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications by Andrew G. Howard et al.	/summaries/mobilenets-efficient-convolutional-neural-networks-for-mobile-vision-applications
 
 1A summary of Deep Residual Learning for Image Recognition by Kaiming He et al.	/summaries/deep-residual-learning-for-image-recognition
 
