@@ -1,15 +1,15 @@
 ---
 title: A summary of Fast R-CNN by Ross Girshick
-description: Posted in the Proceedings of the IEEE International Confrence on Computer
+description: Posted in the Proceedings of the IEEE International Conference on Computer
   Vision, 2015
-summary: Posted in the Proceedings of the IEEE International Confrence on Computer
+summary: Posted in the Proceedings of the IEEE International Conference on Computer
   Vision, 2015
 
 categories: [summary, Training, Proposals, Feature extraction, Object detection, Pipelines,
   Computer architecture, Open source software, 2015, CVPR]
 citations: [https://doi.org/10.1145/1273445.1273458, https://openaccess.thecvf.com/content_iccv_2015/html/Girshick_Fast_R-CNN_ICCV_2015_paper.html]
 
-draft: true
+draft: false
 
 date: 2022-11-10T15:18:13-06:00
 featured_image: ''
@@ -23,7 +23,7 @@ show_reading_time: true
 
 # A summary of *Fast R-CNN*
 
-> Ross Girshick, IEEE International Confrence on Computer Vision, 2015;
+> Ross Girshick, IEEE International Conference on Computer Vision, 2015;
 > [DOI](https://openaccess.thecvf.com/content_iccv_2015/html/Girshick_Fast_R-CNN_ICCV_2015_paper.html)
 
 For the summary of the paper, go to the [Summary](#summary) section of this
@@ -191,6 +191,16 @@ ______________________________________________________________________
 ## Summary
 
 > A summary of the paper
+
+The paper *Fast R-CNN* by Ross Girshick \[1\] proposes a new method to perform
+region proposal CNN tasks that is significantly faster than the previously
+proposed method. To do so, both the region proposals and the image itself are
+passed into the CNN layer for analysis. Additionally, many layers of the
+previous architectures are collapsed into one to reduce the complexity.
+Furthermore, the SVM classifier was replaced with a Softmax classifier which is
+both faster and more accurate than the previous SVM classifier.
+
+______________________________________________________________________
 
 ______________________________________________________________________
 
