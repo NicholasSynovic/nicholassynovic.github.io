@@ -78,14 +78,14 @@ networks for semantic segmentation.
 
 > What type of paper is this work?
 
-This is a deep learning computer vision semantic segmenation paper.
+This is a deep learning computer vision semantic segmentation paper.
 
 ### Context
 
 > What other *types* of papers is the work related to?
 
 This paper is related to works that involve the development of semantic
-segmenation techniques.
+segmentation techniques.
 
 ### Contributions
 
@@ -140,8 +140,8 @@ of this article.
 
 > What methodology did the author's use to validate their contributions?
 
-The authors compared a variety of semantic segmentaion model using VGG,
-GoogLeNet, and ResNet on several different datasets. These datasets invlude
+The authors compared a variety of semantic segmentation model using VGG,
+GoogLeNet, and ResNet on several different datasets. These datasets include
 NYUDv2, PASCAL VOC, and SIFT Flow. The metrics captured were pixel accuracy,
 mean accuracy, mean IU, and frequency weighted IU.
 
@@ -161,7 +161,7 @@ This reliance seems valid as most SOTA models for image classification (that I'm
 aware of) utilize fully connected layers for the purposes of classification.
 However, the method that the authors propose may not be transferable to present
 or future convolutional networks that no longer rely on fully connected layers
-for the purposes of clasification.
+for the purposes of classification.
 
 ### Future Directions
 
