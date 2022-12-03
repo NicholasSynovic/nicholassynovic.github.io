@@ -185,10 +185,11 @@ The paper *U-Net: Convolutional Networks for Biomedical Image Segmentation* by
 Olaf Ronneberger et al. \[1\] which describes a model architecture and training
 details for semantic segmentation. The model architecture is known as a U-Net. A
 U-Net is composed of two halves. The first half is a standard convolutional
-network; the second half up-samples the first and is then a convolutional neural
-network. The training methodology proposed involves data augmentation to train
-this network on a small dataset. The authors were able to achieve SOTA semantic
-segmentation performance on the dataset the they were using.
+network that encodes the feature map; the second half up-samples and decodes the
+first and is then a convolutional neural network. The training methodology
+proposed involves data augmentation to train this network on a small dataset.
+The authors were able to achieve SOTA semantic segmentation performance on the
+dataset the they were using.
 
 ______________________________________________________________________
 
