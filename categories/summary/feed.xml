@@ -1,4 +1,197 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>summary on Nicholas M. Synovic</title><link>https://nsynovic.dev/categories/summary/</link><description>Recent content in summary on Nicholas M. Synovic</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Nicholas M. Synovic</copyright><lastBuildDate>Thu, 01 Dec 2022 01:02:34 -0600</lastBuildDate><atom:link href="https://nsynovic.dev/categories/summary/feed.xml" rel="self" type="application/rss+xml"/><item><title>A summary of MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications by Andrew G. Howard et al.</title><link>https://nsynovic.dev/summaries/mobilenets-efficient-convolutional-neural-networks-for-mobile-vision-applications/</link><pubDate>Thu, 01 Dec 2022 01:02:34 -0600</pubDate><guid>https://nsynovic.dev/summaries/mobilenets-efficient-convolutional-neural-networks-for-mobile-vision-applications/</guid><description>&lt;h1 id="a-summary-of-mobilenets-efficient-convolutional-neural-networks-for-mobile-vision-applications">A summary of &lt;em>MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications&lt;/em>&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>summary on Nicholas M. Synovic</title><link>https://nsynovic.dev/categories/summary/</link><description>Recent content in summary on Nicholas M. Synovic</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Nicholas M. Synovic</copyright><lastBuildDate>Thu, 01 Dec 2022 21:54:52 -0600</lastBuildDate><atom:link href="https://nsynovic.dev/categories/summary/feed.xml" rel="self" type="application/rss+xml"/><item><title>A summary of Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks by Shaoqing Ren et al.</title><link>https://nsynovic.dev/summaries/faster-r-cnn-towards-real-time-object-detection-with-region-proposal-networks/</link><pubDate>Thu, 01 Dec 2022 21:54:52 -0600</pubDate><guid>https://nsynovic.dev/summaries/faster-r-cnn-towards-real-time-object-detection-with-region-proposal-networks/</guid><description>&lt;h1 id="a-summary-of-faster-r-cnn-towards-real-time-object-detection-with-region-proposal-networks">A summary of &lt;em>Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks&lt;/em>&lt;/h1>
+&lt;blockquote>
+&lt;p>Shaoqing Ren et al. Posted in the IEEE Transactions on Patterna Analysis and
+Machine Intelligence, 2017 &lt;a href="https://doi.org/10.1109/TPAMI.2016.2577031">DOI&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;p>For the summary of the paper, go to the &lt;a href="#summary">Summary&lt;/a> section of this
+article.&lt;/p>
+&lt;h2 id="table-of-contents">Table of Contents&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="#a-summary-of-faster-r-cnn-towards-real-time-object-detection-with-region-proposal-networks">A summary of &lt;em>Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks&lt;/em>&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#table-of-contents">Table of Contents&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#first-pass">First Pass&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#problem">Problem&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#motivation">Motivation&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#category">Category&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#context">Context&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#contributions">Contributions&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#second-pass">Second Pass&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#background-work">Background Work&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#clarity">Clarity&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#relevant-work">Relevant Work&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#methodology">Methodology&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#author-assumptions">Author Assumptions&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#correctness">Correctness&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#future-directions">Future Directions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#open-questions">Open Questions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#author-feedback">Author Feedback&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#summary">Summary&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#summarization-technique">Summarization Technique&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#citations">Citations&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="first-pass">First Pass&lt;/h2>
+&lt;blockquote>
+&lt;p>Read the title, abstract, introduction, section and sub-section headings, and
+conclusion&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="problem">Problem&lt;/h3>
+&lt;blockquote>
+&lt;p>What is the problem addressed in the paper?&lt;/p>
+&lt;/blockquote>
+&lt;p>Fast R-CNN is able to perform fast infrencing on an image for object detection
+&lt;em>after the region proposal step has been complete&lt;/em>. Therefore, if one could
+improve the speed at which region proposal occurs at, then Fast R-CNN should
+become even faster. Additionally, region proposal methods rely on handcrafted
+features that are slow to use and biased towards their implementor. Furthermore,
+while work regarding region proposal is typically done on the CPU,
+re-engineering region proposal methods on the GPU only masks the underlying
+algorithmic problem and implementation, and does not resolve the issue.
+Therefore, a new approach must be taken to solve this issue.&lt;/p>
+&lt;h3 id="motivation">Motivation&lt;/h3>
+&lt;blockquote>
+&lt;p>Why should we care about this paper?&lt;/p>
+&lt;/blockquote>
+&lt;p>We should care about this work as it proposes a Region Proposal Network (RPN)
+that relies on deep learning (DL) techniques to identify the regions of
+interest. Additionally, the authors were able to pass these into Fast R-CNN
+almost cost free and were therefore able to improve both the training and
+infrencing time.&lt;/p>
+&lt;h3 id="category">Category&lt;/h3>
+&lt;blockquote>
+&lt;p>What type of paper is this work?&lt;/p>
+&lt;/blockquote>
+&lt;p>This paper is an algorithms and CV paper.&lt;/p>
+&lt;h3 id="context">Context&lt;/h3>
+&lt;blockquote>
+&lt;p>What other &lt;em>types&lt;/em> of papers is the work related to?&lt;/p>
+&lt;/blockquote>
+&lt;p>This paper is related to works regarding object detection and region proposal
+networks.&lt;/p>
+&lt;h3 id="contributions">Contributions&lt;/h3>
+&lt;blockquote>
+&lt;p>What are the author&amp;rsquo;s main contributions?&lt;/p>
+&lt;/blockquote>
+&lt;p>The author&amp;rsquo;s main contributions are the development of the Region Proposal
+Network (RPN), methodologies for including proposed regions within Fast R-CNN
+from an RPN almost cost free, and a system that can detect objects at 5 to 17
+FPS.&lt;/p>
+&lt;hr>
+&lt;h2 id="second-pass">Second Pass&lt;/h2>
+&lt;blockquote>
+&lt;p>A proper read through of the paper is required to answer this&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="background-work">Background Work&lt;/h3>
+&lt;blockquote>
+&lt;p>What has been done prior to this paper?&lt;/p>
+&lt;/blockquote>
+&lt;p>Work has been done to hand create algorithms and filters for region proposal, as
+well as DL techniques for identifying regions of interest. Additionally, work
+has been done with respect to the shared computation of convolutions.&lt;/p>
+&lt;h3 id="figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/h3>
+&lt;blockquote>
+&lt;p>Are the axes properly labeled? Are results shown with error bars, so that
+conclusions are statistically significant?&lt;/p>
+&lt;/blockquote>
+&lt;p>The tables and figures are clear.&lt;/p>
+&lt;h3 id="clarity">Clarity&lt;/h3>
+&lt;blockquote>
+&lt;p>Is the paper well written?&lt;/p>
+&lt;/blockquote>
+&lt;p>This paper is understandable.&lt;/p>
+&lt;h3 id="relevant-work">Relevant Work&lt;/h3>
+&lt;blockquote>
+&lt;p>Mark relevant work for review&lt;/p>
+&lt;/blockquote>
+&lt;p>The following relevant work can be found in the &lt;a href="#citations">Citations&lt;/a> section
+of this article.&lt;/p>
+&lt;h3 id="methodology">Methodology&lt;/h3>
+&lt;blockquote>
+&lt;p>What methodology did the author&amp;rsquo;s use to validate their contributions?&lt;/p>
+&lt;/blockquote>
+&lt;p>The authors compare the number of proposals made as well as the infrence rate
+(measured in FPS) of RPN + Fast R-CNN on both the VGG and ZF models.
+Additionally, they compared RPN against the Selective Search (SS) region
+propsasl technique on VGG. They also compared the one stage and two stage object
+detection using RPN on the ZF model.&lt;/p>
+&lt;h3 id="author-assumptions">Author Assumptions&lt;/h3>
+&lt;blockquote>
+&lt;p>What assumptions does the author(s) make? Are they justified assumptions?&lt;/p>
+&lt;/blockquote>
+&lt;p>Their assumption that RPN is a ubiquotous technique regardless of model
+architecture when combined with Fast R-CN.&lt;/p>
+&lt;h4 id="correctness">Correctness&lt;/h4>
+&lt;blockquote>
+&lt;p>Do the assumptions seem valid?&lt;/p>
+&lt;/blockquote>
+&lt;p>Maybe? The biggest concern that I see with that RPNs are reliant upon Fast R-CNN
+to operate properly. This sounds like a limitation of the network for a
+particualar task and may be difficult to incorporate in future works.&lt;/p>
+&lt;h3 id="future-directions">Future Directions&lt;/h3>
+&lt;blockquote>
+&lt;p>My own proposed future directions for the work&lt;/p>
+&lt;/blockquote>
+&lt;p>I&amp;rsquo;d like to explore RPN usage in model architecutres that do not utilize Fast
+R-CNN.&lt;/p>
+&lt;h3 id="open-questions">Open Questions&lt;/h3>
+&lt;blockquote>
+&lt;p>What open questions do I have about the work?&lt;/p>
+&lt;/blockquote>
+&lt;p>VGG was used as the base model for both this work and Fast R-CNN paper. Why is
+that? Additionally, this paper calls out reengineering region proposal solutions
+to target the GPU to not solve the underlying problem, but the authors did not
+specify if they made their solution run a GPU. Are RPNs more performant on GPUs?&lt;/p>
+&lt;h3 id="author-feedback">Author Feedback&lt;/h3>
+&lt;blockquote>
+&lt;p>What feedback would I give to the authors?&lt;/p>
+&lt;/blockquote>
+&lt;p>This was a good paper. I found the writing style to be very terse which I wasn&amp;rsquo;t
+a fan of as I find it a little boring. This is a personal preference and not a
+demerit on the content of the paper nor the explanations given.&lt;/p>
+&lt;hr>
+&lt;h2 id="summary">Summary&lt;/h2>
+&lt;blockquote>
+&lt;p>A summary of the paper&lt;/p>
+&lt;/blockquote>
+&lt;p>The paper, &lt;em>Faster R-CNN: Towards Real-Time Object Detection with Region
+Proposal Networks&lt;/em> by Shaoqing Ren et al. [1] introduces the Region Proposal
+Network (RPN) architecture for finding image region proposals for the purposes
+of object detection, specifically with the &lt;a href="fast-r-cnn.md">Fast R-CNN&lt;/a> method.
+RPNs are a convolutional neural network (CNN) that learns region proposals end
+to end. The output of this network can be fed into an object detection model or
+be incorporated as a one shot method directly with an existing model.&lt;/p>
+&lt;p>To do so:&lt;/p>
+&lt;ol>
+&lt;li>An RPN is trained having the same number of convolutional layers as the
+target model on the same dataset.&lt;/li>
+&lt;li>A CNN using Fast R-CNN is trained on object detection using the regions
+proposed from the RPN.&lt;/li>
+&lt;li>The detection network initalizes the RPN network, but the RPN&amp;rsquo;s convolutional
+layers are fixed. This then only trains the RPN&amp;rsquo;s unique layers.&lt;/li>
+&lt;li>The detection network fixes its CNN layers, and fine tunes its unique layers.&lt;/li>
+&lt;/ol>
+&lt;p>By doing this, both the RPN and the Object Detection network now share the same
+convolutional layers. This forms a unified network that allows for more accurate
+region proposals.&lt;/p>
+&lt;hr>
+&lt;h2 id="summarization-technique">Summarization Technique&lt;/h2>
+&lt;p>This paper was summarized using a modified technique proposed by S. Keshav in
+his work &lt;em>How to Read a Paper&lt;/em> [0].&lt;/p>
+&lt;h2 id="citations">Citations&lt;/h2>
+Citations availible at https://nsynovic.dev/summaries/faster-r-cnn-towards-real-time-object-detection-with-region-proposal-networks/</description></item><item><title>A summary of MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications by Andrew G. Howard et al.</title><link>https://nsynovic.dev/summaries/mobilenets-efficient-convolutional-neural-networks-for-mobile-vision-applications/</link><pubDate>Thu, 01 Dec 2022 01:02:34 -0600</pubDate><guid>https://nsynovic.dev/summaries/mobilenets-efficient-convolutional-neural-networks-for-mobile-vision-applications/</guid><description>&lt;h1 id="a-summary-of-mobilenets-efficient-convolutional-neural-networks-for-mobile-vision-applications">A summary of &lt;em>MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications&lt;/em>&lt;/h1>
 &lt;blockquote>
 &lt;p>Andrew G. Howard et al. arXiv, 2017 &lt;a href="http://arxiv.org/abs/1704.04861">DOI&lt;/a>&lt;/p>
 &lt;/blockquote>
