@@ -71,7 +71,7 @@ in a short period of time.
 > Why should we care about this paper?
 
 We should care about this paper because it builds off of the ideas of a fully
-convolutional neural network for the purpose of semantic segmenetation, but
+convolutional neural network for the purpose of semantic segmentation, but
 introduces training techniques to reduce the number of training examples needed
 as well as a novel architecture to support training on few examples.
 
@@ -143,14 +143,14 @@ the ISBI EM Challenge.
 > What assumptions does the author(s) make? Are they justified assumptions?
 
 The author assumes that data augmentation is enough to make a model robust
-against roation, shift, deformations, and gray value variations.
+against rotation, shift, deformations, and gray value variations.
 
 #### Correctness
 
 > Do the assumptions seem valid?
 
 I disagree with their assumptions as, while yes, data augmentation is necessary
-to make a model or system robust against the different varience mentioned, also
+to make a model or system robust against the different variance mentioned, also
 exposing the model to more data should further increase the robustness of it.
 
 ### Future Directions
@@ -171,7 +171,7 @@ Just how much data was the model trained on?
 > What feedback would I give to the authors?
 
 This is a fine paper. It is fairly short and is lacking technical details that
-would be appreciated. For example, how much data was augmentated? As well as the
+would be appreciated. For example, how much data was augmented? As well as the
 metrics values proposed
 [here](fully-convolutional-networks-for-semantic-segmentation.md).
 
@@ -185,7 +185,7 @@ The paper *U-Net: Convolutional Networks for Biomedical Image Segmentation* by
 Olaf Ronneberger et al. \[1\] which describes a model architecture and training
 details for semantic segmentation. The model architecture is known as a U-Net. A
 U-Net is composed of two halves. The first half is a standard convolutional
-network; the second half up-samples the first and is then a convolutonal neural
+network; the second half up-samples the first and is then a convolutional neural
 network. The training methodology proposed involves data augmentation to train
 this network on a small dataset. The authors were able to achieve SOTA semantic
 segmentation performance on the dataset the they were using.
