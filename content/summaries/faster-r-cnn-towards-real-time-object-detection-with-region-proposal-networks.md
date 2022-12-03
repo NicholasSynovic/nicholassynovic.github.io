@@ -1,13 +1,14 @@
 ---
 title: 'A summary of Faster R-CNN: Towards Real-Time Object Detection with Region
   Proposal Networks by Shaoqing Ren et al.'
-description: Posted in the IEEE Transactions on Patterna Analysis and Machine Intelligence,
+description: Posted in the IEEE Transactions on Patterns Analysis and Machine Intelligence,
   2017
-summary: Posted in the IEEE Transactions on Patterna Analysis and Machine Intelligence,
+summary: Posted in the IEEE Transactions on Patterns Analysis and Machine Intelligence,
   2017
 
 categories: [summary]
-citations: [https://doi.org/10.1145/1273445.1273458, https://doi.org/10.1109/TPAMI.2016.2577031]
+citations: [https://doi.org/10.1145/1273445.1273458, https://doi.org/10.1109/TPAMI.2016.2577031,
+  https://doi.org/10.1007/s11263-013-0620-5]
 
 draft: false
 
@@ -23,7 +24,7 @@ show_reading_time: true
 
 # A summary of *Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks*
 
-> Shaoqing Ren et al. Posted in the IEEE Transactions on Patterna Analysis and
+> Shaoqing Ren et al. Posted in the IEEE Transactions on Patterns Analysis and
 > Machine Intelligence, 2017 [DOI](https://doi.org/10.1109/TPAMI.2016.2577031)
 
 For the summary of the paper, go to the [Summary](#summary) section of this
@@ -65,11 +66,11 @@ ______________________________________________________________________
 
 > What is the problem addressed in the paper?
 
-Fast R-CNN is able to perform fast infrencing on an image for object detection
+Fast R-CNN is able to perform fast inferencing on an image for object detection
 *after the region proposal step has been complete*. Therefore, if one could
 improve the speed at which region proposal occurs at, then Fast R-CNN should
 become even faster. Additionally, region proposal methods rely on handcrafted
-features that are slow to use and biased towards their implementor. Furthermore,
+features that are slow to use and biased towards their implementer. Furthermore,
 while work regarding region proposal is typically done on the CPU,
 re-engineering region proposal methods on the GPU only masks the underlying
 algorithmic problem and implementation, and does not resolve the issue.
@@ -83,7 +84,7 @@ We should care about this work as it proposes a Region Proposal Network (RPN)
 that relies on deep learning (DL) techniques to identify the regions of
 interest. Additionally, the authors were able to pass these into Fast R-CNN
 almost cost free and were therefore able to improve both the training and
-infrencing time.
+inferencing time.
 
 ### Category
 
@@ -141,22 +142,25 @@ This paper is understandable.
 The following relevant work can be found in the [Citations](#citations) section
 of this article.
 
+2. J. R. Uijlings, K. E. van de Sande, T. Gevers, and A. W. Smeulders. Selective
+   search for object recognition. IJCV, 2013.
+
 ### Methodology
 
 > What methodology did the author's use to validate their contributions?
 
-The authors compare the number of proposals made as well as the infrence rate
+The authors compare the number of proposals made as well as the inference rate
 (measured in FPS) of RPN + Fast R-CNN on both the VGG and ZF models.
 Additionally, they compared RPN against the Selective Search (SS) region
-propsasl technique on VGG. They also compared the one stage and two stage object
+proposal technique on VGG. They also compared the one stage and two stage object
 detection using RPN on the ZF model.
 
 ### Author Assumptions
 
 > What assumptions does the author(s) make? Are they justified assumptions?
 
-Their assumption that RPN is a ubiquotous technique regardless of model
-architecture when combined with Fast R-CN.
+Their assumption that RPN is a ubiquitous technique regardless of model
+architecture when combined with Fast R-CNN.
 
 #### Correctness
 
@@ -164,13 +168,13 @@ architecture when combined with Fast R-CN.
 
 Maybe? The biggest concern that I see with that RPNs are reliant upon Fast R-CNN
 to operate properly. This sounds like a limitation of the network for a
-particualar task and may be difficult to incorporate in future works.
+particular task and may be difficult to incorporate in future works.
 
 ### Future Directions
 
 > My own proposed future directions for the work
 
-I'd like to explore RPN usage in model architecutres that do not utilize Fast
+I'd like to explore RPN usage in model architectures that do not utilize Fast
 R-CNN.
 
 ### Open Questions
@@ -178,9 +182,10 @@ R-CNN.
 > What open questions do I have about the work?
 
 VGG was used as the base model for both this work and Fast R-CNN paper. Why is
-that? Additionally, this paper calls out reengineering region proposal solutions
-to target the GPU to not solve the underlying problem, but the authors did not
-specify if they made their solution run a GPU. Are RPNs more performant on GPUs?
+that? Additionally, this paper calls out re-engineering region proposal
+solutions to target the GPU to not solve the underlying problem, but the authors
+did not specify if they made their solution run a GPU. Are RPNs more performant
+on GPUs?
 
 ### Author Feedback
 
@@ -210,8 +215,9 @@ To do so:
    target model on the same dataset.
 2. A CNN using Fast R-CNN is trained on object detection using the regions
    proposed from the RPN.
-3. The detection network initalizes the RPN network, but the RPN's convolutional
-   layers are fixed. This then only trains the RPN's unique layers.
+3. The detection network initializes the RPN network, but the RPN's
+   convolutional layers are fixed. This then only trains the RPN's unique
+   layers.
 4. The detection network fixes its CNN layers, and fine tunes its unique layers.
 
 By doing this, both the RPN and the Object Detection network now share the same
