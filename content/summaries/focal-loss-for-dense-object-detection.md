@@ -4,7 +4,9 @@ description: Posted in arXiv, 2018
 summary: Posted in arXiv, 2018
 
 categories: [summary, arXiv, 2018]
-citations: [https://doi.org/10.1145/1273445.1273458, http://arxiv.org/abs/1708.02002]
+citations: [https://doi.org/10.1145/1273445.1273458, http://arxiv.org/abs/1708.02002,
+  http://dx.doi.org/10.5244/C.23.91, https://doi.org/10.1109/CVPR.2010.5539906, https://doi.org/10.1007/978-0-387-21606-5,
+  https://doi.org/10.1007/978-3-319-46448-0_2]
 
 draft: false
 
@@ -115,9 +117,13 @@ detectors, reducing class imbalancing, and robust estimation techniques.
 > Are the axes properly labeled? Are results shown with error bars, so that
 > conclusions are statistically significant?
 
+The figures are clear and understandable
+
 ### Clarity
 
 > Is the paper well written?
+
+This paper is well written and is dense with technical information.
 
 ### Relevant Work
 
@@ -126,35 +132,82 @@ detectors, reducing class imbalancing, and robust estimation techniques.
 The following relevant work can be found in the [Citations](#citations) section
 of this article.
 
+2. P. Doll ́ ar, Z. Tu, P. Perona, and S. Belongie. Integral channel features.
+   In BMVC, 2009.
+3. P. F. Felzenszwalb, R. B. Girshick, and D. McAllester. Cascade object
+   detection with deformable part models. In CVPR, 2010.
+4. T. Hastie, R. Tibshirani, and J. Friedman. The elements of statistical
+   learning. Springer series in statistics Springer, Berlin, 2008.
+5. W. Liu, D. Anguelov, D. Erhan, C. Szegedy, and S. Reed. SSD: Single shot
+   multibox detector. In ECCV, 2016.
+
 ### Methodology
 
 > What methodology did the author's use to validate their contributions?
+
+They compared their RetinaNet model against other SOTA object detectors on the
+COCO dataset. Additionally, they compare the performance of models trained using
+their Focal Loss and the Online Hard Example Mining (OHEM) technique.
 
 ### Author Assumptions
 
 > What assumptions does the author(s) make? Are they justified assumptions?
 
+Their assumption is that one stage object detectors are the future.
+
 #### Correctness
 
 > Do the assumptions seem valid?
+
+While having more options as to what type of object detector to choose from (one
+or two stage), it is important to keep in mind that infrence speed, accuracy,
+recall, other metrics, and domain need all play an important role in what model
+is selected for a particular task.
 
 ### Future Directions
 
 > My own proposed future directions for the work
 
+I'd like to implement Focal Loss in both a traditional YOLO network and a YOLO
+network following the MobileNet architecture.
+
 ### Open Questions
 
 > What open questions do I have about the work?
 
+Why was the COCO dataset choosen and not the ImageNet or Pascal VOC dataset for
+training?
+
 ### Author Feedback
 
 > What feedback would I give to the authors?
+
+This is a good paper. I would say that the size of the network is certainly
+larger than previous one stage object detectors such as YOLO. Could it be
+possible to reduce the size of the network to be comparable to these smaller
+networks while maintaining the accuracy or achieving a better accuracy?
 
 ______________________________________________________________________
 
 ## Summary
 
 > A summary of the paper
+
+The paper *Focal Loss for Dense Object Detection* by Tsung-Yi Lin et al. \[1\]
+describes a new loss function aimed at improving the performance of one shot
+object detection models that rely on region proposals. The problem that one shot
+object detection models face compared against traditional two stage models that
+utilize region proposals and object detection is that of class imbalancing.
+Class imbalancing is simply that the region proposal network detects too many
+regions where an object might be. This affects the performance of the object
+detection component of the model as it might infer that an object is in a
+location that it isn't.
+
+To reduce this error, the authors of this paper propose the Focal Loss function,
+a loss function aimed at reducing class imbalancing. The function is
+`FL(pt) = −(1 − pt)^γ log(pt)` where `γ >= 0` They then trained a model
+(RetinaNet) with this loss function on the COCO dataset and found that it
+performed better than other on stage methods with respect to average precision.
 
 ______________________________________________________________________
 
