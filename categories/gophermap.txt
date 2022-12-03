@@ -178,8 +178,6 @@
 
 1Feature extraction	/categories/feature-extraction
 
-1CVPR	/categories/cvpr
-
 1Computer architecture	/categories/computer-architecture
 
 1NeurIPS	/categories/neurips
@@ -243,6 +241,10 @@
 1attention mechanism	/categories/attention-mechanism
 
 1summary	/categories/summary
+
+1CVPR	/categories/cvpr
+
+12016	/categories/2016
 
 
 .

@@ -6,6 +6,8 @@
 > These posts are mirrored from my HTTP site.
 
 
+1A summary of You Only Look Once: Unified, Real-Time Object Detection by Joseph Redmon et al.	/summaries/you-only-look-once-unified-real0time-object-detection
+
 1A summary of Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks by Shaoqing Ren et al.	/summaries/faster-r-cnn-towards-real-time-object-detection-with-region-proposal-networks
 
 1A summary of MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications by Andrew G. Howard et al.	/summaries/mobilenets-efficient-convolutional-neural-networks-for-mobile-vision-applications

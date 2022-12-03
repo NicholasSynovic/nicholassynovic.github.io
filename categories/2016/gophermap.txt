@@ -8,9 +8,5 @@
 
 1A summary of You Only Look Once: Unified, Real-Time Object Detection by Joseph Redmon et al.	/summaries/you-only-look-once-unified-real0time-object-detection
 
-1A summary of Fast R-CNN by Ross Girshick	/summaries/fast-r-cnn
-
-1A summary of Rich feature hierarchies for accurate object detection and semantic segmentation by Ross Girshick et al.	/summaries/rich-feature-hierarchies-for-accurate-object-detection-and-semantic-segmentation
-
 
 .
