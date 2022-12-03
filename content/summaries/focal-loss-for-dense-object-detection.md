@@ -65,14 +65,14 @@ ______________________________________________________________________
 
 This paper aims to address the problem that one stage object detectors (i.e.
 YOLO, SSD) face when trying to match the performance of SOTA two stage object
-detectors which is class imbalancing.
+detectors which is class imbalance.
 
 ### Motivation
 
 > Why should we care about this paper?
 
 Because it introduces a new loss function that addresses the issue of class
-imbalancing when training dense, one stage object detectors. Additionally, the
+imbalance when training dense, one stage object detectors. Additionally, the
 authors released an example model implementing this loss known as Detectron/
 RetinaNet.
 
@@ -94,7 +94,7 @@ detection models.
 > What are the author's main contributions?
 
 The author's main contribution is a new loss function aimed at training one
-stage object detection models that reduces the problem of class imbalancing
+stage object detection models that reduces the problem of class imbalance
 between identifying objects in the foreground and background. Furthermore, the
 authors have released an example model that was trained on this loss function
 known as Detectron/RetinaNet.
@@ -110,7 +110,7 @@ ______________________________________________________________________
 > What has been done prior to this paper?
 
 Work has been done in developing classic object detectors, one and two stage
-detectors, reducing class imbalancing, and robust estimation techniques.
+detectors, reducing class imbalance, and robust estimation techniques.
 
 ### Figures, Diagrams, Illustrations, and Graphs
 
@@ -160,7 +160,7 @@ Their assumption is that one stage object detectors are the future.
 > Do the assumptions seem valid?
 
 While having more options as to what type of object detector to choose from (one
-or two stage), it is important to keep in mind that infrence speed, accuracy,
+or two stage), it is important to keep in mind that inference speed, accuracy,
 recall, other metrics, and domain need all play an important role in what model
 is selected for a particular task.
 
@@ -175,7 +175,7 @@ network following the MobileNet architecture.
 
 > What open questions do I have about the work?
 
-Why was the COCO dataset choosen and not the ImageNet or Pascal VOC dataset for
+Why was the COCO dataset chosen and not the ImageNet or Pascal VOC dataset for
 training?
 
 ### Author Feedback
@@ -197,14 +197,14 @@ The paper *Focal Loss for Dense Object Detection* by Tsung-Yi Lin et al. \[1\]
 describes a new loss function aimed at improving the performance of one shot
 object detection models that rely on region proposals. The problem that one shot
 object detection models face compared against traditional two stage models that
-utilize region proposals and object detection is that of class imbalancing.
-Class imbalancing is simply that the region proposal network detects too many
-regions where an object might be. This affects the performance of the object
-detection component of the model as it might infer that an object is in a
-location that it isn't.
+utilize region proposals and object detection is that of class imbalance. Class
+imbalance is simply that the region proposal network detects too many regions
+where an object might be. This affects the performance of the object detection
+component of the model as it might infer that an object is in a location that it
+isn't.
 
 To reduce this error, the authors of this paper propose the Focal Loss function,
-a loss function aimed at reducing class imbalancing. The function is
+a loss function aimed at reducing class imbalance. The function is
 `FL(pt) = −(1 − pt)^γ log(pt)` where `γ >= 0` They then trained a model
 (RetinaNet) with this loss function on the COCO dataset and found that it
 performed better than other on stage methods with respect to average precision.
