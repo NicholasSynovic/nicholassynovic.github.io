@@ -1,6 +1,6 @@
 ---
 title: 'A summary of by SegNet: A Deep Convolutional Encoder-Decoder Architecture
-  for Image Segmentations by Vijay Badrinarayanan et al.'
+  for Image Segmentation by Vijay Badrinarayanan et al.'
 description: Posted in the IEEE TRANSACTIONS ON PATTERN ANALYSIS AND MACHINE INTELLIGENCE,
   2017
 summary: Posted in the IEEE TRANSACTIONS ON PATTERN ANALYSIS AND MACHINE INTELLIGENCE,
@@ -22,7 +22,7 @@ toc: true
 show_reading_time: true
 ---
 
-# A summary of *SegNet: A Deep Convolutional Encoder-Decoder Architecture for Image Segmentations*
+# A summary of *SegNet: A Deep Convolutional Encoder-Decoder Architecture for Image Segmentation*
 
 > Vijay Badrinarayanan et al. IEEE TRANSACTIONS ON PATTERN ANALYSIS AND MACHINE
 > INTELLIGENCE, 2017 [DOI](https://doi.org/10.1109/TPAMI.2016.2644615)
@@ -32,7 +32,7 @@ article.
 
 ## Table of Contents
 
-- [A summary of *SegNet: A Deep Convolutional Encoder-Decoder Architecture for Image Segmentations*](#a-summary-of-segnet-a-deep-convolutional-encoder-decoder-architecture-for-image-segmentations)
+- [A summary of *SegNet: A Deep Convolutional Encoder-Decoder Architecture for Image Segmentation*](#a-summary-of-segnet-a-deep-convolutional-encoder-decoder-architecture-for-image-segmentation)
   - [Table of Contents](#table-of-contents)
   - [First Pass](#first-pass)
     - [Problem](#problem)
@@ -93,7 +93,7 @@ solutions that rely on an encoder-decoder style network.
 
 > What are the author's main contributions?
 
-The author's main contributions are a model archicture that is memory and
+The author's main contributions are a model architecture that is memory and
 computationally efficient for the purposes of image segmentation, a reference
 model of this architecture called SegNet, and an advancement of the
 encoder-decoder style network architecture.
@@ -145,15 +145,15 @@ of this article.
 > What methodology did the author's use to validate their contributions?
 
 The authors evaluated the performance of their architecture in both a simplified
-and fully instanced benchmarking.
+and fully instanced bench marking.
 
-In the simplified benchmarking, they evaluated their SegNet-basic model (4
-encoders, 4 decoders) against FCN-basic which mirrored thier encoder design.
-They benchmarked the two against each other on the Pascal VOC 2012 challenge.
+In the simplified bench marking, they evaluated their SegNet-basic model (4
+encoders, 4 decoders) against FCN-basic which mirrored their encoder design.
+They bench marked the two against each other on the Pascal VOC 2012 challenge.
 The metrics captured where the global and class average, mean intersection over
 union, and semantic contour measure.
 
-In the fully instanced benchmarking, they evaluated SegNet against other models
+In the fully instanced bench marking, they evaluated SegNet against other models
 on road and indoor scene segmentation. They compared SegNet against, FCN, FCN
 (learned deconvolution), DeepLab-LargeFOV, DeepLab-LargeFOV-denseCRF, and
 DeconvNet. They used the mean intersection over union and semantic contour
@@ -180,27 +180,27 @@ or memory constrains which might be constrained.
 
 > My own proposed future directions for the work
 
-I'd like to try and build SegNet and quantinize it from float-16 to int-8 just
-to see what would happen.
+I'd like to try and build SegNet and quantize it from float-16 to int-8 just to
+see what would happen.
 
 ### Open Questions
 
 > What open questions do I have about the work?
 
-Why wasn't this model quantinized? If memory efficiency was a concern, or
+Why wasn't this model quantized? If memory efficiency was a concern, or
 increasing the computation speed was desired, why utilize floating point values
 everywhere and not just where it mattered most? Where are the comparisons of
-memory usage and infrence timing of different models compared to SegNet?
+memory usage and inference timing of different models compared to SegNet?
 
 ### Author Feedback
 
 > What feedback would I give to the authors?
 
-This paper is dense. There is alot of information covered here. Because of that,
-I would encourage a review of the paper to address spelling mistakes when
-referencing different models, as well as enhancing figures by pointining out
-specific areas where SegNet outperforms or is outperfomed by other models. Also,
-please report comparisons of memory usage and infrence timings if you are
+This paper is dense. There is a lot of information covered here. Because of
+that, I would encourage a review of the paper to address spelling mistakes when
+referencing different models, as well as enhancing figures by pointing out
+specific areas where SegNet outperforms or is outperformed by other models.
+Also, please report comparisons of memory usage and inference timings if you are
 claiming that the SegNet architecture is more efficient that other
 architectures.
 
@@ -211,15 +211,15 @@ ______________________________________________________________________
 > A summary of the paper
 
 The paper *SegNet: A Deep Convolutional Encoder-Decoder Architecture for Image
-Segmentations* by Vijay Badrinarayanan et al. \[1\] introduces a novel model
+Segmentation* by Vijay Badrinarayanan et al. \[1\] introduces a novel model
 architecture for semantic segmentation based off of an encoder-decoder design.
 This architecture is designed around being computationally and memory efficient,
 while accurate enough to be used in practice. They created a reference model
 that implemented this model called SegNet that they then evaluated against
 larger and SOTA segmentation models on road and indoor scene segmentation. While
 SegNet is not always more accurate than the SOTA, the architecture it implements
-significantly reduces memory usage and therefore increases infrence time. No
-metrics with respect to memory or infrence time was reported in this work.
+significantly reduces memory usage and therefore increases inference time. No
+metrics with respect to memory or inference time was reported in this work.
 
 ______________________________________________________________________
 
