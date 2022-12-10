@@ -1,4 +1,1258 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Summaries on Nicholas M. Synovic</title><link>https://nsynovic.dev/summaries/</link><description>Recent content in Summaries on Nicholas M. Synovic</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Nicholas M. Synovic</copyright><lastBuildDate>Sun, 26 Jun 2022 21:29:53 -0500</lastBuildDate><atom:link href="https://nsynovic.dev/summaries/feed.xml" rel="self" type="application/rss+xml"/><item><title>A summary of You Only Look Once: Unified, Real-Time Object Detection by Joseph Redmon et al.</title><link>https://nsynovic.dev/summaries/you-only-look-once-unified-real0time-object-detection/</link><pubDate>Fri, 02 Dec 2022 21:50:54 -0600</pubDate><guid>https://nsynovic.dev/summaries/you-only-look-once-unified-real0time-object-detection/</guid><description>&lt;h1 id="a-summary-of-you-only-look-once-unified-real-time-object-detection">A summary of &lt;em>You Only Look Once: Unified, Real-Time Object Detection&lt;/em>&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Summaries on Nicholas M. Synovic</title><link>https://nsynovic.dev/summaries/</link><description>Recent content in Summaries on Nicholas M. Synovic</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Nicholas M. Synovic</copyright><lastBuildDate>Sun, 26 Jun 2022 21:29:53 -0500</lastBuildDate><atom:link href="https://nsynovic.dev/summaries/feed.xml" rel="self" type="application/rss+xml"/><item><title>A summary of Joint Head Pose Estimation and Face Alignment Framework Using Global and Local CNN Features by Xiang Xu and A. Kakadiaris</title><link>https://nsynovic.dev/summaries/joint-head-pose-estimation-and-face-alignment-framework-using-global-and-local-cnn-features/</link><pubDate>Sun, 04 Dec 2022 22:32:45 -0600</pubDate><guid>https://nsynovic.dev/summaries/joint-head-pose-estimation-and-face-alignment-framework-using-global-and-local-cnn-features/</guid><description>&lt;h1 id="a-summary-of-joint-head-pose-estimation-and-face-alignment-framework-using-global-and-local-cnn-features">A summary of &lt;em>Joint Head Pose Estimation and Face Alignment Framework Using Global and Local CNN Features&lt;/em>&lt;/h1>
+&lt;blockquote>
+&lt;p>Xiang Xu and A. Kakadiaris IEEE FG, 2017
+&lt;a href="https://doi.org/10.1109/FG.2017.81">DOI&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;p>For the summary of the paper, go to the &lt;a href="#summary">Summary&lt;/a> section of this
+article.&lt;/p>
+&lt;h2 id="table-of-contents">Table of Contents&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="#a-summary-of-joint-head-pose-estimation-and-face-alignment-framework-using-global-and-local-cnn-features">A summary of &lt;em>Joint Head Pose Estimation and Face Alignment Framework Using Global and Local CNN Features&lt;/em>&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#table-of-contents">Table of Contents&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#first-pass">First Pass&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#problem">Problem&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#motivation">Motivation&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#category">Category&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#context">Context&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#contributions">Contributions&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#second-pass">Second Pass&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#background-work">Background Work&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#clarity">Clarity&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#relevant-work">Relevant Work&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#methodology">Methodology&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#author-assumptions">Author Assumptions&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#correctness">Correctness&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#future-directions">Future Directions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#open-questions">Open Questions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#author-feedback">Author Feedback&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#summary">Summary&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#summarization-technique">Summarization Technique&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#citations">Citations&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="first-pass">First Pass&lt;/h2>
+&lt;blockquote>
+&lt;p>Read the title, abstract, introduction, section and sub-section headings, and
+conclusion&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="problem">Problem&lt;/h3>
+&lt;blockquote>
+&lt;p>What is the problem addressed in the paper?&lt;/p>
+&lt;/blockquote>
+&lt;p>The problem is two fold:&lt;/p>
+&lt;ol>
+&lt;li>To build a face detector that is robust to occlusion and &amp;ldquo;in the wild&amp;rdquo;
+images.&lt;/li>
+&lt;li>To incorporate facial landmarks via global and local features of the image to
+better isolate not only where the face(s) are within the image, but also the
+eyes, jaw, mouth, etc.&lt;/li>
+&lt;/ol>
+&lt;h3 id="motivation">Motivation&lt;/h3>
+&lt;blockquote>
+&lt;p>Why should we care about this paper?&lt;/p>
+&lt;/blockquote>
+&lt;p>Because the solution proposed allows for the identification and isolation of
+facial features of an input image.&lt;/p>
+&lt;h3 id="category">Category&lt;/h3>
+&lt;blockquote>
+&lt;p>What type of paper is this work?&lt;/p>
+&lt;/blockquote>
+&lt;p>This is a face detection paper as well as CV model architecture paper.&lt;/p>
+&lt;h3 id="context">Context&lt;/h3>
+&lt;blockquote>
+&lt;p>What other &lt;em>types&lt;/em> of papers is the work related to?&lt;/p>
+&lt;/blockquote>
+&lt;p>This paper is related to works involving face and facial landmark detection.&lt;/p>
+&lt;h3 id="contributions">Contributions&lt;/h3>
+&lt;blockquote>
+&lt;p>What are the author&amp;rsquo;s main contributions?&lt;/p>
+&lt;/blockquote>
+&lt;p>Their contributions are a methodology for leveraging the relationship between
+head pose and face landmarks to find the best shape for initialization and the
+usage of global and local CNN features for pose estimation and face alignment in
+a cascading manner.&lt;/p>
+&lt;hr>
+&lt;h2 id="second-pass">Second Pass&lt;/h2>
+&lt;blockquote>
+&lt;p>A proper read through of the paper is required to answer this&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="background-work">Background Work&lt;/h3>
+&lt;blockquote>
+&lt;p>What has been done prior to this paper?&lt;/p>
+&lt;/blockquote>
+&lt;p>Work has been done to detect faces and to identify the facial landmarks of a
+detected face.&lt;/p>
+&lt;h3 id="figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/h3>
+&lt;blockquote>
+&lt;p>Are the axes properly labeled? Are results shown with error bars, so that
+conclusions are statistically significant?&lt;/p>
+&lt;/blockquote>
+&lt;p>Nearly all of the figures, charts, and tables are clear. Figure 4 is lacking
+description for which set of images correspond to what model.&lt;/p>
+&lt;h3 id="clarity">Clarity&lt;/h3>
+&lt;blockquote>
+&lt;p>Is the paper well written?&lt;/p>
+&lt;/blockquote>
+&lt;p>The paper is well written.&lt;/p>
+&lt;h3 id="relevant-work">Relevant Work&lt;/h3>
+&lt;blockquote>
+&lt;p>Mark relevant work for review&lt;/p>
+&lt;/blockquote>
+&lt;p>The following relevant work can be found in the &lt;a href="#citations">Citations&lt;/a> section
+of this article.&lt;/p>
+&lt;h3 id="methodology">Methodology&lt;/h3>
+&lt;blockquote>
+&lt;p>What methodology did the author&amp;rsquo;s use to validate their contributions?&lt;/p>
+&lt;/blockquote>
+&lt;p>The authors compared their solution (JFA) against other SOTA models including
+ERT on pose and facial landmark detection datasets.&lt;/p>
+&lt;h3 id="author-assumptions">Author Assumptions&lt;/h3>
+&lt;blockquote>
+&lt;p>What assumptions does the author(s) make? Are they justified assumptions?&lt;/p>
+&lt;/blockquote>
+&lt;p>That global features can capture fine grain detail of an image.&lt;/p>
+&lt;h4 id="correctness">Correctness&lt;/h4>
+&lt;blockquote>
+&lt;p>Do the assumptions seem valid?&lt;/p>
+&lt;/blockquote>
+&lt;p>Not really, as global features are intended to look at the feature map as a
+whole to identify very large or prominent features (such as an entire face). To
+the authors credit, they do discuss this at the end of the paper. But as it
+stands, the usage of global features to identify fine grain detail (such as
+facial landmarks) is a waste of computational resources that only attempts to
+mimic the local feature analysis that their algorithm also performs.&lt;/p>
+&lt;h3 id="future-directions">Future Directions&lt;/h3>
+&lt;blockquote>
+&lt;p>My own proposed future directions for the work&lt;/p>
+&lt;/blockquote>
+&lt;p>I&amp;rsquo;d like to see if I could optimize their solution by removing the global
+feature analysis for facial landmarks component. The idea behind optimizing
+their solution is to implement it on a mobile or low powered system.&lt;/p>
+&lt;h3 id="open-questions">Open Questions&lt;/h3>
+&lt;blockquote>
+&lt;p>What open questions do I have about the work?&lt;/p>
+&lt;/blockquote>
+&lt;p>As the solution proposed involves a database lookup to identify areas of
+interest for facial landmarks, how robust is that database to rotation, scale,
+lighting, and occlusion variance?&lt;/p>
+&lt;h3 id="author-feedback">Author Feedback&lt;/h3>
+&lt;blockquote>
+&lt;p>What feedback would I give to the authors?&lt;/p>
+&lt;/blockquote>
+&lt;p>This is an interesting solution to the problem of identifying facial landmarks,
+however&lt;/p>
+&lt;hr>
+&lt;h2 id="summary">Summary&lt;/h2>
+&lt;blockquote>
+&lt;p>A summary of the paper&lt;/p>
+&lt;/blockquote>
+&lt;p>The paper &lt;em>Joint Head Pose Estimation and Face Alignment Framework Using Global
+and Local CNN Features&lt;/em> by Xiang Xu and A. Kakadiaris [1] describes a solution
+to not only detect faces, but identify facial landmarks using a cascading CNN
+architecture. The reference model for the architecture was able to attain SOTA
+results using an off-the-shelf face detector (Dlib) and could accurately
+identify facial landmarks. It is able top detect facial landmarks by analyzing
+both the global and local features generated from the face detectors feature
+maps. A global feature detector is used for pose estimation. This is then passed
+into a database of poses used for estimating where facial features are most
+likely to be in the input image. A local feature detector than analyzes the
+feature map to identify all of the facial landmarks within the image.&lt;/p>
+&lt;hr>
+&lt;h2 id="summarization-technique">Summarization Technique&lt;/h2>
+&lt;p>This paper was summarized using a modified technique proposed by S. Keshav in
+his work &lt;em>How to Read a Paper&lt;/em> [0].&lt;/p>
+&lt;h2 id="citations">Citations&lt;/h2>
+Citations availible at https://nsynovic.dev/summaries/joint-head-pose-estimation-and-face-alignment-framework-using-global-and-local-cnn-features/</description></item><item><title>A summary of A Convolutional Neural Network Cascade for Face Detection by Haoxiang Li et al.</title><link>https://nsynovic.dev/summaries/a-convolutional-neural-network-cascade-for-face-detection/</link><pubDate>Sun, 04 Dec 2022 21:43:17 -0600</pubDate><guid>https://nsynovic.dev/summaries/a-convolutional-neural-network-cascade-for-face-detection/</guid><description>&lt;h1 id="a-summary-of-a-convolutional-neural-network-cascade-for-face-detection">A summary of &lt;em>A Convolutional Neural Network Cascade for Face Detection&lt;/em>&lt;/h1>
+&lt;blockquote>
+&lt;p>Haoxiang Li et al. CVPR, 2015 &lt;a href="https://doi.org/10.1109/CVPR.2015.7299170">DOI&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;p>For the summary of the paper, go to the &lt;a href="#summary">Summary&lt;/a> section of this
+article.&lt;/p>
+&lt;h2 id="table-of-contents">Table of Contents&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="#a-summary-of-a-convolutional-neural-network-cascade-for-face-detection">A summary of &lt;em>A Convolutional Neural Network Cascade for Face Detection&lt;/em>&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#table-of-contents">Table of Contents&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#first-pass">First Pass&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#problem">Problem&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#motivation">Motivation&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#category">Category&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#context">Context&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#contributions">Contributions&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#second-pass">Second Pass&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#background-work">Background Work&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#clarity">Clarity&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#relevant-work">Relevant Work&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#methodology">Methodology&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#author-assumptions">Author Assumptions&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#correctness">Correctness&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#future-directions">Future Directions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#open-questions">Open Questions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#author-feedback">Author Feedback&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#summary">Summary&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#summarization-technique">Summarization Technique&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#citations">Citations&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="first-pass">First Pass&lt;/h2>
+&lt;blockquote>
+&lt;p>Read the title, abstract, introduction, section and sub-section headings, and
+conclusion&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="problem">Problem&lt;/h3>
+&lt;blockquote>
+&lt;p>What is the problem addressed in the paper?&lt;/p>
+&lt;/blockquote>
+&lt;p>The problem addressed in this paper is that previous works relied on Haar
+features which work for when faces are looking at the camera head on. However,
+these features are not enough to capture faces at angles and are hand crafted.&lt;/p>
+&lt;h3 id="motivation">Motivation&lt;/h3>
+&lt;blockquote>
+&lt;p>Why should we care about this paper?&lt;/p>
+&lt;/blockquote>
+&lt;p>This paper proposes a model architecture for face detection that relies on a
+cascade of CNNs to detect not only if there is a face, but also where a face is
+within an image.&lt;/p>
+&lt;h3 id="category">Category&lt;/h3>
+&lt;blockquote>
+&lt;p>What type of paper is this work?&lt;/p>
+&lt;/blockquote>
+&lt;p>This paper is a face detection and model architecture paper.&lt;/p>
+&lt;h3 id="context">Context&lt;/h3>
+&lt;blockquote>
+&lt;p>What other &lt;em>types&lt;/em> of papers is the work related to?&lt;/p>
+&lt;/blockquote>
+&lt;p>This paper is most closely related to work that involves face detection.&lt;/p>
+&lt;h3 id="contributions">Contributions&lt;/h3>
+&lt;blockquote>
+&lt;p>What are the author&amp;rsquo;s main contributions?&lt;/p>
+&lt;/blockquote>
+&lt;p>The authors contributions are a CNN cascade for fast face detection, a bounding
+box calibration method for fine tuning the localization of the model, a
+multi-resolution CNN architecture for face detection, and a SOTA model
+implementation of the architecture for face detection.&lt;/p>
+&lt;hr>
+&lt;h2 id="second-pass">Second Pass&lt;/h2>
+&lt;blockquote>
+&lt;p>A proper read through of the paper is required to answer this&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="background-work">Background Work&lt;/h3>
+&lt;blockquote>
+&lt;p>What has been done prior to this paper?&lt;/p>
+&lt;/blockquote>
+&lt;p>Work has been done previously to use neural networks for face detection.&lt;/p>
+&lt;h3 id="figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/h3>
+&lt;blockquote>
+&lt;p>Are the axes properly labeled? Are results shown with error bars, so that
+conclusions are statistically significant?&lt;/p>
+&lt;/blockquote>
+&lt;p>All of the figures, charts, and tables are clear and easy to read.&lt;/p>
+&lt;h3 id="clarity">Clarity&lt;/h3>
+&lt;blockquote>
+&lt;p>Is the paper well written?&lt;/p>
+&lt;/blockquote>
+&lt;p>This paper is well written.&lt;/p>
+&lt;h3 id="relevant-work">Relevant Work&lt;/h3>
+&lt;blockquote>
+&lt;p>Mark relevant work for review&lt;/p>
+&lt;/blockquote>
+&lt;p>The following relevant work can be found in the &lt;a href="#citations">Citations&lt;/a> section
+of this article.&lt;/p>
+&lt;h3 id="methodology">Methodology&lt;/h3>
+&lt;blockquote>
+&lt;p>What methodology did the author&amp;rsquo;s use to validate their contributions?&lt;/p>
+&lt;/blockquote>
+&lt;p>The authors measured the recall of their model and others on the Annotated Face
+(Landmarks) in the Wild datasets.&lt;/p>
+&lt;h3 id="author-assumptions">Author Assumptions&lt;/h3>
+&lt;blockquote>
+&lt;p>What assumptions does the author(s) make? Are they justified assumptions?&lt;/p>
+&lt;/blockquote>
+&lt;p>The major assumption that the authors made was that a cascade of CNNs could
+learn face detection better than an end to end model.&lt;/p>
+&lt;h4 id="correctness">Correctness&lt;/h4>
+&lt;blockquote>
+&lt;p>Do the assumptions seem valid?&lt;/p>
+&lt;/blockquote>
+&lt;p>Not really. As more and more modern literature is released about computer
+vision, the trend is to train a model end to end on a particular task, rather
+than use a cascade of models.&lt;/p>
+&lt;h3 id="future-directions">Future Directions&lt;/h3>
+&lt;blockquote>
+&lt;p>My own proposed future directions for the work&lt;/p>
+&lt;/blockquote>
+&lt;p>I think a reimplementation would be cool to do. However, I&amp;rsquo;d like to compare
+this model to end to end solutions as well.&lt;/p>
+&lt;h3 id="open-questions">Open Questions&lt;/h3>
+&lt;blockquote>
+&lt;p>What open questions do I have about the work?&lt;/p>
+&lt;/blockquote>
+&lt;p>Why were VGA sized images (800 x 600 pixels) used instead of transforming the
+images into smaller inputs such as 224 x 224?&lt;/p>
+&lt;h3 id="author-feedback">Author Feedback&lt;/h3>
+&lt;blockquote>
+&lt;p>What feedback would I give to the authors?&lt;/p>
+&lt;/blockquote>
+&lt;p>This is a good paper. However, I would encourage the authors to explore
+implementing this model on mobile or low powered systems if it is that efficient
+to run on a CPU or GPU.&lt;/p>
+&lt;hr>
+&lt;h2 id="summary">Summary&lt;/h2>
+&lt;blockquote>
+&lt;p>A summary of the paper&lt;/p>
+&lt;/blockquote>
+&lt;p>The paper &lt;em>A Convolutional Neural Network Cascade for Face Detection&lt;/em> by
+Haoxiang Li et al. [1] presents a CNN based solution for face detection. Their
+solutions aims to be robust against faces that are not looking directly at the
+camera. Their model architecture involves a cascade of 6 CNNs that aim to first
+identify if a first is in the image using dense features (first 3 CNNs), then
+isolate and locate faces within the scene (last 3 CNNs). The general
+architecture of the solution is: 12 layers, 12 layers + calibration, 24 layers,
+24 layers + calibration, 48 layers, 48 layers + calibration. This architecture
+was able to achieve SOTA performance on the Annotated Face (Landmarks) in the
+Wild datasets.&lt;/p>
+&lt;hr>
+&lt;h2 id="summarization-technique">Summarization Technique&lt;/h2>
+&lt;p>This paper was summarized using a modified technique proposed by S. Keshav in
+his work &lt;em>How to Read a Paper&lt;/em> [0].&lt;/p>
+&lt;h2 id="citations">Citations&lt;/h2>
+Citations availible at https://nsynovic.dev/summaries/a-convolutional-neural-network-cascade-for-face-detection/</description></item><item><title>A summary of Rethinking Semantic Segmentation from a Sequence-to-Sequence Perspective with Transformers by Sixiao Zheng et al.</title><link>https://nsynovic.dev/summaries/rethinking-semantic-segmentation-from-a-sequence-to-sequence-perspective-with-transformers/</link><pubDate>Sun, 04 Dec 2022 14:12:14 -0600</pubDate><guid>https://nsynovic.dev/summaries/rethinking-semantic-segmentation-from-a-sequence-to-sequence-perspective-with-transformers/</guid><description>&lt;h1 id="a-summary-of-rethinking-semantic-segmentation-from-a-sequence-to-sequence-perspective-with-transformers">A summary of &lt;em>Rethinking Semantic Segmentation from a Sequence-to-Sequence Perspective with Transformers&lt;/em>&lt;/h1>
+&lt;blockquote>
+&lt;p>Sixiao Zheng et al. CVPR, 2021
+&lt;a href="https://doi.org/10.1109/CVPR46437.2021.00681">DOI&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;p>For the summary of the paper, go to the &lt;a href="#summary">Summary&lt;/a> section of this
+article.&lt;/p>
+&lt;h2 id="table-of-contents">Table of Contents&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="#a-summary-of-rethinking-semantic-segmentation-from-a-sequence-to-sequence-perspective-with-transformers">A summary of &lt;em>Rethinking Semantic Segmentation from a Sequence-to-Sequence Perspective with Transformers&lt;/em>&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#table-of-contents">Table of Contents&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#first-pass">First Pass&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#problem">Problem&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#motivation">Motivation&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#category">Category&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#context">Context&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#contributions">Contributions&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#second-pass">Second Pass&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#background-work">Background Work&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#clarity">Clarity&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#relevant-work">Relevant Work&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#methodology">Methodology&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#author-assumptions">Author Assumptions&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#correctness">Correctness&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#future-directions">Future Directions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#open-questions">Open Questions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#author-feedback">Author Feedback&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#summary">Summary&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#summarization-technique">Summarization Technique&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#citations">Citations&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="first-pass">First Pass&lt;/h2>
+&lt;blockquote>
+&lt;p>Read the title, abstract, introduction, section and sub-section headings, and
+conclusion&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="problem">Problem&lt;/h3>
+&lt;blockquote>
+&lt;p>What is the problem addressed in the paper?&lt;/p>
+&lt;/blockquote>
+&lt;p>This paper aims to develop a model architecture based off of the usage of the
+Transformer architecture for the purposes of semantic segmentation.&lt;/p>
+&lt;h3 id="motivation">Motivation&lt;/h3>
+&lt;blockquote>
+&lt;p>Why should we care about this paper?&lt;/p>
+&lt;/blockquote>
+&lt;p>Because the reference model implemented in this paper achieved SOTA results on a
+variety of datasets as well as achieving first place on the ADE20K test server
+leader board the day that it was released.&lt;/p>
+&lt;h3 id="category">Category&lt;/h3>
+&lt;blockquote>
+&lt;p>What type of paper is this work?&lt;/p>
+&lt;/blockquote>
+&lt;p>This paper is a semantic segmentation model architecture paper.&lt;/p>
+&lt;h3 id="context">Context&lt;/h3>
+&lt;blockquote>
+&lt;p>What other &lt;em>types&lt;/em> of papers is the work related to?&lt;/p>
+&lt;/blockquote>
+&lt;p>This paper is most closely related to works within the CV domain that use the
+Transformer architecture as well as papers that develop SOTA architectures for
+semantic segmentation.&lt;/p>
+&lt;h3 id="contributions">Contributions&lt;/h3>
+&lt;blockquote>
+&lt;p>What are the author&amp;rsquo;s main contributions?&lt;/p>
+&lt;/blockquote>
+&lt;p>The authors main contribution are a CV model architecture based on Transformers
+that achieves SOTA performance on several datasets.&lt;/p>
+&lt;hr>
+&lt;h2 id="second-pass">Second Pass&lt;/h2>
+&lt;blockquote>
+&lt;p>A proper read through of the paper is required to answer this&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="background-work">Background Work&lt;/h3>
+&lt;blockquote>
+&lt;p>What has been done prior to this paper?&lt;/p>
+&lt;/blockquote>
+&lt;p>Work has been done to develop semantic segmentation models that rely on FCN
+style architectures, as well as on CV models that rely on the Transformer
+architecture to perform image classification.&lt;/p>
+&lt;h3 id="figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/h3>
+&lt;blockquote>
+&lt;p>Are the axes properly labeled? Are results shown with error bars, so that
+conclusions are statistically significant?&lt;/p>
+&lt;/blockquote>
+&lt;p>The figures and tables are clear and easy to understand.&lt;/p>
+&lt;h3 id="clarity">Clarity&lt;/h3>
+&lt;blockquote>
+&lt;p>Is the paper well written?&lt;/p>
+&lt;/blockquote>
+&lt;p>This is a well written paper.&lt;/p>
+&lt;h3 id="relevant-work">Relevant Work&lt;/h3>
+&lt;blockquote>
+&lt;p>Mark relevant work for review&lt;/p>
+&lt;/blockquote>
+&lt;p>The following relevant work can be found in the &lt;a href="#citations">Citations&lt;/a> section
+of this article.&lt;/p>
+&lt;ol start="2">
+&lt;li>Zihang Dai, Zhilin Yang, Yiming Yang, Jaime Carbonell, Quoc V. Le, and Ruslan
+Salakhutdinov. Transformer-XL: Attentive language models beyond a
+fixed-length context. In ACL, 2019.&lt;/li>
+&lt;li>Zihang Dai, Zhilin Yang, Yiming Yang, Jaime Carbonell, Quoc V. Le, and Ruslan
+Salakhutdinov. Transformer-XL: Attentive language models beyond a
+fixed-length context. In ACL, 2019.&lt;/li>
+&lt;/ol>
+&lt;h3 id="methodology">Methodology&lt;/h3>
+&lt;blockquote>
+&lt;p>What methodology did the author&amp;rsquo;s use to validate their contributions?&lt;/p>
+&lt;/blockquote>
+&lt;p>They evaluated their model against other SOTA models on the Cityscapes, ADE20K,
+and Pascal Context datasets.&lt;/p>
+&lt;h3 id="author-assumptions">Author Assumptions&lt;/h3>
+&lt;blockquote>
+&lt;p>What assumptions does the author(s) make? Are they justified assumptions?&lt;/p>
+&lt;/blockquote>
+&lt;p>Their assumption is that the FCN architecture is not the best performing
+architecture for semantic segmentation tasks.&lt;/p>
+&lt;h4 id="correctness">Correctness&lt;/h4>
+&lt;blockquote>
+&lt;p>Do the assumptions seem valid?&lt;/p>
+&lt;/blockquote>
+&lt;p>No. While their model (SETR) does achieve SOTA performance on semantic
+segmentation tasks using the Transformer architecture, this alone does not mean
+that the FCN architecture is dead. Rather, this paper just shows that
+Transformers can be used for this task.&lt;/p>
+&lt;h3 id="future-directions">Future Directions&lt;/h3>
+&lt;blockquote>
+&lt;p>My own proposed future directions for the work&lt;/p>
+&lt;/blockquote>
+&lt;p>Before working with this paper, I need to better understand what a Transformer
+is and how to use one.&lt;/p>
+&lt;h3 id="open-questions">Open Questions&lt;/h3>
+&lt;blockquote>
+&lt;p>What open questions do I have about the work?&lt;/p>
+&lt;/blockquote>
+&lt;p>It was mentioned that Transformers have a quadratic complexity. This, to me,
+sounds like they are unusable on low powered devices. Can you compress or
+quantize these types of models?&lt;/p>
+&lt;h3 id="author-feedback">Author Feedback&lt;/h3>
+&lt;blockquote>
+&lt;p>What feedback would I give to the authors?&lt;/p>
+&lt;/blockquote>
+&lt;p>I liked this paper. I thought it was interesting and exciting to hear that there
+is a potential for a paradigm shift. If you are going to report that you were
+first on the leader board for some competition, it would also be good to know
+how long your model held onto that spot.&lt;/p>
+&lt;hr>
+&lt;h2 id="summary">Summary&lt;/h2>
+&lt;blockquote>
+&lt;p>A summary of the paper&lt;/p>
+&lt;/blockquote>
+&lt;p>The paper &lt;em>Rethinking Semantic Segmentation from a Sequence-to-Sequence
+Perspective with Transformers&lt;/em> by Sixiao Zheng et al. presents the idea of using
+the Transformer architecture for the purposes of semantic segmentation. In order
+to do this, the authors describe in detail how to transform an image into a
+suitable format for a transformer to understand. Additionally, they evaluate
+their model (SETR) on three different semantic segmentation datasets and
+achieved SOTA scores on all of them. However, SETR doesn&amp;rsquo;t achieve SOTA overall.
+SETR was first on the ADE20K test server leader board the day that it was
+released though.&lt;/p>
+&lt;p>This paper challenges the usage of FCN&amp;rsquo;s as the primary architecture for
+semantic segmentation.&lt;/p>
+&lt;hr>
+&lt;h2 id="summarization-technique">Summarization Technique&lt;/h2>
+&lt;p>This paper was summarized using a modified technique proposed by S. Keshav in
+his work &lt;em>How to Read a Paper&lt;/em> [0].&lt;/p>
+&lt;h2 id="citations">Citations&lt;/h2>
+Citations availible at https://nsynovic.dev/summaries/rethinking-semantic-segmentation-from-a-sequence-to-sequence-perspective-with-transformers/</description></item><item><title>A summary of by SegNet: A Deep Convolutional Encoder-Decoder Architecture for Image Segmentation by Vijay Badrinarayanan et al.</title><link>https://nsynovic.dev/summaries/segnet-a-deep-convolutional-encoder-decoder-architecture-for-image-segmentation/</link><pubDate>Sun, 04 Dec 2022 13:06:29 -0600</pubDate><guid>https://nsynovic.dev/summaries/segnet-a-deep-convolutional-encoder-decoder-architecture-for-image-segmentation/</guid><description>&lt;h1 id="a-summary-of-segnet-a-deep-convolutional-encoder-decoder-architecture-for-image-segmentation">A summary of &lt;em>SegNet: A Deep Convolutional Encoder-Decoder Architecture for Image Segmentation&lt;/em>&lt;/h1>
+&lt;blockquote>
+&lt;p>Vijay Badrinarayanan et al. IEEE TRANSACTIONS ON PATTERN ANALYSIS AND MACHINE
+INTELLIGENCE, 2017 &lt;a href="https://doi.org/10.1109/TPAMI.2016.2644615">DOI&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;p>For the summary of the paper, go to the &lt;a href="#summary">Summary&lt;/a> section of this
+article.&lt;/p>
+&lt;h2 id="table-of-contents">Table of Contents&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="#a-summary-of-segnet-a-deep-convolutional-encoder-decoder-architecture-for-image-segmentation">A summary of &lt;em>SegNet: A Deep Convolutional Encoder-Decoder Architecture for Image Segmentation&lt;/em>&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#table-of-contents">Table of Contents&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#first-pass">First Pass&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#problem">Problem&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#motivation">Motivation&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#category">Category&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#context">Context&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#contributions">Contributions&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#second-pass">Second Pass&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#background-work">Background Work&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#clarity">Clarity&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#relevant-work">Relevant Work&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#methodology">Methodology&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#author-assumptions">Author Assumptions&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#correctness">Correctness&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#future-directions">Future Directions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#open-questions">Open Questions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#author-feedback">Author Feedback&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#summary">Summary&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#summarization-technique">Summarization Technique&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#citations">Citations&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="first-pass">First Pass&lt;/h2>
+&lt;blockquote>
+&lt;p>Read the title, abstract, introduction, section and sub-section headings, and
+conclusion&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="problem">Problem&lt;/h3>
+&lt;blockquote>
+&lt;p>What is the problem addressed in the paper?&lt;/p>
+&lt;/blockquote>
+&lt;p>A model architecture for image segmentation of indoor and outdoor scenes that is
+memory and computationally efficient does not exist.&lt;/p>
+&lt;h3 id="motivation">Motivation&lt;/h3>
+&lt;blockquote>
+&lt;p>Why should we care about this paper?&lt;/p>
+&lt;/blockquote>
+&lt;p>Because it presents a model architecture and reference model that is memory and
+computationally efficient for the purposes of image segmentation.&lt;/p>
+&lt;h3 id="category">Category&lt;/h3>
+&lt;blockquote>
+&lt;p>What type of paper is this work?&lt;/p>
+&lt;/blockquote>
+&lt;p>This is a computer vision neural network architecture paper.&lt;/p>
+&lt;h3 id="context">Context&lt;/h3>
+&lt;blockquote>
+&lt;p>What other &lt;em>types&lt;/em> of papers is the work related to?&lt;/p>
+&lt;/blockquote>
+&lt;p>This paper is most closely related to works involving image segmentation
+solutions that rely on an encoder-decoder style network.&lt;/p>
+&lt;h3 id="contributions">Contributions&lt;/h3>
+&lt;blockquote>
+&lt;p>What are the author&amp;rsquo;s main contributions?&lt;/p>
+&lt;/blockquote>
+&lt;p>The author&amp;rsquo;s main contributions are a model architecture that is memory and
+computationally efficient for the purposes of image segmentation, a reference
+model of this architecture called SegNet, and an advancement of the
+encoder-decoder style network architecture.&lt;/p>
+&lt;hr>
+&lt;h2 id="second-pass">Second Pass&lt;/h2>
+&lt;blockquote>
+&lt;p>A proper read through of the paper is required to answer this&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="background-work">Background Work&lt;/h3>
+&lt;blockquote>
+&lt;p>What has been done prior to this paper?&lt;/p>
+&lt;/blockquote>
+&lt;p>Work has been done to develop image segmentation models using encoder-decoder
+networks.&lt;/p>
+&lt;h3 id="figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/h3>
+&lt;blockquote>
+&lt;p>Are the axes properly labeled? Are results shown with error bars, so that
+conclusions are statistically significant?&lt;/p>
+&lt;/blockquote>
+&lt;p>The tables are clear for the most part. There are some where trying to
+understand which model was the top performer is unclear. The segmentation
+figures are not clear to me. It is difficult to tell the qualitative difference
+between the output of different models.&lt;/p>
+&lt;h3 id="clarity">Clarity&lt;/h3>
+&lt;blockquote>
+&lt;p>Is the paper well written?&lt;/p>
+&lt;/blockquote>
+&lt;p>This paper is dense. I&amp;rsquo;d say that about half of this paper is well written, but
+technical sections of the paper mentions acronyms or domain specific knowledge
+that are not defined.&lt;/p>
+&lt;h3 id="relevant-work">Relevant Work&lt;/h3>
+&lt;blockquote>
+&lt;p>Mark relevant work for review&lt;/p>
+&lt;/blockquote>
+&lt;p>The following relevant work can be found in the &lt;a href="#citations">Citations&lt;/a> section
+of this article.&lt;/p>
+&lt;ol start="2">
+&lt;li>M. Ranzato, F. J. Huang, Y. Boureau, and Y. LeCun, “Unsupervised learning of
+invariant feature hierarchies with applications to object recognition,” in
+Proc. IEEE Conf. Comput. Vis. Pattern Recognit., 2007&lt;/li>
+&lt;/ol>
+&lt;h3 id="methodology">Methodology&lt;/h3>
+&lt;blockquote>
+&lt;p>What methodology did the author&amp;rsquo;s use to validate their contributions?&lt;/p>
+&lt;/blockquote>
+&lt;p>The authors evaluated the performance of their architecture in both a simplified
+and fully instanced bench marking.&lt;/p>
+&lt;p>In the simplified bench marking, they evaluated their SegNet-basic model (4
+encoders, 4 decoders) against FCN-basic which mirrored their encoder design.
+They bench marked the two against each other on the Pascal VOC 2012 challenge.
+The metrics captured where the global and class average, mean intersection over
+union, and semantic contour measure.&lt;/p>
+&lt;p>In the fully instanced bench marking, they evaluated SegNet against other models
+on road and indoor scene segmentation. They compared SegNet against, FCN, FCN
+(learned deconvolution), DeepLab-LargeFOV, DeepLab-LargeFOV-denseCRF, and
+DeconvNet. They used the mean intersection over union and semantic contour
+measure metrics to compare the models.&lt;/p>
+&lt;h3 id="author-assumptions">Author Assumptions&lt;/h3>
+&lt;blockquote>
+&lt;p>What assumptions does the author(s) make? Are they justified assumptions?&lt;/p>
+&lt;/blockquote>
+&lt;p>The authors assumed that less attention is being placed on smaller, more
+computationally and memory efficient models for the purposes of semantic
+segmentation. Additionally, that engineers want models of this type when
+selecting from a pool of models.&lt;/p>
+&lt;h4 id="correctness">Correctness&lt;/h4>
+&lt;blockquote>
+&lt;p>Do the assumptions seem valid?&lt;/p>
+&lt;/blockquote>
+&lt;p>To me, yes. The smaller the model, or the more efficient it is, allows for the
+engineers to evaluate models not just by performance, but by power consumption
+or memory constrains which might be constrained.&lt;/p>
+&lt;h3 id="future-directions">Future Directions&lt;/h3>
+&lt;blockquote>
+&lt;p>My own proposed future directions for the work&lt;/p>
+&lt;/blockquote>
+&lt;p>I&amp;rsquo;d like to try and build SegNet and quantize it from float-16 to int-8 just to
+see what would happen.&lt;/p>
+&lt;h3 id="open-questions">Open Questions&lt;/h3>
+&lt;blockquote>
+&lt;p>What open questions do I have about the work?&lt;/p>
+&lt;/blockquote>
+&lt;p>Why wasn&amp;rsquo;t this model quantized? If memory efficiency was a concern, or
+increasing the computation speed was desired, why utilize floating point values
+everywhere and not just where it mattered most? Where are the comparisons of
+memory usage and inference timing of different models compared to SegNet?&lt;/p>
+&lt;h3 id="author-feedback">Author Feedback&lt;/h3>
+&lt;blockquote>
+&lt;p>What feedback would I give to the authors?&lt;/p>
+&lt;/blockquote>
+&lt;p>This paper is dense. There is a lot of information covered here. Because of
+that, I would encourage a review of the paper to address spelling mistakes when
+referencing different models, as well as enhancing figures by pointing out
+specific areas where SegNet outperforms or is outperformed by other models.
+Also, please report comparisons of memory usage and inference timings if you are
+claiming that the SegNet architecture is more efficient that other
+architectures.&lt;/p>
+&lt;hr>
+&lt;h2 id="summary">Summary&lt;/h2>
+&lt;blockquote>
+&lt;p>A summary of the paper&lt;/p>
+&lt;/blockquote>
+&lt;p>The paper &lt;em>SegNet: A Deep Convolutional Encoder-Decoder Architecture for Image
+Segmentation&lt;/em> by Vijay Badrinarayanan et al. [1] introduces a novel model
+architecture for semantic segmentation based off of an encoder-decoder design.
+This architecture is designed around being computationally and memory efficient,
+while accurate enough to be used in practice. They created a reference model
+that implemented this model called SegNet that they then evaluated against
+larger and SOTA segmentation models on road and indoor scene segmentation. While
+SegNet is not always more accurate than the SOTA, the architecture it implements
+significantly reduces memory usage and therefore increases inference time. No
+metrics with respect to memory or inference time was reported in this work.&lt;/p>
+&lt;hr>
+&lt;h2 id="summarization-technique">Summarization Technique&lt;/h2>
+&lt;p>This paper was summarized using a modified technique proposed by S. Keshav in
+his work &lt;em>How to Read a Paper&lt;/em> [0].&lt;/p>
+&lt;h2 id="citations">Citations&lt;/h2>
+Citations availible at https://nsynovic.dev/summaries/segnet-a-deep-convolutional-encoder-decoder-architecture-for-image-segmentation/</description></item><item><title>A summary of U-Net: Convolutional Networks for Biomedical Image Segmentation by Olaf Ronneberger et al.</title><link>https://nsynovic.dev/summaries/u-net-convolutional-networks-for-biomedical-image-segmentation/</link><pubDate>Sat, 03 Dec 2022 15:05:16 -0600</pubDate><guid>https://nsynovic.dev/summaries/u-net-convolutional-networks-for-biomedical-image-segmentation/</guid><description>&lt;h1 id="a-summary-of-u-net-convolutional-networks-for-biomedical-image-segmentation">A summary of &lt;em>U-Net: Convolutional Networks for Biomedical Image Segmentation&lt;/em>&lt;/h1>
+&lt;blockquote>
+&lt;p>Olaf Ronneberger et al. arXiv, 2015 &lt;a href="http://arxiv.org/abs/1505.04597">DOI&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;p>For the summary of the paper, go to the &lt;a href="#summary">Summary&lt;/a> section of this
+article.&lt;/p>
+&lt;h2 id="table-of-contents">Table of Contents&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="#a-summary-of-u-net-convolutional-networks-for-biomedical-image-segmentation">A summary of &lt;em>U-Net: Convolutional Networks for Biomedical Image Segmentation&lt;/em>&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#table-of-contents">Table of Contents&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#first-pass">First Pass&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#problem">Problem&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#motivation">Motivation&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#category">Category&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#context">Context&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#contributions">Contributions&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#second-pass">Second Pass&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#background-work">Background Work&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#clarity">Clarity&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#relevant-work">Relevant Work&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#methodology">Methodology&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#author-assumptions">Author Assumptions&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#correctness">Correctness&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#future-directions">Future Directions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#open-questions">Open Questions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#author-feedback">Author Feedback&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#summary">Summary&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#summarization-technique">Summarization Technique&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#citations">Citations&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="first-pass">First Pass&lt;/h2>
+&lt;blockquote>
+&lt;p>Read the title, abstract, introduction, section and sub-section headings, and
+conclusion&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="problem">Problem&lt;/h3>
+&lt;blockquote>
+&lt;p>What is the problem addressed in the paper?&lt;/p>
+&lt;/blockquote>
+&lt;p>The problem addressed in this paper is to develop a fully convolutional semantic
+segmentation model capable of learning from a small number of training examples
+in a short period of time.&lt;/p>
+&lt;h3 id="motivation">Motivation&lt;/h3>
+&lt;blockquote>
+&lt;p>Why should we care about this paper?&lt;/p>
+&lt;/blockquote>
+&lt;p>We should care about this paper because it builds off of the ideas of a fully
+convolutional neural network for the purpose of semantic segmentation, but
+introduces training techniques to reduce the number of training examples needed
+as well as a novel architecture to support training on few examples.&lt;/p>
+&lt;h3 id="category">Category&lt;/h3>
+&lt;blockquote>
+&lt;p>What type of paper is this work?&lt;/p>
+&lt;/blockquote>
+&lt;p>This is a semantic segmentation computer vision work.&lt;/p>
+&lt;h3 id="context">Context&lt;/h3>
+&lt;blockquote>
+&lt;p>What other &lt;em>types&lt;/em> of papers is the work related to?&lt;/p>
+&lt;/blockquote>
+&lt;p>This work is most closely related to papers that discuss the fully convolutional
+solutions to the semantic segmentation task.&lt;/p>
+&lt;h3 id="contributions">Contributions&lt;/h3>
+&lt;blockquote>
+&lt;p>What are the author&amp;rsquo;s main contributions?&lt;/p>
+&lt;/blockquote>
+&lt;p>Their main contributions are a novel architecture designed built around semantic
+segmentation and a fully convolutional architecture. Additionally, they discuss
+how they utilized data augmentation and elastic deformation to increase the
+amount of training data.&lt;/p>
+&lt;hr>
+&lt;h2 id="second-pass">Second Pass&lt;/h2>
+&lt;blockquote>
+&lt;p>A proper read through of the paper is required to answer this&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="background-work">Background Work&lt;/h3>
+&lt;blockquote>
+&lt;p>What has been done prior to this paper?&lt;/p>
+&lt;/blockquote>
+&lt;p>Work has been done to develop fully convolutional neural networks, to develop
+fully convolutional semantic segmentation models, and the development of data
+augmentation techniques.&lt;/p>
+&lt;h3 id="figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/h3>
+&lt;blockquote>
+&lt;p>Are the axes properly labeled? Are results shown with error bars, so that
+conclusions are statistically significant?&lt;/p>
+&lt;/blockquote>
+&lt;p>The figures are clear and easy to read.&lt;/p>
+&lt;h3 id="clarity">Clarity&lt;/h3>
+&lt;blockquote>
+&lt;p>Is the paper well written?&lt;/p>
+&lt;/blockquote>
+&lt;p>This is a well written paper that is easy to follow.&lt;/p>
+&lt;h3 id="relevant-work">Relevant Work&lt;/h3>
+&lt;blockquote>
+&lt;p>Mark relevant work for review&lt;/p>
+&lt;/blockquote>
+&lt;p>The following relevant work can be found in the &lt;a href="#citations">Citations&lt;/a> section
+of this article.&lt;/p>
+&lt;h3 id="methodology">Methodology&lt;/h3>
+&lt;blockquote>
+&lt;p>What methodology did the author&amp;rsquo;s use to validate their contributions?&lt;/p>
+&lt;/blockquote>
+&lt;p>The author&amp;rsquo;s compare their semantic segmentation model against other models on
+the ISBI EM Challenge.&lt;/p>
+&lt;h3 id="author-assumptions">Author Assumptions&lt;/h3>
+&lt;blockquote>
+&lt;p>What assumptions does the author(s) make? Are they justified assumptions?&lt;/p>
+&lt;/blockquote>
+&lt;p>The author assumes that data augmentation is enough to make a model robust
+against rotation, shift, deformations, and gray value variations.&lt;/p>
+&lt;h4 id="correctness">Correctness&lt;/h4>
+&lt;blockquote>
+&lt;p>Do the assumptions seem valid?&lt;/p>
+&lt;/blockquote>
+&lt;p>I disagree with their assumptions as, while yes, data augmentation is necessary
+to make a model or system robust against the different variance mentioned, also
+exposing the model to more data should further increase the robustness of it.&lt;/p>
+&lt;h3 id="future-directions">Future Directions&lt;/h3>
+&lt;blockquote>
+&lt;p>My own proposed future directions for the work&lt;/p>
+&lt;/blockquote>
+&lt;p>I&amp;rsquo;d like to try and run the proposed model architecture on semantic segmentation
+datasets that aren&amp;rsquo;t ones for cellular imagery.&lt;/p>
+&lt;h3 id="open-questions">Open Questions&lt;/h3>
+&lt;blockquote>
+&lt;p>What open questions do I have about the work?&lt;/p>
+&lt;/blockquote>
+&lt;p>Just how much data was the model trained on?&lt;/p>
+&lt;h3 id="author-feedback">Author Feedback&lt;/h3>
+&lt;blockquote>
+&lt;p>What feedback would I give to the authors?&lt;/p>
+&lt;/blockquote>
+&lt;p>This is a fine paper. It is fairly short and is lacking technical details that
+would be appreciated. For example, how much data was augmented? As well as the
+metrics values proposed
+&lt;a href="fully-convolutional-networks-for-semantic-segmentation.md">here&lt;/a>.&lt;/p>
+&lt;hr>
+&lt;h2 id="summary">Summary&lt;/h2>
+&lt;blockquote>
+&lt;p>A summary of the paper&lt;/p>
+&lt;/blockquote>
+&lt;p>The paper &lt;em>U-Net: Convolutional Networks for Biomedical Image Segmentation&lt;/em> by
+Olaf Ronneberger et al. [1] which describes a model architecture and training
+details for semantic segmentation. The model architecture is known as a U-Net. A
+U-Net is composed of two halves. The first half is a standard convolutional
+network that encodes the feature map; the second half up-samples and decodes the
+first and is then a convolutional neural network. The training methodology
+proposed involves data augmentation to train this network on a small dataset.
+The authors were able to achieve SOTA semantic segmentation performance on the
+dataset the they were using.&lt;/p>
+&lt;hr>
+&lt;h2 id="summarization-technique">Summarization Technique&lt;/h2>
+&lt;p>This paper was summarized using a modified technique proposed by S. Keshav in
+his work &lt;em>How to Read a Paper&lt;/em> [0].&lt;/p>
+&lt;h2 id="citations">Citations&lt;/h2>
+Citations availible at https://nsynovic.dev/summaries/u-net-convolutional-networks-for-biomedical-image-segmentation/</description></item><item><title>A summary of Fully Convolutional Networks for Semantic Segmentation by Jonathan Long et al.</title><link>https://nsynovic.dev/summaries/fully-convolutional-networks-for-semantic-segmentation/</link><pubDate>Sat, 03 Dec 2022 14:24:59 -0600</pubDate><guid>https://nsynovic.dev/summaries/fully-convolutional-networks-for-semantic-segmentation/</guid><description>&lt;h1 id="a-summary-of-fully-convolutional-networks-for-semantic-segmentation">A summary of &lt;em>Fully Convolutional Networks for Semantic Segmentation&lt;/em>&lt;/h1>
+&lt;blockquote>
+&lt;p>Jonathan Long et al. arXiv, 2015 &lt;a href="http://arxiv.org/abs/1411.4038">DOI&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;p>For the summary of the paper, go to the &lt;a href="#summary">Summary&lt;/a> section of this
+article.&lt;/p>
+&lt;h2 id="table-of-contents">Table of Contents&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="#a-summary-of-fully-convolutional-networks-for-semantic-segmentation">A summary of &lt;em>Fully Convolutional Networks for Semantic Segmentation&lt;/em>&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#table-of-contents">Table of Contents&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#first-pass">First Pass&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#problem">Problem&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#motivation">Motivation&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#category">Category&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#context">Context&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#contributions">Contributions&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#second-pass">Second Pass&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#background-work">Background Work&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#clarity">Clarity&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#relevant-work">Relevant Work&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#methodology">Methodology&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#author-assumptions">Author Assumptions&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#correctness">Correctness&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#future-directions">Future Directions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#open-questions">Open Questions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#author-feedback">Author Feedback&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#summary">Summary&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#summarization-technique">Summarization Technique&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#citations">Citations&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="first-pass">First Pass&lt;/h2>
+&lt;blockquote>
+&lt;p>Read the title, abstract, introduction, section and sub-section headings, and
+conclusion&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="problem">Problem&lt;/h3>
+&lt;blockquote>
+&lt;p>What is the problem addressed in the paper?&lt;/p>
+&lt;/blockquote>
+&lt;p>That previous SOTA models for semantic segmentation did not utilize fully
+convolutional neural networks.&lt;/p>
+&lt;h3 id="motivation">Motivation&lt;/h3>
+&lt;blockquote>
+&lt;p>Why should we care about this paper?&lt;/p>
+&lt;/blockquote>
+&lt;p>Because it presents a methodology for using existing SOTA convolutional neural
+networks for semantic segmentation.&lt;/p>
+&lt;h3 id="category">Category&lt;/h3>
+&lt;blockquote>
+&lt;p>What type of paper is this work?&lt;/p>
+&lt;/blockquote>
+&lt;p>This is a deep learning computer vision semantic segmentation paper.&lt;/p>
+&lt;h3 id="context">Context&lt;/h3>
+&lt;blockquote>
+&lt;p>What other &lt;em>types&lt;/em> of papers is the work related to?&lt;/p>
+&lt;/blockquote>
+&lt;p>This paper is related to works that involve the development of semantic
+segmentation techniques.&lt;/p>
+&lt;h3 id="contributions">Contributions&lt;/h3>
+&lt;blockquote>
+&lt;p>What are the author&amp;rsquo;s main contributions?&lt;/p>
+&lt;/blockquote>
+&lt;p>Their main contribution is an analysis of the usage of fully convolutional
+neural networks for the purposes of semantic segmentation.&lt;/p>
+&lt;hr>
+&lt;h2 id="second-pass">Second Pass&lt;/h2>
+&lt;blockquote>
+&lt;p>A proper read through of the paper is required to answer this&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="background-work">Background Work&lt;/h3>
+&lt;blockquote>
+&lt;p>What has been done prior to this paper?&lt;/p>
+&lt;/blockquote>
+&lt;p>Work has been done to develop semantic segmentation models as well as developing
+convolutional neural networks for the purposes of image classification.&lt;/p>
+&lt;h3 id="figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/h3>
+&lt;blockquote>
+&lt;p>Are the axes properly labeled? Are results shown with error bars, so that
+conclusions are statistically significant?&lt;/p>
+&lt;/blockquote>
+&lt;p>The charts and figures are clear and easy to read.&lt;/p>
+&lt;h3 id="clarity">Clarity&lt;/h3>
+&lt;blockquote>
+&lt;p>Is the paper well written?&lt;/p>
+&lt;/blockquote>
+&lt;p>The paper is well written.&lt;/p>
+&lt;h3 id="relevant-work">Relevant Work&lt;/h3>
+&lt;blockquote>
+&lt;p>Mark relevant work for review&lt;/p>
+&lt;/blockquote>
+&lt;p>The following relevant work can be found in the &lt;a href="#citations">Citations&lt;/a> section
+of this article.&lt;/p>
+&lt;ol start="2">
+&lt;li>F. Ning, D. Delhomme, Y. LeCun, F. Piano, L. Bottou, and P. E. Barbano.
+Toward automatic phenotyping of developing embryos from videos. Image
+Processing, IEEE Transactions on, 14(9):1360–1371, 2005.&lt;/li>
+&lt;li>C. Farabet, C. Couprie, L. Najman, and Y. LeCun. Learning hierarchical
+features for scene labeling. Pattern Analysis and Machine Intelligence, IEEE
+Transactions on, 2013.&lt;/li>
+&lt;li>P. H. Pinheiro and R. Collobert. Recurrent convolutional neural networks for
+scene labeling. In ICML, 2014.&lt;/li>
+&lt;/ol>
+&lt;h3 id="methodology">Methodology&lt;/h3>
+&lt;blockquote>
+&lt;p>What methodology did the author&amp;rsquo;s use to validate their contributions?&lt;/p>
+&lt;/blockquote>
+&lt;p>The authors compared a variety of semantic segmentation model using VGG,
+GoogLeNet, and ResNet on several different datasets. These datasets include
+NYUDv2, PASCAL VOC, and SIFT Flow. The metrics captured were pixel accuracy,
+mean accuracy, mean IU, and frequency weighted IU.&lt;/p>
+&lt;h3 id="author-assumptions">Author Assumptions&lt;/h3>
+&lt;blockquote>
+&lt;p>What assumptions does the author(s) make? Are they justified assumptions?&lt;/p>
+&lt;/blockquote>
+&lt;p>The authors are reliant upon image classification models that have fully
+connected layers for the purposes of classification. This is because these fully
+connected layers are converted into fully convolutional layers.&lt;/p>
+&lt;h4 id="correctness">Correctness&lt;/h4>
+&lt;blockquote>
+&lt;p>Do the assumptions seem valid?&lt;/p>
+&lt;/blockquote>
+&lt;p>This reliance seems valid as most SOTA models for image classification (that I&amp;rsquo;m
+aware of) utilize fully connected layers for the purposes of classification.
+However, the method that the authors propose may not be transferable to present
+or future convolutional networks that no longer rely on fully connected layers
+for the purposes of classification.&lt;/p>
+&lt;h3 id="future-directions">Future Directions&lt;/h3>
+&lt;blockquote>
+&lt;p>My own proposed future directions for the work&lt;/p>
+&lt;/blockquote>
+&lt;p>I&amp;rsquo;d like to take the ideas and methodology proposed in this paper and apply them
+to one shot object detection models to see if it is possible to create something
+like a YOLO-Segmentation model.&lt;/p>
+&lt;h3 id="open-questions">Open Questions&lt;/h3>
+&lt;blockquote>
+&lt;p>What open questions do I have about the work?&lt;/p>
+&lt;/blockquote>
+&lt;p>Is it possible to incorporate a fully connected layer for the purposes of
+classification and additionally convolutional layers for the purposes of
+semantic segmentation within the same layer by using a complicated branching
+architecture (in the vein of GoogLeNet)?&lt;/p>
+&lt;h3 id="author-feedback">Author Feedback&lt;/h3>
+&lt;blockquote>
+&lt;p>What feedback would I give to the authors?&lt;/p>
+&lt;/blockquote>
+&lt;p>This is a good paper. I am concerned that the methodology presented may not be
+transferable to models of the future that may not rely upon fully convolutional
+layers to accomplish image classification.&lt;/p>
+&lt;hr>
+&lt;h2 id="summary">Summary&lt;/h2>
+&lt;blockquote>
+&lt;p>A summary of the paper&lt;/p>
+&lt;/blockquote>
+&lt;p>The paper &lt;em>Fully Convolutional Networks for Semantic Segmentation&lt;/em> by Jonathan
+Long et al. [1] describes a methodology for converting an existing image
+classification network into a semantic segmentation network. This is done by
+replacing the fully connected layers at the head of the classification network
+with one or more convolutional layers. This thereby makes semantic segmentation
+networks full convolutional in terms of architecture design.&lt;/p>
+&lt;p>However, not all models rely on this pattern and different architectures need to
+be tested for each model conversion. For example, GoogLeNet has a different
+architecture for semantic segmentation than VGG.&lt;/p>
+&lt;hr>
+&lt;h2 id="summarization-technique">Summarization Technique&lt;/h2>
+&lt;p>This paper was summarized using a modified technique proposed by S. Keshav in
+his work &lt;em>How to Read a Paper&lt;/em> [0].&lt;/p>
+&lt;h2 id="citations">Citations&lt;/h2>
+Citations availible at https://nsynovic.dev/summaries/fully-convolutional-networks-for-semantic-segmentation/</description></item><item><title>A summary of Focal Loss for Dense Object Detection by Tsung-Yi Lin et al.</title><link>https://nsynovic.dev/summaries/focal-loss-for-dense-object-detection/</link><pubDate>Sat, 03 Dec 2022 12:01:03 -0600</pubDate><guid>https://nsynovic.dev/summaries/focal-loss-for-dense-object-detection/</guid><description>&lt;h1 id="a-summary-of-focal-loss-for-dense-object-detection">A summary of &lt;em>Focal Loss for Dense Object Detection&lt;/em>&lt;/h1>
+&lt;blockquote>
+&lt;p>Tsung-yi Lin et al. arXiv, 2018 &lt;a href="http://arxiv.org/abs/1708.02002">DOI&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;p>For the summary of the paper, go to the &lt;a href="#summary">Summary&lt;/a> section of this
+article.&lt;/p>
+&lt;h2 id="table-of-contents">Table of Contents&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="#a-summary-of-focal-loss-for-dense-object-detection">A summary of &lt;em>Focal Loss for Dense Object Detection&lt;/em>&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#table-of-contents">Table of Contents&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#first-pass">First Pass&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#problem">Problem&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#motivation">Motivation&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#category">Category&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#context">Context&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#contributions">Contributions&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#second-pass">Second Pass&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#background-work">Background Work&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#clarity">Clarity&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#relevant-work">Relevant Work&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#methodology">Methodology&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#author-assumptions">Author Assumptions&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#correctness">Correctness&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#future-directions">Future Directions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#open-questions">Open Questions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#author-feedback">Author Feedback&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#summary">Summary&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#summarization-technique">Summarization Technique&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#citations">Citations&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="first-pass">First Pass&lt;/h2>
+&lt;blockquote>
+&lt;p>Read the title, abstract, introduction, section and sub-section headings, and
+conclusion&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="problem">Problem&lt;/h3>
+&lt;blockquote>
+&lt;p>What is the problem addressed in the paper?&lt;/p>
+&lt;/blockquote>
+&lt;p>This paper aims to address the problem that one stage object detectors (i.e.
+YOLO, SSD) face when trying to match the performance of SOTA two stage object
+detectors which is class imbalance.&lt;/p>
+&lt;h3 id="motivation">Motivation&lt;/h3>
+&lt;blockquote>
+&lt;p>Why should we care about this paper?&lt;/p>
+&lt;/blockquote>
+&lt;p>Because it introduces a new loss function that addresses the issue of class
+imbalance when training dense, one stage object detectors. Additionally, the
+authors released an example model implementing this loss known as Detectron/
+RetinaNet.&lt;/p>
+&lt;h3 id="category">Category&lt;/h3>
+&lt;blockquote>
+&lt;p>What type of paper is this work?&lt;/p>
+&lt;/blockquote>
+&lt;p>This is an algorithms and CV object detection paper.&lt;/p>
+&lt;h3 id="context">Context&lt;/h3>
+&lt;blockquote>
+&lt;p>What other &lt;em>types&lt;/em> of papers is the work related to?&lt;/p>
+&lt;/blockquote>
+&lt;p>This paper is related to papers demonstrating or working on one stage object
+detection models.&lt;/p>
+&lt;h3 id="contributions">Contributions&lt;/h3>
+&lt;blockquote>
+&lt;p>What are the author&amp;rsquo;s main contributions?&lt;/p>
+&lt;/blockquote>
+&lt;p>The author&amp;rsquo;s main contribution is a new loss function aimed at training one
+stage object detection models that reduces the problem of class imbalance
+between identifying objects in the foreground and background. Furthermore, the
+authors have released an example model that was trained on this loss function
+known as Detectron/RetinaNet.&lt;/p>
+&lt;hr>
+&lt;h2 id="second-pass">Second Pass&lt;/h2>
+&lt;blockquote>
+&lt;p>A proper read through of the paper is required to answer this&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="background-work">Background Work&lt;/h3>
+&lt;blockquote>
+&lt;p>What has been done prior to this paper?&lt;/p>
+&lt;/blockquote>
+&lt;p>Work has been done in developing classic object detectors, one and two stage
+detectors, reducing class imbalance, and robust estimation techniques.&lt;/p>
+&lt;h3 id="figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/h3>
+&lt;blockquote>
+&lt;p>Are the axes properly labeled? Are results shown with error bars, so that
+conclusions are statistically significant?&lt;/p>
+&lt;/blockquote>
+&lt;p>The figures are clear and understandable&lt;/p>
+&lt;h3 id="clarity">Clarity&lt;/h3>
+&lt;blockquote>
+&lt;p>Is the paper well written?&lt;/p>
+&lt;/blockquote>
+&lt;p>This paper is well written and is dense with technical information.&lt;/p>
+&lt;h3 id="relevant-work">Relevant Work&lt;/h3>
+&lt;blockquote>
+&lt;p>Mark relevant work for review&lt;/p>
+&lt;/blockquote>
+&lt;p>The following relevant work can be found in the &lt;a href="#citations">Citations&lt;/a> section
+of this article.&lt;/p>
+&lt;ol start="2">
+&lt;li>P. Doll ́ ar, Z. Tu, P. Perona, and S. Belongie. Integral channel features.
+In BMVC, 2009.&lt;/li>
+&lt;li>P. F. Felzenszwalb, R. B. Girshick, and D. McAllester. Cascade object
+detection with deformable part models. In CVPR, 2010.&lt;/li>
+&lt;li>T. Hastie, R. Tibshirani, and J. Friedman. The elements of statistical
+learning. Springer series in statistics Springer, Berlin, 2008.&lt;/li>
+&lt;li>W. Liu, D. Anguelov, D. Erhan, C. Szegedy, and S. Reed. SSD: Single shot
+multibox detector. In ECCV, 2016.&lt;/li>
+&lt;/ol>
+&lt;h3 id="methodology">Methodology&lt;/h3>
+&lt;blockquote>
+&lt;p>What methodology did the author&amp;rsquo;s use to validate their contributions?&lt;/p>
+&lt;/blockquote>
+&lt;p>They compared their RetinaNet model against other SOTA object detectors on the
+COCO dataset. Additionally, they compare the performance of models trained using
+their Focal Loss and the Online Hard Example Mining (OHEM) technique.&lt;/p>
+&lt;h3 id="author-assumptions">Author Assumptions&lt;/h3>
+&lt;blockquote>
+&lt;p>What assumptions does the author(s) make? Are they justified assumptions?&lt;/p>
+&lt;/blockquote>
+&lt;p>Their assumption is that one stage object detectors are the future.&lt;/p>
+&lt;h4 id="correctness">Correctness&lt;/h4>
+&lt;blockquote>
+&lt;p>Do the assumptions seem valid?&lt;/p>
+&lt;/blockquote>
+&lt;p>While having more options as to what type of object detector to choose from (one
+or two stage), it is important to keep in mind that inference speed, accuracy,
+recall, other metrics, and domain need all play an important role in what model
+is selected for a particular task.&lt;/p>
+&lt;h3 id="future-directions">Future Directions&lt;/h3>
+&lt;blockquote>
+&lt;p>My own proposed future directions for the work&lt;/p>
+&lt;/blockquote>
+&lt;p>I&amp;rsquo;d like to implement Focal Loss in both a traditional YOLO network and a YOLO
+network following the MobileNet architecture.&lt;/p>
+&lt;h3 id="open-questions">Open Questions&lt;/h3>
+&lt;blockquote>
+&lt;p>What open questions do I have about the work?&lt;/p>
+&lt;/blockquote>
+&lt;p>Why was the COCO dataset chosen and not the ImageNet or Pascal VOC dataset for
+training?&lt;/p>
+&lt;h3 id="author-feedback">Author Feedback&lt;/h3>
+&lt;blockquote>
+&lt;p>What feedback would I give to the authors?&lt;/p>
+&lt;/blockquote>
+&lt;p>This is a good paper. I would say that the size of the network is certainly
+larger than previous one stage object detectors such as YOLO. Could it be
+possible to reduce the size of the network to be comparable to these smaller
+networks while maintaining the accuracy or achieving a better accuracy?&lt;/p>
+&lt;hr>
+&lt;h2 id="summary">Summary&lt;/h2>
+&lt;blockquote>
+&lt;p>A summary of the paper&lt;/p>
+&lt;/blockquote>
+&lt;p>The paper &lt;em>Focal Loss for Dense Object Detection&lt;/em> by Tsung-Yi Lin et al. [1]
+describes a new loss function aimed at improving the performance of one shot
+object detection models that rely on region proposals. The problem that one shot
+object detection models face compared against traditional two stage models that
+utilize region proposals and object detection is that of class imbalance. Class
+imbalance is simply that the region proposal network detects too many regions
+where an object might be. This affects the performance of the object detection
+component of the model as it might infer that an object is in a location that it
+isn&amp;rsquo;t.&lt;/p>
+&lt;p>To reduce this error, the authors of this paper propose the Focal Loss function,
+a loss function aimed at reducing class imbalance. The function is
+&lt;code>FL(pt) = −(1 − pt)^γ log(pt)&lt;/code> where &lt;code>γ &amp;gt;= 0&lt;/code> They then trained a model
+(RetinaNet) with this loss function on the COCO dataset and found that it
+performed better than other on stage methods with respect to average precision.&lt;/p>
+&lt;hr>
+&lt;h2 id="summarization-technique">Summarization Technique&lt;/h2>
+&lt;p>This paper was summarized using a modified technique proposed by S. Keshav in
+his work &lt;em>How to Read a Paper&lt;/em> [0].&lt;/p>
+&lt;h2 id="citations">Citations&lt;/h2>
+Citations availible at https://nsynovic.dev/summaries/focal-loss-for-dense-object-detection/</description></item><item><title>A summary of You Only Look Once: Unified, Real-Time Object Detection by Joseph Redmon et al.</title><link>https://nsynovic.dev/summaries/you-only-look-once-unified-real0time-object-detection/</link><pubDate>Fri, 02 Dec 2022 21:50:54 -0600</pubDate><guid>https://nsynovic.dev/summaries/you-only-look-once-unified-real0time-object-detection/</guid><description>&lt;h1 id="a-summary-of-you-only-look-once-unified-real-time-object-detection">A summary of &lt;em>You Only Look Once: Unified, Real-Time Object Detection&lt;/em>&lt;/h1>
 &lt;blockquote>
 &lt;p>Joseph Redmon et al. CVPR, 2016 &lt;a href="https://doi.org/10.1109/CVPR.2016.91">DOI&lt;/a>&lt;/p>
 &lt;/blockquote>

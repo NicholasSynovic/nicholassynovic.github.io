@@ -6,6 +6,8 @@
 > These posts are mirrored from my HTTP site.
 
 
+1The Age Rule: A Media Consumption Proposal	the-age-rule
+
 1Hugo, Gopher, Gemini, and Annoyances	hugo-gopher-gemini-annoyance
 
 1Why Sign Commits?	why-sign-commits

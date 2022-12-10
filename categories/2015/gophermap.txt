@@ -6,6 +6,8 @@
 > These posts are mirrored from my HTTP site.
 
 
+1A summary of  U-Net: Convolutional Networks for Biomedical Image Segmentation by Olaf Ronneberger et al.	/summaries/u-net-convolutional-networks-for-biomedical-image-segmentation
+
 1A summary of Hidden Technical Debt in Machine Learning Systems by D. Sculley et al.	/summaries/hidden-technical-debt-in-machine-learning-systems
 
 1A summary of Fast R-CNN by Ross Girshick	/summaries/fast-r-cnn

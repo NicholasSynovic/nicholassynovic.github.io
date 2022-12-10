@@ -6,6 +6,20 @@
 > These posts are mirrored from my HTTP site.
 
 
+1A summary of Joint Head Pose Estimation and Face Alignment Framework Using Global and Local CNN Features by Xiang Xu and A. Kakadiaris	/summaries/joint-head-pose-estimation-and-face-alignment-framework-using-global-and-local-cnn-features
+
+1A summary of A Convolutional Neural Network Cascade for Face Detection by Haoxiang Li et al.	/summaries/a-convolutional-neural-network-cascade-for-face-detection
+
+1A summary of Rethinking Semantic Segmentation from a Sequence-to-Sequence Perspective with Transformers by Sixiao Zheng et al.	/summaries/rethinking-semantic-segmentation-from-a-sequence-to-sequence-perspective-with-transformers
+
+1A summary of by SegNet: A Deep Convolutional Encoder-Decoder Architecture for Image Segmentation by Vijay Badrinarayanan et al.	/summaries/segnet-a-deep-convolutional-encoder-decoder-architecture-for-image-segmentation
+
+1A summary of  U-Net: Convolutional Networks for Biomedical Image Segmentation by Olaf Ronneberger et al.	/summaries/u-net-convolutional-networks-for-biomedical-image-segmentation
+
+1A summary of Fully Convolutional Networks for Semantic Segmentation by Jonathan Long et al.	/summaries/fully-convolutional-networks-for-semantic-segmentation
+
+1A summary of Focal Loss for Dense Object Detection by Tsung-Yi Lin et al.	/summaries/focal-loss-for-dense-object-detection
+
 1A summary of You Only Look Once: Unified, Real-Time Object Detection by Joseph Redmon et al.	/summaries/you-only-look-once-unified-real0time-object-detection
 
 1A summary of Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks by Shaoqing Ren et al.	/summaries/faster-r-cnn-towards-real-time-object-detection-with-region-proposal-networks

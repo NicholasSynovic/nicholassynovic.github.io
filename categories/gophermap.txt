@@ -30,8 +30,6 @@
 
 1gemini	/categories/gemini
 
-1blog	/categories/blog
-
 1SIGCOMM	/categories/sigcomm
 
 1meta	/categories/meta
@@ -110,8 +108,6 @@
 
 1cam	/categories/cam
 
-1arxiv	/categories/arxiv
-
 1International Journal of Computer Vision	/categories/international-journal-of-computer-vision
 
 1human sensing	/categories/human-sensing
@@ -182,8 +178,6 @@
 
 1NeurIPS	/categories/neurips
 
-12015	/categories/2015
-
 1scale invariance	/categories/scale-invariance
 
 1object recognition	/categories/object-recognition
@@ -240,11 +234,19 @@
 
 1attention mechanism	/categories/attention-mechanism
 
-1summary	/categories/summary
-
 1CVPR	/categories/cvpr
 
 12016	/categories/2016
+
+12018	/categories/2018
+
+1arXiv	/categories/arxiv
+
+12015	/categories/2015
+
+1summary	/categories/summary
+
+1blog	/categories/blog
 
 
 .
