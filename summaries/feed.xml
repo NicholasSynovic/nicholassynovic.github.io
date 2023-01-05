@@ -1,4 +1,48 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Summaries on Nicholas M. Synovic</title><link>https://nsynovic.dev/summaries/</link><description>Recent content in Summaries on Nicholas M. Synovic</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Nicholas M. Synovic</copyright><lastBuildDate>Sun, 26 Jun 2022 21:29:53 -0500</lastBuildDate><atom:link href="https://nsynovic.dev/summaries/feed.xml" rel="self" type="application/rss+xml"/><item><title>A summary of Joint Head Pose Estimation and Face Alignment Framework Using Global and Local CNN Features by Xiang Xu and A. Kakadiaris</title><link>https://nsynovic.dev/summaries/joint-head-pose-estimation-and-face-alignment-framework-using-global-and-local-cnn-features/</link><pubDate>Sun, 04 Dec 2022 22:32:45 -0600</pubDate><guid>https://nsynovic.dev/summaries/joint-head-pose-estimation-and-face-alignment-framework-using-global-and-local-cnn-features/</guid><description>&lt;h1 id="a-summary-of-joint-head-pose-estimation-and-face-alignment-framework-using-global-and-local-cnn-features">A summary of &lt;em>Joint Head Pose Estimation and Face Alignment Framework Using Global and Local CNN Features&lt;/em>&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Summaries on Nicholas M. Synovic</title><link>https://nsynovic.dev/summaries/</link><description>Recent content in Summaries on Nicholas M. Synovic</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Nicholas M. Synovic</copyright><lastBuildDate>Sun, 26 Jun 2022 21:29:53 -0500</lastBuildDate><atom:link href="https://nsynovic.dev/summaries/feed.xml" rel="self" type="application/rss+xml"/><item><title>A summary of Dress Codes Podcast by Gimlet Media</title><link>https://nsynovic.dev/summaries/dress-codes/</link><pubDate>Thu, 05 Jan 2023 10:16:32 -0600</pubDate><guid>https://nsynovic.dev/summaries/dress-codes/</guid><description>&lt;h1 id="a-summary-of-dress-codes-podcast">A summary of &lt;em>Dress Codes Podcast&lt;/em>&lt;/h1>
+&lt;blockquote>
+&lt;p>Gimlet Media
+2019
+&lt;a href="https://gimletmedia.com/shows/dress-codes">https://gimletmedia.com/shows/dress-codes&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;p>For the summary of the paper, go to the &lt;a href="#summary">Summary&lt;/a> section of this article.&lt;/p>
+&lt;h2 id="table-of-contents">Table of Contents&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="#a-summary-of-dress-codes-podcast">A summary of &lt;em>Dress Codes Podcast&lt;/em>&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#table-of-contents">Table of Contents&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#about">About&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#seeing-yoyself-on-screen-camille-friend">Seeing Yoyself On Screen: Camille Friend&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#the-powersuit-remixed-rae-tutera">The Powersuit Remixed: Rae Tutera&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#culottes-to-karen-o-christian-joy">Culottes to Karen O: Christian Joy&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#doo-knockers-and-dior-misa-hylton">Doo-Knockers and Dior: Misa Hylton&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#bun-huggers-to-white-oxfords-clothing-as-amor">Bun Huggers to White Oxfords: Clothing As Amor&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#under-the-spotlight-in-a-crop-top-joel-kim-booster">Under the Spotlight in a Crop Top: Joel Kim Booster&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#summarization-technique">Summarization Technique&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#citations">Citations&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="about">About&lt;/h2>
+&lt;p>&lt;em>Dress Codes&lt;/em> by Gimlet Media is hosted by Emily Spivack.
+It&amp;rsquo;s a podcast about the clothing that guests wore at some of the most important parts of their carreer or life.
+This podcast is sponsored by New Balence.&lt;/p>
+&lt;h2 id="seeing-yoyself-on-screen-camille-friend">Seeing Yoyself On Screen: Camille Friend&lt;/h2>
+&lt;p>Camille Friend is a Hollywood hair stylist most famous for her work on the movie &lt;em>Black Panther&lt;/em>.&lt;/p>
+&lt;p>She was, &amp;ldquo;born a hair stylist&amp;rdquo;.
+Her uncle owned a black hair salon which she worked at and got her spot.&lt;/p>
+&lt;p>As the hair stylist for &lt;em>Black Panther&lt;/em>, she changed the game by asking all of the actors to come in with their natural hair.
+This was different as black actors are asked to straighten and pre-style their hair prior to arriving on set.&lt;/p>
+&lt;h2 id="the-powersuit-remixed-rae-tutera">The Powersuit Remixed: Rae Tutera&lt;/h2>
+&lt;h2 id="culottes-to-karen-o-christian-joy">Culottes to Karen O: Christian Joy&lt;/h2>
+&lt;h2 id="doo-knockers-and-dior-misa-hylton">Doo-Knockers and Dior: Misa Hylton&lt;/h2>
+&lt;h2 id="bun-huggers-to-white-oxfords-clothing-as-amor">Bun Huggers to White Oxfords: Clothing As Amor&lt;/h2>
+&lt;h2 id="under-the-spotlight-in-a-crop-top-joel-kim-booster">Under the Spotlight in a Crop Top: Joel Kim Booster&lt;/h2>
+&lt;hr>
+&lt;h2 id="summarization-technique">Summarization Technique&lt;/h2>
+&lt;p>This podcast was summarized using a modified technique proposed by S. Keshav in his work &lt;em>How to Read a Paper&lt;/em> [0].&lt;/p>
+&lt;h2 id="citations">Citations&lt;/h2>
+Citations availible at https://nsynovic.dev/summaries/dress-codes/</description></item><item><title>A summary of Joint Head Pose Estimation and Face Alignment Framework Using Global and Local CNN Features by Xiang Xu and A. Kakadiaris</title><link>https://nsynovic.dev/summaries/joint-head-pose-estimation-and-face-alignment-framework-using-global-and-local-cnn-features/</link><pubDate>Sun, 04 Dec 2022 22:32:45 -0600</pubDate><guid>https://nsynovic.dev/summaries/joint-head-pose-estimation-and-face-alignment-framework-using-global-and-local-cnn-features/</guid><description>&lt;h1 id="a-summary-of-joint-head-pose-estimation-and-face-alignment-framework-using-global-and-local-cnn-features">A summary of &lt;em>Joint Head Pose Estimation and Face Alignment Framework Using Global and Local CNN Features&lt;/em>&lt;/h1>
 &lt;blockquote>
 &lt;p>Xiang Xu and A. Kakadiaris IEEE FG, 2017
 &lt;a href="https://doi.org/10.1109/FG.2017.81">DOI&lt;/a>&lt;/p>

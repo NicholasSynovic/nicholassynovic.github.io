@@ -6,6 +6,8 @@
 > These posts are mirrored from my HTTP site.
 
 
+1A summary of Dress Codes Podcast by Gimlet Media	/summaries/dress-codes
+
 1A summary of Joint Head Pose Estimation and Face Alignment Framework Using Global and Local CNN Features by Xiang Xu and A. Kakadiaris	/summaries/joint-head-pose-estimation-and-face-alignment-framework-using-global-and-local-cnn-features
 
 1A summary of A Convolutional Neural Network Cascade for Face Detection by Haoxiang Li et al.	/summaries/a-convolutional-neural-network-cascade-for-face-detection

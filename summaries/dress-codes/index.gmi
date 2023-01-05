@@ -1,0 +1,68 @@
+# A summary of Dress Codes Podcast by Gimlet Media
+
+Thursday, January 5, 2023 · 2 minute read
+
+
+# A summary of *Dress Codes Podcast*
+
+> Gimlet Media
+> 2019
+> https://gimletmedia.com/shows/dress-codes
+
+For the summary of the paper, go to the [Summary](#summary) section of this article.
+
+## Table of Contents
+
+- [A summary of *Dress Codes Podcast*](#a-summary-of-dress-codes-podcast)
+  - [Table of Contents](#table-of-contents)
+  - [About](#about)
+  - [Seeing Yoyself On Screen: Camille Friend](#seeing-yoyself-on-screen-camille-friend)
+  - [The Powersuit Remixed: Rae Tutera](#the-powersuit-remixed-rae-tutera)
+  - [Culottes to Karen O: Christian Joy](#culottes-to-karen-o-christian-joy)
+  - [Doo-Knockers and Dior: Misa Hylton](#doo-knockers-and-dior-misa-hylton)
+  - [Bun Huggers to White Oxfords: Clothing As Amor](#bun-huggers-to-white-oxfords-clothing-as-amor)
+  - [Under the Spotlight in a Crop Top: Joel Kim Booster](#under-the-spotlight-in-a-crop-top-joel-kim-booster)
+  - [Summarization Technique](#summarization-technique)
+  - [Citations](#citations)
+
+---
+
+## About
+
+*Dress Codes* by Gimlet Media is hosted by Emily Spivack.
+It's a podcast about the clothing that guests wore at some of the most important parts of their carreer or life.
+This podcast is sponsored by New Balence.
+
+## Seeing Yoyself On Screen: Camille Friend
+
+Camille Friend is a Hollywood hair stylist most famous for her work on the movie *Black Panther*.
+
+She was, "born a hair stylist".
+Her uncle owned a black hair salon which she worked at and got her spot.
+
+As the hair stylist for *Black Panther*, she changed the game by asking all of the actors to come in with their natural hair.
+This was different as black actors are asked to straighten and pre-style their hair prior to arriving on set.
+
+## The Powersuit Remixed: Rae Tutera
+
+## Culottes to Karen O: Christian Joy
+
+## Doo-Knockers and Dior: Misa Hylton
+
+## Bun Huggers to White Oxfords: Clothing As Amor
+
+## Under the Spotlight in a Crop Top: Joel Kim Booster
+
+---
+
+## Summarization Technique
+
+This podcast was summarized using a modified technique proposed by S. Keshav in his work *How to Read a Paper* \[0\].
+
+## Citations
+
+
+=> https://doi.org/10.1145/1273445.1273458	0. https://doi.org/10.1145/1273445.1273458
+
+=> https://gimletmedia.com/shows/dress-codes	1. https://gimletmedia.com/shows/dress-codes
+
