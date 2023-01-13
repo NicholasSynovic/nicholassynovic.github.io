@@ -3,7 +3,7 @@ title: A summary of CHANGE ME by AUTHOR
 description: Posted in the CONFRENCE | JOURNAL | etc. , YEAR
 summary: Posted in the CONFRENCE | JOURNAL | etc. , YEAR
 
-categories: [summary,]
+categories: [summary, paper,]
 citations: [https://doi.org/10.1145/1273445.1273458]
 
 draft: false
