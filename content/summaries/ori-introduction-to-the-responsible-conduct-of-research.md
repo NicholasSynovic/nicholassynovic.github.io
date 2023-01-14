@@ -119,6 +119,33 @@ researchers and institutions.
 
 ### Chapter 3: The Protection of Human Subjects
 
+Human subjects are used in order to find improvements to the human experience.
+This could involve the creation of new medicines, surgeries, or experiments.
+
+Researchers who use human subjects are subject to Federal regulations. Both the
+Nuremberg Code and the Declaration of Helsinki are guidelines that are to be
+followed when testing on human subjects. Additionally, the Federal regulation 45
+CFR 46 Subparts A - D, known as the "Common Rule", are expected to be followed
+as well. Exempt research from the "Common Rule" include:
+
+```text
+- Research conducted in established or commonly accepted educational settings,
+- Research involving the use of educational tests,
+- Research involving the collection or study of existing data, documents, records, pathological specimens, or diagnostic specimens, if unidentifiable or publicly availible,
+Research and demonstration projects which are conducted by or subject to the approval of department or agency heads; or
+Taste and food quality evaluation and consumer acceptance studies.
+```
+
+Any institution that performs human research must have a Federally mandated
+Internal Review Board (IRB) consisting of at least 5 people, one of which is a
+scientist, one of which is a non-scientist, and one who is not affiliated with
+the institution. Furthermore, all researchers working with human subjects must
+undergo National Institutes of Health (NIH) training.
+
+All human subjects must have to informed consent and the right to withdraw.
+Furthermore, there is an ethical concern in human subjects research that some
+experiments have risks without any benefits.
+
 ______________________________________________________________________
 
 ## Summary
