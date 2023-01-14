@@ -184,6 +184,26 @@ must defend the usage of animal subjects against the "three R's":
 
 ### Chapter 5: Conflicts of Interest
 
+Researchers can experience three different types of conflicts of interest:
+
+1. Financial gain,
+2. Work commitments, and
+3. Intellectual and personal matters.
+
+Financial gains involve reciving money from an institute that the researcher has
+a vested in. This could involve having stock in the company, or being a member
+of the company.
+
+Work commitments involve colluding multiple working positions into one in order
+to serve a singular purpose. In other words, if a position at work is being used
+to further a research objective or vice versa, it is a conflict of interest.
+
+Intellectual and personal matter conflicts of interest occur when the idealogy,
+beliefs, or viewpoint of a researcher could interfere with their research
+objectives. As an example (not mentioned in this book; purely my own thought
+probably taken from someone else) is a pro-life reseacher working on
+abortificants.
+
 ______________________________________________________________________
 
 ## Summary
