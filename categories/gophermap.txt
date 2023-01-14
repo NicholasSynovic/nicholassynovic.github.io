@@ -244,9 +244,17 @@
 
 12015	/categories/2015
 
+1blog	/categories/blog
+
 1summary	/categories/summary
 
-1blog	/categories/blog
+1research ethics	/categories/research-ethics
+
+1research	/categories/research
+
+1ethics	/categories/ethics
+
+1book	/categories/book
 
 
 .
