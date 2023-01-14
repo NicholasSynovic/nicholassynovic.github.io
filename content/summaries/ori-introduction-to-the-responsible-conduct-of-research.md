@@ -36,6 +36,8 @@ article.
     - [Chapter 1: Rules of the Road](#chapter-1-rules-of-the-road)
     - [Chapter 2: Research Misconduct](#chapter-2-research-misconduct)
     - [Chapter 3: The Protection of Human Subjects](#chapter-3-the-protection-of-human-subjects)
+    - [Chapter 4: The Welfare of Laboratory Animals](#chapter-4-the-welfare-of-laboratory-animals)
+    - [Chapter 5: Conflicts of Interest](#chapter-5-conflicts-of-interest)
   - [Summary](#summary)
   - [Citations](#citations)
 
@@ -145,6 +147,42 @@ undergo National Institutes of Health (NIH) training.
 All human subjects must have to informed consent and the right to withdraw.
 Furthermore, there is an ethical concern in human subjects research that some
 experiments have risks without any benefits.
+
+### Chapter 4: The Welfare of Laboratory Animals
+
+Research on animal subjects is done to benefit humans without experimenting on
+humans. The 1966 Animal Welfare Act and the 1985 Health and Research Extension
+Act both act as Federal regulations that researcher's experimenting on human
+subjects must abide by. The United States Department of Agriculture (USDA) is
+responsible for the transportation, care, and use of animals. The usage of
+animals for biomedical and behavioral research is subject to the Secretary of
+Health and Human Services (HHS), acting through the National Institutes of
+Health (NIH) and the Office of Laboratory Animal Welfare (OLAW), NIH.
+Furthermore, activists have put together guidelines through the Animal Care
+Panel (ACP) commonly reffered to as th Guide. The *Guide* is widely accepted
+both in public and private institutions as well as Federal laboratories.
+
+The definition of an animal from the PHS Policy is, "any live, vertebrate
+animals used or inteded for use in research, research training, experimentation,
+or biological testing or for related purposes". the definition of an animal from
+the Common Rule that implements the Animal Welfare Act includes warm blooded
+animals (mammals) but excludes, "Birds, rats of the genus Rattus and mice of the
+genus Mus bred for use in research, and horses not used for research purposes
+and other farm animals".
+
+Institutions testing on animals must create an Institutional Animal Care and Use
+Committee (IACUC) which acts similarly to an IRB but for animals. These, along
+with the OLAW, USDA, and accrediation programs, are responsible for the proper
+care and respect of animal subjects. Prior to using animal subjects, researchers
+must defend the usage of animal subjects against the "three R's":
+
+```text
+1. Replacement - using non-animal models such asmicroorganisms or cell culture techniques, computer simulations, or species lower on the phulogenetic scale,
+2. Reduction - using methods aimed at reducing the numbers of animals such as minimization of variability, appropriate selection of animal model, minimization of animal loss, and careful experimental design, and
+3. Refinement - the elimination or reduction of unnecessary pain and distress [in animal subjects].
+```
+
+### Chapter 5: Conflicts of Interest
 
 ______________________________________________________________________
 
