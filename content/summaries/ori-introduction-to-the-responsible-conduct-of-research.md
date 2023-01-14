@@ -34,6 +34,8 @@ article.
     - [Foreward](#foreward)
     - [Preface](#preface)
     - [Chapter 1: Rules of the Road](#chapter-1-rules-of-the-road)
+    - [Chapter 2: Research Misconduct](#chapter-2-research-misconduct)
+    - [Chapter 3: The Protection of Human Subjects](#chapter-3-the-protection-of-human-subjects)
   - [Summary](#summary)
   - [Citations](#citations)
 
@@ -73,7 +75,49 @@ Professional Codes, Federal, State, institutional policies, and personal
 judgement. Not all professions have Professional Codes. Federal regulations have
 to first be made available for public comment in the *Federal Register*, and
 once accepted, are incorporated into the *Code of Federal Regulations* and must
-be followed.
+be followed. Researchers are advised to seek help in understanding Federal
+rules.
+
+### Chapter 2: Research Misconduct
+
+Research misconduct policies provide guidance on responsible conduct in these
+three areas:
+
+```text
+1. Establish definitions for misconduct in research,
+2. Outline procedures for reporting and investigating misconduct, and
+3. Provide protection for whistleblowers and person accused of misconduct.
+```
+
+Federal regulations for research misconduct technically only apply at the
+Federal level, but many institutions incorporate and expand it within their own
+policies. The Office of Science and Technology Policy's (OSTP), a Federal
+agenct, definition of research misconduct is, "fabrication, falsification, or
+plagiarism in proposing, performing, or reviewing research, or in reporting
+research results". For an action to be considered research misconduct, it must
+meet the following criteria:
+
+```text
+1. Represent a, "significant departure from accepted practices",
+2. Have been, "committed intentionally, or knowingly, or recklessly"; and
+3. Be, "proven by a prponderance of evidence".
+```
+
+The federal policy puts the responsibility of research misconduct reporting and
+investigation on both *researchers* and *their research institutions*. Research
+misconduct puts a researcher's career on the line. Additionally, a whistleblower
+runs the risk of illegal retaliation. Furthermore, the accused researcher(s)
+only face punishment when proven guilty.
+
+The violation of Federal rules, abuse of confidentiality, authorship and
+publication violations, failure to report misconduct, obstruction of misconduct
+investigations, and other institutional level policies can be classified as
+research misconduct. It is assumed that research misconduct is under reported.
+Regardless, this misconduct taints the public image of research, wastes donated
+or tax-funded dollars, and harms both the professional reputations of
+researchers and institutions.
+
+### Chapter 3: The Protection of Human Subjects
 
 ______________________________________________________________________
 
