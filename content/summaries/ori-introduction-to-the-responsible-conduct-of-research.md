@@ -38,6 +38,8 @@ article.
     - [Chapter 3: The Protection of Human Subjects](#chapter-3-the-protection-of-human-subjects)
     - [Chapter 4: The Welfare of Laboratory Animals](#chapter-4-the-welfare-of-laboratory-animals)
     - [Chapter 5: Conflicts of Interest](#chapter-5-conflicts-of-interest)
+    - [Chapter 6: Data Management Practices](#chapter-6-data-management-practices)
+    - [Chapter 7: Mentor and Trainee Responsibilities](#chapter-7-mentor-and-trainee-responsibilities)
   - [Summary](#summary)
   - [Citations](#citations)
 
@@ -132,10 +134,17 @@ as well. Exempt research from the "Common Rule" include:
 
 ```text
 - Research conducted in established or commonly accepted educational settings,
+
 - Research involving the use of educational tests,
-- Research involving the collection or study of existing data, documents, records, pathological specimens, or diagnostic specimens, if unidentifiable or publicly availible,
-Research and demonstration projects which are conducted by or subject to the approval of department or agency heads; or
-Taste and food quality evaluation and consumer acceptance studies.
+
+- Research involving the collection or study of existing data, documents,
+records, pathological specimens, or diagnostic specimens, if unidentifiable or
+publicly availible,
+
+- Research and demonstration projects which are conducted by or subject to the
+approval of department or agency heads; or
+
+- Taste and food quality evaluation and consumer acceptance studies.
 ```
 
 Any institution that performs human research must have a Federally mandated
@@ -177,9 +186,15 @@ care and respect of animal subjects. Prior to using animal subjects, researchers
 must defend the usage of animal subjects against the "three R's":
 
 ```text
-1. Replacement - using non-animal models such asmicroorganisms or cell culture techniques, computer simulations, or species lower on the phulogenetic scale,
-2. Reduction - using methods aimed at reducing the numbers of animals such as minimization of variability, appropriate selection of animal model, minimization of animal loss, and careful experimental design, and
-3. Refinement - the elimination or reduction of unnecessary pain and distress [in animal subjects].
+1. Replacement - using non-animal models such asmicroorganisms or cell culture
+techniques, computer simulations, or species lower on the phulogenetic scale,
+
+2. Reduction - using methods aimed at reducing the numbers of animals such as
+minimization of variability, appropriate selection of animal model, minimization
+of animal loss, and careful experimental design, and
+
+3. Refinement - the elimination or reduction of unnecessary pain and distress
+[in animal subjects].
 ```
 
 ### Chapter 5: Conflicts of Interest
@@ -203,6 +218,47 @@ beliefs, or viewpoint of a researcher could interfere with their research
 objectives. As an example (not mentioned in this book; purely my own thought
 probably taken from someone else) is a pro-life reseacher working on
 abortificants.
+
+### Chapter 6: Data Management Practices
+
+Research is not possible without data. Because of this, there are
+responsibilities that researchers have to the proper ownership, collection,
+storage, and sharing of data.
+
+Data can be owned by one or many sources. This includes the funders of the
+research, the institution where the research was conducted, and the original
+source of the data. Typically, government funded research allows the data to be
+shared for the public good, privately funded research retain the right to
+disseminate the data, and philinthropic funding sources retain or give away
+their data ownership rights depending on their motive.
+
+Data must be collected responsibly. This means that data collection method is
+appropriate and reliable. If the method is garbage, the result will be garbage
+(garbage in, garbage out). The data collected must be detailed enough to support
+the results. It must also be authorized for collection, and when recorded,
+proper metadata must be captured to include the date, time, source, and other
+important facts about the source of the data.
+
+After collecting the data, data must be stored properly so as to prevent the
+theivery or loss of data. This includes securing lab notebooks and regularly
+backing up data files. Additionally, any data that includes personal identifying
+information or is otherwise confidential, must go through a process of
+anonymizing the data so as to respect the source's privacy. Furthermore, some
+data may be subject to a period of retention and if not, data should otherwise
+be retained indefinetly.
+
+In the case of sharing data with other researchers or the general public, data
+must be fully validated, not be preliminary data, and can be confidential until
+publication.
+
+Finally, future considerations about the data must be taken into account. For
+example, the generated data of an experiment can be larger than the amount of
+usable computer storage. Furthermore, there is now a concern that released data
+can contribute to the terrorism or foreign entities that wish to do harm to the
+American public. Ethical concerns about the release of such data must be taken
+into consideration prior to releasing said data.
+
+### Chapter 7: Mentor and Trainee Responsibilities
 
 ______________________________________________________________________
 
