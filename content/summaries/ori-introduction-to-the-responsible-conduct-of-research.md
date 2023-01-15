@@ -40,6 +40,8 @@ article.
     - [Chapter 5: Conflicts of Interest](#chapter-5-conflicts-of-interest)
     - [Chapter 6: Data Management Practices](#chapter-6-data-management-practices)
     - [Chapter 7: Mentor and Trainee Responsibilities](#chapter-7-mentor-and-trainee-responsibilities)
+    - [Chapter 8: Collaborative Research](#chapter-8-collaborative-research)
+    - [Chapter 9: Authorship and Publication](#chapter-9-authorship-and-publication)
   - [Summary](#summary)
   - [Citations](#citations)
 
@@ -296,6 +298,34 @@ else's funding, they have little freedom to pursue their own research. The
 National Postdoctoral Association has been created to ensure that postdocs have
 the rights that they deserve with respect to transitioning to independent
 researchers.
+
+### Chapter 8: Collaborative Research
+
+Collaborative research involves any time when two or more researchers
+collaborate on the same project. This could involve researchers from the same
+institution or different insititutions. This work is led by a primary
+investigator (PI) who heads the project and is responsible for the compliance of
+rules and responsible research conduct, financials, and training.
+
+Collaborative research projects need to initially solve many problems with
+respect to:
+
+- The goals of the project and anticipated outcomes,
+- Everyone's role,
+- How data will be collected, stored, and shared,
+- How changes in the research design will be made,
+- Who is responsible for drafting publications,
+- The criteria to identify and rank authorship,
+- Who is responsible for submitting reports and meeting other requirements,
+- Who is responsible for publicly speaking about the work,
+- How intellectural property rights and ownership issues will be resolved, and
+- How collaboration can be changed and when it comes ot an end.
+
+With respect to compliance, it is best practice to work under the compliance
+guidelines of the institution or state that has the strictest policies to ensure
+that all researchers are following proper protocol.
+
+### Chapter 9: Authorship and Publication
 
 ______________________________________________________________________
 
