@@ -260,6 +260,43 @@ into consideration prior to releasing said data.
 
 ### Chapter 7: Mentor and Trainee Responsibilities
 
+Trainee refers to anyone learning to be a researcher learning from a senior
+researcher. To establish the basic understandings of the relationship, trainees
+must know from their mentors:
+
+- How much time they are expected to put into research,
+- How performance is judged,
+- How responsibilities are shared or divided,
+- Standard operating procedures, and
+- How credit and authorship are assigned.
+
+Whereas mentors expect from their trainees that they:
+
+- Do work in a conscientious way,
+- Respect the authority of others,
+- Follow research regulations and protocols, and
+- Live by agreements established for authorship and ownership
+
+To make sure these expectations are clear, the mentor should lay them out
+initally. Furthermore, mentors have are expected to supervise the work of a
+trainee. This results in the monitoring, support, and review of a trainees work,
+as well as imparting the ethos of being a researcher onto them.
+
+The research environment that they mentor creates and the trainee learns in
+should be one of:
+
+- Equal treatment free from discrimination,
+- Professional, and
+- Follow the responsible conduct of research
+
+Postdoctoral researchers have a rough time in the lab as they have the skills to
+be an independent researcher, but since they are no longer students nor faculty,
+they have little rights. Additionally, since they are working under someone
+else's funding, they have little freedom to pursue their own research. The
+National Postdoctoral Association has been created to ensure that postdocs have
+the rights that they deserve with respect to transitioning to independent
+researchers.
+
 ______________________________________________________________________
 
 ## Summary
