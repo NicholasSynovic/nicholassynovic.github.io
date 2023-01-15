@@ -13,17 +13,35 @@ article.&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="#foreward">Foreward&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#preface">Preface&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#part-i">Part I&lt;/a>
+&lt;ul>
 &lt;li>&lt;a href="#chapter-1-rules-of-the-road">Chapter 1: Rules of the Road&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#chapter-2-research-misconduct">Chapter 2: Research Misconduct&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#part-ii">Part II&lt;/a>
+&lt;ul>
 &lt;li>&lt;a href="#chapter-3-the-protection-of-human-subjects">Chapter 3: The Protection of Human Subjects&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#chapter-4-the-welfare-of-laboratory-animals">Chapter 4: The Welfare of Laboratory Animals&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#chapter-5-conflicts-of-interest">Chapter 5: Conflicts of Interest&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#chapter-6-data-management-practices">Chapter 6: Data Management Practices&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#chapter-7-mentor-and-trainee-responsibilities">Chapter 7: Mentor and Trainee Responsibilities&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>&lt;a href="#summary">Summary&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#citations">Citations&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#part-iii">Part III&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#chapter-6-data-management-practices">Chapter 6: Data Management Practices&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#chapter-7-mentor-and-trainee-responsibilities">Chapter 7: Mentor and Trainee Responsibilities&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#chapter-8-collaborative-research">Chapter 8: Collaborative Research&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#part-iv">Part IV&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#chapter-9-authorship-and-publication">Chapter 9: Authorship and Publication&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#chapter-10-peer-review">Chapter 10: Peer Review&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#part-v">Part V&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
@@ -47,7 +65,9 @@ citizenship is applied to a researcher&amp;rsquo;s professional life. However, a
 field is different, so too does what &amp;ldquo;good citizenship&amp;rdquo; mean within each field.
 This book was written to briefly introduce researchers to what is generally
 accepted as responsible conduct regardless of their working field.&lt;/p>
-&lt;h3 id="chapter-1-rules-of-the-road">Chapter 1: Rules of the Road&lt;/h3>
+&lt;hr>
+&lt;h3 id="part-i">Part I&lt;/h3>
+&lt;h4 id="chapter-1-rules-of-the-road">Chapter 1: Rules of the Road&lt;/h4>
 &lt;p>There aren&amp;rsquo;t clear rules laid out to for researcher&amp;rsquo;s to easily understand what
 is and isn&amp;rsquo;t responsible research conduct. Rather, there are many organizing
 bodies, both official and non-official, that govern what is and isn&amp;rsquo;t
@@ -59,7 +79,7 @@ to first be made available for public comment in the &lt;em>Federal Register&lt;
 once accepted, are incorporated into the &lt;em>Code of Federal Regulations&lt;/em> and must
 be followed. Researchers are advised to seek help in understanding Federal
 rules.&lt;/p>
-&lt;h3 id="chapter-2-research-misconduct">Chapter 2: Research Misconduct&lt;/h3>
+&lt;h4 id="chapter-2-research-misconduct">Chapter 2: Research Misconduct&lt;/h4>
 &lt;p>Research misconduct policies provide guidance on responsible conduct in these
 three areas:&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>1. Establish definitions for misconduct in research,
@@ -87,7 +107,9 @@ research misconduct. It is assumed that research misconduct is under reported.
 Regardless, this misconduct taints the public image of research, wastes donated
 or tax-funded dollars, and harms both the professional reputations of
 researchers and institutions.&lt;/p>
-&lt;h3 id="chapter-3-the-protection-of-human-subjects">Chapter 3: The Protection of Human Subjects&lt;/h3>
+&lt;hr>
+&lt;h3 id="part-ii">Part II&lt;/h3>
+&lt;h4 id="chapter-3-the-protection-of-human-subjects">Chapter 3: The Protection of Human Subjects&lt;/h4>
 &lt;p>Human subjects are used in order to find improvements to the human experience.
 This could involve the creation of new medicines, surgeries, or experiments.&lt;/p>
 &lt;p>Researchers who use human subjects are subject to Federal regulations. Both the
@@ -115,7 +137,7 @@ undergo National Institutes of Health (NIH) training.&lt;/p>
 &lt;p>All human subjects must have to informed consent and the right to withdraw.
 Furthermore, there is an ethical concern in human subjects research that some
 experiments have risks without any benefits.&lt;/p>
-&lt;h3 id="chapter-4-the-welfare-of-laboratory-animals">Chapter 4: The Welfare of Laboratory Animals&lt;/h3>
+&lt;h4 id="chapter-4-the-welfare-of-laboratory-animals">Chapter 4: The Welfare of Laboratory Animals&lt;/h4>
 &lt;p>Research on animal subjects is done to benefit humans without experimenting on
 humans. The 1966 Animal Welfare Act and the 1985 Health and Research Extension
 Act both act as Federal regulations that researcher&amp;rsquo;s experimenting on human
@@ -148,14 +170,12 @@ must defend the usage of animal subjects against the &amp;ldquo;three R&amp;rsqu
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>3. Refinement - the elimination or reduction of unnecessary pain and distress
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>[in animal subjects].
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="chapter-5-conflicts-of-interest">Chapter 5: Conflicts of Interest&lt;/h3>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="chapter-5-conflicts-of-interest">Chapter 5: Conflicts of Interest&lt;/h4>
 &lt;p>Researchers can experience three different types of conflicts of interest:&lt;/p>
-&lt;ol>
-&lt;li>Financial gain,&lt;/li>
-&lt;li>Work commitments, and&lt;/li>
-&lt;li>Intellectual and personal matters.&lt;/li>
-&lt;/ol>
-&lt;p>Financial gains involve reciving money from an institute that the researcher has
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>1. Financial gain,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>2. Work commitments, and
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>3. Intellectual and personal matters.
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Financial gains involve reciving money from an institute that the researcher has
 a vested in. This could involve having stock in the company, or being a member
 of the company.&lt;/p>
 &lt;p>Work commitments involve colluding multiple working positions into one in order
@@ -166,7 +186,9 @@ beliefs, or viewpoint of a researcher could interfere with their research
 objectives. As an example (not mentioned in this book; purely my own thought
 probably taken from someone else) is a pro-life reseacher working on
 abortificants.&lt;/p>
-&lt;h3 id="chapter-6-data-management-practices">Chapter 6: Data Management Practices&lt;/h3>
+&lt;hr>
+&lt;h3 id="part-iii">Part III&lt;/h3>
+&lt;h4 id="chapter-6-data-management-practices">Chapter 6: Data Management Practices&lt;/h4>
 &lt;p>Research is not possible without data. Because of this, there are
 responsibilities that researchers have to the proper ownership, collection,
 storage, and sharing of data.&lt;/p>
@@ -198,49 +220,159 @@ usable computer storage. Furthermore, there is now a concern that released data
 can contribute to the terrorism or foreign entities that wish to do harm to the
 American public. Ethical concerns about the release of such data must be taken
 into consideration prior to releasing said data.&lt;/p>
-&lt;h3 id="chapter-7-mentor-and-trainee-responsibilities">Chapter 7: Mentor and Trainee Responsibilities&lt;/h3>
+&lt;h4 id="chapter-7-mentor-and-trainee-responsibilities">Chapter 7: Mentor and Trainee Responsibilities&lt;/h4>
 &lt;p>Trainee refers to anyone learning to be a researcher learning from a senior
 researcher. To establish the basic understandings of the relationship, trainees
 must know from their mentors:&lt;/p>
-&lt;ul>
-&lt;li>How much time they are expected to put into research,&lt;/li>
-&lt;li>How performance is judged,&lt;/li>
-&lt;li>How responsibilities are shared or divided,&lt;/li>
-&lt;li>Standard operating procedures, and&lt;/li>
-&lt;li>How credit and authorship are assigned.&lt;/li>
-&lt;/ul>
-&lt;p>Whereas mentors expect from their trainees that they:&lt;/p>
-&lt;ul>
-&lt;li>Do work in a conscientious way,&lt;/li>
-&lt;li>Respect the authority of others,&lt;/li>
-&lt;li>Follow research regulations and protocols, and&lt;/li>
-&lt;li>Live by agreements established for authorship and ownership&lt;/li>
-&lt;/ul>
-&lt;p>To make sure these expectations are clear, the mentor should lay them out
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>- How much time they are expected to put into research,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- How performance is judged,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- How responsibilities are shared or divided,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- Standard operating procedures, and
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- How credit and authorship are assigned.
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Whereas mentors expect from their trainees that they:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>- Do work in a conscientious way,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- Respect the authority of others,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- Follow research regulations and protocols, and
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- Live by agreements established for authorship and ownership
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>To make sure these expectations are clear, the mentor should lay them out
 initally. Furthermore, mentors have are expected to supervise the work of a
 trainee. This results in the monitoring, support, and review of a trainees work,
 as well as imparting the ethos of being a researcher onto them.&lt;/p>
 &lt;p>The research environment that they mentor creates and the trainee learns in
 should be one of:&lt;/p>
-&lt;ul>
-&lt;li>Equal treatment free from discrimination,&lt;/li>
-&lt;li>Professional, and&lt;/li>
-&lt;li>Follow the responsible conduct of research&lt;/li>
-&lt;/ul>
-&lt;p>Postdoctoral researchers have a rough time in the lab as they have the skills to
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>- Equal treatment free from discrimination,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- Professional, and
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- Follow the responsible conduct of research
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Postdoctoral researchers have a rough time in the lab as they have the skills to
 be an independent researcher, but since they are no longer students nor faculty,
 they have little rights. Additionally, since they are working under someone
 else&amp;rsquo;s funding, they have little freedom to pursue their own research. The
 National Postdoctoral Association has been created to ensure that postdocs have
 the rights that they deserve with respect to transitioning to independent
 researchers.&lt;/p>
+&lt;h4 id="chapter-8-collaborative-research">Chapter 8: Collaborative Research&lt;/h4>
+&lt;p>Collaborative research involves any time when two or more researchers
+collaborate on the same project. This could involve researchers from the same
+institution or different insititutions. This work is led by a primary
+investigator (PI) who heads the project and is responsible for the compliance of
+rules and responsible research conduct, financials, and training.&lt;/p>
+&lt;p>Collaborative research projects need to initially solve many problems with
+respect to:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>- The goals of the project and anticipated outcomes,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- Everyone&amp;#39;s role,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- How data will be collected, stored, and shared,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- How changes in the research design will be made,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- Who is responsible for drafting publications,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- The criteria to identify and rank authorship,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- Who is responsible for submitting reports and meeting other requirements,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- Who is responsible for publicly speaking about the work,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- How intellectural property rights and ownership issues will be resolved, and
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- How collaboration can be changed and when it comes ot an end.
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>With respect to compliance, it is best practice to work under the compliance
+guidelines of the institution or state that has the strictest policies to ensure
+that all researchers are following proper protocol.&lt;/p>
 &lt;hr>
-&lt;h2 id="summary">Summary&lt;/h2>
-&lt;blockquote>
-&lt;p>A summary of the entire book&lt;/p>
-&lt;/blockquote>
-&lt;hr>
-&lt;h2 id="citations">Citations&lt;/h2>
+&lt;h3 id="part-iv">Part IV&lt;/h3>
+&lt;h4 id="chapter-9-authorship-and-publication">Chapter 9: Authorship and Publication&lt;/h4>
+&lt;p>All forms of publication should present:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>- A full and fair description of the work done,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- An accurate report of the results,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- An honest and open assessment of the findings,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- The methods of the researcher,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- What the results are, and
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- A discussion of the results to better understand their impact.
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Authorship serves to let others know who conducted the research and should get
+credit for it. It is generally limited to those who were:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>- Intimately involved in the conception and design of the research,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- Assumed responsibility for data collection and interpretation,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- Participated in the drafting of the publication, and
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- Approved the final version of the publication.
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>There is disagreement as to whether a researcher needs to adhere to all of these
+rules in order to be consider an author. The International Committee of Medical
+Journal Editors (ICMJE) have created the &lt;em>Uniform Requirements for Manuscripts
+Submitted to Biomedical Journals&lt;/em> which lists out the following criteria for
+authorship:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>1. Substantial contributions to conception and design, or acquisition of data,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>or analysis and interpretation of data,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>2. Drafting the article or revising it critically for important intellectual
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>content, and
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>3. Final approval of the version to be published
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Authors should meet conditions 1, 2, and 3.
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>The ICMJE guidelines are strict and are not followed by all disciplines.&lt;/p>
+&lt;p>The first and last author on a paper carry weight. What this weight means is
+dependent upon the field that it is published in.&lt;/p>
+&lt;p>The corresponding or primary author of the paper is the individual who can
+intimately describe the work and is the public relations individual of the work.&lt;/p>
+&lt;p>A manuscript should include:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>- An abstract to summarize the content of the paper,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- A methods section to describe the research methods to create the results,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- A results section to talk about what was found,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- A discussion section to describe what the results mean, and
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- A notes, bibliography, and acknowledgments section to acknowledge the work of
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>previous researchers or minor authors to the paper
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>The following authorship practices should be avoided:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>- Honorary authorship,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- Salami publications (using the same data/ study in two seperate papers),
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- Duplicate publications, and
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- Premature public statments
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="chapter-10-peer-review">Chapter 10: Peer Review&lt;/h4>
+&lt;p>Peer reviewed is done by fellow researchers (typically within the same field) to
+asses:&lt;/p>
+&lt;ul>
+&lt;li>Grant reviews,&lt;/li>
+&lt;li>Manuscript reviews,&lt;/li>
+&lt;li>Personnel reviews, and&lt;/li>
+&lt;li>Literature reviews and expert testimony&lt;/li>
+&lt;/ul>
+&lt;p>Peer reviews must be:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>- Timely,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- Thorough,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- Constructive,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- Free from personal bias, and
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- Respectful of the need for confidentiality
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Peer reviews assess the quality of the work by:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>- Assessing whether the research methods are appropriate,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- Checking calculations and/or confirming the logic of important arguments,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- Making sure the conclusions are supported by the evidence presented, and
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- Confirming that the relevant literature has bee consulted and cited
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Research quality can be comprimised if the peer reviewer(s) find:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>- Careless mistakes made in reporting data and/or listing citations,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- The deliberate favrication and falsification of data,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- Plagarism
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- Inaccurate reporting of conflicts of interest, contributors/ authors, and
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- The failure to mention important prior work, either by others of by the
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>researcher submitting a paper for publication.
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Peer reviews judge the importance of the work by answering the following
+questions:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>- Assuming a researcher could carry out a proposed research project, is it important to do so?
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- Are these research results important enough to publish?
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- Has a researcher made important contributions to a field of study?
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- Is this evidence important enough to be used in setting policy?
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>By juding importance, a reviewers personal bias is involved. To mitigate this,
+reviewers should write transparent reviews in which they lay out their bias as
+well as any documents or citations that they found that supports their bias.&lt;/p>
+&lt;p>Confidentiality is important in protecting peers from attacks from one another.
+There exists a double-blind review in which both the reviewers and the authors
+are anonymous from one another. It is not appropriate to:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>- Ask students or anyone else to conduct a review you were asked to do,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- Use an idea or information contained in a grant proposal or unpublished
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>manuscript before it becomes publicly available,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- Discuss grant proposals or manuscripts you are reviewing with colleagues in
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>your department or at a professional meeting,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- Retain a copy of the reviewed mateial, and
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- Discuss personnel and hiring decisions with colleagues who are not part of the
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>review process
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;hr>
+&lt;h3 id="part-v">Part V&lt;/h3>
+&lt;p>It is well understood that many people early in their career have irresponsible
+research conduct. Additionally, what might be considered responsible conduct in
+one field may not apply to all fields. None the less, there is no justification
+for comprimising the core tennants of research: honesty, accuracy, efficiency,
+and objectivity. Upholding these is the responsibility of all researchers.&lt;/p>
 Citations availible at https://nsynovic.dev/summaries/ori-introduction-to-the-responsible-conduct-of-research/</description></item><item><title>A summary of Joint Head Pose Estimation and Face Alignment Framework Using Global and Local CNN Features by Xiang Xu and A. Kakadiaris</title><link>https://nsynovic.dev/summaries/joint-head-pose-estimation-and-face-alignment-framework-using-global-and-local-cnn-features/</link><pubDate>Sun, 04 Dec 2022 22:32:45 -0600</pubDate><guid>https://nsynovic.dev/summaries/joint-head-pose-estimation-and-face-alignment-framework-using-global-and-local-cnn-features/</guid><description>&lt;h1 id="a-summary-of-joint-head-pose-estimation-and-face-alignment-framework-using-global-and-local-cnn-features">A summary of &lt;em>Joint Head Pose Estimation and Face Alignment Framework Using Global and Local CNN Features&lt;/em>&lt;/h1>
 &lt;blockquote>
 &lt;p>Xiang Xu and A. Kakadiaris IEEE FG, 2017
