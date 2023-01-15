@@ -18,6 +18,8 @@ article.&lt;/p>
 &lt;li>&lt;a href="#chapter-3-the-protection-of-human-subjects">Chapter 3: The Protection of Human Subjects&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#chapter-4-the-welfare-of-laboratory-animals">Chapter 4: The Welfare of Laboratory Animals&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#chapter-5-conflicts-of-interest">Chapter 5: Conflicts of Interest&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#chapter-6-data-management-practices">Chapter 6: Data Management Practices&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#chapter-7-mentor-and-trainee-responsibilities">Chapter 7: Mentor and Trainee Responsibilities&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;li>&lt;a href="#summary">Summary&lt;/a>&lt;/li>
@@ -94,10 +96,17 @@ followed when testing on human subjects. Additionally, the Federal regulation 45
 CFR 46 Subparts A - D, known as the &amp;ldquo;Common Rule&amp;rdquo;, are expected to be followed
 as well. Exempt research from the &amp;ldquo;Common Rule&amp;rdquo; include:&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>- Research conducted in established or commonly accepted educational settings,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- Research involving the use of educational tests,
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- Research involving the collection or study of existing data, documents, records, pathological specimens, or diagnostic specimens, if unidentifiable or publicly availible,
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Research and demonstration projects which are conducted by or subject to the approval of department or agency heads; or
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Taste and food quality evaluation and consumer acceptance studies.
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- Research involving the collection or study of existing data, documents,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>records, pathological specimens, or diagnostic specimens, if unidentifiable or
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>publicly availible,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- Research and demonstration projects which are conducted by or subject to the
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>approval of department or agency heads; or
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- Taste and food quality evaluation and consumer acceptance studies.
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Any institution that performs human research must have a Federally mandated
 Internal Review Board (IRB) consisting of at least 5 people, one of which is a
 scientist, one of which is a non-scientist, and one who is not affiliated with
@@ -130,9 +139,15 @@ Committee (IACUC) which acts similarly to an IRB but for animals. These, along
 with the OLAW, USDA, and accrediation programs, are responsible for the proper
 care and respect of animal subjects. Prior to using animal subjects, researchers
 must defend the usage of animal subjects against the &amp;ldquo;three R&amp;rsquo;s&amp;rdquo;:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>1. Replacement - using non-animal models such asmicroorganisms or cell culture techniques, computer simulations, or species lower on the phulogenetic scale,
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>2. Reduction - using methods aimed at reducing the numbers of animals such as minimization of variability, appropriate selection of animal model, minimization of animal loss, and careful experimental design, and
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>3. Refinement - the elimination or reduction of unnecessary pain and distress [in animal subjects].
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>1. Replacement - using non-animal models such asmicroorganisms or cell culture
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>techniques, computer simulations, or species lower on the phulogenetic scale,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>2. Reduction - using methods aimed at reducing the numbers of animals such as
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>minimization of variability, appropriate selection of animal model, minimization
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>of animal loss, and careful experimental design, and
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>3. Refinement - the elimination or reduction of unnecessary pain and distress
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>[in animal subjects].
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="chapter-5-conflicts-of-interest">Chapter 5: Conflicts of Interest&lt;/h3>
 &lt;p>Researchers can experience three different types of conflicts of interest:&lt;/p>
 &lt;ol>
@@ -151,6 +166,74 @@ beliefs, or viewpoint of a researcher could interfere with their research
 objectives. As an example (not mentioned in this book; purely my own thought
 probably taken from someone else) is a pro-life reseacher working on
 abortificants.&lt;/p>
+&lt;h3 id="chapter-6-data-management-practices">Chapter 6: Data Management Practices&lt;/h3>
+&lt;p>Research is not possible without data. Because of this, there are
+responsibilities that researchers have to the proper ownership, collection,
+storage, and sharing of data.&lt;/p>
+&lt;p>Data can be owned by one or many sources. This includes the funders of the
+research, the institution where the research was conducted, and the original
+source of the data. Typically, government funded research allows the data to be
+shared for the public good, privately funded research retain the right to
+disseminate the data, and philinthropic funding sources retain or give away
+their data ownership rights depending on their motive.&lt;/p>
+&lt;p>Data must be collected responsibly. This means that data collection method is
+appropriate and reliable. If the method is garbage, the result will be garbage
+(garbage in, garbage out). The data collected must be detailed enough to support
+the results. It must also be authorized for collection, and when recorded,
+proper metadata must be captured to include the date, time, source, and other
+important facts about the source of the data.&lt;/p>
+&lt;p>After collecting the data, data must be stored properly so as to prevent the
+theivery or loss of data. This includes securing lab notebooks and regularly
+backing up data files. Additionally, any data that includes personal identifying
+information or is otherwise confidential, must go through a process of
+anonymizing the data so as to respect the source&amp;rsquo;s privacy. Furthermore, some
+data may be subject to a period of retention and if not, data should otherwise
+be retained indefinetly.&lt;/p>
+&lt;p>In the case of sharing data with other researchers or the general public, data
+must be fully validated, not be preliminary data, and can be confidential until
+publication.&lt;/p>
+&lt;p>Finally, future considerations about the data must be taken into account. For
+example, the generated data of an experiment can be larger than the amount of
+usable computer storage. Furthermore, there is now a concern that released data
+can contribute to the terrorism or foreign entities that wish to do harm to the
+American public. Ethical concerns about the release of such data must be taken
+into consideration prior to releasing said data.&lt;/p>
+&lt;h3 id="chapter-7-mentor-and-trainee-responsibilities">Chapter 7: Mentor and Trainee Responsibilities&lt;/h3>
+&lt;p>Trainee refers to anyone learning to be a researcher learning from a senior
+researcher. To establish the basic understandings of the relationship, trainees
+must know from their mentors:&lt;/p>
+&lt;ul>
+&lt;li>How much time they are expected to put into research,&lt;/li>
+&lt;li>How performance is judged,&lt;/li>
+&lt;li>How responsibilities are shared or divided,&lt;/li>
+&lt;li>Standard operating procedures, and&lt;/li>
+&lt;li>How credit and authorship are assigned.&lt;/li>
+&lt;/ul>
+&lt;p>Whereas mentors expect from their trainees that they:&lt;/p>
+&lt;ul>
+&lt;li>Do work in a conscientious way,&lt;/li>
+&lt;li>Respect the authority of others,&lt;/li>
+&lt;li>Follow research regulations and protocols, and&lt;/li>
+&lt;li>Live by agreements established for authorship and ownership&lt;/li>
+&lt;/ul>
+&lt;p>To make sure these expectations are clear, the mentor should lay them out
+initally. Furthermore, mentors have are expected to supervise the work of a
+trainee. This results in the monitoring, support, and review of a trainees work,
+as well as imparting the ethos of being a researcher onto them.&lt;/p>
+&lt;p>The research environment that they mentor creates and the trainee learns in
+should be one of:&lt;/p>
+&lt;ul>
+&lt;li>Equal treatment free from discrimination,&lt;/li>
+&lt;li>Professional, and&lt;/li>
+&lt;li>Follow the responsible conduct of research&lt;/li>
+&lt;/ul>
+&lt;p>Postdoctoral researchers have a rough time in the lab as they have the skills to
+be an independent researcher, but since they are no longer students nor faculty,
+they have little rights. Additionally, since they are working under someone
+else&amp;rsquo;s funding, they have little freedom to pursue their own research. The
+National Postdoctoral Association has been created to ensure that postdocs have
+the rights that they deserve with respect to transitioning to independent
+researchers.&lt;/p>
 &lt;hr>
 &lt;h2 id="summary">Summary&lt;/h2>
 &lt;blockquote>
