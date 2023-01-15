@@ -42,8 +42,6 @@ article.
     - [Chapter 7: Mentor and Trainee Responsibilities](#chapter-7-mentor-and-trainee-responsibilities)
     - [Chapter 8: Collaborative Research](#chapter-8-collaborative-research)
     - [Chapter 9: Authorship and Publication](#chapter-9-authorship-and-publication)
-  - [Summary](#summary)
-  - [Citations](#citations)
 
 ______________________________________________________________________
 
@@ -203,9 +201,11 @@ of animal loss, and careful experimental design, and
 
 Researchers can experience three different types of conflicts of interest:
 
+```text
 1. Financial gain,
 2. Work commitments, and
 3. Intellectual and personal matters.
+```
 
 Financial gains involve reciving money from an institute that the researcher has
 a vested in. This could involve having stock in the company, or being a member
@@ -266,18 +266,22 @@ Trainee refers to anyone learning to be a researcher learning from a senior
 researcher. To establish the basic understandings of the relationship, trainees
 must know from their mentors:
 
+```text
 - How much time they are expected to put into research,
 - How performance is judged,
 - How responsibilities are shared or divided,
 - Standard operating procedures, and
 - How credit and authorship are assigned.
+```
 
 Whereas mentors expect from their trainees that they:
 
+```text
 - Do work in a conscientious way,
 - Respect the authority of others,
 - Follow research regulations and protocols, and
 - Live by agreements established for authorship and ownership
+```
 
 To make sure these expectations are clear, the mentor should lay them out
 initally. Furthermore, mentors have are expected to supervise the work of a
@@ -287,9 +291,11 @@ as well as imparting the ethos of being a researcher onto them.
 The research environment that they mentor creates and the trainee learns in
 should be one of:
 
+```text
 - Equal treatment free from discrimination,
 - Professional, and
 - Follow the responsible conduct of research
+```
 
 Postdoctoral researchers have a rough time in the lab as they have the skills to
 be an independent researcher, but since they are no longer students nor faculty,
@@ -310,6 +316,7 @@ rules and responsible research conduct, financials, and training.
 Collaborative research projects need to initially solve many problems with
 respect to:
 
+```text
 - The goals of the project and anticipated outcomes,
 - Everyone's role,
 - How data will be collected, stored, and shared,
@@ -320,6 +327,7 @@ respect to:
 - Who is responsible for publicly speaking about the work,
 - How intellectural property rights and ownership issues will be resolved, and
 - How collaboration can be changed and when it comes ot an end.
+```
 
 With respect to compliance, it is best practice to work under the compliance
 guidelines of the institution or state that has the strictest policies to ensure
@@ -327,12 +335,69 @@ that all researchers are following proper protocol.
 
 ### Chapter 9: Authorship and Publication
 
-______________________________________________________________________
+All forms of publication should present:
 
-## Summary
+```text
+- A full and fair description of the work done,
+- An accurate report of the results,
+- An honest and open assessment of the findings,
+- The methods of the researcher,
+- What the results are, and
+- A discussion of the results to better understand their impact.
+```
 
-> A summary of the entire book
+Authorship serves to let others know who conducted the research and should get
+credit for it. It is generally limited to those who were:
 
-______________________________________________________________________
+```text
+- Intimately involved in the conception and design of the research,
+- Assumed responsibility for data collection and interpretation,
+- Participated in the drafting of the publication, and
+- Approved the final version of the publication.
+```
 
-## Citations
+There is disagreement as to whether a researcher needs to adhere to all of these
+rules in order to be consider an author. The International Committee of Medical
+Journal Editors (ICMJE) have created the *Uniform Requirements for Manuscripts
+Submitted to Biomedical Journals* which lists out the following criteria for
+authorship:
+
+```text
+1. Substantial contributions to conception and design, or acquisition of data,
+or analysis and interpretation of data,
+
+2. Drafting the article or revising it critically for important intellectual
+content, and
+
+3. Final approval of the version to be published
+
+Authors should meet conditions 1, 2, and 3.
+```
+
+The ICMJE guidelines are strict and are not followed by all disciplines.
+
+The first and last author on a paper carry weight. What this weight means is
+dependent upon the field that it is published in.
+
+The corresponding or primary author of the paper is the individual who can
+intimately describe the work and is the public relations individual of the work.
+
+A manuscript should include:
+
+```text
+- An abstract to summarize the content of the paper,
+- A methods section to describe the research methods to create the results,
+- A results section to talk about what was found,
+- A discussion section to describe what the results mean, and
+- A notes, bibliography, and acknowledgments section to acknowledge the work of
+previous researchers or minor authors to the paper
+```
+
+The following authorship practices should be avoided:
+
+```text
+- Honorary authorship,
+- Salami publications (using the same data/ study in two seperate papers),
+- Duplicate publications, and
+- Premature public statments
+```
