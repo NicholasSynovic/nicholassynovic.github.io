@@ -33,15 +33,21 @@ article.
   - [Chapter Summaries](#chapter-summaries)
     - [Foreward](#foreward)
     - [Preface](#preface)
-    - [Chapter 1: Rules of the Road](#chapter-1-rules-of-the-road)
-    - [Chapter 2: Research Misconduct](#chapter-2-research-misconduct)
-    - [Chapter 3: The Protection of Human Subjects](#chapter-3-the-protection-of-human-subjects)
-    - [Chapter 4: The Welfare of Laboratory Animals](#chapter-4-the-welfare-of-laboratory-animals)
-    - [Chapter 5: Conflicts of Interest](#chapter-5-conflicts-of-interest)
-    - [Chapter 6: Data Management Practices](#chapter-6-data-management-practices)
-    - [Chapter 7: Mentor and Trainee Responsibilities](#chapter-7-mentor-and-trainee-responsibilities)
-    - [Chapter 8: Collaborative Research](#chapter-8-collaborative-research)
-    - [Chapter 9: Authorship and Publication](#chapter-9-authorship-and-publication)
+    - [Part I](#part-i)
+      - [Chapter 1: Rules of the Road](#chapter-1-rules-of-the-road)
+      - [Chapter 2: Research Misconduct](#chapter-2-research-misconduct)
+    - [Part II](#part-ii)
+      - [Chapter 3: The Protection of Human Subjects](#chapter-3-the-protection-of-human-subjects)
+      - [Chapter 4: The Welfare of Laboratory Animals](#chapter-4-the-welfare-of-laboratory-animals)
+      - [Chapter 5: Conflicts of Interest](#chapter-5-conflicts-of-interest)
+    - [Part III](#part-iii)
+      - [Chapter 6: Data Management Practices](#chapter-6-data-management-practices)
+      - [Chapter 7: Mentor and Trainee Responsibilities](#chapter-7-mentor-and-trainee-responsibilities)
+      - [Chapter 8: Collaborative Research](#chapter-8-collaborative-research)
+    - [Part IV](#part-iv)
+      - [Chapter 9: Authorship and Publication](#chapter-9-authorship-and-publication)
+      - [Chapter 10: Peer Review](#chapter-10-peer-review)
+    - [Part V](#part-v)
 
 ______________________________________________________________________
 
@@ -68,7 +74,11 @@ field is different, so too does what "good citizenship" mean within each field.
 This book was written to briefly introduce researchers to what is generally
 accepted as responsible conduct regardless of their working field.
 
-### Chapter 1: Rules of the Road
+______________________________________________________________________
+
+### Part I
+
+#### Chapter 1: Rules of the Road
 
 There aren't clear rules laid out to for researcher's to easily understand what
 is and isn't responsible research conduct. Rather, there are many organizing
@@ -82,7 +92,7 @@ once accepted, are incorporated into the *Code of Federal Regulations* and must
 be followed. Researchers are advised to seek help in understanding Federal
 rules.
 
-### Chapter 2: Research Misconduct
+#### Chapter 2: Research Misconduct
 
 Research misconduct policies provide guidance on responsible conduct in these
 three areas:
@@ -121,7 +131,11 @@ Regardless, this misconduct taints the public image of research, wastes donated
 or tax-funded dollars, and harms both the professional reputations of
 researchers and institutions.
 
-### Chapter 3: The Protection of Human Subjects
+______________________________________________________________________
+
+### Part II
+
+#### Chapter 3: The Protection of Human Subjects
 
 Human subjects are used in order to find improvements to the human experience.
 This could involve the creation of new medicines, surgeries, or experiments.
@@ -157,7 +171,7 @@ All human subjects must have to informed consent and the right to withdraw.
 Furthermore, there is an ethical concern in human subjects research that some
 experiments have risks without any benefits.
 
-### Chapter 4: The Welfare of Laboratory Animals
+#### Chapter 4: The Welfare of Laboratory Animals
 
 Research on animal subjects is done to benefit humans without experimenting on
 humans. The 1966 Animal Welfare Act and the 1985 Health and Research Extension
@@ -197,7 +211,7 @@ of animal loss, and careful experimental design, and
 [in animal subjects].
 ```
 
-### Chapter 5: Conflicts of Interest
+#### Chapter 5: Conflicts of Interest
 
 Researchers can experience three different types of conflicts of interest:
 
@@ -221,7 +235,11 @@ objectives. As an example (not mentioned in this book; purely my own thought
 probably taken from someone else) is a pro-life reseacher working on
 abortificants.
 
-### Chapter 6: Data Management Practices
+______________________________________________________________________
+
+### Part III
+
+#### Chapter 6: Data Management Practices
 
 Research is not possible without data. Because of this, there are
 responsibilities that researchers have to the proper ownership, collection,
@@ -260,7 +278,7 @@ can contribute to the terrorism or foreign entities that wish to do harm to the
 American public. Ethical concerns about the release of such data must be taken
 into consideration prior to releasing said data.
 
-### Chapter 7: Mentor and Trainee Responsibilities
+#### Chapter 7: Mentor and Trainee Responsibilities
 
 Trainee refers to anyone learning to be a researcher learning from a senior
 researcher. To establish the basic understandings of the relationship, trainees
@@ -305,7 +323,7 @@ National Postdoctoral Association has been created to ensure that postdocs have
 the rights that they deserve with respect to transitioning to independent
 researchers.
 
-### Chapter 8: Collaborative Research
+#### Chapter 8: Collaborative Research
 
 Collaborative research involves any time when two or more researchers
 collaborate on the same project. This could involve researchers from the same
@@ -333,7 +351,11 @@ With respect to compliance, it is best practice to work under the compliance
 guidelines of the institution or state that has the strictest policies to ensure
 that all researchers are following proper protocol.
 
-### Chapter 9: Authorship and Publication
+______________________________________________________________________
+
+### Part IV
+
+#### Chapter 9: Authorship and Publication
 
 All forms of publication should present:
 
@@ -401,3 +423,83 @@ The following authorship practices should be avoided:
 - Duplicate publications, and
 - Premature public statments
 ```
+
+#### Chapter 10: Peer Review
+
+Peer reviewed is done by fellow researchers (typically within the same field) to
+asses:
+
+- Grant reviews,
+- Manuscript reviews,
+- Personnel reviews, and
+- Literature reviews and expert testimony
+
+Peer reviews must be:
+
+```text
+- Timely,
+- Thorough,
+- Constructive,
+- Free from personal bias, and
+- Respectful of the need for confidentiality
+```
+
+Peer reviews assess the quality of the work by:
+
+```text
+- Assessing whether the research methods are appropriate,
+- Checking calculations and/or confirming the logic of important arguments,
+- Making sure the conclusions are supported by the evidence presented, and
+- Confirming that the relevant literature has bee consulted and cited
+```
+
+Research quality can be comprimised if the peer reviewer(s) find:
+
+```text
+- Careless mistakes made in reporting data and/or listing citations,
+- The deliberate favrication and falsification of data,
+- Plagarism
+- Inaccurate reporting of conflicts of interest, contributors/ authors, and
+- The failure to mention important prior work, either by others of by the
+researcher submitting a paper for publication.
+```
+
+Peer reviews judge the importance of the work by answering the following
+questions:
+
+```text
+- Assuming a researcher could carry out a proposed research project, is it important to do so?
+- Are these research results important enough to publish?
+- Has a researcher made important contributions to a field of study?
+- Is this evidence important enough to be used in setting policy?
+```
+
+By juding importance, a reviewers personal bias is involved. To mitigate this,
+reviewers should write transparent reviews in which they lay out their bias as
+well as any documents or citations that they found that supports their bias.
+
+Confidentiality is important in protecting peers from attacks from one another.
+There exists a double-blind review in which both the reviewers and the authors
+are anonymous from one another. It is not appropriate to:
+
+```text
+- Ask students or anyone else to conduct a review you were asked to do,
+- Use an idea or information contained in a grant proposal or unpublished
+manuscript before it becomes publicly available,
+
+- Discuss grant proposals or manuscripts you are reviewing with colleagues in
+your department or at a professional meeting,
+- Retain a copy of the reviewed mateial, and
+- Discuss personnel and hiring decisions with colleagues who are not part of the
+review process
+```
+
+______________________________________________________________________
+
+### Part V
+
+It is well understood that many people early in their career have irresponsible
+research conduct. Additionally, what might be considered responsible conduct in
+one field may not apply to all fields. None the less, there is no justification
+for comprimising the core tennants of research: honesty, accuracy, efficiency,
+and objectivity. Upholding these is the responsibility of all researchers.
