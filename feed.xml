@@ -347,7 +347,9 @@ asses:&lt;/p>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>researcher submitting a paper for publication.
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Peer reviews judge the importance of the work by answering the following
 questions:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>- Assuming a researcher could carry out a proposed research project, is it important to do so?
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>- Assuming a researcher could carry out a proposed research project, is it
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>important to do so?
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- Are these research results important enough to publish?
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- Has a researcher made important contributions to a field of study?
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- Is this evidence important enough to be used in setting policy?

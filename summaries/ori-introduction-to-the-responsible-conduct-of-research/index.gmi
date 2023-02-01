@@ -452,7 +452,9 @@ Peer reviews judge the importance of the work by answering the following
 questions:
 
 ```text
-- Assuming a researcher could carry out a proposed research project, is it important to do so?
+- Assuming a researcher could carry out a proposed research project, is it
+important to do so?
+
 - Are these research results important enough to publish?
 - Has a researcher made important contributions to a field of study?
 - Is this evidence important enough to be used in setting policy?
