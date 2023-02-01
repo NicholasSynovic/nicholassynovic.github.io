@@ -27,16 +27,16 @@ show_reading_time: true
 > Written by the National Academy of Science, National Academy of Engineeringm
 > and Institute of Medicine of the National Academies
 
-For the summary of the book, go to the [Summary](#summary) section of this
-article.
-
 ## Table of Contents
 
 - [A summary of *On Being a Scientist: A Guide To Responsible Conduct In Research*](#a-summary-of-on-being-a-scientist-a-guide-to-responsible-conduct-in-research)
   - [Table of Contents](#table-of-contents)
   - [Chapter Summaries](#chapter-summaries)
-    - [Chapter 1](#chapter-1)
-  - [Summary](#summary)
+    - [The National Academies Advisorts to the Nation on Science, Engineering, and Medicine](#the-national-academies-advisorts-to-the-nation-on-science-engineering-and-medicine)
+    - [Preface](#preface)
+    - [A Note on Using *On Being a Scientist*](#a-note-on-using-on-being-a-scientist)
+    - [Introduction to the Responsible Conduct of Research](#introduction-to-the-responsible-conduct-of-research)
+    - [Advising and Mentoring](#advising-and-mentoring)
   - [Citations](#citations)
 
 ______________________________________________________________________
@@ -45,13 +45,108 @@ ______________________________________________________________________
 
 > Chapter specific summaries
 
-### Chapter 1
+### The National Academies Advisorts to the Nation on Science, Engineering, and Medicine
 
-______________________________________________________________________
+The **National Academy of Science** (NAS) (created in 1863) is a private,
+non-profit, self-perpetuating society of distinguished scholars that are
+required to advise the federal government on scientific and technical matters.
 
-## Summary
+The **National Academy of Engineers** (NAE) (created in 1964) is a parallel
+organization to NAS that also advises the federal government.
 
-> A summary of the entire book
+The **Institute of Medicine** (created in 1970) is a subsidary of NAS aimed at
+advising the government about public health policy matters.
+
+The **National Research Council** was created in 1916 to broadly advise on
+research matters. It is now the primary concern of both NAS and NAE.
+
+### Preface
+
+Science is built upon trust. When trust is misplaced and professional standards
+are violated, researchers feel attacked and that the base of their profession
+has been undermined.
+
+Many new researchers are not learning about how to conduct themselves as
+scientists (a broad definition that includes anyone who is involved with the
+pursuit of knowledge). This task used to be placed on more senior researchers.
+However, as the speed of scientific developments, this task is often placed on
+the back burner. Furthermore, exciting opportuninites keep appearing faster than
+science can keep up, further contributing to the problem of not educating new
+researchers on best practices.
+
+Senior researchers have a special responsibility of upholding and promulgating
+high standards in science. They should be role models, teachers, and mentors to
+junior researchers.
+
+### A Note on Using *On Being a Scientist*
+
+This book explores options for handling situations, not defining what exactly to
+do in a particular situation. This book should be read by a group of researchers
+that discuss the topics within and figure out how to apply the lessons to their
+practice.
+
+The material within this book is not exhaustive, and many texts and websites now
+exist to help supplement this material.
+
+The existance of professional standards implies that there is a proper way to go
+about a task or field. However, this book doesn't aim to cover specifics. To
+address specific concerns, a committee consisting of a diverse group of
+individuals from varying experience levels should be formed to identify and
+discuss what is the professional standards. Furthermore, if your professional
+has an established code of conduct or professional standards, those should be
+referred to for specifics.
+
+### Introduction to the Responsible Conduct of Research
+
+Researchers pride themselves on observing or explaining phenonmenom which
+haven't been seen or explained previously. However, researchers are often under
+a great deal of personal and professional pressure. Failure to properly collect,
+report, or handle data, experiments, or papers can result in lost time, money,
+and respect.
+
+Researchers have thus created professional standards over many centuries for
+many different fields. It is therefore expected that researchers will adhere to
+these standards.
+
+Thus there is an obligation to honor the trust that their colleagues place in
+them and vice versa. Irresponsible actions of others could potentially undermine
+an entire field.
+
+There is also an obligation for researchers to conduct themselves in a
+responsible manner or else face potentially permanant damage to their
+reputation.
+
+Additionally, researchers have an obligation to the public. It is their results
+that effect public policy which affects everyone. Additionally, their results
+may have a butterfly effect that affects international peoples or policy.
+
+A *scientific standard* is the application of the ethical values of honesty,
+fairness, objectivity, openess, trustworthiness, and respect for others.
+
+*Scientific misconduct* is defined as, "fabrication, falsification or plagiarism
+in proposing, performing, or reviewing researcher, or in reporting research
+results," by the US government.
+
+Those that operate with *scientific misconduct* are said to work with
+*questionable research practices*.
+
+The *scientific standard* proliferates throughout the entirety of science, but
+*scientific practices* (application of standards) differs from field to field.
+
+### Advising and Mentoring
+
+It is often best to build a diverse community of mentors as not one person has
+the same experience, education, or background as another.
+
+Being a mentor is not a one way street where the mentee only benefits. As a
+mentor, you experience the benefits of being exposed to new ideas, building a
+strong research program and collaboration network, and gain new friends plus
+respect from beginning researchers. However, mentors have influence over the
+start of a junior researcher's career, and must therefore be careful not to
+abuse it. The main role of the mentor is to help the mentee move along a
+productive and successful career trajectory.
+
+<!-- TODO: continue from page 24 -->
 
 ______________________________________________________________________
 
