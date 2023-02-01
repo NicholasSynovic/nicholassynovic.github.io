@@ -22,15 +22,12 @@ show_reading_time: true
 
 > Written by AUTHOR
 
-For the summary of the book, go to the [Summary](#summary) section of this article.
-
 ## Table of Contents
 
 - [A summary of *TITLE*](#a-summary-of-title)
   - [Table of Contents](#table-of-contents)
   - [Chapter Summaries](#chapter-summaries)
     - [Chapter 1](#chapter-1)
-  - [Summary](#summary)
   - [Citations](#citations)
 
 ---
@@ -40,12 +37,6 @@ For the summary of the book, go to the [Summary](#summary) section of this artic
 > Chapter specific summaries
 
 ### Chapter 1
-
----
-
-## Summary
-
-> A summary of the entire book
 
 ---
 
