@@ -21,7 +21,7 @@ include_toc: true
 markup: md
 outputs: []
 show_comments: false
-toc: true
+toc: false
 show_reading_time: true
 ---
 

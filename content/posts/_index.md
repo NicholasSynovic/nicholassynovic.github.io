@@ -25,7 +25,7 @@ resource: ''
 series: ''
 show_comments: false
 slug: ''
-toc: true
+toc: false
 type: ''
 url: ''
 videos: []
