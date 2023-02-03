@@ -3,7 +3,6 @@
 Friday, January 13, 2023 · 15 minute read
 
 A summary of ORI Introduction to the Responsible Conduct of Research Written by Nicholas H. Steneck
-For the summary of the book, go to the Summary section of this article.
 Table of Contents A summary of ORI Introduction to the Responsible Conduct of Research Table of Contents Chapter Summaries Foreward Preface Part I Chapter 1: Rules of the Road Chapter 2: Research Misconduct Part II Chapter 3: The Protection of Human Subjects Chapter 4: The Welfare of Laboratory Animals Chapter 5: Conflicts of Interest Part III Chapter 6: Data Management Practices Chapter 7: Mentor and Trainee Responsibilities Chapter 8: Collaborative Research Part IV Chapter 9: Authorship and Publication Chapter 10: Peer Review Part V Chapter Summaries Chapter specific summaries
 Foreward This book is published by the Office of Research Integrity (ORI) as supplemental material to assist in the teaching of the responsible conduct of research. The ORI oversees and directs the Public Health Service (PHS) research integrety on behalf of the Secretary of Health and Human Services as well as the American public. This book stems from the ethics that were raised in biology related fields in 1989 and has sinced expanded to become more general and applicable to other disciplines.
 Preface As the importance of science and technology increases, so too has the public&rsquo;s demand for the responsible conduct of research. Simply put, this means that good citizenship is applied to a researcher&rsquo;s professional life. However, as each field is different, so too does what &ldquo;good citizenship&rdquo; mean within each field. This book was written to briefly introduce researchers to what is generally accepted as responsible conduct regardless of their working field.
@@ -54,5 +53,7 @@ Grant reviews, Manuscript reviews, Personnel reviews, and Literature reviews and
 Confidentiality is important in protecting peers from attacks from one another. There exists a double-blind review in which both the reviewers and the authors are anonymous from one another. It is not appropriate to:
 - Ask students or anyone else to conduct a review you were asked to do, - Use an idea or information contained in a grant proposal or unpublished manuscript before it becomes publicly available, - Discuss grant proposals or manuscripts you are reviewing with colleagues in your department or at a professional meeting, - Retain a copy of the reviewed mateial, and - Discuss personnel and hiring decisions with colleagues who are not part of the review process Part V It is well understood that many people early in their career have irresponsible research conduct. Additionally, what might be considered responsible conduct in one field may not apply to all fields. None the less, there is no justification for comprimising the core tennants of research: honesty, accuracy, efficiency, and objectivity. Upholding these is the responsibility of all researchers.
 
+
+h0. https://ori.hhs.gov/ori-introduction-responsible-conduct-research	URL:https://ori.hhs.gov/ori-introduction-responsible-conduct-research
 
 .

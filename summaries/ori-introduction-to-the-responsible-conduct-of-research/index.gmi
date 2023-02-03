@@ -7,9 +7,6 @@ Friday, January 13, 2023 · 15 minute read
 
 > Written by Nicholas H. Steneck
 
-For the summary of the book, go to the [Summary](#summary) section of this
-article.
-
 ## Table of Contents
 
 - [A summary of *ORI Introduction to the Responsible Conduct of Research*](#a-summary-of-ori-introduction-to-the-responsible-conduct-of-research)
@@ -490,4 +487,6 @@ one field may not apply to all fields. None the less, there is no justification
 for comprimising the core tennants of research: honesty, accuracy, efficiency,
 and objectivity. Upholding these is the responsibility of all researchers.
 
+
+=> https://ori.hhs.gov/ori-introduction-responsible-conduct-research	0. https://ori.hhs.gov/ori-introduction-responsible-conduct-research
 
