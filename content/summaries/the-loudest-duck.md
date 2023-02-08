@@ -47,6 +47,9 @@ show_reading_time: true
       - [Who Apologizes and Who Interrupts](#who-apologizes-and-who-interrupts)
       - [Mentoring](#mentoring)
     - [Chapter 5: Unwritten Rules](#chapter-5-unwritten-rules)
+      - [Subtle Inequities](#subtle-inequities)
+    - [Chapter 6: We Hire for Difference and Fire Because They Are Not the Same](#chapter-6-we-hire-for-difference-and-fire-because-they-are-not-the-same)
+      - [The Danger of Unconscious Thinking, Speaking, and Acting](#the-danger-of-unconscious-thinking-speaking-and-acting)
   - [Citations](#citations)
 
 ______________________________________________________________________
@@ -457,6 +460,69 @@ Some mentoring pitfalls include:
   particularly with gender roles.
 
 ### Chapter 5: Unwritten Rules
+
+Organizations and group have unwritten rules and customs that everyone is
+expected to follow, regardless of if everyone knows them. These rules can be
+cultural, implemented informally, or be how a boss wants others to act without
+explicitly saying so. If they are violated, it could cause an individual to be
+demerited for something that they may not be aware of. Thus having a mentor to
+guide mentees into understanding these unspoken rules is crucial.
+
+#### Subtle Inequities
+
+Subtle inequities are small, insignificant, and potentially undetectable
+inequities that build up over time that end up haunting the organization. Some
+subtle inequities involve:
+
+- Giving one employee a longer introduction than another
+- Leaders only talking to those that they personally know when first arriving at
+  divisional offices
+- Thinking that when non-dominant groups ask questions, that they are perceived
+  to be lacking knowledge or confidence
+- Expecting that one individual to speak for all individuals who are similar to
+  them
+- Not pronouncing foreign names correctly
+- Seating your buddies next to you at meetings
+- Making eye contact with some people but not others
+- Apologizing to women if you swear
+- Giving certain people bigger and better projects than others
+- Always favorably commenting on the input of specific people, but not others
+
+To reduce these, those in dominant groups or positions of power need to step
+outside of themselves, critically evaluate their actions, and implement changes
+to level the playing field for everyone. Additionally, making small changes to
+reduce these subtle inequities can go a long way in improving the working
+relationship and culture of an organization.
+
+### Chapter 6: We Hire for Difference and Fire Because They Are Not the Same
+
+#### The Danger of Unconscious Thinking, Speaking, and Acting
+
+Words are the best way to get yourself into and out of trouble quickly. Thus
+conscious, intentional, and mindful speaking is critical to thrive.
+
+Verbal Judo is using words to get someone to comply with or complete an action
+or task. It is useful for diffusing difficult situations. Rather than order
+someone to do something during a tough situation, talk to them calmly and give
+them options. Instead of, "Stop that, it's unsafe!", a better option would be,
+"For your safety and mine, please stop doing that or \[insert consequence\]".
+
+Speaking consciously means that each sentence is intentional. To American, "How
+are you doing?" means basically nothing. However, to a foreigner, that is a
+meaningful question and when Americans don't listen, we are perceived as rude.
+
+Men and women communicate information differently. Men typically prefer shorter
+communication style. Hearing every single detail of a story is not as important
+to them as the key takeaways. Additionally, men engage in verbal banter in a one
+up/one down style where there is a winner or loser in a conversation. This
+sparring is uncomfortable for some women, but is common for many men.
+
+Direct speaking (getting to the point in the most straightforward manner) is
+common for those in dominant groups. Whereas indirect speaking (telling a story
+to get to a point) is common for those in non-dominant groups. However, speaking
+types aren't characteristic of the entire group. But a problem arises when a
+speaking type is expected of someone, but isn't the case as this can demerit the
+speaker to the listener.
 
 ______________________________________________________________________
 
