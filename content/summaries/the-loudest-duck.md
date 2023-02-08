@@ -50,6 +50,14 @@ show_reading_time: true
       - [Subtle Inequities](#subtle-inequities)
     - [Chapter 6: We Hire for Difference and Fire Because They Are Not the Same](#chapter-6-we-hire-for-difference-and-fire-because-they-are-not-the-same)
       - [The Danger of Unconscious Thinking, Speaking, and Acting](#the-danger-of-unconscious-thinking-speaking-and-acting)
+    - [Chapter 7: The Tools in Your Toolbox](#chapter-7-the-tools-in-your-toolbox)
+      - [Think About the People on Your Team](#think-about-the-people-on-your-team)
+      - [Learn to Recognize Other People's "Grandmas"](#learn-to-recognize-other-peoples-grandmas)
+      - [Fair and Equal With Access, Knowledge, and Feedback](#fair-and-equal-with-access-knowledge-and-feedback)
+      - [Be Careful With Your Words, and How You Interpret the Words of Others](#be-careful-with-your-words-and-how-you-interpret-the-words-of-others)
+      - [The Silent Have Something to Say](#the-silent-have-something-to-say)
+      - [Results Should be the Determinant](#results-should-be-the-determinant)
+      - [Conclusion](#conclusion)
   - [Citations](#citations)
 
 ______________________________________________________________________
@@ -523,6 +531,70 @@ to get to a point) is common for those in non-dominant groups. However, speaking
 types aren't characteristic of the entire group. But a problem arises when a
 speaking type is expected of someone, but isn't the case as this can demerit the
 speaker to the listener.
+
+### Chapter 7: The Tools in Your Toolbox
+
+The more tools that we have to handle diversity, the better leaders we will be
+within diverse organizations.
+
+Managers need to be aware of their playing fields, or spheres of influence. They
+need to be aware of who is in the dominant and non-dominant groups, whose quite
+and whose loud, and what the career goals and accomplishments of individuals
+are. They need to make sure everyone is heard, and that promotions are given out
+based on merit and not personal relationships.
+
+#### Think About the People on Your Team
+
+If you are a manager, make sure that the events that you plan are accessible to
+everyone.
+
+If you are an employee with unequal access to the manager, find ways to get to
+know each other. This could involve suppressing your Grandma.
+
+#### Learn to Recognize Other People's "Grandmas"
+
+If you are a manager, ask, listen, and be aware of who everyone is on your
+field. Try to understand the power dynamics between team members. Understand how
+you give feedback to others like and unlike yourself.
+
+If you are an employee, find ways to make your voice and yourself heard to your
+manager. Staying silent is not always the best answer.
+
+#### Fair and Equal With Access, Knowledge, and Feedback
+
+If you are a manager, understand that spending time with some employees means
+that you don't naturally spend time with other employees. Additionally, not
+everyone will appreciate, understand, or get used to your speaking style.
+
+If you are an employee, understand the value and usefulness of having access to
+your managers.
+
+#### Be Careful With Your Words, and How You Interpret the Words of Others
+
+Understand your own unconscious biases and work towards reducing them when
+others speak to you or when you speak to to others.
+
+#### The Silent Have Something to Say
+
+If you are a manager, make sure everyone has the ability to speak to you during
+meetings or privately. An open-door policy works best for this.
+
+If you are an employee, if you don't speak, your ideas won't be heard. Make sure
+that you either speak up when possible, or ask to speak.
+
+#### Results Should be the Determinant
+
+Make sure that rewards are given out based on the quality and (sometimes)
+quantity of the results of others, rather than on relationships.
+
+#### Conclusion
+
+Once you create a Noah's Ark of diversity, then you can start reaping the
+rewards of diversity. But to do so, you must be conscious of your words and
+actions. Furthermore, the company's culture must change as well to go beyond
+accepting, tolerating, including, and referencing diversity. Company's must
+understand the power dynamics, subtle actions, unwritten rules, unconscious
+perceptions, and backgrounds of many different groups.
 
 ______________________________________________________________________
 
