@@ -250,11 +250,15 @@
 
 1research	/categories/research
 
-1summary	/categories/summary
-
 1responsible conduct in research	/categories/responsible-conduct-in-research
 
 1ethics	/categories/ethics
+
+1summary	/categories/summary
+
+1leadership	/categories/leadership
+
+1diversity	/categories/diversity
 
 1book	/categories/book
 
