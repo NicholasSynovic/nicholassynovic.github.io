@@ -59,7 +59,7 @@ develop efficient low power solutions.
 
 Researchers participate to develop and formalize techniques for running machine
 learning on the edge. This could be designing new hardware to accelerate CV
-models and/or validating optimization and software techniques developign new CV
+models and/or validating optimization and software techniques developing new CV
 models. Additionally, this challenge encourages the discovery of new research
 topics to pursue.
 
@@ -69,17 +69,17 @@ The development and support of CV research is crucial the Computer Society's
 mission. The technical community, *Technical Community on Pattern Analysis and
 Machine Intelligence* \[2\], exists to promote the development of research and
 solutions to problems surrounding and involving CV. Furthermore, the *Computer
-Vision and Pattern Recognition* (CVPR) confrence \[3\] is currently IEEE's most
-influential confrence as ranked by *Guide2Research* \[4\].
+Vision and Pattern Recognition* (CVPR) conference \[3\] is currently IEEE's most
+influential conference as ranked by *Guide2Research* \[4\].
 
 ### LPCVC Research
 
 > *Why is research in LPCV important?*
 
-As AI on the edge becomes more ubiquotous and desired by consumers, academic
+As AI on the edge becomes more ubiquitous and desired by consumers, academic
 research my provide industry with potential solutions to implement on the edge.
 Furthermore, there exists a hardware challenge alongside the software challenge
-of deploying LPCV solutions on edge. Thus hardware focussed research must occur
+of deploying LPCV solutions on edge. Thus hardware focused research must occur
 to assist in LPCV optimizations. Hardware devices such as GPUs, CPUs, and Neural
 Processing Units (NPUs) need to be designed and optimized (w.r.t hardware and
 software) to support CV applications on the edge. Therefore, LPCV research
@@ -91,7 +91,7 @@ deployment hardware and solution software.
 > technologies?*
 
 Better smart systems (e.g smart homes, retail, factory, transportation, farming,
-etc.) and prediction of natural disasters and phenonemon by utilizing many data
+etc.) and prediction of natural disasters and phenomenon by utilizing many data
 points can be possible through LPCV.
 
 > *If you have unlimited resources, what would you like to see in the area of

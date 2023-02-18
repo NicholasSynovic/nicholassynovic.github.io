@@ -1,6 +1,6 @@
 ---
 title: Summaries
-description: Sumamries of content that I consume.
+description: Summaries of content that I consume.
 summary: ''
 
 aliases: []
