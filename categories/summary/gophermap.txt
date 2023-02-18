@@ -6,6 +6,8 @@
 > These posts are mirrored from my HTTP site.
 
 
+1A summary of Efficient Computer Vision for Embedded Systems by George K. Thiruvathukal and Yung-Hsiang Lu	/summaries/efficient-computer-vision-for-embedded-systems
+
 1A summary of The Loudest Duck by Laura Liswood	/summaries/the-loudest-duck
 
 1A summary of On Being a Scientist: A Guide To Responsible Conduct In Research by the National Academy of Science, National Academy of Engineering and Institute of Medicine of the National Academies	/summaries/on-being-a-scientist

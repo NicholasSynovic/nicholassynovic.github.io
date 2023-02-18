@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>article on Nicholas M. Synovic</title><link>https://nsynovic.dev/categories/article/</link><description>Recent content in article on Nicholas M. Synovic</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Nicholas M. Synovic</copyright><lastBuildDate>Sat, 18 Feb 2023 10:41:18 -0600</lastBuildDate><atom:link href="https://nsynovic.dev/categories/article/feed.xml" rel="self" type="application/rss+xml"/><item><title>A summary of Efficient Computer Vision for Embedded Systems by George K. Thiruvathukal and Yung-Hsiang Lu</title><link>https://nsynovic.dev/summaries/efficient-computer-vision-for-embedded-systems/</link><pubDate>Sat, 18 Feb 2023 10:41:18 -0600</pubDate><guid>https://nsynovic.dev/summaries/efficient-computer-vision-for-embedded-systems/</guid><description>&lt;h1 id="a-summary-of-a-summary-of-efficient-computer-vision-for-embedded-systems-0">A summary of &lt;em>A summary of Efficient Computer Vision for Embedded Systems&lt;/em> [0]&lt;/h1>
+&lt;blockquote>
+&lt;p>George K. Thiruvathukal and Yung-Hsiang Lu IEEE Computer Volume 55; Issue 4,
+2022 &lt;a href="https://doi.org/10.1109/MC.2022.3145677">DOI&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;p>For the summary of the paper, go to the &lt;a href="#summary">Summary&lt;/a> section of this
+article.&lt;/p>
+&lt;h2 id="table-of-contents">Table of Contents&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="#a-summary-of-a-summary-of-efficient-computer-vision-for-embedded-systems-0">A summary of &lt;em>A summary of Efficient Computer Vision for Embedded Systems&lt;/em> [0]&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#table-of-contents">Table of Contents&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#summary">Summary&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#lpcvc">LPCVC&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#lpcvc-research">LPCVC Research&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#citations">Citations&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;blockquote>
+&lt;p>Disclosure: Both George K. Thiruvathukal and Yung-Hsiang Lu are mentors,
+colleagues, and friends of mine. Disclosure: I am a student organizer of the
+2023 Low Power Computer Vision competition.&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="summary">Summary&lt;/h2>
+&lt;p>Computer Vision (CV) research and development is encouraged through competitions
+that measure the accuracy of models for cash prizes. However, as more CV
+technologies are being pushed towards the edge, power and computational
+efficiency of these models become increasingly more important. Therefore, the
+&lt;em>IEEE Low Power Computer Vision Challenge&lt;/em> (LPCVC) [1], formerly the &lt;em>Low
+Power Image Recognition Challenge&lt;/em>, was created to encourage researchers to
+develop efficient low power solutions.&lt;/p>
+&lt;h3 id="lpcvc">LPCVC&lt;/h3>
+&lt;blockquote>
+&lt;p>&lt;em>Why did you participate in LPCVC?&lt;/em>&lt;/p>
+&lt;/blockquote>
+&lt;p>Researchers participate to develop and formalize techniques for running machine
+learning on the edge. This could be designing new hardware to accelerate CV
+models and/or validating optimization and software techniques developign new CV
+models. Additionally, this challenge encourages the discovery of new research
+topics to pursue.&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;em>How is LPCVC relevant to activities in the IEEE Computer Society&lt;/em>&lt;/p>
+&lt;/blockquote>
+&lt;p>The development and support of CV research is crucial the Computer Society&amp;rsquo;s
+mission. The technical community, &lt;em>Technical Community on Pattern Analysis and
+Machine Intelligence&lt;/em> [2], exists to promote the development of research and
+solutions to problems surrounding and involving CV. Furthermore, the &lt;em>Computer
+Vision and Pattern Recognition&lt;/em> (CVPR) confrence [3] is currently IEEE&amp;rsquo;s most
+influential confrence as ranked by &lt;em>Guide2Research&lt;/em> [4].&lt;/p>
+&lt;h3 id="lpcvc-research">LPCVC Research&lt;/h3>
+&lt;blockquote>
+&lt;p>&lt;em>Why is research in LPCV important?&lt;/em>&lt;/p>
+&lt;/blockquote>
+&lt;p>As AI on the edge becomes more ubiquotous and desired by consumers, academic
+research my provide industry with potential solutions to implement on the edge.
+Furthermore, there exists a hardware challenge alongside the software challenge
+of deploying LPCV solutions on edge. Thus hardware focussed research must occur
+to assist in LPCV optimizations. Hardware devices such as GPUs, CPUs, and Neural
+Processing Units (NPUs) need to be designed and optimized (w.r.t hardware and
+software) to support CV applications on the edge. Therefore, LPCV research
+involves the union of power efficient designs and optimizations of both the
+deployment hardware and solution software.&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;em>Can you describe one (or several) &amp;ldquo;grand challenges&amp;rdquo; using CV; the solutions
+will significantly change the world, but are they far beyond today&amp;rsquo;s
+technologies?&lt;/em>&lt;/p>
+&lt;/blockquote>
+&lt;p>Better smart systems (e.g smart homes, retail, factory, transportation, farming,
+etc.) and prediction of natural disasters and phenonemon by utilizing many data
+points can be possible through LPCV.&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;em>If you have unlimited resources, what would you like to see in the area of
+LPCV?&lt;/em>&lt;/p>
+&lt;/blockquote>
+&lt;p>Researchers in the space are looking for new datasets, challenges, and problem
+specific competitions to advance research in LPCV.&lt;/p>
+&lt;h2 id="citations">Citations&lt;/h2>
+Citations availible at https://nsynovic.dev/summaries/efficient-computer-vision-for-embedded-systems/</description></item></channel></rss>

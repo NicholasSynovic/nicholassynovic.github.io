@@ -254,13 +254,21 @@
 
 1ethics	/categories/ethics
 
-1summary	/categories/summary
-
 1leadership	/categories/leadership
 
 1diversity	/categories/diversity
 
 1book	/categories/book
+
+1summary	/categories/summary
+
+1round table	/categories/round-table
+
+1magazine	/categories/magazine
+
+1discussion	/categories/discussion
+
+1article	/categories/article
 
 
 .

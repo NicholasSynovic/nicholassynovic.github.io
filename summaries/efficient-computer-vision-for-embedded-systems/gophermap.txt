@@ -1,0 +1,31 @@
+!A summary of Efficient Computer Vision for Embedded Systems by George K. Thiruvathukal and Yung-Hsiang Lu
+
+Saturday, February 18, 2023 · 3 minute read
+
+A summary of A summary of Efficient Computer Vision for Embedded Systems [0] George K. Thiruvathukal and Yung-Hsiang Lu IEEE Computer Volume 55; Issue 4, 2022 DOI
+For the summary of the paper, go to the Summary section of this article.
+Table of Contents A summary of A summary of Efficient Computer Vision for Embedded Systems [0] Table of Contents Summary LPCVC LPCVC Research Citations Disclosure: Both George K. Thiruvathukal and Yung-Hsiang Lu are mentors, colleagues, and friends of mine. Disclosure: I am a student organizer of the 2023 Low Power Computer Vision competition.
+Summary Computer Vision (CV) research and development is encouraged through competitions that measure the accuracy of models for cash prizes. However, as more CV technologies are being pushed towards the edge, power and computational efficiency of these models become increasingly more important. Therefore, the IEEE Low Power Computer Vision Challenge (LPCVC) [1], formerly the Low Power Image Recognition Challenge, was created to encourage researchers to develop efficient low power solutions.
+LPCVC Why did you participate in LPCVC?
+Researchers participate to develop and formalize techniques for running machine learning on the edge. This could be designing new hardware to accelerate CV models and/or validating optimization and software techniques developign new CV models. Additionally, this challenge encourages the discovery of new research topics to pursue.
+How is LPCVC relevant to activities in the IEEE Computer Society
+The development and support of CV research is crucial the Computer Society&rsquo;s mission. The technical community, Technical Community on Pattern Analysis and Machine Intelligence [2], exists to promote the development of research and solutions to problems surrounding and involving CV. Furthermore, the Computer Vision and Pattern Recognition (CVPR) confrence [3] is currently IEEE&rsquo;s most influential confrence as ranked by Guide2Research [4].
+LPCVC Research Why is research in LPCV important?
+As AI on the edge becomes more ubiquotous and desired by consumers, academic research my provide industry with potential solutions to implement on the edge. Furthermore, there exists a hardware challenge alongside the software challenge of deploying LPCV solutions on edge. Thus hardware focussed research must occur to assist in LPCV optimizations. Hardware devices such as GPUs, CPUs, and Neural Processing Units (NPUs) need to be designed and optimized (w.r.t hardware and software) to support CV applications on the edge. Therefore, LPCV research involves the union of power efficient designs and optimizations of both the deployment hardware and solution software.
+Can you describe one (or several) &ldquo;grand challenges&rdquo; using CV; the solutions will significantly change the world, but are they far beyond today&rsquo;s technologies?
+Better smart systems (e.g smart homes, retail, factory, transportation, farming, etc.) and prediction of natural disasters and phenonemon by utilizing many data points can be possible through LPCV.
+If you have unlimited resources, what would you like to see in the area of LPCV?
+Researchers in the space are looking for new datasets, challenges, and problem specific competitions to advance research in LPCV.
+Citations 
+
+h0. https://doi.org/10.1109/MC.2022.3145677	URL:https://doi.org/10.1109/MC.2022.3145677
+
+h1. https://lpcv.ai	URL:https://lpcv.ai
+
+h2. https://www.computer.org/communities/technical-committees/tcpami	URL:https://www.computer.org/communities/technical-committees/tcpami
+
+h3. https://cvpr2023.thecvf.com/	URL:https://cvpr2023.thecvf.com/
+
+h4. https://research.com/	URL:https://research.com/
+
+.
