@@ -1,7 +1,7 @@
 ---
 title: A summary of CHANGE ME by AUTHOR
-description: Authored by AUTHOR
-summary: Authored by AUTHOR
+description: Posted in the CONFRENCE | JOURNAL | etc. , YEAR
+summary: Posted in the CONFRENCE | JOURNAL | etc. , YEAR
 
 categories: [summary, magazine, article]
 citations: []
@@ -20,7 +20,9 @@ show_reading_time: true
 
 # A summary of *TITLE*
 
-> Written by AUTHOR
+> Author names
+> Journal | Confrence | etc., Year
+> DOI
 
 ## Table of Contents
 
