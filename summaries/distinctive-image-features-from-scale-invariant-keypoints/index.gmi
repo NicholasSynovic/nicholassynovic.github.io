@@ -127,8 +127,8 @@ of this article.
    In British Machine Vision Conference, Cardiff, Wales, pp. 656–665.
 3. Carneiro, G. and Jepson, A.D. 2002. Phase-based local features. In European
    Conference on Computer Vision (ECCV), Copenhagen, Denmark, pp. 282–296.
-4. Crowley,J.L.and Parker,A.C.1984.Arepresentationforshapebased on peaks and
-   ridges in the difference of low-pass transform. IEEE Trans. on Pattern
+4. Crowley,J.L.and Parker,A.C.1984.A representation for shapes based on peaks
+   and ridges in the difference of low-pass transform. IEEE Trans. on Pattern
    Analysis and Machine Intelligence, 6(2):156–170.
 5. Fergus, R., Perona, P., and Zisserman, A. 2003. Object class recognition by
    unsupervised scale-invariant learning. In IEEE Conference on Computer Vision
