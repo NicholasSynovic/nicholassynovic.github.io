@@ -27,13 +27,13 @@ but our digital ones as well. And while it is important to have strong and
 secure passwords, I'm not referring to your accounts as digital identities. I'm
 instead talking about your contributions to open source projects.
 
-This article focusses around `git` \[3\] and online version control systems
-(VCSs) that implement `git` as their backend.
+This article focuses around `git` \[3\] and online version control systems
+(VCSs) that implement `git` as their back end.
 
-It is not only possible, but increadibly easy to sign a commit under a different
+It is not only possible, but incredibly easy to sign a commit under a different
 identity. In addition, online VCSs will read the `git` commit history and per
 commit, add the appropriate account information to the commit (assuming an
-account exists with the email address that is attached ot the `git` repository).
+account exists with the email address that is attached to the `git` repository).
 This feature, is meant to provide a user friendly way of viewing `git` commits.
 However, it also allows for an attacker to take advantage of these tools and
 publish commits to a project under someone else's identity.
@@ -76,7 +76,7 @@ Setting up signed commits was trivial, and there were plenty of guides \[0\]
 
 I strongly encourage all developers to sign their commits in order to improve
 the verification of work done by legitimate developers, instead of allowing the
-work of theives to perforate throughout our community.
+work of thieves to perforate throughout our community.
 
 ______________________________________________________________________
 

@@ -66,9 +66,9 @@ Hugo.&lt;/p>
 &lt;/blockquote>
 &lt;hr>
 &lt;p>A little while ago, I wanted to create my own website. I struggle with creating
-frontends for websites, so I choose to use the Hugo [0] static site generator
+front ends for websites, so I choose to use the Hugo [0] static site generator
 as it has many great themes. Learning Hugo was simple enough since the most
-basic sites are just &lt;code>md&lt;/code> content files and &lt;code>toml&lt;/code> config files. So, after a
+basic sites are just &lt;code>md&lt;/code> content files and &lt;code>TOML&lt;/code> config files. So, after a
 brief learning period, I built my website, got it hosted on GitHub Pages [1],
 and setup a domain from Google Domains [2] to link to it all.&lt;/p>
 &lt;p>That should be it, right?&lt;/p>
@@ -80,19 +80,19 @@ is where the annoyances began.&lt;/p>
 wouldn&amp;rsquo;t want a text only mirror of their site not indexed by modern search
 engines (probably everyone)? I was aware the Hugo could output my website in a
 variety of different formats. But, I had no idea how to do that.&lt;/p>
-&lt;p>Luckily, Jason F. McBrayer had already figured this out in a blog post on his
+&lt;p>Luckily, Jason F. Betrayer had already figured this out in a blog post on his
 website [7]. So I copied and pasted away. I ran the Hugo site generator and I
-got output! Huzzah! But when I tested the site with the &lt;code>gophernicus&lt;/code> [8]
+got output! Huzzah! But when I tested the site with the &lt;code>pernicious&lt;/code> [8]
 server, the site was malformed. Links to blog pages lead to nowhere or returned
 error message.&lt;/p>
 &lt;p>So I deleted my edits, re-copied, re-pasted (?), and ran the generator. Still,
 no dice. Even manually typing in his work into my project didn&amp;rsquo;t work.&lt;/p>
 &lt;p>At this point it was getting late, so I put the project into the back of my head
-and would continue to work on it for the next week. My stuborness was because I
-knew it was possible to do this conversion, after all, I had gotten output. But
-there was a syntax error somewhere that I just couldn&amp;rsquo;t find.&lt;/p>
+and would continue to work on it for the next week. My stubbornness was because
+I knew it was possible to do this conversion, after all, I had gotten output.
+But there was a syntax error somewhere that I just couldn&amp;rsquo;t find.&lt;/p>
 &lt;p>Eventually, I found documentation for the &lt;code>gophermap&lt;/code> syntax [9] and it all
-clicked. I use &lt;code>neovim&lt;/code> [10] as my editor of choice. I use spaces instead of
+clicked. I use &lt;code>Neovim&lt;/code> [10] as my editor of choice. I use spaces instead of
 tabs. &lt;code>gophermaps&lt;/code>, as a product of the 90s, require tabs for link formatting.&lt;/p>
 &lt;p>Insert face palm here.&lt;/p>
 &lt;p>The fix for this problem was to &lt;code>:set noexpandtab&lt;/code> and then paste in McBrayer&amp;rsquo;s
@@ -107,21 +107,21 @@ project.&lt;/p>
 Hugo. This, again, was taken care of by Sylvain Durand [11]. With my
 &lt;code>:set noexpandtab&lt;/code> option, I copied and pasted his work into my project&amp;hellip; And
 boom! It worked.&lt;/p>
-&lt;p>That was anticlimatic wasn&amp;rsquo;t it? Again, some formatting of the provided template
-was necessary, but that was minor.&lt;/p>
+&lt;p>That was anticlimactic wasn&amp;rsquo;t it? Again, some formatting of the provided
+template was necessary, but that was minor.&lt;/p>
 &lt;p>The new problem, was how to distribute this site.&lt;/p>
-&lt;h2 id="pubnix-whats-old-is-new-again">PubNix: What&amp;rsquo;s Old is New Again&lt;/h2>
-&lt;p>In my research of both the Gopher and Gemini protocols, I found out about
-PubNixs: community ran servers that run on low powered machines. These servers
-are a modern implementation of the time sharing servers of yore where there were
-a few large mainframes in the country that only a few people could log into at a
-time. A subset of these PubNixs is the &lt;code>tildeverse&lt;/code> [12]. These are &lt;strong>very&lt;/strong>
-community oriented servers that offer free webhosting of the Gemini, Gopher,
+&lt;h2 id="pub-nix-whats-old-is-new-again">Pub Nix: What&amp;rsquo;s Old is New Again&lt;/h2>
+&lt;p>In my research of both the Gopher and Gemini protocols, I found out about Pub
+Nix: community ran servers that run on low powered machines. These servers are a
+modern implementation of the time sharing servers of yore where there were a few
+large mainframes in the country that only a few people could log into at a time.
+A subset of these Pub Nixs is the &lt;code>tildeverse&lt;/code> [12]. These are &lt;strong>very&lt;/strong>
+community oriented servers that offer free web hosting of the Gemini, Gopher,
 HTTP, and Spartan sites. All that&amp;rsquo;s required is to create an account and start
 uploading.&lt;/p>
 &lt;p>For those that are interested in hosting a Gemini and/or Gopher site, I
 encourage the usage of these servers as it takes the problems of hosting content
-(maintainence, privacy, port forwarding, etc.) off of your shoulders&lt;/p>
+(maintenance, privacy, port forwarding, etc.) off of your shoulders&lt;/p>
 &lt;h2 id="the-end">The End&lt;/h2>
 &lt;p>If you ware interested in doing something similar, here is a link to my websites
 source code on GitHub [13]. There you can see my templates, scripts, and
@@ -147,12 +147,12 @@ developers, we not only have to protect our real world identities from theft,
 but our digital ones as well. And while it is important to have strong and
 secure passwords, I&amp;rsquo;m not referring to your accounts as digital identities. I&amp;rsquo;m
 instead talking about your contributions to open source projects.&lt;/p>
-&lt;p>This article focusses around &lt;code>git&lt;/code> [3] and online version control systems
-(VCSs) that implement &lt;code>git&lt;/code> as their backend.&lt;/p>
-&lt;p>It is not only possible, but increadibly easy to sign a commit under a different
+&lt;p>This article focuses around &lt;code>git&lt;/code> [3] and online version control systems
+(VCSs) that implement &lt;code>git&lt;/code> as their back end.&lt;/p>
+&lt;p>It is not only possible, but incredibly easy to sign a commit under a different
 identity. In addition, online VCSs will read the &lt;code>git&lt;/code> commit history and per
 commit, add the appropriate account information to the commit (assuming an
-account exists with the email address that is attached ot the &lt;code>git&lt;/code> repository).
+account exists with the email address that is attached to the &lt;code>git&lt;/code> repository).
 This feature, is meant to provide a user friendly way of viewing &lt;code>git&lt;/code> commits.
 However, it also allows for an attacker to take advantage of these tools and
 publish commits to a project under someone else&amp;rsquo;s identity.&lt;/p>
@@ -185,7 +185,7 @@ acceptance.&lt;/p>
 [5] [6] on how to do so.&lt;/p>
 &lt;p>I strongly encourage all developers to sign their commits in order to improve
 the verification of work done by legitimate developers, instead of allowing the
-work of theives to perforate throughout our community.&lt;/p>
+work of thieves to perforate throughout our community.&lt;/p>
 &lt;hr>
 &lt;h2 id="citations">Citations&lt;/h2>
 Citations availible at https://nsynovic.dev/posts/why-sign-commits/</description></item><item><title>Hello World</title><link>https://nsynovic.dev/posts/hello-world/</link><pubDate>Thu, 28 Jul 2022 19:47:48 -0500</pubDate><guid>https://nsynovic.dev/posts/hello-world/</guid><description>&lt;h1 id="hello-world">Hello World&lt;/h1>
@@ -199,16 +199,16 @@ Citations availible at https://nsynovic.dev/posts/why-sign-commits/</description
 [0] with the Software and Systems Laboratory [1]. I graduated Loyola in May
 of 2022 with a B.S in Computer Science. Currently, I&amp;rsquo;m pursuing a M.S in
 Computer Science with a concentration in Artificial Intelligence. My
-concentration is more specifically targetting low power computer vision systems.&lt;/p>
+concentration is more specifically targeting low power computer vision systems.&lt;/p>
 &lt;p>As an undergrad, I pursued and lead Software Engineering Metrics research and
 was successfully able to publish a paper into the IEEE ASE 2022 [2]
-confrence&amp;rsquo;s tools track as the lead author [3]. In addition, I was fortunate
-enough to be an author on a Software Engineering paper focussing on deep
-learning model reuse with researchers from Purude University [4]. I currently
-work on both Software Engineering and Computer Vision research.&lt;/p>
+conference&amp;rsquo;s tools track as the lead author [3]. In addition, I was fortunate
+enough to be an author on a Software Engineering paper focusing on deep learning
+model reuse with researchers from Purdue University [4]. I currently work on
+both Software Engineering and Computer Vision research.&lt;/p>
 &lt;p>In addition to my academic work, I have experience leading IT teams and
 developing full stack software. I was one of the first in my high school to join
-the student IT program which performed real world maintaince on my district&amp;rsquo;s
+the student IT program which performed real world maintenance on my district&amp;rsquo;s
 network, personal, and tech infrastructure [5]. As a 2nd year student at
 Loyola, I won second place at the Fall Student Showcase for my work in
 identifying and providing solution for Congress.gov&amp;rsquo;s search functionality as
@@ -217,7 +217,7 @@ well as creating a dataset of all the content on Congress.gov [6]. And as a
 facilitate their corporate wide Talent Planning Process. This application was
 used to assess ~30,000 employees in 2022 to find the next generation of leaders.&lt;/p>
 &lt;p>On the social side of things, I am currently a board member of the Loyola AI
-Club [8] as well as a student ambassador for Intel&amp;rsquo;s OneAPI platform [9].&lt;/p>
+Club [8] as well as a student ambassador for Intel&amp;rsquo;s oneAPI platform [9].&lt;/p>
 &lt;p>For further information on how to contact me, see my Contact page [10].&lt;/p>
 &lt;h2 id="whats-up-with-this-site">What&amp;rsquo;s up with this site?&lt;/h2>
 &lt;p>This site is generated from Markdown using Hugo [11] and the Ananke theme
@@ -233,8 +233,8 @@ Dev.to [18] page. In addition, I intend to use my account at &lt;code>tilde.team
 [19] to add an additional backup of the HTTP site there as well.&lt;/p>
 &lt;h2 id="what-content-is-coming">What content is coming?&lt;/h2>
 &lt;p>I don&amp;rsquo;t have a set plan at the moment, however, I intend to provide less
-academicly leaning posts on this site. Think more opinion pieces, tutorials, or
-other ramblings. Primarily text based content will be posted on this site as
+academically leaning posts on this site. Think more opinion pieces, tutorials,
+or other ramblings. Primarily text based content will be posted on this site as
 there are other platforms that are better at hosting multimedia content.&lt;/p>
 &lt;hr>
 &lt;h2 id="citations">Citations&lt;/h2>

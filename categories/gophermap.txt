@@ -22,13 +22,13 @@
 
 1git	/categories/git
 
-1webdev	/categories/webdev
+1web dev	/categories/web-dev
 
-1jamstack	/categories/jamstack
+1jam stack	/categories/jam-stack
 
 1gopher	/categories/gopher
 
-1gemini	/categories/gemini
+1Gemini	/categories/gemini
 
 1SIGCOMM	/categories/sigcomm
 

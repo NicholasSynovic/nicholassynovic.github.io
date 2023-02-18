@@ -16,12 +16,12 @@ developers, we not only have to protect our real world identities from theft,
 but our digital ones as well. And while it is important to have strong and
 secure passwords, I&amp;rsquo;m not referring to your accounts as digital identities. I&amp;rsquo;m
 instead talking about your contributions to open source projects.&lt;/p>
-&lt;p>This article focusses around &lt;code>git&lt;/code> [3] and online version control systems
-(VCSs) that implement &lt;code>git&lt;/code> as their backend.&lt;/p>
-&lt;p>It is not only possible, but increadibly easy to sign a commit under a different
+&lt;p>This article focuses around &lt;code>git&lt;/code> [3] and online version control systems
+(VCSs) that implement &lt;code>git&lt;/code> as their back end.&lt;/p>
+&lt;p>It is not only possible, but incredibly easy to sign a commit under a different
 identity. In addition, online VCSs will read the &lt;code>git&lt;/code> commit history and per
 commit, add the appropriate account information to the commit (assuming an
-account exists with the email address that is attached ot the &lt;code>git&lt;/code> repository).
+account exists with the email address that is attached to the &lt;code>git&lt;/code> repository).
 This feature, is meant to provide a user friendly way of viewing &lt;code>git&lt;/code> commits.
 However, it also allows for an attacker to take advantage of these tools and
 publish commits to a project under someone else&amp;rsquo;s identity.&lt;/p>
@@ -54,7 +54,7 @@ acceptance.&lt;/p>
 [5] [6] on how to do so.&lt;/p>
 &lt;p>I strongly encourage all developers to sign their commits in order to improve
 the verification of work done by legitimate developers, instead of allowing the
-work of theives to perforate throughout our community.&lt;/p>
+work of thieves to perforate throughout our community.&lt;/p>
 &lt;hr>
 &lt;h2 id="citations">Citations&lt;/h2>
 Citations availible at https://nsynovic.dev/posts/why-sign-commits/</description></item></channel></rss>

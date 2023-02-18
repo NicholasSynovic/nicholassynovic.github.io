@@ -11,9 +11,9 @@ Thursday, August 4, 2022 · 4 minute read
 ______________________________________________________________________
 
 A little while ago, I wanted to create my own website. I struggle with creating
-frontends for websites, so I choose to use the Hugo \[0\] static site generator
+front ends for websites, so I choose to use the Hugo \[0\] static site generator
 as it has many great themes. Learning Hugo was simple enough since the most
-basic sites are just `md` content files and `toml` config files. So, after a
+basic sites are just `md` content files and `TOML` config files. So, after a
 brief learning period, I built my website, got it hosted on GitHub Pages \[1\],
 and setup a domain from Google Domains \[2\] to link to it all.
 
@@ -30,9 +30,9 @@ wouldn't want a text only mirror of their site not indexed by modern search
 engines (probably everyone)? I was aware the Hugo could output my website in a
 variety of different formats. But, I had no idea how to do that.
 
-Luckily, Jason F. McBrayer had already figured this out in a blog post on his
+Luckily, Jason F. Betrayer had already figured this out in a blog post on his
 website \[7\]. So I copied and pasted away. I ran the Hugo site generator and I
-got output! Huzzah! But when I tested the site with the `gophernicus` \[8\]
+got output! Huzzah! But when I tested the site with the `pernicious` \[8\]
 server, the site was malformed. Links to blog pages lead to nowhere or returned
 error message.
 
@@ -40,12 +40,12 @@ So I deleted my edits, re-copied, re-pasted (?), and ran the generator. Still,
 no dice. Even manually typing in his work into my project didn't work.
 
 At this point it was getting late, so I put the project into the back of my head
-and would continue to work on it for the next week. My stuborness was because I
-knew it was possible to do this conversion, after all, I had gotten output. But
-there was a syntax error somewhere that I just couldn't find.
+and would continue to work on it for the next week. My stubbornness was because
+I knew it was possible to do this conversion, after all, I had gotten output.
+But there was a syntax error somewhere that I just couldn't find.
 
 Eventually, I found documentation for the `gophermap` syntax \[9\] and it all
-clicked. I use `neovim` \[10\] as my editor of choice. I use spaces instead of
+clicked. I use `Neovim` \[10\] as my editor of choice. I use spaces instead of
 tabs. `gophermaps`, as a product of the 90s, require tabs for link formatting.
 
 Insert face palm here.
@@ -68,25 +68,25 @@ Hugo. This, again, was taken care of by Sylvain Durand \[11\]. With my
 `:set noexpandtab` option, I copied and pasted his work into my project... And
 boom! It worked.
 
-That was anticlimatic wasn't it? Again, some formatting of the provided template
-was necessary, but that was minor.
+That was anticlimactic wasn't it? Again, some formatting of the provided
+template was necessary, but that was minor.
 
 The new problem, was how to distribute this site.
 
-## PubNix: What's Old is New Again
+## Pub Nix: What's Old is New Again
 
-In my research of both the Gopher and Gemini protocols, I found out about
-PubNixs: community ran servers that run on low powered machines. These servers
-are a modern implementation of the time sharing servers of yore where there were
-a few large mainframes in the country that only a few people could log into at a
-time. A subset of these PubNixs is the `tildeverse` \[12\]. These are **very**
-community oriented servers that offer free webhosting of the Gemini, Gopher,
+In my research of both the Gopher and Gemini protocols, I found out about Pub
+Nix: community ran servers that run on low powered machines. These servers are a
+modern implementation of the time sharing servers of yore where there were a few
+large mainframes in the country that only a few people could log into at a time.
+A subset of these Pub Nixs is the `tildeverse` \[12\]. These are **very**
+community oriented servers that offer free web hosting of the Gemini, Gopher,
 HTTP, and Spartan sites. All that's required is to create an account and start
 uploading.
 
 For those that are interested in hosting a Gemini and/or Gopher site, I
 encourage the usage of these servers as it takes the problems of hosting content
-(maintainence, privacy, port forwarding, etc.) off of your shoulders
+(maintenance, privacy, port forwarding, etc.) off of your shoulders
 
 ## The End
 
