@@ -3,7 +3,7 @@ title: A summary of CHANGE ME by AUTHOR
 description: Authored by AUTHOR
 summary: Authored by AUTHOR
 
-categories: [summary, book,]
+categories: [summary, magazine, article]
 citations: []
 
 draft: false
