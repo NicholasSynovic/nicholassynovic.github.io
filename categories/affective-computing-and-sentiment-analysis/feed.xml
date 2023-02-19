@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>affective computing and sentiment analysis on Nicholas M. Synovic</title><link>https://nsynovic.dev/categories/affective-computing-and-sentiment-analysis/</link><description>Recent content in affective computing and sentiment analysis on Nicholas M. Synovic</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Nicholas M. Synovic</copyright><lastBuildDate>Sat, 18 Feb 2023 19:03:11 -0600</lastBuildDate><atom:link href="https://nsynovic.dev/categories/affective-computing-and-sentiment-analysis/feed.xml" rel="self" type="application/rss+xml"/><item><title>A summary of Sentiment Analysis and Topic Recognition in Video Transcripts by Lukas Stappen et al.</title><link>https://nsynovic.dev/summaries/sentiment-analysis-and-topic-recognition-in-video-transcripts/</link><pubDate>Sat, 18 Feb 2023 19:03:11 -0600</pubDate><guid>https://nsynovic.dev/summaries/sentiment-analysis-and-topic-recognition-in-video-transcripts/</guid><description>&lt;h1 id="a-summary-of-sentiment-analysis-and-topic-recognition-in-video-transcripts">A summary of &lt;em>Sentiment Analysis and Topic Recognition in Video Transcripts&lt;/em>&lt;/h1>
+&lt;blockquote>
+&lt;p>Lukas Stappen et al. Posted in IEEE Computer Volume 55; Issue 4, 2022 DOI
+[0]&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="table-of-contents">Table of Contents&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="#a-summary-of-sentiment-analysis-and-topic-recognition-in-video-transcripts">A summary of &lt;em>Sentiment Analysis and Topic Recognition in Video Transcripts&lt;/em>&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#table-of-contents">Table of Contents&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#summary">Summary&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#related-work">Related Work&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#methodology">Methodology&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#dataset-the-muse-topic-subchallenge">Dataset: The MuSe-Topic Subchallenge&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#exploratory-analysis">Exploratory Analysis&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#speaker-topics">Speaker Topics&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#emotions">Emotions&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#prediction-results">Prediction Results&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#speaker-topics-1">Speaker Topics&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#emotions-1">Emotions&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#citations">Citations&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="summary">Summary&lt;/h2>
+&lt;p>It is difficult to extract the sentiment and topic from a video transcript. With
+this in mind, researchers developed SenticNet [2], a natural language
+processing (NLP) model to identify the sentiment and topic of a transcript with
+far less computational resources than previous attempts. The authors were able
+to achieve 3% better performance than previous solutions for the MuSe
+competition.&lt;/p>
+&lt;p>Multi-model sentiment analysis (MSA) is taking a variety of data streams and
+information types and extracting sentiment from them. MSA research aims to
+understand the sentiment holder, emotional disposition, and the reference
+object. MSA typically works on video data as it includes visual (e.g., facial
+expressions), audio, and textual (e.g., transcripts) data modalities.
+Transcripts have been found to provide the greatest impact in understanding the
+topic at hand.&lt;/p>
+&lt;p>The authors solution learned a continuous vector space of embeddings from the
+symbolic space of words from the transcripts. To identify sentiments, their
+solution adheres to the description of of sentiments defined by the &lt;em>Hourglass
+of Emotions&lt;/em> [1].&lt;/p>
+&lt;h3 id="related-work">Related Work&lt;/h3>
+&lt;p>Human communication is a symbolic and naturally ordered within a structured
+hierarchy. Current solutions to identifying sentiment from human communication
+rely on synsets which are labels that indicate emotion and mood categories.
+SenticNet has the largest amount of synsets with 200,000 concepts map words to a
+sentiment.&lt;/p>
+&lt;p>Automated sentiment and aspect extraction is of interest within the MSA field.
+Current solutions involve hand crafted features. The authors applied
+&amp;ldquo;commonsense knowledge&amp;rdquo; about topic extraction involving several sentences.&lt;/p>
+&lt;h3 id="methodology">Methodology&lt;/h3>
+&lt;p>First, natural world concepts are obtained using SenticNet. Versions 5 and 6 of
+SenticNet were used as both extracted different sentics. Stop words were
+removed. A linear SVM was applied on the vector word embeddings to predict the
+valence, arousal, and topics of the transcript. To improve the generalization
+between the feature maps, embedding dropout was used as well as time-step
+dropout in order to drop entire embeddings rather than features.&lt;/p>
+&lt;h3 id="dataset-the-muse-topic-subchallenge">Dataset: The MuSe-Topic Subchallenge&lt;/h3>
+&lt;p>The MuSe-CaR [3] dataset is a large, multi-modal dataset consisting of YouTube
+videos of car reviews. The purpose of the dataset is to support MSA research.&lt;/p>
+&lt;p>The authors only used the language modality of the dataset and ignored the video
+and audio modality. Recent advances in speech to text technologies have resulted
+in near human performance.&lt;/p>
+&lt;p>For the MuSe-Topic challenge, the weighted score of the combination of the
+unweighted average recall and micro F1 measures for each prediction (valence,
+arousal, and topic) was reported.&lt;/p>
+&lt;h3 id="exploratory-analysis">Exploratory Analysis&lt;/h3>
+&lt;h4 id="speaker-topics">Speaker Topics&lt;/h4>
+&lt;p>The concepts of semantics were used to identify the contextual information of
+the video. These were used to understand the characteristic properties of the
+video.&lt;/p>
+&lt;h4 id="emotions">Emotions&lt;/h4>
+&lt;p>SenticNet was used in an unsupervised fashion to identify the emotions of the
+video from the contextual information.&lt;/p>
+&lt;h3 id="prediction-results">Prediction Results&lt;/h3>
+&lt;h4 id="speaker-topics-1">Speaker Topics&lt;/h4>
+&lt;p>The best performance measured achieved a score of 66.16% on the test dataset.
+This was better than the LSTM approach the authors also tried. However, Albert
+(an end-2-end NLP transformer for supervised NLP tasks) [4] still outperforms
+this solution.&lt;/p>
+&lt;h4 id="emotions-1">Emotions&lt;/h4>
+&lt;p>SenticNet version 6 outperforms version 5 when identifying emotions.&lt;/p>
+&lt;hr>
+&lt;h2 id="citations">Citations&lt;/h2>
+Citations availible at https://nsynovic.dev/summaries/sentiment-analysis-and-topic-recognition-in-video-transcripts/</description></item></channel></rss>

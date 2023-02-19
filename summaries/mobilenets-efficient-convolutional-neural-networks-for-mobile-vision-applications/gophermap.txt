@@ -31,7 +31,7 @@ The largest assumption that I see is that MobileNets would be applicable for mob
 Correctness Do the assumptions seem valid?
 No they do not. The name seems misleading without a proper test.
 Future Directions My own proposed future directions for the work
-I&rsquo;d like to test variations of MobileNets on modern smartphones, low powered devices (i.e. Raspberry Pis, NVIDIA Jetson Nanos), and more powerful devices (i.e. laptops) in order to see how far I can push a MobileNet to give real-time (minimum 24 FPS) inference without compromising on accuracy.
+I&rsquo;d like to test variations of MobileNets on modern smartphones, low powered devices (i.e., Raspberry Pis, NVIDIA Jetson Nanos), and more powerful devices (i.e., laptops) in order to see how far I can push a MobileNet to give real-time (minimum 24 FPS) inference without compromising on accuracy.
 Open Questions What open questions do I have about the work?
 Why wasn&rsquo;t a MobileNet variation tested on a mobile device?
 Author Feedback What feedback would I give to the authors?

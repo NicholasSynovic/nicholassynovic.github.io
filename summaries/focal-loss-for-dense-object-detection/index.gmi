@@ -46,7 +46,7 @@ ______________________________________________________________________
 
 > What is the problem addressed in the paper?
 
-This paper aims to address the problem that one stage object detectors (i.e.
+This paper aims to address the problem that one stage object detectors (i.e.,
 YOLO, SSD) face when trying to match the performance of SOTA two stage object
 detectors which is class imbalance.
 

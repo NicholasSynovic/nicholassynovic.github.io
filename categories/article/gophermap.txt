@@ -6,6 +6,12 @@
 > These posts are mirrored from my HTTP site.
 
 
+1A summary of Pervasive Security and Privacy by - A Brief Reflection on Challenges and Opportunities by Florian Alt	/summaries/pervasive-security-and-privacy-a-brief-reflection-on-challenges-and-opportunities
+
+1A summary of Economics of Artificial Intelligence in Cybersecurity by Nir Kshetri	/summaries/economics-of-artificial-intelligence-in-cybersecurity
+
+1A summary of Sentiment Analysis and Topic Recognition in Video Transcripts by Lukas Stappen et al.	/summaries/sentiment-analysis-and-topic-recognition-in-video-transcripts
+
 1A summary of Advances in Human Activity Recognition by Gulustan Dogan	/summaries/advances-in-human-activity-recognition
 
 1A summary of Challenges and Opportunities for Autonomous Micro-UAVs in Precision Agriculture by Xu Liu et al.	/summaries/challenges-and-opportunities-for-autonomous-micro-uavs-in-precision-agriculture

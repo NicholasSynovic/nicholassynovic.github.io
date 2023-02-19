@@ -27,7 +27,7 @@ Correctness Do the assumptions seem valid?
 While true, Szegedy et al. designed their own architecture using unique algorithms not prevalent in existing convolutional neural networks.
 Discussion of the Proofs Their training involved both dropout and data augmentation.
 Dropout involves not using the outputs of neurons whose activation is less than 0.5.
-Data augmentation involves manipulating the input images such that 5 244 x 244 images are derived from one 256 x 256 image (e.g. the four corners and one centered). Additionally, PCA was done on the RGB channels of all of the images in the ImageNet 2010 and 2012 data sets. These eigenvectors were then added to each of the images respective color channels.
+Data augmentation involves manipulating the input images such that 5 244 x 244 images are derived from one 256 x 256 image (e.g., the four corners and one centered). Additionally, PCA was done on the RGB channels of all of the images in the ImageNet 2010 and 2012 data sets. These eigenvectors were then added to each of the images respective color channels.
 Future Directions My own proposed future directions for the work
 A reimplementation of the work would be interesting, with particular respect to bench marking training time, as the authors were limited by their GPU compute units&rsquo; performance.
 Summary A summary of the paper

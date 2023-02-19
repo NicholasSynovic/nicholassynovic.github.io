@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>it economics on Nicholas M. Synovic</title><link>https://nsynovic.dev/categories/it-economics/</link><description>Recent content in it economics on Nicholas M. Synovic</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Nicholas M. Synovic</copyright><lastBuildDate>Sun, 19 Feb 2023 10:16:22 -0600</lastBuildDate><atom:link href="https://nsynovic.dev/categories/it-economics/feed.xml" rel="self" type="application/rss+xml"/><item><title>A summary of Economics of Artificial Intelligence in Cybersecurity by Nir Kshetri</title><link>https://nsynovic.dev/summaries/economics-of-artificial-intelligence-in-cybersecurity/</link><pubDate>Sun, 19 Feb 2023 10:16:22 -0600</pubDate><guid>https://nsynovic.dev/summaries/economics-of-artificial-intelligence-in-cybersecurity/</guid><description>&lt;h1 id="a-summary-of-economics-of-artificial-intelligence-in-cybersecurity">A summary of &lt;em>Economics of Artificial Intelligence in Cybersecurity&lt;/em>&lt;/h1>
+&lt;blockquote>
+&lt;p>Nir Kshetri IEEE Computer Volume 55; Issue 4, 2022 DOI [0]&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="table-of-contents">Table of Contents&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="#a-summary-of-economics-of-artificial-intelligence-in-cybersecurity">A summary of &lt;em>Economics of Artificial Intelligence in Cybersecurity&lt;/em>&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#table-of-contents">Table of Contents&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#summary">Summary&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#current-state-of-ai-in-cybersecurity-and-key-areas-being-transformed">Current State of AI in Cybersecurity and Key Areas Being Transformed&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#key-factors-driving-ais-use-in-cybersecurity">Key Factors Driving AI&amp;rsquo;s Use in Cybersecurity&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#some-shortcomings-limitations-and-challenges">Some Shortcomings, Limitations, and Challenges&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#citations">Citations&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="summary">Summary&lt;/h2>
+&lt;p>AI in cybersecurity is a growing market estimated to reach $101.8 billion by
+2030.&lt;/p>
+&lt;p>As the internet was designed &lt;strong>without&lt;/strong> security in mind, their exists an
+asymmetric where small organizations or individuals can comprise large groups,
+companies, or nation states. Therefore, defense mechanisms must be in place to
+stop these attacks. Since defendants have access to a large corpus of malware
+examples, it is possible to train AI models to defend against attacks.&lt;/p>
+&lt;h3 id="current-state-of-ai-in-cybersecurity-and-key-areas-being-transformed">Current State of AI in Cybersecurity and Key Areas Being Transformed&lt;/h3>
+&lt;p>AI is often faster at detecting malware than humans. Additionally, it is also
+faster at containing infected devices on a network than a human. Furthermore, AI
+can lower the cost of detecting malware.&lt;/p>
+&lt;p>Traditional antivirus programs rely on a database of malware examples to check
+against. However, AI can learn the representations of malware and then find new
+malware examples prior to them being added to a database. Thus, it is possible
+for AI to stop zero-day vulnerabilities by recognizing the representation of
+malware during or prior to the attack.&lt;/p>
+&lt;p>However, security experts recommend taking an augmented intelligence approach
+with AI security. This involves a human-AI partnership in identifying and acting
+upon threats. This is because current AI techniques are not accurate or advanced
+enough to entirely replace a human security professional.&lt;/p>
+&lt;p>AI has already been used to stop advance attacks from foreign, state run
+organizations (i.e., APT41) and more common attacks.&lt;/p>
+&lt;p>AI is already in use to detect anomalies in identity and access security. It is
+possible for an AI to monitor and make decisions based off of an accounts
+activity. As an example, Facebook uses an AI-powered deep entity classification
+(DEC) to determine if an account is fraudulent or not. If so, the account is
+removed from Facebook. This tool was used to crack down on fake accounts and
+accounts that utilized deep fakes.&lt;/p>
+&lt;p>AI cybersecurity software is being used by academic institutions as attackers
+are increasingly targeting universities and academic institutions. These tools
+have been successful in stopping or preventing cyber threats on students, staff,
+and networks.&lt;/p>
+&lt;h3 id="key-factors-driving-ais-use-in-cybersecurity">Key Factors Driving AI&amp;rsquo;s Use in Cybersecurity&lt;/h3>
+&lt;p>The cost of AI cybersecurity tools is dropping both for consumers and for
+enterprises. There exists more publicly available and enterprise-only datasets
+for training AI to detect malware. And there is a shortage of cybersecurity
+professionals entering the workforce, so AI could be used to address this
+shortage of staff.&lt;/p>
+&lt;h3 id="some-shortcomings-limitations-and-challenges">Some Shortcomings, Limitations, and Challenges&lt;/h3>
+&lt;p>There exists several shortcomings with using AI cybersecurity tools. For
+starters, it is difficult to explain what the tool is doing. Security
+professionals therefore prefer an, &amp;ldquo;Explainable First, Predictive Second&amp;rdquo; [1]
+approach to AI tools. Additionally, AI tools can not make security related
+decisions without human interventions.&lt;/p>
+&lt;p>And as AI tools grow in popularity, bias will start to develop within these
+tools. This could potentially allow an attacker to exploit this bias and write
+malware that is not detected by the tool.&lt;/p>
+&lt;p>Furthermore, it is uncertain how AI tools would handle volatile situations, such
+as the COVID-19 pandemic. As such, cybersecurity professionals might turn &lt;em>off&lt;/em>
+or raise the detection threshold on these tools during such situations,
+potentially allowing attacks to slip through.&lt;/p>
+&lt;p>Finally, not all of the necessary data to properly train these tools is
+available due to federal regulation. Personally identifying information (PII)
+cannot be made publicly available for the purposes of training. Additionally, it
+is assumed that large &amp;ldquo;data lakes&amp;rdquo; of Americans exist under the control of
+foreign entities. It is therefore possible for an entity to utilize one of these
+data lakes to write attacks that would not be detected as the attack is coming
+from an American rather than a foreign entity.&lt;/p>
+&lt;hr>
+&lt;h2 id="citations">Citations&lt;/h2>
+Citations availible at https://nsynovic.dev/summaries/economics-of-artificial-intelligence-in-cybersecurity/</description></item></channel></rss>

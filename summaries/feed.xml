@@ -1,4 +1,291 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Summaries on Nicholas M. Synovic</title><link>https://nsynovic.dev/summaries/</link><description>Recent content in Summaries on Nicholas M. Synovic</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Nicholas M. Synovic</copyright><lastBuildDate>Sun, 26 Jun 2022 21:29:53 -0500</lastBuildDate><atom:link href="https://nsynovic.dev/summaries/feed.xml" rel="self" type="application/rss+xml"/><item><title>A summary of Advances in Human Activity Recognition by Gulustan Dogan</title><link>https://nsynovic.dev/summaries/advances-in-human-activity-recognition/</link><pubDate>Sat, 18 Feb 2023 18:51:36 -0600</pubDate><guid>https://nsynovic.dev/summaries/advances-in-human-activity-recognition/</guid><description>&lt;h1 id="a-summary-of-advances-in-human-activity-recognition">A summary of &lt;em>Advances in Human Activity Recognition&lt;/em>&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Summaries on Nicholas M. Synovic</title><link>https://nsynovic.dev/summaries/</link><description>Recent content in Summaries on Nicholas M. Synovic</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Nicholas M. Synovic</copyright><lastBuildDate>Sun, 26 Jun 2022 21:29:53 -0500</lastBuildDate><atom:link href="https://nsynovic.dev/summaries/feed.xml" rel="self" type="application/rss+xml"/><item><title>A summary of Pervasive Security and Privacy by - A Brief Reflection on Challenges and Opportunities by Florian Alt</title><link>https://nsynovic.dev/summaries/pervasive-security-and-privacy-a-brief-reflection-on-challenges-and-opportunities/</link><pubDate>Sun, 19 Feb 2023 10:56:20 -0600</pubDate><guid>https://nsynovic.dev/summaries/pervasive-security-and-privacy-a-brief-reflection-on-challenges-and-opportunities/</guid><description>&lt;h1 id="a-summary-of-pervasive-security-and-privacy-by---a-brief-reflection-on-challenges-and-opportunities">A summary of &lt;em>Pervasive Security and Privacy by - A Brief Reflection on Challenges and Opportunities&lt;/em>&lt;/h1>
+&lt;blockquote>
+&lt;p>Florian Alt IEEE Computer Volume 55; Issue 4, 2022 DOI [0]&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="table-of-contents">Table of Contents&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="#a-summary-of-pervasive-security-and-privacy-by---a-brief-reflection-on-challenges-and-opportunities">A summary of &lt;em>Pervasive Security and Privacy by - A Brief Reflection on Challenges and Opportunities&lt;/em>&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#table-of-contents">Table of Contents&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#summary">Summary&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#the-state-of-security-and-privacy-in-pervasive-computing">The State of Security and Privacy in Pervasive Computing&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#implications">Implications&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#security-and-privacy-decision-overload">Security and Privacy Decision Overload&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#unawareness-of-data-sensitivity">Unawareness of Data Sensitivity&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#sensing-close-to-the-body">Sensing Close to the Body&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#unclear-flow-of-data">Unclear Flow of Data&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#multidevice-environments">Multidevice Environments&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#challenges-and-opportunities">Challenges and Opportunities&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#designing-appropriate-mechanisms">Designing Appropriate Mechanisms&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#involvement-of-different-stakeholders">Involvement of Different Stakeholders&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#out-of-the-box-security-and-privacy">Out-of-the-Box Security and Privacy&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#adaptive-security-and-privacy-mechanisms">Adaptive security and Privacy Mechanisms&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#citations">Citations&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="summary">Summary&lt;/h2>
+&lt;p>Pervasive computing developments open up the opportunity for different human
+experiences and research. However, security and privacy methods must take into
+account what these new developments bring to the table; including both the
+positives and the negatives of such computing. With this technology, user states
+and contexts can be more easily inferred as well as their emotional and
+cognitive states.&lt;/p>
+&lt;p>This article is meant to give an overview of the challenges and opportunities
+that arise within the security and privacy domain of pervasive computing.&lt;/p>
+&lt;h3 id="the-state-of-security-and-privacy-in-pervasive-computing">The State of Security and Privacy in Pervasive Computing&lt;/h3>
+&lt;p>The &lt;em>mainframe era&lt;/em> involved securing the intellectual rights of technologies
+stored on big iron. The &lt;em>personal computing era&lt;/em> involved securing protecting
+the privacy and data of everyday users. The &lt;em>pervasive computing era&lt;/em> will
+involve protecting all of the data generating and capturing devices that a user
+not only owns but interacts with.&lt;/p>
+&lt;p>Pervasive computing includes both traditional computing devices, but also edge
+devices, smart devices and appliances, and internet software. Pervasive
+computing allows for sensitive data to be accessed both locally and remotely,
+and therefore presents new challenges w.r.t security and privacy.&lt;/p>
+&lt;p>Boundaries between domains are changing. For example, their used to be a barrier
+between work and home, but with the COVID-19 pandemic, work and home became one.
+This opened the doors to new attack vectors as it became more common for people
+to work from home.&lt;/p>
+&lt;h3 id="implications">Implications&lt;/h3>
+&lt;h4 id="security-and-privacy-decision-overload">Security and Privacy Decision Overload&lt;/h4>
+&lt;p>As we interface with more and more computers, we (as users) become overloaded
+with different authentication schemes and practices. Additionally, all of the
+devices that we interact with have many different privacy permissions and
+options that the user might not be aware of and therefore enable or disable.&lt;/p>
+&lt;h4 id="unawareness-of-data-sensitivity">Unawareness of Data Sensitivity&lt;/h4>
+&lt;p>It is possible to generate many data points about an individual from a single
+sensor. Therefore, it is imperative that users not only know about these
+different data points, but also the implications for each data point. However,
+it is currently very difficult to inform users of the importance of each data
+point.&lt;/p>
+&lt;h4 id="sensing-close-to-the-body">Sensing Close to the Body&lt;/h4>
+&lt;p>Many of the &lt;a href="#unawareness-of-data-sensitivity">data sensitivity problems&lt;/a> arises
+from users wearing sensors close to the body. These sensors can pick up on
+health related information about an individual. Current sensor providers do very
+little to protect this information. Therefore figuring out methods of obscuring
+or reducing the collection of such information is important.&lt;/p>
+&lt;h4 id="unclear-flow-of-data">Unclear Flow of Data&lt;/h4>
+&lt;p>It is very difficult to understand where all of the data from internet of things
+(IoT) devices is being stored. Thus the flow of data from a sensor to the
+end-user is unclear. What data goes to the cloud? What stays locally? How is
+data accessed? Who can access that data? How is it processed? Which data is
+being collected? Novel solutions (i.e., privacy labels/badges) must be developed
+to answer these questions to protect consumers.&lt;/p>
+&lt;h4 id="multidevice-environments">Multidevice Environments&lt;/h4>
+&lt;p>There is a push by hardware and software developers to integrate experiences
+tightly together via multidevice communication. For example, logging into
+Netflix on a smart TV through your cell phone. However, these multidevice
+experiences raise security and privacy concerns as there are more points of
+failure and attack vectors as the number of devices involved scales.&lt;/p>
+&lt;h3 id="challenges-and-opportunities">Challenges and Opportunities&lt;/h3>
+&lt;h4 id="designing-appropriate-mechanisms">Designing Appropriate Mechanisms&lt;/h4>
+&lt;p>Better security interfaces need to be designed to promote users to protect their
+data. Furthermore, good enough security practices (i.e., password
+authentication) need to be revisited to see if and where areas of improvement
+need to occur to better protect end users.&lt;/p>
+&lt;h4 id="involvement-of-different-stakeholders">Involvement of Different Stakeholders&lt;/h4>
+&lt;p>The end user is not the enemy with respect to security. Therefore, pervasive
+computing technologies and experiences need to take into account the security
+practices and limitations that end users experience and accommodate that. For
+example, replacing password authentication with bio-metrics.&lt;/p>
+&lt;h4 id="out-of-the-box-security-and-privacy">Out-of-the-Box Security and Privacy&lt;/h4>
+&lt;p>Pervasive computing technologies need to be secure out-of-the-box and involve
+very little user interaction to enable sensible security and privacy settings.&lt;/p>
+&lt;h4 id="adaptive-security-and-privacy-mechanisms">Adaptive security and Privacy Mechanisms&lt;/h4>
+&lt;p>Pervasive computing can allow for authentication schemes based on the state of
+the user. However, this information must simultaneously be protected and secured
+in order to prevent data leaks.&lt;/p>
+&lt;hr>
+&lt;h2 id="citations">Citations&lt;/h2>
+Citations availible at https://nsynovic.dev/summaries/pervasive-security-and-privacy-a-brief-reflection-on-challenges-and-opportunities/</description></item><item><title>A summary of Economics of Artificial Intelligence in Cybersecurity by Nir Kshetri</title><link>https://nsynovic.dev/summaries/economics-of-artificial-intelligence-in-cybersecurity/</link><pubDate>Sun, 19 Feb 2023 10:16:22 -0600</pubDate><guid>https://nsynovic.dev/summaries/economics-of-artificial-intelligence-in-cybersecurity/</guid><description>&lt;h1 id="a-summary-of-economics-of-artificial-intelligence-in-cybersecurity">A summary of &lt;em>Economics of Artificial Intelligence in Cybersecurity&lt;/em>&lt;/h1>
+&lt;blockquote>
+&lt;p>Nir Kshetri IEEE Computer Volume 55; Issue 4, 2022 DOI [0]&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="table-of-contents">Table of Contents&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="#a-summary-of-economics-of-artificial-intelligence-in-cybersecurity">A summary of &lt;em>Economics of Artificial Intelligence in Cybersecurity&lt;/em>&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#table-of-contents">Table of Contents&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#summary">Summary&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#current-state-of-ai-in-cybersecurity-and-key-areas-being-transformed">Current State of AI in Cybersecurity and Key Areas Being Transformed&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#key-factors-driving-ais-use-in-cybersecurity">Key Factors Driving AI&amp;rsquo;s Use in Cybersecurity&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#some-shortcomings-limitations-and-challenges">Some Shortcomings, Limitations, and Challenges&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#citations">Citations&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="summary">Summary&lt;/h2>
+&lt;p>AI in cybersecurity is a growing market estimated to reach $101.8 billion by
+2030.&lt;/p>
+&lt;p>As the internet was designed &lt;strong>without&lt;/strong> security in mind, their exists an
+asymmetric where small organizations or individuals can comprise large groups,
+companies, or nation states. Therefore, defense mechanisms must be in place to
+stop these attacks. Since defendants have access to a large corpus of malware
+examples, it is possible to train AI models to defend against attacks.&lt;/p>
+&lt;h3 id="current-state-of-ai-in-cybersecurity-and-key-areas-being-transformed">Current State of AI in Cybersecurity and Key Areas Being Transformed&lt;/h3>
+&lt;p>AI is often faster at detecting malware than humans. Additionally, it is also
+faster at containing infected devices on a network than a human. Furthermore, AI
+can lower the cost of detecting malware.&lt;/p>
+&lt;p>Traditional antivirus programs rely on a database of malware examples to check
+against. However, AI can learn the representations of malware and then find new
+malware examples prior to them being added to a database. Thus, it is possible
+for AI to stop zero-day vulnerabilities by recognizing the representation of
+malware during or prior to the attack.&lt;/p>
+&lt;p>However, security experts recommend taking an augmented intelligence approach
+with AI security. This involves a human-AI partnership in identifying and acting
+upon threats. This is because current AI techniques are not accurate or advanced
+enough to entirely replace a human security professional.&lt;/p>
+&lt;p>AI has already been used to stop advance attacks from foreign, state run
+organizations (i.e., APT41) and more common attacks.&lt;/p>
+&lt;p>AI is already in use to detect anomalies in identity and access security. It is
+possible for an AI to monitor and make decisions based off of an accounts
+activity. As an example, Facebook uses an AI-powered deep entity classification
+(DEC) to determine if an account is fraudulent or not. If so, the account is
+removed from Facebook. This tool was used to crack down on fake accounts and
+accounts that utilized deep fakes.&lt;/p>
+&lt;p>AI cybersecurity software is being used by academic institutions as attackers
+are increasingly targeting universities and academic institutions. These tools
+have been successful in stopping or preventing cyber threats on students, staff,
+and networks.&lt;/p>
+&lt;h3 id="key-factors-driving-ais-use-in-cybersecurity">Key Factors Driving AI&amp;rsquo;s Use in Cybersecurity&lt;/h3>
+&lt;p>The cost of AI cybersecurity tools is dropping both for consumers and for
+enterprises. There exists more publicly available and enterprise-only datasets
+for training AI to detect malware. And there is a shortage of cybersecurity
+professionals entering the workforce, so AI could be used to address this
+shortage of staff.&lt;/p>
+&lt;h3 id="some-shortcomings-limitations-and-challenges">Some Shortcomings, Limitations, and Challenges&lt;/h3>
+&lt;p>There exists several shortcomings with using AI cybersecurity tools. For
+starters, it is difficult to explain what the tool is doing. Security
+professionals therefore prefer an, &amp;ldquo;Explainable First, Predictive Second&amp;rdquo; [1]
+approach to AI tools. Additionally, AI tools can not make security related
+decisions without human interventions.&lt;/p>
+&lt;p>And as AI tools grow in popularity, bias will start to develop within these
+tools. This could potentially allow an attacker to exploit this bias and write
+malware that is not detected by the tool.&lt;/p>
+&lt;p>Furthermore, it is uncertain how AI tools would handle volatile situations, such
+as the COVID-19 pandemic. As such, cybersecurity professionals might turn &lt;em>off&lt;/em>
+or raise the detection threshold on these tools during such situations,
+potentially allowing attacks to slip through.&lt;/p>
+&lt;p>Finally, not all of the necessary data to properly train these tools is
+available due to federal regulation. Personally identifying information (PII)
+cannot be made publicly available for the purposes of training. Additionally, it
+is assumed that large &amp;ldquo;data lakes&amp;rdquo; of Americans exist under the control of
+foreign entities. It is therefore possible for an entity to utilize one of these
+data lakes to write attacks that would not be detected as the attack is coming
+from an American rather than a foreign entity.&lt;/p>
+&lt;hr>
+&lt;h2 id="citations">Citations&lt;/h2>
+Citations availible at https://nsynovic.dev/summaries/economics-of-artificial-intelligence-in-cybersecurity/</description></item><item><title>A summary of Sentiment Analysis and Topic Recognition in Video Transcripts by Lukas Stappen et al.</title><link>https://nsynovic.dev/summaries/sentiment-analysis-and-topic-recognition-in-video-transcripts/</link><pubDate>Sat, 18 Feb 2023 19:03:11 -0600</pubDate><guid>https://nsynovic.dev/summaries/sentiment-analysis-and-topic-recognition-in-video-transcripts/</guid><description>&lt;h1 id="a-summary-of-sentiment-analysis-and-topic-recognition-in-video-transcripts">A summary of &lt;em>Sentiment Analysis and Topic Recognition in Video Transcripts&lt;/em>&lt;/h1>
+&lt;blockquote>
+&lt;p>Lukas Stappen et al. Posted in IEEE Computer Volume 55; Issue 4, 2022 DOI
+[0]&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="table-of-contents">Table of Contents&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="#a-summary-of-sentiment-analysis-and-topic-recognition-in-video-transcripts">A summary of &lt;em>Sentiment Analysis and Topic Recognition in Video Transcripts&lt;/em>&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#table-of-contents">Table of Contents&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#summary">Summary&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#related-work">Related Work&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#methodology">Methodology&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#dataset-the-muse-topic-subchallenge">Dataset: The MuSe-Topic Subchallenge&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#exploratory-analysis">Exploratory Analysis&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#speaker-topics">Speaker Topics&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#emotions">Emotions&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#prediction-results">Prediction Results&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#speaker-topics-1">Speaker Topics&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#emotions-1">Emotions&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#citations">Citations&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="summary">Summary&lt;/h2>
+&lt;p>It is difficult to extract the sentiment and topic from a video transcript. With
+this in mind, researchers developed SenticNet [2], a natural language
+processing (NLP) model to identify the sentiment and topic of a transcript with
+far less computational resources than previous attempts. The authors were able
+to achieve 3% better performance than previous solutions for the MuSe
+competition.&lt;/p>
+&lt;p>Multi-model sentiment analysis (MSA) is taking a variety of data streams and
+information types and extracting sentiment from them. MSA research aims to
+understand the sentiment holder, emotional disposition, and the reference
+object. MSA typically works on video data as it includes visual (e.g., facial
+expressions), audio, and textual (e.g., transcripts) data modalities.
+Transcripts have been found to provide the greatest impact in understanding the
+topic at hand.&lt;/p>
+&lt;p>The authors solution learned a continuous vector space of embeddings from the
+symbolic space of words from the transcripts. To identify sentiments, their
+solution adheres to the description of of sentiments defined by the &lt;em>Hourglass
+of Emotions&lt;/em> [1].&lt;/p>
+&lt;h3 id="related-work">Related Work&lt;/h3>
+&lt;p>Human communication is a symbolic and naturally ordered within a structured
+hierarchy. Current solutions to identifying sentiment from human communication
+rely on synsets which are labels that indicate emotion and mood categories.
+SenticNet has the largest amount of synsets with 200,000 concepts map words to a
+sentiment.&lt;/p>
+&lt;p>Automated sentiment and aspect extraction is of interest within the MSA field.
+Current solutions involve hand crafted features. The authors applied
+&amp;ldquo;commonsense knowledge&amp;rdquo; about topic extraction involving several sentences.&lt;/p>
+&lt;h3 id="methodology">Methodology&lt;/h3>
+&lt;p>First, natural world concepts are obtained using SenticNet. Versions 5 and 6 of
+SenticNet were used as both extracted different sentics. Stop words were
+removed. A linear SVM was applied on the vector word embeddings to predict the
+valence, arousal, and topics of the transcript. To improve the generalization
+between the feature maps, embedding dropout was used as well as time-step
+dropout in order to drop entire embeddings rather than features.&lt;/p>
+&lt;h3 id="dataset-the-muse-topic-subchallenge">Dataset: The MuSe-Topic Subchallenge&lt;/h3>
+&lt;p>The MuSe-CaR [3] dataset is a large, multi-modal dataset consisting of YouTube
+videos of car reviews. The purpose of the dataset is to support MSA research.&lt;/p>
+&lt;p>The authors only used the language modality of the dataset and ignored the video
+and audio modality. Recent advances in speech to text technologies have resulted
+in near human performance.&lt;/p>
+&lt;p>For the MuSe-Topic challenge, the weighted score of the combination of the
+unweighted average recall and micro F1 measures for each prediction (valence,
+arousal, and topic) was reported.&lt;/p>
+&lt;h3 id="exploratory-analysis">Exploratory Analysis&lt;/h3>
+&lt;h4 id="speaker-topics">Speaker Topics&lt;/h4>
+&lt;p>The concepts of semantics were used to identify the contextual information of
+the video. These were used to understand the characteristic properties of the
+video.&lt;/p>
+&lt;h4 id="emotions">Emotions&lt;/h4>
+&lt;p>SenticNet was used in an unsupervised fashion to identify the emotions of the
+video from the contextual information.&lt;/p>
+&lt;h3 id="prediction-results">Prediction Results&lt;/h3>
+&lt;h4 id="speaker-topics-1">Speaker Topics&lt;/h4>
+&lt;p>The best performance measured achieved a score of 66.16% on the test dataset.
+This was better than the LSTM approach the authors also tried. However, Albert
+(an end-2-end NLP transformer for supervised NLP tasks) [4] still outperforms
+this solution.&lt;/p>
+&lt;h4 id="emotions-1">Emotions&lt;/h4>
+&lt;p>SenticNet version 6 outperforms version 5 when identifying emotions.&lt;/p>
+&lt;hr>
+&lt;h2 id="citations">Citations&lt;/h2>
+Citations availible at https://nsynovic.dev/summaries/sentiment-analysis-and-topic-recognition-in-video-transcripts/</description></item><item><title>A summary of Advances in Human Activity Recognition by Gulustan Dogan</title><link>https://nsynovic.dev/summaries/advances-in-human-activity-recognition/</link><pubDate>Sat, 18 Feb 2023 18:51:36 -0600</pubDate><guid>https://nsynovic.dev/summaries/advances-in-human-activity-recognition/</guid><description>&lt;h1 id="a-summary-of-advances-in-human-activity-recognition">A summary of &lt;em>Advances in Human Activity Recognition&lt;/em>&lt;/h1>
 &lt;blockquote>
 &lt;p>Gulustan Dogan IEEE Computer Volume 55; Issue 4, 2022 DOI [0]&lt;/p>
 &lt;/blockquote>
@@ -78,12 +365,12 @@ environment. Having more data from autonomous sensors and vehicles will help
 improve the realizations of scientific advancements in scale.&lt;/p>
 &lt;p>Current UGV technologies suffer from being able to only see points of interest
 close to vehicle, they can not survey large areas quickly, and they are unable
-to navigate rough agriculture environments (i.e rice fields). UAVs do not suffer
-from these drawbacks, however, to work for precision agriculture, UAV
+to navigate rough agriculture environments (i.e.,, rice fields). UAVs do not
+suffer from these drawbacks, however, to work for precision agriculture, UAV
 technologies need to work close to crops (under canopy flight), must have
 reliable relative coordinate reporting, handle a dynamic environment in PD space
-(i.e wind, rocks, hills), and must be able to map dense environments. There have
-been some under canopy tests that have been performed to limited success.
+(i.e.,, wind, rocks, hills), and must be able to map dense environments. There
+have been some under canopy tests that have been performed to limited success.
 However, these were only applied in small scale environments and haven&amp;rsquo;t been
 tested in larger environments.&lt;/p>
 &lt;h3 id="uav-hardware-and-autonomy">UAV Hardware and Autonomy&lt;/h3>
@@ -102,7 +389,7 @@ gimbal was used for mapping and obstacle avoidance, and a search-based motion
 planner was used for motion primitives plans collision-free and dynamically
 feasible trajectories,&amp;rdquo; [1]&lt;/li>
 &lt;li>A vision based solution that can navigate in both structured and moderately
-unstructured environments (i.e. a collapsed building) [2]&lt;/li>
+unstructured environments (i.e., a collapsed building) [2]&lt;/li>
 &lt;li>A system of using many UAVs that work together and coordinate through a
 simultaneous localization and mapping (SLAM) scheme with loop closure that
 utilized trees as landmarks was tested [3], but could fail when operating
@@ -121,11 +408,11 @@ cameras are easily susceptible to changes in lightness and darkness. Thus
 obstacle avoidance becomes difficult when lighting is patchy.&lt;/p>
 &lt;p>LiDAR sensors can be used to reduce this issue, however, current LiDAR
 technology is expensive, heavy, and still under much research.&lt;/p>
-&lt;p>GNSS technologies (i.e. GPS) allow for geospatial positioning. However, if there
-are obstacles in the way, the accuracy decreases. There do exists optimizations
-to improve geospatial coordination and positioning, such as GPS ground stations
-(DGPS) and real time kinematics (RTK). However, these solutions must be both
-real time and reliable to resolve accuracy concerns.&lt;/p>
+&lt;p>GNSS technologies (i.e., GPS) allow for geospatial positioning. However, if
+there are obstacles in the way, the accuracy decreases. There do exists
+optimizations to improve geospatial coordination and positioning, such as GPS
+ground stations (DGPS) and real time kinematics (RTK). However, these solutions
+must be both real time and reliable to resolve accuracy concerns.&lt;/p>
 &lt;h4 id="challenges">Challenges&lt;/h4>
 &lt;p>Detection of small obstacles is difficult with conventional camera systems. Thus
 a forward facing, solid state LiDAR solution has been proposed to mitigate this.
@@ -158,9 +445,9 @@ point cloud data and a spherical range image together and pass the union of this
 data into a CNN to reduce information loss [4].&lt;/p>
 &lt;h4 id="challenges-1">Challenges&lt;/h4>
 &lt;p>It is difficult to acquire large, high-quality agriculture specific datasets to
-train models on object detection and segmentation. Furthermore, occlusion (e.g
-not being able to see the plant or fruit) is still a problem that is trying to
-be solved.&lt;/p>
+train models on object detection and segmentation. Furthermore, occlusion
+(e.g.,, not being able to see the plant or fruit) is still a problem that is
+trying to be solved.&lt;/p>
 &lt;h3 id="robot-localization-and-mapping">Robot Localization and Mapping&lt;/h3>
 &lt;p>Mapping refers to the act of creating an understanding of an environment for an
 autonomous robot to adhere to. Potential solutions require the input of
@@ -250,9 +537,9 @@ deployment hardware and solution software.&lt;/p>
 will significantly change the world, but are they far beyond today&amp;rsquo;s
 technologies?&lt;/em>&lt;/p>
 &lt;/blockquote>
-&lt;p>Better smart systems (e.g smart homes, retail, factory, transportation, farming,
-etc.) and prediction of natural disasters and phenomenon by utilizing many data
-points can be possible through LPCV.&lt;/p>
+&lt;p>Better smart systems (e.g.,, smart homes, retail, factory, transportation,
+farming, etc.) and prediction of natural disasters and phenomenon by utilizing
+many data points can be possible through LPCV.&lt;/p>
 &lt;blockquote>
 &lt;p>&lt;em>If you have unlimited resources, what would you like to see in the area of
 LPCV?&lt;/em>&lt;/p>
@@ -2578,7 +2865,7 @@ conclusion&lt;/p>
 &lt;blockquote>
 &lt;p>What is the problem addressed in the paper?&lt;/p>
 &lt;/blockquote>
-&lt;p>This paper aims to address the problem that one stage object detectors (i.e.
+&lt;p>This paper aims to address the problem that one stage object detectors (i.e.,
 YOLO, SSD) face when trying to match the performance of SOTA two stage object
 detectors which is class imbalance.&lt;/p>
 &lt;h3 id="motivation">Motivation&lt;/h3>
@@ -3242,8 +3529,8 @@ describe a test of running this model on a mobile device.&lt;/p>
 &lt;p>My own proposed future directions for the work&lt;/p>
 &lt;/blockquote>
 &lt;p>I&amp;rsquo;d like to test variations of MobileNets on modern smartphones, low powered
-devices (i.e. Raspberry Pis, NVIDIA Jetson Nanos), and more powerful devices
-(i.e. laptops) in order to see how far I can push a MobileNet to give real-time
+devices (i.e., Raspberry Pis, NVIDIA Jetson Nanos), and more powerful devices
+(i.e., laptops) in order to see how far I can push a MobileNet to give real-time
 (minimum 24 FPS) inference without compromising on accuracy.&lt;/p>
 &lt;h3 id="open-questions">Open Questions&lt;/h3>
 &lt;blockquote>
@@ -3463,7 +3750,7 @@ deep residual learning framework that makes usage of shortcut connections
 (taking the identity function of the previous deep residual block and summing it
 to the output of the current residual learning block) and the ReLU activation
 function to reduce the total number of parameters within the model, while
-dramatically increasing the depth in comparison to former SOTA methods (i.e.
+dramatically increasing the depth in comparison to former SOTA methods (i.e.,
 VGG). The authors found that their deep models achieve SOTA performance on both
 Object Detection (using the Faster-RCNN method) and Image Recognition compared
 to existing SOTA models. Furthermore, they found that the deeper the network,
@@ -5161,8 +5448,8 @@ commonly known as backpropagation.&lt;/p>
 structured as a series of multi-dimensional arrays. A typical application of
 ConvNets are for analyzing images. RNNs are useful for analyzing data that is
 dependent upon prior understanding. Chat bots, speech recognition, and answering
-questions about data (i.e where is a character in a book?) are all problems that
-are reliant upon the model having some sort of &amp;ldquo;memory&amp;rdquo;. Memory solutions
+questions about data (i.e.,, where is a character in a book?) are all problems
+that are reliant upon the model having some sort of &amp;ldquo;memory&amp;rdquo;. Memory solutions
 include &lt;code>long short-term memory&lt;/code> which has been useful for accomplishing these
 tasks.&lt;/p>
 &lt;hr>
@@ -7169,7 +7456,7 @@ neural networks.&lt;/p>
 &lt;p>Dropout involves not using the outputs of neurons whose activation is less than
 0.5.&lt;/p>
 &lt;p>Data augmentation involves manipulating the input images such that 5 244 x 244
-images are derived from one 256 x 256 image (e.g. the four corners and one
+images are derived from one 256 x 256 image (e.g., the four corners and one
 centered). Additionally, PCA was done on the RGB channels of all of the images
 in the ImageNet 2010 and 2012 data sets. These eigenvectors were then added to
 each of the images respective color channels.&lt;/p>
@@ -7426,7 +7713,7 @@ headings, and conclusion&lt;/p>
 &lt;p>The paper &lt;em>Going deeper with convolutions&lt;/em> by Christian Szegedy et al. [1]
 describes a 2014 state of the art computer vision model (on the ImageNet
 Large-Scale Visual Recognition Challenge) called GoogLeNet architect ed based on
-Hebbian principles (i.e. neurons that fire together, are wired together)and a
+Hebbian principles (i.e., neurons that fire together, are wired together)and a
 constant computational budget. Their approach relies on creative algorithms and
 neuroscience principles and aims to be a more power efficient model for mobile
 devices by limiting the computations during inference. Additionally, their model
@@ -7522,7 +7809,7 @@ of this article.&lt;/p>
 in large models. Additionally, over fitting can occur when there is not enough
 labeled examples in a data set when a large model is training. Furthermore,
 increasing the size of a model increases the number of computations that must be
-done between layers (e.g. chaining two convolutional layers results in
+done between layers (e.g., chaining two convolutional layers results in
 computation cost quadratic ally increasing) Their solutions relies on moving
 from fully connected to sparsely connected architectures including within
 convolutional layers. Also, their model architecture is based on the idea that
@@ -7571,16 +7858,16 @@ GoogLeNet.&lt;/p>
 computationally efficient during inferencing with only 1.5 billion multiply-add
 operations allowed. Inception models are composed of multiple Inception modules
 that are stacked on top of each other. Each Inception module takes in data from
-the previous layer and passes it into small convolutional filters (i.e. 1x1
+the previous layer and passes it into small convolutional filters (i.e., 1x1
 typically). There are three of these small filters that are wired to the input
 of the Inception module, with one of them connected directly to the output. The
-outputs of two of these filters are then passed into larger filters (i.e. 5x5)
+outputs of two of these filters are then passed into larger filters (i.e., 5x5)
 to which it is then passed into a DepthConcat function. Additionally, a 3x3
 filter is wired to the input of the module and the output of which goes into a
 1x1 filter to be passed into the DepthConcat function as well. From there, it is
 passed into another Inception module and the process repeats.&lt;/p>
 &lt;p>&lt;strong>Note:&lt;/strong> Depth when referring to two dimensional images refers to the color
-channel of the image. As images typically have three color channels (i.e. red,
+channel of the image. As images typically have three color channels (i.e., red,
 green, blue), an image would have a depth of 3.&lt;/p>
 &lt;p>&lt;em>Example:&lt;/em> A 200 pixel by 200 pixel full color spectrum image would be
 represented as 200x200x3.&lt;/p>
@@ -7773,7 +8060,7 @@ doing a deeper analysis of the work.&lt;/li>
 &lt;p>I can see this process being useful for researchers as implementers of other&amp;rsquo;s
 research must accomplish all three steps to properly appreciate and understand
 what they need to do to perform their task. As for the literature review
-framework, it involves utilizing academic search engines (e.g.
+framework, it involves utilizing academic search engines (e.g.,
 &lt;a href="https://https://scholar.google.com/">Google Scholar&lt;/a>) to find work within a
 particular field, finding shared citations or authors within that field, then
 evaluating top conferences within that field to see who the top researchers and

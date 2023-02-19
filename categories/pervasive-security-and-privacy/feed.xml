@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>pervasive security and privacy on Nicholas M. Synovic</title><link>https://nsynovic.dev/categories/pervasive-security-and-privacy/</link><description>Recent content in pervasive security and privacy on Nicholas M. Synovic</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Nicholas M. Synovic</copyright><lastBuildDate>Sun, 19 Feb 2023 10:56:20 -0600</lastBuildDate><atom:link href="https://nsynovic.dev/categories/pervasive-security-and-privacy/feed.xml" rel="self" type="application/rss+xml"/><item><title>A summary of Pervasive Security and Privacy by - A Brief Reflection on Challenges and Opportunities by Florian Alt</title><link>https://nsynovic.dev/summaries/pervasive-security-and-privacy-a-brief-reflection-on-challenges-and-opportunities/</link><pubDate>Sun, 19 Feb 2023 10:56:20 -0600</pubDate><guid>https://nsynovic.dev/summaries/pervasive-security-and-privacy-a-brief-reflection-on-challenges-and-opportunities/</guid><description>&lt;h1 id="a-summary-of-pervasive-security-and-privacy-by---a-brief-reflection-on-challenges-and-opportunities">A summary of &lt;em>Pervasive Security and Privacy by - A Brief Reflection on Challenges and Opportunities&lt;/em>&lt;/h1>
+&lt;blockquote>
+&lt;p>Florian Alt IEEE Computer Volume 55; Issue 4, 2022 DOI [0]&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="table-of-contents">Table of Contents&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="#a-summary-of-pervasive-security-and-privacy-by---a-brief-reflection-on-challenges-and-opportunities">A summary of &lt;em>Pervasive Security and Privacy by - A Brief Reflection on Challenges and Opportunities&lt;/em>&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#table-of-contents">Table of Contents&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#summary">Summary&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#the-state-of-security-and-privacy-in-pervasive-computing">The State of Security and Privacy in Pervasive Computing&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#implications">Implications&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#security-and-privacy-decision-overload">Security and Privacy Decision Overload&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#unawareness-of-data-sensitivity">Unawareness of Data Sensitivity&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#sensing-close-to-the-body">Sensing Close to the Body&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#unclear-flow-of-data">Unclear Flow of Data&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#multidevice-environments">Multidevice Environments&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#challenges-and-opportunities">Challenges and Opportunities&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#designing-appropriate-mechanisms">Designing Appropriate Mechanisms&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#involvement-of-different-stakeholders">Involvement of Different Stakeholders&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#out-of-the-box-security-and-privacy">Out-of-the-Box Security and Privacy&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#adaptive-security-and-privacy-mechanisms">Adaptive security and Privacy Mechanisms&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#citations">Citations&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="summary">Summary&lt;/h2>
+&lt;p>Pervasive computing developments open up the opportunity for different human
+experiences and research. However, security and privacy methods must take into
+account what these new developments bring to the table; including both the
+positives and the negatives of such computing. With this technology, user states
+and contexts can be more easily inferred as well as their emotional and
+cognitive states.&lt;/p>
+&lt;p>This article is meant to give an overview of the challenges and opportunities
+that arise within the security and privacy domain of pervasive computing.&lt;/p>
+&lt;h3 id="the-state-of-security-and-privacy-in-pervasive-computing">The State of Security and Privacy in Pervasive Computing&lt;/h3>
+&lt;p>The &lt;em>mainframe era&lt;/em> involved securing the intellectual rights of technologies
+stored on big iron. The &lt;em>personal computing era&lt;/em> involved securing protecting
+the privacy and data of everyday users. The &lt;em>pervasive computing era&lt;/em> will
+involve protecting all of the data generating and capturing devices that a user
+not only owns but interacts with.&lt;/p>
+&lt;p>Pervasive computing includes both traditional computing devices, but also edge
+devices, smart devices and appliances, and internet software. Pervasive
+computing allows for sensitive data to be accessed both locally and remotely,
+and therefore presents new challenges w.r.t security and privacy.&lt;/p>
+&lt;p>Boundaries between domains are changing. For example, their used to be a barrier
+between work and home, but with the COVID-19 pandemic, work and home became one.
+This opened the doors to new attack vectors as it became more common for people
+to work from home.&lt;/p>
+&lt;h3 id="implications">Implications&lt;/h3>
+&lt;h4 id="security-and-privacy-decision-overload">Security and Privacy Decision Overload&lt;/h4>
+&lt;p>As we interface with more and more computers, we (as users) become overloaded
+with different authentication schemes and practices. Additionally, all of the
+devices that we interact with have many different privacy permissions and
+options that the user might not be aware of and therefore enable or disable.&lt;/p>
+&lt;h4 id="unawareness-of-data-sensitivity">Unawareness of Data Sensitivity&lt;/h4>
+&lt;p>It is possible to generate many data points about an individual from a single
+sensor. Therefore, it is imperative that users not only know about these
+different data points, but also the implications for each data point. However,
+it is currently very difficult to inform users of the importance of each data
+point.&lt;/p>
+&lt;h4 id="sensing-close-to-the-body">Sensing Close to the Body&lt;/h4>
+&lt;p>Many of the &lt;a href="#unawareness-of-data-sensitivity">data sensitivity problems&lt;/a> arises
+from users wearing sensors close to the body. These sensors can pick up on
+health related information about an individual. Current sensor providers do very
+little to protect this information. Therefore figuring out methods of obscuring
+or reducing the collection of such information is important.&lt;/p>
+&lt;h4 id="unclear-flow-of-data">Unclear Flow of Data&lt;/h4>
+&lt;p>It is very difficult to understand where all of the data from internet of things
+(IoT) devices is being stored. Thus the flow of data from a sensor to the
+end-user is unclear. What data goes to the cloud? What stays locally? How is
+data accessed? Who can access that data? How is it processed? Which data is
+being collected? Novel solutions (i.e., privacy labels/badges) must be developed
+to answer these questions to protect consumers.&lt;/p>
+&lt;h4 id="multidevice-environments">Multidevice Environments&lt;/h4>
+&lt;p>There is a push by hardware and software developers to integrate experiences
+tightly together via multidevice communication. For example, logging into
+Netflix on a smart TV through your cell phone. However, these multidevice
+experiences raise security and privacy concerns as there are more points of
+failure and attack vectors as the number of devices involved scales.&lt;/p>
+&lt;h3 id="challenges-and-opportunities">Challenges and Opportunities&lt;/h3>
+&lt;h4 id="designing-appropriate-mechanisms">Designing Appropriate Mechanisms&lt;/h4>
+&lt;p>Better security interfaces need to be designed to promote users to protect their
+data. Furthermore, good enough security practices (i.e., password
+authentication) need to be revisited to see if and where areas of improvement
+need to occur to better protect end users.&lt;/p>
+&lt;h4 id="involvement-of-different-stakeholders">Involvement of Different Stakeholders&lt;/h4>
+&lt;p>The end user is not the enemy with respect to security. Therefore, pervasive
+computing technologies and experiences need to take into account the security
+practices and limitations that end users experience and accommodate that. For
+example, replacing password authentication with bio-metrics.&lt;/p>
+&lt;h4 id="out-of-the-box-security-and-privacy">Out-of-the-Box Security and Privacy&lt;/h4>
+&lt;p>Pervasive computing technologies need to be secure out-of-the-box and involve
+very little user interaction to enable sensible security and privacy settings.&lt;/p>
+&lt;h4 id="adaptive-security-and-privacy-mechanisms">Adaptive security and Privacy Mechanisms&lt;/h4>
+&lt;p>Pervasive computing can allow for authentication schemes based on the state of
+the user. However, this information must simultaneously be protected and secured
+in order to prevent data leaks.&lt;/p>
+&lt;hr>
+&lt;h2 id="citations">Citations&lt;/h2>
+Citations availible at https://nsynovic.dev/summaries/pervasive-security-and-privacy-a-brief-reflection-on-challenges-and-opportunities/</description></item></channel></rss>

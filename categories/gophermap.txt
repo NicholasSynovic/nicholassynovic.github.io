@@ -266,7 +266,13 @@
 
 1expert opinion	/categories/expert-opinion
 
+1affective computing and sentiment analysis	/categories/affective-computing-and-sentiment-analysis
+
+1it economics	/categories/it-economics
+
 1summary	/categories/summary
+
+1pervasive security and privacy	/categories/pervasive-security-and-privacy
 
 1magazine	/categories/magazine
 

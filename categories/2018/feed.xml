@@ -51,7 +51,7 @@ conclusion&lt;/p>
 &lt;blockquote>
 &lt;p>What is the problem addressed in the paper?&lt;/p>
 &lt;/blockquote>
-&lt;p>This paper aims to address the problem that one stage object detectors (i.e.
+&lt;p>This paper aims to address the problem that one stage object detectors (i.e.,
 YOLO, SSD) face when trying to match the performance of SOTA two stage object
 detectors which is class imbalance.&lt;/p>
 &lt;h3 id="motivation">Motivation&lt;/h3>

@@ -214,8 +214,8 @@ Convolutional neural networks (ConvNets) are useful for analyzing data
 structured as a series of multi-dimensional arrays. A typical application of
 ConvNets are for analyzing images. RNNs are useful for analyzing data that is
 dependent upon prior understanding. Chat bots, speech recognition, and answering
-questions about data (i.e where is a character in a book?) are all problems that
-are reliant upon the model having some sort of "memory". Memory solutions
+questions about data (i.e.,, where is a character in a book?) are all problems
+that are reliant upon the model having some sort of "memory". Memory solutions
 include `long short-term memory` which has been useful for accomplishing these
 tasks.
 

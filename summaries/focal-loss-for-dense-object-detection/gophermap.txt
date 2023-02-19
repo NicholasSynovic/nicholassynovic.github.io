@@ -6,7 +6,7 @@ A summary of Focal Loss for Dense Object Detection Tsung-yi Lin et al. arXiv, 20
 For the summary of the paper, go to the Summary section of this article.
 Table of Contents A summary of Focal Loss for Dense Object Detection Table of Contents First Pass Problem Motivation Category Context Contributions Second Pass Background Work Figures, Diagrams, Illustrations, and Graphs Clarity Relevant Work Methodology Author Assumptions Correctness Future Directions Open Questions Author Feedback Summary Summarization Technique Citations First Pass Read the title, abstract, introduction, section and sub-section headings, and conclusion
 Problem What is the problem addressed in the paper?
-This paper aims to address the problem that one stage object detectors (i.e. YOLO, SSD) face when trying to match the performance of SOTA two stage object detectors which is class imbalance.
+This paper aims to address the problem that one stage object detectors (i.e., YOLO, SSD) face when trying to match the performance of SOTA two stage object detectors which is class imbalance.
 Motivation Why should we care about this paper?
 Because it introduces a new loss function that addresses the issue of class imbalance when training dense, one stage object detectors. Additionally, the authors released an example model implementing this loss known as Detectron/ RetinaNet.
 Category What type of paper is this work?
