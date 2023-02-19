@@ -260,13 +260,15 @@
 
 1book	/categories/book
 
-1summary	/categories/summary
-
 1round table	/categories/round-table
+
+1discussion	/categories/discussion
+
+1summary	/categories/summary
 
 1magazine	/categories/magazine
 
-1discussion	/categories/discussion
+1expert opinion	/categories/expert-opinion
 
 1article	/categories/article
 

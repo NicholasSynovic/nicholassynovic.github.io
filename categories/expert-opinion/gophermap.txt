@@ -8,7 +8,5 @@
 
 1A summary of Challenges and Opportunities for Autonomous Micro-UAVs in Precision Agriculture by Xu Liu et al.	/summaries/challenges-and-opportunities-for-autonomous-micro-uavs-in-precision-agriculture
 
-1A summary of Efficient Computer Vision for Embedded Systems by George K. Thiruvathukal and Yung-Hsiang Lu	/summaries/efficient-computer-vision-for-embedded-systems
-
 
 .
