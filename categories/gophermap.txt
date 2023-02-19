@@ -270,11 +270,13 @@
 
 1it economics	/categories/it-economics
 
-1summary	/categories/summary
-
 1pervasive security and privacy	/categories/pervasive-security-and-privacy
 
+1summary	/categories/summary
+
 1magazine	/categories/magazine
+
+1from the editors	/categories/from-the-editors
 
 1article	/categories/article
 

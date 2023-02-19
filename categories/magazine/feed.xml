@@ -1,4 +1,61 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>magazine on Nicholas M. Synovic</title><link>https://nsynovic.dev/categories/magazine/</link><description>Recent content in magazine on Nicholas M. Synovic</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Nicholas M. Synovic</copyright><lastBuildDate>Sun, 19 Feb 2023 10:56:20 -0600</lastBuildDate><atom:link href="https://nsynovic.dev/categories/magazine/feed.xml" rel="self" type="application/rss+xml"/><item><title>A summary of Pervasive Security and Privacy by - A Brief Reflection on Challenges and Opportunities by Florian Alt</title><link>https://nsynovic.dev/summaries/pervasive-security-and-privacy-a-brief-reflection-on-challenges-and-opportunities/</link><pubDate>Sun, 19 Feb 2023 10:56:20 -0600</pubDate><guid>https://nsynovic.dev/summaries/pervasive-security-and-privacy-a-brief-reflection-on-challenges-and-opportunities/</guid><description>&lt;h1 id="a-summary-of-pervasive-security-and-privacy-by---a-brief-reflection-on-challenges-and-opportunities">A summary of &lt;em>Pervasive Security and Privacy by - A Brief Reflection on Challenges and Opportunities&lt;/em>&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>magazine on Nicholas M. Synovic</title><link>https://nsynovic.dev/categories/magazine/</link><description>Recent content in magazine on Nicholas M. Synovic</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Nicholas M. Synovic</copyright><lastBuildDate>Sun, 19 Feb 2023 13:39:57 -0600</lastBuildDate><atom:link href="https://nsynovic.dev/categories/magazine/feed.xml" rel="self" type="application/rss+xml"/><item><title>A summary of Toward Fail Safety for Security Decisions by Trent Jaeger</title><link>https://nsynovic.dev/summaries/toward-fail-safety-for-security-decisions/</link><pubDate>Sun, 19 Feb 2023 13:39:57 -0600</pubDate><guid>https://nsynovic.dev/summaries/toward-fail-safety-for-security-decisions/</guid><description>&lt;h1 id="a-summary-of-toward-fail-safety-for-security-decisions">A summary of &lt;em>Toward Fail Safety for Security Decisions&lt;/em>&lt;/h1>
+&lt;blockquote>
+&lt;p>Trent Jaeger IEEE Computer Volume 55; Issue 4, 2022 DOI [0]&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="table-of-contents">Table of Contents&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="#a-summary-of-toward-fail-safety-for-security-decisions">A summary of &lt;em>Toward Fail Safety for Security Decisions&lt;/em>&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#table-of-contents">Table of Contents&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#summary">Summary&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#examples-of-how-user-decisions-impact-security">Examples of How User Decisions Impact Security&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#a-design-goal-fail-safe-decisions">A Design Goal: Fail-Safe Decisions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#using-fail-safety-effectively">Using Fail Safety Effectively&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#citations">Citations&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="summary">Summary&lt;/h2>
+&lt;p>Developers of technologies aim to automate security decisions on behalf of the
+consumer. However, security decisions made by end users are often ad-hoc and
+unguided. As researchers, we should figure out how to create systems that are
+reduce vulnerabilities when poor manual choices are made.&lt;/p>
+&lt;h3 id="examples-of-how-user-decisions-impact-security">Examples of How User Decisions Impact Security&lt;/h3>
+&lt;p>Mobile applications often request access to sensors on the device to operate.
+However, it is often unclear as to why these applications want to utilize these
+sensors. Additionally, by granting security access to malicious apps, it is
+possible for the apps to modify core system functionality or compromise core
+processes for their own gain.&lt;/p>
+&lt;p>Within the IoT space, often developers let the end users handle the security
+permissions on their end. However, it is both the developers and the end-users
+job to ensure that the devices are operating within in a secure environment.&lt;/p>
+&lt;h3 id="a-design-goal-fail-safe-decisions">A Design Goal: Fail-Safe Decisions&lt;/h3>
+&lt;p>We should have fail-safe defaults that expresses the permissions that a device
+or application has rather than what it doesn&amp;rsquo;t. In other words, return positive
+feedback as to the what an application or device can do, rather than what it
+can&amp;rsquo;t.&lt;/p>
+&lt;p>To support this, applications need to help users make better decisions. This
+could be done through supporting safe choices through the path of least
+resistance. In other words, make it easy to secure an application and difficult
+to disable security. However, it is difficult for programmers to decide what is
+and isn&amp;rsquo;t a safe decision.&lt;/p>
+&lt;h3 id="using-fail-safety-effectively">Using Fail Safety Effectively&lt;/h3>
+&lt;p>If fail safety is implemented on a per device level, it won&amp;rsquo;t be able to scale
+to entire technology sectors. Therefore, best practices need to be developed in
+order to allow fail-safety to grow.&lt;/p>
+&lt;p>However, as legacy applications did not focus on information-flow integrity, it
+might be impossible to back port fail safety to legacy applications.&lt;/p>
+&lt;p>Furthermore, research needs to be done on how to identify when manual security
+changes expose applications to security vulnerabilities. This way programmers
+and researchers can devise new methods of protecting the end user when they
+disable security features.&lt;/p>
+&lt;hr>
+&lt;h2 id="citations">Citations&lt;/h2>
+Citations availible at https://nsynovic.dev/summaries/toward-fail-safety-for-security-decisions/</description></item><item><title>A summary of Pervasive Security and Privacy by - A Brief Reflection on Challenges and Opportunities by Florian Alt</title><link>https://nsynovic.dev/summaries/pervasive-security-and-privacy-a-brief-reflection-on-challenges-and-opportunities/</link><pubDate>Sun, 19 Feb 2023 10:56:20 -0600</pubDate><guid>https://nsynovic.dev/summaries/pervasive-security-and-privacy-a-brief-reflection-on-challenges-and-opportunities/</guid><description>&lt;h1 id="a-summary-of-pervasive-security-and-privacy-by---a-brief-reflection-on-challenges-and-opportunities">A summary of &lt;em>Pervasive Security and Privacy by - A Brief Reflection on Challenges and Opportunities&lt;/em>&lt;/h1>
 &lt;blockquote>
 &lt;p>Florian Alt IEEE Computer Volume 55; Issue 4, 2022 DOI [0]&lt;/p>
 &lt;/blockquote>

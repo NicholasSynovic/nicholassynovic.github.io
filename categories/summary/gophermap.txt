@@ -6,6 +6,8 @@
 > These posts are mirrored from my HTTP site.
 
 
+1A summary of Toward Fail Safety for Security Decisions by Trent Jaeger	/summaries/toward-fail-safety-for-security-decisions
+
 1A summary of Pervasive Security and Privacy by - A Brief Reflection on Challenges and Opportunities by Florian Alt	/summaries/pervasive-security-and-privacy-a-brief-reflection-on-challenges-and-opportunities
 
 1A summary of Economics of Artificial Intelligence in Cybersecurity by Nir Kshetri	/summaries/economics-of-artificial-intelligence-in-cybersecurity
