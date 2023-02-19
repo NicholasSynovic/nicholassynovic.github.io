@@ -5,9 +5,10 @@ description: Posted in IEEE Computer Volume 55; Issue 4, 2022
 summary: Posted in IEEE Computer Volume 55; Issue 4, 2022
 
 categories: [summary, magazine, article, expert opinion]
-citations: [https://doi.org/10.1109/MM.2021.3134744, https://doi.org/10.1109/ICRA.2018.8463214]
+citations: [https://doi.org/10.1109/MM.2021.3134744, https://doi.org/10.1109/ICRA.2018.8463214,
+  https://doi.org/10.1002/rob.21950, https://doi.org/10.1177/0278364920929398, https://doi.org/10.1109/TPAMI.2020.3005434]
 
-draft: true
+draft: false
 
 date: 2023-02-18T13:08:36-06:00
 featured_image: ''
@@ -30,7 +31,15 @@ show_reading_time: true
   - [Summary](#summary)
     - [UAV Hardware and Autonomy](#uav-hardware-and-autonomy)
       - [UAV Platforms and Autonomy](#uav-platforms-and-autonomy)
-    - [Sensor Configuration](#sensor-configuration)
+      - [Sensor Configuration](#sensor-configuration)
+      - [Challenges](#challenges)
+    - [Object Detection and Segmentation](#object-detection-and-segmentation)
+      - [Image-Based (2-D)](#image-based-2-d)
+      - [LiDAR-Based (3-D)](#lidar-based-3-d)
+      - [Challenges](#challenges-1)
+    - [Robot Localization and Mapping](#robot-localization-and-mapping)
+      - [Semantic Localization and Mapping](#semantic-localization-and-mapping)
+      - [Challenges](#challenges-2)
   - [Citations](#citations)
 
 ______________________________________________________________________
@@ -92,7 +101,93 @@ A limitation with all of these systems so far is that they are unable to work in
 long range agricultural missions and they are unable to identify objects in real
 time and at scale.
 
-### Sensor Configuration
+#### Sensor Configuration
+
+Sensors on UAVs are used for both autonomy and for collecting mission specific
+data. The most common sensors on UAVs are cameras, inertial measurement units
+(IMUs), LiDARs, and global navigation satellite systems (GNSS). These sensors
+must be lightweight because multirotor UAVs consume 100 - 200 W/kg.
+
+Cameras and IMUs are greate for navigation and obstacle avoidance. However,
+cameras are easily susceptible to changes in lightness and darkness. Thus
+obstacle avoidance becomes difficult when lighting is patchy.
+
+LiDAR sensors can be used to reduce this issue, however, current LiDAR
+technology is expensive, heavy, and still under much research.
+
+GNSS technologies (i.e. GPS) allow for geospatial positioning. However, if there
+are obstacles in the way, the accuracy decreases. There do exists optimizations
+to improve geospatial coordination and positioning, such as GPS ground stations
+(DGPS) and real time kinematics (RTK). However, these solutions must be both
+real time and reliable to resolve accuracy concerns.
+
+#### Challenges
+
+Detection of small obstacles is difficult with conventional camera systems. Thus
+a forward facing, solid state LiDAR solution has been proposed to mitigate this.
+However, the 360 degree view that LiDAR provides is lost because all of the
+LiDAR beams are foccused at the front of the device in order to gain resolution.
+
+Smaller UAVs can be more nimble, however, there is a weight to power and a
+weight to flight time concern with these devices.
+
+Running deep neural network (DNN) algorithms on board a UAV is critical for low
+latency, real time data collection, estimation, and understanding. However,
+current DNN algorithms are computationally expensive to run. It is predicted
+that more efficient algorithms, as well as the usage of AI accelerators, will
+help mitigate this problem.
+
+### Object Detection and Segmentation
+
+Object detection and segmentation are critical to precise agriculture as plant
+or fruit specific data can be captured and acted upon.
+
+#### Image-Based (2-D)
+
+RGB, multi and hyper spectral imaging, thermal, and near-infrared imaging have
+been used to perform object detection on plants. Previous methods involved using
+K-Means algorithms and SVMs to solve dection and segmentation problems.
+Recently, DNN based solutions are becoming more popular and additional sensor
+data from the ground is also inputted into these algorithms to provide more
+accurate results.
+
+#### LiDAR-Based (3-D)
+
+LiDAR based CV solutions are relatively new to the agriculture space. To
+represent the problem domain, LiDAR captures data in the forms including a voxel
+grid, point clouds, and multiview and/or speherical images. It has been found
+that voxel grid based convolutional neural networks (CNNs) are susceptible to
+noise, whereas point clouds are not as affected. It is possible to join LiDAR
+point cloud data and a spherical range image together and pass the union of this
+data into a CNN to reduce information loss \[4\].
+
+#### Challenges
+
+It is difficult to acquire large, high-quality agriculture specific datasets to
+train models on object detection and segmentation. Furthermore, occlusion (e.g
+not being able to see the plant or fruit) is still a problem that is trying to
+be solved.
+
+### Robot Localization and Mapping
+
+Mapping refers to the act of creating an understanding of an environment for an
+autonomous robot to adhere to. Potential solutions require the input of
+knowledge about the structure of the field.
+
+#### Semantic Localization and Mapping
+
+Semantic features allows the robot to generate a meaningful map of the
+environment and assit in pose estimation. The usage of locating and representing
+trees as points of interests has been studied and found to be useful for
+identifying local regions.
+
+#### Challenges
+
+SLAM is able to performing mapping quite well in man made environments. However,
+new technologies must be developed to assist with the mapping of natural
+environments. Active mapping (where an autonomous agent maps out its environment
+in real time) is difficult to do in an agriculture context as fields can be
+quite large and contain a dense information mapping.
 
 ______________________________________________________________________
 
