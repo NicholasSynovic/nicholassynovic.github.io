@@ -184,8 +184,8 @@ No they do not. The name seems misleading without a proper test.
 > My own proposed future directions for the work
 
 I'd like to test variations of MobileNets on modern smartphones, low powered
-devices (i.e. Raspberry Pis, NVIDIA Jetson Nanos), and more powerful devices
-(i.e. laptops) in order to see how far I can push a MobileNet to give real-time
+devices (i.e., Raspberry Pis, NVIDIA Jetson Nanos), and more powerful devices
+(i.e., laptops) in order to see how far I can push a MobileNet to give real-time
 (minimum 24 FPS) inference without compromising on accuracy.
 
 ### Open Questions

@@ -55,10 +55,10 @@ competition.
 Multi-model sentiment analysis (MSA) is taking a variety of data streams and
 information types and extracting sentiment from them. MSA research aims to
 understand the sentiment holder, emotional disposition, and the reference
-object. MSA typically works on video data as it includes visual (e.g. facial
-expressions), audio, and textual (e.g. transcripts) data modalities. Transcripts
-have been found to provide the greatest impact in understanding the topic at
-hand.
+object. MSA typically works on video data as it includes visual (e.g., facial
+expressions), audio, and textual (e.g., transcripts) data modalities.
+Transcripts have been found to provide the greatest impact in understanding the
+topic at hand.
 
 The authors solution learned a continuous vector space of embeddings from the
 symbolic space of words from the transcripts. To identify sentiments, their

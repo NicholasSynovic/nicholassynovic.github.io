@@ -33,7 +33,7 @@ I try my best to keep the website up to date, but no promises!
 
 ## Note About Aritcles on Other Platforms
 
-There is a good chance that I'll be posting articles on other platforms (e.g.
+There is a good chance that I'll be posting articles on other platforms (e.g.,
 [Dev.to](https://dev.to), [Medium](https://medium.com)). However, all articles
 will be originating from or posted to my website as well. This is part of my
 attempt to centralize all of my activity on the Internet for others (and myself)
@@ -83,5 +83,5 @@ To build directories for each protocol:
 3. `git checkout gh-pages`
 4. `./buildGopherGemini.bash`
 
-Output files are stored within their protocol name directories (e.g. `gopher` ->
-gopher/) under the `public/` subfolder.
+Output files are stored within their protocol name directories (e.g., `gopher`
+-> gopher/) under the `public/` subfolder.

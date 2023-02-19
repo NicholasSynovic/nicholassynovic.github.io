@@ -158,7 +158,7 @@ Dropout involves not using the outputs of neurons whose activation is less than
 0.5.
 
 Data augmentation involves manipulating the input images such that 5 244 x 244
-images are derived from one 256 x 256 image (e.g. the four corners and one
+images are derived from one 256 x 256 image (e.g., the four corners and one
 centered). Additionally, PCA was done on the RGB channels of all of the images
 in the ImageNet 2010 and 2012 data sets. These eigenvectors were then added to
 each of the images respective color channels.

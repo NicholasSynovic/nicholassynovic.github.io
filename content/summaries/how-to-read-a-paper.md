@@ -185,7 +185,7 @@ literature review in a new field. This three step process involves a:
 I can see this process being useful for researchers as implementers of other's
 research must accomplish all three steps to properly appreciate and understand
 what they need to do to perform their task. As for the literature review
-framework, it involves utilizing academic search engines (e.g.
+framework, it involves utilizing academic search engines (e.g.,
 [Google Scholar](https://https://scholar.google.com/)) to find work within a
 particular field, finding shared citations or authors within that field, then
 evaluating top conferences within that field to see who the top researchers and

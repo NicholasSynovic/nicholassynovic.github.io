@@ -62,7 +62,7 @@ ______________________________________________________________________
 The paper *Going deeper with convolutions* by Christian Szegedy et al. \[1\]
 describes a 2014 state of the art computer vision model (on the ImageNet
 Large-Scale Visual Recognition Challenge) called GoogLeNet architect ed based on
-Hebbian principles (i.e. neurons that fire together, are wired together)and a
+Hebbian principles (i.e., neurons that fire together, are wired together)and a
 constant computational budget. Their approach relies on creative algorithms and
 neuroscience principles and aims to be a more power efficient model for mobile
 devices by limiting the computations during inference. Additionally, their model
@@ -167,7 +167,7 @@ One assumption that the authors make is that over fitting is more prone to occur
 in large models. Additionally, over fitting can occur when there is not enough
 labeled examples in a data set when a large model is training. Furthermore,
 increasing the size of a model increases the number of computations that must be
-done between layers (e.g. chaining two convolutional layers results in
+done between layers (e.g., chaining two convolutional layers results in
 computation cost quadratic ally increasing) Their solutions relies on moving
 from fully connected to sparsely connected architectures including within
 convolutional layers. Also, their model architecture is based on the idea that
@@ -224,17 +224,17 @@ Inception is a model architecture that is both sparse and (attempts to be)
 computationally efficient during inferencing with only 1.5 billion multiply-add
 operations allowed. Inception models are composed of multiple Inception modules
 that are stacked on top of each other. Each Inception module takes in data from
-the previous layer and passes it into small convolutional filters (i.e. 1x1
+the previous layer and passes it into small convolutional filters (i.e., 1x1
 typically). There are three of these small filters that are wired to the input
 of the Inception module, with one of them connected directly to the output. The
-outputs of two of these filters are then passed into larger filters (i.e. 5x5)
+outputs of two of these filters are then passed into larger filters (i.e., 5x5)
 to which it is then passed into a DepthConcat function. Additionally, a 3x3
 filter is wired to the input of the module and the output of which goes into a
 1x1 filter to be passed into the DepthConcat function as well. From there, it is
 passed into another Inception module and the process repeats.
 
 **Note:** Depth when referring to two dimensional images refers to the color
-channel of the image. As images typically have three color channels (i.e. red,
+channel of the image. As images typically have three color channels (i.e., red,
 green, blue), an image would have a depth of 3.
 
 *Example:* A 200 pixel by 200 pixel full color spectrum image would be

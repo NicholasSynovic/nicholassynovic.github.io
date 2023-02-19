@@ -90,9 +90,9 @@ deployment hardware and solution software.
 > will significantly change the world, but are they far beyond today's
 > technologies?*
 
-Better smart systems (e.g smart homes, retail, factory, transportation, farming,
-etc.) and prediction of natural disasters and phenomenon by utilizing many data
-points can be possible through LPCV.
+Better smart systems (e.g.,, smart homes, retail, factory, transportation,
+farming, etc.) and prediction of natural disasters and phenomenon by utilizing
+many data points can be possible through LPCV.
 
 > *If you have unlimited resources, what would you like to see in the area of
 > LPCV?*

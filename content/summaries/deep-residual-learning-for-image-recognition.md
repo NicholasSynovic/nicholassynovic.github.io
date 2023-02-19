@@ -201,7 +201,7 @@ deep residual learning framework that makes usage of shortcut connections
 (taking the identity function of the previous deep residual block and summing it
 to the output of the current residual learning block) and the ReLU activation
 function to reduce the total number of parameters within the model, while
-dramatically increasing the depth in comparison to former SOTA methods (i.e.
+dramatically increasing the depth in comparison to former SOTA methods (i.e.,
 VGG). The authors found that their deep models achieve SOTA performance on both
 Object Detection (using the Faster-RCNN method) and Image Recognition compared
 to existing SOTA models. Furthermore, they found that the deeper the network,
