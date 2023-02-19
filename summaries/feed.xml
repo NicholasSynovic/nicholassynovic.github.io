@@ -1,4 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Summaries on Nicholas M. Synovic</title><link>https://nsynovic.dev/summaries/</link><description>Recent content in Summaries on Nicholas M. Synovic</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Nicholas M. Synovic</copyright><lastBuildDate>Sun, 26 Jun 2022 21:29:53 -0500</lastBuildDate><atom:link href="https://nsynovic.dev/summaries/feed.xml" rel="self" type="application/rss+xml"/><item><title>A summary of Challenges and Opportunities for Autonomous Micro-UAVs in Precision Agriculture by Xu Liu et al.</title><link>https://nsynovic.dev/summaries/challenges-and-opportunities-for-autonomous-micro-uavs-in-precision-agriculture/</link><pubDate>Sat, 18 Feb 2023 13:08:36 -0600</pubDate><guid>https://nsynovic.dev/summaries/challenges-and-opportunities-for-autonomous-micro-uavs-in-precision-agriculture/</guid><description>&lt;h1 id="a-summary-of-challenges-and-opportunities-for-autonomous-micro-uavs-in-precision-agriculture">A summary of &lt;em>Challenges and Opportunities for Autonomous Micro-UAVs in Precision Agriculture&lt;/em>&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Summaries on Nicholas M. Synovic</title><link>https://nsynovic.dev/summaries/</link><description>Recent content in Summaries on Nicholas M. Synovic</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Nicholas M. Synovic</copyright><lastBuildDate>Sun, 26 Jun 2022 21:29:53 -0500</lastBuildDate><atom:link href="https://nsynovic.dev/summaries/feed.xml" rel="self" type="application/rss+xml"/><item><title>A summary of Advances in Human Activity Recognition by Gulustan Dogan</title><link>https://nsynovic.dev/summaries/advances-in-human-activity-recognition/</link><pubDate>Sat, 18 Feb 2023 18:51:36 -0600</pubDate><guid>https://nsynovic.dev/summaries/advances-in-human-activity-recognition/</guid><description>&lt;h1 id="a-summary-of-advances-in-human-activity-recognition">A summary of &lt;em>Advances in Human Activity Recognition&lt;/em>&lt;/h1>
+&lt;blockquote>
+&lt;p>Gulustan Dogan IEEE Computer Volume 55; Issue 4, 2022 DOI [0]&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="table-of-contents">Table of Contents&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="#a-summary-of-advances-in-human-activity-recognition">A summary of &lt;em>Advances in Human Activity Recognition&lt;/em>&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#table-of-contents">Table of Contents&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#summary">Summary&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#this-method-is-great-when-working-on-raw-data-streams-but-there-do-exist-better-algorithms-and-models-to-handle-visual-representations-of-movement">This method is great when working on raw data streams, but there do exist better algorithms and models to handle visual representations of movement.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#citations">Citations&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="summary">Summary&lt;/h2>
+&lt;p>Human activity recognition (HAR) involves classifying sequences of accelerometer
+data together to identify defined movements. Current solutions involve hand
+crafting features (thereby requiring an expert of the space to assist), or by
+training machine learning models using decision trees.&lt;/p>
+&lt;p>Long short term memory (LSTM) models are currently the most powerful type of
+recurrent neural networks (RNNs). LSTMs are great at identifying and predicting
+sequential information as they take both time and sequence in to account.
+However, LSTMs are computationally expensive.&lt;/p>
+&lt;h2 id="the-current-state-of-the-art-devises-an-algorithm-that-takes-in-raw-signal-or-visual-data-and-can-identify-patterns-and-sequences-of-movement-1-this-method-is-great-when-working-on-raw-data-streams-but-there-do-exist-better-algorithms-and-models-to-handle-visual-representations-of-movement">The current state of the art devises an algorithm that takes in raw signal or visual data, and can identify patterns and sequences of movement [1]. This method is great when working on raw data streams, but there do exist better algorithms and models to handle visual representations of movement.&lt;/h2>
+&lt;h2 id="citations">Citations&lt;/h2>
+Citations availible at https://nsynovic.dev/summaries/advances-in-human-activity-recognition/</description></item><item><title>A summary of Challenges and Opportunities for Autonomous Micro-UAVs in Precision Agriculture by Xu Liu et al.</title><link>https://nsynovic.dev/summaries/challenges-and-opportunities-for-autonomous-micro-uavs-in-precision-agriculture/</link><pubDate>Sat, 18 Feb 2023 13:08:36 -0600</pubDate><guid>https://nsynovic.dev/summaries/challenges-and-opportunities-for-autonomous-micro-uavs-in-precision-agriculture/</guid><description>&lt;h1 id="a-summary-of-challenges-and-opportunities-for-autonomous-micro-uavs-in-precision-agriculture">A summary of &lt;em>Challenges and Opportunities for Autonomous Micro-UAVs in Precision Agriculture&lt;/em>&lt;/h1>
 &lt;blockquote>
 &lt;p>Xu Liu et al. IEEE Computer Volume 55; Issue 4, 2022 DOI [0]&lt;/p>
 &lt;/blockquote>
@@ -88,8 +115,8 @@ time and at scale.&lt;/p>
 &lt;p>Sensors on UAVs are used for both autonomy and for collecting mission specific
 data. The most common sensors on UAVs are cameras, inertial measurement units
 (IMUs), LiDARs, and global navigation satellite systems (GNSS). These sensors
-must be lightweight because multirotor UAVs consume 100 - 200 W/kg.&lt;/p>
-&lt;p>Cameras and IMUs are greate for navigation and obstacle avoidance. However,
+must be lightweight because multi-rotor UAVs consume 100 - 200 W/kg.&lt;/p>
+&lt;p>Cameras and IMUs are great for navigation and obstacle avoidance. However,
 cameras are easily susceptible to changes in lightness and darkness. Thus
 obstacle avoidance becomes difficult when lighting is patchy.&lt;/p>
 &lt;p>LiDAR sensors can be used to reduce this issue, however, current LiDAR
@@ -103,7 +130,7 @@ real time and reliable to resolve accuracy concerns.&lt;/p>
 &lt;p>Detection of small obstacles is difficult with conventional camera systems. Thus
 a forward facing, solid state LiDAR solution has been proposed to mitigate this.
 However, the 360 degree view that LiDAR provides is lost because all of the
-LiDAR beams are foccused at the front of the device in order to gain resolution.&lt;/p>
+LiDAR beams are focused at the front of the device in order to gain resolution.&lt;/p>
 &lt;p>Smaller UAVs can be more nimble, however, there is a weight to power and a
 weight to flight time concern with these devices.&lt;/p>
 &lt;p>Running deep neural network (DNN) algorithms on board a UAV is critical for low
@@ -117,14 +144,14 @@ or fruit specific data can be captured and acted upon.&lt;/p>
 &lt;h4 id="image-based-2-d">Image-Based (2-D)&lt;/h4>
 &lt;p>RGB, multi and hyper spectral imaging, thermal, and near-infrared imaging have
 been used to perform object detection on plants. Previous methods involved using
-K-Means algorithms and SVMs to solve dection and segmentation problems.
+K-Means algorithms and SVMs to solve detection and segmentation problems.
 Recently, DNN based solutions are becoming more popular and additional sensor
 data from the ground is also inputted into these algorithms to provide more
 accurate results.&lt;/p>
 &lt;h4 id="lidar-based-3-d">LiDAR-Based (3-D)&lt;/h4>
 &lt;p>LiDAR based CV solutions are relatively new to the agriculture space. To
 represent the problem domain, LiDAR captures data in the forms including a voxel
-grid, point clouds, and multiview and/or speherical images. It has been found
+grid, point clouds, and multi-view and/or spherical images. It has been found
 that voxel grid based convolutional neural networks (CNNs) are susceptible to
 noise, whereas point clouds are not as affected. It is possible to join LiDAR
 point cloud data and a spherical range image together and pass the union of this
@@ -140,9 +167,9 @@ autonomous robot to adhere to. Potential solutions require the input of
 knowledge about the structure of the field.&lt;/p>
 &lt;h4 id="semantic-localization-and-mapping">Semantic Localization and Mapping&lt;/h4>
 &lt;p>Semantic features allows the robot to generate a meaningful map of the
-environment and assit in pose estimation. The usage of locating and representing
-trees as points of interests has been studied and found to be useful for
-identifying local regions.&lt;/p>
+environment and assist in pose estimation. The usage of locating and
+representing trees as points of interests has been studied and found to be
+useful for identifying local regions.&lt;/p>
 &lt;h4 id="challenges-2">Challenges&lt;/h4>
 &lt;p>SLAM is able to performing mapping quite well in man made environments. However,
 new technologies must be developed to assist with the mapping of natural
