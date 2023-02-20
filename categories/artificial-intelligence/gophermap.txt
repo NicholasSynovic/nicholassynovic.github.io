@@ -8,7 +8,5 @@
 
 1A summary of The Ten Commandments of Ethical Medical AI by Heimo Muller et al.	/summaries/the-ten-commandments-of-ethical-medical-ai
 
-1A summary of Going deeper with convolutions by Christian Szegedy et al.	/summaries/going-deeper-with-convolutions
-
 
 .

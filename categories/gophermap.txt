@@ -42,8 +42,6 @@
 
 1machine learning architecture	/categories/machine-learning-architecture
 
-1machine learning	/categories/machine-learning
-
 1arXive	/categories/arxive
 
 1ICLR	/categories/iclr
@@ -282,11 +280,15 @@
 
 1internet of things	/categories/internet-of-things
 
-1summary	/categories/summary
-
 1security	/categories/security
 
+1summary	/categories/summary
+
 1magazine	/categories/magazine
+
+1machine learning	/categories/machine-learning
+
+1artificial intelligence	/categories/artificial-intelligence
 
 1article	/categories/article
 
