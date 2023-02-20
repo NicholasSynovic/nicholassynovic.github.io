@@ -1,0 +1,18 @@
+!A summary of Supercomputing In Python With Legate by Michael Bauer et al.
+
+Sunday, February 19, 2023 · 2 minute read
+
+A summary of Supercomputing In Python With Legate Michael Bauer et al. IEEE Computing Edge, October 2022 DOI [0]
+Table of Contents A summary of Supercomputing In Python With Legate Table of Contents Summary Supercomputing With Numpy Programming System Composable Ecosystem Citations Summary Numpy and Pandas are software packages that aid in the development of mathematical software because their notations mimic that of scientific and mathematical notation. However, neither package scales to modern HPC. Thus Legate was developed to mimic the interfaces that both Numpy and Pandas provide while being able to scale to many computing resources.
+Supercomputing With Numpy Numpy syntax is compact and able to concisely express mathematical operations. Additionally, Numpy operations offer themselves to parallelization easily. However, vanilla Numpy doesn&rsquo;t natively support these parallelization optimizations. Therefore a number of efforts exist to implement these optimizations. Legate supports these operations and fall backs to single-core performance when it doesn&rsquo;t.
+Legate defines a common data model that can be used to expand Numpy&rsquo;s memory allocation and library extensions.
+Legate&rsquo;s extensions to Numpy provide access to data parallel operations that vanilla Numpy and similar alternatives to Legate don&rsquo;t offer.
+Programming System Legate is built on top of Legion, which acts as a dynamic programming system for HPC. When a call is made from Legate, Legion is able to interpret this code and distribute it to many nodes. Legion may also reorder Legate calls for better performance.
+This was done to avoid compiling Legate-Numpy code into an optimized program for HPC.
+Composable Ecosystem Legate aims to be a building block for other Numpy based libraries to be based off of. As an example of this, Legate Pandas was created as a Pandas alternative complete with parallelization optimizations.
+An advantage of building off of Legate and Legion is that the communication and protocol layer already exist, thereby allowing developers to easily extend these applications to their respective purposes.
+Citations 
+
+h0. https://doi.org/10.1109/MCSE.2021.3088239	URL:https://doi.org/10.1109/MCSE.2021.3088239
+
+.

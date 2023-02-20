@@ -1,4 +1,58 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>summary on Nicholas M. Synovic</title><link>https://nsynovic.dev/categories/summary/</link><description>Recent content in summary on Nicholas M. Synovic</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Nicholas M. Synovic</copyright><lastBuildDate>Sun, 19 Feb 2023 20:40:07 -0600</lastBuildDate><atom:link href="https://nsynovic.dev/categories/summary/feed.xml" rel="self" type="application/rss+xml"/><item><title>A summary of Interactive Supercomputing With Jupyter by Rollin Thomas et al.</title><link>https://nsynovic.dev/summaries/interactive-supercomputing-with-jupyter/</link><pubDate>Sun, 19 Feb 2023 20:40:07 -0600</pubDate><guid>https://nsynovic.dev/summaries/interactive-supercomputing-with-jupyter/</guid><description>&lt;h1 id="a-summary-of-interactive-supercomputing-with-jupyter">A summary of &lt;em>Interactive Supercomputing With Jupyter&lt;/em>&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>summary on Nicholas M. Synovic</title><link>https://nsynovic.dev/categories/summary/</link><description>Recent content in summary on Nicholas M. Synovic</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Nicholas M. Synovic</copyright><lastBuildDate>Sun, 19 Feb 2023 21:34:36 -0600</lastBuildDate><atom:link href="https://nsynovic.dev/categories/summary/feed.xml" rel="self" type="application/rss+xml"/><item><title>A summary of Supercomputing In Python With Legate by Michael Bauer et al.</title><link>https://nsynovic.dev/summaries/supercomputing-in-python-with-legate/</link><pubDate>Sun, 19 Feb 2023 21:34:36 -0600</pubDate><guid>https://nsynovic.dev/summaries/supercomputing-in-python-with-legate/</guid><description>&lt;h1 id="a-summary-of-supercomputing-in-python-with-legate">A summary of &lt;em>Supercomputing In Python With Legate&lt;/em>&lt;/h1>
+&lt;blockquote>
+&lt;p>Michael Bauer et al. IEEE Computing Edge, October 2022 DOI [0]&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="table-of-contents">Table of Contents&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="#a-summary-of-supercomputing-in-python-with-legate">A summary of &lt;em>Supercomputing In Python With Legate&lt;/em>&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#table-of-contents">Table of Contents&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#summary">Summary&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#supercomputing-with-numpy">Supercomputing With Numpy&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#programming-system">Programming System&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#composable-ecosystem">Composable Ecosystem&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#citations">Citations&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="summary">Summary&lt;/h2>
+&lt;p>Numpy and Pandas are software packages that aid in the development of
+mathematical software because their notations mimic that of scientific and
+mathematical notation. However, neither package scales to modern HPC. Thus
+Legate was developed to mimic the interfaces that both Numpy and Pandas provide
+while being able to scale to many computing resources.&lt;/p>
+&lt;h3 id="supercomputing-with-numpy">Supercomputing With Numpy&lt;/h3>
+&lt;p>Numpy syntax is compact and able to concisely express mathematical operations.
+Additionally, Numpy operations offer themselves to parallelization easily.
+However, vanilla Numpy doesn&amp;rsquo;t natively support these parallelization
+optimizations. Therefore a number of efforts exist to implement these
+optimizations. Legate supports these operations and fall backs to single-core
+performance when it doesn&amp;rsquo;t.&lt;/p>
+&lt;p>Legate defines a common data model that can be used to expand Numpy&amp;rsquo;s memory
+allocation and library extensions.&lt;/p>
+&lt;p>Legate&amp;rsquo;s extensions to Numpy provide access to data parallel operations that
+vanilla Numpy and similar alternatives to Legate don&amp;rsquo;t offer.&lt;/p>
+&lt;h3 id="programming-system">Programming System&lt;/h3>
+&lt;p>Legate is built on top of Legion, which acts as a dynamic programming system for
+HPC. When a call is made from Legate, Legion is able to interpret this code and
+distribute it to many nodes. Legion may also reorder Legate calls for better
+performance.&lt;/p>
+&lt;p>This was done to avoid compiling Legate-Numpy code into an optimized program for
+HPC.&lt;/p>
+&lt;h3 id="composable-ecosystem">Composable Ecosystem&lt;/h3>
+&lt;p>Legate aims to be a building block for other Numpy based libraries to be based
+off of. As an example of this, Legate Pandas was created as a Pandas alternative
+complete with parallelization optimizations.&lt;/p>
+&lt;p>An advantage of building off of Legate and Legion is that the communication and
+protocol layer already exist, thereby allowing developers to easily extend these
+applications to their respective purposes.&lt;/p>
+&lt;hr>
+&lt;h2 id="citations">Citations&lt;/h2>
+Citations availible at https://nsynovic.dev/summaries/supercomputing-in-python-with-legate/</description></item><item><title>A summary of Interactive Supercomputing With Jupyter by Rollin Thomas et al.</title><link>https://nsynovic.dev/summaries/interactive-supercomputing-with-jupyter/</link><pubDate>Sun, 19 Feb 2023 20:40:07 -0600</pubDate><guid>https://nsynovic.dev/summaries/interactive-supercomputing-with-jupyter/</guid><description>&lt;h1 id="a-summary-of-interactive-supercomputing-with-jupyter">A summary of &lt;em>Interactive Supercomputing With Jupyter&lt;/em>&lt;/h1>
 &lt;blockquote>
 &lt;p>Rollin Thomas et al.; IEEE Computing Edge, October 2022 DOI [0]&lt;/p>
 &lt;/blockquote>

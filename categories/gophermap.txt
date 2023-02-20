@@ -274,11 +274,13 @@
 
 1from the editors	/categories/from-the-editors
 
+1leadership computing	/categories/leadership-computing
+
 1summary	/categories/summary
 
-1magazine	/categories/magazine
+1scientific programming	/categories/scientific-programming
 
-1leadership computing	/categories/leadership-computing
+1magazine	/categories/magazine
 
 1article	/categories/article
 
