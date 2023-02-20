@@ -2,8 +2,8 @@
 title: 'A summary of Automated Payment Terminal Testing: How to Achieve Continuous
   Integration for Systems that are Almost Impossible to Virtualize by Martin Gloor
   et al.'
-description: Posted in IEEE Computer Volume 55; Issue 4, 2022
-summary: Posted in IEEE Computer Volume 55; Issue 4, 2022
+description: Posted in IEEE Computing Edge, December 2022
+summary: Posted in IEEE Computing Edge, December 2022
 
 categories: [summary, magazine, article]
 citations: [https://doi.org/10.1109/MS.2021.3094955]
@@ -22,7 +22,7 @@ show_reading_time: true
 
 # A summary of *Automated Payment Terminal Testing: How to Achieve Continuous Integration for Systems that are Almost Impossible to Virtualize*
 
-> Martin Gloor et al. IEEE Computer Volume 55; Issue 4, 2022 DOI \[0\]
+> Martin Gloor et al. IEEE Computing Edge, December 2022 DOI \[0\]
 
 ## Table of Contents
 

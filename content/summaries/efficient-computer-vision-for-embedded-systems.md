@@ -1,8 +1,8 @@
 ---
 title: A summary of Efficient Computer Vision for Embedded Systems by George K. Thiruvathukal
   and Yung-Hsiang Lu
-description: Posted in IEEE Computer Volume 55; Issue 4, 2022
-summary: Posted in IEEE Computer Volume 55; Issue 4, 2022
+description: Posted in IEEE Computing Edge, December 2022
+summary: Posted in IEEE Computing Edge, December 2022
 
 categories: [summary, magazine, article, round table, discussion]
 citations: [https://doi.org/10.1109/MC.2022.3145677, https://lpcv.ai, https://www.computer.org/communities/technical-committees/tcpami,
@@ -22,8 +22,8 @@ show_reading_time: true
 
 # A summary of *A summary of Efficient Computer Vision for Embedded Systems* \[0\]
 
-> George K. Thiruvathukal and Yung-Hsiang Lu IEEE Computer Volume 55; Issue 4,
-> 2022 [DOI](https://doi.org/10.1109/MC.2022.3145677)
+> George K. Thiruvathukal and Yung-Hsiang Lu; IEEE Computing Edge, December
+> 2022, 2022 [DOI](https://doi.org/10.1109/MC.2022.3145677)
 
 For the summary of the paper, go to the [Summary](#summary) section of this
 article.

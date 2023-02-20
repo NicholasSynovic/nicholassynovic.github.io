@@ -1,7 +1,7 @@
 ---
 title: A summary of Advances in Human Activity Recognition by Gulustan Dogan
-description: Posted in IEEE Computer Volume 55; Issue 4, 2022
-summary: Posted in IEEE Computer Volume 55; Issue 4, 2022
+description: Posted in IEEE Computing Edge, December 2022
+summary: Posted in IEEE Computing Edge, December 2022
 
 categories: [summary, magazine, article]
 citations: [https://doi.ieeecomputersociety.org/10.1109/MC.2021.3055671, https://doi.org/10.1109/TPAMI.2018.2874455]
@@ -20,7 +20,7 @@ show_reading_time: true
 
 # A summary of *Advances in Human Activity Recognition*
 
-> Gulustan Dogan IEEE Computer Volume 55; Issue 4, 2022 DOI \[0\]
+> Gulustan Dogan IEEE Computing Edge, December 2022 DOI \[0\]
 
 ## Table of Contents
 

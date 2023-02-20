@@ -1,7 +1,7 @@
 ---
 title: A summary of Toward Fail Safety for Security Decisions by Trent Jaeger
-description: Posted in IEEE Computer Volume 55; Issue 4, 2022
-summary: Posted in IEEE Computer Volume 55; Issue 4, 2022
+description: Posted in IEEE Computing Edge, December 2022
+summary: Posted in IEEE Computing Edge, December 2022
 
 categories: [summary, magazine, article, from the editors]
 citations: [https://doi.org/10.1109/MSEC.2021.3096614]
@@ -20,7 +20,7 @@ show_reading_time: true
 
 # A summary of *Toward Fail Safety for Security Decisions*
 
-> Trent Jaeger IEEE Computer Volume 55; Issue 4, 2022 DOI \[0\]
+> Trent Jaeger IEEE Computing Edge, December 2022 DOI \[0\]
 
 ## Table of Contents
 

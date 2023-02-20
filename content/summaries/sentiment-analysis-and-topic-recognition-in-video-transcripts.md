@@ -1,8 +1,8 @@
 ---
 title: A summary of Sentiment Analysis and Topic Recognition in Video Transcripts
   by Lukas Stappen et al.
-description: Posted in IEEE Computer Volume 55; Issue 4, 2022
-summary: Posted in IEEE Computer Volume 55; Issue 4, 2022
+description: Posted in IEEE Computing Edge, December 2022
+summary: Posted in IEEE Computing Edge, December 2022
 
 categories: [summary, magazine, article, affective computing and sentiment analysis]
 citations: [https://doi.org/10.1109/MIS.2021.3062200, https://doi.org/10.1109/MIS.2020.2992799,
@@ -22,8 +22,7 @@ show_reading_time: true
 
 # A summary of *Sentiment Analysis and Topic Recognition in Video Transcripts*
 
-> Lukas Stappen et al. Posted in IEEE Computer Volume 55; Issue 4, 2022 DOI
-> \[0\]
+> Lukas Stappen et al. Posted in IEEE Computing Edge, December 2022 DOI \[0\]
 
 ## Table of Contents
 

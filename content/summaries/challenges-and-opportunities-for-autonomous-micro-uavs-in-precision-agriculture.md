@@ -1,8 +1,8 @@
 ---
 title: A summary of Challenges and Opportunities for Autonomous Micro-UAVs in Precision
   Agriculture by Xu Liu et al.
-description: Posted in IEEE Computer Volume 55; Issue 4, 2022
-summary: Posted in IEEE Computer Volume 55; Issue 4, 2022
+description: Posted in IEEE Computing Edge, December 2022
+summary: Posted in IEEE Computing Edge, December 2022
 
 categories: [summary, magazine, article, expert opinion]
 citations: [https://doi.org/10.1109/MM.2021.3134744, https://doi.org/10.1109/ICRA.2018.8463214,
@@ -22,7 +22,7 @@ show_reading_time: true
 
 # A summary of *Challenges and Opportunities for Autonomous Micro-UAVs in Precision Agriculture*
 
-> Xu Liu et al. IEEE Computer Volume 55; Issue 4, 2022 DOI \[0\]
+> Xu Liu et al. IEEE Computing Edge, December 2022 DOI \[0\]
 
 ## Table of Contents
 
