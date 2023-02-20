@@ -1,15 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>article on Nicholas M. Synovic</title><link>https://nsynovic.dev/categories/article/</link><description>Recent content in article on Nicholas M. Synovic</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Nicholas M. Synovic</copyright><lastBuildDate>Sun, 19 Feb 2023 20:40:07 -0600</lastBuildDate><atom:link href="https://nsynovic.dev/categories/article/feed.xml" rel="self" type="application/rss+xml"/><item><title>A summary of Interactive Supercomputing With Jupyter by Rollin Thomas et al.</title><link>https://nsynovic.dev/summaries/interactive-supercomputing-with-jupyter/</link><pubDate>Sun, 19 Feb 2023 20:40:07 -0600</pubDate><guid>https://nsynovic.dev/summaries/interactive-supercomputing-with-jupyter/</guid><description>&lt;h1 id="a-summary-of-title">A summary of &lt;em>TITLE&lt;/em>&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>article on Nicholas M. Synovic</title><link>https://nsynovic.dev/categories/article/</link><description>Recent content in article on Nicholas M. Synovic</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Nicholas M. Synovic</copyright><lastBuildDate>Sun, 19 Feb 2023 20:40:07 -0600</lastBuildDate><atom:link href="https://nsynovic.dev/categories/article/feed.xml" rel="self" type="application/rss+xml"/><item><title>A summary of Interactive Supercomputing With Jupyter by Rollin Thomas et al.</title><link>https://nsynovic.dev/summaries/interactive-supercomputing-with-jupyter/</link><pubDate>Sun, 19 Feb 2023 20:40:07 -0600</pubDate><guid>https://nsynovic.dev/summaries/interactive-supercomputing-with-jupyter/</guid><description>&lt;h1 id="a-summary-of-interactive-supercomputing-with-jupyter">A summary of &lt;em>Interactive Supercomputing With Jupyter&lt;/em>&lt;/h1>
 &lt;blockquote>
-&lt;p>Author names Journal | Confrence | etc., Year DOI&lt;/p>
+&lt;p>Rollin Thomas et al.; IEEE Computing Edge, October 2022 DOI [0]&lt;/p>
 &lt;/blockquote>
 &lt;h2 id="table-of-contents">Table of Contents&lt;/h2>
 &lt;ul>
-&lt;li>&lt;a href="#a-summary-of-title">A summary of &lt;em>TITLE&lt;/em>&lt;/a>
+&lt;li>&lt;a href="#a-summary-of-interactive-supercomputing-with-jupyter">A summary of &lt;em>Interactive Supercomputing With Jupyter&lt;/em>&lt;/a>
 &lt;ul>
 &lt;li>&lt;a href="#table-of-contents">Table of Contents&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#summary">Summary&lt;/a>
 &lt;ul>
-&lt;li>&lt;a href="#section-1">Section 1&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#how-it-started-and-how-its-going">How It Started And How It&amp;rsquo;s Going&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#phase-1-jupyterhub-as-science-gateway">Phase 1: JupyterHub as Science Gateway&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#phase-2-jupyter-on-a-cori-login-node">Phase 2: Jupyter on a Cori Login Node&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#phase-3-jupyter-as-interface-to-an-hpc-center">Phase 3: Jupyter as Interface to an HPC Center&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#phase-4-jupyterlab-as-innovation-platform">Phase 4: JupyterLab as Innovation Platform&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#jupyter--hpc--science">Jupyter + HPC = Science!&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;li>&lt;a href="#citations">Citations&lt;/a>&lt;/li>
@@ -18,7 +26,45 @@
 &lt;/ul>
 &lt;hr>
 &lt;h2 id="summary">Summary&lt;/h2>
-&lt;h3 id="section-1">Section 1&lt;/h3>
+&lt;p>The Jupyter project has the potential to allow other scientific domains to
+utilize supercomputing resources in an accessible manner. The National Energy
+Research Scientific Computing Center (NERSC) has implemented a Jupyter interface
+into their Cori supercomputer. This interface now captures 20% - 25% of user
+traffic when working on Cori.&lt;/p>
+&lt;h3 id="how-it-started-and-how-its-going">How It Started And How It&amp;rsquo;s Going&lt;/h3>
+&lt;p>In 2015, NERSC recognized that a growing number of users were using SSH to run
+their Jupyter notebooks on the previous generation Edison supercomputer. As
+such, NERSC began looking into how to incorporate Jupyter notebooks as a
+standard interface into Cori.&lt;/p>
+&lt;h4 id="phase-1-jupyterhub-as-science-gateway">Phase 1: JupyterHub as Science Gateway&lt;/h4>
+&lt;p>NERSC implemented a separate hardware solution to host JupyterHub. This
+JupyterHub instance allowed users to store their notebooks on the NERSC Global
+Filesystem (NGF), which allowed teams and individuals to collaborate and run
+shared notebooks.&lt;/p>
+&lt;h4 id="phase-2-jupyter-on-a-cori-login-node">Phase 2: Jupyter on a Cori Login Node&lt;/h4>
+&lt;p>Jupyter was than ran on login nodes with outputs piped to computation nodes. The
+architecture and hosting of both the Jupyter and JupyterHub instances kept
+changing hardware and which confused end users.&lt;/p>
+&lt;h4 id="phase-3-jupyter-as-interface-to-an-hpc-center">Phase 3: Jupyter as Interface to an HPC Center&lt;/h4>
+&lt;p>JupyterHub was moved to a Docker container and hosted on Cori. It now acts as
+the single point of access for running Jupyter notebooks on Cori, specialty
+servers, and staff only test servers.&lt;/p>
+&lt;h4 id="phase-4-jupyterlab-as-innovation-platform">Phase 4: JupyterLab as Innovation Platform&lt;/h4>
+&lt;p>JupyterLab is a product from the Jupyter project aimed at collaboration and
+provides many improvements on top of the standard Jupyter project. Such
+improvements include better file system navigation and reusability and
+reproducibility of notebook experiments. NERSC has created a number of
+extensions to support JupyterLab on Cori, including file system navigation
+extensions, and &lt;code>jupyterlab-slurm&lt;/code> for adding &lt;code>SLURM&lt;/code> job scheduling directly
+within JupyterLab.&lt;/p>
+&lt;h3 id="jupyter--hpc--science">Jupyter + HPC = Science!&lt;/h3>
+&lt;p>A number of disciplines now rely on Jupyter to perform calculations on the Cori
+supercomputer. These include:&lt;/p>
+&lt;ul>
+&lt;li>Geophysical Subsurface Imaging&lt;/li>
+&lt;li>Electron Microscope Image Analysis&lt;/li>
+&lt;li>Advanced Light Source Tomography&lt;/li>
+&lt;/ul>
 &lt;hr>
 &lt;h2 id="citations">Citations&lt;/h2>
 Citations availible at https://nsynovic.dev/summaries/interactive-supercomputing-with-jupyter/</description></item><item><title>A summary of Automated Payment Terminal Testing: How to Achieve Continuous Integration for Systems that are Almost Impossible to Virtualize by Martin Gloor et al.</title><link>https://nsynovic.dev/summaries/automated-payment-terminal-testing-how-to-achieve-continuous-integration-for-systems-that-are-almost-impossible-to-virtualize/</link><pubDate>Sun, 19 Feb 2023 15:42:36 -0600</pubDate><guid>https://nsynovic.dev/summaries/automated-payment-terminal-testing-how-to-achieve-continuous-integration-for-systems-that-are-almost-impossible-to-virtualize/</guid><description>&lt;h1 id="a-summary-of-automated-payment-terminal-testing-how-to-achieve-continuous-integration-for-systems-that-are-almost-impossible-to-virtualize">A summary of &lt;em>Automated Payment Terminal Testing: How to Achieve Continuous Integration for Systems that are Almost Impossible to Virtualize&lt;/em>&lt;/h1>
