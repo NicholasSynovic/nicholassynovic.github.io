@@ -6,6 +6,8 @@
 > These posts are mirrored from my HTTP site.
 
 
+1A summary of Smart Contracts In The Global South by Nir Kshetri et al.	/summaries/smart-contracts-in-the-global-south
+
 1A summary of Economics of Artificial Intelligence in Cybersecurity by Nir Kshetri	/summaries/economics-of-artificial-intelligence-in-cybersecurity
 
 

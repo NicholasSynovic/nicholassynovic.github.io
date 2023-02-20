@@ -268,19 +268,19 @@
 
 1affective computing and sentiment analysis	/categories/affective-computing-and-sentiment-analysis
 
-1it economics	/categories/it-economics
-
 1pervasive security and privacy	/categories/pervasive-security-and-privacy
 
 1from the editors	/categories/from-the-editors
 
 1leadership computing	/categories/leadership-computing
 
-1summary	/categories/summary
-
 1scientific programming	/categories/scientific-programming
 
+1summary	/categories/summary
+
 1magazine	/categories/magazine
+
+1it economics	/categories/it-economics
 
 1article	/categories/article
 

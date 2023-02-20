@@ -6,6 +6,8 @@
 > These posts are mirrored from my HTTP site.
 
 
+1A summary of Smart Contracts In The Global South by Nir Kshetri et al.	/summaries/smart-contracts-in-the-global-south
+
 1A summary of Supercomputing In Python With Legate by Michael Bauer et al.	/summaries/supercomputing-in-python-with-legate
 
 1A summary of Interactive Supercomputing With Jupyter by Rollin Thomas et al.	/summaries/interactive-supercomputing-with-jupyter

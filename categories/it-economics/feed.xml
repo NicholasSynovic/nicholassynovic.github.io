@@ -1,4 +1,69 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>it economics on Nicholas M. Synovic</title><link>https://nsynovic.dev/categories/it-economics/</link><description>Recent content in it economics on Nicholas M. Synovic</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Nicholas M. Synovic</copyright><lastBuildDate>Sun, 19 Feb 2023 10:16:22 -0600</lastBuildDate><atom:link href="https://nsynovic.dev/categories/it-economics/feed.xml" rel="self" type="application/rss+xml"/><item><title>A summary of Economics of Artificial Intelligence in Cybersecurity by Nir Kshetri</title><link>https://nsynovic.dev/summaries/economics-of-artificial-intelligence-in-cybersecurity/</link><pubDate>Sun, 19 Feb 2023 10:16:22 -0600</pubDate><guid>https://nsynovic.dev/summaries/economics-of-artificial-intelligence-in-cybersecurity/</guid><description>&lt;h1 id="a-summary-of-economics-of-artificial-intelligence-in-cybersecurity">A summary of &lt;em>Economics of Artificial Intelligence in Cybersecurity&lt;/em>&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>it economics on Nicholas M. Synovic</title><link>https://nsynovic.dev/categories/it-economics/</link><description>Recent content in it economics on Nicholas M. Synovic</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Nicholas M. Synovic</copyright><lastBuildDate>Sun, 19 Feb 2023 21:51:58 -0600</lastBuildDate><atom:link href="https://nsynovic.dev/categories/it-economics/feed.xml" rel="self" type="application/rss+xml"/><item><title>A summary of Smart Contracts In The Global South by Nir Kshetri et al.</title><link>https://nsynovic.dev/summaries/smart-contracts-in-the-global-south/</link><pubDate>Sun, 19 Feb 2023 21:51:58 -0600</pubDate><guid>https://nsynovic.dev/summaries/smart-contracts-in-the-global-south/</guid><description>&lt;h1 id="a-summary-of-smart-contracts-in-the-global-south">A summary of &lt;em>Smart Contracts In the Global South&lt;/em>&lt;/h1>
+&lt;blockquote>
+&lt;p>Nir Kshetri et al. IEEE Computing Edge, October 2022 DOI [0]&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="table-of-contents">Table of Contents&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="#a-summary-of-smart-contracts-in-the-global-south">A summary of &lt;em>Smart Contracts In the Global South&lt;/em>&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#table-of-contents">Table of Contents&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#summary">Summary&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#contract-laws-and-their-enforcement-in-southern-countries">Contract Laws And Their Enforcement In Southern Countries&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#transaction-costs-associated-with-a-contract-in-southern-economies">Transaction costs Associated With a Contract in Southern Economies&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#smart-contracts-and-the-role-of-blockchain">Smart Contracts And The Role Of Blockchain&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#barriers-and-challenges">Barriers And Challenges&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#citations">Citations&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="summary">Summary&lt;/h2>
+&lt;blockquote>
+&lt;p>&amp;ldquo;Southern countries&amp;rdquo; refer to developing nations or countries.&lt;/p>
+&lt;/blockquote>
+&lt;p>Smart contracts are programs written on a blockchain that are executed once
+certain conditions are met. These contracts could be used to enforce contract
+laws and benefit economies in Southern countries.&lt;/p>
+&lt;h3 id="contract-laws-and-their-enforcement-in-southern-countries">Contract Laws And Their Enforcement In Southern Countries&lt;/h3>
+&lt;p>Formal contracts are legal documents that lay out the rights that parties are
+entitled to, the rules they are bound to, and the punishments that they will
+experience if they break any rules. Southern countries often do not engage in
+formal contracts. Rather informal, repeat agreements are often enough to create
+a sense of trust between parties. However, as economies improve, the need for
+formal contracts arise as huge investments are often made to support the growth
+of these economies.&lt;/p>
+&lt;h4 id="transaction-costs-associated-with-a-contract-in-southern-economies">Transaction costs Associated With a Contract in Southern Economies&lt;/h4>
+&lt;p>Both judicial misconduct and judicial error occur around the world. Judicial
+misconduct is when a corruption-related action is taken by a judge. Judicial
+error is when the courts make an error.&lt;/p>
+&lt;h3 id="smart-contracts-and-the-role-of-blockchain">Smart Contracts And The Role Of Blockchain&lt;/h3>
+&lt;p>Contracts are difficult to enforce outside of small communities in Southern
+countries. Smart contracts were envisioned in the 1990s, but prior to the
+blockchain were rarely utilized. Pre-blockchain smart contracts relied on cloud
+computing, but in Southern countries, that might not be available or reliable.&lt;/p>
+&lt;p>However, block chain based smart contracts work on a distributed network and can
+be enforced as the rules and policies are described within the contract. These
+smart contracts can be written above or on the block chain. Above the block
+chain means that data is fed into the block chain. Whereas on the block chain
+refers to the smart contract existing on the block chain. Regardless, smart
+contracts require oracles that provide information outside of the block chain
+into the smart contract to enact changes or code.&lt;/p>
+&lt;h3 id="barriers-and-challenges">Barriers And Challenges&lt;/h3>
+&lt;p>Currently, there are not block chain specific or governing bodies that are
+standardizing or regulating smart contracts. It might not be possible to
+regulate or standardize smart contracts as well.&lt;/p>
+&lt;p>Large populations within Southern countries lack internet access, making smart
+contracts difficult to enact in the first place. There is also a general lack of
+blockchain developers and engineers.&lt;/p>
+&lt;hr>
+&lt;h2 id="citations">Citations&lt;/h2>
+Citations availible at https://nsynovic.dev/summaries/smart-contracts-in-the-global-south/</description></item><item><title>A summary of Economics of Artificial Intelligence in Cybersecurity by Nir Kshetri</title><link>https://nsynovic.dev/summaries/economics-of-artificial-intelligence-in-cybersecurity/</link><pubDate>Sun, 19 Feb 2023 10:16:22 -0600</pubDate><guid>https://nsynovic.dev/summaries/economics-of-artificial-intelligence-in-cybersecurity/</guid><description>&lt;h1 id="a-summary-of-economics-of-artificial-intelligence-in-cybersecurity">A summary of &lt;em>Economics of Artificial Intelligence in Cybersecurity&lt;/em>&lt;/h1>
 &lt;blockquote>
 &lt;p>Nir Kshetri IEEE Computing Edge, December 2022 DOI [0]&lt;/p>
 &lt;/blockquote>
