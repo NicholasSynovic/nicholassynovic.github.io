@@ -6,6 +6,8 @@
 > These posts are mirrored from my HTTP site.
 
 
+1A summary of Hidden Potential Within Video Game Consoles by Michael Mattioli et al.	/summaries/hidden-potential-within-video-game-consoles
+
 1Why Sign Commits?	why-sign-commits
 
 

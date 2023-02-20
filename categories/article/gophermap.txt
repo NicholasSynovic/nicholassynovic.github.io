@@ -6,6 +6,8 @@
 > These posts are mirrored from my HTTP site.
 
 
+1A summary of Hidden Potential Within Video Game Consoles by Michael Mattioli et al.	/summaries/hidden-potential-within-video-game-consoles
+
 1A summary of Whack-a-Meltdown by Daniel Genkin and Yuval Yarom	/summaries/whack-a-meltdown
 
 1A summary of COM-PACE: Compliance Aware Cloud Application Engineering Using Blockchain by Gagangeet Singh Aujla et al.	/summaries/com-pace-compliance-aware-cloud-application-engineering-using-blockchain

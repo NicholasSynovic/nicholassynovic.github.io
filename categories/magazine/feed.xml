@@ -1,4 +1,58 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>magazine on Nicholas M. Synovic</title><link>https://nsynovic.dev/categories/magazine/</link><description>Recent content in magazine on Nicholas M. Synovic</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Nicholas M. Synovic</copyright><lastBuildDate>Mon, 20 Feb 2023 08:34:58 -0600</lastBuildDate><atom:link href="https://nsynovic.dev/categories/magazine/feed.xml" rel="self" type="application/rss+xml"/><item><title>A summary of Whack-a-Meltdown by Daniel Genkin and Yuval Yarom</title><link>https://nsynovic.dev/summaries/whack-a-meltdown/</link><pubDate>Mon, 20 Feb 2023 08:34:58 -0600</pubDate><guid>https://nsynovic.dev/summaries/whack-a-meltdown/</guid><description>&lt;h1 id="a-summary-of-whack-a-meltdown">A summary of &lt;em>Whack-a-Meltdown&lt;/em>&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>magazine on Nicholas M. Synovic</title><link>https://nsynovic.dev/categories/magazine/</link><description>Recent content in magazine on Nicholas M. Synovic</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Nicholas M. Synovic</copyright><lastBuildDate>Mon, 20 Feb 2023 09:22:52 -0600</lastBuildDate><atom:link href="https://nsynovic.dev/categories/magazine/feed.xml" rel="self" type="application/rss+xml"/><item><title>A summary of Hidden Potential Within Video Game Consoles by Michael Mattioli et al.</title><link>https://nsynovic.dev/summaries/hidden-potential-within-video-game-consoles/</link><pubDate>Mon, 20 Feb 2023 09:22:52 -0600</pubDate><guid>https://nsynovic.dev/summaries/hidden-potential-within-video-game-consoles/</guid><description>&lt;h1 id="a-summary-of-hidden-potential-within-video-game-consoles">A summary of &lt;em>Hidden Potential Within Video Game Consoles&lt;/em>&lt;/h1>
+&lt;blockquote>
+&lt;p>Michael Mattioli et al.; IEEE Computing Edge, October 2022 DOI [0]&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="table-of-contents">Table of Contents&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="#a-summary-of-hidden-potential-within-video-game-consoles">A summary of &lt;em>Hidden Potential Within Video Game Consoles&lt;/em>&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#table-of-contents">Table of Contents&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#summary">Summary&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#performance">Performance&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#user-experience">User Experience&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#security">Security&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#cost">Cost&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#conclusion">Conclusion&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#citations">Citations&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="summary">Summary&lt;/h2>
+&lt;p>Video game consoles have many of the features desired for enterprise deployment.
+They are also designed with security in mind, and are resilient against many
+vulnerabilities.&lt;/p>
+&lt;p>Video game consoles are cheap, security oriented, and reduce the total cost of
+ownership (TCO) that a device has on an employee or organization.&lt;/p>
+&lt;p>This article aims to compare different video game consoles for enterprise
+deployment.&lt;/p>
+&lt;h3 id="performance">Performance&lt;/h3>
+&lt;p>Video game consoles, on release, are often more powerful than similarly priced
+notebook PCs.&lt;/p>
+&lt;h3 id="user-experience">User Experience&lt;/h3>
+&lt;p>The consoles UI is defined to be easy to use. It is also easy to install and
+perform simple service on some video game consoles.&lt;/p>
+&lt;p>These devices are also versatile as any application can be written for the
+console, however, development is dependent upon the video game consoles SDK.&lt;/p>
+&lt;h3 id="security">Security&lt;/h3>
+&lt;p>Video game consoles employ identity and access management through Sony,
+Microsoft, and Nintendo logins for the PS4/5, Xbox Series, and Nintendo Switch
+respectively.&lt;/p>
+&lt;p>Video game consoles check and install security patches upon boot.&lt;/p>
+&lt;p>Video game consoles are designed with both hardware and software security in
+mind.&lt;/p>
+&lt;h3 id="cost">Cost&lt;/h3>
+&lt;p>Similarly designed notebook PCs cost nearly or more than twice as much as many
+video game consoles upon their release.&lt;/p>
+&lt;h3 id="conclusion">Conclusion&lt;/h3>
+&lt;p>Video game consoles embody many of the criteria that is expected of an
+enterprise grade notebook PCs.&lt;/p>
+&lt;hr>
+&lt;h2 id="citations">Citations&lt;/h2>
+Citations availible at https://nsynovic.dev/summaries/hidden-potential-within-video-game-consoles/</description></item><item><title>A summary of Whack-a-Meltdown by Daniel Genkin and Yuval Yarom</title><link>https://nsynovic.dev/summaries/whack-a-meltdown/</link><pubDate>Mon, 20 Feb 2023 08:34:58 -0600</pubDate><guid>https://nsynovic.dev/summaries/whack-a-meltdown/</guid><description>&lt;h1 id="a-summary-of-whack-a-meltdown">A summary of &lt;em>Whack-a-Meltdown&lt;/em>&lt;/h1>
 &lt;blockquote>
 &lt;p>Daniel Genkin and Yuval Yarom IEEE Computing Edge, October 2022 DOI [0]&lt;/p>
 &lt;/blockquote>

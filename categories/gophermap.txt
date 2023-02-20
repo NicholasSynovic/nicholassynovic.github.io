@@ -14,8 +14,6 @@
 
 1first-post	/categories/first-post
 
-1security	/categories/security
-
 1identity	/categories/identity
 
 1gpg	/categories/gpg
@@ -285,6 +283,8 @@
 1internet of things	/categories/internet-of-things
 
 1summary	/categories/summary
+
+1security	/categories/security
 
 1magazine	/categories/magazine
 
