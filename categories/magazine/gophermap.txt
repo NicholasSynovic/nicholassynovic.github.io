@@ -6,6 +6,8 @@
 > These posts are mirrored from my HTTP site.
 
 
+1A summary of COM-PACE: Compliance Aware Cloud Application Engineering Using Blockchain by Gagangeet Singh Aujla et al.	/summaries/com-pace-compliance-aware-cloud-application-engineering-using-blockchain
+
 1A summary of Smart Contracts In The Global South by Nir Kshetri et al.	/summaries/smart-contracts-in-the-global-south
 
 1A summary of Supercomputing In Python With Legate by Michael Bauer et al.	/summaries/supercomputing-in-python-with-legate

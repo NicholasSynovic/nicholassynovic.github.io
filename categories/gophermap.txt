@@ -276,11 +276,17 @@
 
 1scientific programming	/categories/scientific-programming
 
+1it economics	/categories/it-economics
+
 1summary	/categories/summary
+
+1processes	/categories/processes
+
+1people	/categories/people
 
 1magazine	/categories/magazine
 
-1it economics	/categories/it-economics
+1internet of things	/categories/internet-of-things
 
 1article	/categories/article
 
