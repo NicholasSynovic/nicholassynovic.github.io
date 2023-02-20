@@ -1,0 +1,12 @@
+  ____           _
+ |  _ \ ___  ___| |_ ___
+ | |_) / _ \/ __| __/ __|
+ |  __/ (_) \__ \ |_\__ \
+ |_|   \___/|___/\__|___/
+> These posts are mirrored from my HTTP site.
+
+
+1A summary of Interactive Supercomputing With Jupyter by Rollin Thomas et al.	/summaries/interactive-supercomputing-with-jupyter
+
+
+.

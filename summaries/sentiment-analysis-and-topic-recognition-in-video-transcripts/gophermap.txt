@@ -2,7 +2,7 @@
 
 Saturday, February 18, 2023 · 3 minute read
 
-A summary of Sentiment Analysis and Topic Recognition in Video Transcripts Lukas Stappen et al. Posted in IEEE Computer Volume 55; Issue 4, 2022 DOI [0]
+A summary of Sentiment Analysis and Topic Recognition in Video Transcripts Lukas Stappen et al. Posted in IEEE Computing Edge, December 2022 DOI [0]
 Table of Contents A summary of Sentiment Analysis and Topic Recognition in Video Transcripts Table of Contents Summary Related Work Methodology Dataset: The MuSe-Topic Subchallenge Exploratory Analysis Speaker Topics Emotions Prediction Results Speaker Topics Emotions Citations Summary It is difficult to extract the sentiment and topic from a video transcript. With this in mind, researchers developed SenticNet [2], a natural language processing (NLP) model to identify the sentiment and topic of a transcript with far less computational resources than previous attempts. The authors were able to achieve 3% better performance than previous solutions for the MuSe competition.
 Multi-model sentiment analysis (MSA) is taking a variety of data streams and information types and extracting sentiment from them. MSA research aims to understand the sentiment holder, emotional disposition, and the reference object. MSA typically works on video data as it includes visual (e.g., facial expressions), audio, and textual (e.g., transcripts) data modalities. Transcripts have been found to provide the greatest impact in understanding the topic at hand.
 The authors solution learned a continuous vector space of embeddings from the symbolic space of words from the transcripts. To identify sentiments, their solution adheres to the description of of sentiments defined by the Hourglass of Emotions [1].

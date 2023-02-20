@@ -2,7 +2,7 @@
 
 Sunday, February 19, 2023 · 4 minute read
 
-A summary of Economics of Artificial Intelligence in Cybersecurity Nir Kshetri IEEE Computer Volume 55; Issue 4, 2022 DOI [0]
+A summary of Economics of Artificial Intelligence in Cybersecurity Nir Kshetri IEEE Computing Edge, December 2022 DOI [0]
 Table of Contents A summary of Economics of Artificial Intelligence in Cybersecurity Table of Contents Summary Current State of AI in Cybersecurity and Key Areas Being Transformed Key Factors Driving AI&rsquo;s Use in Cybersecurity Some Shortcomings, Limitations, and Challenges Citations Summary AI in cybersecurity is a growing market estimated to reach $101.8 billion by 2030.
 As the internet was designed without security in mind, their exists an asymmetric where small organizations or individuals can comprise large groups, companies, or nation states. Therefore, defense mechanisms must be in place to stop these attacks. Since defendants have access to a large corpus of malware examples, it is possible to train AI models to defend against attacks.
 Current State of AI in Cybersecurity and Key Areas Being Transformed AI is often faster at detecting malware than humans. Additionally, it is also faster at containing infected devices on a network than a human. Furthermore, AI can lower the cost of detecting malware.

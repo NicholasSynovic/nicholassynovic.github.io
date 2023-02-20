@@ -5,8 +5,7 @@ Saturday, February 18, 2023 · 3 minute read
 
 # A summary of *Sentiment Analysis and Topic Recognition in Video Transcripts*
 
-> Lukas Stappen et al. Posted in IEEE Computer Volume 55; Issue 4, 2022 DOI
-> \[0\]
+> Lukas Stappen et al. Posted in IEEE Computing Edge, December 2022 DOI \[0\]
 
 ## Table of Contents
 

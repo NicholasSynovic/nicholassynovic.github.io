@@ -5,7 +5,7 @@ Saturday, February 18, 2023 · 1 minute read
 
 # A summary of *Advances in Human Activity Recognition*
 
-> Gulustan Dogan IEEE Computer Volume 55; Issue 4, 2022 DOI \[0\]
+> Gulustan Dogan IEEE Computing Edge, December 2022 DOI \[0\]
 
 ## Table of Contents
 

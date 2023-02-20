@@ -2,7 +2,7 @@
 
 Saturday, February 18, 2023 · 1 minute read
 
-A summary of Advances in Human Activity Recognition Gulustan Dogan IEEE Computer Volume 55; Issue 4, 2022 DOI [0]
+A summary of Advances in Human Activity Recognition Gulustan Dogan IEEE Computing Edge, December 2022 DOI [0]
 Table of Contents A summary of Advances in Human Activity Recognition Table of Contents Summary This method is great when working on raw data streams, but there do exist better algorithms and models to handle visual representations of movement. Citations Summary Human activity recognition (HAR) involves classifying sequences of accelerometer data together to identify defined movements. Current solutions involve hand crafting features (thereby requiring an expert of the space to assist), or by training machine learning models using decision trees.
 Long short term memory (LSTM) models are currently the most powerful type of recurrent neural networks (RNNs). LSTMs are great at identifying and predicting sequential information as they take both time and sequence in to account. However, LSTMs are computationally expensive.
 The current state of the art devises an algorithm that takes in raw signal or visual data, and can identify patterns and sequences of movement [1]. This method is great when working on raw data streams, but there do exist better algorithms and models to handle visual representations of movement. Citations 

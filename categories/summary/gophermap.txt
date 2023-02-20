@@ -6,6 +6,8 @@
 > These posts are mirrored from my HTTP site.
 
 
+1A summary of Interactive Supercomputing With Jupyter by Rollin Thomas et al.	/summaries/interactive-supercomputing-with-jupyter
+
 1A summary of Automated Payment Terminal Testing: How to Achieve Continuous Integration for Systems that are Almost Impossible to Virtualize by Martin Gloor et al.	/summaries/automated-payment-terminal-testing-how-to-achieve-continuous-integration-for-systems-that-are-almost-impossible-to-virtualize
 
 1A summary of Toward Fail Safety for Security Decisions by Trent Jaeger	/summaries/toward-fail-safety-for-security-decisions

@@ -1,0 +1,30 @@
+# A summary of Interactive Supercomputing With Jupyter by Rollin Thomas et al.
+
+Sunday, February 19, 2023 · 1 minute read
+
+
+# A summary of *TITLE*
+
+> Author names Journal | Confrence | etc., Year DOI
+
+## Table of Contents
+
+- [A summary of *TITLE*](#a-summary-of-title)
+  - [Table of Contents](#table-of-contents)
+  - [Summary](#summary)
+    - [Section 1](#section-1)
+  - [Citations](#citations)
+
+______________________________________________________________________
+
+## Summary
+
+### Section 1
+
+______________________________________________________________________
+
+## Citations
+
+
+=> https://ieeexplore.ieee.org/abstract/document/9387494	0. https://ieeexplore.ieee.org/abstract/document/9387494
+

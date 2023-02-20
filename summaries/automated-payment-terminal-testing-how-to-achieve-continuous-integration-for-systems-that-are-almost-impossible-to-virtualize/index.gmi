@@ -5,7 +5,7 @@ Sunday, February 19, 2023 · 4 minute read
 
 # A summary of *Automated Payment Terminal Testing: How to Achieve Continuous Integration for Systems that are Almost Impossible to Virtualize*
 
-> Martin Gloor et al. IEEE Computer Volume 55; Issue 4, 2022 DOI \[0\]
+> Martin Gloor et al. IEEE Computing Edge, December 2022 DOI \[0\]
 
 ## Table of Contents
 

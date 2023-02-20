@@ -5,7 +5,7 @@ Sunday, February 19, 2023 · 4 minute read
 
 # A summary of *Pervasive Security and Privacy by - A Brief Reflection on Challenges and Opportunities*
 
-> Florian Alt IEEE Computer Volume 55; Issue 4, 2022 DOI \[0\]
+> Florian Alt IEEE Computing Edge, December 2022 DOI \[0\]
 
 ## Table of Contents
 

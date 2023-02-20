@@ -5,7 +5,7 @@ Sunday, February 19, 2023 · 2 minute read
 
 # A summary of *Toward Fail Safety for Security Decisions*
 
-> Trent Jaeger IEEE Computer Volume 55; Issue 4, 2022 DOI \[0\]
+> Trent Jaeger IEEE Computing Edge, December 2022 DOI \[0\]
 
 ## Table of Contents
 

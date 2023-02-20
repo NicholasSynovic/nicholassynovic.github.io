@@ -2,7 +2,7 @@
 
 Sunday, February 19, 2023 · 2 minute read
 
-A summary of Toward Fail Safety for Security Decisions Trent Jaeger IEEE Computer Volume 55; Issue 4, 2022 DOI [0]
+A summary of Toward Fail Safety for Security Decisions Trent Jaeger IEEE Computing Edge, December 2022 DOI [0]
 Table of Contents A summary of Toward Fail Safety for Security Decisions Table of Contents Summary Examples of How User Decisions Impact Security A Design Goal: Fail-Safe Decisions Using Fail Safety Effectively Citations Summary Developers of technologies aim to automate security decisions on behalf of the consumer. However, security decisions made by end users are often ad-hoc and unguided. As researchers, we should figure out how to create systems that are reduce vulnerabilities when poor manual choices are made.
 Examples of How User Decisions Impact Security Mobile applications often request access to sensors on the device to operate. However, it is often unclear as to why these applications want to utilize these sensors. Additionally, by granting security access to malicious apps, it is possible for the apps to modify core system functionality or compromise core processes for their own gain.
 Within the IoT space, often developers let the end users handle the security permissions on their end. However, it is both the developers and the end-users job to ensure that the devices are operating within in a secure environment.

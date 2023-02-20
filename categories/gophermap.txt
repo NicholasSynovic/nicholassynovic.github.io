@@ -278,6 +278,8 @@
 
 1magazine	/categories/magazine
 
+1leadership computing	/categories/leadership-computing
+
 1article	/categories/article
 
 

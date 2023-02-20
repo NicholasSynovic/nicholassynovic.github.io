@@ -2,7 +2,7 @@
 
 Saturday, February 18, 2023 · 3 minute read
 
-A summary of A summary of Efficient Computer Vision for Embedded Systems [0] George K. Thiruvathukal and Yung-Hsiang Lu IEEE Computer Volume 55; Issue 4, 2022 DOI
+A summary of A summary of Efficient Computer Vision for Embedded Systems [0] George K. Thiruvathukal and Yung-Hsiang Lu; IEEE Computing Edge, December 2022, 2022 DOI
 For the summary of the paper, go to the Summary section of this article.
 Table of Contents A summary of A summary of Efficient Computer Vision for Embedded Systems [0] Table of Contents Summary LPCVC LPCVC Research Citations Disclosure: Both George K. Thiruvathukal and Yung-Hsiang Lu are mentors, colleagues, and friends of mine. Disclosure: I am a student organizer of the 2023 Low Power Computer Vision competition.
 Summary Computer Vision (CV) research and development is encouraged through competitions that measure the accuracy of models for cash prizes. However, as more CV technologies are being pushed towards the edge, power and computational efficiency of these models become increasingly more important. Therefore, the IEEE Low Power Computer Vision Challenge (LPCVC) [1], formerly the Low Power Image Recognition Challenge, was created to encourage researchers to develop efficient low power solutions.

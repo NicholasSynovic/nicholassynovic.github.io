@@ -1,6 +1,29 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>article on Nicholas M. Synovic</title><link>https://nsynovic.dev/categories/article/</link><description>Recent content in article on Nicholas M. Synovic</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Nicholas M. Synovic</copyright><lastBuildDate>Sun, 19 Feb 2023 15:42:36 -0600</lastBuildDate><atom:link href="https://nsynovic.dev/categories/article/feed.xml" rel="self" type="application/rss+xml"/><item><title>A summary of Automated Payment Terminal Testing: How to Achieve Continuous Integration for Systems that are Almost Impossible to Virtualize by Martin Gloor et al.</title><link>https://nsynovic.dev/summaries/automated-payment-terminal-testing-how-to-achieve-continuous-integration-for-systems-that-are-almost-impossible-to-virtualize/</link><pubDate>Sun, 19 Feb 2023 15:42:36 -0600</pubDate><guid>https://nsynovic.dev/summaries/automated-payment-terminal-testing-how-to-achieve-continuous-integration-for-systems-that-are-almost-impossible-to-virtualize/</guid><description>&lt;h1 id="a-summary-of-automated-payment-terminal-testing-how-to-achieve-continuous-integration-for-systems-that-are-almost-impossible-to-virtualize">A summary of &lt;em>Automated Payment Terminal Testing: How to Achieve Continuous Integration for Systems that are Almost Impossible to Virtualize&lt;/em>&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>article on Nicholas M. Synovic</title><link>https://nsynovic.dev/categories/article/</link><description>Recent content in article on Nicholas M. Synovic</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Nicholas M. Synovic</copyright><lastBuildDate>Sun, 19 Feb 2023 20:40:07 -0600</lastBuildDate><atom:link href="https://nsynovic.dev/categories/article/feed.xml" rel="self" type="application/rss+xml"/><item><title>A summary of Interactive Supercomputing With Jupyter by Rollin Thomas et al.</title><link>https://nsynovic.dev/summaries/interactive-supercomputing-with-jupyter/</link><pubDate>Sun, 19 Feb 2023 20:40:07 -0600</pubDate><guid>https://nsynovic.dev/summaries/interactive-supercomputing-with-jupyter/</guid><description>&lt;h1 id="a-summary-of-title">A summary of &lt;em>TITLE&lt;/em>&lt;/h1>
 &lt;blockquote>
-&lt;p>Martin Gloor et al. IEEE Computer Volume 55; Issue 4, 2022 DOI [0]&lt;/p>
+&lt;p>Author names Journal | Confrence | etc., Year DOI&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="table-of-contents">Table of Contents&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="#a-summary-of-title">A summary of &lt;em>TITLE&lt;/em>&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#table-of-contents">Table of Contents&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#summary">Summary&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#section-1">Section 1&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#citations">Citations&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="summary">Summary&lt;/h2>
+&lt;h3 id="section-1">Section 1&lt;/h3>
+&lt;hr>
+&lt;h2 id="citations">Citations&lt;/h2>
+Citations availible at https://nsynovic.dev/summaries/interactive-supercomputing-with-jupyter/</description></item><item><title>A summary of Automated Payment Terminal Testing: How to Achieve Continuous Integration for Systems that are Almost Impossible to Virtualize by Martin Gloor et al.</title><link>https://nsynovic.dev/summaries/automated-payment-terminal-testing-how-to-achieve-continuous-integration-for-systems-that-are-almost-impossible-to-virtualize/</link><pubDate>Sun, 19 Feb 2023 15:42:36 -0600</pubDate><guid>https://nsynovic.dev/summaries/automated-payment-terminal-testing-how-to-achieve-continuous-integration-for-systems-that-are-almost-impossible-to-virtualize/</guid><description>&lt;h1 id="a-summary-of-automated-payment-terminal-testing-how-to-achieve-continuous-integration-for-systems-that-are-almost-impossible-to-virtualize">A summary of &lt;em>Automated Payment Terminal Testing: How to Achieve Continuous Integration for Systems that are Almost Impossible to Virtualize&lt;/em>&lt;/h1>
+&lt;blockquote>
+&lt;p>Martin Gloor et al. IEEE Computing Edge, December 2022 DOI [0]&lt;/p>
 &lt;/blockquote>
 &lt;h2 id="table-of-contents">Table of Contents&lt;/h2>
 &lt;ul>
@@ -91,7 +114,7 @@ continuous integration.&lt;/p>
 &lt;h2 id="citations">Citations&lt;/h2>
 Citations availible at https://nsynovic.dev/summaries/automated-payment-terminal-testing-how-to-achieve-continuous-integration-for-systems-that-are-almost-impossible-to-virtualize/</description></item><item><title>A summary of Toward Fail Safety for Security Decisions by Trent Jaeger</title><link>https://nsynovic.dev/summaries/toward-fail-safety-for-security-decisions/</link><pubDate>Sun, 19 Feb 2023 13:39:57 -0600</pubDate><guid>https://nsynovic.dev/summaries/toward-fail-safety-for-security-decisions/</guid><description>&lt;h1 id="a-summary-of-toward-fail-safety-for-security-decisions">A summary of &lt;em>Toward Fail Safety for Security Decisions&lt;/em>&lt;/h1>
 &lt;blockquote>
-&lt;p>Trent Jaeger IEEE Computer Volume 55; Issue 4, 2022 DOI [0]&lt;/p>
+&lt;p>Trent Jaeger IEEE Computing Edge, December 2022 DOI [0]&lt;/p>
 &lt;/blockquote>
 &lt;h2 id="table-of-contents">Table of Contents&lt;/h2>
 &lt;ul>
@@ -148,7 +171,7 @@ disable security features.&lt;/p>
 &lt;h2 id="citations">Citations&lt;/h2>
 Citations availible at https://nsynovic.dev/summaries/toward-fail-safety-for-security-decisions/</description></item><item><title>A summary of Pervasive Security and Privacy by - A Brief Reflection on Challenges and Opportunities by Florian Alt</title><link>https://nsynovic.dev/summaries/pervasive-security-and-privacy-a-brief-reflection-on-challenges-and-opportunities/</link><pubDate>Sun, 19 Feb 2023 10:56:20 -0600</pubDate><guid>https://nsynovic.dev/summaries/pervasive-security-and-privacy-a-brief-reflection-on-challenges-and-opportunities/</guid><description>&lt;h1 id="a-summary-of-pervasive-security-and-privacy-by---a-brief-reflection-on-challenges-and-opportunities">A summary of &lt;em>Pervasive Security and Privacy by - A Brief Reflection on Challenges and Opportunities&lt;/em>&lt;/h1>
 &lt;blockquote>
-&lt;p>Florian Alt IEEE Computer Volume 55; Issue 4, 2022 DOI [0]&lt;/p>
+&lt;p>Florian Alt IEEE Computing Edge, December 2022 DOI [0]&lt;/p>
 &lt;/blockquote>
 &lt;h2 id="table-of-contents">Table of Contents&lt;/h2>
 &lt;ul>
@@ -258,7 +281,7 @@ in order to prevent data leaks.&lt;/p>
 &lt;h2 id="citations">Citations&lt;/h2>
 Citations availible at https://nsynovic.dev/summaries/pervasive-security-and-privacy-a-brief-reflection-on-challenges-and-opportunities/</description></item><item><title>A summary of Economics of Artificial Intelligence in Cybersecurity by Nir Kshetri</title><link>https://nsynovic.dev/summaries/economics-of-artificial-intelligence-in-cybersecurity/</link><pubDate>Sun, 19 Feb 2023 10:16:22 -0600</pubDate><guid>https://nsynovic.dev/summaries/economics-of-artificial-intelligence-in-cybersecurity/</guid><description>&lt;h1 id="a-summary-of-economics-of-artificial-intelligence-in-cybersecurity">A summary of &lt;em>Economics of Artificial Intelligence in Cybersecurity&lt;/em>&lt;/h1>
 &lt;blockquote>
-&lt;p>Nir Kshetri IEEE Computer Volume 55; Issue 4, 2022 DOI [0]&lt;/p>
+&lt;p>Nir Kshetri IEEE Computing Edge, December 2022 DOI [0]&lt;/p>
 &lt;/blockquote>
 &lt;h2 id="table-of-contents">Table of Contents&lt;/h2>
 &lt;ul>
@@ -340,8 +363,7 @@ from an American rather than a foreign entity.&lt;/p>
 &lt;h2 id="citations">Citations&lt;/h2>
 Citations availible at https://nsynovic.dev/summaries/economics-of-artificial-intelligence-in-cybersecurity/</description></item><item><title>A summary of Sentiment Analysis and Topic Recognition in Video Transcripts by Lukas Stappen et al.</title><link>https://nsynovic.dev/summaries/sentiment-analysis-and-topic-recognition-in-video-transcripts/</link><pubDate>Sat, 18 Feb 2023 19:03:11 -0600</pubDate><guid>https://nsynovic.dev/summaries/sentiment-analysis-and-topic-recognition-in-video-transcripts/</guid><description>&lt;h1 id="a-summary-of-sentiment-analysis-and-topic-recognition-in-video-transcripts">A summary of &lt;em>Sentiment Analysis and Topic Recognition in Video Transcripts&lt;/em>&lt;/h1>
 &lt;blockquote>
-&lt;p>Lukas Stappen et al. Posted in IEEE Computer Volume 55; Issue 4, 2022 DOI
-[0]&lt;/p>
+&lt;p>Lukas Stappen et al. Posted in IEEE Computing Edge, December 2022 DOI [0]&lt;/p>
 &lt;/blockquote>
 &lt;h2 id="table-of-contents">Table of Contents&lt;/h2>
 &lt;ul>
@@ -435,7 +457,7 @@ this solution.&lt;/p>
 &lt;h2 id="citations">Citations&lt;/h2>
 Citations availible at https://nsynovic.dev/summaries/sentiment-analysis-and-topic-recognition-in-video-transcripts/</description></item><item><title>A summary of Advances in Human Activity Recognition by Gulustan Dogan</title><link>https://nsynovic.dev/summaries/advances-in-human-activity-recognition/</link><pubDate>Sat, 18 Feb 2023 18:51:36 -0600</pubDate><guid>https://nsynovic.dev/summaries/advances-in-human-activity-recognition/</guid><description>&lt;h1 id="a-summary-of-advances-in-human-activity-recognition">A summary of &lt;em>Advances in Human Activity Recognition&lt;/em>&lt;/h1>
 &lt;blockquote>
-&lt;p>Gulustan Dogan IEEE Computer Volume 55; Issue 4, 2022 DOI [0]&lt;/p>
+&lt;p>Gulustan Dogan IEEE Computing Edge, December 2022 DOI [0]&lt;/p>
 &lt;/blockquote>
 &lt;h2 id="table-of-contents">Table of Contents&lt;/h2>
 &lt;ul>
@@ -462,7 +484,7 @@ However, LSTMs are computationally expensive.&lt;/p>
 &lt;h2 id="citations">Citations&lt;/h2>
 Citations availible at https://nsynovic.dev/summaries/advances-in-human-activity-recognition/</description></item><item><title>A summary of Challenges and Opportunities for Autonomous Micro-UAVs in Precision Agriculture by Xu Liu et al.</title><link>https://nsynovic.dev/summaries/challenges-and-opportunities-for-autonomous-micro-uavs-in-precision-agriculture/</link><pubDate>Sat, 18 Feb 2023 13:08:36 -0600</pubDate><guid>https://nsynovic.dev/summaries/challenges-and-opportunities-for-autonomous-micro-uavs-in-precision-agriculture/</guid><description>&lt;h1 id="a-summary-of-challenges-and-opportunities-for-autonomous-micro-uavs-in-precision-agriculture">A summary of &lt;em>Challenges and Opportunities for Autonomous Micro-UAVs in Precision Agriculture&lt;/em>&lt;/h1>
 &lt;blockquote>
-&lt;p>Xu Liu et al. IEEE Computer Volume 55; Issue 4, 2022 DOI [0]&lt;/p>
+&lt;p>Xu Liu et al. IEEE Computing Edge, December 2022 DOI [0]&lt;/p>
 &lt;/blockquote>
 &lt;h2 id="table-of-contents">Table of Contents&lt;/h2>
 &lt;ul>
@@ -615,8 +637,8 @@ quite large and contain a dense information mapping.&lt;/p>
 &lt;h2 id="citations">Citations&lt;/h2>
 Citations availible at https://nsynovic.dev/summaries/challenges-and-opportunities-for-autonomous-micro-uavs-in-precision-agriculture/</description></item><item><title>A summary of Efficient Computer Vision for Embedded Systems by George K. Thiruvathukal and Yung-Hsiang Lu</title><link>https://nsynovic.dev/summaries/efficient-computer-vision-for-embedded-systems/</link><pubDate>Sat, 18 Feb 2023 10:41:18 -0600</pubDate><guid>https://nsynovic.dev/summaries/efficient-computer-vision-for-embedded-systems/</guid><description>&lt;h1 id="a-summary-of-a-summary-of-efficient-computer-vision-for-embedded-systems-0">A summary of &lt;em>A summary of Efficient Computer Vision for Embedded Systems&lt;/em> [0]&lt;/h1>
 &lt;blockquote>
-&lt;p>George K. Thiruvathukal and Yung-Hsiang Lu IEEE Computer Volume 55; Issue 4,
-2022 &lt;a href="https://doi.org/10.1109/MC.2022.3145677">DOI&lt;/a>&lt;/p>
+&lt;p>George K. Thiruvathukal and Yung-Hsiang Lu; IEEE Computing Edge, December
+2022, 2022 &lt;a href="https://doi.org/10.1109/MC.2022.3145677">DOI&lt;/a>&lt;/p>
 &lt;/blockquote>
 &lt;p>For the summary of the paper, go to the &lt;a href="#summary">Summary&lt;/a> section of this
 article.&lt;/p>
