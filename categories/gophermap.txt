@@ -282,15 +282,17 @@
 
 1security	/categories/security
 
-1summary	/categories/summary
-
-1magazine	/categories/magazine
-
 1machine learning	/categories/machine-learning
 
 1artificial intelligence	/categories/artificial-intelligence
 
+1summary	/categories/summary
+
+1magazine	/categories/magazine
+
 1article	/categories/article
+
+1ai focus	/categories/ai-focus
 
 
 .

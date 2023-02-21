@@ -1,4 +1,90 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>magazine on Nicholas M. Synovic</title><link>https://nsynovic.dev/categories/magazine/</link><description>Recent content in magazine on Nicholas M. Synovic</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Nicholas M. Synovic</copyright><lastBuildDate>Mon, 20 Feb 2023 09:33:16 -0600</lastBuildDate><atom:link href="https://nsynovic.dev/categories/magazine/feed.xml" rel="self" type="application/rss+xml"/><item><title>A summary of The Ten Commandments of Ethical Medical AI by Heimo Muller et al.</title><link>https://nsynovic.dev/summaries/the-ten-commandments-of-ethical-medical-ai/</link><pubDate>Mon, 20 Feb 2023 09:33:16 -0600</pubDate><guid>https://nsynovic.dev/summaries/the-ten-commandments-of-ethical-medical-ai/</guid><description>&lt;h1 id="a-summary-of-the-ten-commandments-of-ethical-medical-ai">A summary of &lt;em>The Ten Commandments of Ethical Medical AI&lt;/em>&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>magazine on Nicholas M. Synovic</title><link>https://nsynovic.dev/categories/magazine/</link><description>Recent content in magazine on Nicholas M. Synovic</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Nicholas M. Synovic</copyright><lastBuildDate>Mon, 20 Feb 2023 20:47:27 -0600</lastBuildDate><atom:link href="https://nsynovic.dev/categories/magazine/feed.xml" rel="self" type="application/rss+xml"/><item><title>A summary of Trustworthy Machine Learning by Bhavani Thuraisingham et al.</title><link>https://nsynovic.dev/summaries/trustworthy-machine-learning/</link><pubDate>Mon, 20 Feb 2023 20:47:27 -0600</pubDate><guid>https://nsynovic.dev/summaries/trustworthy-machine-learning/</guid><description>&lt;h1 id="a-summary-of-trustworthy-machine-learning">A summary of &lt;em>Trustworthy Machine Learning&lt;/em>&lt;/h1>
+&lt;blockquote>
+&lt;p>Bhavani Thuraisingham et al.; IEEE Computing Edge, January 2023 DOI [0]&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="table-of-contents">Table of Contents&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="#a-summary-of-trustworthy-machine-learning">A summary of &lt;em>Trustworthy Machine Learning&lt;/em>&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#table-of-contents">Table of Contents&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#summary">Summary&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#architecture-to-support-trustworthy-machine-learning">Architecture To Support Trustworthy Machine Learning&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#concepts-in-trustworthy-ml">Concepts In Trustworthy ML&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#security">Security&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#privacy">Privacy&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#fairness">Fairness&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#integrity">Integrity&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#citations">Citations&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="summary">Summary&lt;/h2>
+&lt;p>ML models are being used across industry and academia to solve a number of
+problems. However, ML techniques are subject to attacks and may discriminate
+against individuals based on the training data. Therefore, trustworthy AI must
+be secure, ensure privacy of individuals, incorporate fairness, and be accurate.
+This article describes how to implement scalable trustworthy AI models in
+industry and academia.&lt;/p>
+&lt;p>With the advent of big data, ML models are being trained to solve many problems
+across many problem domains. However, personally identifying information may be
+captured in these big data datasets. Therefore, ML models can discriminate
+against individuals through this information or be attacked to extract or favor
+certain individuals. There is thus an interest in developing privacy-enhanced ML
+models to protect individuals while still being able to extract useful
+information from the data. The field of defending ML models and systems from
+attackers is known as adversarial ML.&lt;/p>
+&lt;p>Trustworthy ML has to be secure, ensure the privacy of individuals, accurate,
+fair, and fault tolerant. This is a new area of research within the ML space.&lt;/p>
+&lt;h3 id="architecture-to-support-trustworthy-machine-learning">Architecture To Support Trustworthy Machine Learning&lt;/h3>
+&lt;p>ML at scale/ cloud hosted is architected in the following sequential manner
+(built from the bottom up):&lt;/p>
+&lt;ul>
+&lt;li>An infrastructure layer that hosts the data store&lt;/li>
+&lt;li>A big data management layer that manages access to the data hosted&lt;/li>
+&lt;li>A machine learning layer that performs the inferencing&lt;/li>
+&lt;li>An application layer that allows for interfacing with the ML layer or for
+results to be reviewed&lt;/li>
+&lt;/ul>
+&lt;p>Trustworthy ML must involve security, privacy, accuracy, fairness, and fault
+tolerance at all levels of the architecture. Depending on the task, different
+components of the above requirements might be emphasized more than others.&lt;/p>
+&lt;h3 id="concepts-in-trustworthy-ml">Concepts In Trustworthy ML&lt;/h3>
+&lt;h4 id="security">Security&lt;/h4>
+&lt;p>ML models must not access data that is not important to the problem domain or is
+specifically not to be trained or inferenced upon. Additionally, ML models must
+be resilient to attackers learning the data and bias that the ML model was
+trained on. Solutions include adversarial support vector machines. Furthermore,
+specifications for testing, verification, and capabilities are being
+investigated to ensure that ML models do not contain any malware.&lt;/p>
+&lt;h4 id="privacy">Privacy&lt;/h4>
+&lt;p>Personally identifiable information or other sensitive information must be
+protected from the ML training process. This has been a field of study for the
+past 20 years. Techniques to ensure the privacy of the individuals contained
+within the dataset involve removing sensitive information, as well as
+randomizing values that shouldn&amp;rsquo;t be trained upon.&lt;/p>
+&lt;h4 id="fairness">Fairness&lt;/h4>
+&lt;p>ML models are now being used to make decisions about important life events for
+individuals. To ensure that the decisions are fair, fairness metrics and stop
+gaps need to be introduced at different levels of the ML pipeline.&lt;/p>
+&lt;p>First, the data must be fair and non-discriminating/ bias. Next, the ML model
+training must be fair which can be implemented with a fairness metric. Finally,
+the ML inference must go through post-processing to ensure that the inference is
+also fair.&lt;/p>
+&lt;h4 id="integrity">Integrity&lt;/h4>
+&lt;p>Integrity refers to the accuracy of the model. This also involves testing many
+different models to ensure that the model that is selected for inference is the
+best model to choose. Therefore, different features and model variations should
+be chosen and documented.&lt;/p>
+&lt;hr>
+&lt;h2 id="citations">Citations&lt;/h2>
+Citations availible at https://nsynovic.dev/summaries/trustworthy-machine-learning/</description></item><item><title>A summary of The Ten Commandments of Ethical Medical AI by Heimo Muller et al.</title><link>https://nsynovic.dev/summaries/the-ten-commandments-of-ethical-medical-ai/</link><pubDate>Mon, 20 Feb 2023 09:33:16 -0600</pubDate><guid>https://nsynovic.dev/summaries/the-ten-commandments-of-ethical-medical-ai/</guid><description>&lt;h1 id="a-summary-of-the-ten-commandments-of-ethical-medical-ai">A summary of &lt;em>The Ten Commandments of Ethical Medical AI&lt;/em>&lt;/h1>
 &lt;blockquote>
 &lt;p>Heimo Muller et al.; IEEE Computing Edge, October 2022 DOI [0]&lt;/p>
 &lt;/blockquote>
