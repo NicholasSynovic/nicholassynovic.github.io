@@ -8,4 +8,6 @@ Internet Of Things Application Of Event Cameras A list of applications that can 
 High frame rate image capture Privacy enhanced computer vision as only changes in light are captured and not personally identifiable features Low power computer vision Low network bandwidth streaming Tutorial Learning Objectives The remainder of this article is a tutorial on how to use event based camera data for tracking objects. It is not summarized in this document. Readers should read the tutorial [0].
 Citations 
 
+h0. https://doi.org/10.1109/MC.2021.3136451	URL:https://doi.org/10.1109/MC.2021.3136451
+
 .

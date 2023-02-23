@@ -6,6 +6,8 @@
 > These posts are mirrored from my HTTP site.
 
 
+1A summary of Embracing Multimodal Data in Multimedia Data Analysis by Shu-Ching Chen et al.	/summaries/embracing-multimodal-data-in-multimedia-data-analysis
+
 1A summary of Where Are They Going? Clustering Event Camera Data to Detect and Track Moving Objects by Craig Laboni et al.	/summaries/where-are-they-going-clustering-event-camera-data-to-detect-and-track-moving-objects
 
 1A summary of Sustainable and Trustworthy Edge Machine Learning by Ivona Brandic	/summaries/sustainable-and-trustworthy-edge-machine-learning

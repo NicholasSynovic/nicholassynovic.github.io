@@ -288,11 +288,13 @@
 
 1view from the cloud	/categories/view-from-the-cloud
 
+1internet of things	/categories/internet-of-things
+
 1summary	/categories/summary
 
 1magazine	/categories/magazine
 
-1internet of things	/categories/internet-of-things
+1eic message	/categories/eic-message
 
 1article	/categories/article
 
