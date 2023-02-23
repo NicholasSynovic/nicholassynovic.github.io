@@ -1,0 +1,11 @@
+!A summary of Where Are They Going? Clustering Event Camera Data to Detect and Track Moving Objects by Craig Laboni et al.
+
+Thursday, February 23, 2023 · 1 minute read
+
+A summary of Where Are They Going? Clustering Event Camera Data to Detect and Track Moving Objects Craig Laboni et al.; IEEE Computing Edge, February 2023 DOI [0]
+Table of Contents A summary of Where Are They Going? Clustering Event Camera Data to Detect and Track Moving Objects Table of Contents Summary Internet Of Things Application Of Event Cameras Tutorial Learning Objectives Citations Summary Event based cameras are dynamic vision sensor based cameras that provide an new mode of data capture and analysis for Computer Vision (CV) researchers. They capture change in light intensities asynchronously and provide high speed vision, low latency, and low power requirements.
+Internet Of Things Application Of Event Cameras A list of applications that can be created with event based cameras include:
+High frame rate image capture Privacy enhanced computer vision as only changes in light are captured and not personally identifiable features Low power computer vision Low network bandwidth streaming Tutorial Learning Objectives The remainder of this article is a tutorial on how to use event based camera data for tracking objects. It is not summarized in this document. Readers should read the tutorial [0].
+Citations 
+
+.

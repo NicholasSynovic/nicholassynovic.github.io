@@ -1,4 +1,44 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>summary on Nicholas M. Synovic</title><link>https://nsynovic.dev/categories/summary/</link><description>Recent content in summary on Nicholas M. Synovic</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Nicholas M. Synovic</copyright><lastBuildDate>Wed, 22 Feb 2023 16:27:27 -0600</lastBuildDate><atom:link href="https://nsynovic.dev/categories/summary/feed.xml" rel="self" type="application/rss+xml"/><item><title>A summary of Sustainable and Trustworthy Edge Machine Learning by Ivona Brandic</title><link>https://nsynovic.dev/summaries/sustainable-and-trustworthy-edge-machine-learning/</link><pubDate>Wed, 22 Feb 2023 16:27:27 -0600</pubDate><guid>https://nsynovic.dev/summaries/sustainable-and-trustworthy-edge-machine-learning/</guid><description>&lt;h1 id="a-summary-of-sustainable-and-trustworthy-edge-machine-learning">A summary of &lt;em>Sustainable and Trustworthy Edge Machine Learning&lt;/em>&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>summary on Nicholas M. Synovic</title><link>https://nsynovic.dev/categories/summary/</link><description>Recent content in summary on Nicholas M. Synovic</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Nicholas M. Synovic</copyright><lastBuildDate>Thu, 23 Feb 2023 11:24:19 -0600</lastBuildDate><atom:link href="https://nsynovic.dev/categories/summary/feed.xml" rel="self" type="application/rss+xml"/><item><title>A summary of Where Are They Going? Clustering Event Camera Data to Detect and Track Moving Objects by Craig Laboni et al.</title><link>https://nsynovic.dev/summaries/where-are-they-going-clustering-event-camera-data-to-detect-and-track-moving-objects/</link><pubDate>Thu, 23 Feb 2023 11:24:19 -0600</pubDate><guid>https://nsynovic.dev/summaries/where-are-they-going-clustering-event-camera-data-to-detect-and-track-moving-objects/</guid><description>&lt;h1 id="a-summary-of-where-are-they-going-clustering-event-camera-data-to-detect-and-track-moving-objects">A summary of &lt;em>Where Are They Going? Clustering Event Camera Data to Detect and Track Moving Objects&lt;/em>&lt;/h1>
+&lt;blockquote>
+&lt;p>Craig Laboni et al.; IEEE Computing Edge, February 2023 DOI [0]&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="table-of-contents">Table of Contents&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="#a-summary-of-where-are-they-going-clustering-event-camera-data-to-detect-and-track-moving-objects">A summary of &lt;em>Where Are They Going? Clustering Event Camera Data to Detect and Track Moving Objects&lt;/em>&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#table-of-contents">Table of Contents&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#summary">Summary&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#internet-of-things-application-of-event-cameras">Internet Of Things Application Of Event Cameras&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#tutorial-learning-objectives">Tutorial Learning Objectives&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#citations">Citations&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="summary">Summary&lt;/h2>
+&lt;p>Event based cameras are dynamic vision sensor based cameras that provide an new
+mode of data capture and analysis for Computer Vision (CV) researchers. They
+capture change in light intensities asynchronously and provide high speed
+vision, low latency, and low power requirements.&lt;/p>
+&lt;h3 id="internet-of-things-application-of-event-cameras">Internet Of Things Application Of Event Cameras&lt;/h3>
+&lt;p>A list of applications that can be created with event based cameras include:&lt;/p>
+&lt;ul>
+&lt;li>High frame rate image capture&lt;/li>
+&lt;li>Privacy enhanced computer vision as only changes in light are captured and not
+personally identifiable features&lt;/li>
+&lt;li>Low power computer vision&lt;/li>
+&lt;li>Low network bandwidth streaming&lt;/li>
+&lt;/ul>
+&lt;h3 id="tutorial-learning-objectives">Tutorial Learning Objectives&lt;/h3>
+&lt;p>The remainder of this article is a tutorial on how to use event based camera
+data for tracking objects. It is not summarized in this document. Readers should
+read the tutorial [0].&lt;/p>
+&lt;hr>
+&lt;h2 id="citations">Citations&lt;/h2>
+Citations availible at https://nsynovic.dev/summaries/where-are-they-going-clustering-event-camera-data-to-detect-and-track-moving-objects/</description></item><item><title>A summary of Sustainable and Trustworthy Edge Machine Learning by Ivona Brandic</title><link>https://nsynovic.dev/summaries/sustainable-and-trustworthy-edge-machine-learning/</link><pubDate>Wed, 22 Feb 2023 16:27:27 -0600</pubDate><guid>https://nsynovic.dev/summaries/sustainable-and-trustworthy-edge-machine-learning/</guid><description>&lt;h1 id="a-summary-of-sustainable-and-trustworthy-edge-machine-learning">A summary of &lt;em>Sustainable and Trustworthy Edge Machine Learning&lt;/em>&lt;/h1>
 &lt;blockquote>
 &lt;p>Ivona Brandic; IEEE Computing Edge, January 2023 DOI [0]&lt;/p>
 &lt;/blockquote>

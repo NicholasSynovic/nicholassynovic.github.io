@@ -278,8 +278,6 @@
 
 1people	/categories/people
 
-1internet of things	/categories/internet-of-things
-
 1security	/categories/security
 
 1machine learning	/categories/machine-learning
@@ -293,6 +291,8 @@
 1summary	/categories/summary
 
 1magazine	/categories/magazine
+
+1internet of things	/categories/internet-of-things
 
 1article	/categories/article
 

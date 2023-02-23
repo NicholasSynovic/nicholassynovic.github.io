@@ -6,6 +6,8 @@
 > These posts are mirrored from my HTTP site.
 
 
+1A summary of Where Are They Going? Clustering Event Camera Data to Detect and Track Moving Objects by Craig Laboni et al.	/summaries/where-are-they-going-clustering-event-camera-data-to-detect-and-track-moving-objects
+
 1A summary of COM-PACE: Compliance Aware Cloud Application Engineering Using Blockchain by Gagangeet Singh Aujla et al.	/summaries/com-pace-compliance-aware-cloud-application-engineering-using-blockchain
 
 
