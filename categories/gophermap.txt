@@ -286,13 +286,15 @@
 
 1artificial intelligence	/categories/artificial-intelligence
 
+1ai focus	/categories/ai-focus
+
+1view from the cloud	/categories/view-from-the-cloud
+
 1summary	/categories/summary
 
 1magazine	/categories/magazine
 
 1article	/categories/article
-
-1ai focus	/categories/ai-focus
 
 
 .
