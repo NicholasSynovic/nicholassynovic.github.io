@@ -19,7 +19,7 @@ toc: false
 show_reading_time: true
 ---
 
-# A summary of *mg2pose: Face Alignment and Detection via 6DoF, Face Pose Estimation*
+# A summary of *img2pose: Face Alignment and Detection via 6DoF, Face Pose Estimation*
 
 > Vitor Albiero et al. CVPR, 2021
 > [DOI](https://doi.org/10.1109/CVPR46437.2021.00753)
@@ -29,7 +29,7 @@ article.
 
 ## Table of Contents
 
-- [A summary of *mg2pose: Face Alignment and Detection via 6DoF, Face Pose Estimation*](#a-summary-of-mg2pose-face-alignment-and-detection-via-6dof-face-pose-estimation)
+- [A summary of *img2pose: Face Alignment and Detection via 6DoF, Face Pose Estimation*](#a-summary-of-img2pose-face-alignment-and-detection-via-6dof-face-pose-estimation)
   - [Table of Contents](#table-of-contents)
   - [First Pass](#first-pass)
     - [Problem](#problem)
