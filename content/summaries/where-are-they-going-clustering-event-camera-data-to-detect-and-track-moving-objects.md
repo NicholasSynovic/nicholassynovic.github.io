@@ -5,7 +5,7 @@ description: Posted in the IEEE Computing Edge, February 2023
 summary: Posted in the IEEE Computing Edge, February 2023
 
 categories: [summary, magazine, article, internet of things]
-citations: []
+citations: [https://doi.org/10.1109/MC.2021.3136451]
 
 draft: false
 
