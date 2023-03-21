@@ -25,7 +25,7 @@ show_reading_time: true
 
 ## Table of Contents
 
-- [A summary of *Embracing Multimodal Data in Multimedia Data Analysis*](#a-summary-of-embracing-Multimodal-data-in-multimedia-data-analysis)
+- [A summary of *Embracing Multimodal Data in Multimedia Data Analysis*](#a-summary-of-embracing-multimodal-data-in-multimedia-data-analysis)
   - [Table of Contents](#table-of-contents)
   - [Summary](#summary)
   - [Citations](#citations)
