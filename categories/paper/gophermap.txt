@@ -6,6 +6,8 @@
 > These posts are mirrored from my HTTP site.
 
 
+1A summary of Internet of Video Things in 2030: A World with Many Cameras by Anup Mohan et al.	/summaries/internet-of-video-things-in-2030-a-world-with-many-cameras
+
 1A summary of Multimedia Content Creation using Global Network Cameras: The Making of CAM2 by Ahmed S. Kaseb et al.	/summaries/mulitmedia-content-creation-using-global-network-cameras-the-making-of-cam2
 
 

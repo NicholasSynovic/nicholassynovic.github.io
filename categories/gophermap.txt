@@ -296,11 +296,7 @@
 
 1article	/categories/article
 
-1summary	/categories/summary
-
 1Streaming media	/categories/streaming-media
-
-1paper	/categories/paper
 
 1Navigation	/categories/navigation
 
@@ -311,6 +307,10 @@
 1Cloud computing	/categories/cloud-computing
 
 1Cameras	/categories/cameras
+
+1summary	/categories/summary
+
+1paper	/categories/paper
 
 
 .

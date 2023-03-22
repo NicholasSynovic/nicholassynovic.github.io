@@ -3,7 +3,7 @@
 Tuesday, March 21, 2023 · 4 minute read
 
 A summary of Multimedia Content Creation using Global Network Cameras: The Making of CAM2 Ahmed S. Kaseb et al. GlobalSIS, 2015 DOI [0]
-DISCLOSURE: I work with one of the authors (Yung-Hsiang Lu). My comments and views of the paper may be skewed due to my relationship with the author
+DISCLOSURE: I work with one of the authors (Yung-Hsiang Lu). My comments and views of the paper may be skewed due to my relationship with the author.
 For the summary of the paper, go to the Summary section of this article.
 Table of Contents A summary of Multimedia Content Creation using Global Network Cameras: The Making of CAM2 Table of Contents First Pass Problem Motivation Category Context Contributions Second Pass Background Work Figures, Diagrams, Illustrations, and Graphs Clarity Relevant Work Methodology Author Assumptions Correctness Future Directions Open Questions Author Feedback Summarization Technique Citations First Pass Read the title, abstract, introduction, section and sub-section headings, and conclusion
 There exists many cameras in the wild that are openly exposing their feeds to the interent intended or otherwise. It is therefore possible to create a database of these open cameras, access their feeds, and create new content experiences for viewers. Additionally, these feeds provide researchers with an opportunity to view real world changes longitudinally, thereby enabling studies that rely on many observations over time. This database and tooling is called CAM2 (Continuous Analysis of Many CAMeras), and it currently contains 70,000 cameras in the wild.

@@ -1,11 +1,160 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>paper on Nicholas M. Synovic</title><link>https://nsynovic.dev/categories/paper/</link><description>Recent content in paper on Nicholas M. Synovic</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Nicholas M. Synovic</copyright><lastBuildDate>Tue, 21 Mar 2023 12:31:04 -0500</lastBuildDate><atom:link href="https://nsynovic.dev/categories/paper/feed.xml" rel="self" type="application/rss+xml"/><item><title>A summary of Multimedia Content Creation using Global Network Cameras: The Making of CAM2 by Ahmed S. Kaseb et al.</title><link>https://nsynovic.dev/summaries/mulitmedia-content-creation-using-global-network-cameras-the-making-of-cam2/</link><pubDate>Tue, 21 Mar 2023 12:31:04 -0500</pubDate><guid>https://nsynovic.dev/summaries/mulitmedia-content-creation-using-global-network-cameras-the-making-of-cam2/</guid><description>&lt;h1 id="a-summary-of-multimedia-content-creation-using-global-network-cameras-the-making-of-cam2">A summary of &lt;em>Multimedia Content Creation using Global Network Cameras: The Making of CAM2&lt;/em>&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>paper on Nicholas M. Synovic</title><link>https://nsynovic.dev/categories/paper/</link><description>Recent content in paper on Nicholas M. Synovic</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Nicholas M. Synovic</copyright><lastBuildDate>Wed, 22 Mar 2023 13:52:10 -0500</lastBuildDate><atom:link href="https://nsynovic.dev/categories/paper/feed.xml" rel="self" type="application/rss+xml"/><item><title>A summary of Internet of Video Things in 2030: A World with Many Cameras by Anup Mohan et al.</title><link>https://nsynovic.dev/summaries/internet-of-video-things-in-2030-a-world-with-many-cameras/</link><pubDate>Wed, 22 Mar 2023 13:52:10 -0500</pubDate><guid>https://nsynovic.dev/summaries/internet-of-video-things-in-2030-a-world-with-many-cameras/</guid><description>&lt;h1 id="a-summary-of-internet-of-video-things-in-2030-a-world-with-many-cameras">A summary of &lt;em>Internet of Video Things in 2030: A World with Many Cameras&lt;/em>&lt;/h1>
+&lt;blockquote>
+&lt;p>Anup Mohan et al. ISCAS, 2017 DOI [0]&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;strong>DISCLOSURE&lt;/strong>: I work with one of the authors (Yung-Hsiang Lu). My comments and
+views of the paper may be skewed due to my relationship with the author.&lt;/p>
+&lt;p>For the summary of the paper, go to the &lt;a href="#summary">Summary&lt;/a> section of this
+article.&lt;/p>
+&lt;h2 id="table-of-contents">Table of Contents&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="#a-summary-of-internet-of-video-things-in-2030-a-world-with-many-cameras">A summary of &lt;em>Internet of Video Things in 2030: A World with Many Cameras&lt;/em>&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#table-of-contents">Table of Contents&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#first-pass">First Pass&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#problem">Problem&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#motivation">Motivation&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#category">Category&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#context">Context&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#contributions">Contributions&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#second-pass">Second Pass&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#background-work">Background Work&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#clarity">Clarity&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#relevant-work">Relevant Work&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#methodology">Methodology&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#author-assumptions">Author Assumptions&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#correctness">Correctness&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#future-directions">Future Directions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#open-questions">Open Questions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#author-feedback">Author Feedback&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#summarization-technique">Summarization Technique&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#citations">Citations&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="first-pass">First Pass&lt;/h2>
+&lt;blockquote>
+&lt;p>Read the title, abstract, introduction, section and sub-section headings, and
+conclusion&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="problem">Problem&lt;/h3>
+&lt;blockquote>
+&lt;p>What is the problem addressed in the paper?&lt;/p>
+&lt;/blockquote>
+&lt;p>The author&amp;rsquo;s estimate that there will be ~13 billion cameras by 2030. With so
+many cameras capturing data continously, it will become increasingly more
+difficult to process all of that data as computational power, network bandwidth,
+and storage capactities will limit real-time analysis feasability.&lt;/p>
+&lt;h3 id="motivation">Motivation&lt;/h3>
+&lt;blockquote>
+&lt;p>Why should we care about this paper?&lt;/p>
+&lt;/blockquote>
+&lt;p>We should care about this paper because it raises issues and potential solutions
+to said issues w.r.t the massive amounts of data generated and the computational
+needs of extracting data from said data captured by cameras.&lt;/p>
+&lt;h3 id="category">Category&lt;/h3>
+&lt;blockquote>
+&lt;p>What type of paper is this work?&lt;/p>
+&lt;/blockquote>
+&lt;p>This is a proposal paper. I would also call this a &amp;ldquo;futurist&amp;rdquo;, or trend-analysis
+paper&lt;/p>
+&lt;h3 id="context">Context&lt;/h3>
+&lt;blockquote>
+&lt;p>What other &lt;em>types&lt;/em> of papers is the work related to?&lt;/p>
+&lt;/blockquote>
+&lt;p>This paper is similar to other works that try and predict future computational
+needs to solve problems.&lt;/p>
+&lt;h3 id="contributions">Contributions&lt;/h3>
+&lt;blockquote>
+&lt;p>What are the author&amp;rsquo;s main contributions?&lt;/p>
+&lt;/blockquote>
+&lt;p>Their main contributions are a number issues and solutions that could potential
+solve these issues w.r.t to the 13 billion cameras that are going to be
+generating data by 2030.&lt;/p>
+&lt;hr>
+&lt;h2 id="second-pass">Second Pass&lt;/h2>
+&lt;blockquote>
+&lt;p>A proper read through of the paper is required to answer this&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="background-work">Background Work&lt;/h3>
+&lt;blockquote>
+&lt;p>What has been done prior to this paper?&lt;/p>
+&lt;/blockquote>
+&lt;p>Work has gone into predicting future computing trends w.r.t networked cameras'
+storage capacities, bandwidth sizes, and hardware capabilities.&lt;/p>
+&lt;h3 id="figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/h3>
+&lt;blockquote>
+&lt;p>Are the axes properly labeled? Are results shown with error bars, so that
+conclusions are statistically significant?&lt;/p>
+&lt;/blockquote>
+&lt;p>The figures are properly labeled and are clear.&lt;/p>
+&lt;h3 id="clarity">Clarity&lt;/h3>
+&lt;blockquote>
+&lt;p>Is the paper well written?&lt;/p>
+&lt;/blockquote>
+&lt;p>Yes, this paper is well written.&lt;/p>
+&lt;h3 id="relevant-work">Relevant Work&lt;/h3>
+&lt;blockquote>
+&lt;p>Mark relevant work for review&lt;/p>
+&lt;/blockquote>
+&lt;p>The following relevant work can be found in the &lt;a href="#citations">Citations&lt;/a> section
+of this article.&lt;/p>
+&lt;h3 id="methodology">Methodology&lt;/h3>
+&lt;blockquote>
+&lt;p>What methodology did the author&amp;rsquo;s use to validate their contributions?&lt;/p>
+&lt;/blockquote>
+&lt;p>The author&amp;rsquo;s reviewed existing hardware capacities and trends, as well as other
+academic and industry trend analysis papers to make predictions about the
+future.&lt;/p>
+&lt;h3 id="author-assumptions">Author Assumptions&lt;/h3>
+&lt;blockquote>
+&lt;p>What assumptions does the author(s) make? Are they justified assumptions?&lt;/p>
+&lt;/blockquote>
+&lt;p>This whole paper operates on the assumptions that cameras will continue to grow
+in capability and popularity at a set rate.&lt;/p>
+&lt;h4 id="correctness">Correctness&lt;/h4>
+&lt;blockquote>
+&lt;p>Do the assumptions seem valid?&lt;/p>
+&lt;/blockquote>
+&lt;p>For this type of paper, that seems valid. However, personally I don&amp;rsquo;t like
+making predictions about hardware and software trends a decade into the future.&lt;/p>
+&lt;h3 id="future-directions">Future Directions&lt;/h3>
+&lt;blockquote>
+&lt;p>My own proposed future directions for the work&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="open-questions">Open Questions&lt;/h3>
+&lt;blockquote>
+&lt;p>What open questions do I have about the work?&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="author-feedback">Author Feedback&lt;/h3>
+&lt;blockquote>
+&lt;p>What feedback would I give to the authors?&lt;/p>
+&lt;/blockquote>
+&lt;p>Overall, this is a fine work. I would sugest that the author&amp;rsquo;s follow up on this
+be evaluating existing s.o.t.a works and seeing if they help address any of the
+problems that they raise.&lt;/p>
+&lt;hr>
+&lt;h2 id="summarization-technique">Summarization Technique&lt;/h2>
+&lt;p>This paper was summarized using a modified technique proposed by S. Keshav in
+his work &lt;em>How to Read a Paper&lt;/em> [0].&lt;/p>
+&lt;h2 id="citations">Citations&lt;/h2>
+Citations availible at https://nsynovic.dev/summaries/internet-of-video-things-in-2030-a-world-with-many-cameras/</description></item><item><title>A summary of Multimedia Content Creation using Global Network Cameras: The Making of CAM2 by Ahmed S. Kaseb et al.</title><link>https://nsynovic.dev/summaries/mulitmedia-content-creation-using-global-network-cameras-the-making-of-cam2/</link><pubDate>Tue, 21 Mar 2023 12:31:04 -0500</pubDate><guid>https://nsynovic.dev/summaries/mulitmedia-content-creation-using-global-network-cameras-the-making-of-cam2/</guid><description>&lt;h1 id="a-summary-of-multimedia-content-creation-using-global-network-cameras-the-making-of-cam2">A summary of &lt;em>Multimedia Content Creation using Global Network Cameras: The Making of CAM2&lt;/em>&lt;/h1>
 &lt;blockquote>
 &lt;p>Ahmed S. Kaseb et al. GlobalSIS, 2015 DOI [0]&lt;/p>
 &lt;/blockquote>
-&lt;blockquote>
-&lt;p>DISCLOSURE: I work with one of the authors (Yung-Hsiang Lu). My comments and
-views of the paper may be skewed due to my relationship with the author&lt;/p>
-&lt;/blockquote>
+&lt;p>&lt;strong>DISCLOSURE&lt;/strong>: I work with one of the authors (Yung-Hsiang Lu). My comments and
+views of the paper may be skewed due to my relationship with the author.&lt;/p>
 &lt;p>For the summary of the paper, go to the &lt;a href="#summary">Summary&lt;/a> section of this
 article.&lt;/p>
 &lt;h2 id="table-of-contents">Table of Contents&lt;/h2>
