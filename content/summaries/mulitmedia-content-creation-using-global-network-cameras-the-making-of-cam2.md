@@ -25,8 +25,8 @@ show_reading_time: true
 
 > Ahmed S. Kaseb et al. GlobalSIS, 2015 DOI \[0\]
 
-> DISCLOSURE: I work with one of the authors (Yung-Hsiang Lu). My comments and
-> views of the paper may be skewed due to my relationship with the author
+**DISCLOSURE**: I work with one of the authors (Yung-Hsiang Lu). My comments and
+views of the paper may be skewed due to my relationship with the author.
 
 For the summary of the paper, go to the [Summary](#summary) section of this
 article.
