@@ -6,6 +6,8 @@
 > These posts are mirrored from my HTTP site.
 
 
+1A summary of Multimedia Content Creation using Global Network Cameras: The Making of CAM2 by Ahmed S. Kaseb et al.	/summaries/mulitmedia-content-creation-using-global-network-cameras-the-making-of-cam2
+
 1A summary of Embracing Multimodal Data in Multimedia Data Analysis by Shu-Ching Chen et al.	/summaries/embracing-multimodal-data-in-multimedia-data-analysis
 
 1A summary of Where Are They Going? Clustering Event Camera Data to Detect and Track Moving Objects by Craig Laboni et al.	/summaries/where-are-they-going-clustering-event-camera-data-to-detect-and-track-moving-objects

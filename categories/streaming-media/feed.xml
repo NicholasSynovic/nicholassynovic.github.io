@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Streaming media on Nicholas M. Synovic</title><link>https://nsynovic.dev/categories/streaming-media/</link><description>Recent content in Streaming media on Nicholas M. Synovic</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Nicholas M. Synovic</copyright><lastBuildDate>Tue, 21 Mar 2023 12:31:04 -0500</lastBuildDate><atom:link href="https://nsynovic.dev/categories/streaming-media/feed.xml" rel="self" type="application/rss+xml"/><item><title>A summary of Multimedia Content Creation using Global Network Cameras: The Making of CAM2 by Ahmed S. Kaseb et al.</title><link>https://nsynovic.dev/summaries/mulitmedia-content-creation-using-global-network-cameras-the-making-of-cam2/</link><pubDate>Tue, 21 Mar 2023 12:31:04 -0500</pubDate><guid>https://nsynovic.dev/summaries/mulitmedia-content-creation-using-global-network-cameras-the-making-of-cam2/</guid><description>&lt;h1 id="a-summary-of-multimedia-content-creation-using-global-network-cameras-the-making-of-cam2">A summary of &lt;em>Multimedia Content Creation using Global Network Cameras: The Making of CAM2&lt;/em>&lt;/h1>
+&lt;blockquote>
+&lt;p>Ahmed S. Kaseb et al. GlobalSIS, 2015 DOI [0]&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>DISCLOSURE: I work with one of the authors (Yung-Hsiang Lu). My comments and
+views of the paper may be skewed due to my relationship with the author&lt;/p>
+&lt;/blockquote>
+&lt;p>For the summary of the paper, go to the &lt;a href="#summary">Summary&lt;/a> section of this
+article.&lt;/p>
+&lt;h2 id="table-of-contents">Table of Contents&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="#a-summary-of-multimedia-content-creation-using-global-network-cameras-the-making-of-cam2">A summary of &lt;em>Multimedia Content Creation using Global Network Cameras: The Making of CAM2&lt;/em>&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#table-of-contents">Table of Contents&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#first-pass">First Pass&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#problem">Problem&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#motivation">Motivation&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#category">Category&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#context">Context&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#contributions">Contributions&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#second-pass">Second Pass&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#background-work">Background Work&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#clarity">Clarity&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#relevant-work">Relevant Work&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#methodology">Methodology&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#author-assumptions">Author Assumptions&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#correctness">Correctness&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#future-directions">Future Directions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#open-questions">Open Questions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#author-feedback">Author Feedback&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#summarization-technique">Summarization Technique&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#citations">Citations&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="first-pass">First Pass&lt;/h2>
+&lt;blockquote>
+&lt;p>Read the title, abstract, introduction, section and sub-section headings, and
+conclusion&lt;/p>
+&lt;/blockquote>
+&lt;p>There exists many cameras in the wild that are openly exposing their feeds to
+the interent intended or otherwise. It is therefore possible to create a
+database of these open cameras, access their feeds, and create new content
+experiences for viewers. Additionally, these feeds provide researchers with an
+opportunity to view real world changes longitudinally, thereby enabling studies
+that rely on many observations over time. This database and tooling is called
+CAM2 (Continuous Analysis of Many CAMeras), and it currently contains 70,000
+cameras in the wild.&lt;/p>
+&lt;p>However, managing and providing a dataset of all this data is difficult.
+Furthermore, finding and reporting camera metadata including make and model as
+well as geographic location are also non-trivial tasks. Thus CAM2 is working
+towards resolving these issues for future revisions.&lt;/p>
+&lt;h3 id="problem">Problem&lt;/h3>
+&lt;blockquote>
+&lt;p>What is the problem addressed in the paper?&lt;/p>
+&lt;/blockquote>
+&lt;p>THe problem addressed in the paper is that there exists a spot in content
+creation and research to use the camera feeds of openly exposed devices to
+create new experiences and insights into the world around us.&lt;/p>
+&lt;p>Additionally, trying to capture this data requires a significant amount of
+engineering and computational resources.&lt;/p>
+&lt;h3 id="motivation">Motivation&lt;/h3>
+&lt;blockquote>
+&lt;p>Why should we care about this paper?&lt;/p>
+&lt;/blockquote>
+&lt;p>Because it provides a tool to allow for the creation of new content experiences
+and research opportunities using open, internet exposed cameras.&lt;/p>
+&lt;p>Additionally, it provides a list of problems that reimplementers and extenders
+will face when trying to recreate similar tools.&lt;/p>
+&lt;h3 id="category">Category&lt;/h3>
+&lt;blockquote>
+&lt;p>What type of paper is this work?&lt;/p>
+&lt;/blockquote>
+&lt;p>This is a tools paper.&lt;/p>
+&lt;h3 id="context">Context&lt;/h3>
+&lt;blockquote>
+&lt;p>What other &lt;em>types&lt;/em> of papers is the work related to?&lt;/p>
+&lt;/blockquote>
+&lt;p>This paper is related to work involving using open, internet exposed web cameras
+for creating new experiences and research opportunities.&lt;/p>
+&lt;h3 id="contributions">Contributions&lt;/h3>
+&lt;blockquote>
+&lt;p>What are the author&amp;rsquo;s main contributions?&lt;/p>
+&lt;/blockquote>
+&lt;p>A tool to provide easy access to the internet exposed web cameras.&lt;/p>
+&lt;hr>
+&lt;h2 id="second-pass">Second Pass&lt;/h2>
+&lt;blockquote>
+&lt;p>A proper read through of the paper is required to answer this&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="background-work">Background Work&lt;/h3>
+&lt;blockquote>
+&lt;p>What has been done prior to this paper?&lt;/p>
+&lt;/blockquote>
+&lt;p>Prior work has gone through the effort of collecting information from open,
+internet cameras. However, the compute and storage complexity has limited their
+usefulness. Furthermore, in order to make this tool useful to all researchers,
+as a cloud software technology, autoscaling and load balancing is a challenge as
+well.&lt;/p>
+&lt;h3 id="figures-diagrams-illustrations-and-graphs">Figures, Diagrams, Illustrations, and Graphs&lt;/h3>
+&lt;blockquote>
+&lt;p>Are the axes properly labeled? Are results shown with error bars, so that
+conclusions are statistically significant?&lt;/p>
+&lt;/blockquote>
+&lt;p>All of the images are properly labelled.&lt;/p>
+&lt;h3 id="clarity">Clarity&lt;/h3>
+&lt;blockquote>
+&lt;p>Is the paper well written?&lt;/p>
+&lt;/blockquote>
+&lt;p>Yes, the paper is well written.&lt;/p>
+&lt;h3 id="relevant-work">Relevant Work&lt;/h3>
+&lt;blockquote>
+&lt;p>Mark relevant work for review&lt;/p>
+&lt;/blockquote>
+&lt;p>The following relevant work can be found in the &lt;a href="#citations">Citations&lt;/a> section
+of this article.&lt;/p>
+&lt;ul>
+&lt;li>Image-Based Geographical Location Estimation Using Web Cameras [2]&lt;/li>
+&lt;li>IP Geolocation Databases: Unreliable? [3]&lt;/li>
+&lt;/ul>
+&lt;h3 id="methodology">Methodology&lt;/h3>
+&lt;blockquote>
+&lt;p>What methodology did the author&amp;rsquo;s use to validate their contributions?&lt;/p>
+&lt;/blockquote>
+&lt;p>They created a tool to allow for the analysis of many cameras continously. There
+was no validation mentioned w.r.t any experiments that they ran. Additionally,
+source code is not provided.&lt;/p>
+&lt;h3 id="author-assumptions">Author Assumptions&lt;/h3>
+&lt;blockquote>
+&lt;p>What assumptions does the author(s) make? Are they justified assumptions?&lt;/p>
+&lt;/blockquote>
+&lt;p>The only assumption that the authors make is that the cameras will remain
+accessible after the publication of the paper.&lt;/p>
+&lt;h4 id="correctness">Correctness&lt;/h4>
+&lt;blockquote>
+&lt;p>Do the assumptions seem valid?&lt;/p>
+&lt;/blockquote>
+&lt;p>No it is not a valid assumption because the owners of these open, internet
+connected cameras could becgin to password protect their cameras for privacy or
+security concerns, thus making the usage of this tool limited or non-optimal.&lt;/p>
+&lt;h3 id="future-directions">Future Directions&lt;/h3>
+&lt;blockquote>
+&lt;p>My own proposed future directions for the work&lt;/p>
+&lt;/blockquote>
+&lt;p>Currently, this tool is no longer functional at the URL the author&amp;rsquo;s provide. It
+would be cool to recreate portions of this tool. Additionally, figuring out
+optimal ways of discovering internet connected cameras would be interesting as
+well. Furthermore, learning how to geo-locate IP addresses is also interesting.&lt;/p>
+&lt;h3 id="open-questions">Open Questions&lt;/h3>
+&lt;blockquote>
+&lt;p>What open questions do I have about the work?&lt;/p>
+&lt;/blockquote>
+&lt;p>How does one get access to the dataset described by the authors?&lt;/p>
+&lt;h3 id="author-feedback">Author Feedback&lt;/h3>
+&lt;blockquote>
+&lt;p>What feedback would I give to the authors?&lt;/p>
+&lt;/blockquote>
+&lt;p>This is a pretty good tools paper. However, like many tools papers, without
+source code or long-term data archival, this work cannot be easily extended
+upon.&lt;/p>
+&lt;hr>
+&lt;h2 id="summarization-technique">Summarization Technique&lt;/h2>
+&lt;p>This paper was summarized using a modified technique proposed by S. Keshav in
+his work &lt;em>How to Read a Paper&lt;/em> [0].&lt;/p>
+&lt;h2 id="citations">Citations&lt;/h2>
+Citations availible at https://nsynovic.dev/summaries/mulitmedia-content-creation-using-global-network-cameras-the-making-of-cam2/</description></item></channel></rss>

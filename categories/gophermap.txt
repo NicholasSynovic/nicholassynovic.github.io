@@ -290,13 +290,27 @@
 
 1internet of things	/categories/internet-of-things
 
-1summary	/categories/summary
-
 1magazine	/categories/magazine
 
 1eic message	/categories/eic-message
 
 1article	/categories/article
+
+1summary	/categories/summary
+
+1Streaming media	/categories/streaming-media
+
+1paper	/categories/paper
+
+1Navigation	/categories/navigation
+
+1Multimedia communication	/categories/multimedia-communication
+
+1Mobile communication	/categories/mobile-communication
+
+1Cloud computing	/categories/cloud-computing
+
+1Cameras	/categories/cameras
 
 
 .
