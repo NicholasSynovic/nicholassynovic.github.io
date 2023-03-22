@@ -6,9 +6,10 @@ summary: Posted in GlobalSIP, 2015
 
 categories: [summary, paper, Cameras, Cloud computing, Streaming media, Multimedia
       communication, Mobile communication, Navigation]
-citations: [https://doi.org/10.1145/1273445.1273458, https://doi.org/10.1109/GlobalSIP.2015.7416927]
+citations: [https://doi.org/10.1145/1273445.1273458, https://doi.org/10.1109/GlobalSIP.2015.7416927,
+  https://doi.org/10.1109/SSIAI.2014.6806032, https://doi.org/10.1145/1971162.1971171]
 
-draft: true
+draft: false
 
 date: 2023-03-21T12:31:04-05:00
 featured_image: ''
@@ -23,6 +24,9 @@ show_reading_time: true
 # A summary of *Multimedia Content Creation using Global Network Cameras: The Making of CAM2*
 
 > Ahmed S. Kaseb et al. GlobalSIS, 2015 DOI \[0\]
+
+> DISCLOSURE: I work with one of the authors (Yung-Hsiang Lu). My comments and
+> views of the paper may be skewed due to my relationship with the author
 
 For the summary of the paper, go to the [Summary](#summary) section of this
 article.
@@ -48,7 +52,6 @@ article.
     - [Future Directions](#future-directions)
     - [Open Questions](#open-questions)
     - [Author Feedback](#author-feedback)
-  - [Summary](#summary)
   - [Summarization Technique](#summarization-technique)
   - [Citations](#citations)
 
@@ -123,14 +126,24 @@ ______________________________________________________________________
 
 > What has been done prior to this paper?
 
+Prior work has gone through the effort of collecting information from open,
+internet cameras. However, the compute and storage complexity has limited their
+usefulness. Furthermore, in order to make this tool useful to all researchers,
+as a cloud software technology, autoscaling and load balancing is a challenge as
+well.
+
 ### Figures, Diagrams, Illustrations, and Graphs
 
 > Are the axes properly labeled? Are results shown with error bars, so that
 > conclusions are statistically significant?
 
+All of the images are properly labelled.
+
 ### Clarity
 
 > Is the paper well written?
+
+Yes, the paper is well written.
 
 ### Relevant Work
 
@@ -139,35 +152,54 @@ ______________________________________________________________________
 The following relevant work can be found in the [Citations](#citations) section
 of this article.
 
+- Image-Based Geographical Location Estimation Using Web Cameras \[2\]
+- IP Geolocation Databases: Unreliable? \[3\]
+
 ### Methodology
 
 > What methodology did the author's use to validate their contributions?
+
+They created a tool to allow for the analysis of many cameras continously. There
+was no validation mentioned w.r.t any experiments that they ran. Additionally,
+source code is not provided.
 
 ### Author Assumptions
 
 > What assumptions does the author(s) make? Are they justified assumptions?
 
+The only assumption that the authors make is that the cameras will remain
+accessible after the publication of the paper.
+
 #### Correctness
 
 > Do the assumptions seem valid?
+
+No it is not a valid assumption because the owners of these open, internet
+connected cameras could becgin to password protect their cameras for privacy or
+security concerns, thus making the usage of this tool limited or non-optimal.
 
 ### Future Directions
 
 > My own proposed future directions for the work
 
+Currently, this tool is no longer functional at the URL the author's provide. It
+would be cool to recreate portions of this tool. Additionally, figuring out
+optimal ways of discovering internet connected cameras would be interesting as
+well. Furthermore, learning how to geo-locate IP addresses is also interesting.
+
 ### Open Questions
 
 > What open questions do I have about the work?
+
+How does one get access to the dataset described by the authors?
 
 ### Author Feedback
 
 > What feedback would I give to the authors?
 
-______________________________________________________________________
-
-## Summary
-
-> A summary of the paper
+This is a pretty good tools paper. However, like many tools papers, without
+source code or long-term data archival, this work cannot be easily extended
+upon.
 
 ______________________________________________________________________
 
