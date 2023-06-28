@@ -6,311 +6,311 @@
 > These posts are mirrored from my HTTP site.
 
 
-1personal	/categories/personal
+1personal	
 
-1introduction	/categories/introduction
+1introduction	
 
-1hello	/categories/hello
+1hello	
 
-1first-post	/categories/first-post
+1first-post	
 
-1identity	/categories/identity
+1identity	
 
-1gpg	/categories/gpg
+1gpg	
 
-1git	/categories/git
+1git	
 
-1web dev	/categories/web-dev
+1web dev	
 
-1jam stack	/categories/jam-stack
+1jam stack	
 
-1gopher	/categories/gopher
+1gopher	
 
-1Gemini	/categories/gemini
+1Gemini	
 
-1SIGCOMM	/categories/sigcomm
+1SIGCOMM	
 
-1meta	/categories/meta
+1meta	
 
-1ACM SIGCOMM Computer Communication Review	/categories/acm-sigcomm-computer-communication-review
+1ACM SIGCOMM Computer Communication Review	
 
-1ACM SIGCOMM	/categories/acm-sigcomm
+1ACM SIGCOMM	
 
-1ACM	/categories/acm
+1ACM	
 
-12007	/categories/2007
+12007	
 
-1machine learning architecture	/categories/machine-learning-architecture
+1machine learning architecture	
 
-1arXive	/categories/arxive
+1arXive	
 
-1ICLR	/categories/iclr
+1ICLR	
 
-1ImageNet	/categories/imagenet
+1ImageNet	
 
-1GPU	/categories/gpu
+1GPU	
 
-1deep learning	/categories/deep-learning
+1deep learning	
 
-1computer vision	/categories/computer-vision
+1computer vision	
 
-1Communications of the ACM	/categories/communications-of-the-acm
+1Communications of the ACM	
 
-12017	/categories/2017
+12017	
 
-1Xenon	/categories/xenon
+1Xenon	
 
-1System-on-chip	/categories/system-on-chip
+1System-on-chip	
 
-1Runtime	/categories/runtime
+1Runtime	
 
-1Random access memory	/categories/random-access-memory
+1Random access memory	
 
-1Memory management	/categories/memory-management
+1Memory management	
 
-1IEEE HPCA	/categories/ieee-hpca
+1IEEE HPCA	
 
-1Hardware	/categories/hardware
+1Hardware	
 
-1Clocks	/categories/clocks
+1Clocks	
 
-12013	/categories/2013
+12013	
 
-1theory	/categories/theory
+1theory	
 
-1learning theory	/categories/learning-theory
+1learning theory	
 
-1text categorization	/categories/text-categorization
+1text categorization	
 
-1SVM	/categories/svm
+1SVM	
 
-1applications	/categories/applications
+1applications	
 
-1SVMs	/categories/svms
+1SVMs	
 
-1ml	/categories/ml
+1ml	
 
-1implementation	/categories/implementation
+1implementation	
 
-1IEEE Intelligent Systems	/categories/ieee-intelligent-systems
+1IEEE Intelligent Systems	
 
-1CV	/categories/cv
+1CV	
 
-1DL	/categories/dl
+1DL	
 
-1CNN	/categories/cnn
+1CNN	
 
-1class activation mapping	/categories/class-activation-mapping
+1class activation mapping	
 
-1cam	/categories/cam
+1cam	
 
-1International Journal of Computer Vision	/categories/international-journal-of-computer-vision
+1International Journal of Computer Vision	
 
-1human sensing	/categories/human-sensing
+1human sensing	
 
-1face detection	/categories/face-detection
+1face detection	
 
-1boosting	/categories/boosting
+1boosting	
 
-1software engineering	/categories/software-engineering
+1software engineering	
 
-1Software creation	/categories/software-creation
+1Software creation	
 
-1Software	/categories/software
+1Software	
 
-1management	/categories/management
+1management	
 
-1Weak link Signal	/categories/weak-link-signal
+1Weak link Signal	
 
-1Supply Chain Security	/categories/supply-chain-security
+1Supply Chain Security	
 
-1Software Ecosystem	/categories/software-ecosystem
+1Software Ecosystem	
 
-1npm	/categories/npm
+1npm	
 
-1ICSE-SEIP	/categories/icse-seip
+1ICSE-SEIP	
 
-12022	/categories/2022
+12022	
 
-1USENIX Security Symposium	/categories/usenix-security-symposium
+1USENIX Security Symposium	
 
-12019	/categories/2019
+12019	
 
-1Nature	/categories/nature
+1Nature	
 
-1stochastic discrimination	/categories/stochastic-discrimination
+1stochastic discrimination	
 
-1Pattern recognition	/categories/pattern-recognition
+1Pattern recognition	
 
-1multiple-classifier system	/categories/multiple-classifier-system
+1multiple-classifier system	
 
-1decision tree	/categories/decision-tree
+1decision tree	
 
-1decision forest	/categories/decision-forest
+1decision forest	
 
-1decision combination	/categories/decision-combination
+1decision combination	
 
-1classifier combination	/categories/classifier-combination
+1classifier combination	
 
-1bootstrapping	/categories/bootstrapping
+1bootstrapping	
 
-11998	/categories/1998
+11998	
 
-12014	/categories/2014
+12014	
 
-1Training	/categories/training
+1Training	
 
-1Proposals	/categories/proposals
+1Proposals	
 
-1Pipelines	/categories/pipelines
+1Pipelines	
 
-1Open source software	/categories/open-source-software
+1Open source software	
 
-1Object detection	/categories/object-detection
+1Object detection	
 
-1Feature extraction	/categories/feature-extraction
+1Feature extraction	
 
-1Computer architecture	/categories/computer-architecture
+1Computer architecture	
 
-1NeurIPS	/categories/neurips
+1NeurIPS	
 
-1scale invariance	/categories/scale-invariance
+1scale invariance	
 
-1object recognition	/categories/object-recognition
+1object recognition	
 
-1invariant features	/categories/invariant-features
+1invariant features	
 
-1image matching	/categories/image-matching
+1image matching	
 
-1ICJV	/categories/icjv
+1ICJV	
 
-12004	/categories/2004
+12004	
 
-1Viewpoint Change	/categories/viewpoint-change
+1Viewpoint Change	
 
-1Robust Feature	/categories/robust-feature
+1Robust Feature	
 
-1Interest Point	/categories/interest-point
+1Interest Point	
 
-1Integral Image	/categories/integral-image
+1Integral Image	
 
-1Hessian Matrix	/categories/hessian-matrix
+1Hessian Matrix	
 
-1variable scales	/categories/variable-scales
+1variable scales	
 
-1network layers	/categories/network-layers
+1network layers	
 
-1local descriptors	/categories/local-descriptors
+1local descriptors	
 
-1large-scale image retrieval	/categories/large-scale-image-retrieval
+1large-scale image retrieval	
 
-1large-scale dataset	/categories/large-scale-dataset
+1large-scale dataset	
 
-1landmark image dataset	/categories/landmark-image-dataset
+1landmark image dataset	
 
-1keypoint detectors	/categories/keypoint-detectors
+1keypoint detectors	
 
-1image-level annotations	/categories/image-level-annotations
+1image-level annotations	
 
-1Google-Landmarks dataset	/categories/google-landmarks-dataset
+1Google-Landmarks dataset	
 
-1global descriptors	/categories/global-descriptors
+1global descriptors	
 
-1geometric verification	/categories/geometric-verification
+1geometric verification	
 
-1feature matching	/categories/feature-matching
+1feature matching	
 
-1DELE	/categories/dele
+1DELE	
 
-1convolutional neural networks	/categories/convolutional-neural-networks
+1convolutional neural networks	
 
-1attentive local feature descriptor	/categories/attentive-local-feature-descriptor
+1attentive local feature descriptor	
 
-1attentive deep local features	/categories/attentive-deep-local-features
+1attentive deep local features	
 
-1attention mechanism	/categories/attention-mechanism
+1attention mechanism	
 
-1CVPR	/categories/cvpr
+1CVPR	
 
-12016	/categories/2016
+12016	
 
-12018	/categories/2018
+12018	
 
-1arXiv	/categories/arxiv
+1arXiv	
 
-12015	/categories/2015
+12015	
 
-1blog	/categories/blog
+1blog	
 
-1research ethics	/categories/research-ethics
+1research ethics	
 
-1research	/categories/research
+1research	
 
-1responsible conduct in research	/categories/responsible-conduct-in-research
+1responsible conduct in research	
 
-1ethics	/categories/ethics
+1ethics	
 
-1leadership	/categories/leadership
+1leadership	
 
-1diversity	/categories/diversity
+1diversity	
 
-1book	/categories/book
+1book	
 
-1round table	/categories/round-table
+1round table	
 
-1discussion	/categories/discussion
+1discussion	
 
-1expert opinion	/categories/expert-opinion
+1expert opinion	
 
-1affective computing and sentiment analysis	/categories/affective-computing-and-sentiment-analysis
+1affective computing and sentiment analysis	
 
-1pervasive security and privacy	/categories/pervasive-security-and-privacy
+1pervasive security and privacy	
 
-1from the editors	/categories/from-the-editors
+1from the editors	
 
-1leadership computing	/categories/leadership-computing
+1leadership computing	
 
-1scientific programming	/categories/scientific-programming
+1scientific programming	
 
-1it economics	/categories/it-economics
+1it economics	
 
-1processes	/categories/processes
+1processes	
 
-1people	/categories/people
+1people	
 
-1security	/categories/security
+1security	
 
-1machine learning	/categories/machine-learning
+1machine learning	
 
-1artificial intelligence	/categories/artificial-intelligence
+1artificial intelligence	
 
-1ai focus	/categories/ai-focus
+1ai focus	
 
-1view from the cloud	/categories/view-from-the-cloud
+1view from the cloud	
 
-1internet of things	/categories/internet-of-things
+1internet of things	
 
-1magazine	/categories/magazine
+1magazine	
 
-1eic message	/categories/eic-message
+1eic message	
 
-1article	/categories/article
+1article	
 
-1Streaming media	/categories/streaming-media
+1Streaming media	
 
-1Navigation	/categories/navigation
+1Navigation	
 
-1Multimedia communication	/categories/multimedia-communication
+1Multimedia communication	
 
-1Mobile communication	/categories/mobile-communication
+1Mobile communication	
 
-1Cloud computing	/categories/cloud-computing
+1Cloud computing	
 
-1Cameras	/categories/cameras
+1Cameras	
 
-1summary	/categories/summary
+1summary	
 
-1paper	/categories/paper
+1paper	
 
 
 .
