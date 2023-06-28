@@ -1,3 +1,8 @@
 #!/bin/bash
+source util/optparse.bash
 
-hugo new $1 -c ./content/summaries --kind book-summaries
+optparse.define short=f long=filename desc="The filename of the document to create" variable=file
+
+source $( optparse.build )
+
+hugo new $file -c ./content/summaries --kind book-summaries
