@@ -1,5 +1,6 @@
 ---
-title: A summary of CHANGE ME by AUTHOR
+title: A summary of CHANGE ME 
+authors: CHANGE ME
 description: Posted in the CONFRENCE | JOURNAL | etc. , YEAR
 summary: Posted in the CONFRENCE | JOURNAL | etc. , YEAR
 
@@ -18,11 +19,11 @@ toc: false
 show_reading_time: true
 ---
 
-# A summary of *TITLE*
+# {{ page.Title }}
 
-> Author names
+> {{ .Params.authors }}
 > Journal | Confrence | etc., Year
-> DOI
+> DOI [0]
 
 For the summary of the paper, go to the [Summary](#summary) section of this article.
 
