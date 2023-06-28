@@ -23,7 +23,7 @@ show_reading_time: true
 
 > Author Names
 > Journal | Confrence | etc., Year
-> DOI [0]
+> DOI [1]
 
 For the summary of the paper, go to the [Summary](#summary) section of this article.
 
