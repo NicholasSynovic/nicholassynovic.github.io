@@ -7,7 +7,8 @@ summary: Posted in the Proceedings of the IEEE International Conference on Compu
 
 categories: [summary, Training, Proposals, Feature extraction, Object detection, Pipelines,
   Computer architecture, Open source software, 2015, CVPR]
-citations: [https://doi.org/10.1145/1273445.1273458, https://openaccess.thecvf.com/content_iccv_2015/html/Girshick_Fast_R-CNN_ICCV_2015_paper.html]
+citations: [https://doi.org/10.1145/1273445.1273458, 
+      https://openaccess.thecvf.com/content_iccv_2015/html/Girshick_Fast_R-CNN_ICCV_2015_paper.html]
 
 draft: false
 

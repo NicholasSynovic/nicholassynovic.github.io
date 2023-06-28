@@ -7,7 +7,8 @@ summary: Published in the proceeding of the 2022 CHASE confrence
 categories: [summary, Software, software engineering, Software creation, management]
 citations: [https://doi.org/10.1145/1273445.1273458, https://doi.org/10.1145/3528579.3529177,
   https://doi.org/10.1145/3454122.3454124, https://doi.org/10.1109/TSE.2018.2842201,
-  https://doi.org/10.1007/978-1-4842-4221-6_3, https://www.microsoft.com/en-us/research/publication/appendix-to-productivity-quality-alignment,
+  https://doi.org/10.1007/978-1-4842-4221-6_3, 
+      https://www.microsoft.com/en-us/research/publication/appendix-to-productivity-quality-alignment,
   https://doi.org/10.1109/TSE.2019.2944354]
 
 draft: false

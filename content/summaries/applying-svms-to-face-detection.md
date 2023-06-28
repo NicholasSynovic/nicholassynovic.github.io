@@ -7,7 +7,8 @@ summary: Published as an article in the 1998 July/August publication of the IEEE
 
 categories: [summary, SVMs, ml, CV, face detection, IEEE Intelligent Systems, 1998]
 citations: [https://doi.org/10.1145/1273445.1273458, https://doi.ieeecomputersociety.org/10.1109/5254.708428,
-  https://www.sciencedirect.com/science/article/abs/pii/0167865594900272, https://proceedings.neurips.cc/paper/1995/hash/2f29b6e3abc6ebdefb55456ea6ca5dc8-Abstract.html,
+  https://www.sciencedirect.com/science/article/abs/pii/0167865594900272, 
+      https://proceedings.neurips.cc/paper/1995/hash/2f29b6e3abc6ebdefb55456ea6ca5dc8-Abstract.html,
   https://www.sciencedirect.com/science/article/abs/pii/0031320394900175, https://ieeexplore.ieee.org/document/466858,
   https://www.sciencedirect.com/science/article/pii/S0262885697000127, https://dspace.mit.edu/handle/1721.1/6774,
   https://ieeexplore.ieee.org/document/655648]

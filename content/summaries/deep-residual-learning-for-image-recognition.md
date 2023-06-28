@@ -6,7 +6,8 @@ summary: Posted in arXiv, 2015
 
 categories: [summary]
 citations: [https://doi.org/10.1145/1273445.1273458, http://arxiv.org/abs/1512.03385,
-  https://doi.org/10.1109/CVPR.2007.383266, https://arxiv.org/abs/1505.00387, https://proceedings.neurips.cc/paper/2015/hash/215a71a12769b056c3c32e7299f1c5ed-Abstract.html,
+  https://doi.org/10.1109/CVPR.2007.383266, https://arxiv.org/abs/1505.00387, 
+      https://proceedings.neurips.cc/paper/2015/hash/215a71a12769b056c3c32e7299f1c5ed-Abstract.html,
   https://tinyurl.com/3t33bwde]
 
 draft: false

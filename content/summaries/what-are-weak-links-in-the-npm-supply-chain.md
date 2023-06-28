@@ -14,7 +14,8 @@ citations: [https://doi.org/10.1145/1273445.1273458, https://doi.org/10.1145/351
   https://snyk.io/blog/solarwinds-orion-security-breach-a-shift-in-the-software-supply-chain-paradigm/,
   https://medium.com/intrinsic-blog/compromised-npm-package-event-stream-d47d08605502,
   https://github.blog/2020-09-02-secure-your-software-supply-chain-and-protect-against-supply-chain-threats-github-blog/,
-  https://thehackernews.com/2018/04/ccleaner-malware-attack.html, https://www.idagent.com/blog/2017-08-03-notpetya-threat-supply-chains-across-ukraine/,
+  https://thehackernews.com/2018/04/ccleaner-malware-attack.html, 
+      https://www.idagent.com/blog/2017-08-03-notpetya-threat-supply-chains-across-ukraine/,
   https://doi.org/10.1145/1653662.1653717, https://snyk.io/open-source-security/,
   https://doi.org/10.1007/978-3-030-52683-2_2, https://bestpractices.coreinfrastructure.org/en,
   https://metrics.openssf.org/, https://github.com/ossf/scorecard, https://www.usenix.org/conference/usenixsecurity19/presentation/zimmerman]

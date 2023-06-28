@@ -8,7 +8,8 @@ summary: Authored by the National Academy of Science, National Academy of Engine
   and Institute of Medicine of the National Academies
 
 categories: [summary, book, responsible conduct in research, ethics]
-citations: [https://nap.nationalacademies.org/catalog/12192/on-being-a-scientist-a-guide-to-responsible-conduct-in,
+citations: [
+      https://nap.nationalacademies.org/catalog/12192/on-being-a-scientist-a-guide-to-responsible-conduct-in,
   https://nap.nationalacademies.org/catalog/5789/adviser-teacher-role-model-friend-on-being-a-mentor-to]
 
 draft: false

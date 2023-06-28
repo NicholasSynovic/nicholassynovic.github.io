@@ -12,7 +12,8 @@ categories: [summary, landmark image dataset, attention mechanism, network layer
 citations: [https://doi.org/10.1145/1273445.1273458, https://doi.org/10.1109/ICCV.2017.374,
   https://doi.org/10.1007/978-3-319-46466-4_15, https://doi.org/10.1007/978-3-319-46448-0_1,
   https://patents.google.com/patent/US8098938B1/en, https://arxiv.org/abs/0804.4457,
-  https://doi.org/10.1007/978-3-319-46466-4_28, https://openaccess.thecvf.com/content_cvpr_2016/html/Arandjelovic_NetVLAD_CNN_Architecture_CVPR_2016_paper.html,
+  https://doi.org/10.1007/978-3-319-46466-4_28, 
+      https://openaccess.thecvf.com/content_cvpr_2016/html/Arandjelovic_NetVLAD_CNN_Architecture_CVPR_2016_paper.html,
   https://doi.org/10.1109/CVPR.2010.5540039, https://doi.org/10.1109/TPAMI.2011.235]
 
 draft: false

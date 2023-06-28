@@ -5,7 +5,8 @@ description: Posted in the Proceedings of NeurIPS, 2015
 summary: Posted in the Proceedings of NeurIPS, 2015
 
 categories: [summary, NeurIPS, 2015]
-citations: [https://doi.org/10.1145/1273445.1273458, https://proceedings.neurips.cc/paper/2015/hash/86df7dcfd896fcaf2674f757a2463eba-Abstract.html,
+citations: [https://doi.org/10.1145/1273445.1273458, 
+      https://proceedings.neurips.cc/paper/2015/hash/86df7dcfd896fcaf2674f757a2463eba-Abstract.html,
   https://doi.org/10.1109/MTD.2012.6225994, https://doi.org/10.1145/2487575.2488200,
   https://proceedings.neurips.cc/paper/2007/hash/4b04a686b0ad13dce35fa99fa4161c65-Abstract.html,
   https://www.usenix.org/conference/osdi14/technical-sessions/presentation/chilimbi,

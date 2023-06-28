@@ -5,7 +5,8 @@ description: Posted in the Proceedings of CVPR, 2014
 summary: Posted in the Proceedings of CVPR, 2014
 
 categories: [summary, CVPR, 2014]
-citations: [https://doi.org/10.1145/1273445.1273458, https://openaccess.thecvf.com/content_cvpr_2014/html/Girshick_Rich_Feature_Hierarchies_2014_CVPR_paper.html,
+citations: [https://doi.org/10.1145/1273445.1273458, 
+      https://openaccess.thecvf.com/content_cvpr_2014/html/Girshick_Rich_Feature_Hierarchies_2014_CVPR_paper.html,
   https://doi.org/10.1109/CVPR.2005.177, https://doi.org/10.1109/TPAMI.2012.28, https://doi.org/10.1007/s11263-013-0620-5,
   https://doi.org/10.1007/978-3-642-15555-0_42, https://doi.org/10.1109/TPAMI.2011.231,
   https://openaccess.thecvf.com/content_cvpr_2014/html/Arbelaez_Multiscale_Combinatorial_Grouping_2014_CVPR_paper.html,
