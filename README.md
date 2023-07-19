@@ -11,8 +11,6 @@ Nicholas M. Synovic.
 
 ## Table of Contents
 
-<details>
-
 - [Nicholas M. Synovic](#nicholas-m-synovic)
   - [About This Site](#about-this-site)
   - [Table of Contents](#table-of-contents)
@@ -22,11 +20,7 @@ Nicholas M. Synovic.
   - [Blog](#blog)
   - [Professional Social Medias](#professional-social-medias)
 
-</details>
-
 ## Elevator Pitch
-
-<details>
 
 As a seasoned software engineer, accomplished researcher, and visionary leader,
 I offer a unique blend of technical prowess, intellectual curiosity, and
@@ -37,8 +31,6 @@ innovation and a commitment to delivering exceptional results, I am poised to
 make a profound impact on your organization's success and growth.
 
 ### Biography
-
-<details>
 
 Nicholas M. Synovic (hereafter written in the first person) is a Software
 Engineering Researcher studying the Software Engineering of Deep Neural Networks
@@ -58,32 +50,16 @@ papers within my short tenure as a Research Assistant at LUC. The topics of the
 papers include software metric tooling, mining software repository datasets,
 threat analysis of PTM hubs, and the software engineering of deep learning.
 
-</details>
-
-</details>
-
 ## Resume and CV
-
-<details>
 
 - [Latest Resume](<>)
 - [Latest CV](<>)
 
-</details>
-
 ## Blog
-
-<details>
 
 - [Dev.to](https://dev.to/nicholassynovic)
 
-</details>
-
 ## Professional Social Medias
-
-<details>
 
 - [GitHub](https://github.com/NicholasSynovic)
 - [LinkedIn](https://www.linkedin.com/in/nsynovic/)
-
-</details>
