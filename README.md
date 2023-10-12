@@ -41,7 +41,7 @@ threat analysis of PTM hubs, and the software engineering of deep learning.
 ## Resume and CV 📇
 
 - [Latest Resume](<>)
-- [Latest CV](<>)
+- [Latest CV](https://drive.google.com/file/d/1Yx2p2pZOgNbuOlEJdqFLx7i2lLtMDIu2/view?usp=drive_link)
 
 ## Blog 💬
 
