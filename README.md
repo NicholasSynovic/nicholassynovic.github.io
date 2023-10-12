@@ -1,5 +1,3 @@
-# Nicholas M. Synovic
-
 > The official homepage for all things about me.
 
 ## About This Site
@@ -11,14 +9,13 @@ Nicholas M. Synovic.
 
 ## Table of Contents
 
-- [Nicholas M. Synovic](#nicholas-m-synovic)
-  - [About This Site](#about-this-site)
-  - [Table of Contents](#table-of-contents)
-  - [Elevator Pitch](#elevator-pitch)
-    - [Biography](#biography)
-  - [Resume and CV](#resume-and-cv)
-  - [Blog](#blog)
-  - [Professional Social Medias](#professional-social-medias)
+- [About This Site](#about-this-site)
+- [Table of Contents](#table-of-contents)
+- [Elevator Pitch](#elevator-pitch)
+  - [Biography](#biography)
+- [Resume and CV](#resume-and-cv)
+- [Blog](#blog)
+- [Professional Social Medias](#professional-social-medias)
 
 ## Elevator Pitch
 
