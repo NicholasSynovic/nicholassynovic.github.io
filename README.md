@@ -1,23 +1,13 @@
-> The official homepage for all things about me.
+> The official homepage for all things about Nicholas M. Synovic
 
-## About This Site
+## About ❓
 
-Hi there!
+Hi there 👋
 
-This website is an intentionally sparse website to introduce and showcase
-Nicholas M. Synovic.
+This is an intentionally sparse website to introduce and showcase Nicholas M.
+Synovic (me!).
 
-## Table of Contents
-
-- [About This Site](#about-this-site)
-- [Table of Contents](#table-of-contents)
-- [Elevator Pitch](#elevator-pitch)
-  - [Biography](#biography)
-- [Resume and CV](#resume-and-cv)
-- [Blog](#blog)
-- [Professional Social Medias](#professional-social-medias)
-
-## Elevator Pitch
+## Elevator Pitch 🛗
 
 As a seasoned software engineer, accomplished researcher, and visionary leader,
 I offer a unique blend of technical prowess, intellectual curiosity, and
@@ -27,7 +17,7 @@ teams showcases my ability to excel in diverse roles. With a passion for driving
 innovation and a commitment to delivering exceptional results, I am poised to
 make a profound impact on your organization's success and growth.
 
-### Biography
+### Biography 🧑
 
 Nicholas M. Synovic (hereafter written in the first person) is a Software
 Engineering Researcher studying the Software Engineering of Deep Neural Networks
@@ -40,23 +30,24 @@ more to LUC to get my Ph.D in Computer Science.
 
 My work experience spans positions in academic research, entertainment, food
 service, I.T., and software engineering. For more details about the positions
-that I have worked and when, please see my [Resume and CV](#resume-and-cv)
+that I have worked and when, please see my
+[Resume and CV 📇](#resume-and-cv-%F0%9F%93%87)
 
 With respect to my experience within academic research, I have published five
 papers within my short tenure as a Research Assistant at LUC. The topics of the
 papers include software metric tooling, mining software repository datasets,
 threat analysis of PTM hubs, and the software engineering of deep learning.
 
-## Resume and CV
+## Resume and CV 📇
 
 - [Latest Resume](<>)
 - [Latest CV](<>)
 
-## Blog
+## Blog 💬
 
 - [Dev.to](https://dev.to/nicholassynovic)
 
-## Professional Social Medias
+## Professional Social Medias 💥
 
 - [GitHub](https://github.com/NicholasSynovic)
 - [LinkedIn](https://www.linkedin.com/in/nsynovic/)
