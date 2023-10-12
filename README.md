@@ -30,17 +30,15 @@ more to LUC to get my Ph.D in Computer Science.
 
 My work experience spans positions in academic research, entertainment, food
 service, I.T., and software engineering. For more details about the positions
-that I have worked and when, please see my
-[Resume and CV 📇](#resume-and-cv-%F0%9F%93%87)
+that I have worked and when, please see my [CV 📇](#cv-%F0%9F%93%87)
 
 With respect to my experience within academic research, I have published five
 papers within my short tenure as a Research Assistant at LUC. The topics of the
 papers include software metric tooling, mining software repository datasets,
 threat analysis of PTM hubs, and the software engineering of deep learning.
 
-## Resume and CV 📇
+## CV 📇
 
-- [Latest Resume](<>)
 - [Latest CV](https://drive.google.com/file/d/1Yx2p2pZOgNbuOlEJdqFLx7i2lLtMDIu2/view?usp=drive_link)
 
 ## Blog 💬
