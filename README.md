@@ -1,5 +1,9 @@
 > The official homepage for all things about Nicholas M. Synovic
 
+## Quick Links
+
+[![Static Badge](https://img.shields.io/badge/%F0%9F%93%9A%20-%20Books%20-%20blue)](https://nicholassynovic.github.io/books)
+
 ## About ❓
 
 Hi there 👋
