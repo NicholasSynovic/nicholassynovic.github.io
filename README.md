@@ -1,14 +1,11 @@
-# Nicholas M. Synovic
-
 > AI Application Architect
 
 ## Table of Contents
 
-- [Nicholas M. Synovic](#nicholas-m-synovic)
-  - [Table of Contents](#table-of-contents)
-  - [About](#about)
-  - [CV](#cv)
-  - [Social Media](#social-media)
+- [Table of Contents](#table-of-contents)
+- [About](#about)
+- [CV](#cv)
+- [Social Media](#social-media)
 
 ## About
 
