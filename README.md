@@ -1,10 +1,13 @@
-# Hello World
+# Home Page
+
+## Hello World
 
 > Nicholas Synovic's Personal Website/Blog
 
 ## Table Of Contents
 
-- [Hello World](#hello-world)
+- [Home Page](#home-page)
+  - [Hello World](#hello-world)
   - [Table Of Contents](#table-of-contents)
   - [About This Site](#about-this-site)
   - [Social Media](#social-media)
