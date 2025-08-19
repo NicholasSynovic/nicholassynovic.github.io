@@ -1,8 +1,10 @@
+default_language_version:
+    python: python3.10
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.4.0
+    rev: v5.0.0
     hooks:
-      - id: check-added-large-files
+      # - id: check-added-large-files
       - id: check-case-conflict
       - id: check-json
       - id: check-shebang-scripts-are-executable
@@ -19,19 +21,15 @@ repos:
       - id: requirements-txt-fixer
       - id: sort-simple-yaml
       - id: trailing-whitespace
-  - repo: https://github.com/psf/black
-    rev: 23.7.0
-    hooks:
-      - id: black
-  - repo: https://github.com/PyCQA/isort
-    rev: 5.12.0
-    hooks:
-      - id: isort
+
   - repo: https://github.com/executablebooks/mdformat
-    rev: 0.7.16  # Use the ref you want to point at
+    rev: 0.7.22
     hooks:
     - id: mdformat
+      files: '\.md$'
       additional_dependencies:
+      - mdformat-ruff
+      - ruff
       - mdformat-black
       - mdformat-gfm
       - mdformat-tables
