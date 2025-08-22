@@ -2,10 +2,10 @@
 
 > A guide and demonstration on mining `git` (and friends') commit logs
 
-## Table Of Contents
+## Table of contents
 
 - [Version Control Mining Basics](#version-control-mining-basics)
-  - [Table Of Contents](#table-of-contents)
+  - [Table of contents](#table-of-contents)
   - [What is "version control system mining"?](#what-is-version-control-system-mining)
   - [Who cares about version control mining?](#who-cares-about-version-control-mining)
   - [When is version control mining important?](#when-is-version-control-mining-important)
@@ -13,7 +13,7 @@
     - [Books](#books)
     - [Papers](#papers)
     - [Conferences](#conferences)
-  - [How Do I Get Started?](#how-do-i-get-started)
+  - [How do I get started?](#how-do-i-get-started)
 
 ## What is "version control system mining"?
 
@@ -142,7 +142,7 @@ conversations about how to further improve the system towards some goal.
 - [Mining Software Repositories (MSR)](https://www.msrconf.org/)
 - [Automated Software Engineering (ASE)](https://www.ase-conferences.org/)
 
-## How Do I Get Started?
+## How do I get started?
 
 There exist a number of language specific and agnostic tooling that you can use
 to get started. Source code counters include

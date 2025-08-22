@@ -13,6 +13,8 @@
   - [Social Media](#social-media)
     - ["Professional" Social Media](#professional-social-media)
     - ["Social" Social Media](#social-social-media)
+  - [Blog Posts](#blog-posts)
+    - [Version Control Mining Posts](#version-control-mining-posts)
 
 ## About This Site
 
@@ -34,4 +36,9 @@ have written and published on this site.
 - [Facebook](https://www.facebook.com/nsynovic)
 - [Instagram](https://www.instagram.com/nicholas_synovic/)
 
-<!-- ## Blog Posts -->
+## Blog Posts
+
+### Version Control Mining Posts
+
+- [Version Control Mining Basics](content/blog/version-control-mining-basics.md)
+- [Git Mining Basics](content/blog/git-mining-basics.md)
