@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
+    <title>Nicholas M. Synovic</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <description>Recent content on Nicholas M. Synovic</description>
     <generator>Hugo</generator>
     <language>en-us</language>
+    <copyright>Nicholas M. Synovic</copyright>
+    <lastBuildDate>Mon, 01 Sep 2025 16:26:17 -0500</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello World</title>
+      <link>http://localhost:1313/hello-world/</link>
+      <pubDate>Mon, 01 Sep 2025 16:26:17 -0500</pubDate>
+      <guid>http://localhost:1313/hello-world/</guid>
+      <description>&lt;p&gt;asdaehgaeghababERG&#xA;ADFGBAEDTHBA&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

@@ -1,6 +1,68 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+archetypeDir = "archetypes"
+assetDir = "assets"
+
+baseURL = "https://nsynovic.dev"
+buildDrafts = false
+buildExpired = false
+buildFuture = false
+
+canonifyURLs = false
+contentDir = "content"
+copyright = "Nicholas M. Synovic"
+
+dataDir = "data"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+disableHugoGeneratorInject = false
+disableKinds = []
+disableLiveReload = false
+disablePathToLower = false
+
+enableEmoji = true
+enableGitInfo = true
+enableMissingTranslationPlaceholders = false
+enableRobotsTXT = true
+
+googleAnalytics = ""
+
+hasCJKLanguage = false
+
+languageCode = "en-us"
+
+newContentEditor = ""
+noChmod = false
+noTimes = false
+
+pluralizeListTitles = true
+publishDir = "public"
+
+relativeURLs = false
+refLinksErrorLevel = "ERROR"
+refLinksNotFoundURL = "https://nsynovic.dev"
+removePathAccents = false
+
+sectionPagesMenu = "main"
+summaryLength = 70
+
+timeout = "30s"
+timeZone = "UTC"
+title = "Nicholas M. Synovic"
+titleCaseStyle = "AP"
+
+uglyURLs = false
+
+watch = false
+
+[pagination]
+    disableAliases = false
+    pagerSize = 15
+    path = "page"
+
+[menu]
+[[menu.main]]
+    identifier = 'Contact'
+    name = 'Contact Me'
+    url = '/contact/'
 
 [module]
 [[module.imports]]
@@ -8,3 +70,15 @@ disable = false
 ignoreConfig = false
 ignoreImports = false
 path = 'github.com/theNewDynamic/gohugo-theme-ananke/v2'
+
+[params]
+author = "Nicholas M. Synovic"
+background_color_class = "bg-gray"
+date_format = "2. January 2006"
+description = "Researcher, Developer, Educator, Learner"
+favicon = "/images/favicon.ico"
+recent_posts_number = 5
+text_color = ""
+
+[ananke]
+show_recent_posts = true
