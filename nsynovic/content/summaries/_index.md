@@ -1,15 +1,15 @@
 ---
-title: Nicholas M. Synovic
-description: Researcher, Developer, Educator
+title: Summaries
+description: Summaries of content that I consume.
 summary: ''
 
 aliases: []
 audio: []
 cascade: {}
-date: 2022-06-26T21:04:02-05:00
+date: 2022-06-26T21:29:53-05:00
 draft: false
 expiryDate: ''
-featured_image: images/hero.jpg
+featured_image: images/hero4.jpg
 headless: false
 images: []
 include_toc: true

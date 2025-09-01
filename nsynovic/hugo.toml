@@ -74,7 +74,7 @@ path = 'github.com/theNewDynamic/gohugo-theme-ananke/v2'
 [params]
 author = "Nicholas M. Synovic"
 background_color_class = "bg-gray"
-date_format = "2. January 2006"
+date_format = "01-02-2006"
 description = "Researcher, Developer, Educator, Learner"
 favicon = "/images/favicon.ico"
 recent_posts_number = 5
