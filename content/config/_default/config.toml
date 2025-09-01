@@ -1,0 +1,123 @@
+archetypeDir = "archetypes"
+assetDir = "assets"
+baseURL = "https://nsynovic.dev"
+
+buildDrafts = false
+buildExpired = false
+buildFuture = false
+
+canonifyURLs = false
+contentDir = "content"
+copyright = "Nicholas M. Synovic"
+dataDir = "data"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+disableAliases = false
+disableHugoGeneratorInject = false
+disableKinds = []
+disableLiveReload = false
+disablePathToLower = false
+enableEmoji = true
+enableGitInfo = true
+enableMissingTranslationPlaceholders = false
+enableRobotsTXT = true
+googleAnalytics = ""
+hasCJKLanguage = false
+languageCode = "en-us"
+newContentEditor = ""
+noChmod = false
+noTimes = false
+paginate = 15
+paginatePath = "page"
+pluralizeListTitles = true
+publishDir = "public"
+relativeURLs = false
+refLinksErrorLevel = "ERROR"
+refLinksNotFoundURL = "https://nsynovic.dev"
+removePathAccents = false
+sectionPagesMenu = "main"
+summaryLength = 70
+theme = "ananke"
+themesDir = "themes"
+timeout = "30s"
+timeZone = "UTC"
+title = "Nicholas M. Synovic"
+titleCaseStyle = "AP"
+uglyURLs = false
+watch = false
+
+[mediaTypes."text/gemini"]
+suffixes = [ "gmi" ]
+
+[outputs]
+home = ["HTML", "gopher", "GEMINI", "RSS"]
+section = ["HTML", "gopher", "RSS"]
+taxonomy = ["HTML", "gopher", "RSS"]
+taxonomyTerm = ["HTML", "gopher", "RSS"]
+page = ["HTML", "gopher", "GEMINI"]
+
+[outputFormats]
+    [outputFormats.RSS]
+        mediaType = "application/rss+xml"
+        baseName = "feed"
+    [outputFormats.gopher]
+        mediaType = "text/plain"
+        baseName = "gophermap"
+        isPlainText = true
+        protocol = "gopher://"
+        noUgly = false
+    [outputFormats.GEMINI]
+        name = "GEMINI"
+        isPlainText = true
+        isHTML = false
+        mediaType = "text/gemini"
+        protocol = "gemini://"
+        permalinkable = true
+
+[menu]
+[[menu.main]]
+  identifier = 'Contact'
+  name = 'Contact Me'
+  url = '/contact/'
+
+[[params.ananke_socials]]
+name = "facebook"
+url = "https://www.facebook.com/nsynovic"
+label = "Facebook"
+color = "red"
+
+[[params.ananke_socials]]
+name = "github"
+url = "https://github.com/NicholasSynovic"
+label = "GitHub"
+color = "orange"
+
+[[params.ananke_socials]]
+name = "instagram"
+url = "https://instagram.com/nicholas_synovic"
+label = "Instagram"
+color = "yellow"
+
+[[params.ananke_socials]]
+name = "linkedin"
+url = "https://linkedin.com/in/nsynovic"
+label = "LinkedIn"
+color = "green"
+
+[[params.ananke_socials]]
+name = "twitter"
+url = "https://twitter.com/nick_synovic"
+label = "Twitter"
+color = "blue"
+
+[[params.ananke_socials]]
+name = "youtube"
+url = "https://www.youtube.com/channel/UCVG2VYy7GJ86BLiUaj5LEZQ"
+label = "YouTube Channel"
+color = "indigo"
+
+[[params.ananke_socials]]
+name = "rss"
+url = "https://nsynovic.dev/feed.xml"
+label = "RSS Feed"
+color = "violet"
