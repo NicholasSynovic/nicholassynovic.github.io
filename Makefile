@@ -1,5 +1,9 @@
 build:
-	hugo \
+	hugo build \
 		--source nsynovic \
 		--destination ../html \
-		build
+
+
+create-dev:
+	pre-commit install
+	pre-commit autoupdate
