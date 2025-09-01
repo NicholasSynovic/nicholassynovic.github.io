@@ -1,9 +1,0 @@
-!{{ .Title }}
-
-{{ .Date.Format (.Site.Params.dateform | default "Monday, January 2, 2006") }} · {{ .ReadingTime }} minute read
-
-{{ .Plain }}
-{{ range $index, $citation := $.Param "citations" }}
-h{{ $index }}. {{ $citation }}	URL:{{ $citation }}
-{{ end}}
-.
