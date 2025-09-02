@@ -1,6 +1,6 @@
 ---
-title: Posts
-description: A feed of all the stuff I post on the internet.
+title: Blog
+description: My blog posts.
 summary: ''
 
 aliases: []
