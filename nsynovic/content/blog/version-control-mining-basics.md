@@ -1,7 +1,7 @@
 ---
-title: 'Version Control Mining Basics'
-description: "A guide and demonstration on mining `git` (and friends') commit logs"
-summary: "A guide and demonstration on mining `git` (and friends') commit logs"
+title: Version Control Mining Basics
+description: A guide and demonstration on mining `git` (and friends') commit logs
+summary: A guide and demonstration on mining `git` (and friends') commit logs
 
 categories: ['']
 citations: ['']

@@ -1,17 +1,10 @@
 ---
-title: 'A summary of FLOrIDA: Feature LOcatIon DAshboard for Extracting and Visualizing
-  Feature Traces by Andam et al.'
-description: 'Posted in the VaMoS 17: Proceedings of the 11th International Workshop
-  on Variability Modelling of Software-Intensive Systems, 2017'
-summary: 'Posted in the VaMoS 17: Proceedings of the 11th International Workshop on
-  Variability Modelling of Software-Intensive Systems, 2017'
+title: 'A summary of FLOrIDA: Feature LOcatIon DAshboard for Extracting and Visualizing Feature Traces by Andam et al.'
+description: 'Posted in the VaMoS 17: Proceedings of the 11th International Workshop on Variability Modelling of Software-Intensive Systems, 2017'
+summary: 'Posted in the VaMoS 17: Proceedings of the 11th International Workshop on Variability Modelling of Software-Intensive Systems, 2017'
 
-categories: [summary, paper, software and its engineering, software creation and management,
-  reuhttps://doi.org/10.1145/3023956.3023967sability, software product lines, maintaining
-      software, software system structures]
-citations: [https://doi.org/10.1145/1273445.1273458, https://doi.org/10.1145/3023956.3023967,
-  https://biglever.com/solution/gears/, https://featureide.github.io/, https://www.pure-systems.com/purevariants,
-  https://doi.org/10.1145/2791060.2791107]
+categories: [summary, paper, software and its engineering, software creation and management, reuhttps://doi.org/10.1145/3023956.3023967sability, software product lines, maintaining software, software system structures]
+citations: [https://doi.org/10.1145/1273445.1273458, https://doi.org/10.1145/3023956.3023967, https://biglever.com/solution/gears/, https://featureide.github.io/, https://www.pure-systems.com/purevariants, https://doi.org/10.1145/2791060.2791107]
 
 draft: false
 
@@ -28,8 +21,7 @@ show_reading_time: true
 # A summary of *FLOrIDA: Feature LOcatIon DAshboard for Extracting and Visualizing Feature Traces*
 
 > Andam et al. Posted in the VaMoS 17: Proceedings of the 11th International
-> Workshop on Variability Modelling of Software-Intensive Systems, 2017 DOI
-> \[0\]
+> Workshop on Variability Modelling of Software-Intensive Systems, 2017 DOI [0]
 
 For the summary of the paper, go to the [Summary](#summary) section of this
 article.
@@ -149,10 +141,10 @@ which are sparse.
 
 > Mark relevant work for review
 
-- Gears \[2\]
-- FeatureIDE \[3\]
-- pure::varients \[4\]
-- Maintaining feature traceability with embedded annotations \[5\]
+- Gears [2]
+- FeatureIDE [3]
+- pure::varients [4]
+- Maintaining feature traceability with embedded annotations [5]
 
 The following relevant work can be found in the [Citations](#citations) section
 of this article.
@@ -219,6 +211,6 @@ ______________________________________________________________________
 ## Summarization Technique
 
 This paper was summarized using a modified technique proposed by S. Keshav in
-his work *How to Read a Paper* \[0\].
+his work *How to Read a Paper* [0].
 
 ## Citations

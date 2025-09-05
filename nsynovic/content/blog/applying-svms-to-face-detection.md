@@ -1,17 +1,10 @@
 ---
 title: A summary of Applying SVMs to Face Detection by Edgar Osuna
-description: Published as an article in the 1998 July/August publication of the IEEE
-  Intelligent Systems magazine's Support Vector Machines section
-summary: Published as an article in the 1998 July/August publication of the IEEE Intelligent
-  Systems magazine's Support Vector Machines section
+description: Published as an article in the 1998 July/August publication of the IEEE Intelligent Systems magazine's Support Vector Machines section
+summary: Published as an article in the 1998 July/August publication of the IEEE Intelligent Systems magazine's Support Vector Machines section
 
 categories: [summary, SVMs, ml, CV, face detection, IEEE Intelligent Systems, 1998]
-citations: [https://doi.org/10.1145/1273445.1273458, https://doi.ieeecomputersociety.org/10.1109/5254.708428,
-  https://www.sciencedirect.com/science/article/abs/pii/0167865594900272, 
-      https://proceedings.neurips.cc/paper/1995/hash/2f29b6e3abc6ebdefb55456ea6ca5dc8-Abstract.html,
-  https://www.sciencedirect.com/science/article/abs/pii/0031320394900175, https://ieeexplore.ieee.org/document/466858,
-  https://www.sciencedirect.com/science/article/pii/S0262885697000127, https://dspace.mit.edu/handle/1721.1/6774,
-  https://ieeexplore.ieee.org/document/655648]
+citations: [https://doi.org/10.1145/1273445.1273458, https://doi.ieeecomputersociety.org/10.1109/5254.708428, https://www.sciencedirect.com/science/article/abs/pii/0167865594900272, https://proceedings.neurips.cc/paper/1995/hash/2f29b6e3abc6ebdefb55456ea6ca5dc8-Abstract.html, https://www.sciencedirect.com/science/article/abs/pii/0031320394900175, https://ieeexplore.ieee.org/document/466858, https://www.sciencedirect.com/science/article/pii/S0262885697000127, https://dspace.mit.edu/handle/1721.1/6774, https://ieeexplore.ieee.org/document/655648]
 
 draft: false
 
@@ -62,7 +55,7 @@ ______________________________________________________________________
 
 The essay *Applying SVMs to Face Detection* by Edgar Osuna (as part of the
 larger *Support vector machine* collection of essays in the July/ August edition
-of the 1998 IEEE Intelligent Systems magazine) \[1\] describes the usage of
+of the 1998 IEEE Intelligent Systems magazine) [1] describes the usage of
 Support Vector Machines (SVMs) to identify faces in static images and real time
 systems. The work goes into detail about previous systems that attempted this
 task, as well as a real time system that can classify images at 4 to 5 frames
@@ -101,10 +94,10 @@ ______________________________________________________________________
 Quote from the *Previous systems* section of the paper:
 
 "Researchers have approached the face-detection problem with different
-techniques in the last few years, including neural networks \[2\] \[3\],
-detection of face features and use of geometrical constraints \[4\], density
-estimation of the training data \[5\], labeled graphs \[6\], and clustering and
-distribution-based modeling \[7\] \[8\]."
+techniques in the last few years, including neural networks [2] [3], detection
+of face features and use of geometrical constraints [4], density estimation of
+the training data [5], labeled graphs [6], and clustering and distribution-based
+modeling [7] [8]."
 
 ### Motivation
 
@@ -143,14 +136,14 @@ fairly reproducible.
 The following relevant work can be found in the [Citations](#citations) section
 of this article.
 
-- Detection and localization of faces on digital images \[2\]
-- Human Face Detection in Visual Scenes \[3\]
-- Human face detection in a complex background \[4\]
-- Probabilistic visual learning for object detection \[5\]
+- Detection and localization of faces on digital images [2]
+- Human Face Detection in Visual Scenes [3]
+- Human face detection in a complex background [4]
+- Probabilistic visual learning for object detection [5]
 - Determination of face position and pose with a learned representation based on
-  labeled graphs \[6\]
-- Learning and Example Selection for Object and Pattern Detection \[7\]
-- Example-based learning for view-based human face detection \[8\]
+  labeled graphs [6]
+- Learning and Example Selection for Object and Pattern Detection [7]
+- Example-based learning for view-based human face detection [8]
 
 ### Author Assumptions
 
@@ -188,7 +181,7 @@ ______________________________________________________________________
 
 The essay *Applying SVMS to Face Detection* by Edgar Osuna (as part of the
 larger *Support vector machine* collection of essays in the July/ August edition
-of the 1998 IEEE Intelligent Systems magazine) \[1\] describes the usage of
+of the 1998 IEEE Intelligent Systems magazine) [1] describes the usage of
 Support Vector Machines (SVMs) to identify faces in static images and real time
 systems. The author goes into detail about existing systems that were powered by
 non-SVM techniques, as well as presenting their own system (for both static
@@ -211,6 +204,6 @@ ______________________________________________________________________
 ## Summarization Technique
 
 This paper was summarized using a modified technique proposed by S. Keshav in
-his work *How to Read a Paper* \[0\].
+his work *How to Read a Paper* [0].
 
 ## Citations

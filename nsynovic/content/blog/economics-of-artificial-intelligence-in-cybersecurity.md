@@ -20,7 +20,7 @@ show_reading_time: true
 
 # A summary of *Economics of Artificial Intelligence in Cybersecurity*
 
-> Nir Kshetri IEEE Computing Edge, December 2022 DOI \[0\]
+> Nir Kshetri IEEE Computing Edge, December 2022 DOI [0]
 
 ## Table of Contents
 
@@ -89,7 +89,7 @@ shortage of staff.
 
 There exists several shortcomings with using AI cybersecurity tools. For
 starters, it is difficult to explain what the tool is doing. Security
-professionals therefore prefer an, "Explainable First, Predictive Second" \[1\]
+professionals therefore prefer an, "Explainable First, Predictive Second" [1]
 approach to AI tools. Additionally, AI tools can not make security related
 decisions without human interventions.
 

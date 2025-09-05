@@ -1,6 +1,5 @@
 ---
-title: A summary of Rethinking Semantic Segmentation from a Sequence-to-Sequence Perspective
-  with Transformers by Sixiao Zheng et al.
+title: A summary of Rethinking Semantic Segmentation from a Sequence-to-Sequence Perspective with Transformers by Sixiao Zheng et al.
 description: Posted in the CVPR, 2021
 summary: Posted in the CVPR, 2021
 
@@ -132,7 +131,7 @@ of this article.
 2. Zihang Dai, Zhilin Yang, Yiming Yang, Jaime Carbonell, Quoc V. Le, and Ruslan
    Salakhutdinov. Transformer-XL: Attentive language models beyond a
    fixed-length context. In ACL, 2019.
-3. Zihang Dai, Zhilin Yang, Yiming Yang, Jaime Carbonell, Quoc V. Le, and Ruslan
+1. Zihang Dai, Zhilin Yang, Yiming Yang, Jaime Carbonell, Quoc V. Le, and Ruslan
    Salakhutdinov. Transformer-XL: Attentive language models beyond a
    fixed-length context. In ACL, 2019.
 
@@ -207,6 +206,6 @@ ______________________________________________________________________
 ## Summarization Technique
 
 This paper was summarized using a modified technique proposed by S. Keshav in
-his work *How to Read a Paper* \[0\].
+his work *How to Read a Paper* [0].
 
 ## Citations

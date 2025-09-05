@@ -1,6 +1,5 @@
 ---
-title: A summary of Where Are They Going? Clustering Event Camera Data to Detect and
-  Track Moving Objects by Craig Laboni et al.
+title: A summary of Where Are They Going? Clustering Event Camera Data to Detect and Track Moving Objects by Craig Laboni et al.
 description: Posted in the IEEE Computing Edge, February 2023
 summary: Posted in the IEEE Computing Edge, February 2023
 
@@ -21,7 +20,7 @@ show_reading_time: true
 
 # A summary of *Where Are They Going? Clustering Event Camera Data to Detect and Track Moving Objects*
 
-> Craig Laboni et al.; IEEE Computing Edge, February 2023 DOI \[0\]
+> Craig Laboni et al.; IEEE Computing Edge, February 2023 DOI [0]
 
 ## Table of Contents
 
@@ -55,7 +54,7 @@ A list of applications that can be created with event based cameras include:
 
 The remainder of this article is a tutorial on how to use event based camera
 data for tracking objects. It is not summarized in this document. Readers should
-read the tutorial \[0\].
+read the tutorial [0].
 
 ______________________________________________________________________
 

@@ -3,12 +3,8 @@ title: 'A summary of SURF: Speeded Up Robust Features by Herbert Bay et al.'
 description: Posted in ECCV 2006
 summary: Posted in ECCV 2006
 
-categories: [summary, Hessian Matrix, Interest Point, Integral Image, Robust Feature,
-  Viewpoint Change]
-citations: [https://doi.org/10.1145/1273445.1273458, http://link.springer.com/10.1007/11744023_32,
-  https://doi.org/10.1109/CVPR.2004.1315206, https://doi.org/10.1007/BF00336961, https://doi.org/10.1023/B:VISI.0000029664.99615.94,
-  https://doi.org/10.1109/TPAMI.2005.188, https://doi.org/10.1109/ICCV.1999.790410,
-  https://doi.org/10.1109/ICCV.2001.937561]
+categories: [summary, Hessian Matrix, Interest Point, Integral Image, Robust Feature, Viewpoint Change]
+citations: [https://doi.org/10.1145/1273445.1273458, http://link.springer.com/10.1007/11744023_32, https://doi.org/10.1109/CVPR.2004.1315206, https://doi.org/10.1007/BF00336961, https://doi.org/10.1023/B:VISI.0000029664.99615.94, https://doi.org/10.1109/TPAMI.2005.188, https://doi.org/10.1109/ICCV.1999.790410, https://doi.org/10.1109/ICCV.2001.937561]
 
 draft: false
 
@@ -133,15 +129,15 @@ of this article.
 
 2. Ke, Y., Sukthankar, R.: PCA-SIFT: A more distinctive representation for local
    image descriptors. In: CVPR (2). (2004) 506 – 513
-3. Koenderink, J.: The structure of images. Biological Cybernetics 50 (1984) 363
+1. Koenderink, J.: The structure of images. Biological Cybernetics 50 (1984) 363
    370
-4. Lowe, D.: Distinctive image features from scale-invariant keypoints, cascade
+1. Lowe, D.: Distinctive image features from scale-invariant keypoints, cascade
    filtering approach. IJCV 60 (2004) 91 – 110
-5. Mikolajczyk, K., Schmid, C.: A performance evaluation of local descriptors.
+1. Mikolajczyk, K., Schmid, C.: A performance evaluation of local descriptors.
    PAMI 27 (2005) 1615–1630
-6. Lowe, D.: Object recognition from local scale-invariant features. In: ICCV.
+1. Lowe, D.: Object recognition from local scale-invariant features. In: ICCV.
    (1999)
-7. Mikolajczyk, K., Schmid, C.: Indexing based on scale invariant interest
+1. Mikolajczyk, K., Schmid, C.: Indexing based on scale invariant interest
    points. In: ICCV. Volume 1. (2001) 525 – 531
 
 ### Methodology
@@ -149,11 +145,11 @@ of this article.
 > What methodology did the author's use to validate their contributions?
 
 The authors compared the repeatability of the SURF descriptor (Fast-Hessian)
-against DoG \[6\], Harris-Laplace \[7\], and Hessian-Laplace \[7\] across
-several common bench marking images. Additionally, they measured the precision
-vs recall of different algorithms including SURF-128 (a variation of SURF the
-authors proposed that results in a higher dimensional feature space), SURF, SIFT
-\[4\], GLOH \[5\], and PCA-SIFT \[2\] with respect to object recognition.
+against DoG [6], Harris-Laplace [7], and Hessian-Laplace [7] across several
+common bench marking images. Additionally, they measured the precision vs recall
+of different algorithms including SURF-128 (a variation of SURF the authors
+proposed that results in a higher dimensional feature space), SURF, SIFT [4],
+GLOH [5], and PCA-SIFT [2] with respect to object recognition.
 
 ### Author Assumptions
 
@@ -169,7 +165,7 @@ designing a detector.
 
 No their assumption doesn't seem valid. In their own words, "Skew, anisotropic
 scaling, and perspective effects are assumed to be second-order effects, that
-are covered to some degree by the overall robustness of the descriptor," \[1\]
+are covered to some degree by the overall robustness of the descriptor," [1]
 however, I would argue that with the advent of fish-eyed lenses on smartphones
 and action-cameras, skew is now (and should be) a first-order priority.
 
@@ -206,7 +202,7 @@ ______________________________________________________________________
 > A summary of the paper
 
 The paper *A summary of SURF: Speeded Up Robust Features* by Herbert Bay et al.
-\[1\] describes an algorithm for extracting image features that are robust to
+[1] describes an algorithm for extracting image features that are robust to
 scale and rotation while also being faster and more repeatable than previous
 SOTA methods. To achieve this, the authors utilized the source image's integral
 image (the sum of all the pixels of a rectangular area of the image between the
@@ -231,6 +227,6 @@ ______________________________________________________________________
 ## Summarization Technique
 
 This paper was summarized using a modified technique proposed by S. Keshav in
-his work *How to Read a Paper* \[0\].
+his work *How to Read a Paper* [0].
 
 ## Citations

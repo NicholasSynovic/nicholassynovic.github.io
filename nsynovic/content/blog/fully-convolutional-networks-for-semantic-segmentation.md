@@ -1,13 +1,10 @@
 ---
-title: A summary of Fully Convolutional Networks for Semantic Segmentation by Jonathan
-  Long et al.
+title: A summary of Fully Convolutional Networks for Semantic Segmentation by Jonathan Long et al.
 description: Posted in arXiv, 2015
 summary: Posted in arXiv, 2015
 
 categories: [summary]
-citations: [https://doi.org/10.1145/1273445.1273458, http://arxiv.org/abs/1411.4038,
-  https://doi.org/10.1109/TIP.2005.852470, https://doi.org/10.1109/TPAMI.2012.231,
-  https://proceedings.mlr.press/v32/pinheiro14.html]
+citations: [https://doi.org/10.1145/1273445.1273458, http://arxiv.org/abs/1411.4038, https://doi.org/10.1109/TIP.2005.852470, https://doi.org/10.1109/TPAMI.2012.231, https://proceedings.mlr.press/v32/pinheiro14.html]
 
 draft: false
 
@@ -130,10 +127,10 @@ of this article.
 2. F. Ning, D. Delhomme, Y. LeCun, F. Piano, L. Bottou, and P. E. Barbano.
    Toward automatic phenotyping of developing embryos from videos. Image
    Processing, IEEE Transactions on, 14(9):1360–1371, 2005.
-3. C. Farabet, C. Couprie, L. Najman, and Y. LeCun. Learning hierarchical
+1. C. Farabet, C. Couprie, L. Najman, and Y. LeCun. Learning hierarchical
    features for scene labeling. Pattern Analysis and Machine Intelligence, IEEE
    Transactions on, 2013.
-4. P. H. Pinheiro and R. Collobert. Recurrent convolutional neural networks for
+1. P. H. Pinheiro and R. Collobert. Recurrent convolutional neural networks for
    scene labeling. In ICML, 2014.
 
 ### Methodology
@@ -195,7 +192,7 @@ ______________________________________________________________________
 > A summary of the paper
 
 The paper *Fully Convolutional Networks for Semantic Segmentation* by Jonathan
-Long et al. \[1\] describes a methodology for converting an existing image
+Long et al. [1] describes a methodology for converting an existing image
 classification network into a semantic segmentation network. This is done by
 replacing the fully connected layers at the head of the classification network
 with one or more convolutional layers. This thereby makes semantic segmentation
@@ -210,6 +207,6 @@ ______________________________________________________________________
 ## Summarization Technique
 
 This paper was summarized using a modified technique proposed by S. Keshav in
-his work *How to Read a Paper* \[0\].
+his work *How to Read a Paper* [0].
 
 ## Citations

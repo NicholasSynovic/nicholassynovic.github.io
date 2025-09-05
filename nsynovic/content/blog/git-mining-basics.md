@@ -1,7 +1,7 @@
 ---
-title: 'Git Mining Basics'
-description: 'Working with the `git` version control system to process revision logs'
-summary: 'Working with the `git` version control system to process revision logs'
+title: Git Mining Basics
+description: Working with the `git` version control system to process revision logs
+summary: Working with the `git` version control system to process revision logs
 
 categories: ['']
 citations: ['']

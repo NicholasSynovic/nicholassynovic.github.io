@@ -1,14 +1,14 @@
 ---
-title: 'CHANGE ME'
-description: 'CHANGE ME'
-summary: 'CHANGE ME'
+title: CHANGE ME
+description: CHANGE ME
+summary: CHANGE ME
 
 categories: ['']
 citations: ['']
 
 draft: false
 
-date: {{ .Date }}
+date: {{.Date: null}: null}
 featured_image: ''
 include_toc: true
 markup: md

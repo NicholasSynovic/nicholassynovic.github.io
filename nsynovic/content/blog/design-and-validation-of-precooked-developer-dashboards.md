@@ -1,18 +1,11 @@
 ---
-title: A summary of Design and validation of precooked developer dashboards by Ivanov
-  et al.
+title: A summary of Design and validation of precooked developer dashboards by Ivanov et al.
 authors: Ivanov et al.
-description: 'Posted in the ESEC/FSE 2018: Proceedings of the 2018 26th ACM Joint
-  Meeting on European Software Engineering Conference and Symposium on the Foundations
-  of Software Engineering, 2018'
-summary: 'Posted in the ESEC/FSE 2018: Proceedings of the 2018 26th ACM Joint Meeting
-  on European Software Engineering Conference and Symposium on the Foundations of
-  Software Engineering, 2018'
+description: 'Posted in the ESEC/FSE 2018: Proceedings of the 2018 26th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering, 2018'
+summary: 'Posted in the ESEC/FSE 2018: Proceedings of the 2018 26th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering, 2018'
 
-categories: [summary, paper, software and its engineering, software creation and management,
-  software development process management]
-citations: [https://doi.org/10.1145/1273445.1273458, https://doi.org/10.1145/3236024.3275530,
-  https://doi.org/10.1016/0191-8869(86)90014-0, http://dx.doi.org/10.1037/0021-9010.88.5.879]
+categories: [summary, paper, software and its engineering, software creation and management, software development process management]
+citations: [https://doi.org/10.1145/1273445.1273458, https://doi.org/10.1145/3236024.3275530, https://doi.org/10.1016/0191-8869(86)90014-0, http://dx.doi.org/10.1037/0021-9010.88.5.879]
 
 draft: false
 
@@ -30,7 +23,7 @@ show_reading_time: true
 
 > Ivanov et al. Posted in the ESEC/FSE 2018: Proceedings of the 2018 26th ACM
 > Joint Meeting on European Software Engineering Conference and Symposium on the
-> Foundations of Software Engineering, 2018 DOI \[1\]
+> Foundations of Software Engineering, 2018 DOI [1]
 
 For the summary of the paper, go to the [Summary](#summary) section of this
 article.
@@ -121,8 +114,8 @@ have also been created prior to this study and typically follow one of three
 different patterns:
 
 1. Stategic
-2. Operational
-3. Analytical
+1. Operational
+1. Analytical
 
 Finally, work has been done in understanding the usefulness of metrics presented
 on dashboards using GQM.
@@ -147,9 +140,9 @@ The paper is well written.
 
 > Mark relevant work for review
 
-- Response bias, social desirability and dissimulation \[2\]
+- Response bias, social desirability and dissimulation [2]
 - Common Method Biases in Behavioral Research: A Critical Review of the
-  Literature and Recommended Remedies \[3\]
+  Literature and Recommended Remedies [3]
 
 The following relevant work can be found in the [Citations](#citations) section
 of this article.
@@ -213,6 +206,6 @@ ______________________________________________________________________
 ## Summarization Technique
 
 This paper was summarized using a modified technique proposed by S. Keshav in
-his work *How to Read a Paper* \[0\].
+his work *How to Read a Paper* [0].
 
 ## Citations

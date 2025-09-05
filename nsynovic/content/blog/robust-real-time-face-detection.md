@@ -3,10 +3,8 @@ title: A summary of Robust Real Time-Face Detection by P. Viola and M.J. Jones
 description: Published in the 2004 International Journal of Computer Vision
 summary: Published in the 2004 International Journal of Computer Vision
 
-categories: [summary, face detection, boosting, human sensing, International Journal
-      of Computer Vision, 2004]
-citations: [https://doi.org/10.1145/1273445.1273458, https://doi.org/10.1023/B:VISI.0000013087.49260.fb,
-  https://doi.org/10.1006/jcss.1997.1504]
+categories: [summary, face detection, boosting, human sensing, International Journal of Computer Vision, 2004]
+citations: [https://doi.org/10.1145/1273445.1273458, https://doi.org/10.1023/B:VISI.0000013087.49260.fb, https://doi.org/10.1006/jcss.1997.1504]
 
 draft: false
 
@@ -54,7 +52,7 @@ ______________________________________________________________________
 > Discussion about the title, abstract, introduction, section and sub-section
 > headings, and conclusion
 
-The paper *Robust Real-Time Face Detection* by P. Viola and M.J. Jones \[1\]
+The paper *Robust Real-Time Face Detection* by P. Viola and M.J. Jones [1]
 presents a new methodology for efficiently performing face detection. They due
 this through the usage of an integral image which is able to reduce the
 computational complexity to constant time (O(1)) of analyzing an image as it
@@ -144,7 +142,7 @@ The following relevant work can be found in the [Citations](#citations) section
 of this article.
 
 - A Decision-Theoretic Generalization of On-Line Learning and an Application to
-  Boosting \[2\]
+  Boosting [2]
 
 ### Future Directions
 
@@ -159,7 +157,7 @@ ______________________________________________________________________
 
 > A summary of the paper
 
-The paper *Robust Real-Time Face Detection* by P. Viola and M.J. Jones \[1\]
+The paper *Robust Real-Time Face Detection* by P. Viola and M.J. Jones [1]
 presents a new methodology for efficiently performing face detection. They due
 this through the usage of an integral image which is able to reduce the
 computational complexity to constant time (O(1)) of analyzing an image as it
@@ -181,6 +179,6 @@ ______________________________________________________________________
 ## Summarization Technique
 
 This paper was summarized using a modified technique proposed by S. Keshav in
-his work *How to Read a Paper* \[0\].
+his work *How to Read a Paper* [0].
 
 ## Citations

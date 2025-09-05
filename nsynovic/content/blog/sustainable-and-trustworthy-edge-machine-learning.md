@@ -20,7 +20,7 @@ show_reading_time: true
 
 # A summary of *Sustainable and Trustworthy Edge Machine Learning*
 
-> Ivona Brandic; IEEE Computing Edge, January 2023 DOI \[0\]
+> Ivona Brandic; IEEE Computing Edge, January 2023 DOI [0]
 
 ## Table of Contents
 

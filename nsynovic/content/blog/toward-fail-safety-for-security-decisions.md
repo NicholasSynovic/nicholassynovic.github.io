@@ -20,7 +20,7 @@ show_reading_time: true
 
 # A summary of *Toward Fail Safety for Security Decisions*
 
-> Trent Jaeger IEEE Computing Edge, December 2022 DOI \[0\]
+> Trent Jaeger IEEE Computing Edge, December 2022 DOI [0]
 
 ## Table of Contents
 

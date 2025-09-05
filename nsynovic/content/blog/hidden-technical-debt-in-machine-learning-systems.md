@@ -1,17 +1,10 @@
 ---
-title: A summary of Hidden Technical Debt in Machine Learning Systems by D. Sculley
-  et al.
+title: A summary of Hidden Technical Debt in Machine Learning Systems by D. Sculley et al.
 description: Posted in the Proceedings of NeurIPS, 2015
 summary: Posted in the Proceedings of NeurIPS, 2015
 
 categories: [summary, NeurIPS, 2015]
-citations: [https://doi.org/10.1145/1273445.1273458, 
-      https://proceedings.neurips.cc/paper/2015/hash/86df7dcfd896fcaf2674f757a2463eba-Abstract.html,
-  https://doi.org/10.1109/MTD.2012.6225994, https://doi.org/10.1145/2487575.2488200,
-  https://proceedings.neurips.cc/paper/2007/hash/4b04a686b0ad13dce35fa99fa4161c65-Abstract.html,
-  https://www.usenix.org/conference/osdi14/technical-sessions/presentation/chilimbi,
-  https://doi.org/10.1145/2623330.2623349, https://www.usenix.org/conference/osdi14/technical-sessions/presentation/li_mu,
-  https://doi.org/10.1145/2020408.2020455]
+citations: [https://doi.org/10.1145/1273445.1273458, https://proceedings.neurips.cc/paper/2015/hash/86df7dcfd896fcaf2674f757a2463eba-Abstract.html, https://doi.org/10.1109/MTD.2012.6225994, https://doi.org/10.1145/2487575.2488200, https://proceedings.neurips.cc/paper/2007/hash/4b04a686b0ad13dce35fa99fa4161c65-Abstract.html, https://www.usenix.org/conference/osdi14/technical-sessions/presentation/chilimbi, https://doi.org/10.1145/2623330.2623349, https://www.usenix.org/conference/osdi14/technical-sessions/presentation/li_mu, https://doi.org/10.1145/2020408.2020455]
 
 draft: false
 
@@ -152,29 +145,29 @@ of this article.
 2. J. D. Morgenthaler, M. Gridnev, R. Sauciuc, and S. Bhansali. *Searching for
    build debt: Experiences managing technical debt at google*. In Proceedings of
    the Third International Workshop on Managing Technical Debt, 2012.
-3. H. B. McMahan, G. Holt, D. Sculley, M. Young, D. Ebner, J. Grady, L. Nie, T.
+1. H. B. McMahan, G. Holt, D. Sculley, M. Young, D. Ebner, J. Grady, L. Nie, T.
    Phillips, E. Davydov, D. Golovin, S. Chikkerur, D. Liu, M. Wattenberg, A. M.
    Hrafnkelsson, T. Boulos, and J. Kubica. *Ad click prediction: a view from the
    trenches*. In The 19th ACM SIGKDD International Conference on Knowledge
    Discovery and Data Mining, KDD 2013, Chicago, IL, USA, August 11-14, 2013,
    2013\.
-4. . Langford and T. Zhang. *The epoch-greedy algorithm for multi-armed bandits
+1. . Langford and T. Zhang. *The epoch-greedy algorithm for multi-armed bandits
    with side information*. In Advances in neural information processing systems,
    pages 817–824, 2008.
-5. T. M. Chilimbi, Y. Suzue, J. Apacible, and K. Kalyanaraman. *Project adam:
+1. T. M. Chilimbi, Y. Suzue, J. Apacible, and K. Kalyanaraman. *Project adam:
    Building an efficient and scalable deep learning training system*. In 11th
    USENIX Symposium on Operating Systems Design and Implementation, OSDI ’14,
    Broomfield, CO, USA, October 6-8, 2014., pages 571–582, 2014.
-6. B. Dalessandro, D. Chen, T. Raeder, C. Perlich, M. Han Williams, and F.
+1. B. Dalessandro, D. Chen, T. Raeder, C. Perlich, M. Han Williams, and F.
    Provost. *Scalable hands free transfer learning for online advertising*. In
    Proceedings of the 20th ACM SIGKDD international conference on Knowledge
    discovery and data mining, pages 1573–1582. ACM, 2014.
-7. M. Li, D. G. Andersen, J. W. Park, A. J. Smola, A. Ahmed, V. Josifovski, J.
+1. M. Li, D. G. Andersen, J. W. Park, A. J. Smola, A. Ahmed, V. Josifovski, J.
    Long, E. J. Shekita, and B. Su. *Scaling distributed machine learning with
    the parameter server*. In 11th USENIX Symposium on Operating Systems Design
    and Implementation, OSDI ’14, Broomfield, CO, USA, October 6-8, 2014., pages
    583–598, 2014.
-8. D. Sculley, M. E. Otey, M. Pohl, B. Spitznagel, J. Hainsworth, and Y. Zhou.
+1. D. Sculley, M. E. Otey, M. Pohl, B. Spitznagel, J. Hainsworth, and Y. Zhou.
    *Detecting adversarial advertisements in the wild. In Proceedings of the 17th
    ACM SIGKDD International Conference on Knowledge Discovery and Data Mining*,
    San Diego, CA, USA, August 21-24, 2011, 2011
@@ -233,8 +226,8 @@ ______________________________________________________________________
 > A summary of the paper
 
 The paper *Hidden Technical Debt in Machine Learning Systems* by D. Sculley et
-al. \[1\] presents potential technical debt considerations that ML engineers
-need to consider when developing ML systems. These considerations stem both from
+al. [1] presents potential technical debt considerations that ML engineers need
+to consider when developing ML systems. These considerations stem both from
 experience as well as traditional software engineering technical debt.
 Furthermore, they pose several questions that engineers should ask when taking
 on technical debt.
@@ -255,10 +248,10 @@ The authors defined several areas where technical debt can accrue:
   - *Correction Cascades*: Transfer learning/ fine tuning a PTM creates a new
     model (B) which is now dependent upon the original model's (A) weights and
     architecture
-  - *Undeclared Consumers*: Similar to visibility debt \[2\]; creates tight and
+  - *Undeclared Consumers*: Similar to visibility debt [2]; creates tight and
     hidden coupling to the model which if changed, could affect the wider system
 - **Data Dependencies**: Static analysis of data dependencies could resolve this
-  \[3\]
+  [3]
   - *Unstable Data Dependencies*: Some data signals change qualitatively or
     quantitatively over time. Therefore, improving input signals to the system
     could harm the output signals of the model
@@ -324,6 +317,6 @@ ______________________________________________________________________
 ## Summarization Technique
 
 This paper was summarized using a modified technique proposed by S. Keshav in
-his work *How to Read a Paper* \[0\].
+his work *How to Read a Paper* [0].
 
 ## Citations

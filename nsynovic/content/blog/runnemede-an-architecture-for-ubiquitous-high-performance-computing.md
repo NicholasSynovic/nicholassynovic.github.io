@@ -1,15 +1,10 @@
 ---
-title: 'A summary of Runnemede: An Architecture for Ubiquitous High-Performance Computing
-  by Nicholas P. Carter et al.'
-description: Published in the procceedings of the 2013 IEEE Symposium on High-Performance
-  Computer Architecture
-summary: Published in the procceedings of the 2013 IEEE Symposium on High-Performance
-  Computer Architecture (HPCA)
+title: 'A summary of Runnemede: An Architecture for Ubiquitous High-Performance Computing by Nicholas P. Carter et al.'
+description: Published in the procceedings of the 2013 IEEE Symposium on High-Performance Computer Architecture
+summary: Published in the procceedings of the 2013 IEEE Symposium on High-Performance Computer Architecture (HPCA)
 
-categories: [summary, Hardware, Xenon, Runtime, Random access memory, System-on-chip,
-  Memory management, Clocks, 2013, IEEE HPCA]
-citations: [https://doi.org/10.1145/1273445.1273458, https://doi.org/10.1109/HPCA.2013.6522319,
-  https://doi.org/10.1109/MM.2011.89]
+categories: [summary, Hardware, Xenon, Runtime, Random access memory, System-on-chip, Memory management, Clocks, 2013, IEEE HPCA]
+citations: [https://doi.org/10.1145/1273445.1273458, https://doi.org/10.1109/HPCA.2013.6522319, https://doi.org/10.1109/MM.2011.89]
 
 draft: false
 
@@ -59,7 +54,7 @@ ______________________________________________________________________
 > headings, and conclusion
 
 The paper *Runnemede: An Architecture for Ubiquitous High-Performance Computing*
-by Nicholas P. Carter et al. \[1\] describes the Runnemede high performance
+by Nicholas P. Carter et al. [1] describes the Runnemede high performance
 computing architecture targeting extreme-scale systems. This architecture was
 developed for the DARPA's Ubiquitous High-Performance Computing program. The
 authors describe multiple facets of the architecture including the networking,
@@ -131,7 +126,7 @@ The paper is well written and clear to understand.
 The following relevant work can be found in the [Citations](#citations) section
 of this article.
 
-- \[2\]
+- [2]
 
 ### Author Assumptions
 
@@ -161,7 +156,7 @@ ______________________________________________________________________
 > A summary of the paper
 
 The paper *Runnemede: An Architecture for Ubiquitous High-Performance Computing*
-by Nicholas P. Carter et al. \[1\] describes the Runnemede high performance
+by Nicholas P. Carter et al. [1] describes the Runnemede high performance
 computing architecture targeting extreme-scale systems. This architecture was
 developed for the DARPA's Ubiquitous High-Performance Computing program to
 address over provisioned, energy limited HPC architecture designs. The authors
@@ -175,6 +170,6 @@ ______________________________________________________________________
 ## Summarization Technique
 
 This paper was summarized using a modified technique proposed by S. Keshav in
-his work *How to Read a Paper* \[0\].
+his work *How to Read a Paper* [0].
 
 ## Citations

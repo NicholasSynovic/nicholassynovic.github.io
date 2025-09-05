@@ -1,6 +1,5 @@
 ---
-title: A summary of A Convolutional Neural Network Cascade for Face Detection by Haoxiang
-  Li et al.
+title: A summary of A Convolutional Neural Network Cascade for Face Detection by Haoxiang Li et al.
 description: Posted in CVPR, 2015
 summary: Posted in in CVPR, 2015
 
@@ -178,7 +177,7 @@ ______________________________________________________________________
 > A summary of the paper
 
 The paper *A Convolutional Neural Network Cascade for Face Detection* by
-Haoxiang Li et al. \[1\] presents a CNN based solution for face detection. Their
+Haoxiang Li et al. [1] presents a CNN based solution for face detection. Their
 solutions aims to be robust against faces that are not looking directly at the
 camera. Their model architecture involves a cascade of 6 CNNs that aim to first
 identify if a first is in the image using dense features (first 3 CNNs), then
@@ -193,6 +192,6 @@ ______________________________________________________________________
 ## Summarization Technique
 
 This paper was summarized using a modified technique proposed by S. Keshav in
-his work *How to Read a Paper* \[0\].
+his work *How to Read a Paper* [0].
 
 ## Citations

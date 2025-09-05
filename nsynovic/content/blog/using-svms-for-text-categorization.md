@@ -1,15 +1,10 @@
 ---
 title: A summary of Using SVMs For Text Categorization by Susan Dumais et al
-description: Published as an article in the 1998 July/August publication of the IEEE
-  Intelligent Systems magazine's Support Vector Machines section
-summary: Published as an article in the 1998 July/August publication of the IEEE Intelligent
-  Systems magazine's Support Vector Machines section
+description: Published as an article in the 1998 July/August publication of the IEEE Intelligent Systems magazine's Support Vector Machines section
+summary: Published as an article in the 1998 July/August publication of the IEEE Intelligent Systems magazine's Support Vector Machines section
 
-categories: [summary, SVM, text categorization, applications, ml, 1998, IEEE Intelligent
-      Systems]
-citations: [https://doi.org/10.1145/1273445.1273458, https://doi.ieeecomputersociety.org/10.1109/5254.708428,
-  Introduction to modern information retrieval, 
-      https://www.microsoft.com/en-us/research/publication/sequential-minimal-optimization-a-fast-algorithm-for-training-support-vector-machines]
+categories: [summary, SVM, text categorization, applications, ml, 1998, IEEE Intelligent Systems]
+citations: [https://doi.org/10.1145/1273445.1273458, https://doi.ieeecomputersociety.org/10.1109/5254.708428, Introduction to modern information retrieval, https://www.microsoft.com/en-us/research/publication/sequential-minimal-optimization-a-fast-algorithm-for-training-support-vector-machines]
 
 draft: false
 
@@ -59,8 +54,8 @@ ______________________________________________________________________
 
 The essay *Using SVMs For Text Categorization* by Susan Dumais et al. (as part
 of the larger *Support vector machine* collection of essays in the July/ August
-edition of the 1998 IEEE Intelligent Systems magazine) \[1\] provides examples
-of when using a Support Vector Machine (SVM) is beneficial with respect to text
+edition of the 1998 IEEE Intelligent Systems magazine) [1] provides examples of
+when using a Support Vector Machine (SVM) is beneficial with respect to text
 classification. They discuss text classification, text representation and
 feature selection, and an example use case on the Reuters collection. They
 support the position that using SVMs for text classification (or really any
@@ -123,8 +118,8 @@ This essay is clearly written.
 The following relevant work can be found in the [Citations](#citations) section
 of this article.
 
-- Introduction to Modern Information Retrieval \[2\]
-- Fast Training of SVMs Using Sequential Minimal Optimization \[3\]
+- Introduction to Modern Information Retrieval [2]
+- Fast Training of SVMs Using Sequential Minimal Optimization [3]
 
 ### Future Directions
 
@@ -142,8 +137,8 @@ ______________________________________________________________________
 
 The essay *Using SVMs For Text Categorization* by Susan Dumais et al. (as part
 of the larger *Support vector machine* collection of essays in the July/ August
-edition of the 1998 IEEE Intelligent Systems magazine) \[1\] presents the usage
-of SVMs for text categorization on the Reuters collection in comparison to other
+edition of the 1998 IEEE Intelligent Systems magazine) [1] presents the usage of
+SVMs for text categorization on the Reuters collection in comparison to other
 classification algorithms. They found that SVMs perform best on this
 classification task.
 
@@ -155,6 +150,6 @@ ______________________________________________________________________
 ## Summarization Technique
 
 This paper was summarized using a modified technique proposed by S. Keshav in
-his work *How to Read a Paper* \[0\].
+his work *How to Read a Paper* [0].
 
 ## Citations

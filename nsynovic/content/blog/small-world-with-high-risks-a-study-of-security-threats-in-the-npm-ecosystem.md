@@ -1,14 +1,9 @@
 ---
-title: 'A summary of Small World with High Risks: A Study of Security Threats in the
-  npm Ecosystem by Markus Zimmermann et al.'
+title: 'A summary of Small World with High Risks: A Study of Security Threats in the npm Ecosystem by Markus Zimmermann et al.'
 description: Posted in the Proceedings of the 28th USENIX Security Symposium; 2019
 summary: Posted in the Proceedings of the 28th USENIX Security Symposium; 2019
 categories: [summary, USENIX Security Symposium, 2019]
-citations: [https://doi.org/10.1145/1273445.1273458, https://www.usenix.org/conference/usenixsecurity19/presentation/zimmerman,
-  https://doi.org/10.1016/j.jss.2016.02.003, https://doi.org/10.1145/2797433.2797475,
-  https://doi.org/10.1109/ICSME.2016.19, https://doi.org/10.1145/2901739.2901743,
-  https://doi.org/10.1109/MSR.2017.55, https://doi.org/10.1007/s10664-017-9589-y,
-  https://doi.org/10.1109/CSMR.2013.33, https://doi.org/10.1109/ICSM.2013.39, https://doi.org/10.1145/2597073.2597131]
+citations: [https://doi.org/10.1145/1273445.1273458, https://www.usenix.org/conference/usenixsecurity19/presentation/zimmerman, https://doi.org/10.1016/j.jss.2016.02.003, https://doi.org/10.1145/2797433.2797475, https://doi.org/10.1109/ICSME.2016.19, https://doi.org/10.1145/2901739.2901743, https://doi.org/10.1109/MSR.2017.55, https://doi.org/10.1007/s10664-017-9589-y, https://doi.org/10.1109/CSMR.2013.33, https://doi.org/10.1109/ICSM.2013.39, https://doi.org/10.1145/2597073.2597131]
 
 draft: false
 
@@ -175,18 +170,18 @@ of the work per paper.
 The following relevant work can be found in the [Citations](#citations) section
 of this article.
 
-- Revisiting software ecosystems research: A longitudinal literature study \[2\]
-- Challenges in software ecosystems research \[3\]
+- Revisiting software ecosystems research: A longitudinal literature study [2]
+- Challenges in software ecosystems research [3]
 - An ecosystem and socio-technical view on software maintenance and evolution
-  \[4\]
-- A look at the dynamics of the JavaScript package ecosystem \[5\]
-- Structure and evolution of package dependency networks \[6\]
+  [4]
+- A look at the dynamics of the JavaScript package ecosystem [5]
+- Structure and evolution of package dependency networks [6]
 - An empirical comparison of dependency network evolution in seven software
-  packaging ecosystems \[7\]
-- The evolution of the R software ecosystem \[8\]
+  packaging ecosystems [7]
+- The evolution of the R software ecosystem [8]
 - The evolution of project inter-dependencies in a software ecosystem: The case
-  of Apache \[9\]
-- Gentoo package dependencies over time \[10\]
+  of Apache [9]
+- Gentoo package dependencies over time [10]
 
 ### Methodology
 
@@ -248,7 +243,7 @@ ______________________________________________________________________
 > A summary of the paper
 
 The paper *Small World with High Risks: A Study of Security Threats in the npm
-Ecosystem* by Markus Zimmermann et al. \[1\] was a large scale study on `npm`
+Ecosystem* by Markus Zimmermann et al. [1] was a large scale study on `npm`
 packages and package dependencies taken from 2011 to April 2018. This study was
 done to understand the various different threat models that exist on `npm` as
 well as to understand how `npm` has evolved. By studying the evolution of `npm`,
@@ -319,6 +314,6 @@ ______________________________________________________________________
 ## Summarization Technique
 
 This paper was summarized using a modified technique proposed by S. Keshav in
-his work *How to Read a Paper* \[0\].
+his work *How to Read a Paper* [0].
 
 ## Citations

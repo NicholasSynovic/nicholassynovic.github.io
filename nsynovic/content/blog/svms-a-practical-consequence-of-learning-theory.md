@@ -1,13 +1,9 @@
 ---
-title: A summary of SVMs - A Practical Consequence of Learning Theory by Bernhard
-  Scholkopf
-description: Published as an article in the 1998 July/August publication of the IEEE
-  Intelligent Systems magazine's Support Vector Machines section
-summary: Published as an article in the 1998 July/August publication of the IEEE Intelligent
-  Systems magazine's Support Vector Machines section
+title: A summary of SVMs - A Practical Consequence of Learning Theory by Bernhard Scholkopf
+description: Published as an article in the 1998 July/August publication of the IEEE Intelligent Systems magazine's Support Vector Machines section
+summary: Published as an article in the 1998 July/August publication of the IEEE Intelligent Systems magazine's Support Vector Machines section
 categories: [summary, SVMs, learning theory, ml, theory, 1998, IEEE Intelligent Systems]
-citations: [https://doi.org/10.1145/1273445.1273458, https://doi.ieeecomputersociety.org/10.1109/5254.708428,
-  The Nature of Statistical Learning Theory]
+citations: [https://doi.org/10.1145/1273445.1273458, https://doi.ieeecomputersociety.org/10.1109/5254.708428, The Nature of Statistical Learning Theory]
 
 draft: false
 date: 2022-10-23T10:02:41-05:00
@@ -56,7 +52,7 @@ ______________________________________________________________________
 
 The essay *SVMs - a practical consequence of learning theory* by Bernhard
 Scholkopf (as part of the larger *Support vector machine* collection of essays
-in the July/ August edition of the 1998 IEEE Intelligent Systems magazine) \[1\]
+in the July/ August edition of the 1998 IEEE Intelligent Systems magazine) [1]
 discusses the underlying theory that powers Support Vector Machine (SVM)
 algorithms and argues that these algorithms are useful and performant. His essay
 contains sections on *Learning pattern recognition from examples*,
@@ -127,7 +123,7 @@ different voices.
 The following relevant work can be found in the [Citations](#citations) section
 of this article.
 
-- The Nature of Statistical Learning Theory \[2\]
+- The Nature of Statistical Learning Theory [2]
 
 ### Future Directions
 
@@ -145,7 +141,7 @@ ______________________________________________________________________
 
 The essay *SVMs: A Practical Consequence of Learning Theory* by Bernhard
 Scholkopf (as part of the larger *Support vector machine* collection of essays
-in the July/ August edition of the 1998 IEEE Intelligent Systems magazine) \[1\]
+in the July/ August edition of the 1998 IEEE Intelligent Systems magazine) [1]
 discuss both the mathematical theory and current practice of using SVMs. SVMs
 are useful in a research aspect as their functionality can be mathematically
 explained. SVMs are a linear classifier that operate in multi-dimensional space
@@ -164,6 +160,6 @@ ______________________________________________________________________
 ## Summarization Technique
 
 This paper was summarized using a modified technique proposed by S. Keshav in
-his work *How to Read a Paper* \[0\].
+his work *How to Read a Paper* [0].
 
 ## Citations

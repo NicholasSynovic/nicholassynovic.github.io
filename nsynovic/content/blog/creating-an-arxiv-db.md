@@ -1,9 +1,9 @@
 ---
-title: 'Creating an arXiv DB'
-description: 'Creating an arXiv DB'
-summary: 'Creating an arXiv DB'
+title: Creating an arXiv DB
+description: Creating an arXiv DB
+summary: Creating an arXiv DB
 
-categories: ['arxiv', 'database', 'softwareengineering', 'computerscience']
+categories: [arxiv, database, softwareengineering, computerscience]
 citations: ['']
 
 draft: false
@@ -18,23 +18,46 @@ toc: false
 show_reading_time: true
 ---
 
-As a Ph.D. student studying Deep Learning (DL) from the perspective of a Software Engineer, I rely upon academic resources to learn about DL models, techniques, and methods. [arXiv](https://arxiv.org) is arguably the largest host of the latest academic (but not peer-reviewed) DL manuscripts.
+As a Ph.D. student studying Deep Learning (DL) from the perspective of a
+Software Engineer, I rely upon academic resources to learn about DL models,
+techniques, and methods. [arXiv](https://arxiv.org) is arguably the largest host
+of the latest academic (but not peer-reviewed) DL manuscripts.
 
-However, as it relies upon community donations to support the service, there are limitations to the service. One of them is that only the last week of manuscripts are browsable at any given time with the rest being searchable.
+However, as it relies upon community donations to support the service, there are
+limitations to the service. One of them is that only the last week of
+manuscripts are browsable at any given time with the rest being searchable.
 
-As someone who checks the service often for the latest information, it can become irritating when I'm casually browsing the site, find an interesting manuscript, and (for one reason or another) forget to bookmark it and then not find the paper as I can't nail down the exact keywords to search for it. Additionally, I'd like to leverage the data on the site for other projects like testing retrieval augmented generation (RAG) techniques for finding information from manuscripts.
+As someone who checks the service often for the latest information, it can
+become irritating when I'm casually browsing the site, find an interesting
+manuscript, and (for one reason or another) forget to bookmark it and then not
+find the paper as I can't nail down the exact keywords to search for it.
+Additionally, I'd like to leverage the data on the site for other projects like
+testing retrieval augmented generation (RAG) techniques for finding information
+from manuscripts.
 
-To support users like me, the arXiv team releases the metadata of all papers submitted to the platform weekly on [Kaggle](https://www.kaggle.com/datasets/Cornell-University/arxiv) as JSON. So for today's blog post, let's convert the JSON file into a queriable SQLite3 database!
+To support users like me, the arXiv team releases the metadata of all papers
+submitted to the platform weekly on
+[Kaggle](https://www.kaggle.com/datasets/Cornell-University/arxiv) as JSON. So
+for today's blog post, let's convert the JSON file into a queriable SQLite3
+database!
 
 ## Project Setup
 
-I'll leverage Python 3.10 and bash for this project primarily for the [`pandas` library](https://pypi.org/project/pandas/). `pandas` provides convenient `read_json` and `to_sql` methods for reading JSON files and writing to SQL databases respectfully.
+I'll leverage Python 3.10 and bash for this project primarily for the
+[`pandas` library](https://pypi.org/project/pandas/). `pandas` provides
+convenient `read_json` and `to_sql` methods for reading JSON files and writing
+to SQL databases respectfully.
 
-To start, I created a GitHub repository based on [my Python template repo](https://github.com/NicholasSynovic/template_python). You can find all the project code [here](https://github.com/NicholasSynovic/tool_arXiv-db).
+To start, I created a GitHub repository based on
+[my Python template repo](https://github.com/NicholasSynovic/template_python).
+You can find all the project code
+[here](https://github.com/NicholasSynovic/tool_arXiv-db).
 
 ## Getting And Cleaning The Data
 
-As the arXiv Dataset is hosted on Kaggle, we can use their [`kaggle`](https://pypi.org/project/kaggle/) Python library to download and unzip the data. Wrapping this as a bash script, we get:
+As the arXiv Dataset is hosted on Kaggle, we can use their
+[`kaggle`](https://pypi.org/project/kaggle/) Python library to download and
+unzip the data. Wrapping this as a bash script, we get:
 
 ```bash
 #!/bin/bash
@@ -42,7 +65,11 @@ As the arXiv Dataset is hosted on Kaggle, we can use their [`kaggle`](https://py
 kaggle datasets download --unzip Cornell-University/arxiv -p $1
 ```
 
-Where the `--unzip` argument decompresses the data, and the `-p` argument specifies a path to download the data. We can improve this further by leveraging [`optparse`](https://github.com/nk412/optparse) to provide command-line arguments for our script. All said and done, we have a download script that looks like this:
+Where the `--unzip` argument decompresses the data, and the `-p` argument
+specifies a path to download the data. We can improve this further by leveraging
+[`optparse`](https://github.com/nk412/optparse) to provide command-line
+arguments for our script. All said and done, we have a download script that
+looks like this:
 
 ```bash
 #!/bin/bash
@@ -56,9 +83,16 @@ ABS_PATH=$(realpath $PATH)
 kaggle datasets download --unzip Cornell-University/arxiv -p $ABS_PATH
 ```
 
-Now that we have the data in JSON format, we can further optimize it by converting it into [JSON Lines](https://jsonlines.org/) (JL) format. JL is a format for storing JSON data where each line is a single object. This effectively removes top-level arrays of objects which is how the arXiv Dataset is stored. By converting the data into a JL format, Pandas can read the file in chunks, thereby reducing the memory overhead by loading only portions of data into memory.
+Now that we have the data in JSON format, we can further optimize it by
+converting it into [JSON Lines](https://jsonlines.org/) (JL) format. JL is a
+format for storing JSON data where each line is a single object. This
+effectively removes top-level arrays of objects which is how the arXiv Dataset
+is stored. By converting the data into a JL format, Pandas can read the file in
+chunks, thereby reducing the memory overhead by loading only portions of data
+into memory.
 
-We can leverage [`jq`](https://github.com/jqlang/jq) to do the conversion with this script:
+We can leverage [`jq`](https://github.com/jqlang/jq) to do the conversion with
+this script:
 
 ```bash
 #!/bin/bash
@@ -86,11 +120,16 @@ absOutputPath=$(realpath $outputPath)
 jq -c . $absInputPath > $absOutputPath
 ```
 
-With that, our data is finally in a format where we can start loading it into a database!
+With that, our data is finally in a format where we can start loading it into a
+database!
 
 ## Creating The Database
 
-We will define our database schema using [SQLAlchemy](https://www.sqlalchemy.org/). First, we will store a subset of the information in a single table called `documents`. This is to test that our database configuration is correct and avoid storing nested data now. The code is fairly simple to create a SQLite3 database with SQLAlchemy:
+We will define our database schema using
+[SQLAlchemy](https://www.sqlalchemy.org/). First, we will store a subset of the
+information in a single table called `documents`. This is to test that our
+database configuration is correct and avoid storing nested data now. The code is
+fairly simple to create a SQLite3 database with SQLAlchemy:
 
 ```python
 from pathlib import Path
@@ -135,14 +174,15 @@ class DB:
         )
 
         self.metadata.create_all(bind=self.engine, checkfirst=True)
-
 ```
 
-Running this code and checking the database schema we see that the table and columns have been created successfully:
+Running this code and checking the database schema we see that the table and
+columns have been created successfully:
 
 ![](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/f6ofhguzzn00nf2ei1lq.png)
 
-We will extend this later by adding tables and relationships between nested values and the documents table.
+We will extend this later by adding tables and relationships between nested
+values and the documents table.
 
 ## Inserting Data Into The Database
 
@@ -155,6 +195,7 @@ from typing import Iterator
 import pandas
 from pandas import DataFrame
 
+
 def readJSON(fp: Path, chunksize: int = 10000) -> Iterator[DataFrame]:
     return pandas.read_json(
         path_or_buf=fp,
@@ -164,17 +205,19 @@ def readJSON(fp: Path, chunksize: int = 10000) -> Iterator[DataFrame]:
     )
 ```
 
-This `Iterator[DataFrame]` object lazily reads the file into memory which we can do with a `for` loop.
+This `Iterator[DataFrame]` object lazily reads the file into memory which we can
+do with a `for` loop.
 
 ```python
-def loadData(dfs: Iterator[DataFrame], db: DB)  ->  None:
+def loadData(dfs: Iterator[DataFrame], db: DB) -> None:
     df: DataFrame
     for df in dfs:
         print(df.columns)
         quit()
 ```
 
-As our current database schema doesn't take all of the fields captured in the JSON objects, we need to parse our DataFrame for the columns that are captured:
+As our current database schema doesn't take all of the fields captured in the
+JSON objects, we need to parse our DataFrame for the columns that are captured:
 
 ```python
 def getDocuments(df: DataFrame) -> DataFrame:
@@ -217,11 +260,16 @@ def loadData(dfs: Iterator[DataFrame], db: DB) -> None:
         quit()
 ```
 
-Checking our testing database, we can see that the first set of documents was loaded correctly:
+Checking our testing database, we can see that the first set of documents was
+loaded correctly:
 
 ![](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/5biwn7c5jxkklplrjrof.png)
 
-However, when we try to import the entire dataset into the database, we get a `sqlalchemy.exc.IntegrityError` because some of the primary keys are duplicated in the JL file. Rather than handling this when converting the data, we can extend our `DB` class to support reading DataFrames into a table while checking for duplicates should an error arise:
+However, when we try to import the entire dataset into the database, we get a
+`sqlalchemy.exc.IntegrityError` because some of the primary keys are duplicated
+in the JL file. Rather than handling this when converting the data, we can
+extend our `DB` class to support reading DataFrames into a table while checking
+for duplicates should an error arise:
 
 ```python
 ...
@@ -232,9 +280,9 @@ from sqlalchemy.exc import IntegrityError
 
 from typing import List
 
-class DB:
 
-...
+class DB:
+    ...
 
     def toSQL(self, tableName: str, df: DataFrame) -> int:
         try:
@@ -259,9 +307,14 @@ class DB:
         return df.shape[0]
 ```
 
-If an error occurs, a unique DataFrame is created from the list of primary keys not reported by the `IntegrityError`, another attempt is made to reinsert them into the database. Additionally, we now return the number of rows committed to the database.
+If an error occurs, a unique DataFrame is created from the list of primary keys
+not reported by the `IntegrityError`, another attempt is made to reinsert them
+into the database. Additionally, we now return the number of rows committed to
+the database.
 
-So our updated `loadData` method now looks like this (with a Spinner object to help report progress from the [`progress`](https://pypi.org/project/progress/) library):
+So our updated `loadData` method now looks like this (with a Spinner object to
+help report progress from the [`progress`](https://pypi.org/project/progress/)
+library):
 
 ```python
 def loadData(dfs: Iterator[DataFrame], db: DB) -> None:
@@ -275,23 +328,25 @@ def loadData(dfs: Iterator[DataFrame], db: DB) -> None:
 
 ## Wrapping Up
 
-Now that the basic structure of the application has been created, all that's left is to add the other tables.
+Now that the basic structure of the application has been created, all that's
+left is to add the other tables.
 
-For example, we can create a table called `authors` to store each author of a document:
+For example, we can create a table called `authors` to store each author of a
+document:
 
 ```python
 _: Table = Table(
-            self.authorTable,
-            self.metadata,
-            Column("id", Integer),
-            Column("document_id", String),
-            Column("author", String),
-            PrimaryKeyConstraint("id"),
-            ForeignKeyConstraint(
-                columns=["document_id"],
-                refcolumns=["documents.id"],
-            ),
-        )
+    self.authorTable,
+    self.metadata,
+    Column("id", Integer),
+    Column("document_id", String),
+    Column("author", String),
+    PrimaryKeyConstraint("id"),
+    ForeignKeyConstraint(
+        columns=["document_id"],
+        refcolumns=["documents.id"],
+    ),
+)
 ```
 
 And then access only the authors from the DataFrame with this method:
@@ -314,12 +369,17 @@ def getAuthors(df: DataFrame, idIncrement: int = 0) -> DataFrame:
 
 Then we can use the `DB.toSQL()` method to write it to the database.
 
-The final database schema is as follows (generated with [SchemaCrawler](https://www.schemacrawler.com/)):
+The final database schema is as follows (generated with
+[SchemaCrawler](https://www.schemacrawler.com/)):
 
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/elvuus7uhhg49tsov9hh.png)
 
-As seen here, there is additional complexity in storing this data. The versions table undergoes similar transformations as well.
+As seen here, there is additional complexity in storing this data. The versions
+table undergoes similar transformations as well.
 
-If you are interested in how the `versions` table is created and to leverage this tool, please visit the [GitHub project page](https://github.com/NicholasSynovic/tool_arXiv-db).
+If you are interested in how the `versions` table is created and to leverage
+this tool, please visit the
+[GitHub project page](https://github.com/NicholasSynovic/tool_arXiv-db).
 
-Thanks for taking the time to read this post. I hope to be posting more in the future.
+Thanks for taking the time to read this post. I hope to be posting more in the
+future.

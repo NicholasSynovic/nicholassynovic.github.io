@@ -4,13 +4,7 @@ description: Posted in Nature, 2015
 summary: Posted in Nature, 2015
 
 categories: [summary, Nature, 2015]
-citations: [https://doi.org/10.1145/1273445.1273458, https://doi.org/10.1038/nature14539,
-  https://doi.org/10.1145/3065386, https://doi.org/10.1109/MSP.2012.2205597, 
-      https://proceedings.neurips.cc/paper/2014/hash/a14ac55a4f27472c5d894ec1c3c743d2-Abstract.html,
-  https://proceedings.mlr.press/v15/glorot11a.html, https://doi.org/10.1162/neco.2006.18.7.1527,
-  https://proceedings.neurips.cc/paper/2006/hash/5da713a690c067105aeb2fae32403405-Abstract.html,
-  https://proceedings.neurips.cc/paper/1989/hash/53c3bce66e43be4f209556518c2fcb54-Abstract.html,
-  https://doi.org/10.1109/5.726791, https://doi.org/10.1162/neco.1997.9.8.1735]
+citations: [https://doi.org/10.1145/1273445.1273458, https://doi.org/10.1038/nature14539, https://doi.org/10.1145/3065386, https://doi.org/10.1109/MSP.2012.2205597, https://proceedings.neurips.cc/paper/2014/hash/a14ac55a4f27472c5d894ec1c3c743d2-Abstract.html, https://proceedings.mlr.press/v15/glorot11a.html, https://doi.org/10.1162/neco.2006.18.7.1527, https://proceedings.neurips.cc/paper/2006/hash/5da713a690c067105aeb2fae32403405-Abstract.html, https://proceedings.neurips.cc/paper/1989/hash/53c3bce66e43be4f209556518c2fcb54-Abstract.html, https://doi.org/10.1109/5.726791, https://doi.org/10.1162/neco.1997.9.8.1735]
 
 draft: false
 
@@ -134,29 +128,29 @@ This paper is well written.
 The following relevant work can be found in the [Citations](#citations) section
 of this article.
 
-02. Krizhevsky, A., Sutskever, I. & Hinton, G. *ImageNet classification with
-    deep convolutional neural networks.* In Proc. Advances in Neural Information
-    Processing Systems 25 1090–1098 (2012).
-03. Hinton, G. et al. *Deep neural networks for acoustic modeling in speech*
-    recognition. IEEE Signal Processing Magazine 29, 82–97 (2012).
-04. Sutskever, I. Vinyals, O. & Le. Q. V. *Sequence to sequence learning with
-    neural* networks. In Proc. Advances in Neural Information Processing Systems
-    27 3104–3112 (2014)
-05. Glorot, X., Bordes, A. & Bengio. Y. *Deep sparse rectifier neural networks.*
-    In Proc. 14th International Conference on Artificial Intelligence and
-    Statistics 315–323 (2011).
-06. Hinton, G. E., Osindero, S. & Teh, Y.-W. *A fast learning algorithm for deep
-    belief nets*. Neural Comp. 18, 1527–1554 (2006).
-07. Bengio, Y., Lamblin, P., Popovici, D. & Larochelle, H. *Greedy layer-wise
-    training of deep networks.* In Proc. Advances in Neural Information
-    Processing Systems 19 153–160 (2006).
-08. LeCun, Y. et al. *Handwritten digit recognition with a back-propagation
-    network.* In Proc. Advances in Neural Information Processing Systems 396–404
-    (1990).
-09. LeCun, Y., Bottou, L., Bengio, Y. & Haffner, P. G*radient-based learning
-    applied to document recognition*. Proc. IEEE 86, 2278–2324 (1998).
-10. Hochreiter, S. & Schmidhuber, J. *Long short-term memory*. Neural Comput. 9,
-    1735–1780 (1997).
+2. Krizhevsky, A., Sutskever, I. & Hinton, G. *ImageNet classification with deep
+   convolutional neural networks.* In Proc. Advances in Neural Information
+   Processing Systems 25 1090–1098 (2012).
+1. Hinton, G. et al. *Deep neural networks for acoustic modeling in speech*
+   recognition. IEEE Signal Processing Magazine 29, 82–97 (2012).
+1. Sutskever, I. Vinyals, O. & Le. Q. V. *Sequence to sequence learning with
+   neural* networks. In Proc. Advances in Neural Information Processing Systems
+   27 3104–3112 (2014)
+1. Glorot, X., Bordes, A. & Bengio. Y. *Deep sparse rectifier neural networks.*
+   In Proc. 14th International Conference on Artificial Intelligence and
+   Statistics 315–323 (2011).
+1. Hinton, G. E., Osindero, S. & Teh, Y.-W. *A fast learning algorithm for deep
+   belief nets*. Neural Comp. 18, 1527–1554 (2006).
+1. Bengio, Y., Lamblin, P., Popovici, D. & Larochelle, H. *Greedy layer-wise
+   training of deep networks.* In Proc. Advances in Neural Information
+   Processing Systems 19 153–160 (2006).
+1. LeCun, Y. et al. *Handwritten digit recognition with a back-propagation
+   network.* In Proc. Advances in Neural Information Processing Systems 396–404
+   (1990).
+1. LeCun, Y., Bottou, L., Bengio, Y. & Haffner, P. G*radient-based learning
+   applied to document recognition*. Proc. IEEE 86, 2278–2324 (1998).
+1. Hochreiter, S. & Schmidhuber, J. *Long short-term memory*. Neural Comput. 9,
+   1735–1780 (1997).
 
 ### Methodology
 
@@ -208,11 +202,11 @@ ______________________________________________________________________
 
 > A summary of the paper
 
-The review paper *Deep Learning* by Yann LeCun et al \[1\]. discusses the
-advances and advantages of deep learning (DL) techniques made up to 2015. The
-authors discuss what is DL, how and where it is applied, commercial and academic
-usages of DL, the advantages of merging two different architectures together to
-solve challenging tasks, and the usage of Recurrent Neural Networks (RNNs) for
+The review paper *Deep Learning* by Yann LeCun et al [1]. discusses the advances
+and advantages of deep learning (DL) techniques made up to 2015. The authors
+discuss what is DL, how and where it is applied, commercial and academic usages
+of DL, the advantages of merging two different architectures together to solve
+challenging tasks, and the usage of Recurrent Neural Networks (RNNs) for
 handling natural language processing and speech recognition tasks. As their
 paper is purely a listing of work that others have done prior to them, their
 contributions were mostly the synthesis of such information into a digestible
@@ -245,6 +239,6 @@ ______________________________________________________________________
 ## Summarization Technique
 
 This paper was summarized using a modified technique proposed by S. Keshav in
-his work *How to Read a Paper* \[0\].
+his work *How to Read a Paper* [0].
 
 ## Citations

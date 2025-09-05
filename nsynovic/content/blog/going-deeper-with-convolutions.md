@@ -3,16 +3,8 @@ title: A summary of Going deeper with convolutions by Christian Szegedy et al.
 description: Published on arXive in 2014
 summary: Published on arXive in 2014
 
-categories: [summary, computer vision, CV, ml, machine learning, machine learning
-      architecture, arXive, 2014]
-citations: [https://doi.org/10.1145/1273445.1273458, https://doi.org/10.48550/arXiv.1409.4842,
-  https://doi.org/10.48550/arXiv.1207.0580, https://doi.org/10.48550/arXiv.1312.6229,
-  https://doi.org/10.1109/TPAMI.2007.56, https://doi.org/10.48550/arXiv.1312.4400,
-  https://doi.org/10.1145/3065386, 
-      https://openaccess.thecvf.com/content_cvpr_2014/html/Girshick_Rich_Feature_Hierarchies_2014_CVPR_paper.html,
-  https://openaccess.thecvf.com/content_cvpr_2014/html/Erhan_Scalable_Object_Detection_2014_CVPR_paper.html,
-  http://proceedings.mlr.press/v32/arora14.pdf, https://doi.org/10.1162/neco.1989.1.4.541,
-  https://doi.org/10.1137/0330046, https://doi.org/10.1109/ICCV.2011.6126456, https://doi.org/10.48550/arXiv.1312.5402]
+categories: [summary, computer vision, CV, ml, machine learning, machine learning architecture, arXive, 2014]
+citations: [https://doi.org/10.1145/1273445.1273458, https://doi.org/10.48550/arXiv.1409.4842, https://doi.org/10.48550/arXiv.1207.0580, https://doi.org/10.48550/arXiv.1312.6229, https://doi.org/10.1109/TPAMI.2007.56, https://doi.org/10.48550/arXiv.1312.4400, https://doi.org/10.1145/3065386, https://openaccess.thecvf.com/content_cvpr_2014/html/Girshick_Rich_Feature_Hierarchies_2014_CVPR_paper.html, https://openaccess.thecvf.com/content_cvpr_2014/html/Erhan_Scalable_Object_Detection_2014_CVPR_paper.html, http://proceedings.mlr.press/v32/arora14.pdf, https://doi.org/10.1162/neco.1989.1.4.541, https://doi.org/10.1137/0330046, https://doi.org/10.1109/ICCV.2011.6126456, https://doi.org/10.48550/arXiv.1312.5402]
 
 draft: false
 
@@ -60,7 +52,7 @@ ______________________________________________________________________
 > Discussion about the title, abstract, introduction, section and sub-section
 > headings, and conclusion
 
-The paper *Going deeper with convolutions* by Christian Szegedy et al. \[1\]
+The paper *Going deeper with convolutions* by Christian Szegedy et al. [1]
 describes a 2014 state of the art computer vision model (on the ImageNet
 Large-Scale Visual Recognition Challenge) called GoogLeNet architect ed based on
 Hebbian principles (i.e., neurons that fire together, are wired together)and a
@@ -145,20 +137,20 @@ of this article.
 - Max Pooling
 - Average Pooling
 - Softmax Activation
-- Dropout - \[2\]
-- Localization Task - \[3\]
-- Gabor Filters - \[4\]
-- Network in Network - \[5\]
-- Rectified Linear Activation - \[6\]
-- Regions with Convolutional Neural Networks - \[7\]
-- Multi-Box Prediction - \[8\]
-- Arora proof - \[9\]
-- LeNet 5 - \[10\]
+- Dropout - [2]
+- Localization Task - [3]
+- Gabor Filters - [4]
+- Network in Network - [5]
+- Rectified Linear Activation - [6]
+- Regions with Convolutional Neural Networks - [7]
+- Multi-Box Prediction - [8]
+- Arora proof - [9]
+- LeNet 5 - [10]
 - Fisher vectors
-- Polyak Averaging - \[11\]
+- Polyak Averaging - [11]
 - Jaccard index
-- Selective Search - \[12\]
-- Photometric Distortions - \[13\]
+- Selective Search - [12]
+- Photometric Distortions - [13]
 
 ### Author Assumptions
 
@@ -217,7 +209,7 @@ ______________________________________________________________________
 
 > A summary of the paper
 
-The paper *Going deeper with convolutions* by Szegedy et al. \[1\] introduces a
+The paper *Going deeper with convolutions* by Szegedy et al. [1] introduces a
 computer vision model architecture called Inception and a reference model called
 GoogLeNet.
 
@@ -258,7 +250,7 @@ layers.
 The author's contributions were as follows;
 
 1. The Inception computer vision architecture,
-2. The GoogLeNet SOTA computer vision model for classification and object
+1. The GoogLeNet SOTA computer vision model for classification and object
    detection.
 
 My opinion on this paper is that while it is well written, the author's make
@@ -276,6 +268,6 @@ ______________________________________________________________________
 ## Summarization Technique
 
 This paper was summarized using a modified technique proposed by S. Keshav in
-his work *How to Read a Paper* \[0\].
+his work *How to Read a Paper* [0].
 
 ## Citations

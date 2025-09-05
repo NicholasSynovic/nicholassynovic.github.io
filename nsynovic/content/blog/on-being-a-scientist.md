@@ -1,16 +1,10 @@
 ---
-title: 'A summary of On Being a Scientist: A Guide To Responsible Conduct In Research
-  by the National Academy of Science, National Academy of Engineering and Institute
-  of Medicine of the National Academies'
-description: Authored by the National Academy of Science, National Academy of Engineering
-  and Institute of Medicine of the National Academies
-summary: Authored by the National Academy of Science, National Academy of Engineering
-  and Institute of Medicine of the National Academies
+title: 'A summary of On Being a Scientist: A Guide To Responsible Conduct In Research by the National Academy of Science, National Academy of Engineering and Institute of Medicine of the National Academies'
+description: Authored by the National Academy of Science, National Academy of Engineering and Institute of Medicine of the National Academies
+summary: Authored by the National Academy of Science, National Academy of Engineering and Institute of Medicine of the National Academies
 
 categories: [summary, book, responsible conduct in research, ethics]
-citations: [
-      https://nap.nationalacademies.org/catalog/12192/on-being-a-scientist-a-guide-to-responsible-conduct-in,
-  https://nap.nationalacademies.org/catalog/5789/adviser-teacher-role-model-friend-on-being-a-mentor-to]
+citations: [https://nap.nationalacademies.org/catalog/12192/on-being-a-scientist-a-guide-to-responsible-conduct-in, https://nap.nationalacademies.org/catalog/5789/adviser-teacher-role-model-friend-on-being-a-mentor-to]
 
 draft: false
 
@@ -164,7 +158,7 @@ clear expectations regarding meeting times and availability with their mentors,
 and need to seek out their mentors, rather than expect a mentor to be provided
 to them. For more information on this subject, please read *Adviser, Teacher,
 Role Model, Friend: On Being a Mentor to Students in Science and Engineering* by
-Philip A. Grififths \[1\].
+Philip A. Grififths [1].
 
 ### Treatment of Data
 

@@ -18,11 +18,19 @@ toc: false
 show_reading_time: true
 ---
 
-In my previous post, I wrote about a tool I wanted to create to print ANSI color codes to the console. I currently need a this as I am "prettifying" my shell prompt at the moment and figured it would just be faster to leverage this tool over Googling the necessary shell codes.
+In my previous post, I wrote about a tool I wanted to create to print ANSI color
+codes to the console. I currently need a this as I am "prettifying" my shell
+prompt at the moment and figured it would just be faster to leverage this tool
+over Googling the necessary shell codes.
 
-So I created `acolor`, an open-source Python utility built on top of `colorist` to provide a convient way to output ANSI color codes to the terminal. Currently, only named color codes are supported (e.g., red, green, blue). Hex, HSL, VGA, and RGB color codes are currently not supported but `acolor` can easily be extended to include them.
+So I created `acolor`, an open-source Python utility built on top of `colorist`
+to provide a convient way to output ANSI color codes to the terminal. Currently,
+only named color codes are supported (e.g., red, green, blue). Hex, HSL, VGA,
+and RGB color codes are currently not supported but `acolor` can easily be
+extended to include them.
 
-You can view the source code [here](https://github.com/NicholasSynovic/acolor). You can install it with `pipx` via:
+You can view the source code [here](https://github.com/NicholasSynovic/acolor).
+You can install it with `pipx` via:
 
 `pipx install git+https://github.com/NicholasSynovic/acolor`
 

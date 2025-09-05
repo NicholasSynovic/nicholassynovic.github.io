@@ -20,7 +20,7 @@ show_reading_time: true
 
 # A summary of *Trustworthy Machine Learning*
 
-> Bhavani Thuraisingham et al.; IEEE Computing Edge, January 2023 DOI \[0\]
+> Bhavani Thuraisingham et al.; IEEE Computing Edge, January 2023 DOI [0]
 
 ## Table of Contents
 

@@ -120,11 +120,11 @@ Ark) to diversity 2.0 is so important.
 
 Unlike men, women often find that their lives often don't have much control and
 that, "things happen". Mary Catherine Bateson is anthropologist and resident of
-the Institute for Intercultural Studies \[3\] whose book, *Composing a Life*
-\[1\] talks about this topic.
+the Institute for Intercultural Studies [3] whose book, *Composing a Life* [1]
+talks about this topic.
 
 Conscious leadership does matter. Psychologist and Harvard professor Howard
-Gardner's book, *Leading Minds* \[2\] describes great leaders of having the
+Gardner's book, *Leading Minds* [2] describes great leaders of having the
 following four traits:
 
 ```text
@@ -135,8 +135,8 @@ following four traits:
 ```
 
 This framework, as well as the additional qualities coupled from the Center for
-American Woman and Politics at Rutgers University \[4\] kick started the
-research for this book.
+American Woman and Politics at Rutgers University [4] kick started the research
+for this book.
 
 Women politicians operate differently than their male counterparts with respect
 to interacting with constituents, speaking in committee meetings, and bill
@@ -170,13 +170,13 @@ benefits of diversity.
 
 The benefits of diversity include increased creativity, better ideas, and
 multiple perspectives. This was explained by journalist James Surowiecki in his
-book *The Wisdom of Crowds* \[5\]. Introducing a heterogeneous member to a
+book *The Wisdom of Crowds* [5]. Introducing a heterogeneous member to a
 homogeneous group will result in the group not bonding at first, however, the
 cognitive diversity and creative output will be much greater than the original
 homogeneous group's once the full potential has been reached.
 
 The Washington Post reported in it's survey article, *Most Diversity Training
-Ineffective, Study Finds* \[6\] that compulsory diversity training resulted in
+Ineffective, Study Finds* [6] that compulsory diversity training resulted in
 diverse people leaving companies or leadership positions. Voluntary diversity
 training that furthered company goals resulted in better diversity practices.
 Changes to improve better diversity practices need to involve addressing the
@@ -515,7 +515,7 @@ Verbal Judo is using words to get someone to comply with or complete an action
 or task. It is useful for diffusing difficult situations. Rather than order
 someone to do something during a tough situation, talk to them calmly and give
 them options. Instead of, "Stop that, it's unsafe!", a better option would be,
-"For your safety and mine, please stop doing that or \[insert consequence\]".
+"For your safety and mine, please stop doing that or [insert consequence]".
 
 Speaking consciously means that each sentence is intentional. To American, "How
 are you doing?" means basically nothing. However, to a foreigner, that is a

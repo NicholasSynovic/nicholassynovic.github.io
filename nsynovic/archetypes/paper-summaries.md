@@ -4,12 +4,12 @@ authors: CHANGE ME
 description: Posted in the CONFRENCE | JOURNAL | etc. , YEAR
 summary: Posted in the CONFRENCE | JOURNAL | etc. , YEAR
 
-categories: [summary, paper,]
+categories: [summary, paper]
 citations: [https://doi.org/10.1145/1273445.1273458]
 
 draft: false
 
-date: {{ .Date }}
+date: {{.Date: null}: null}
 featured_image: ''
 include_toc: true
 markup: md
@@ -21,11 +21,10 @@ show_reading_time: true
 
 # A summary of *CHANGE ME*
 
-> Author Names
-> Journal | Confrence | etc., Year
-> DOI [1]
+> Author Names Journal | Confrence | etc., Year DOI [1]
 
-For the summary of the paper, go to the [Summary](#summary) section of this article.
+For the summary of the paper, go to the [Summary](#summary) section of this
+article.
 
 ## Table of Contents
 
@@ -52,11 +51,12 @@ For the summary of the paper, go to the [Summary](#summary) section of this arti
   - [Summarization Technique](#summarization-technique)
   - [Citations](#citations)
 
----
+______________________________________________________________________
 
 ## First Pass
 
-> Read the title, abstract, introduction, section and sub-section headings, and conclusion
+> Read the title, abstract, introduction, section and sub-section headings, and
+> conclusion
 
 ### Problem
 
@@ -78,7 +78,7 @@ For the summary of the paper, go to the [Summary](#summary) section of this arti
 
 > What are the author's main contributions?
 
----
+______________________________________________________________________
 
 ## Second Pass
 
@@ -90,8 +90,8 @@ For the summary of the paper, go to the [Summary](#summary) section of this arti
 
 ### Figures, Diagrams, Illustrations, and Graphs
 
-> Are the axes properly labeled?
-> Are results shown with error bars, so that conclusions are statistically significant?
+> Are the axes properly labeled? Are results shown with error bars, so that
+> conclusions are statistically significant?
 
 ### Clarity
 
@@ -101,7 +101,8 @@ For the summary of the paper, go to the [Summary](#summary) section of this arti
 
 > Mark relevant work for review
 
-The following relevant work can be found in the [Citations](#citations) section of this article.
+The following relevant work can be found in the [Citations](#citations) section
+of this article.
 
 ### Methodology
 
@@ -127,16 +128,17 @@ The following relevant work can be found in the [Citations](#citations) section 
 
 > What feedback would I give to the authors?
 
----
+______________________________________________________________________
 
 ## Summary
 
 > A summary of the paper
 
----
+______________________________________________________________________
 
 ## Summarization Technique
 
-This paper was summarized using a modified technique proposed by S. Keshav in his work *How to Read a Paper* \[0\].
+This paper was summarized using a modified technique proposed by S. Keshav in
+his work *How to Read a Paper* [0].
 
 ## Citations

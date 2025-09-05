@@ -1,11 +1,9 @@
 ---
-title: A summary of ImageNet Classification with Deep Convolutional Neural Networks
-  by Krizhevsky et al.
+title: A summary of ImageNet Classification with Deep Convolutional Neural Networks by Krizhevsky et al.
 description: Published in the 60th volume, number 6 Communications of the ACM in 2017
 summary: Published in the 60th volume, number 6 Communications of the ACM in 2017
 
-categories: [summary, deep learning, computer vision, ImageNet, GPU, 2017, Communications
-      of the ACM]
+categories: [summary, deep learning, computer vision, ImageNet, GPU, 2017, Communications of the ACM]
 citations: [https://doi.org/10.1145/1273445.1273458, https://doi.org/10.1145/3065386]
 
 draft: false
@@ -180,7 +178,7 @@ ______________________________________________________________________
 *Taken from [First Pass](#first-pass)*
 
 The paper *ImageNet Classification with Deep Convolutional Neural Networks* by
-Krizhevsky et al. \[1\] discusses the AlexNet model and its architecture as well
+Krizhevsky et al. [1] discusses the AlexNet model and its architecture as well
 as its SOTA achievements in the 2012 ImageNet Challenge. The difference between
 AlexNet and other contestants was that the model relies on GPU training to train
 the convolutional neural network model as well as being a deep convolutional
@@ -205,6 +203,6 @@ ______________________________________________________________________
 ## Summarization Technique
 
 This paper was summarized using a modified technique proposed by S. Keshav in
-his work *How to Read a Paper* \[0\].
+his work *How to Read a Paper* [0].
 
 ## Citations

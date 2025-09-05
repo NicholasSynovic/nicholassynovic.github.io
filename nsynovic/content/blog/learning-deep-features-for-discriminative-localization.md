@@ -1,17 +1,10 @@
 ---
-title: A summary of Learning Deep Features for Discriminative Localization by Bolei
-  Zhou et al.
+title: A summary of Learning Deep Features for Discriminative Localization by Bolei Zhou et al.
 description: Published on arXiv in 2015
 summary: Published in arXiv in 2015
 
-categories: [summary, CNN, DL, object detection, cam, class activation mapping, 2015,
-  arxiv]
-citations: [https://doi.org/10.1145/1273445.1273458, http://arxiv.org/abs/1512.04150,
-  https://doi.org/10.1109/WACV.2016.7477688, https://doi.org/10.1109/TPAMI.2016.2535231,
-  https://openaccess.thecvf.com/content_cvpr_2014/html/Oquab_Learning_and_Transferring_2014_CVPR_paper.html,
-  https://openaccess.thecvf.com/content_cvpr_2015/html/Oquab_Is_Object_Localization_2015_CVPR_paper.html,
-  https://doi.org/10.1007/978-3-319-10590-1_53, https://arxiv.org/abs/1412.6856, https://arxiv.org/abs/1312.4400,
-  https://doi.org/10.48550/arXiv.1409.4842]
+categories: [summary, CNN, DL, object detection, cam, class activation mapping, 2015, arxiv]
+citations: [https://doi.org/10.1145/1273445.1273458, http://arxiv.org/abs/1512.04150, https://doi.org/10.1109/WACV.2016.7477688, https://doi.org/10.1109/TPAMI.2016.2535231, https://openaccess.thecvf.com/content_cvpr_2014/html/Oquab_Learning_and_Transferring_2014_CVPR_paper.html, https://openaccess.thecvf.com/content_cvpr_2015/html/Oquab_Is_Object_Localization_2015_CVPR_paper.html, https://doi.org/10.1007/978-3-319-10590-1_53, https://arxiv.org/abs/1412.6856, https://arxiv.org/abs/1312.4400, https://doi.org/10.48550/arXiv.1409.4842]
 
 draft: false
 
@@ -59,13 +52,13 @@ ______________________________________________________________________
 > headings, and conclusion
 
 The paper *Learning Deep Features for Discriminative Localization* by Bolei Zhou
-et al. \[1\] describes using the global average pooling layer of CNNs to not
-only regularize data, but also to localize objects in an image **even if the
-network wasn't trained for object detection**. The authors propose a method for
-object localization that involves a simple modification to the layer to generate
-what they call "class activation maps" (CAMs), which are heat maps of where the
-CNN is "looking" at an image for labeling. The hotter the heat map, the more
-focus the CNN is putting on that specific image region.
+et al. [1] describes using the global average pooling layer of CNNs to not only
+regularize data, but also to localize objects in an image **even if the network
+wasn't trained for object detection**. The authors propose a method for object
+localization that involves a simple modification to the layer to generate what
+they call "class activation maps" (CAMs), which are heat maps of where the CNN
+is "looking" at an image for labeling. The hotter the heat map, the more focus
+the CNN is putting on that specific image region.
 
 The authors go into detail as to how one would accomplish this with a
 weakly-supervised object localization method, and its applications towards deep
@@ -144,17 +137,17 @@ The paper is well written.
 The following relevant work can be found in the [Citations](#citations) section
 of this article.
 
-- Self-taught object localization with deep networks \[2\]
+- Self-taught object localization with deep networks [2]
 - Weakly supervised object localization with multi-fold multiple instance
-  learning \[3\]
+  learning [3]
 - Learning and transferring mid-level image representations using convolutional
-  neural networks \[4\]
+  neural networks [4]
 - Is object localization for free? weakly-supervised learning with convolutional
-  neural networks \[5\]
-- Visualizing and understanding convolutional networks \[6\]
-- Object detectors emerge in deep scene CNNs \[7\]
-- Network in network \[8\]
-- Going deeper with convolutions \[9\]
+  neural networks [5]
+- Visualizing and understanding convolutional networks [6]
+- Object detectors emerge in deep scene CNNs [7]
+- Network in network [8]
+- Going deeper with convolutions [9]
 
 ### Future Directions
 
@@ -175,7 +168,7 @@ ______________________________________________________________________
 > A summary of the paper
 
 The paper *Learning Deep Features for Discriminative Localization* by Bolei Zhou
-et al. \[1\] discusses a weakly supervised method of performing object
+et al. [1] discusses a weakly supervised method of performing object
 localization on existing CNN models. Their method involves replacing the fully
 connected layer at the end of a CNN performing image classification, with a
 global average pooling layer into a Softmax layer. This is so that the models
@@ -192,6 +185,6 @@ ______________________________________________________________________
 ## Summarization Technique
 
 This paper was summarized using a modified technique proposed by S. Keshav in
-his work *How to Read a Paper* \[0\].
+his work *How to Read a Paper* [0].
 
 ## Citations

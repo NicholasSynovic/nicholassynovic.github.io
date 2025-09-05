@@ -1,24 +1,10 @@
 ---
-title: A summary of "What are Weak Links in the npm Supply Chain?", by Nusrat Zahan
-  et al.
+title: A summary of "What are Weak Links in the npm Supply Chain?", by Nusrat Zahan et al.
 description: Posted in the Proceedings of ICSE-SEIP 2022
 summary: Posted in the Proceedings of ICSE-SEIP 2022
 
-categories: [summary, Software Ecosystem, Supply Chain Security, npm, Weak link Signal,
-  ICSE-SEIP, 2022]
-citations: [https://doi.org/10.1145/1273445.1273458, https://doi.org/10.1145/3510457.3513044,
-  https://doi.org/10.1109/ICSE.2009.5070550, https://doi.org/10.1145/2025113.2025119,
-  https://www.csoonline.com/article/3601508/solarwinds-supply-chain-attack-explained-why-organizations-were-not-prepared.html,
-  https://www.perl.com/article/the-hijacking-of-perl-com/, https://doi.org/10.48550/arXiv.2002.01139,
-  https://doi.org/10.1109/ICSE-NIER.2019.00012, https://doi.org/10.1109/ICSE-SEIP52600.2021.00035,
-  https://snyk.io/blog/solarwinds-orion-security-breach-a-shift-in-the-software-supply-chain-paradigm/,
-  https://medium.com/intrinsic-blog/compromised-npm-package-event-stream-d47d08605502,
-  https://github.blog/2020-09-02-secure-your-software-supply-chain-and-protect-against-supply-chain-threats-github-blog/,
-  https://thehackernews.com/2018/04/ccleaner-malware-attack.html, 
-      https://www.idagent.com/blog/2017-08-03-notpetya-threat-supply-chains-across-ukraine/,
-  https://doi.org/10.1145/1653662.1653717, https://snyk.io/open-source-security/,
-  https://doi.org/10.1007/978-3-030-52683-2_2, https://bestpractices.coreinfrastructure.org/en,
-  https://metrics.openssf.org/, https://github.com/ossf/scorecard, https://www.usenix.org/conference/usenixsecurity19/presentation/zimmerman]
+categories: [summary, Software Ecosystem, Supply Chain Security, npm, Weak link Signal, ICSE-SEIP, 2022]
+citations: [https://doi.org/10.1145/1273445.1273458, https://doi.org/10.1145/3510457.3513044, https://doi.org/10.1109/ICSE.2009.5070550, https://doi.org/10.1145/2025113.2025119, https://www.csoonline.com/article/3601508/solarwinds-supply-chain-attack-explained-why-organizations-were-not-prepared.html, https://www.perl.com/article/the-hijacking-of-perl-com/, https://doi.org/10.48550/arXiv.2002.01139, https://doi.org/10.1109/ICSE-NIER.2019.00012, https://doi.org/10.1109/ICSE-SEIP52600.2021.00035, https://snyk.io/blog/solarwinds-orion-security-breach-a-shift-in-the-software-supply-chain-paradigm/, https://medium.com/intrinsic-blog/compromised-npm-package-event-stream-d47d08605502, https://github.blog/2020-09-02-secure-your-software-supply-chain-and-protect-against-supply-chain-threats-github-blog/, https://thehackernews.com/2018/04/ccleaner-malware-attack.html, https://www.idagent.com/blog/2017-08-03-notpetya-threat-supply-chains-across-ukraine/, https://doi.org/10.1145/1653662.1653717, https://snyk.io/open-source-security/, https://doi.org/10.1007/978-3-030-52683-2_2, https://bestpractices.coreinfrastructure.org/en, https://metrics.openssf.org/, https://github.com/ossf/scorecard, https://www.usenix.org/conference/usenixsecurity19/presentation/zimmerman]
 
 draft: false
 
@@ -186,33 +172,32 @@ The following relevant work can be found in the [Citations](#citations) section
 of this article.
 
 - Does distributed development affect software quality? an empirical case study
-  of windows vista \[2\]
+  of windows vista [2]
 - Don’t touch my code! Examining the effects of ownership on software quality
-  \[3\]
-- SolarWinds attack explained: And why it was so hard to detect \[4\]
-- The Hijacking of Perl.com \[5\]
+  [3]
+- SolarWinds attack explained: And why it was so hard to detect [4]
+- The Hijacking of Perl.com [5]
 - Towards Measuring Supply Chain Attacks on Package Managers for Interpreted
-  Languages \[6\]
-- Detecting suspicious package updates \[7\]
+  Languages [6]
+- Detecting suspicious package updates [7]
 - Anomalicious: Automated Detection of Anomalous and Potentially Malicious
-  Commits on GitHub \[8\]
+  Commits on GitHub [8]
 - SolarWinds Orion Security Breach: A Shift In The Software Supply Chain
-  Paradigm \[9\]
-- Compromised npm Package: event-stream \[10\]
+  Paradigm [9]
+- Compromised npm Package: event-stream [10]
 - Secure at every step: What is software supply chain security and why does it
-  matter? \[11\]
-- CCleaner Attack Timeline—Here’s How Hackers Infected 2.3 Million PCs \[12\]
-- The Untold Story of NotPetya, the Most Devastating Cyberattack in History
-  \[13\]
-- Secure open source collaboration: an empirical study of linus’ law \[14\]
-- The State of Open Source Security \[15\]
+  matter? [11]
+- CCleaner Attack Timeline—Here’s How Hackers Infected 2.3 Million PCs [12]
+- The Untold Story of NotPetya, the Most Devastating Cyberattack in History [13]
+- Secure open source collaboration: an empirical study of linus’ law [14]
+- The State of Open Source Security [15]
 - Backstabber’s knife collection: A review of open source software supply chain
-  attacks \[16\]
-- CII Best Practices Badge Program \[17\]
-- Open Source Security Metrics \[18\]
-- Security Scorecards for Open Source Projects \[19\]
+  attacks [16]
+- CII Best Practices Badge Program [17]
+- Open Source Security Metrics [18]
+- Security Scorecards for Open Source Projects [19]
 - Small world with high risks: A study of security threats in the npm ecosystem
-  \[20\]
+  [20]
 
 ### Methodology
 
@@ -309,7 +294,7 @@ ______________________________________________________________________
 > A summary of the paper
 
 The paper, *What are Weak Links in the npm Supply Chain?* by Nursat Zahan et al.
-\[1\] was published in 2022 in the proceedings of the 44th International
+[1] was published in 2022 in the proceedings of the 44th International
 Conference on Software Engineering: Software Engineering in Practice
 (ICSE-SEIP). This paper discusses six potential signals that could identify a
 package as a weak link within the `npm` supply chain. Additionally, the paper
@@ -350,6 +335,6 @@ ______________________________________________________________________
 ## Summarization Technique
 
 This paper was summarized using a modified technique proposed by S. Keshav in
-his work *How to Read a Paper* \[0\].
+his work *How to Read a Paper* [0].
 
 ## Citations

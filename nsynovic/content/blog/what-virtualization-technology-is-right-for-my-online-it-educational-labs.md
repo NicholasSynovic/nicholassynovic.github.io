@@ -1,13 +1,9 @@
 ---
-title: A summary of Which Virtualization Technology is Right for My Online IT Educational
-  Labs? by Wazan et al.
+title: A summary of Which Virtualization Technology is Right for My Online IT Educational Labs? by Wazan et al.
 authors: Wazan et al.
-description: Posted in the 2021 IEEE Global Engineering Education Conference (EDUCON),
-  2021
-summary: Posted in the 2021 IEEE Global Engineering Education Conference (EDUCON),
-  2021
-categories: [summary, paper, Technical requirements, Costing, Operating systems, Conferences,
-  Focusing, Microcomputers, Virtualization]
+description: Posted in the 2021 IEEE Global Engineering Education Conference (EDUCON), 2021
+summary: Posted in the 2021 IEEE Global Engineering Education Conference (EDUCON), 2021
+categories: [summary, paper, Technical requirements, Costing, Operating systems, Conferences, Focusing, Microcomputers, Virtualization]
 citations: [https://doi.org/10.1145/1273445.1273458, https://doi.org/10.1109/EDUCON46332.2021.9454048]
 
 draft: false
@@ -25,7 +21,7 @@ show_reading_time: true
 # A summary of *Which Virtualization Technology is Right for My Online IT Educational Labs?*
 
 > Wazan et al. 2021 IEEE Global Engineering Education Conference (EDUCON), 2021
-> DOI \[1\]
+> DOI [1]
 
 For the summary of the paper, go to the [Summary](#summary) section of this
 article.
@@ -143,6 +139,6 @@ ______________________________________________________________________
 ## Summarization Technique
 
 This paper was summarized using a modified technique proposed by S. Keshav in
-his work *How to Read a Paper* \[0\].
+his work *How to Read a Paper* [0].
 
 ## Citations

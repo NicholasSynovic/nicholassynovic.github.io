@@ -1,6 +1,5 @@
 ---
-title: A summary of The Ten Commandments of Ethical Medical AI by Heimo Muller et
-  al.
+title: A summary of The Ten Commandments of Ethical Medical AI by Heimo Muller et al.
 description: Posted in the IEEE Computing Edge, October 2022
 summary: Posted in the IEEE Computing Edge, October 2022
 
@@ -21,7 +20,7 @@ show_reading_time: true
 
 # A summary of *The Ten Commandments of Ethical Medical AI*
 
-> Heimo Muller et al.; IEEE Computing Edge, October 2022 DOI \[0\]
+> Heimo Muller et al.; IEEE Computing Edge, October 2022 DOI [0]
 
 ## Table of Contents
 
@@ -40,8 +39,8 @@ AI is recognized as a key component of meeting the UN's Sustainable Development
 Goal that:
 
 1. 1 billion more people should benefit from universal health coverage
-2. 1 billion more people should be better protected from health emergencies
-3. 1 billion more people should enjoy better health and well-being
+1. 1 billion more people should be better protected from health emergencies
+1. 1 billion more people should enjoy better health and well-being
 
 AI is accelerating the growth of precision medicine and is generally well
 received by both engineers and medical practitioners.
@@ -65,25 +64,25 @@ Thus there exists questions as these standards becomes mandatory such as:
 
 ### The Ten Commandments
 
-01. It must be recognizable that and which part of a decision or action is taken
-    and carried out by AI.
-02. It must be recognizable which part of the communication is performed by an
-    AI agent.
-03. The responsibility for an AI decision, action, or communicative process must
-    be taken by a competent physical or legal person.
-04. AI decisions, actions, and communicative processes must be transparent and
-    explainable.
-05. An AI decision must be comprehensible and repeatable.
-06. An explanation of an AI decision must be based on state-of-the-art
-    (scientific) theories.
-07. An AI decision, action, or communication must not be manipulative by
-    pretending accuracy.
-08. An AI decision, action, or communication must not violate any applicable law
-    and must not lead to human harm.
-09. An AI decision, action, or communication shall not be discriminatory. This
-    applies in particular to the training of algorithms.
-10. The target setting, control, and monitoring of AI decisions, actions, and
-    communications shall not be performed by algorithms.
+1. It must be recognizable that and which part of a decision or action is taken
+   and carried out by AI.
+1. It must be recognizable which part of the communication is performed by an AI
+   agent.
+1. The responsibility for an AI decision, action, or communicative process must
+   be taken by a competent physical or legal person.
+1. AI decisions, actions, and communicative processes must be transparent and
+   explainable.
+1. An AI decision must be comprehensible and repeatable.
+1. An explanation of an AI decision must be based on state-of-the-art
+   (scientific) theories.
+1. An AI decision, action, or communication must not be manipulative by
+   pretending accuracy.
+1. An AI decision, action, or communication must not violate any applicable law
+   and must not lead to human harm.
+1. An AI decision, action, or communication shall not be discriminatory. This
+   applies in particular to the training of algorithms.
+1. The target setting, control, and monitoring of AI decisions, actions, and
+   communications shall not be performed by algorithms.
 
 ______________________________________________________________________
 

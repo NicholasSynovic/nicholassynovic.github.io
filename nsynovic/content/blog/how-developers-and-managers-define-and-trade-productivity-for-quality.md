@@ -1,15 +1,10 @@
 ---
-title: A summary of How Developers and Managers Define and Trade Productivity for
-  Quality by Margaret-Anne Storey et al.
+title: A summary of How Developers and Managers Define and Trade Productivity for Quality by Margaret-Anne Storey et al.
 description: Published in the proceeding of the 2022 CHASE confrence
 summary: Published in the proceeding of the 2022 CHASE confrence
 
 categories: [summary, Software, software engineering, Software creation, management]
-citations: [https://doi.org/10.1145/1273445.1273458, https://doi.org/10.1145/3528579.3529177,
-  https://doi.org/10.1145/3454122.3454124, https://doi.org/10.1109/TSE.2018.2842201,
-  https://doi.org/10.1007/978-1-4842-4221-6_3, 
-      https://www.microsoft.com/en-us/research/publication/appendix-to-productivity-quality-alignment,
-  https://doi.org/10.1109/TSE.2019.2944354]
+citations: [https://doi.org/10.1145/1273445.1273458, https://doi.org/10.1145/3528579.3529177, https://doi.org/10.1145/3454122.3454124, https://doi.org/10.1109/TSE.2018.2842201, https://doi.org/10.1007/978-1-4842-4221-6_3, https://www.microsoft.com/en-us/research/publication/appendix-to-productivity-quality-alignment, https://doi.org/10.1109/TSE.2019.2944354]
 
 draft: false
 
@@ -147,15 +142,15 @@ The following relevant work can be found in the [Citations](#citations) section
 of this article.
 
 - [The SPACE of Developer Productivity: There’s More to It than You Think](https://doi.org/10.1145/3454122.3454124)
-  \[2\]
+  [2]
 - [Motivation and satisfaction of software engineers](https://doi.org/10.1109/TSE.2018.2842201)
-  \[3\]
+  [3]
 - [Why We Should Not Measure Productivity](https://doi.org/10.1007/978-1-4842-4221-6_3)
-  \[4\]
+  [4]
 - [Appendix to How Developers and Managers Define and Trade Off Productivity and Quality](https://www.microsoft.com/en-us/research/publication/appendix-to-productivity-quality-alignment)
-  \[5\]
+  [5]
 - [Towards a Theory of Software Developer Job Satisfaction and Perceived Productivity](https://doi.org/10.1109/TSE.2019.2944354)
-  \[6\]
+  [6]
 
 ### Methodology
 
@@ -228,12 +223,12 @@ ______________________________________________________________________
 > A summary of the paper
 
 The paper *How Developers and Managers Define and Trade Productivity for
-Quality* by Margaret-Anne Storey et al. \[1\] presents the results of a survey
+Quality* by Margaret-Anne Storey et al. [1] presents the results of a survey
 conducted on 131 Microsoft developers and 34 managers about what they consider
 to be productive work, quality work, what the other cohort defines each topic,
 and if they have ever made explicit trade offs between productivity and quality.
 The authors took the responses and codified them using the SPACE framework that
-they proposed in an earlier paper \[2\].
+they proposed in an earlier paper [2].
 
 They found that developers tend to define productive work as activities (number
 of tasks completed or iterations; 50%), efficiency and flow (entering a flow
@@ -262,6 +257,6 @@ ______________________________________________________________________
 ## Summarization Technique
 
 This paper was summarized using a modified technique proposed by S. Keshav in
-his work *How to Read a Paper* \[0\].
+his work *How to Read a Paper* [0].
 
 ## Citations

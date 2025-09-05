@@ -1,6 +1,5 @@
 ---
-title: 'A summary of img2pose: Face Alignment and Detection via 6DoF, Face Pose Estimation
-  by Vitor Albiero et al.'
+title: 'A summary of img2pose: Face Alignment and Detection via 6DoF, Face Pose Estimation by Vitor Albiero et al.'
 description: Posted in CVPR, 2021
 summary: Posted in CVPR, 2021
 
@@ -140,6 +139,6 @@ ______________________________________________________________________
 ## Summarization Technique
 
 This paper was summarized using a modified technique proposed by S. Keshav in
-his work *How to Read a Paper* \[0\].
+his work *How to Read a Paper* [0].
 
 ## Citations

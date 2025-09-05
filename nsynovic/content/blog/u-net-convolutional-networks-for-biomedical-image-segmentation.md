@@ -1,6 +1,5 @@
 ---
-title: 'A summary of  U-Net: Convolutional Networks for Biomedical Image Segmentation
-  by Olaf Ronneberger et al.'
+title: 'A summary of  U-Net: Convolutional Networks for Biomedical Image Segmentation by Olaf Ronneberger et al.'
 description: Posted in arXiv, 2015
 summary: Posted in arXiv, 2015
 
@@ -182,7 +181,7 @@ ______________________________________________________________________
 > A summary of the paper
 
 The paper *U-Net: Convolutional Networks for Biomedical Image Segmentation* by
-Olaf Ronneberger et al. \[1\] which describes a model architecture and training
+Olaf Ronneberger et al. [1] which describes a model architecture and training
 details for semantic segmentation. The model architecture is known as a U-Net. A
 U-Net is composed of two halves. The first half is a standard convolutional
 network that encodes the feature map; the second half up-samples and decodes the
@@ -196,6 +195,6 @@ ______________________________________________________________________
 ## Summarization Technique
 
 This paper was summarized using a modified technique proposed by S. Keshav in
-his work *How to Read a Paper* \[0\].
+his work *How to Read a Paper* [0].
 
 ## Citations

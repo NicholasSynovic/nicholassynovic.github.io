@@ -1,6 +1,5 @@
 ---
-title: 'A summary of Internet of Video Things in 2030: A World with Many Cameras by
-  Anup Mohan et al.'
+title: 'A summary of Internet of Video Things in 2030: A World with Many Cameras by Anup Mohan et al.'
 description: Posted in ISCAS, 2017
 summary: Posted in ISCAS, 2017
 
@@ -21,7 +20,7 @@ show_reading_time: true
 
 # A summary of *Internet of Video Things in 2030: A World with Many Cameras*
 
-> Anup Mohan et al. ISCAS, 2017 DOI \[0\]
+> Anup Mohan et al. ISCAS, 2017 DOI [0]
 
 **DISCLOSURE**: I work with one of the authors (Yung-Hsiang Lu). My comments and
 views of the paper may be skewed due to my relationship with the author.
@@ -175,6 +174,6 @@ ______________________________________________________________________
 ## Summarization Technique
 
 This paper was summarized using a modified technique proposed by S. Keshav in
-his work *How to Read a Paper* \[0\].
+his work *How to Read a Paper* [0].
 
 ## Citations

@@ -1,20 +1,10 @@
 ---
-title: A summary of Large-Scale Image Retrieval with Attentive Deep Local Features
-  by Hyeonwoo Noh et al.
+title: A summary of Large-Scale Image Retrieval with Attentive Deep Local Features by Hyeonwoo Noh et al.
 description: Posted in ICCV 2017
 summary: Posted in ICCV 2017
 
-categories: [summary, landmark image dataset, attention mechanism, network layers,
-  keypoint detectors, geometric verification, large-scale dataset, Google-Landmarks
-      dataset, variable scales, global descriptors, local descriptors, large-scale
-      image retrieval, attentive local feature descriptor, convolutional neural networks,
-  image-level annotations, attentive deep local features, feature matching, DELE]
-citations: [https://doi.org/10.1145/1273445.1273458, https://doi.org/10.1109/ICCV.2017.374,
-  https://doi.org/10.1007/978-3-319-46466-4_15, https://doi.org/10.1007/978-3-319-46448-0_1,
-  https://patents.google.com/patent/US8098938B1/en, https://arxiv.org/abs/0804.4457,
-  https://doi.org/10.1007/978-3-319-46466-4_28, 
-      https://openaccess.thecvf.com/content_cvpr_2016/html/Arandjelovic_NetVLAD_CNN_Architecture_CVPR_2016_paper.html,
-  https://doi.org/10.1109/CVPR.2010.5540039, https://doi.org/10.1109/TPAMI.2011.235]
+categories: [summary, landmark image dataset, attention mechanism, network layers, keypoint detectors, geometric verification, large-scale dataset, Google-Landmarks dataset, variable scales, global descriptors, local descriptors, large-scale image retrieval, attentive local feature descriptor, convolutional neural networks, image-level annotations, attentive deep local features, feature matching, DELE]
+citations: [https://doi.org/10.1145/1273445.1273458, https://doi.org/10.1109/ICCV.2017.374, https://doi.org/10.1007/978-3-319-46466-4_15, https://doi.org/10.1007/978-3-319-46448-0_1, https://patents.google.com/patent/US8098938B1/en, https://arxiv.org/abs/0804.4457, https://doi.org/10.1007/978-3-319-46466-4_28, https://openaccess.thecvf.com/content_cvpr_2016/html/Arandjelovic_NetVLAD_CNN_Architecture_CVPR_2016_paper.html, https://doi.org/10.1109/CVPR.2010.5540039, https://doi.org/10.1109/TPAMI.2011.235]
 
 draft: false
 
@@ -141,21 +131,21 @@ of this article.
 
 2. A. Gordo, J. Almazan, J. Revaud, and D. Larlus. Deep Image Retrieval:
    Learning Global Representations for Image Search. In Proc. ECCV, 2016.
-3. F. Radenovi ́ c, G. Tolias, and O. Chum. CNN Image Retrieval Learns from BoW:
+1. F. Radenovi ́ c, G. Tolias, and O. Chum. CNN Image Retrieval Learns from BoW:
    Unsupervised Fine-Tuning with Hard Examples. In Proc. ECCV, 2016.
-4. U. Buddemeier and H. Neven. Systems and Methods for Descriptor Vector
+1. U. Buddemeier and H. Neven. Systems and Methods for Descriptor Vector
    Computation, 2012. US Patent 8,098,938.
-5. H. Neven, G. Rose, and W. G. Macready. Image Recognition with an Adiabatic
+1. H. Neven, G. Rose, and W. G. Macready. Image Recognition with an Adiabatic
    Quantum Computer I. Mapping to Quadratic Unconstrained Binary Optimization.
    arXiv:0804.4457, 2008.
-6. K. M. Yi, E. Trulls, V. Lepetit, and P. Fua. LIFT: Learned Invariant Feature
+1. K. M. Yi, E. Trulls, V. Lepetit, and P. Fua. LIFT: Learned Invariant Feature
    Transform. In Proc. ECCV, 2016.
-7. R. Arandjelovi ́ c, P. Gronat, A. Torii, T. Pajdla, and J. Sivic. NetVLAD:
+1. R. Arandjelovi ́ c, P. Gronat, A. Torii, T. Pajdla, and J. Sivic. NetVLAD:
    CNN Architecture for Weakly Supervised Place Recognition. In Proc. CVPR,
    2016\.
-8. H. J ́ egou, M. Douze, C. Schmidt, and P. Perez. Aggregating Local
+1. H. J ́ egou, M. Douze, C. Schmidt, and P. Perez. Aggregating Local
    Descriptors into a Compact Image Representation. In Proc. CVPR, 2010.
-9. H. J ́ egou, F. Perronnin, M. Douze, J. Sanchez, P. Perez, and C. Schmid.
+1. H. J ́ egou, F. Perronnin, M. Douze, J. Sanchez, P. Perez, and C. Schmid.
    Aggregating Local Image Descriptors into Compact Codes. IEEE Transactions on
    Pattern Analysis and Machine Intelligence, 34(9), 2012.
 
@@ -164,9 +154,9 @@ of this article.
 > What methodology did the author's use to validate their contributions?
 
 The authors compared variations of DELF against SOTA image retrieval techniques
-including CONGAS \[4, 5\], DIR \[2\], siaMAC \[3\] and LIFT \[6\] and graphed
-precision vs recall on the Google Landmarks dataset and the accuracy of the same
-methods on smaller datasets.
+including CONGAS [4, 5], DIR [2], siaMAC [3] and LIFT [6] and graphed precision
+vs recall on the Google Landmarks dataset and the accuracy of the same methods
+on smaller datasets.
 
 ### Author Assumptions
 
@@ -223,15 +213,15 @@ SOTA performance based off of ResNet-50 (DELF), and an image retrieval dataset
 (Google Landmarks) to create similar models. DELF aims to work as an image
 feature descriptor that is robust to occulusion and background clutter. DELF
 achieves SOTA performance on the Google Landmarks dataset compared against
-previous SOTA methods including CONGAS \[4, 5\], DIR \[2\], siaMAC \[3\] and
-LIFT \[6\]. Additionally, DELF is more accurate the aforementioned methods on
-smaller, traditional datasets.
+previous SOTA methods including CONGAS [4, 5], DIR [2], siaMAC [3] and LIFT [6].
+Additionally, DELF is more accurate the aforementioned methods on smaller,
+traditional datasets.
 
 ______________________________________________________________________
 
 ## Summarization Technique
 
 This paper was summarized using a modified technique proposed by S. Keshav in
-his work *How to Read a Paper* \[0\].
+his work *How to Read a Paper* [0].
 
 ## Citations

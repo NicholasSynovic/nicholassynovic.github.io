@@ -1,14 +1,10 @@
 ---
 title: A summary of Fast R-CNN by Ross Girshick
-description: Posted in the Proceedings of the IEEE International Conference on Computer
-  Vision, 2015
-summary: Posted in the Proceedings of the IEEE International Conference on Computer
-  Vision, 2015
+description: Posted in the Proceedings of the IEEE International Conference on Computer Vision, 2015
+summary: Posted in the Proceedings of the IEEE International Conference on Computer Vision, 2015
 
-categories: [summary, Training, Proposals, Feature extraction, Object detection, Pipelines,
-  Computer architecture, Open source software, 2015, CVPR]
-citations: [https://doi.org/10.1145/1273445.1273458, 
-      https://openaccess.thecvf.com/content_iccv_2015/html/Girshick_Fast_R-CNN_ICCV_2015_paper.html]
+categories: [summary, Training, Proposals, Feature extraction, Object detection, Pipelines, Computer architecture, Open source software, 2015, CVPR]
+citations: [https://doi.org/10.1145/1273445.1273458, https://openaccess.thecvf.com/content_iccv_2015/html/Girshick_Fast_R-CNN_ICCV_2015_paper.html]
 
 draft: false
 
@@ -193,7 +189,7 @@ ______________________________________________________________________
 
 > A summary of the paper
 
-The paper *Fast R-CNN* by Ross Girshick \[1\] proposes a new method to perform
+The paper *Fast R-CNN* by Ross Girshick [1] proposes a new method to perform
 region proposal CNN tasks that is significantly faster than the previously
 proposed method. To do so, both the region proposals and the image itself are
 passed into the CNN layer for analysis. Additionally, many layers of the
@@ -208,6 +204,6 @@ ______________________________________________________________________
 ## Summarization Technique
 
 This paper was summarized using a modified technique proposed by S. Keshav in
-his work *How to Read a Paper* \[0\].
+his work *How to Read a Paper* [0].
 
 ## Citations

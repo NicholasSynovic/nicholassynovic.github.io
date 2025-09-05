@@ -1,15 +1,10 @@
 ---
 title: A summary of How to Read a Paper by S. Keshav
-description: Published in the 37th volume, issue 3 of the ACM SIGCOMM Computer Communication
-  Review in 2007
-summary: Published in the 37th volume, issue 3 of the ACM SIGCOMM Computer Communication
-  Review in 2007
+description: Published in the 37th volume, issue 3 of the ACM SIGCOMM Computer Communication Review in 2007
+summary: Published in the 37th volume, issue 3 of the ACM SIGCOMM Computer Communication Review in 2007
 
-categories: [summary, meta, ACM, ACM SIGCOMM, SIGCOMM, 2007, ACM SIGCOMM Computer
-      Communication Review]
-citations: [https://doi.org/10.1145/1273445.1273458, https://simon.peytonjones.org/great-research-talk/,
-  http://people.inf.ethz.ch/troscoe/pubs/reviewwriting.pdf, http://www.cs.columbia.edu/hgs/etc/writingstyle.html,
-  http://www.che.iitm.ac.in/misc/dd/writepaper.pdf]
+categories: [summary, meta, ACM, ACM SIGCOMM, SIGCOMM, 2007, ACM SIGCOMM Computer Communication Review]
+citations: [https://doi.org/10.1145/1273445.1273458, https://simon.peytonjones.org/great-research-talk/, http://people.inf.ethz.ch/troscoe/pubs/reviewwriting.pdf, http://www.cs.columbia.edu/hgs/etc/writingstyle.html, http://www.che.iitm.ac.in/misc/dd/writepaper.pdf]
 
 draft: false
 
@@ -126,7 +121,7 @@ There are no illustrations to discuss in this paper.
 The following relevant work can be found in the [Citations](#citations) section
 of this article.
 
-- \[1\], \[2\], \[3\], and \[4\]
+- [1], [2], [3], and [4]
 
 ### Author Assumptions
 
@@ -175,10 +170,10 @@ literature review in a new field. This three step process involves a:
 
 1. Bird's Eye View of the paper where only the Title, Abstract, Introduction,
    Conclusion, and section and sub-section headings are read first,
-2. A deeper analysis of figures and content of the paper which involves finding
+1. A deeper analysis of figures and content of the paper which involves finding
    new, unread references to the reader and evaluating the quality of
    illustrations to determine the quality of the paper,
-3. A virtual reimplementation of the paper where every claim of the paper is
+1. A virtual reimplementation of the paper where every claim of the paper is
    analyzed and critiqued; typically this done by reviewers or those that are
    doing a deeper analysis of the work.
 
@@ -212,6 +207,6 @@ ______________________________________________________________________
 ## Summarization Technique
 
 This paper was summarized using a modified technique proposed by S. Keshav in
-his work *How to Read a Paper* \[0\].
+his work *How to Read a Paper* [0].
 
 ## Citations

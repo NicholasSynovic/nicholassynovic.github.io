@@ -1,12 +1,10 @@
 ---
-title: A summary of Challenges and Opportunities for Autonomous Micro-UAVs in Precision
-  Agriculture by Xu Liu et al.
+title: A summary of Challenges and Opportunities for Autonomous Micro-UAVs in Precision Agriculture by Xu Liu et al.
 description: Posted in IEEE Computing Edge, December 2022
 summary: Posted in IEEE Computing Edge, December 2022
 
 categories: [summary, magazine, article, expert opinion]
-citations: [https://doi.org/10.1109/MM.2021.3134744, https://doi.org/10.1109/ICRA.2018.8463214,
-  https://doi.org/10.1002/rob.21950, https://doi.org/10.1177/0278364920929398, https://doi.org/10.1109/TPAMI.2020.3005434]
+citations: [https://doi.org/10.1109/MM.2021.3134744, https://doi.org/10.1109/ICRA.2018.8463214, https://doi.org/10.1002/rob.21950, https://doi.org/10.1177/0278364920929398, https://doi.org/10.1109/TPAMI.2020.3005434]
 
 draft: false
 
@@ -22,7 +20,7 @@ show_reading_time: true
 
 # A summary of *Challenges and Opportunities for Autonomous Micro-UAVs in Precision Agriculture*
 
-> Xu Liu et al. IEEE Computing Edge, December 2022 DOI \[0\]
+> Xu Liu et al. IEEE Computing Edge, December 2022 DOI [0]
 
 ## Table of Contents
 
@@ -89,12 +87,12 @@ These include:
   estimation, a 2-D light detection and ranging (LiDAR) mounted on a nodding
   gimbal was used for mapping and obstacle avoidance, and a search-based motion
   planner was used for motion primitives plans collision-free and dynamically
-  feasible trajectories," \[1\]
+  feasible trajectories," [1]
 - A vision based solution that can navigate in both structured and moderately
-  unstructured environments (i.e., a collapsed building) \[2\]
+  unstructured environments (i.e., a collapsed building) [2]
 - A system of using many UAVs that work together and coordinate through a
   simultaneous localization and mapping (SLAM) scheme with loop closure that
-  utilized trees as landmarks was tested \[3\], but could fail when operating
+  utilized trees as landmarks was tested [3], but could fail when operating
   within a dense forest
 
 A limitation with all of these systems so far is that they are unable to work in
@@ -159,7 +157,7 @@ grid, point clouds, and multi-view and/or spherical images. It has been found
 that voxel grid based convolutional neural networks (CNNs) are susceptible to
 noise, whereas point clouds are not as affected. It is possible to join LiDAR
 point cloud data and a spherical range image together and pass the union of this
-data into a CNN to reduce information loss \[4\].
+data into a CNN to reduce information loss [4].
 
 #### Challenges
 

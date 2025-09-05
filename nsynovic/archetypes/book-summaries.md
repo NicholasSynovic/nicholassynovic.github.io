@@ -3,12 +3,12 @@ title: A summary of CHANGE ME by AUTHOR
 description: Authored by AUTHOR
 summary: Authored by AUTHOR
 
-categories: [summary, book,]
+categories: [summary, book]
 citations: []
 
 draft: false
 
-date: {{ .Date }}
+date: {{.Date: null}: null}
 featured_image: ''
 include_toc: true
 markup: md
@@ -30,7 +30,7 @@ show_reading_time: true
     - [Chapter 1](#chapter-1)
   - [Citations](#citations)
 
----
+______________________________________________________________________
 
 ## Chapter Summaries
 
@@ -38,6 +38,6 @@ show_reading_time: true
 
 ### Chapter 1
 
----
+______________________________________________________________________
 
 ## Citations

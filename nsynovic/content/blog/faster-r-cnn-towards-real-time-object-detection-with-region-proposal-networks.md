@@ -1,14 +1,10 @@
 ---
-title: 'A summary of Faster R-CNN: Towards Real-Time Object Detection with Region
-  Proposal Networks by Shaoqing Ren et al.'
-description: Posted in the IEEE Transactions on Patterns Analysis and Machine Intelligence,
-  2017
-summary: Posted in the IEEE Transactions on Patterns Analysis and Machine Intelligence,
-  2017
+title: 'A summary of Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks by Shaoqing Ren et al.'
+description: Posted in the IEEE Transactions on Patterns Analysis and Machine Intelligence, 2017
+summary: Posted in the IEEE Transactions on Patterns Analysis and Machine Intelligence, 2017
 
 categories: [summary]
-citations: [https://doi.org/10.1145/1273445.1273458, https://doi.org/10.1109/TPAMI.2016.2577031,
-  https://doi.org/10.1007/s11263-013-0620-5]
+citations: [https://doi.org/10.1145/1273445.1273458, https://doi.org/10.1109/TPAMI.2016.2577031, https://doi.org/10.1007/s11263-013-0620-5]
 
 draft: false
 
@@ -202,7 +198,7 @@ ______________________________________________________________________
 > A summary of the paper
 
 The paper, *Faster R-CNN: Towards Real-Time Object Detection with Region
-Proposal Networks* by Shaoqing Ren et al. \[1\] introduces the Region Proposal
+Proposal Networks* by Shaoqing Ren et al. [1] introduces the Region Proposal
 Network (RPN) architecture for finding image region proposals for the purposes
 of object detection, specifically with the [Fast R-CNN](fast-r-cnn.md) method.
 RPNs are a convolutional neural network (CNN) that learns region proposals end
@@ -213,12 +209,12 @@ To do so:
 
 1. An RPN is trained having the same number of convolutional layers as the
    target model on the same dataset.
-2. A CNN using Fast R-CNN is trained on object detection using the regions
+1. A CNN using Fast R-CNN is trained on object detection using the regions
    proposed from the RPN.
-3. The detection network initializes the RPN network, but the RPN's
+1. The detection network initializes the RPN network, but the RPN's
    convolutional layers are fixed. This then only trains the RPN's unique
    layers.
-4. The detection network fixes its CNN layers, and fine tunes its unique layers.
+1. The detection network fixes its CNN layers, and fine tunes its unique layers.
 
 By doing this, both the RPN and the Object Detection network now share the same
 convolutional layers. This forms a unified network that allows for more accurate
@@ -229,6 +225,6 @@ ______________________________________________________________________
 ## Summarization Technique
 
 This paper was summarized using a modified technique proposed by S. Keshav in
-his work *How to Read a Paper* \[0\].
+his work *How to Read a Paper* [0].
 
 ## Citations

@@ -4,9 +4,7 @@ description: Posted in arXiv, 2018
 summary: Posted in arXiv, 2018
 
 categories: [summary, arXiv, 2018]
-citations: [https://doi.org/10.1145/1273445.1273458, http://arxiv.org/abs/1708.02002,
-  http://dx.doi.org/10.5244/C.23.91, https://doi.org/10.1109/CVPR.2010.5539906, https://doi.org/10.1007/978-0-387-21606-5,
-  https://doi.org/10.1007/978-3-319-46448-0_2]
+citations: [https://doi.org/10.1145/1273445.1273458, http://arxiv.org/abs/1708.02002, http://dx.doi.org/10.5244/C.23.91, https://doi.org/10.1109/CVPR.2010.5539906, https://doi.org/10.1007/978-0-387-21606-5, https://doi.org/10.1007/978-3-319-46448-0_2]
 
 draft: false
 
@@ -134,11 +132,11 @@ of this article.
 
 2. P. Doll ́ ar, Z. Tu, P. Perona, and S. Belongie. Integral channel features.
    In BMVC, 2009.
-3. P. F. Felzenszwalb, R. B. Girshick, and D. McAllester. Cascade object
+1. P. F. Felzenszwalb, R. B. Girshick, and D. McAllester. Cascade object
    detection with deformable part models. In CVPR, 2010.
-4. T. Hastie, R. Tibshirani, and J. Friedman. The elements of statistical
+1. T. Hastie, R. Tibshirani, and J. Friedman. The elements of statistical
    learning. Springer series in statistics Springer, Berlin, 2008.
-5. W. Liu, D. Anguelov, D. Erhan, C. Szegedy, and S. Reed. SSD: Single shot
+1. W. Liu, D. Anguelov, D. Erhan, C. Szegedy, and S. Reed. SSD: Single shot
    multibox detector. In ECCV, 2016.
 
 ### Methodology
@@ -193,7 +191,7 @@ ______________________________________________________________________
 
 > A summary of the paper
 
-The paper *Focal Loss for Dense Object Detection* by Tsung-Yi Lin et al. \[1\]
+The paper *Focal Loss for Dense Object Detection* by Tsung-Yi Lin et al. [1]
 describes a new loss function aimed at improving the performance of one shot
 object detection models that rely on region proposals. The problem that one shot
 object detection models face compared against traditional two stage models that
@@ -214,6 +212,6 @@ ______________________________________________________________________
 ## Summarization Technique
 
 This paper was summarized using a modified technique proposed by S. Keshav in
-his work *How to Read a Paper* \[0\].
+his work *How to Read a Paper* [0].
 
 ## Citations

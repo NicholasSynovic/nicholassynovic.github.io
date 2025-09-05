@@ -20,7 +20,7 @@ show_reading_time: true
 
 # A summary of *Interactive Supercomputing With Jupyter*
 
-> Rollin Thomas et al.; IEEE Computing Edge, October 2022 DOI \[0\]
+> Rollin Thomas et al.; IEEE Computing Edge, October 2022 DOI [0]
 
 ## Table of Contents
 

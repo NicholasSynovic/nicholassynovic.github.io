@@ -1,13 +1,10 @@
 ---
-title: 'A summary of Multimedia Content Creation using Global Network Cameras: The
-  Making of CAM2 by Ahmed S. Kaseb et al.'
+title: 'A summary of Multimedia Content Creation using Global Network Cameras: The Making of CAM2 by Ahmed S. Kaseb et al.'
 description: Posted in GlobalSIP, 2015
 summary: Posted in GlobalSIP, 2015
 
-categories: [summary, paper, Cameras, Cloud computing, Streaming media, Multimedia
-      communication, Mobile communication, Navigation]
-citations: [https://doi.org/10.1145/1273445.1273458, https://doi.org/10.1109/GlobalSIP.2015.7416927,
-  https://doi.org/10.1109/SSIAI.2014.6806032, https://doi.org/10.1145/1971162.1971171]
+categories: [summary, paper, Cameras, Cloud computing, Streaming media, Multimedia communication, Mobile communication, Navigation]
+citations: [https://doi.org/10.1145/1273445.1273458, https://doi.org/10.1109/GlobalSIP.2015.7416927, https://doi.org/10.1109/SSIAI.2014.6806032, https://doi.org/10.1145/1971162.1971171]
 
 draft: false
 
@@ -23,7 +20,7 @@ show_reading_time: true
 
 # A summary of *Multimedia Content Creation using Global Network Cameras: The Making of CAM2*
 
-> Ahmed S. Kaseb et al. GlobalSIS, 2015 DOI \[0\]
+> Ahmed S. Kaseb et al. GlobalSIS, 2015 DOI [0]
 
 **DISCLOSURE**: I work with one of the authors (Yung-Hsiang Lu). My comments and
 views of the paper may be skewed due to my relationship with the author.
@@ -152,8 +149,8 @@ Yes, the paper is well written.
 The following relevant work can be found in the [Citations](#citations) section
 of this article.
 
-- Image-Based Geographical Location Estimation Using Web Cameras \[2\]
-- IP Geolocation Databases: Unreliable? \[3\]
+- Image-Based Geographical Location Estimation Using Web Cameras [2]
+- IP Geolocation Databases: Unreliable? [3]
 
 ### Methodology
 
@@ -206,6 +203,6 @@ ______________________________________________________________________
 ## Summarization Technique
 
 This paper was summarized using a modified technique proposed by S. Keshav in
-his work *How to Read a Paper* \[0\].
+his work *How to Read a Paper* [0].
 
 ## Citations

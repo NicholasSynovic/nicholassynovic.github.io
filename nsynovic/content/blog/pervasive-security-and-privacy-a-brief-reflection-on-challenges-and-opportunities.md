@@ -1,6 +1,5 @@
 ---
-title: A summary of Pervasive Security and Privacy by - A Brief Reflection on Challenges
-  and Opportunities by Florian Alt
+title: A summary of Pervasive Security and Privacy by - A Brief Reflection on Challenges and Opportunities by Florian Alt
 description: Posted in IEEE Computing Edge, December 2022
 summary: Posted in IEEE Computing Edge, December 2022
 
@@ -21,7 +20,7 @@ show_reading_time: true
 
 # A summary of *Pervasive Security and Privacy by - A Brief Reflection on Challenges and Opportunities*
 
-> Florian Alt IEEE Computing Edge, December 2022 DOI \[0\]
+> Florian Alt IEEE Computing Edge, December 2022 DOI [0]
 
 ## Table of Contents
 

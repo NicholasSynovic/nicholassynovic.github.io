@@ -1,6 +1,5 @@
 ---
-title: A summary of Hidden Potential Within Video Game Consoles by Michael Mattioli
-  et al.
+title: A summary of Hidden Potential Within Video Game Consoles by Michael Mattioli et al.
 description: Posted in the IEEE Computing Edge, October 2022
 summary: Posted in the IEEE Computing Edge, October 2022
 
@@ -21,7 +20,7 @@ show_reading_time: true
 
 # A summary of *Hidden Potential Within Video Game Consoles*
 
-> Michael Mattioli et al.; IEEE Computing Edge, October 2022 DOI \[0\]
+> Michael Mattioli et al.; IEEE Computing Edge, October 2022 DOI [0]
 
 ## Table of Contents
 

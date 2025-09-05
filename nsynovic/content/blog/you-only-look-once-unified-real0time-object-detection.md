@@ -1,6 +1,5 @@
 ---
-title: 'A summary of You Only Look Once: Unified, Real-Time Object Detection by Joseph
-  Redmon et al.'
+title: 'A summary of You Only Look Once: Unified, Real-Time Object Detection by Joseph Redmon et al.'
 description: Posted in the CVPR, 2016
 summary: Posted in CVPR, 2016
 
@@ -179,18 +178,18 @@ ______________________________________________________________________
 > A summary of the paper
 
 The paper *You Only Look Once: Unified, Real-Time Object Detection* by Joseph
-Redmon et al. \[1\] describes an object detection strategy that aims to
-outperform previous methods **in terms of infrence speed measured in FPS** by
-creating a unified model that can perform region proposals and class probability
-mapping to a source image in parallel. This model is called YOLO.
+Redmon et al. [1] describes an object detection strategy that aims to outperform
+previous methods **in terms of infrence speed measured in FPS** by creating a
+unified model that can perform region proposals and class probability mapping to
+a source image in parallel. This model is called YOLO.
 
 The authors of this paepr were able to accomplis this by using the following
 technique:
 
 1. Divide the source image into many sub-sections.
-2. In parallel, compute the regions of interest as well as the class probability
+1. In parallel, compute the regions of interest as well as the class probability
    mapping for each sub-section.
-3. Predict the class label and bounding boxes at the final layer by analyzing
+1. Predict the class label and bounding boxes at the final layer by analyzing
    the overlap between the class probability mapping and regions of interest.
 
 Their methodology was implemented using the VGG architecture + extra layers to
@@ -201,6 +200,6 @@ ______________________________________________________________________
 ## Summarization Technique
 
 This paper was summarized using a modified technique proposed by S. Keshav in
-his work *How to Read a Paper* \[0\].
+his work *How to Read a Paper* [0].
 
 ## Citations

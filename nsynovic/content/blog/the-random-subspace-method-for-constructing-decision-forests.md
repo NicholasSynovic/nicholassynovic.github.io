@@ -1,17 +1,10 @@
 ---
-title: A summary of The Random Subspace Method for Constructing Decision Forests by
-  Tin Kam Ho
-description: Posted in the IEEE TRANSACTIONS ON PATTERN ANALYSIS AND MACHINE INTELLIGENCE,
-  1998
-summary: Posted in the IEEE TRANSACTIONS ON PATTERN ANALYSIS AND MACHINE INTELLIGENCE,
-  1998
+title: A summary of The Random Subspace Method for Constructing Decision Forests by Tin Kam Ho
+description: Posted in the IEEE TRANSACTIONS ON PATTERN ANALYSIS AND MACHINE INTELLIGENCE, 1998
+summary: Posted in the IEEE TRANSACTIONS ON PATTERN ANALYSIS AND MACHINE INTELLIGENCE, 1998
 
-categories: [summary, 1998, Pattern recognition, decision tree, decision forest, stochastic
-      discrimination, decision combination, classifier combination, multiple-classifier
-      system, bootstrapping]
-citations: [https://doi.org/10.1145/1273445.1273458, https://doi.org/10.1109/34.709601,
-  https://doi.org/10.1109/34.632990, https://doi.org/10.1002/widm.8, https://doi.org/10.1613/jair.63,
-  https://doi.org/10.1109/ICDAR.1995.598994, https://doi.org/10.1109/ICPR.1998.711201]
+categories: [summary, 1998, Pattern recognition, decision tree, decision forest, stochastic discrimination, decision combination, classifier combination, multiple-classifier system, bootstrapping]
+citations: [https://doi.org/10.1145/1273445.1273458, https://doi.org/10.1109/34.709601, https://doi.org/10.1109/34.632990, https://doi.org/10.1002/widm.8, https://doi.org/10.1613/jair.63, https://doi.org/10.1109/ICDAR.1995.598994, https://doi.org/10.1109/ICPR.1998.711201]
 
 draft: false
 
@@ -144,14 +137,14 @@ of this article.
 2. Y. Amit, D. Geman, and K. Wilder, “*Joint Induction of Shape Features and
    Tree Classifiers*,” IEEE Trans. Pattern Analysis and Machine Intelligence,
    vol. 19, no. 11, pp. 1,300-1,305, Nov. 1997
-3. L. Breiman, J.H. Friedman, R.A. Olshen, and C.J. Stone, *Classification and
+1. L. Breiman, J.H. Friedman, R.A. Olshen, and C.J. Stone, *Classification and
    Regression Trees*. Belmont, Calif.: Wadsworth, 1984
-4. D. Heath, S. Kasif, and S. Salzberg, “*Induction of Oblique Decision Trees*,”
+1. D. Heath, S. Kasif, and S. Salzberg, “*Induction of Oblique Decision Trees*,”
    Proc. 13th Int’l Joint Conf. Artificial Intelligence, vol. 2, pp.
    1,002-1,007, Chambery, France, 28 Aug.-3 Sept. 1993.
-5. T.K. Ho, “*Random Decision Forests*,” Proc. Third Int’l Conf. Document
+1. T.K. Ho, “*Random Decision Forests*,” Proc. Third Int’l Conf. Document
    Analysis and Recognition, pp. 278-282, Montreal, Canada, 14-18 Aug. 1995.
-6. T.K. Ho, “*C4.5 Decision Forests*,” Proc. 14th Int’l Conf. Pattern
+1. T.K. Ho, “*C4.5 Decision Forests*,” Proc. 14th Int’l Conf. Pattern
    Recognition, Brisbane, Australia, 17-20 Aug. 1998.
 
 ### Methodology
@@ -211,7 +204,7 @@ ______________________________________________________________________
 > A summary of the paper
 
 The paper *The Random Subspace Method for Constructing Decision Forests* by Tin
-Kam Ho \[1\] discusses a method of generating many decision trees efficiently
+Kam Ho [1] discusses a method of generating many decision trees efficiently
 without affecting accuracy. She validates this method by comparing it against
 eight other forest construction methods, all on publicly available datasets. The
 benefits of her work is that it is parallelized; meaning that with some tuning
@@ -223,6 +216,6 @@ ______________________________________________________________________
 ## Summarization Technique
 
 This paper was summarized using a modified technique proposed by S. Keshav in
-his work *How to Read a Paper* \[0\].
+his work *How to Read a Paper* [0].
 
 ## Citations

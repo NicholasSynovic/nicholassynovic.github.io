@@ -1,6 +1,5 @@
 ---
-title: 'A summary of COM-PACE: Compliance Aware Cloud Application Engineering Using
-  Blockchain by Gagangeet Singh Aujla et al.'
+title: 'A summary of COM-PACE: Compliance Aware Cloud Application Engineering Using Blockchain by Gagangeet Singh Aujla et al.'
 description: Posted in the IEEE Computing Edge, October 2022
 summary: Posted in the IEEE Computing Edge, October 2022
 
@@ -21,7 +20,7 @@ show_reading_time: true
 
 # A summary of *COM-PACE: Compliance Aware Cloud Application Engineering Using Blockchain*
 
-> Gagangeet Singh Aujla et al. IEEE Computing Edge, October 2022 DOI \[0\]
+> Gagangeet Singh Aujla et al. IEEE Computing Edge, October 2022 DOI [0]
 
 ## Table of Contents
 
@@ -52,9 +51,9 @@ how this data is collected and shared.
 There are three terms that are often confused:
 
 1. Security - Refers to the resilience against potential harm from attackers
-2. Privacy - Refers to the with holding information from the largest number of
+1. Privacy - Refers to the with holding information from the largest number of
    individuals with respect to personal data
-3. Compliance - Signifies the act of obeying a law or ruling
+1. Compliance - Signifies the act of obeying a law or ruling
 
 However, commercial cloud providers do not offer any promise of compliance with
 any ruling or law. They do work to improve security, however, the companies that
@@ -76,10 +75,10 @@ programming steps and operations:
    resources must be analyzed in tandem. Once these are known, data can be
    appropriately provisioned between different tech stacks and/or cloud service
    providers.
-2. Monitoring compliance at runtime - Monitoring checks for data leaks or
+1. Monitoring compliance at runtime - Monitoring checks for data leaks or
    non-GDPR data operations occurring within the system. Events can then be
    recorded to a block chain for logging and further analysis.
-3. Verifying and enforcing compliance at runtime - The block chain manager can
+1. Verifying and enforcing compliance at runtime - The block chain manager can
    review all logged events and based on the event, can signal a violation or
    critical error to the system administrators.
 

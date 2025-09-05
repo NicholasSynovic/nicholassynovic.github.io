@@ -1,6 +1,5 @@
 ---
-title: A summary of Joint Head Pose Estimation and Face Alignment Framework Using
-  Global and Local CNN Features by Xiang Xu and A. Kakadiaris
+title: A summary of Joint Head Pose Estimation and Face Alignment Framework Using Global and Local CNN Features by Xiang Xu and A. Kakadiaris
 description: Posted in IEEE FG, 2017
 summary: Posted in IEEE FG, 2017
 
@@ -67,7 +66,7 @@ The problem is two fold:
 
 1. To build a face detector that is robust to occlusion and "in the wild"
    images.
-2. To incorporate facial landmarks via global and local features of the image to
+1. To incorporate facial landmarks via global and local features of the image to
    better isolate not only where the face(s) are within the image, but also the
    eyes, jaw, mouth, etc.
 
@@ -187,7 +186,7 @@ ______________________________________________________________________
 > A summary of the paper
 
 The paper *Joint Head Pose Estimation and Face Alignment Framework Using Global
-and Local CNN Features* by Xiang Xu and A. Kakadiaris \[1\] describes a solution
+and Local CNN Features* by Xiang Xu and A. Kakadiaris [1] describes a solution
 to not only detect faces, but identify facial landmarks using a cascading CNN
 architecture. The reference model for the architecture was able to attain SOTA
 results using an off-the-shelf face detector (Dlib) and could accurately
@@ -203,6 +202,6 @@ ______________________________________________________________________
 ## Summarization Technique
 
 This paper was summarized using a modified technique proposed by S. Keshav in
-his work *How to Read a Paper* \[0\].
+his work *How to Read a Paper* [0].
 
 ## Citations

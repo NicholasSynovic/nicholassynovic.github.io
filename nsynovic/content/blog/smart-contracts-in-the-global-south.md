@@ -20,7 +20,7 @@ show_reading_time: true
 
 # A summary of *Smart Contracts In the Global South*
 
-> Nir Kshetri et al. IEEE Computing Edge, October 2022 DOI \[0\]
+> Nir Kshetri et al. IEEE Computing Edge, October 2022 DOI [0]
 
 ## Table of Contents
 

@@ -1,6 +1,5 @@
 ---
-title: A summary of ORI Introduction to the Responsible Conduct of Research by Nicholas
-  H. Steneck
+title: A summary of ORI Introduction to the Responsible Conduct of Research by Nicholas H. Steneck
 description: Authored by AUTHOR
 summary: Authored by AUTHOR
 

@@ -1,14 +1,10 @@
 ---
-title: A summary of Deep Residual Learning for Image Recognition by Kaiming He et
-  al.
+title: A summary of Deep Residual Learning for Image Recognition by Kaiming He et al.
 description: Posted in arXiv, 2015
 summary: Posted in arXiv, 2015
 
 categories: [summary]
-citations: [https://doi.org/10.1145/1273445.1273458, http://arxiv.org/abs/1512.03385,
-  https://doi.org/10.1109/CVPR.2007.383266, https://arxiv.org/abs/1505.00387, 
-      https://proceedings.neurips.cc/paper/2015/hash/215a71a12769b056c3c32e7299f1c5ed-Abstract.html,
-  https://tinyurl.com/3t33bwde]
+citations: [https://doi.org/10.1145/1273445.1273458, http://arxiv.org/abs/1512.03385, https://doi.org/10.1109/CVPR.2007.383266, https://arxiv.org/abs/1505.00387, https://proceedings.neurips.cc/paper/2015/hash/215a71a12769b056c3c32e7299f1c5ed-Abstract.html, https://tinyurl.com/3t33bwde]
 
 draft: false
 
@@ -138,11 +134,11 @@ of this article.
 
 2. F. Perronnin and C. Dance. Fisher kernels on visual vocabularies for image
    categorization. In CVPR, 2007.
-3. R. K. Srivastava, K. Greff, and J. Schmidhuber. Highway networks.
+1. R. K. Srivastava, K. Greff, and J. Schmidhuber. Highway networks.
    arXiv:1505.00387, 2015.
-4. R. K. Srivastava, K. Greff, and J. Schmidhuber. Training very deep networks.
+1. R. K. Srivastava, K. Greff, and J. Schmidhuber. Training very deep networks.
    1507.06228, 2015.
-5. V. Nair and G. E. Hinton. Rectified linear units improve restricted boltzmann
+1. V. Nair and G. E. Hinton. Rectified linear units improve restricted boltzmann
    machines. In ICML, 2010.
 
 ### Methodology
@@ -197,7 +193,7 @@ ______________________________________________________________________
 > A summary of the paper
 
 The paper, *Deep Residual learning for Image Recognition* by Kaiming He et al.
-\[1\] introduced the ResNet family of DL CV models. These models are based on a
+[1] introduced the ResNet family of DL CV models. These models are based on a
 deep residual learning framework that makes usage of shortcut connections
 (taking the identity function of the previous deep residual block and summing it
 to the output of the current residual learning block) and the ReLU activation
@@ -213,6 +209,6 @@ ______________________________________________________________________
 ## Summarization Technique
 
 This paper was summarized using a modified technique proposed by S. Keshav in
-his work *How to Read a Paper* \[0\].
+his work *How to Read a Paper* [0].
 
 ## Citations

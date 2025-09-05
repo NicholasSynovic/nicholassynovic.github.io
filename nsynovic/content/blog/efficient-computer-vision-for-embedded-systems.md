@@ -1,12 +1,10 @@
 ---
-title: A summary of Efficient Computer Vision for Embedded Systems by George K. Thiruvathukal
-  and Yung-Hsiang Lu
+title: A summary of Efficient Computer Vision for Embedded Systems by George K. Thiruvathukal and Yung-Hsiang Lu
 description: Posted in IEEE Computing Edge, December 2022
 summary: Posted in IEEE Computing Edge, December 2022
 
 categories: [summary, magazine, article, round table, discussion]
-citations: [https://doi.org/10.1109/MC.2022.3145677, https://lpcv.ai, https://www.computer.org/communities/technical-committees/tcpami,
-  https://cvpr2023.thecvf.com/, https://research.com/]
+citations: [https://doi.org/10.1109/MC.2022.3145677, https://lpcv.ai, https://www.computer.org/communities/technical-committees/tcpami, https://cvpr2023.thecvf.com/, https://research.com/]
 
 draft: false
 
@@ -20,7 +18,7 @@ toc: false
 show_reading_time: true
 ---
 
-# A summary of *A summary of Efficient Computer Vision for Embedded Systems* \[0\]
+# A summary of *A summary of Efficient Computer Vision for Embedded Systems* [0]
 
 > George K. Thiruvathukal and Yung-Hsiang Lu; IEEE Computing Edge, December
 > 2022, 2022 [DOI](https://doi.org/10.1109/MC.2022.3145677)
@@ -30,7 +28,7 @@ article.
 
 ## Table of Contents
 
-- [A summary of *A summary of Efficient Computer Vision for Embedded Systems* \[0\]](#a-summary-of-a-summary-of-efficient-computer-vision-for-embedded-systems-0)
+- [A summary of *A summary of Efficient Computer Vision for Embedded Systems* [0]](#a-summary-of-a-summary-of-efficient-computer-vision-for-embedded-systems-0)
   - [Table of Contents](#table-of-contents)
   - [Summary](#summary)
     - [LPCVC](#lpcvc)
@@ -49,9 +47,9 @@ Computer Vision (CV) research and development is encouraged through competitions
 that measure the accuracy of models for cash prizes. However, as more CV
 technologies are being pushed towards the edge, power and computational
 efficiency of these models become increasingly more important. Therefore, the
-*IEEE Low Power Computer Vision Challenge* (LPCVC) \[1\], formerly the *Low
-Power Image Recognition Challenge*, was created to encourage researchers to
-develop efficient low power solutions.
+*IEEE Low Power Computer Vision Challenge* (LPCVC) [1], formerly the *Low Power
+Image Recognition Challenge*, was created to encourage researchers to develop
+efficient low power solutions.
 
 ### LPCVC
 
@@ -67,10 +65,10 @@ topics to pursue.
 
 The development and support of CV research is crucial the Computer Society's
 mission. The technical community, *Technical Community on Pattern Analysis and
-Machine Intelligence* \[2\], exists to promote the development of research and
+Machine Intelligence* [2], exists to promote the development of research and
 solutions to problems surrounding and involving CV. Furthermore, the *Computer
-Vision and Pattern Recognition* (CVPR) conference \[3\] is currently IEEE's most
-influential conference as ranked by *Guide2Research* \[4\].
+Vision and Pattern Recognition* (CVPR) conference [3] is currently IEEE's most
+influential conference as ranked by *Guide2Research* [4].
 
 ### LPCVC Research
 

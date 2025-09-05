@@ -1,12 +1,10 @@
 ---
-title: A summary of Sentiment Analysis and Topic Recognition in Video Transcripts
-  by Lukas Stappen et al.
+title: A summary of Sentiment Analysis and Topic Recognition in Video Transcripts by Lukas Stappen et al.
 description: Posted in IEEE Computing Edge, December 2022
 summary: Posted in IEEE Computing Edge, December 2022
 
 categories: [summary, magazine, article, affective computing and sentiment analysis]
-citations: [https://doi.org/10.1109/MIS.2021.3062200, https://doi.org/10.1109/MIS.2020.2992799,
-  https://sentic.net/, https://www.muse-challenge.org/muse2022, https://doi.org/10.48550/arXiv.1909.11942]
+citations: [https://doi.org/10.1109/MIS.2021.3062200, https://doi.org/10.1109/MIS.2020.2992799, https://sentic.net/, https://www.muse-challenge.org/muse2022, https://doi.org/10.48550/arXiv.1909.11942]
 
 draft: false
 
@@ -22,7 +20,7 @@ show_reading_time: true
 
 # A summary of *Sentiment Analysis and Topic Recognition in Video Transcripts*
 
-> Lukas Stappen et al. Posted in IEEE Computing Edge, December 2022 DOI \[0\]
+> Lukas Stappen et al. Posted in IEEE Computing Edge, December 2022 DOI [0]
 
 ## Table of Contents
 
@@ -45,11 +43,10 @@ ______________________________________________________________________
 ## Summary
 
 It is difficult to extract the sentiment and topic from a video transcript. With
-this in mind, researchers developed SenticNet \[2\], a natural language
-processing (NLP) model to identify the sentiment and topic of a transcript with
-far less computational resources than previous attempts. The authors were able
-to achieve 3% better performance than previous solutions for the MuSe
-competition.
+this in mind, researchers developed SenticNet [2], a natural language processing
+(NLP) model to identify the sentiment and topic of a transcript with far less
+computational resources than previous attempts. The authors were able to achieve
+3% better performance than previous solutions for the MuSe competition.
 
 Multi-model sentiment analysis (MSA) is taking a variety of data streams and
 information types and extracting sentiment from them. MSA research aims to
@@ -62,7 +59,7 @@ topic at hand.
 The authors solution learned a continuous vector space of embeddings from the
 symbolic space of words from the transcripts. To identify sentiments, their
 solution adheres to the description of of sentiments defined by the *Hourglass
-of Emotions* \[1\].
+of Emotions* [1].
 
 ### Related Work
 
@@ -87,7 +84,7 @@ dropout in order to drop entire embeddings rather than features.
 
 ### Dataset: The MuSe-Topic Subchallenge
 
-The MuSe-CaR \[3\] dataset is a large, multi-modal dataset consisting of YouTube
+The MuSe-CaR [3] dataset is a large, multi-modal dataset consisting of YouTube
 videos of car reviews. The purpose of the dataset is to support MSA research.
 
 The authors only used the language modality of the dataset and ignored the video
@@ -117,7 +114,7 @@ video from the contextual information.
 
 The best performance measured achieved a score of 66.16% on the test dataset.
 This was better than the LSTM approach the authors also tried. However, Albert
-(an end-2-end NLP transformer for supervised NLP tasks) \[4\] still outperforms
+(an end-2-end NLP transformer for supervised NLP tasks) [4] still outperforms
 this solution.
 
 #### Emotions

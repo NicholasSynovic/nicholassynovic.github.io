@@ -20,7 +20,7 @@ show_reading_time: true
 
 # A summary of *Whack-a-Meltdown*
 
-> Daniel Genkin and Yuval Yarom IEEE Computing Edge, October 2022 DOI \[0\]
+> Daniel Genkin and Yuval Yarom IEEE Computing Edge, October 2022 DOI [0]
 
 ## Table of Contents
 
@@ -63,12 +63,12 @@ However, there are a few issues with out-of-order execution:
 
 1. Misspeculation of instructions to run by incorrectly guessing the control
    flow of the program.
-2. Exceptions when an instruction performs an illegal operation, causing the
+1. Exceptions when an instruction performs an illegal operation, causing the
    program to abort. Future instructions are no longer part of the program.
-3. Microcode assists that handle complex edge cases require that the instruction
+1. Microcode assists that handle complex edge cases require that the instruction
    be thrown out and code from the processor firmware be used to handle that
    case.
-4. "When a Transactional Synchronization Extension (TSX) transaction aborts, all
+1. "When a Transactional Synchronization Extension (TSX) transaction aborts, all
    of the instructions within that transaction are not a part of the nominal
    program execution."
 

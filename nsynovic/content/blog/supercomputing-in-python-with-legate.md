@@ -20,7 +20,7 @@ show_reading_time: true
 
 # A summary of *Supercomputing In Python With Legate*
 
-> Michael Bauer et al. IEEE Computing Edge, October 2022 DOI \[0\]
+> Michael Bauer et al. IEEE Computing Edge, October 2022 DOI [0]
 
 ## Table of Contents
 

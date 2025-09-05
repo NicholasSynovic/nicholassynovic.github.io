@@ -1,13 +1,10 @@
 ---
-title: A summary of Very Deep Convolutional Networks for Large-Scale Image Recognition
-  by Karen Simonyan and Andrew Zisserman
+title: A summary of Very Deep Convolutional Networks for Large-Scale Image Recognition by Karen Simonyan and Andrew Zisserman
 description: Published as a conference paper at ICLR 2015
 summary: Published as a conference paper at ICLR 2015
 
 categories: [summary, CNN, CV, computer vision, ICLR, 2015]
-citations: [https://doi.org/10.1145/1273445.1273458, https://doi.org/10.48550/arXiv.1409.1556,
-  https://doi.org/10.1145/3065386, https://doi.org/10.1162/neco.1989.1.4.541, https://doi.org/10.1145/3065386,
-  https://doi.org/10.1007/978-3-319-10590-1_53, https://doi.org/10.48550/arXiv.1312.6229]
+citations: [https://doi.org/10.1145/1273445.1273458, https://doi.org/10.48550/arXiv.1409.1556, https://doi.org/10.1145/3065386, https://doi.org/10.1162/neco.1989.1.4.541, https://doi.org/10.1145/3065386, https://doi.org/10.1007/978-3-319-10590-1_53, https://doi.org/10.48550/arXiv.1312.6229]
 
 draft: false
 
@@ -103,8 +100,8 @@ convolutional neural networks.
 
 [Szegedy et al.](going-deeper-with-convolutions.md) proposed a new architecture
 (Inception) that achieved SOTA performance in the 2014 ImageNet Challenge. Else,
-Krizhevsky et al. \[2\] and others have proposed improvements to the
-convolutional neural network architecture.
+Krizhevsky et al. [2] and others have proposed improvements to the convolutional
+neural network architecture.
 
 ### Motivation
 
@@ -139,12 +136,12 @@ The paper is well written and can be understood.
 The following relevant work can be found in the [Citations](#citations) section
 of this article.
 
-- Classical convolutional neural network architecture - \[3\]
-- GoogLeNet - \[2\]
+- Classical convolutional neural network architecture - [3]
+- GoogLeNet - [2]
 - Clarifai
-- ImageNet classification with deep convolutional neural net- works \[4\]
+- ImageNet classification with deep convolutional neural net- works [4]
 - Isotropically-rescaled training image
-- ImageNet 2013 submissions - \[5\], \[6\] Localization and Detection using
+- ImageNet 2013 submissions - [5], [6] Localization and Detection using
   Convolutional Networks
 
 ### Author Assumptions
@@ -159,8 +156,8 @@ optimization.
 
 > Do the assumptions seem valid?
 
-I agree with their assumption. However, \[2\] created a SOTA model utilizing a
-new architecture, rather than improving upon an existing one.
+I agree with their assumption. However, [2] created a SOTA model utilizing a new
+architecture, rather than improving upon an existing one.
 
 ### Future Directions
 
@@ -186,7 +183,7 @@ up to 19 layers, with a 3x3 filter size, SOTA performance is possible without
 redeveloping the architecture of existing convolutional neural networks. Their
 work builds of previous efforts of improving convolutional neural network
 performance by optimizing the filter size and initial layer, but contrasts
-contemporaries \[2\] by not developing a new architecture. Their work has
+contemporaries [2] by not developing a new architecture. Their work has
 importance as it shows that the existing convolutional neural network
 architecture is capable of SOTA performance by increasing the depth of the
 model. They justify this by trying six different model configurations, and
@@ -198,6 +195,6 @@ ______________________________________________________________________
 ## Summarization Technique
 
 This paper was summarized using a modified technique proposed by S. Keshav in
-his work *How to Read a Paper* \[0\].
+his work *How to Read a Paper* [0].
 
 ## Citations

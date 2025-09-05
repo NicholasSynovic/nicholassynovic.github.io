@@ -1,14 +1,10 @@
 ---
-title: 'A summary of by SegNet: A Deep Convolutional Encoder-Decoder Architecture
-  for Image Segmentation by Vijay Badrinarayanan et al.'
-description: Posted in the IEEE TRANSACTIONS ON PATTERN ANALYSIS AND MACHINE INTELLIGENCE,
-  2017
-summary: Posted in the IEEE TRANSACTIONS ON PATTERN ANALYSIS AND MACHINE INTELLIGENCE,
-  2017
+title: 'A summary of by SegNet: A Deep Convolutional Encoder-Decoder Architecture for Image Segmentation by Vijay Badrinarayanan et al.'
+description: Posted in the IEEE TRANSACTIONS ON PATTERN ANALYSIS AND MACHINE INTELLIGENCE, 2017
+summary: Posted in the IEEE TRANSACTIONS ON PATTERN ANALYSIS AND MACHINE INTELLIGENCE, 2017
 
 categories: [summary]
-citations: [https://doi.org/10.1145/1273445.1273458, https://doi.org/10.1109/TPAMI.2016.2644615,
-  https://doi.org/10.1109/CVPR.2007.383157]
+citations: [https://doi.org/10.1145/1273445.1273458, https://doi.org/10.1109/TPAMI.2016.2644615, https://doi.org/10.1109/CVPR.2007.383157]
 
 draft: false
 
@@ -211,7 +207,7 @@ ______________________________________________________________________
 > A summary of the paper
 
 The paper *SegNet: A Deep Convolutional Encoder-Decoder Architecture for Image
-Segmentation* by Vijay Badrinarayanan et al. \[1\] introduces a novel model
+Segmentation* by Vijay Badrinarayanan et al. [1] introduces a novel model
 architecture for semantic segmentation based off of an encoder-decoder design.
 This architecture is designed around being computationally and memory efficient,
 while accurate enough to be used in practice. They created a reference model
@@ -226,6 +222,6 @@ ______________________________________________________________________
 ## Summarization Technique
 
 This paper was summarized using a modified technique proposed by S. Keshav in
-his work *How to Read a Paper* \[0\].
+his work *How to Read a Paper* [0].
 
 ## Citations

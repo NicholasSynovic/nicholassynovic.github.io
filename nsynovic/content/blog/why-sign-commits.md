@@ -4,11 +4,7 @@ description: Why should you sign your commits?
 summary: Why should you sign your commits?
 
 categories: [git, gpg, security, identity, blog]
-citations: [https://withblue.ink/2020/05/17/how-and-why-to-sign-git-commits.html,
-  https://tinyurl.com/yjbxpajr,
-      https://www.ftc.gov/system/files/ftc_gov/pdf/CSN%20Annual%20Data%20Book%202021%20Final%20PDF.pdf,
-  https://git-scm.com, https://huggingface.co/docs/hub/security-gpg,
-      https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits]
+citations: [https://withblue.ink/2020/05/17/how-and-why-to-sign-git-commits.html, https://tinyurl.com/yjbxpajr, https://www.ftc.gov/system/files/ftc_gov/pdf/CSN%20Annual%20Data%20Book%202021%20Final%20PDF.pdf, https://git-scm.com, https://huggingface.co/docs/hub/security-gpg, https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits]
 
 draft: false
 
@@ -30,15 +26,14 @@ ______________________________________________________________________
 
 ## Preface
 
-I recently read this article \[0\] by Alessandro Segala about why I should sign
-my commits. And I completely agree with, and would like to expand upon, their
-work.
+I recently read this article [0] by Alessandro Segala about why I should sign my
+commits. And I completely agree with, and would like to expand upon, their work.
 
 ## Identify Theft
 
-Identify theft is not a joke \[1\].
+Identify theft is not a joke [1].
 
-The FTC in their 2021 edition of the CSN Annual Data Book \[2\] reported that
+The FTC in their 2021 edition of the CSN Annual Data Book [2] reported that
 there were 1,434,676 reports of identity fraud in 2021 This theft allows the
 perpetrator to commit acts of fraud in your name while reaping the benefits. As
 developers, we not only have to protect our real world identities from theft,
@@ -46,8 +41,8 @@ but our digital ones as well. And while it is important to have strong and
 secure passwords, I'm not referring to your accounts as digital identities. I'm
 instead talking about your contributions to open source projects.
 
-This article focuses around `git` \[3\] and online version control systems
-(VCSs) that implement `git` as their back end.
+This article focuses around `git` [3] and online version control systems (VCSs)
+that implement `git` as their back end.
 
 It is not only possible, but incredibly easy to sign a commit under a different
 identity. In addition, online VCSs will read the `git` commit history and per
@@ -72,26 +67,26 @@ They could also introduce bugs into a repository under someone's name.
 ## Benefits of Signing
 
 To combat this, `git` allows for individuals to sign their commits with a GPG
-\[4\] key.
+[4] key.
 
 This allows for a number of benefits:
 
 1. Commits in the `git` history that are signed have metadata attached to them
    saying that they're signed.
-2. If the GPG key is published to an online VCS that supports this feature, a
+1. If the GPG key is published to an online VCS that supports this feature, a
    *verified* tag will be applied to commits that are signed and match a user's
    GPG key.
-3. Developer identity can be confirmed by running checks against the public
+1. Developer identity can be confirmed by running checks against the public
    facing key of a commit and a developer's private key.
 
 ## Conclusion
 
-Since reading \[0\], I have implemented commit signing for my project going
+Since reading [0], I have implemented commit signing for my project going
 forward. I also now require all group projects to have signed commits prior to
 acceptance.
 
-Setting up signed commits was trivial, and there were plenty of guides \[0\]
-\[5\] \[6\] on how to do so.
+Setting up signed commits was trivial, and there were plenty of guides [0] [5]
+[6] on how to do so.
 
 I strongly encourage all developers to sign their commits in order to improve
 the verification of work done by legitimate developers, instead of allowing the

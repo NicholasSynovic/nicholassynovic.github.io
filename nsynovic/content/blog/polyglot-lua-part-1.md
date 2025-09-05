@@ -3,7 +3,7 @@ title: 'Polyglot: Lua (Part 1)'
 description: 'Polyglot: Lua (Part 1)'
 summary: 'Polyglot: Lua (Part 1)'
 
-categories: ['programming', 'beginners', 'lua', 'learning']
+categories: [programming, beginners, lua, learning]
 citations: ['']
 
 draft: false
@@ -18,13 +18,22 @@ toc: false
 show_reading_time: true
 ---
 
-In my previous post, I talked about the reasons why I want to learn more programming language, the Lua programming language, and the developer tooling for Lua. Now it's time to actually code in Lua!
+In my previous post, I talked about the reasons why I want to learn more
+programming language, the Lua programming language, and the developer tooling
+for Lua. Now it's time to actually code in Lua!
 
-For this post, I'll be completing several basic Rosetta Code tasks. Nothing crazy, but enough to get me familiar with the language and its syntax. As Lua has a fairly minimal and straight forward syntax, I'll post the code snippets and output here, but I won't explain the implementation. For the complete source code, you can see my GitHub repository [here](https://github.com/NicholasSynovic/example_lua).
+For this post, I'll be completing several basic Rosetta Code tasks. Nothing
+crazy, but enough to get me familiar with the language and its syntax. As Lua
+has a fairly minimal and straight forward syntax, I'll post the code snippets
+and output here, but I won't explain the implementation. For the complete source
+code, you can see my GitHub repository
+[here](https://github.com/NicholasSynovic/example_lua).
 
 ## GitHub Template
 
-I created a GitHub Template to bootstrap my Lua projects going forward. You can find it [here](https://github.com/NicholasSynovic/template_lua). As I find tooling to improve my Lua experience, I'll update the template.
+I created a GitHub Template to bootstrap my Lua projects going forward. You can
+find it [here](https://github.com/NicholasSynovic/template_lua). As I find
+tooling to improve my Lua experience, I'll update the template.
 
 ## Rosetta Code Problems
 
@@ -81,7 +90,8 @@ main()
 
 ### [String Length Comparison](https://rosettacode.org/wiki/Compare_length_of_two_strings)
 
-> Outcome: Learned that all objects (including arrays) are tables, how to sort tables, and how to index over them with a `for` loop
+> Outcome: Learned that all objects (including arrays) are tables, how to sort
+> tables, and how to index over them with a `for` loop
 
 ```lua
 local function main()
@@ -111,6 +121,12 @@ main()
 
 ## Conclusions
 
-Lua wasn't that hard to get a basic grasp of. While yes, I did not cover aspects such as loops, control flow, or binary operations, reading the [manual](https://www.lua.org/manual/5.4/) and [book](https://www.lua.org/pil/contents.html) provided enough context for me to grasp the core concepts.
+Lua wasn't that hard to get a basic grasp of. While yes, I did not cover aspects
+such as loops, control flow, or binary operations, reading the
+[manual](https://www.lua.org/manual/5.4/) and
+[book](https://www.lua.org/pil/contents.html) provided enough context for me to
+grasp the core concepts.
 
-I'd like to thank the Rosetta Code community for their problems and solutions. Without them it would be far more difficult for me to understand these core language features.
+I'd like to thank the Rosetta Code community for their problems and solutions.
+Without them it would be far more difficult for me to understand these core
+language features.

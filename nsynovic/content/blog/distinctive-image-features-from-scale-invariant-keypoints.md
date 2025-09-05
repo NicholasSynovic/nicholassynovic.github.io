@@ -1,15 +1,10 @@
 ---
-title: A summary of Distinctive Image Features from Scale-Invariant Keypoints by David
-  G. Lowe
+title: A summary of Distinctive Image Features from Scale-Invariant Keypoints by David G. Lowe
 description: Posted in the International Journal of Computer Vision, 2004
 summary: Posted in the International Journal of Computer Vision, 2004
 
-categories: [summary, ICJV, 2004, invariant features, object recognition, scale invariance,
-  image matching]
-citations: [https://doi.org/10.1145/1273445.1273458, https://doi.org/10.1023/B:VISI.0000029664.99615.94,
-  https://ece631web.groups.et.byu.net/References/Invariant%20features%20from%20interest%20point%20groups.pdf,
-  https://doi.org/10.1007/3-540-47969-4_19, https://doi.org/10.1109/TPAMI.1984.4767500,
-  https://doi.org/10.1109/CVPR.2003.1211479, https://tinyurl.com/3d7fk8vn, https://doi.org/10.1007/BF00336961]
+categories: [summary, ICJV, 2004, invariant features, object recognition, scale invariance, image matching]
+citations: [https://doi.org/10.1145/1273445.1273458, https://doi.org/10.1023/B:VISI.0000029664.99615.94, https://ece631web.groups.et.byu.net/References/Invariant%20features%20from%20interest%20point%20groups.pdf, https://doi.org/10.1007/3-540-47969-4_19, https://doi.org/10.1109/TPAMI.1984.4767500, https://doi.org/10.1109/CVPR.2003.1211479, https://tinyurl.com/3d7fk8vn, https://doi.org/10.1007/BF00336961]
 
 draft: false
 
@@ -145,17 +140,17 @@ of this article.
 
 2. Brown, M. and Lowe, D.G. 2002. Invariant features from interest point groups.
    In British Machine Vision Conference, Cardiff, Wales, pp. 656–665.
-3. Carneiro, G. and Jepson, A.D. 2002. Phase-based local features. In European
+1. Carneiro, G. and Jepson, A.D. 2002. Phase-based local features. In European
    Conference on Computer Vision (ECCV), Copenhagen, Denmark, pp. 282–296.
-4. Crowley,J.L.and Parker,A.C.1984.A representation for shapes based on peaks
+1. Crowley,J.L.and Parker,A.C.1984.A representation for shapes based on peaks
    and ridges in the difference of low-pass transform. IEEE Trans. on Pattern
    Analysis and Machine Intelligence, 6(2):156–170.
-5. Fergus, R., Perona, P., and Zisserman, A. 2003. Object class recognition by
+1. Fergus, R., Perona, P., and Zisserman, A. 2003. Object class recognition by
    unsupervised scale-invariant learning. In IEEE Conference on Computer Vision
    and Pattern Recognition, Madison, Wisconsin, pp. 264–271.
-6. Harris,C.and Stephens,M.1988.A combined corner and edge detector. In Fourth
+1. Harris,C.and Stephens,M.1988.A combined corner and edge detector. In Fourth
    Alvey Vision Conference, Manchester, UK, pp. 147–151.
-7. Koenderink, J.J. 1984. The structure of images. Biological Cybernetics,
+1. Koenderink, J.J. 1984. The structure of images. Biological Cybernetics,
    50:363–396.
 
 ### Methodology
@@ -224,7 +219,7 @@ ______________________________________________________________________
 > A summary of the paper
 
 The paper *Distinctive Image Features from Scale-Invariant Keypoints* by David
-G. Lowe \[1\] presents a novel image feature extractor called Scale Invariant
+G. Lowe [1] presents a novel image feature extractor called Scale Invariant
 Feature Transform (SIFT). SIFT is an algorithm to extract features from an image
 that are invariant (do not change) to scale and rotation. These features can be
 used to perform image retrieval and object recognition by utilizing nearest
@@ -239,6 +234,6 @@ ______________________________________________________________________
 ## Summarization Technique
 
 This paper was summarized using a modified technique proposed by S. Keshav in
-his work *How to Read a Paper* \[0\].
+his work *How to Read a Paper* [0].
 
 ## Citations

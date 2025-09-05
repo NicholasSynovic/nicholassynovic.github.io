@@ -1,15 +1,10 @@
 ---
-title: 'A summary of MobileNets: Efficient Convolutional Neural Networks for Mobile
-  Vision Applications by Andrew G. Howard et al.'
+title: 'A summary of MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications by Andrew G. Howard et al.'
 description: Posted in arXiv, 2017
 summary: Posted in arXiv, 2017
 
 categories: [summary]
-citations: [https://doi.org/10.1145/1273445.1273458, http://arxiv.org/abs/1704.04861,
-  https://arxiv.org/abs/1602.07360, https://arxiv.org/abs/1412.5474, https://doi.org/10.1007/978-3-319-46493-0_32,
-  https://openaccess.thecvf.com/content_ICCV_2017_workshops/w10/html/Wang_Factorized_Convolutional_Neural_ICCV_2017_paper.html,
-  https://openaccess.thecvf.com/content_cvpr_2016/html/Wu_Quantized_Convolutional_Neural_CVPR_2016_paper.html,
-  https://arxiv.org/abs/1403.1687]
+citations: [https://doi.org/10.1145/1273445.1273458, http://arxiv.org/abs/1704.04861, https://arxiv.org/abs/1602.07360, https://arxiv.org/abs/1412.5474, https://doi.org/10.1007/978-3-319-46493-0_32, https://openaccess.thecvf.com/content_ICCV_2017_workshops/w10/html/Wang_Factorized_Convolutional_Neural_ICCV_2017_paper.html, https://openaccess.thecvf.com/content_cvpr_2016/html/Wu_Quantized_Convolutional_Neural_CVPR_2016_paper.html, https://arxiv.org/abs/1403.1687]
 
 draft: false
 
@@ -142,16 +137,16 @@ of this article.
 2. F. N. Iandola, M. W. Moskewicz, K. Ashraf, S. Han, W. J. Dally, and K.
    Keutzer. Squeezenet: Alexnet-level accuracy with 50x fewer parameters and¡
    1mb model size. arXiv preprint arXiv:1602.07360, 2016.
-3. J. Jin, A. Dundar, and E. Culurciello. Flattened convolutional neural
+1. J. Jin, A. Dundar, and E. Culurciello. Flattened convolutional neural
    networks for feed forward acceleration. arXiv preprint arXiv:1412.5474, 2014.
-4. M. Rastegari, V. Ordonez, J. Redmon, and A. Farhadi. Xnornet: Imagenet
+1. M. Rastegari, V. Ordonez, J. Redmon, and A. Farhadi. Xnornet: Imagenet
    classification using binary convolutional neural networks. arXiv preprint
    arXiv:1603.05279, 2016.
-5. M. Wang, B. Liu, and H. Foroosh. Factorized convolutional neural networks.
+1. M. Wang, B. Liu, and H. Foroosh. Factorized convolutional neural networks.
    arXiv preprint arXiv:1608.04337, 2016.
-6. J. Wu, C. Leng, Y. Wang, Q. Hu, and J. Cheng. Quantized convolutional neural
+1. J. Wu, C. Leng, Y. Wang, Q. Hu, and J. Cheng. Quantized convolutional neural
    networks for mobile devices. arXiv preprint arXiv:1512.06473, 2015.
-7. L. Sifre. Rigid-motion scattering for image classification. PhD thesis, Ph.
+1. L. Sifre. Rigid-motion scattering for image classification. PhD thesis, Ph.
    D. thesis, 2014.
 
 ### Methodology
@@ -219,7 +214,7 @@ inference data. A depth wise separable convolution occurs in two steps:
    filter. This is different than traditional CNN building blocks that analyze
    all of the channels in one pass using a 3 x 3 x N filter (with N being the
    number of filters).
-2. The values from the aforementioned filters are multiples together and summed
+1. The values from the aforementioned filters are multiples together and summed
    with a point wise convolution that analyzes all of the channels. This point
    wise convolution uses a 1 x 1 x N filter (with N being the number of
    filters).
@@ -237,6 +232,6 @@ ______________________________________________________________________
 ## Summarization Technique
 
 This paper was summarized using a modified technique proposed by S. Keshav in
-his work *How to Read a Paper* \[0\].
+his work *How to Read a Paper* [0].
 
 ## Citations
