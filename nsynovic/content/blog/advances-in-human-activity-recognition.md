@@ -18,17 +18,13 @@ toc: false
 show_reading_time: true
 ---
 
-# A summary of *Advances in Human Activity Recognition*
-
-> Gulustan Dogan IEEE Computing Edge, December 2022 DOI \[0\]
+> Gulustan Dogan IEEE Computing Edge, December 2022 DOI [0]
 
 ## Table of Contents
 
-- [A summary of *Advances in Human Activity Recognition*](#a-summary-of-advances-in-human-activity-recognition)
-  - [Table of Contents](#table-of-contents)
-  - [Summary](#summary)
-  - [This method is great when working on raw data streams, but there do exist better algorithms and models to handle visual representations of movement.](#this-method-is-great-when-working-on-raw-data-streams-but-there-do-exist-better-algorithms-and-models-to-handle-visual-representations-of-movement)
-  - [Citations](#citations)
+- [Table of Contents](#table-of-contents)
+- [Summary](#summary)
+- [Citations](#citations)
 
 ______________________________________________________________________
 
@@ -44,6 +40,9 @@ recurrent neural networks (RNNs). LSTMs are great at identifying and predicting
 sequential information as they take both time and sequence in to account.
 However, LSTMs are computationally expensive.
 
-## The current state of the art devises an algorithm that takes in raw signal or visual data, and can identify patterns and sequences of movement \[1\]. This method is great when working on raw data streams, but there do exist better algorithms and models to handle visual representations of movement.
+The current state of the art devises an algorithm that takes in raw signal or
+visual data, and can identify patterns and sequences of movement [1]. This
+method is great when working on raw data streams, but there do exist better
+algorithms and models to handle visual representations of movement.
 
 ## Citations
