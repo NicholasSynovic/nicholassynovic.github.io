@@ -94,13 +94,12 @@ jobs:
 
       - name: Build the site
         run: |
-          ls && \
           hugo \
             --gc \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/" \
             --cacheDir "${{ runner.temp }}/hugo_cache"
-            --source nsynovic
+            --source ./nsynovic
             --destination ../html
 
       - name: Cache save
