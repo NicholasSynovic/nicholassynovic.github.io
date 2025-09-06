@@ -94,6 +94,7 @@ jobs:
 
       - name: Build the site
         run: |
+          ls && \
           hugo \
             --gc \
             --minify \
