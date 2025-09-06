@@ -53,6 +53,10 @@ uglyURLs = false
 
 watch = false
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
 [pagination]
     disableAliases = false
     pagerSize = 15
