@@ -98,8 +98,8 @@ jobs:
             --gc \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/" \
-            --cacheDir "${{ runner.temp }}/hugo_cache"
-            --source ./nsynovic
+            --cacheDir "${{ runner.temp }}/hugo_cache" \
+            --source ./nsynovic \
             --destination ../html
 
       - name: Cache save
