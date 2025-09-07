@@ -68,6 +68,12 @@ watch = false
     name = 'Contact Me'
     url = '/contact/'
 
+[[menu.main]]
+    identifier = 'Socials'
+    name = 'Socials'
+    url = 'https://dot.cards/nsynovic'
+
+
 [module]
 [[module.imports]]
 disable = false
