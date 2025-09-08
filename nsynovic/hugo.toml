@@ -64,11 +64,6 @@ watch = false
 
 [menu]
 [[menu.main]]
-    identifier = 'Contact'
-    name = 'Contact Me'
-    url = '/contact/'
-
-[[menu.main]]
     identifier = 'Socials'
     name = 'Socials'
     url = 'https://dot.cards/nsynovic'
