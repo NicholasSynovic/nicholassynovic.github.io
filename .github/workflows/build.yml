@@ -54,8 +54,7 @@ jobs:
 
       - name: Build the site
         run: |
-          ./.venv/bin/sphinx-build --write-all template_sphinx build
-          # TODO: Change `template_sphinx` to the source directory
+          ./.venv/bin/sphinx-build --write-all src build
 
       - name: Cache save
         id: cache-save
