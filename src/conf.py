@@ -1,3 +1,9 @@
+"""
+Sphinx configuration file.
+
+Copyright (C) 2025 Nicholas M. Synovic.
+"""
+
 # Configuration file for the Sphinx documentation builder.
 #
 # For the full list of built-in configuration values, see the documentation:
@@ -6,10 +12,10 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = "Template Sphinx Site"
-copyright = "2025, Nicholas M. Synovic"
+project = "Nicholas M. Synovic's Personal Website"
+copyright = "2025, Nicholas M. Synovic"  # noqa: A001
 author = "Nicholas M. Synovic"
-release = "0.0.0"
+release = "0.0.1"
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
@@ -23,5 +29,12 @@ exclude_patterns = []
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-html_theme = "alabaster"
+html_theme = "sphinx_book_theme"
 html_static_path = ["_static"]
+
+# https://sphinx-book-theme.readthedocs.io/en/latest/tutorials/get-started.html#add-a-source-repository-button-to-your-theme
+html_theme_options = {
+    "repository_url": "https://github.com/NicholasSynovic/nicholassynovic.github.io",
+    "use_repository_button": True,
+}
+html_title = project

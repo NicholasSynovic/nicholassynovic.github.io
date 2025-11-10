@@ -1,11 +1,11 @@
 [project]
-name = "template_sphinx"
-version = "0.0.0"
-description = "Hello World"
+name = "src"
+version = "0.0.1"
+description = "Nicholas M. Synovic's Website"
 authors = [{ name = "Nicholas M. Synovic", email = "nicholas.synovic@gmail.com" }]
 requires-python = "~=3.13"
 readme = "README.md"
-keywords = ["Template"]
+keywords = ["website", "github-pages"]
 classifiers = [
     "Development Status :: 1 - Planning",
     "License :: OSI Approved :: GNU Affero General Public License v3",
@@ -13,11 +13,12 @@ classifiers = [
 ]
 dependencies = [
     "sphinx>=8.2.3",
+    "sphinx-book-theme>=1.1.4",
 ]
 
 [project.urls]
-Homepage = "https://github.com/NicholasSynovic/template_python"
-Repository = "https://github.com/NicholasSynovic/template_python"
+Homepage = "https://github.com/NicholasSynovic/nicholassynovic.github.io"
+Repository = "https://github.com/NicholasSynovic/nicholassynovic.github.io"
 
 [build-system]
 requires = ["hatchling"]
