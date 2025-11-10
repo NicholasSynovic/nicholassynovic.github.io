@@ -39,5 +39,6 @@ html_theme_options = {
     "show_navbar_depth": 0,
     "max_navbar_depth": 1,
     "collapse_navbar": True,
+    "use_sidenotes": True,
 }
 html_title = project
