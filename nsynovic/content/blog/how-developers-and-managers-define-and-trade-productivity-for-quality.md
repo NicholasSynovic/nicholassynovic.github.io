@@ -1,22 +1,22 @@
----
-title: A summary of How Developers and Managers Define and Trade Productivity for Quality by Margaret-Anne Storey et al.
-description: Published in the proceeding of the 2022 CHASE confrence
-summary: Published in the proceeding of the 2022 CHASE confrence
+______________________________________________________________________
 
-categories: [summary, Software, software engineering, Software creation, management]
-citations: [https://doi.org/10.1145/1273445.1273458, https://doi.org/10.1145/3528579.3529177, https://doi.org/10.1145/3454122.3454124, https://doi.org/10.1109/TSE.2018.2842201, https://doi.org/10.1007/978-1-4842-4221-6_3, https://www.microsoft.com/en-us/research/publication/appendix-to-productivity-quality-alignment, https://doi.org/10.1109/TSE.2019.2944354]
+title: A summary of How Developers and Managers Define and Trade Productivity
+for Quality by Margaret-Anne Storey et al. description: Published in the
+proceeding of the 2022 CHASE confrence summary: Published in the proceeding of
+the 2022 CHASE confrence
+
+categories: \[summary, Software, software engineering, Software creation,
+management\] citations: \[https://doi.org/10.1145/1273445.1273458,
+https://doi.org/10.1145/3528579.3529177,
+https://doi.org/10.1145/3454122.3454124,
+https://doi.org/10.1109/TSE.2018.2842201,
+https://doi.org/10.1007/978-1-4842-4221-6_3,
+https://www.microsoft.com/en-us/research/publication/appendix-to-productivity-quality-alignment,
+https://doi.org/10.1109/TSE.2019.2944354]
 
 draft: false
 
-date: 2022-10-27T16:03:42-05:00
-featured_image: ''
-include_toc: true
-markup: md
-outputs: []
-show_comments: false
-toc: false
-show_reading_time: true
----
+## date: 2022-10-27T16:03:42-05:00 featured_image: '' include_toc: true markup: md outputs: [] show_comments: false toc: false show_reading_time: true
 
 # A summary of *How Developers and Managers Define and Trade Productivity for Quality*
 

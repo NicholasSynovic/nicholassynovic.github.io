@@ -1,22 +1,21 @@
----
-title: A summary of How to Read a Paper by S. Keshav
-description: Published in the 37th volume, issue 3 of the ACM SIGCOMM Computer Communication Review in 2007
-summary: Published in the 37th volume, issue 3 of the ACM SIGCOMM Computer Communication Review in 2007
+______________________________________________________________________
 
-categories: [summary, meta, ACM, ACM SIGCOMM, SIGCOMM, 2007, ACM SIGCOMM Computer Communication Review]
-citations: [https://doi.org/10.1145/1273445.1273458, https://simon.peytonjones.org/great-research-talk/, http://people.inf.ethz.ch/troscoe/pubs/reviewwriting.pdf, http://www.cs.columbia.edu/hgs/etc/writingstyle.html, http://www.che.iitm.ac.in/misc/dd/writepaper.pdf]
+title: A summary of How to Read a Paper by S. Keshav description: Published in
+the 37th volume, issue 3 of the ACM SIGCOMM Computer Communication Review in
+2007 summary: Published in the 37th volume, issue 3 of the ACM SIGCOMM Computer
+Communication Review in 2007
+
+categories: \[summary, meta, ACM, ACM SIGCOMM, SIGCOMM, 2007, ACM SIGCOMM
+Computer Communication Review\] citations:
+\[https://doi.org/10.1145/1273445.1273458,
+https://simon.peytonjones.org/great-research-talk/,
+http://people.inf.ethz.ch/troscoe/pubs/reviewwriting.pdf,
+http://www.cs.columbia.edu/hgs/etc/writingstyle.html,
+http://www.che.iitm.ac.in/misc/dd/writepaper.pdf]
 
 draft: false
 
-date: 2022-09-28T15:11:09-05:00
-featured_image: ''
-include_toc: true
-markup: md
-outputs: []
-show_comments: false
-toc: false
-show_reading_time: true
----
+## date: 2022-09-28T15:11:09-05:00 featured_image: '' include_toc: true markup: md outputs: [] show_comments: false toc: false show_reading_time: true
 
 # A summary of *How to Read a Paper*
 

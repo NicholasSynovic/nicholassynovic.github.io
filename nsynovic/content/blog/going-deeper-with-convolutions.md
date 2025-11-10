@@ -1,22 +1,25 @@
----
-title: A summary of Going deeper with convolutions by Christian Szegedy et al.
-description: Published on arXive in 2014
-summary: Published on arXive in 2014
+______________________________________________________________________
 
-categories: [summary, computer vision, CV, ml, machine learning, machine learning architecture, arXive, 2014]
-citations: [https://doi.org/10.1145/1273445.1273458, https://doi.org/10.48550/arXiv.1409.4842, https://doi.org/10.48550/arXiv.1207.0580, https://doi.org/10.48550/arXiv.1312.6229, https://doi.org/10.1109/TPAMI.2007.56, https://doi.org/10.48550/arXiv.1312.4400, https://doi.org/10.1145/3065386, https://openaccess.thecvf.com/content_cvpr_2014/html/Girshick_Rich_Feature_Hierarchies_2014_CVPR_paper.html, https://openaccess.thecvf.com/content_cvpr_2014/html/Erhan_Scalable_Object_Detection_2014_CVPR_paper.html, http://proceedings.mlr.press/v32/arora14.pdf, https://doi.org/10.1162/neco.1989.1.4.541, https://doi.org/10.1137/0330046, https://doi.org/10.1109/ICCV.2011.6126456, https://doi.org/10.48550/arXiv.1312.5402]
+title: A summary of Going deeper with convolutions by Christian Szegedy et al.
+description: Published on arXive in 2014 summary: Published on arXive in 2014
+
+categories: \[summary, computer vision, CV, ml, machine learning, machine
+learning architecture, arXive, 2014\] citations:
+\[https://doi.org/10.1145/1273445.1273458,
+https://doi.org/10.48550/arXiv.1409.4842,
+https://doi.org/10.48550/arXiv.1207.0580,
+https://doi.org/10.48550/arXiv.1312.6229, https://doi.org/10.1109/TPAMI.2007.56,
+https://doi.org/10.48550/arXiv.1312.4400, https://doi.org/10.1145/3065386,
+https://openaccess.thecvf.com/content_cvpr_2014/html/Girshick_Rich_Feature_Hierarchies_2014_CVPR_paper.html,
+https://openaccess.thecvf.com/content_cvpr_2014/html/Erhan_Scalable_Object_Detection_2014_CVPR_paper.html,
+http://proceedings.mlr.press/v32/arora14.pdf,
+https://doi.org/10.1162/neco.1989.1.4.541, https://doi.org/10.1137/0330046,
+https://doi.org/10.1109/ICCV.2011.6126456,
+https://doi.org/10.48550/arXiv.1312.5402]
 
 draft: false
 
-date: 2022-09-28T20:07:40-05:00
-featured_image: ''
-include_toc: true
-markup: md
-outputs: []
-show_comments: false
-toc: false
-show_reading_time: true
----
+## date: 2022-09-28T20:07:40-05:00 featured_image: '' include_toc: true markup: md outputs: [] show_comments: false toc: false show_reading_time: true
 
 # A summary of *Going deeper with convolutions*
 

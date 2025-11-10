@@ -1,27 +1,25 @@
----
-title: A summary of The Loudest Duck by Laura Liswood
-description: Authored by Laura Liswood
-summary: Authored by Laura Liswood
+______________________________________________________________________
+
+title: A summary of The Loudest Duck by Laura Liswood description: Authored by
+Laura Liswood summary: Authored by Laura Liswood
 
 categories: [summary, book, diversity, leadership]
-# citations: [
-#       https://www.amazon.com/Loudest-Duck-Diversity-Embracing-Differences/dp/0470485841/ref=sr_1_1?keywords=the+loudest+duck&sr=8-1,
-#   https://www.amazon.com/Composing-Life-Mary-Catherine-Bateson/dp/0802138047/ref=sr_1_1?keywords=Composing+a+Life&sr=8-1,
-#   https://www.amazon.com/Leading-Minds-Howard-Gardner-audiobook/dp/B006IL6SCO/ref=sr_1_1?keywords=leading+minds&sr=8-1,
-#   https://interculturalstudies.org/main.html, https://cawp.rutgers.edu/,
-#       https://www.amazon.com/The-Wisdom-of-Crowds-audiobook/dp/B0002P0CHY/ref=sr_1_1?keywords=the+wisdom+of+crowds&sr=8-1]
+
+# citations: \[
+
+# https://www.amazon.com/Loudest-Duck-Diversity-Embracing-Differences/dp/0470485841/ref=sr_1_1?keywords=the+loudest+duck&sr=8-1,
+
+# https://www.amazon.com/Composing-Life-Mary-Catherine-Bateson/dp/0802138047/ref=sr_1_1?keywords=Composing+a+Life&sr=8-1,
+
+# https://www.amazon.com/Leading-Minds-Howard-Gardner-audiobook/dp/B006IL6SCO/ref=sr_1_1?keywords=leading+minds&sr=8-1,
+
+# https://interculturalstudies.org/main.html, https://cawp.rutgers.edu/,
+
+# https://www.amazon.com/The-Wisdom-of-Crowds-audiobook/dp/B0002P0CHY/ref=sr_1_1?keywords=the+wisdom+of+crowds&sr=8-1]
 
 draft: false
 
-date: 2023-02-07T13:19:03-06:00
-featured_image: ''
-include_toc: true
-markup: md
-outputs: []
-show_comments: false
-toc: false
-show_reading_time: true
----
+## date: 2023-02-07T13:19:03-06:00 featured_image: '' include_toc: true markup: md outputs: [] show_comments: false toc: false show_reading_time: true
 
 # A summary of *The Loudest Duck*
 

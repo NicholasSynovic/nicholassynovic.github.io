@@ -1,22 +1,23 @@
----
-title: Hugo, Gopher, Gemini, and Annoyances
-description: My story with setting up a Gopher and Gemini compatible website powered by Hugo
-summary: My story with setting up a Gopher and Gemini compatible website powered by Hugo
+______________________________________________________________________
 
-categories: [jam stack, gopher, Gemini, web dev, blog]
-citations: [https://gohugo.io/, https://pages.github.com/, https://domains.google.com/, https://tinyurl.com/mrcttsj3, https://tinyurl.com/2p8wu35v, https://en.wikipedia.org/wiki/Gopher_(protocol), https://gemini.circumlunar.space/, https://jfm.carcosa.net/blog/computing/hugo-gopher/, https://github.com/gophernicus/gophernicus, https://github.com/gophernicus/gophernicus/blob/master/gophermap.sample, https://neovim.io/, https://sylvaindurand.org/gemini-and-hugo/, https://tildeverse.org/, https://github.com/NicholasSynovic/nsynovic.dev]
+title: Hugo, Gopher, Gemini, and Annoyances description: My story with setting
+up a Gopher and Gemini compatible website powered by Hugo summary: My story with
+setting up a Gopher and Gemini compatible website powered by Hugo
+
+categories: [jam stack, gopher, Gemini, web dev, blog] citations:
+\[https://gohugo.io/, https://pages.github.com/, https://domains.google.com/,
+https://tinyurl.com/mrcttsj3, https://tinyurl.com/2p8wu35v,
+https://en.wikipedia.org/wiki/Gopher_(protocol),
+https://gemini.circumlunar.space/,
+https://jfm.carcosa.net/blog/computing/hugo-gopher/,
+https://github.com/gophernicus/gophernicus,
+https://github.com/gophernicus/gophernicus/blob/master/gophermap.sample,
+https://neovim.io/, https://sylvaindurand.org/gemini-and-hugo/,
+https://tildeverse.org/, https://github.com/NicholasSynovic/nsynovic.dev]
 
 draft: false
 
-date: 2022-08-04T08:38:05-05:00
-featured_image: ''
-include_toc: true
-markup: md
-outputs: []
-show_comments: false
-toc: false
-show_reading_time: true
----
+## date: 2022-08-04T08:38:05-05:00 featured_image: '' include_toc: true markup: md outputs: [] show_comments: false toc: false show_reading_time: true
 
 # Hugo, Gopher, Gemini, and Annoyances
 

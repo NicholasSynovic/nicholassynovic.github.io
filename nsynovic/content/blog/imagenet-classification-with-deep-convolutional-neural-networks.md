@@ -1,22 +1,17 @@
----
-title: A summary of ImageNet Classification with Deep Convolutional Neural Networks by Krizhevsky et al.
-description: Published in the 60th volume, number 6 Communications of the ACM in 2017
-summary: Published in the 60th volume, number 6 Communications of the ACM in 2017
+______________________________________________________________________
 
-categories: [summary, deep learning, computer vision, ImageNet, GPU, 2017, Communications of the ACM]
-citations: [https://doi.org/10.1145/1273445.1273458, https://doi.org/10.1145/3065386]
+title: A summary of ImageNet Classification with Deep Convolutional Neural
+Networks by Krizhevsky et al. description: Published in the 60th volume, number
+6 Communications of the ACM in 2017 summary: Published in the 60th volume,
+number 6 Communications of the ACM in 2017
+
+categories: \[summary, deep learning, computer vision, ImageNet, GPU, 2017,
+Communications of the ACM\] citations:
+\[https://doi.org/10.1145/1273445.1273458, https://doi.org/10.1145/3065386]
 
 draft: false
 
-date: 2022-09-29T14:33:01-05:00
-featured_image: ''
-include_toc: true
-markup: md
-outputs: []
-show_comments: false
-toc: false
-show_reading_time: true
----
+## date: 2022-09-29T14:33:01-05:00 featured_image: '' include_toc: true markup: md outputs: [] show_comments: false toc: false show_reading_time: true
 
 # A summary of *ImageNet Classification with Deep Convolutional Neural Networks*
 

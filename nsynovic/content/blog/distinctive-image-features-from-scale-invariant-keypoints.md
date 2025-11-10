@@ -1,22 +1,23 @@
----
-title: A summary of Distinctive Image Features from Scale-Invariant Keypoints by David G. Lowe
-description: Posted in the International Journal of Computer Vision, 2004
-summary: Posted in the International Journal of Computer Vision, 2004
+______________________________________________________________________
 
-categories: [summary, ICJV, 2004, invariant features, object recognition, scale invariance, image matching]
-citations: [https://doi.org/10.1145/1273445.1273458, https://doi.org/10.1023/B:VISI.0000029664.99615.94, https://ece631web.groups.et.byu.net/References/Invariant%20features%20from%20interest%20point%20groups.pdf, https://doi.org/10.1007/3-540-47969-4_19, https://doi.org/10.1109/TPAMI.1984.4767500, https://doi.org/10.1109/CVPR.2003.1211479, https://tinyurl.com/3d7fk8vn, https://doi.org/10.1007/BF00336961]
+title: A summary of Distinctive Image Features from Scale-Invariant Keypoints by
+David G. Lowe description: Posted in the International Journal of Computer
+Vision, 2004 summary: Posted in the International Journal of Computer Vision,
+2004
+
+categories: \[summary, ICJV, 2004, invariant features, object recognition, scale
+invariance, image matching\] citations:
+\[https://doi.org/10.1145/1273445.1273458,
+https://doi.org/10.1023/B:VISI.0000029664.99615.94,
+https://ece631web.groups.et.byu.net/References/Invariant%20features%20from%20interest%20point%20groups.pdf,
+https://doi.org/10.1007/3-540-47969-4_19,
+https://doi.org/10.1109/TPAMI.1984.4767500,
+https://doi.org/10.1109/CVPR.2003.1211479, https://tinyurl.com/3d7fk8vn,
+https://doi.org/10.1007/BF00336961]
 
 draft: false
 
-date: 2022-11-18T20:47:39-06:00
-featured_image: ''
-include_toc: true
-markup: md
-outputs: []
-show_comments: false
-toc: false
-show_reading_time: true
----
+## date: 2022-11-18T20:47:39-06:00 featured_image: '' include_toc: true markup: md outputs: [] show_comments: false toc: false show_reading_time: true
 
 # A summary of *Distinctive Image Features from Scale-Invariant Keypoints*
 

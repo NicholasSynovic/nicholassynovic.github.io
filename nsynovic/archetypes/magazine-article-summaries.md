@@ -1,22 +1,13 @@
----
-title: A summary of CHANGE ME by AUTHOR
-description: Posted in the CONFRENCE | JOURNAL | etc. , YEAR
-summary: Posted in the CONFRENCE | JOURNAL | etc. , YEAR
+______________________________________________________________________
 
-categories: [summary, magazine, article]
-citations: []
+title: A summary of CHANGE ME by AUTHOR description: Posted in the CONFRENCE |
+JOURNAL | etc. , YEAR summary: Posted in the CONFRENCE | JOURNAL | etc. , YEAR
+
+categories: [summary, magazine, article] citations: []
 
 draft: false
 
-date: {{.Date: null}: null}
-featured_image: ''
-include_toc: true
-markup: md
-outputs: []
-show_comments: false
-toc: false
-show_reading_time: true
----
+## date: {{.Date: null}: null} featured_image: '' include_toc: true markup: md outputs: [] show_comments: false toc: false show_reading_time: true
 
 # A summary of *TITLE*
 

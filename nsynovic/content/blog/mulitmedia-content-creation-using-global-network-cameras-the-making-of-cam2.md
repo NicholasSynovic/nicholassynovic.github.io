@@ -1,22 +1,19 @@
----
-title: 'A summary of Multimedia Content Creation using Global Network Cameras: The Making of CAM2 by Ahmed S. Kaseb et al.'
-description: Posted in GlobalSIP, 2015
-summary: Posted in GlobalSIP, 2015
+______________________________________________________________________
 
-categories: [summary, paper, Cameras, Cloud computing, Streaming media, Multimedia communication, Mobile communication, Navigation]
-citations: [https://doi.org/10.1145/1273445.1273458, https://doi.org/10.1109/GlobalSIP.2015.7416927, https://doi.org/10.1109/SSIAI.2014.6806032, https://doi.org/10.1145/1971162.1971171]
+title: 'A summary of Multimedia Content Creation using Global Network Cameras:
+The Making of CAM2 by Ahmed S. Kaseb et al.' description: Posted in GlobalSIP,
+2015 summary: Posted in GlobalSIP, 2015
+
+categories: \[summary, paper, Cameras, Cloud computing, Streaming media,
+Multimedia communication, Mobile communication, Navigation\] citations:
+\[https://doi.org/10.1145/1273445.1273458,
+https://doi.org/10.1109/GlobalSIP.2015.7416927,
+https://doi.org/10.1109/SSIAI.2014.6806032,
+https://doi.org/10.1145/1971162.1971171]
 
 draft: false
 
-date: 2023-03-21T12:31:04-05:00
-featured_image: ''
-include_toc: true
-markup: md
-outputs: []
-show_comments: false
-toc: false
-show_reading_time: true
----
+## date: 2023-03-21T12:31:04-05:00 featured_image: '' include_toc: true markup: md outputs: [] show_comments: false toc: false show_reading_time: true
 
 # A summary of *Multimedia Content Creation using Global Network Cameras: The Making of CAM2*
 

@@ -1,22 +1,18 @@
----
-title: A summary of Sentiment Analysis and Topic Recognition in Video Transcripts by Lukas Stappen et al.
-description: Posted in IEEE Computing Edge, December 2022
-summary: Posted in IEEE Computing Edge, December 2022
+______________________________________________________________________
 
-categories: [summary, magazine, article, affective computing and sentiment analysis]
-citations: [https://doi.org/10.1109/MIS.2021.3062200, https://doi.org/10.1109/MIS.2020.2992799, https://sentic.net/, https://www.muse-challenge.org/muse2022, https://doi.org/10.48550/arXiv.1909.11942]
+title: A summary of Sentiment Analysis and Topic Recognition in Video
+Transcripts by Lukas Stappen et al. description: Posted in IEEE Computing Edge,
+December 2022 summary: Posted in IEEE Computing Edge, December 2022
+
+categories: \[summary, magazine, article, affective computing and sentiment
+analysis\] citations: \[https://doi.org/10.1109/MIS.2021.3062200,
+https://doi.org/10.1109/MIS.2020.2992799, https://sentic.net/,
+https://www.muse-challenge.org/muse2022,
+https://doi.org/10.48550/arXiv.1909.11942]
 
 draft: false
 
-date: 2023-02-18T19:03:11-06:00
-featured_image: ''
-include_toc: true
-markup: md
-outputs: []
-show_comments: false
-toc: false
-show_reading_time: true
----
+## date: 2023-02-18T19:03:11-06:00 featured_image: '' include_toc: true markup: md outputs: [] show_comments: false toc: false show_reading_time: true
 
 # A summary of *Sentiment Analysis and Topic Recognition in Video Transcripts*
 

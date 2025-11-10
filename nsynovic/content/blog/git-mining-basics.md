@@ -1,22 +1,14 @@
----
-title: Git Mining Basics
-description: Working with the `git` version control system to process revision logs
-summary: Working with the `git` version control system to process revision logs
+______________________________________________________________________
 
-categories: ['']
-citations: ['']
+title: Git Mining Basics description: Working with the `git` version control
+system to process revision logs summary: Working with the `git` version control
+system to process revision logs
+
+categories: [''] citations: ['']
 
 draft: false
 
-date: 2025-08-22T08:23:34-05:00
-featured_image: ''
-include_toc: true
-markup: md
-outputs: []
-show_comments: false
-toc: false
-show_reading_time: true
----
+## date: 2025-08-22T08:23:34-05:00 featured_image: '' include_toc: true markup: md outputs: [] show_comments: false toc: false show_reading_time: true
 
 ## Table of contents
 

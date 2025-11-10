@@ -1,22 +1,17 @@
----
-title: A summary of Focal Loss for Dense Object Detection by Tsung-Yi Lin et al.
-description: Posted in arXiv, 2018
-summary: Posted in arXiv, 2018
+______________________________________________________________________
 
-categories: [summary, arXiv, 2018]
-citations: [https://doi.org/10.1145/1273445.1273458, http://arxiv.org/abs/1708.02002, http://dx.doi.org/10.5244/C.23.91, https://doi.org/10.1109/CVPR.2010.5539906, https://doi.org/10.1007/978-0-387-21606-5, https://doi.org/10.1007/978-3-319-46448-0_2]
+title: A summary of Focal Loss for Dense Object Detection by Tsung-Yi Lin et al.
+description: Posted in arXiv, 2018 summary: Posted in arXiv, 2018
+
+categories: [summary, arXiv, 2018] citations:
+\[https://doi.org/10.1145/1273445.1273458, http://arxiv.org/abs/1708.02002,
+http://dx.doi.org/10.5244/C.23.91, https://doi.org/10.1109/CVPR.2010.5539906,
+https://doi.org/10.1007/978-0-387-21606-5,
+https://doi.org/10.1007/978-3-319-46448-0_2]
 
 draft: false
 
-date: 2022-12-03T12:01:03-06:00
-featured_image: ''
-include_toc: true
-markup: md
-outputs: []
-show_comments: false
-toc: false
-show_reading_time: true
----
+## date: 2022-12-03T12:01:03-06:00 featured_image: '' include_toc: true markup: md outputs: [] show_comments: false toc: false show_reading_time: true
 
 # A summary of *Focal Loss for Dense Object Detection*
 

@@ -1,22 +1,15 @@
----
-title: A summary of Joint Head Pose Estimation and Face Alignment Framework Using Global and Local CNN Features by Xiang Xu and A. Kakadiaris
-description: Posted in IEEE FG, 2017
-summary: Posted in IEEE FG, 2017
+______________________________________________________________________
 
-categories: [summary]
-citations: [https://doi.org/10.1145/1273445.1273458, https://doi.org/10.1109/FG.2017.81]
+title: A summary of Joint Head Pose Estimation and Face Alignment Framework
+Using Global and Local CNN Features by Xiang Xu and A. Kakadiaris description:
+Posted in IEEE FG, 2017 summary: Posted in IEEE FG, 2017
+
+categories: [summary] citations: \[https://doi.org/10.1145/1273445.1273458,
+https://doi.org/10.1109/FG.2017.81]
 
 draft: false
 
-date: 2022-12-04T22:32:45-06:00
-featured_image: ''
-include_toc: true
-markup: md
-outputs: []
-show_comments: false
-toc: false
-show_reading_time: true
----
+## date: 2022-12-04T22:32:45-06:00 featured_image: '' include_toc: true markup: md outputs: [] show_comments: false toc: false show_reading_time: true
 
 # A summary of *Joint Head Pose Estimation and Face Alignment Framework Using Global and Local CNN Features*
 

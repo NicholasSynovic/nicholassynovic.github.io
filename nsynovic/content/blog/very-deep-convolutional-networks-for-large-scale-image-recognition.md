@@ -1,22 +1,20 @@
----
-title: A summary of Very Deep Convolutional Networks for Large-Scale Image Recognition by Karen Simonyan and Andrew Zisserman
-description: Published as a conference paper at ICLR 2015
-summary: Published as a conference paper at ICLR 2015
+______________________________________________________________________
 
-categories: [summary, CNN, CV, computer vision, ICLR, 2015]
-citations: [https://doi.org/10.1145/1273445.1273458, https://doi.org/10.48550/arXiv.1409.1556, https://doi.org/10.1145/3065386, https://doi.org/10.1162/neco.1989.1.4.541, https://doi.org/10.1145/3065386, https://doi.org/10.1007/978-3-319-10590-1_53, https://doi.org/10.48550/arXiv.1312.6229]
+title: A summary of Very Deep Convolutional Networks for Large-Scale Image
+Recognition by Karen Simonyan and Andrew Zisserman description: Published as a
+conference paper at ICLR 2015 summary: Published as a conference paper at ICLR
+2015
+
+categories: [summary, CNN, CV, computer vision, ICLR, 2015] citations:
+\[https://doi.org/10.1145/1273445.1273458,
+https://doi.org/10.48550/arXiv.1409.1556, https://doi.org/10.1145/3065386,
+https://doi.org/10.1162/neco.1989.1.4.541, https://doi.org/10.1145/3065386,
+https://doi.org/10.1007/978-3-319-10590-1_53,
+https://doi.org/10.48550/arXiv.1312.6229]
 
 draft: false
 
-date: 2022-09-28T22:40:46-05:00
-featured_image: ''
-include_toc: true
-markup: md
-outputs: []
-show_comments: false
-toc: false
-show_reading_time: true
----
+## date: 2022-09-28T22:40:46-05:00 featured_image: '' include_toc: true markup: md outputs: [] show_comments: false toc: false show_reading_time: true
 
 # A summary of *Very Deep Convolutional Networks for Large-Scale Image Recognition* by Karen Simonyan and Andrew Zisserman
 

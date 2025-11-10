@@ -1,22 +1,28 @@
----
-title: A summary of Large-Scale Image Retrieval with Attentive Deep Local Features by Hyeonwoo Noh et al.
-description: Posted in ICCV 2017
-summary: Posted in ICCV 2017
+______________________________________________________________________
 
-categories: [summary, landmark image dataset, attention mechanism, network layers, keypoint detectors, geometric verification, large-scale dataset, Google-Landmarks dataset, variable scales, global descriptors, local descriptors, large-scale image retrieval, attentive local feature descriptor, convolutional neural networks, image-level annotations, attentive deep local features, feature matching, DELE]
-citations: [https://doi.org/10.1145/1273445.1273458, https://doi.org/10.1109/ICCV.2017.374, https://doi.org/10.1007/978-3-319-46466-4_15, https://doi.org/10.1007/978-3-319-46448-0_1, https://patents.google.com/patent/US8098938B1/en, https://arxiv.org/abs/0804.4457, https://doi.org/10.1007/978-3-319-46466-4_28, https://openaccess.thecvf.com/content_cvpr_2016/html/Arandjelovic_NetVLAD_CNN_Architecture_CVPR_2016_paper.html, https://doi.org/10.1109/CVPR.2010.5540039, https://doi.org/10.1109/TPAMI.2011.235]
+title: A summary of Large-Scale Image Retrieval with Attentive Deep Local
+Features by Hyeonwoo Noh et al. description: Posted in ICCV 2017 summary: Posted
+in ICCV 2017
+
+categories: \[summary, landmark image dataset, attention mechanism, network
+layers, keypoint detectors, geometric verification, large-scale dataset,
+Google-Landmarks dataset, variable scales, global descriptors, local
+descriptors, large-scale image retrieval, attentive local feature descriptor,
+convolutional neural networks, image-level annotations, attentive deep local
+features, feature matching, DELE\] citations:
+\[https://doi.org/10.1145/1273445.1273458,
+https://doi.org/10.1109/ICCV.2017.374,
+https://doi.org/10.1007/978-3-319-46466-4_15,
+https://doi.org/10.1007/978-3-319-46448-0_1,
+https://patents.google.com/patent/US8098938B1/en,
+https://arxiv.org/abs/0804.4457, https://doi.org/10.1007/978-3-319-46466-4_28,
+https://openaccess.thecvf.com/content_cvpr_2016/html/Arandjelovic_NetVLAD_CNN_Architecture_CVPR_2016_paper.html,
+https://doi.org/10.1109/CVPR.2010.5540039,
+https://doi.org/10.1109/TPAMI.2011.235]
 
 draft: false
 
-date: 2022-11-30T16:14:49-06:00
-featured_image: ''
-include_toc: true
-markup: md
-outputs: []
-show_comments: false
-toc: false
-show_reading_time: true
----
+## date: 2022-11-30T16:14:49-06:00 featured_image: '' include_toc: true markup: md outputs: [] show_comments: false toc: false show_reading_time: true
 
 # A summary of *Large-Scale Image Retrieval with Attentive Deep Local Features*
 

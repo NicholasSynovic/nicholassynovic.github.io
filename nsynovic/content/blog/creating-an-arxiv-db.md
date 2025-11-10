@@ -1,22 +1,14 @@
----
-title: Creating an arXiv DB
-description: Creating an arXiv DB
-summary: Creating an arXiv DB
+______________________________________________________________________
 
-categories: [arxiv, database, softwareengineering, computerscience]
-citations: ['']
+title: Creating an arXiv DB description: Creating an arXiv DB summary: Creating
+an arXiv DB
+
+categories: [arxiv, database, softwareengineering, computerscience] citations:
+['']
 
 draft: false
 
-date: 2024-08-31T08:14:15-05:00
-featured_image: ''
-include_toc: true
-markup: md
-outputs: []
-show_comments: false
-toc: false
-show_reading_time: true
----
+## date: 2024-08-31T08:14:15-05:00 featured_image: '' include_toc: true markup: md outputs: [] show_comments: false toc: false show_reading_time: true
 
 As a Ph.D. student studying Deep Learning (DL) from the perspective of a
 Software Engineer, I rely upon academic resources to learn about DL models,

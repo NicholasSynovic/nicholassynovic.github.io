@@ -1,22 +1,22 @@
----
-title: A summary of Rich feature hierarchies for accurate object detection and semantic segmentation by Ross Girshick et al.
-description: Posted in the Proceedings of CVPR, 2014
-summary: Posted in the Proceedings of CVPR, 2014
+______________________________________________________________________
 
-categories: [summary, CVPR, 2014]
-citations: [https://doi.org/10.1145/1273445.1273458, https://openaccess.thecvf.com/content_cvpr_2014/html/Girshick_Rich_Feature_Hierarchies_2014_CVPR_paper.html, https://doi.org/10.1109/CVPR.2005.177, https://doi.org/10.1109/TPAMI.2012.28, https://doi.org/10.1007/s11263-013-0620-5, https://doi.org/10.1007/978-3-642-15555-0_42, https://doi.org/10.1109/TPAMI.2011.231, https://openaccess.thecvf.com/content_cvpr_2014/html/Arbelaez_Multiscale_Combinatorial_Grouping_2014_CVPR_paper.html, https://doi.org/10.1007/978-3-642-40763-5_51]
+title: A summary of Rich feature hierarchies for accurate object detection and
+semantic segmentation by Ross Girshick et al. description: Posted in the
+Proceedings of CVPR, 2014 summary: Posted in the Proceedings of CVPR, 2014
+
+categories: [summary, CVPR, 2014] citations:
+\[https://doi.org/10.1145/1273445.1273458,
+https://openaccess.thecvf.com/content_cvpr_2014/html/Girshick_Rich_Feature_Hierarchies_2014_CVPR_paper.html,
+https://doi.org/10.1109/CVPR.2005.177, https://doi.org/10.1109/TPAMI.2012.28,
+https://doi.org/10.1007/s11263-013-0620-5,
+https://doi.org/10.1007/978-3-642-15555-0_42,
+https://doi.org/10.1109/TPAMI.2011.231,
+https://openaccess.thecvf.com/content_cvpr_2014/html/Arbelaez_Multiscale_Combinatorial_Grouping_2014_CVPR_paper.html,
+https://doi.org/10.1007/978-3-642-40763-5_51]
 
 draft: false
 
-date: 2022-11-10T10:05:51-06:00
-featured_image: ''
-include_toc: true
-markup: md
-outputs: []
-show_comments: false
-toc: false
-show_reading_time: true
----
+## date: 2022-11-10T10:05:51-06:00 featured_image: '' include_toc: true markup: md outputs: [] show_comments: false toc: false show_reading_time: true
 
 # A summary of *Rich feature hierarchies for accurate object detection and semantic segmentation*
 

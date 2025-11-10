@@ -1,22 +1,16 @@
----
-title: 'A summary of Internet of Video Things in 2030: A World with Many Cameras by Anup Mohan et al.'
-description: Posted in ISCAS, 2017
-summary: Posted in ISCAS, 2017
+______________________________________________________________________
 
-categories: [summary, paper]
-citations: [https://doi.org/10.1145/1273445.1273458, https://doi.org/10.1109/ISCAS.2017.8050296]
+title: 'A summary of Internet of Video Things in 2030: A World with Many Cameras
+by Anup Mohan et al.' description: Posted in ISCAS, 2017 summary: Posted in
+ISCAS, 2017
+
+categories: [summary, paper] citations:
+\[https://doi.org/10.1145/1273445.1273458,
+https://doi.org/10.1109/ISCAS.2017.8050296]
 
 draft: false
 
-date: 2023-03-22T13:52:10-05:00
-featured_image: ''
-include_toc: true
-markup: md
-outputs: []
-show_comments: false
-toc: false
-show_reading_time: true
----
+## date: 2023-03-22T13:52:10-05:00 featured_image: '' include_toc: true markup: md outputs: [] show_comments: false toc: false show_reading_time: true
 
 # A summary of *Internet of Video Things in 2030: A World with Many Cameras*
 

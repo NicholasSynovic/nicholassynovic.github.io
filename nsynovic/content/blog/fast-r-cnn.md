@@ -1,22 +1,18 @@
----
-title: A summary of Fast R-CNN by Ross Girshick
-description: Posted in the Proceedings of the IEEE International Conference on Computer Vision, 2015
-summary: Posted in the Proceedings of the IEEE International Conference on Computer Vision, 2015
+______________________________________________________________________
 
-categories: [summary, Training, Proposals, Feature extraction, Object detection, Pipelines, Computer architecture, Open source software, 2015, CVPR]
-citations: [https://doi.org/10.1145/1273445.1273458, https://openaccess.thecvf.com/content_iccv_2015/html/Girshick_Fast_R-CNN_ICCV_2015_paper.html]
+title: A summary of Fast R-CNN by Ross Girshick description: Posted in the
+Proceedings of the IEEE International Conference on Computer Vision, 2015
+summary: Posted in the Proceedings of the IEEE International Conference on
+Computer Vision, 2015
+
+categories: \[summary, Training, Proposals, Feature extraction, Object
+detection, Pipelines, Computer architecture, Open source software, 2015, CVPR\]
+citations: \[https://doi.org/10.1145/1273445.1273458,
+https://openaccess.thecvf.com/content_iccv_2015/html/Girshick_Fast_R-CNN_ICCV_2015_paper.html]
 
 draft: false
 
-date: 2022-11-10T15:18:13-06:00
-featured_image: ''
-include_toc: true
-markup: md
-outputs: []
-show_comments: false
-toc: false
-show_reading_time: true
----
+## date: 2022-11-10T15:18:13-06:00 featured_image: '' include_toc: true markup: md outputs: [] show_comments: false toc: false show_reading_time: true
 
 # A summary of *Fast R-CNN*
 

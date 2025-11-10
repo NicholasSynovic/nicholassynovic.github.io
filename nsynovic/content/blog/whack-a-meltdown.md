@@ -1,22 +1,15 @@
----
-title: A summary of Whack-a-Meltdown by Daniel Genkin and Yuval Yarom
-description: Posted in the IEEE Computing Edge, October 2022
-summary: Posted in the IEEE Computing Edge, October 2022
+______________________________________________________________________
 
-categories: [summary, magazine, article]
-citations: [https://doi.org/10.1109/MSEC.2020.3036146]
+title: A summary of Whack-a-Meltdown by Daniel Genkin and Yuval Yarom
+description: Posted in the IEEE Computing Edge, October 2022 summary: Posted in
+the IEEE Computing Edge, October 2022
+
+categories: [summary, magazine, article] citations:
+[https://doi.org/10.1109/MSEC.2020.3036146]
 
 draft: false
 
-date: 2023-02-20T08:34:58-06:00
-featured_image: ''
-include_toc: true
-markup: md
-outputs: []
-show_comments: false
-toc: false
-show_reading_time: true
----
+## date: 2023-02-20T08:34:58-06:00 featured_image: '' include_toc: true markup: md outputs: [] show_comments: false toc: false show_reading_time: true
 
 # A summary of *Whack-a-Meltdown*
 

@@ -1,22 +1,14 @@
----
+______________________________________________________________________
+
 title: 'Introducing acolor: A small utility to print ANSI color codes'
 description: 'Introducing acolor: A small utility to print ANSI color codes'
 summary: 'Introducing acolor: A small utility to print ANSI color codes'
 
-categories: ['']
-citations: ['']
+categories: [''] citations: ['']
 
 draft: false
 
-date: 2024-12-31T08:08:00-05:00
-featured_image: ''
-include_toc: true
-markup: md
-outputs: []
-show_comments: false
-toc: false
-show_reading_time: true
----
+## date: 2024-12-31T08:08:00-05:00 featured_image: '' include_toc: true markup: md outputs: [] show_comments: false toc: false show_reading_time: true
 
 In my previous post, I wrote about a tool I wanted to create to print ANSI color
 codes to the console. I currently need a this as I am "prettifying" my shell

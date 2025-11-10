@@ -1,22 +1,33 @@
----
-title: A summary of "What are Weak Links in the npm Supply Chain?", by Nusrat Zahan et al.
-description: Posted in the Proceedings of ICSE-SEIP 2022
-summary: Posted in the Proceedings of ICSE-SEIP 2022
+______________________________________________________________________
 
-categories: [summary, Software Ecosystem, Supply Chain Security, npm, Weak link Signal, ICSE-SEIP, 2022]
-citations: [https://doi.org/10.1145/1273445.1273458, https://doi.org/10.1145/3510457.3513044, https://doi.org/10.1109/ICSE.2009.5070550, https://doi.org/10.1145/2025113.2025119, https://www.csoonline.com/article/3601508/solarwinds-supply-chain-attack-explained-why-organizations-were-not-prepared.html, https://www.perl.com/article/the-hijacking-of-perl-com/, https://doi.org/10.48550/arXiv.2002.01139, https://doi.org/10.1109/ICSE-NIER.2019.00012, https://doi.org/10.1109/ICSE-SEIP52600.2021.00035, https://snyk.io/blog/solarwinds-orion-security-breach-a-shift-in-the-software-supply-chain-paradigm/, https://medium.com/intrinsic-blog/compromised-npm-package-event-stream-d47d08605502, https://github.blog/2020-09-02-secure-your-software-supply-chain-and-protect-against-supply-chain-threats-github-blog/, https://thehackernews.com/2018/04/ccleaner-malware-attack.html, https://www.idagent.com/blog/2017-08-03-notpetya-threat-supply-chains-across-ukraine/, https://doi.org/10.1145/1653662.1653717, https://snyk.io/open-source-security/, https://doi.org/10.1007/978-3-030-52683-2_2, https://bestpractices.coreinfrastructure.org/en, https://metrics.openssf.org/, https://github.com/ossf/scorecard, https://www.usenix.org/conference/usenixsecurity19/presentation/zimmerman]
+title: A summary of "What are Weak Links in the npm Supply Chain?", by Nusrat
+Zahan et al. description: Posted in the Proceedings of ICSE-SEIP 2022 summary:
+Posted in the Proceedings of ICSE-SEIP 2022
+
+categories: \[summary, Software Ecosystem, Supply Chain Security, npm, Weak link
+Signal, ICSE-SEIP, 2022\] citations: \[https://doi.org/10.1145/1273445.1273458,
+https://doi.org/10.1145/3510457.3513044,
+https://doi.org/10.1109/ICSE.2009.5070550,
+https://doi.org/10.1145/2025113.2025119,
+https://www.csoonline.com/article/3601508/solarwinds-supply-chain-attack-explained-why-organizations-were-not-prepared.html,
+https://www.perl.com/article/the-hijacking-of-perl-com/,
+https://doi.org/10.48550/arXiv.2002.01139,
+https://doi.org/10.1109/ICSE-NIER.2019.00012,
+https://doi.org/10.1109/ICSE-SEIP52600.2021.00035,
+https://snyk.io/blog/solarwinds-orion-security-breach-a-shift-in-the-software-supply-chain-paradigm/,
+https://medium.com/intrinsic-blog/compromised-npm-package-event-stream-d47d08605502,
+https://github.blog/2020-09-02-secure-your-software-supply-chain-and-protect-against-supply-chain-threats-github-blog/,
+https://thehackernews.com/2018/04/ccleaner-malware-attack.html,
+https://www.idagent.com/blog/2017-08-03-notpetya-threat-supply-chains-across-ukraine/,
+https://doi.org/10.1145/1653662.1653717, https://snyk.io/open-source-security/,
+https://doi.org/10.1007/978-3-030-52683-2_2,
+https://bestpractices.coreinfrastructure.org/en, https://metrics.openssf.org/,
+https://github.com/ossf/scorecard,
+https://www.usenix.org/conference/usenixsecurity19/presentation/zimmerman]
 
 draft: false
 
-date: 2022-10-31T09:50:49-05:00
-featured_image: ''
-include_toc: true
-markup: md
-outputs: []
-show_comments: false
-toc: false
-show_reading_time: true
----
+## date: 2022-10-31T09:50:49-05:00 featured_image: '' include_toc: true markup: md outputs: [] show_comments: false toc: false show_reading_time: true
 
 # A summary of *"What are Weak Links in the npm Supply Chain?"*
 

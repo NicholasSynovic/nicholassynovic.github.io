@@ -1,22 +1,13 @@
----
-title: 'Polyglot: Lua (Part 0)'
-description: 'Polyglot: Lua (Part 0)'
-summary: 'Polyglot: Lua (Part 0)'
+______________________________________________________________________
 
-categories: [programming, beginners, lua, learning]
-citations: ['']
+title: 'Polyglot: Lua (Part 0)' description: 'Polyglot: Lua (Part 0)' summary:
+'Polyglot: Lua (Part 0)'
+
+categories: [programming, beginners, lua, learning] citations: ['']
 
 draft: false
 
-date: 2025-01-12T07:06:45-05:00
-featured_image: ''
-include_toc: true
-markup: md
-outputs: []
-show_comments: false
-toc: false
-show_reading_time: true
----
+## date: 2025-01-12T07:06:45-05:00 featured_image: '' include_toc: true markup: md outputs: [] show_comments: false toc: false show_reading_time: true
 
 I've been interested in expanding my toolkit of programming languages for some
 time now. I would currently say that I am proficient in Java, C, and C++ and

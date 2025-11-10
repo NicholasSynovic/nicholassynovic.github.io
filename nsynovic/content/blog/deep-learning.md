@@ -1,22 +1,21 @@
----
-title: A summary of Deep Learning by Yann LeCun et al,
-description: Posted in Nature, 2015
-summary: Posted in Nature, 2015
+______________________________________________________________________
 
-categories: [summary, Nature, 2015]
-citations: [https://doi.org/10.1145/1273445.1273458, https://doi.org/10.1038/nature14539, https://doi.org/10.1145/3065386, https://doi.org/10.1109/MSP.2012.2205597, https://proceedings.neurips.cc/paper/2014/hash/a14ac55a4f27472c5d894ec1c3c743d2-Abstract.html, https://proceedings.mlr.press/v15/glorot11a.html, https://doi.org/10.1162/neco.2006.18.7.1527, https://proceedings.neurips.cc/paper/2006/hash/5da713a690c067105aeb2fae32403405-Abstract.html, https://proceedings.neurips.cc/paper/1989/hash/53c3bce66e43be4f209556518c2fcb54-Abstract.html, https://doi.org/10.1109/5.726791, https://doi.org/10.1162/neco.1997.9.8.1735]
+title: A summary of Deep Learning by Yann LeCun et al, description: Posted in
+Nature, 2015 summary: Posted in Nature, 2015
+
+categories: [summary, Nature, 2015] citations:
+\[https://doi.org/10.1145/1273445.1273458, https://doi.org/10.1038/nature14539,
+https://doi.org/10.1145/3065386, https://doi.org/10.1109/MSP.2012.2205597,
+https://proceedings.neurips.cc/paper/2014/hash/a14ac55a4f27472c5d894ec1c3c743d2-Abstract.html,
+https://proceedings.mlr.press/v15/glorot11a.html,
+https://doi.org/10.1162/neco.2006.18.7.1527,
+https://proceedings.neurips.cc/paper/2006/hash/5da713a690c067105aeb2fae32403405-Abstract.html,
+https://proceedings.neurips.cc/paper/1989/hash/53c3bce66e43be4f209556518c2fcb54-Abstract.html,
+https://doi.org/10.1109/5.726791, https://doi.org/10.1162/neco.1997.9.8.1735]
 
 draft: false
 
-date: 2022-11-08T12:55:10-06:00
-featured_image: ''
-include_toc: true
-markup: md
-outputs: []
-show_comments: false
-toc: false
-show_reading_time: true
----
+## date: 2022-11-08T12:55:10-06:00 featured_image: '' include_toc: true markup: md outputs: [] show_comments: false toc: false show_reading_time: true
 
 # A summary of *Deep Learning*
 

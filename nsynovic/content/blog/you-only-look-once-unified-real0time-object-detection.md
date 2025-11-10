@@ -1,22 +1,15 @@
----
-title: 'A summary of You Only Look Once: Unified, Real-Time Object Detection by Joseph Redmon et al.'
-description: Posted in the CVPR, 2016
-summary: Posted in CVPR, 2016
+______________________________________________________________________
 
-categories: [summary, CVPR, 2016]
-citations: [https://doi.org/10.1145/1273445.1273458, https://doi.org/10.1109/CVPR.2016.91]
+title: 'A summary of You Only Look Once: Unified, Real-Time Object Detection by
+Joseph Redmon et al.' description: Posted in the CVPR, 2016 summary: Posted in
+CVPR, 2016
+
+categories: [summary, CVPR, 2016] citations:
+\[https://doi.org/10.1145/1273445.1273458, https://doi.org/10.1109/CVPR.2016.91]
 
 draft: false
 
-date: 2022-12-02T21:50:54-06:00
-featured_image: ''
-include_toc: true
-markup: md
-outputs: []
-show_comments: false
-toc: false
-show_reading_time: true
----
+## date: 2022-12-02T21:50:54-06:00 featured_image: '' include_toc: true markup: md outputs: [] show_comments: false toc: false show_reading_time: true
 
 # A summary of *You Only Look Once: Unified, Real-Time Object Detection*
 

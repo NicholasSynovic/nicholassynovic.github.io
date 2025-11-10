@@ -1,22 +1,15 @@
----
-title: A summary of A Convolutional Neural Network Cascade for Face Detection by Haoxiang Li et al.
-description: Posted in CVPR, 2015
-summary: Posted in in CVPR, 2015
+______________________________________________________________________
 
-categories: [summary]
-citations: [https://doi.org/10.1145/1273445.1273458, https://doi.org/10.1109/CVPR.2015.7299170]
+title: A summary of A Convolutional Neural Network Cascade for Face Detection by
+Haoxiang Li et al. description: Posted in CVPR, 2015 summary: Posted in in CVPR,
+2015
+
+categories: [summary] citations: \[https://doi.org/10.1145/1273445.1273458,
+https://doi.org/10.1109/CVPR.2015.7299170]
 
 draft: false
 
-date: 2022-12-04T21:43:17-06:00
-featured_image: ''
-include_toc: true
-markup: md
-outputs: []
-show_comments: false
-toc: false
-show_reading_time: true
----
+## date: 2022-12-04T21:43:17-06:00 featured_image: '' include_toc: true markup: md outputs: [] show_comments: false toc: false show_reading_time: true
 
 # A summary of *A Convolutional Neural Network Cascade for Face Detection*
 

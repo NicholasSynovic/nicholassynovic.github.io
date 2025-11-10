@@ -1,22 +1,26 @@
----
-title: Hello World
-description: An introduction to me, this site, and the content I want to make.
-summary: An introduction to me, this site, and the content I want to make.
+______________________________________________________________________
 
-categories: [hello, introduction, first-post, personal, blog]
-citations: [https://luc.edu, https://ssl.cs.luc.edu, https://conf.researchr.org/home/ase-2022, https://arxiv.org/abs/2207.11767, https://www.purdue.edu/, https://lakescommunityhs.rschoolteams.com/page/3455, https://www.instagram.com/p/B7oj2NNJMrc/, https://www.medline.com/, https://loyolaaiclub.github.io, https://www.intel.com/content/www/us/en/developer/tools/oneapi/training/academic-program/student-ambassador.html, https://nsynovic.dev/contact/, https://gohugo.io, https://github.com/theNewDynamic/gohugo-theme-ananke, https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol, https://en.wikipedia.org/wiki/Gopher_(protocol), https://gemini.circumlunar.space/, https://pages.github.com/, https://nsynovic.dev/, https://dev.to/nicholassynovic, https://tilde.team/]
+title: Hello World description: An introduction to me, this site, and the
+content I want to make. summary: An introduction to me, this site, and the
+content I want to make.
+
+categories: [hello, introduction, first-post, personal, blog] citations:
+\[https://luc.edu, https://ssl.cs.luc.edu,
+https://conf.researchr.org/home/ase-2022, https://arxiv.org/abs/2207.11767,
+https://www.purdue.edu/, https://lakescommunityhs.rschoolteams.com/page/3455,
+https://www.instagram.com/p/B7oj2NNJMrc/, https://www.medline.com/,
+https://loyolaaiclub.github.io,
+https://www.intel.com/content/www/us/en/developer/tools/oneapi/training/academic-program/student-ambassador.html,
+https://nsynovic.dev/contact/, https://gohugo.io,
+https://github.com/theNewDynamic/gohugo-theme-ananke,
+https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol,
+https://en.wikipedia.org/wiki/Gopher_(protocol),
+https://gemini.circumlunar.space/, https://pages.github.com/,
+https://nsynovic.dev/, https://dev.to/nicholassynovic, https://tilde.team/]
 
 draft: false
 
-date: 2022-07-28T19:47:48-05:00
-featured_image: ''
-include_toc: true
-markup: md
-outputs: []
-show_comments: false
-toc: false
-show_reading_time: true
----
+## date: 2022-07-28T19:47:48-05:00 featured_image: '' include_toc: true markup: md outputs: [] show_comments: false toc: false show_reading_time: true
 
 # Hello World
 

@@ -1,22 +1,15 @@
----
-title: 'A summary of  U-Net: Convolutional Networks for Biomedical Image Segmentation by Olaf Ronneberger et al.'
-description: Posted in arXiv, 2015
+______________________________________________________________________
+
+title: 'A summary of U-Net: Convolutional Networks for Biomedical Image
+Segmentation by Olaf Ronneberger et al.' description: Posted in arXiv, 2015
 summary: Posted in arXiv, 2015
 
-categories: [summary, arXiv, 2015]
-citations: [https://doi.org/10.1145/1273445.1273458, http://arxiv.org/abs/1505.04597]
+categories: [summary, arXiv, 2015] citations:
+\[https://doi.org/10.1145/1273445.1273458, http://arxiv.org/abs/1505.04597]
 
 draft: false
 
-date: 2022-12-03T15:05:16-06:00
-featured_image: ''
-include_toc: true
-markup: md
-outputs: []
-show_comments: false
-toc: false
-show_reading_time: true
----
+## date: 2022-12-03T15:05:16-06:00 featured_image: '' include_toc: true markup: md outputs: [] show_comments: false toc: false show_reading_time: true
 
 # A summary of *U-Net: Convolutional Networks for Biomedical Image Segmentation*
 

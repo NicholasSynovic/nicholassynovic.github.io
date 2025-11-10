@@ -1,22 +1,15 @@
----
-title: 'A summary of img2pose: Face Alignment and Detection via 6DoF, Face Pose Estimation by Vitor Albiero et al.'
-description: Posted in CVPR, 2021
-summary: Posted in CVPR, 2021
+______________________________________________________________________
 
-categories: [summary]
-citations: [https://doi.org/10.1145/1273445.1273458, https://doi.org/10.1109/CVPR46437.2021.00753]
+title: 'A summary of img2pose: Face Alignment and Detection via 6DoF, Face Pose
+Estimation by Vitor Albiero et al.' description: Posted in CVPR, 2021 summary:
+Posted in CVPR, 2021
+
+categories: [summary] citations: \[https://doi.org/10.1145/1273445.1273458,
+https://doi.org/10.1109/CVPR46437.2021.00753]
 
 draft: true
 
-date: 2022-12-04T23:56:31-06:00
-featured_image: ''
-include_toc: true
-markup: md
-outputs: []
-show_comments: false
-toc: false
-show_reading_time: true
----
+## date: 2022-12-04T23:56:31-06:00 featured_image: '' include_toc: true markup: md outputs: [] show_comments: false toc: false show_reading_time: true
 
 # A summary of *img2pose: Face Alignment and Detection via 6DoF, Face Pose Estimation*
 

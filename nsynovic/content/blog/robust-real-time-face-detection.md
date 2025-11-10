@@ -1,22 +1,18 @@
----
+______________________________________________________________________
+
 title: A summary of Robust Real Time-Face Detection by P. Viola and M.J. Jones
 description: Published in the 2004 International Journal of Computer Vision
 summary: Published in the 2004 International Journal of Computer Vision
 
-categories: [summary, face detection, boosting, human sensing, International Journal of Computer Vision, 2004]
-citations: [https://doi.org/10.1145/1273445.1273458, https://doi.org/10.1023/B:VISI.0000013087.49260.fb, https://doi.org/10.1006/jcss.1997.1504]
+categories: \[summary, face detection, boosting, human sensing, International
+Journal of Computer Vision, 2004\] citations:
+\[https://doi.org/10.1145/1273445.1273458,
+https://doi.org/10.1023/B:VISI.0000013087.49260.fb,
+https://doi.org/10.1006/jcss.1997.1504]
 
 draft: false
 
-date: 2022-10-24T19:29:57-05:00
-featured_image: ''
-include_toc: true
-markup: md
-outputs: []
-show_comments: false
-toc: false
-show_reading_time: true
----
+## date: 2022-10-24T19:29:57-05:00 featured_image: '' include_toc: true markup: md outputs: [] show_comments: false toc: false show_reading_time: true
 
 # A summary of *Robust Real-Time Face Detection*
 

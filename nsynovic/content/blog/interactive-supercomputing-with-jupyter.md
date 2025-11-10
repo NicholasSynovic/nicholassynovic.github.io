@@ -1,22 +1,15 @@
----
-title: A summary of Interactive Supercomputing With Jupyter by Rollin Thomas et al.
-description: Posted in the IEEE Computing Edge, October 2022
-summary: Posted in the IEEE Computing Edge, October 2022
+______________________________________________________________________
 
-categories: [summary, magazine, article, leadership computing]
-citations: [https://doi.org/10.1109/MCSE.2021.3059037]
+title: A summary of Interactive Supercomputing With Jupyter by Rollin Thomas et
+al. description: Posted in the IEEE Computing Edge, October 2022 summary: Posted
+in the IEEE Computing Edge, October 2022
+
+categories: [summary, magazine, article, leadership computing] citations:
+[https://doi.org/10.1109/MCSE.2021.3059037]
 
 draft: false
 
-date: 2023-02-19T20:40:07-06:00
-featured_image: ''
-include_toc: true
-markup: md
-outputs: []
-show_comments: false
-toc: false
-show_reading_time: true
----
+## date: 2023-02-19T20:40:07-06:00 featured_image: '' include_toc: true markup: md outputs: [] show_comments: false toc: false show_reading_time: true
 
 # A summary of *Interactive Supercomputing With Jupyter*
 

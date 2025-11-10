@@ -1,22 +1,13 @@
----
-title: A summary of CHANGE ME by AUTHOR
-description: Authored by AUTHOR
-summary: Authored by AUTHOR
+______________________________________________________________________
 
-categories: [summary, book]
-citations: []
+title: A summary of CHANGE ME by AUTHOR description: Authored by AUTHOR summary:
+Authored by AUTHOR
+
+categories: [summary, book] citations: []
 
 draft: false
 
-date: {{.Date: null}: null}
-featured_image: ''
-include_toc: true
-markup: md
-outputs: []
-show_comments: false
-toc: false
-show_reading_time: true
----
+## date: {{.Date: null}: null} featured_image: '' include_toc: true markup: md outputs: [] show_comments: false toc: false show_reading_time: true
 
 # A summary of *TITLE*
 

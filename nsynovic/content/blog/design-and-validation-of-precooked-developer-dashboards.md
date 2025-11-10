@@ -1,23 +1,23 @@
----
-title: A summary of Design and validation of precooked developer dashboards by Ivanov et al.
-authors: Ivanov et al.
-description: 'Posted in the ESEC/FSE 2018: Proceedings of the 2018 26th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering, 2018'
-summary: 'Posted in the ESEC/FSE 2018: Proceedings of the 2018 26th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering, 2018'
+______________________________________________________________________
 
-categories: [summary, paper, software and its engineering, software creation and management, software development process management]
-citations: [https://doi.org/10.1145/1273445.1273458, https://doi.org/10.1145/3236024.3275530, https://doi.org/10.1016/0191-8869(86)90014-0, http://dx.doi.org/10.1037/0021-9010.88.5.879]
+title: A summary of Design and validation of precooked developer dashboards by
+Ivanov et al. authors: Ivanov et al. description: 'Posted in the ESEC/FSE 2018:
+Proceedings of the 2018 26th ACM Joint Meeting on European Software Engineering
+Conference and Symposium on the Foundations of Software Engineering, 2018'
+summary: 'Posted in the ESEC/FSE 2018: Proceedings of the 2018 26th ACM Joint
+Meeting on European Software Engineering Conference and Symposium on the
+Foundations of Software Engineering, 2018'
+
+categories: \[summary, paper, software and its engineering, software creation
+and management, software development process management\] citations:
+\[https://doi.org/10.1145/1273445.1273458,
+https://doi.org/10.1145/3236024.3275530,
+https://doi.org/10.1016/0191-8869(86)90014-0,
+http://dx.doi.org/10.1037/0021-9010.88.5.879]
 
 draft: false
 
-date: 2023-06-28T10:15:26-05:00
-featured_image: ''
-include_toc: true
-markup: md
-outputs: []
-show_comments: false
-toc: false
-show_reading_time: true
----
+## date: 2023-06-28T10:15:26-05:00 featured_image: '' include_toc: true markup: md outputs: [] show_comments: false toc: false show_reading_time: true
 
 # A summary of *Design and validation of precooked developer dashboards*
 

@@ -1,22 +1,13 @@
----
-title: 'Back To Basics: git'
-description: 'Back To Basics: git'
-summary: 'Back To Basics: git'
+______________________________________________________________________
 
-categories: [git, github, tooling, linux]
-citations: ['']
+title: 'Back To Basics: git' description: 'Back To Basics: git' summary: 'Back
+To Basics: git'
+
+categories: [git, github, tooling, linux] citations: ['']
 
 draft: false
 
-date: 2024-12-27T08:11:55-05:00
-featured_image: ''
-include_toc: true
-markup: md
-outputs: []
-show_comments: false
-toc: false
-show_reading_time: true
----
+## date: 2024-12-27T08:11:55-05:00 featured_image: '' include_toc: true markup: md outputs: [] show_comments: false toc: false show_reading_time: true
 
 ## Not to brag, but
 

@@ -1,22 +1,15 @@
----
-title: A summary of Trustworthy Machine Learning by Bhavani Thuraisingham et al.
-description: Posted in the IEEE Computing Edge, January 2023
-summary: Posted in the IEEE Computing Edge, January 2023
+______________________________________________________________________
 
-categories: [summary, magazine, article, ai focus]
-citations: [https://doi.org/10.1109/MIS.2022.3152946]
+title: A summary of Trustworthy Machine Learning by Bhavani Thuraisingham et al.
+description: Posted in the IEEE Computing Edge, January 2023 summary: Posted in
+the IEEE Computing Edge, January 2023
+
+categories: [summary, magazine, article, ai focus] citations:
+[https://doi.org/10.1109/MIS.2022.3152946]
 
 draft: false
 
-date: 2023-02-20T20:47:27-06:00
-featured_image: ''
-include_toc: true
-markup: md
-outputs: []
-show_comments: false
-toc: false
-show_reading_time: true
----
+## date: 2023-02-20T20:47:27-06:00 featured_image: '' include_toc: true markup: md outputs: [] show_comments: false toc: false show_reading_time: true
 
 # A summary of *Trustworthy Machine Learning*
 

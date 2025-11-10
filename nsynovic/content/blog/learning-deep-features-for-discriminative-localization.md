@@ -1,22 +1,21 @@
----
-title: A summary of Learning Deep Features for Discriminative Localization by Bolei Zhou et al.
-description: Published on arXiv in 2015
-summary: Published in arXiv in 2015
+______________________________________________________________________
 
-categories: [summary, CNN, DL, object detection, cam, class activation mapping, 2015, arxiv]
-citations: [https://doi.org/10.1145/1273445.1273458, http://arxiv.org/abs/1512.04150, https://doi.org/10.1109/WACV.2016.7477688, https://doi.org/10.1109/TPAMI.2016.2535231, https://openaccess.thecvf.com/content_cvpr_2014/html/Oquab_Learning_and_Transferring_2014_CVPR_paper.html, https://openaccess.thecvf.com/content_cvpr_2015/html/Oquab_Is_Object_Localization_2015_CVPR_paper.html, https://doi.org/10.1007/978-3-319-10590-1_53, https://arxiv.org/abs/1412.6856, https://arxiv.org/abs/1312.4400, https://doi.org/10.48550/arXiv.1409.4842]
+title: A summary of Learning Deep Features for Discriminative Localization by
+Bolei Zhou et al. description: Published on arXiv in 2015 summary: Published in
+arXiv in 2015
+
+categories: \[summary, CNN, DL, object detection, cam, class activation mapping,
+2015, arxiv\] citations: \[https://doi.org/10.1145/1273445.1273458,
+http://arxiv.org/abs/1512.04150, https://doi.org/10.1109/WACV.2016.7477688,
+https://doi.org/10.1109/TPAMI.2016.2535231,
+https://openaccess.thecvf.com/content_cvpr_2014/html/Oquab_Learning_and_Transferring_2014_CVPR_paper.html,
+https://openaccess.thecvf.com/content_cvpr_2015/html/Oquab_Is_Object_Localization_2015_CVPR_paper.html,
+https://doi.org/10.1007/978-3-319-10590-1_53, https://arxiv.org/abs/1412.6856,
+https://arxiv.org/abs/1312.4400, https://doi.org/10.48550/arXiv.1409.4842]
 
 draft: false
 
-date: 2022-10-24T14:44:26-05:00
-featured_image: ''
-include_toc: true
-markup: md
-outputs: []
-show_comments: false
-toc: false
-show_reading_time: true
----
+## date: 2022-10-24T14:44:26-05:00 featured_image: '' include_toc: true markup: md outputs: [] show_comments: false toc: false show_reading_time: true
 
 # A summary of *Learning Deep Features for Discriminative Localization*
 

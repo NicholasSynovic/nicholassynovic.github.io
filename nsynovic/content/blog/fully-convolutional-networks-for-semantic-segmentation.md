@@ -1,22 +1,17 @@
----
-title: A summary of Fully Convolutional Networks for Semantic Segmentation by Jonathan Long et al.
-description: Posted in arXiv, 2015
-summary: Posted in arXiv, 2015
+______________________________________________________________________
 
-categories: [summary]
-citations: [https://doi.org/10.1145/1273445.1273458, http://arxiv.org/abs/1411.4038, https://doi.org/10.1109/TIP.2005.852470, https://doi.org/10.1109/TPAMI.2012.231, https://proceedings.mlr.press/v32/pinheiro14.html]
+title: A summary of Fully Convolutional Networks for Semantic Segmentation by
+Jonathan Long et al. description: Posted in arXiv, 2015 summary: Posted in
+arXiv, 2015
+
+categories: [summary] citations: \[https://doi.org/10.1145/1273445.1273458,
+http://arxiv.org/abs/1411.4038, https://doi.org/10.1109/TIP.2005.852470,
+https://doi.org/10.1109/TPAMI.2012.231,
+https://proceedings.mlr.press/v32/pinheiro14.html]
 
 draft: false
 
-date: 2022-12-03T14:24:59-06:00
-featured_image: ''
-include_toc: true
-markup: md
-outputs: []
-show_comments: false
-toc: false
-show_reading_time: true
----
+## date: 2022-12-03T14:24:59-06:00 featured_image: '' include_toc: true markup: md outputs: [] show_comments: false toc: false show_reading_time: true
 
 # A summary of *Fully Convolutional Networks for Semantic Segmentation*
 

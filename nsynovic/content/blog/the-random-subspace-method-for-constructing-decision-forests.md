@@ -1,22 +1,21 @@
----
-title: A summary of The Random Subspace Method for Constructing Decision Forests by Tin Kam Ho
-description: Posted in the IEEE TRANSACTIONS ON PATTERN ANALYSIS AND MACHINE INTELLIGENCE, 1998
-summary: Posted in the IEEE TRANSACTIONS ON PATTERN ANALYSIS AND MACHINE INTELLIGENCE, 1998
+______________________________________________________________________
 
-categories: [summary, 1998, Pattern recognition, decision tree, decision forest, stochastic discrimination, decision combination, classifier combination, multiple-classifier system, bootstrapping]
-citations: [https://doi.org/10.1145/1273445.1273458, https://doi.org/10.1109/34.709601, https://doi.org/10.1109/34.632990, https://doi.org/10.1002/widm.8, https://doi.org/10.1613/jair.63, https://doi.org/10.1109/ICDAR.1995.598994, https://doi.org/10.1109/ICPR.1998.711201]
+title: A summary of The Random Subspace Method for Constructing Decision Forests
+by Tin Kam Ho description: Posted in the IEEE TRANSACTIONS ON PATTERN ANALYSIS
+AND MACHINE INTELLIGENCE, 1998 summary: Posted in the IEEE TRANSACTIONS ON
+PATTERN ANALYSIS AND MACHINE INTELLIGENCE, 1998
+
+categories: \[summary, 1998, Pattern recognition, decision tree, decision
+forest, stochastic discrimination, decision combination, classifier combination,
+multiple-classifier system, bootstrapping\] citations:
+\[https://doi.org/10.1145/1273445.1273458, https://doi.org/10.1109/34.709601,
+https://doi.org/10.1109/34.632990, https://doi.org/10.1002/widm.8,
+https://doi.org/10.1613/jair.63, https://doi.org/10.1109/ICDAR.1995.598994,
+https://doi.org/10.1109/ICPR.1998.711201]
 
 draft: false
 
-date: 2022-11-09T15:17:53-06:00
-featured_image: ''
-include_toc: true
-markup: md
-outputs: []
-show_comments: false
-toc: false
-show_reading_time: true
----
+## date: 2022-11-09T15:17:53-06:00 featured_image: '' include_toc: true markup: md outputs: [] show_comments: false toc: false show_reading_time: true
 
 # A summary of *The Random Subspace Method for Constructing Decision Forests*
 

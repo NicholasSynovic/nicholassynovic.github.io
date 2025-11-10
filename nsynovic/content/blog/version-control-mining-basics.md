@@ -1,22 +1,14 @@
----
-title: Version Control Mining Basics
-description: A guide and demonstration on mining `git` (and friends') commit logs
-summary: A guide and demonstration on mining `git` (and friends') commit logs
+______________________________________________________________________
 
-categories: ['']
-citations: ['']
+title: Version Control Mining Basics description: A guide and demonstration on
+mining `git` (and friends') commit logs summary: A guide and demonstration on
+mining `git` (and friends') commit logs
+
+categories: [''] citations: ['']
 
 draft: false
 
-date: 2025-08-22T08:21:39-05:00
-featured_image: ''
-include_toc: true
-markup: md
-outputs: []
-show_comments: false
-toc: false
-show_reading_time: true
----
+## date: 2025-08-22T08:21:39-05:00 featured_image: '' include_toc: true markup: md outputs: [] show_comments: false toc: false show_reading_time: true
 
 ## Table of contents
 

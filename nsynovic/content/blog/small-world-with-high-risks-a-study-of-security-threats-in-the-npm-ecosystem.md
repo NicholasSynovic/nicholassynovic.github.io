@@ -1,21 +1,21 @@
----
-title: 'A summary of Small World with High Risks: A Study of Security Threats in the npm Ecosystem by Markus Zimmermann et al.'
-description: Posted in the Proceedings of the 28th USENIX Security Symposium; 2019
-summary: Posted in the Proceedings of the 28th USENIX Security Symposium; 2019
-categories: [summary, USENIX Security Symposium, 2019]
-citations: [https://doi.org/10.1145/1273445.1273458, https://www.usenix.org/conference/usenixsecurity19/presentation/zimmerman, https://doi.org/10.1016/j.jss.2016.02.003, https://doi.org/10.1145/2797433.2797475, https://doi.org/10.1109/ICSME.2016.19, https://doi.org/10.1145/2901739.2901743, https://doi.org/10.1109/MSR.2017.55, https://doi.org/10.1007/s10664-017-9589-y, https://doi.org/10.1109/CSMR.2013.33, https://doi.org/10.1109/ICSM.2013.39, https://doi.org/10.1145/2597073.2597131]
+______________________________________________________________________
+
+title: 'A summary of Small World with High Risks: A Study of Security Threats in
+the npm Ecosystem by Markus Zimmermann et al.' description: Posted in the
+Proceedings of the 28th USENIX Security Symposium; 2019 summary: Posted in the
+Proceedings of the 28th USENIX Security Symposium; 2019 categories: \[summary,
+USENIX Security Symposium, 2019\] citations:
+\[https://doi.org/10.1145/1273445.1273458,
+https://www.usenix.org/conference/usenixsecurity19/presentation/zimmerman,
+https://doi.org/10.1016/j.jss.2016.02.003,
+https://doi.org/10.1145/2797433.2797475, https://doi.org/10.1109/ICSME.2016.19,
+https://doi.org/10.1145/2901739.2901743, https://doi.org/10.1109/MSR.2017.55,
+https://doi.org/10.1007/s10664-017-9589-y, https://doi.org/10.1109/CSMR.2013.33,
+https://doi.org/10.1109/ICSM.2013.39, https://doi.org/10.1145/2597073.2597131]
 
 draft: false
 
-date: 2022-11-02T22:49:58-05:00
-featured_image: ''
-include_toc: true
-markup: md
-outputs: []
-show_comments: false
-toc: false
-show_reading_time: true
----
+## date: 2022-11-02T22:49:58-05:00 featured_image: '' include_toc: true markup: md outputs: [] show_comments: false toc: false show_reading_time: true
 
 # A summary of *Small World with High Risks: A Study of Security Threats in the npm Ecosystem*
 

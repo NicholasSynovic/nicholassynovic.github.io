@@ -1,22 +1,16 @@
----
-title: 'A summary of COM-PACE: Compliance Aware Cloud Application Engineering Using Blockchain by Gagangeet Singh Aujla et al.'
-description: Posted in the IEEE Computing Edge, October 2022
-summary: Posted in the IEEE Computing Edge, October 2022
+______________________________________________________________________
+
+title: 'A summary of COM-PACE: Compliance Aware Cloud Application Engineering
+Using Blockchain by Gagangeet Singh Aujla et al.' description: Posted in the
+IEEE Computing Edge, October 2022 summary: Posted in the IEEE Computing Edge,
+October 2022
 
 categories: [summary, magazine, article, internet of things, people, processes]
 citations: []
 
 draft: false
 
-date: 2023-02-19T22:26:23-06:00
-featured_image: ''
-include_toc: true
-markup: md
-outputs: []
-show_comments: false
-toc: false
-show_reading_time: true
----
+## date: 2023-02-19T22:26:23-06:00 featured_image: '' include_toc: true markup: md outputs: [] show_comments: false toc: false show_reading_time: true
 
 # A summary of *COM-PACE: Compliance Aware Cloud Application Engineering Using Blockchain*
 

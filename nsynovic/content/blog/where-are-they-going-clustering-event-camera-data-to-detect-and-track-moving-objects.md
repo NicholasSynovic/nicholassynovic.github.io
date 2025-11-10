@@ -1,22 +1,16 @@
----
-title: A summary of Where Are They Going? Clustering Event Camera Data to Detect and Track Moving Objects by Craig Laboni et al.
-description: Posted in the IEEE Computing Edge, February 2023
-summary: Posted in the IEEE Computing Edge, February 2023
+______________________________________________________________________
 
-categories: [summary, magazine, article, internet of things]
-citations: [https://doi.org/10.1109/MC.2021.3136451]
+title: A summary of Where Are They Going? Clustering Event Camera Data to Detect
+and Track Moving Objects by Craig Laboni et al. description: Posted in the IEEE
+Computing Edge, February 2023 summary: Posted in the IEEE Computing Edge,
+February 2023
+
+categories: [summary, magazine, article, internet of things] citations:
+[https://doi.org/10.1109/MC.2021.3136451]
 
 draft: false
 
-date: 2023-02-23T11:24:19-06:00
-featured_image: ''
-include_toc: true
-markup: md
-outputs: []
-show_comments: false
-toc: false
-show_reading_time: true
----
+## date: 2023-02-23T11:24:19-06:00 featured_image: '' include_toc: true markup: md outputs: [] show_comments: false toc: false show_reading_time: true
 
 # A summary of *Where Are They Going? Clustering Event Camera Data to Detect and Track Moving Objects*
 

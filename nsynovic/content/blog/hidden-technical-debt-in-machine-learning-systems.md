@@ -1,22 +1,23 @@
----
-title: A summary of Hidden Technical Debt in Machine Learning Systems by D. Sculley et al.
-description: Posted in the Proceedings of NeurIPS, 2015
-summary: Posted in the Proceedings of NeurIPS, 2015
+______________________________________________________________________
 
-categories: [summary, NeurIPS, 2015]
-citations: [https://doi.org/10.1145/1273445.1273458, https://proceedings.neurips.cc/paper/2015/hash/86df7dcfd896fcaf2674f757a2463eba-Abstract.html, https://doi.org/10.1109/MTD.2012.6225994, https://doi.org/10.1145/2487575.2488200, https://proceedings.neurips.cc/paper/2007/hash/4b04a686b0ad13dce35fa99fa4161c65-Abstract.html, https://www.usenix.org/conference/osdi14/technical-sessions/presentation/chilimbi, https://doi.org/10.1145/2623330.2623349, https://www.usenix.org/conference/osdi14/technical-sessions/presentation/li_mu, https://doi.org/10.1145/2020408.2020455]
+title: A summary of Hidden Technical Debt in Machine Learning Systems by D.
+Sculley et al. description: Posted in the Proceedings of NeurIPS, 2015 summary:
+Posted in the Proceedings of NeurIPS, 2015
+
+categories: [summary, NeurIPS, 2015] citations:
+\[https://doi.org/10.1145/1273445.1273458,
+https://proceedings.neurips.cc/paper/2015/hash/86df7dcfd896fcaf2674f757a2463eba-Abstract.html,
+https://doi.org/10.1109/MTD.2012.6225994,
+https://doi.org/10.1145/2487575.2488200,
+https://proceedings.neurips.cc/paper/2007/hash/4b04a686b0ad13dce35fa99fa4161c65-Abstract.html,
+https://www.usenix.org/conference/osdi14/technical-sessions/presentation/chilimbi,
+https://doi.org/10.1145/2623330.2623349,
+https://www.usenix.org/conference/osdi14/technical-sessions/presentation/li_mu,
+https://doi.org/10.1145/2020408.2020455]
 
 draft: false
 
-date: 2022-11-11T09:55:18-06:00
-featured_image: ''
-include_toc: true
-markup: md
-outputs: []
-show_comments: false
-toc: false
-show_reading_time: true
----
+## date: 2022-11-11T09:55:18-06:00 featured_image: '' include_toc: true markup: md outputs: [] show_comments: false toc: false show_reading_time: true
 
 # A summary of *Hidden Technical Debt in Machine Learning Systems*
 

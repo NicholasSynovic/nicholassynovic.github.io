@@ -1,22 +1,14 @@
----
-title: 'The Age Rule: A Media Consumption Proposal'
-description: The Age Rule is an idea that I have to assist in the consumption of media.
-summary: The Age Rule is an idea that I have to assist in the consumption of media.
+______________________________________________________________________
 
-categories: [blog]
-citations: ['']
+title: 'The Age Rule: A Media Consumption Proposal' description: The Age Rule is
+an idea that I have to assist in the consumption of media. summary: The Age Rule
+is an idea that I have to assist in the consumption of media.
+
+categories: [blog] citations: ['']
 
 draft: false
 
-date: 2022-12-10T10:12:33-06:00
-featured_image: ''
-include_toc: true
-markup: md
-outputs: []
-show_comments: false
-toc: false
-show_reading_time: true
----
+## date: 2022-12-10T10:12:33-06:00 featured_image: '' include_toc: true markup: md outputs: [] show_comments: false toc: false show_reading_time: true
 
 ## Table of Contents
 

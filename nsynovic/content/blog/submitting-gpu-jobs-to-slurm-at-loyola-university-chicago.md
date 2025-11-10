@@ -1,22 +1,14 @@
----
-title: Submitting GPU jobs to Slurm @ Loyola University Chicago
-description: Submitting GPU jobs to Slurm @ Loyola University Chicago
-summary: Submitting GPU jobs to Slurm @ Loyola University Chicago
+______________________________________________________________________
 
-categories: [slurm, backend, hpc, softwareenginering]
-citations: ['']
+title: Submitting GPU jobs to Slurm @ Loyola University Chicago description:
+Submitting GPU jobs to Slurm @ Loyola University Chicago summary: Submitting GPU
+jobs to Slurm @ Loyola University Chicago
+
+categories: [slurm, backend, hpc, softwareenginering] citations: ['']
 
 draft: false
 
-date: 2024-12-07T08:13:13-05:00
-featured_image: ''
-include_toc: true
-markup: md
-outputs: []
-show_comments: false
-toc: false
-show_reading_time: true
----
+## date: 2024-12-07T08:13:13-05:00 featured_image: '' include_toc: true markup: md outputs: [] show_comments: false toc: false show_reading_time: true
 
 > Slurm logo taken from [0]
 

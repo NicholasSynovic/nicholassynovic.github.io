@@ -1,22 +1,19 @@
----
-title: 'A summary of Runnemede: An Architecture for Ubiquitous High-Performance Computing by Nicholas P. Carter et al.'
-description: Published in the procceedings of the 2013 IEEE Symposium on High-Performance Computer Architecture
-summary: Published in the procceedings of the 2013 IEEE Symposium on High-Performance Computer Architecture (HPCA)
+______________________________________________________________________
 
-categories: [summary, Hardware, Xenon, Runtime, Random access memory, System-on-chip, Memory management, Clocks, 2013, IEEE HPCA]
-citations: [https://doi.org/10.1145/1273445.1273458, https://doi.org/10.1109/HPCA.2013.6522319, https://doi.org/10.1109/MM.2011.89]
+title: 'A summary of Runnemede: An Architecture for Ubiquitous High-Performance
+Computing by Nicholas P. Carter et al.' description: Published in the
+procceedings of the 2013 IEEE Symposium on High-Performance Computer
+Architecture summary: Published in the procceedings of the 2013 IEEE Symposium
+on High-Performance Computer Architecture (HPCA)
+
+categories: \[summary, Hardware, Xenon, Runtime, Random access memory,
+System-on-chip, Memory management, Clocks, 2013, IEEE HPCA\] citations:
+\[https://doi.org/10.1145/1273445.1273458,
+https://doi.org/10.1109/HPCA.2013.6522319, https://doi.org/10.1109/MM.2011.89]
 
 draft: false
 
-date: 2022-09-30T09:07:41-05:00
-featured_image: ''
-include_toc: true
-markup: md
-outputs: []
-show_comments: false
-toc: false
-show_reading_time: true
----
+## date: 2022-09-30T09:07:41-05:00 featured_image: '' include_toc: true markup: md outputs: [] show_comments: false toc: false show_reading_time: true
 
 # A summary of *Runnemede: An Architecture for Ubiquitous High-Performance Computing*
 

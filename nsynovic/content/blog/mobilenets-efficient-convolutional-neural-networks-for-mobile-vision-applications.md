@@ -1,22 +1,19 @@
----
-title: 'A summary of MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications by Andrew G. Howard et al.'
-description: Posted in arXiv, 2017
-summary: Posted in arXiv, 2017
+______________________________________________________________________
 
-categories: [summary]
-citations: [https://doi.org/10.1145/1273445.1273458, http://arxiv.org/abs/1704.04861, https://arxiv.org/abs/1602.07360, https://arxiv.org/abs/1412.5474, https://doi.org/10.1007/978-3-319-46493-0_32, https://openaccess.thecvf.com/content_ICCV_2017_workshops/w10/html/Wang_Factorized_Convolutional_Neural_ICCV_2017_paper.html, https://openaccess.thecvf.com/content_cvpr_2016/html/Wu_Quantized_Convolutional_Neural_CVPR_2016_paper.html, https://arxiv.org/abs/1403.1687]
+title: 'A summary of MobileNets: Efficient Convolutional Neural Networks for
+Mobile Vision Applications by Andrew G. Howard et al.' description: Posted in
+arXiv, 2017 summary: Posted in arXiv, 2017
+
+categories: [summary] citations: \[https://doi.org/10.1145/1273445.1273458,
+http://arxiv.org/abs/1704.04861, https://arxiv.org/abs/1602.07360,
+https://arxiv.org/abs/1412.5474, https://doi.org/10.1007/978-3-319-46493-0_32,
+https://openaccess.thecvf.com/content_ICCV_2017_workshops/w10/html/Wang_Factorized_Convolutional_Neural_ICCV_2017_paper.html,
+https://openaccess.thecvf.com/content_cvpr_2016/html/Wu_Quantized_Convolutional_Neural_CVPR_2016_paper.html,
+https://arxiv.org/abs/1403.1687]
 
 draft: false
 
-date: 2022-12-01T01:02:34-06:00
-featured_image: ''
-include_toc: true
-markup: md
-outputs: []
-show_comments: false
-toc: false
-show_reading_time: true
----
+## date: 2022-12-01T01:02:34-06:00 featured_image: '' include_toc: true markup: md outputs: [] show_comments: false toc: false show_reading_time: true
 
 # A summary of *MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications*
 

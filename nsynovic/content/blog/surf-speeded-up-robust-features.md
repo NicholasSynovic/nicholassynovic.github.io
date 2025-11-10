@@ -1,22 +1,21 @@
----
-title: 'A summary of SURF: Speeded Up Robust Features by Herbert Bay et al.'
-description: Posted in ECCV 2006
-summary: Posted in ECCV 2006
+______________________________________________________________________
 
-categories: [summary, Hessian Matrix, Interest Point, Integral Image, Robust Feature, Viewpoint Change]
-citations: [https://doi.org/10.1145/1273445.1273458, http://link.springer.com/10.1007/11744023_32, https://doi.org/10.1109/CVPR.2004.1315206, https://doi.org/10.1007/BF00336961, https://doi.org/10.1023/B:VISI.0000029664.99615.94, https://doi.org/10.1109/TPAMI.2005.188, https://doi.org/10.1109/ICCV.1999.790410, https://doi.org/10.1109/ICCV.2001.937561]
+title: 'A summary of SURF: Speeded Up Robust Features by Herbert Bay et al.'
+description: Posted in ECCV 2006 summary: Posted in ECCV 2006
+
+categories: \[summary, Hessian Matrix, Interest Point, Integral Image, Robust
+Feature, Viewpoint Change\] citations:
+\[https://doi.org/10.1145/1273445.1273458,
+http://link.springer.com/10.1007/11744023_32,
+https://doi.org/10.1109/CVPR.2004.1315206, https://doi.org/10.1007/BF00336961,
+https://doi.org/10.1023/B:VISI.0000029664.99615.94,
+https://doi.org/10.1109/TPAMI.2005.188,
+https://doi.org/10.1109/ICCV.1999.790410,
+https://doi.org/10.1109/ICCV.2001.937561]
 
 draft: false
 
-date: 2022-11-30T15:14:56-06:00
-featured_image: ''
-include_toc: true
-markup: md
-outputs: []
-show_comments: false
-toc: false
-show_reading_time: true
----
+## date: 2022-11-30T15:14:56-06:00 featured_image: '' include_toc: true markup: md outputs: [] show_comments: false toc: false show_reading_time: true
 
 # A summary of *SURF: Speeded Up Robust Features*
 

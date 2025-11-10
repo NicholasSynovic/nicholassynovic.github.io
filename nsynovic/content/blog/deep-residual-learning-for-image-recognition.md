@@ -1,22 +1,17 @@
----
-title: A summary of Deep Residual Learning for Image Recognition by Kaiming He et al.
-description: Posted in arXiv, 2015
-summary: Posted in arXiv, 2015
+______________________________________________________________________
 
-categories: [summary]
-citations: [https://doi.org/10.1145/1273445.1273458, http://arxiv.org/abs/1512.03385, https://doi.org/10.1109/CVPR.2007.383266, https://arxiv.org/abs/1505.00387, https://proceedings.neurips.cc/paper/2015/hash/215a71a12769b056c3c32e7299f1c5ed-Abstract.html, https://tinyurl.com/3t33bwde]
+title: A summary of Deep Residual Learning for Image Recognition by Kaiming He
+et al. description: Posted in arXiv, 2015 summary: Posted in arXiv, 2015
+
+categories: [summary] citations: \[https://doi.org/10.1145/1273445.1273458,
+http://arxiv.org/abs/1512.03385, https://doi.org/10.1109/CVPR.2007.383266,
+https://arxiv.org/abs/1505.00387,
+https://proceedings.neurips.cc/paper/2015/hash/215a71a12769b056c3c32e7299f1c5ed-Abstract.html,
+https://tinyurl.com/3t33bwde]
 
 draft: false
 
-date: 2022-12-01T00:29:40-06:00
-featured_image: ''
-include_toc: true
-markup: md
-outputs: []
-show_comments: false
-toc: false
-show_reading_time: true
----
+## date: 2022-12-01T00:29:40-06:00 featured_image: '' include_toc: true markup: md outputs: [] show_comments: false toc: false show_reading_time: true
 
 # A summary of *Deep Residual Learning for Image Recognition*
 

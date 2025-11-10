@@ -1,22 +1,20 @@
----
-title: 'A summary of On Being a Scientist: A Guide To Responsible Conduct In Research by the National Academy of Science, National Academy of Engineering and Institute of Medicine of the National Academies'
-description: Authored by the National Academy of Science, National Academy of Engineering and Institute of Medicine of the National Academies
-summary: Authored by the National Academy of Science, National Academy of Engineering and Institute of Medicine of the National Academies
+______________________________________________________________________
 
-categories: [summary, book, responsible conduct in research, ethics]
-citations: [https://nap.nationalacademies.org/catalog/12192/on-being-a-scientist-a-guide-to-responsible-conduct-in, https://nap.nationalacademies.org/catalog/5789/adviser-teacher-role-model-friend-on-being-a-mentor-to]
+title: 'A summary of On Being a Scientist: A Guide To Responsible Conduct In
+Research by the National Academy of Science, National Academy of Engineering and
+Institute of Medicine of the National Academies' description: Authored by the
+National Academy of Science, National Academy of Engineering and Institute of
+Medicine of the National Academies summary: Authored by the National Academy of
+Science, National Academy of Engineering and Institute of Medicine of the
+National Academies
+
+categories: [summary, book, responsible conduct in research, ethics] citations:
+\[https://nap.nationalacademies.org/catalog/12192/on-being-a-scientist-a-guide-to-responsible-conduct-in,
+https://nap.nationalacademies.org/catalog/5789/adviser-teacher-role-model-friend-on-being-a-mentor-to]
 
 draft: false
 
-date: 2023-02-01T12:48:53-06:00
-featured_image: ''
-include_toc: true
-markup: md
-outputs: []
-show_comments: false
-toc: false
-show_reading_time: true
----
+## date: 2023-02-01T12:48:53-06:00 featured_image: '' include_toc: true markup: md outputs: [] show_comments: false toc: false show_reading_time: true
 
 # A summary of *On Being a Scientist: A Guide To Responsible Conduct In Research*
 

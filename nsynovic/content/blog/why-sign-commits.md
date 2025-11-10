@@ -1,22 +1,18 @@
----
-title: Why Sign Commits?
-description: Why should you sign your commits?
-summary: Why should you sign your commits?
+______________________________________________________________________
 
-categories: [git, gpg, security, identity, blog]
-citations: [https://withblue.ink/2020/05/17/how-and-why-to-sign-git-commits.html, https://tinyurl.com/yjbxpajr, https://www.ftc.gov/system/files/ftc_gov/pdf/CSN%20Annual%20Data%20Book%202021%20Final%20PDF.pdf, https://git-scm.com, https://huggingface.co/docs/hub/security-gpg, https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits]
+title: Why Sign Commits? description: Why should you sign your commits? summary:
+Why should you sign your commits?
+
+categories: [git, gpg, security, identity, blog] citations:
+\[https://withblue.ink/2020/05/17/how-and-why-to-sign-git-commits.html,
+https://tinyurl.com/yjbxpajr,
+https://www.ftc.gov/system/files/ftc_gov/pdf/CSN%20Annual%20Data%20Book%202021%20Final%20PDF.pdf,
+https://git-scm.com, https://huggingface.co/docs/hub/security-gpg,
+https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits]
 
 draft: false
 
-date: 2022-08-01T15:38:48-05:00
-featured_image: ''
-include_toc: true
-markup: md
-outputs: []
-show_comments: false
-toc: false
-show_reading_time: true
----
+## date: 2022-08-01T15:38:48-05:00 featured_image: '' include_toc: true markup: md outputs: [] show_comments: false toc: false show_reading_time: true
 
 # Why Sign Commits?
 

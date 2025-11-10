@@ -1,22 +1,15 @@
----
-title: A summary of Embracing Multimodal Data in Multimedia Data Analysis by Shu-Ching Chen et al.
-description: Posted in the IEEE Computing Edge, February 2023
-summary: Posted in the IEEE Computing Edge, February 2023
+______________________________________________________________________
 
-categories: [summary, magazine, article, eic message]
-citations: [https://doi.org/10.1109/MMUL.2021.3104911]
+title: A summary of Embracing Multimodal Data in Multimedia Data Analysis by
+Shu-Ching Chen et al. description: Posted in the IEEE Computing Edge, February
+2023 summary: Posted in the IEEE Computing Edge, February 2023
+
+categories: [summary, magazine, article, eic message] citations:
+[https://doi.org/10.1109/MMUL.2021.3104911]
 
 draft: false
 
-date: 2023-02-23T11:33:32-06:00
-featured_image: ''
-include_toc: true
-markup: md
-outputs: []
-show_comments: false
-toc: false
-show_reading_time: true
----
+## date: 2023-02-23T11:33:32-06:00 featured_image: '' include_toc: true markup: md outputs: [] show_comments: false toc: false show_reading_time: true
 
 # A summary of *Embracing Multimodal Data in Multimedia Data Analysis*
 

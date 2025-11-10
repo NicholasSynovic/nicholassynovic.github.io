@@ -1,22 +1,18 @@
----
-title: 'A summary of by SegNet: A Deep Convolutional Encoder-Decoder Architecture for Image Segmentation by Vijay Badrinarayanan et al.'
-description: Posted in the IEEE TRANSACTIONS ON PATTERN ANALYSIS AND MACHINE INTELLIGENCE, 2017
-summary: Posted in the IEEE TRANSACTIONS ON PATTERN ANALYSIS AND MACHINE INTELLIGENCE, 2017
+______________________________________________________________________
 
-categories: [summary]
-citations: [https://doi.org/10.1145/1273445.1273458, https://doi.org/10.1109/TPAMI.2016.2644615, https://doi.org/10.1109/CVPR.2007.383157]
+title: 'A summary of by SegNet: A Deep Convolutional Encoder-Decoder
+Architecture for Image Segmentation by Vijay Badrinarayanan et al.' description:
+Posted in the IEEE TRANSACTIONS ON PATTERN ANALYSIS AND MACHINE INTELLIGENCE,
+2017 summary: Posted in the IEEE TRANSACTIONS ON PATTERN ANALYSIS AND MACHINE
+INTELLIGENCE, 2017
+
+categories: [summary] citations: \[https://doi.org/10.1145/1273445.1273458,
+https://doi.org/10.1109/TPAMI.2016.2644615,
+https://doi.org/10.1109/CVPR.2007.383157]
 
 draft: false
 
-date: 2022-12-04T13:06:29-06:00
-featured_image: ''
-include_toc: true
-markup: md
-outputs: []
-show_comments: false
-toc: false
-show_reading_time: true
----
+## date: 2022-12-04T13:06:29-06:00 featured_image: '' include_toc: true markup: md outputs: [] show_comments: false toc: false show_reading_time: true
 
 # A summary of *SegNet: A Deep Convolutional Encoder-Decoder Architecture for Image Segmentation*
 

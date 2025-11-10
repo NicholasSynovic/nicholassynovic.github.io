@@ -1,22 +1,13 @@
----
-title: Hugo, Gopher, Gemini, and Annoyances
-description: Hugo, Gopher, Gemini, and Annoyances
-summary: Hugo, Gopher, Gemini, and Annoyances
+______________________________________________________________________
 
-categories: ['']
-citations: ['']
+title: Hugo, Gopher, Gemini, and Annoyances description: Hugo, Gopher, Gemini,
+and Annoyances summary: Hugo, Gopher, Gemini, and Annoyances
+
+categories: [''] citations: ['']
 
 draft: false
 
-date: 2025-08-04T08:15:28-05:00
-featured_image: ''
-include_toc: true
-markup: md
-outputs: []
-show_comments: false
-toc: false
-show_reading_time: true
----
+## date: 2025-08-04T08:15:28-05:00 featured_image: '' include_toc: true markup: md outputs: [] show_comments: false toc: false show_reading_time: true
 
 ## Hugo, Gopher, Gemini, and Annoyances
 

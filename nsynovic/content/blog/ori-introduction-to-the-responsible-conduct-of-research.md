@@ -1,22 +1,14 @@
----
-title: A summary of ORI Introduction to the Responsible Conduct of Research by Nicholas H. Steneck
-description: Authored by AUTHOR
-summary: Authored by AUTHOR
+______________________________________________________________________
 
-categories: [summary, book, ethics, research, research ethics]
-citations: [https://ori.hhs.gov/ori-introduction-responsible-conduct-research]
+title: A summary of ORI Introduction to the Responsible Conduct of Research by
+Nicholas H. Steneck description: Authored by AUTHOR summary: Authored by AUTHOR
+
+categories: [summary, book, ethics, research, research ethics] citations:
+[https://ori.hhs.gov/ori-introduction-responsible-conduct-research]
 
 draft: false
 
-date: 2023-01-13T19:43:16-06:00
-featured_image: ''
-include_toc: true
-markup: md
-outputs: []
-show_comments: false
-toc: false
-show_reading_time: true
----
+## date: 2023-01-13T19:43:16-06:00 featured_image: '' include_toc: true markup: md outputs: [] show_comments: false toc: false show_reading_time: true
 
 # A summary of *ORI Introduction to the Responsible Conduct of Research*
 

@@ -1,22 +1,15 @@
----
-title: A summary of Economics of Artificial Intelligence in Cybersecurity by Nir Kshetri
-description: Posted in IEEE Computing Edge, December 2022
-summary: Posted in IEEE Computing Edge, December 2022
+______________________________________________________________________
 
-categories: [summary, magazine, article, it economics]
-citations: [https://doi.org/10.1109/MITP.2021.3100177]
+title: A summary of Economics of Artificial Intelligence in Cybersecurity by Nir
+Kshetri description: Posted in IEEE Computing Edge, December 2022 summary:
+Posted in IEEE Computing Edge, December 2022
+
+categories: [summary, magazine, article, it economics] citations:
+[https://doi.org/10.1109/MITP.2021.3100177]
 
 draft: false
 
-date: 2023-02-19T10:16:22-06:00
-featured_image: ''
-include_toc: true
-markup: md
-outputs: []
-show_comments: false
-toc: false
-show_reading_time: true
----
+## date: 2023-02-19T10:16:22-06:00 featured_image: '' include_toc: true markup: md outputs: [] show_comments: false toc: false show_reading_time: true
 
 # A summary of *Economics of Artificial Intelligence in Cybersecurity*
 

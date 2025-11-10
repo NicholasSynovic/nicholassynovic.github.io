@@ -1,22 +1,17 @@
----
-title: 'A summary of Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks by Shaoqing Ren et al.'
-description: Posted in the IEEE Transactions on Patterns Analysis and Machine Intelligence, 2017
-summary: Posted in the IEEE Transactions on Patterns Analysis and Machine Intelligence, 2017
+______________________________________________________________________
 
-categories: [summary]
-citations: [https://doi.org/10.1145/1273445.1273458, https://doi.org/10.1109/TPAMI.2016.2577031, https://doi.org/10.1007/s11263-013-0620-5]
+title: 'A summary of Faster R-CNN: Towards Real-Time Object Detection with
+Region Proposal Networks by Shaoqing Ren et al.' description: Posted in the IEEE
+Transactions on Patterns Analysis and Machine Intelligence, 2017 summary: Posted
+in the IEEE Transactions on Patterns Analysis and Machine Intelligence, 2017
+
+categories: [summary] citations: \[https://doi.org/10.1145/1273445.1273458,
+https://doi.org/10.1109/TPAMI.2016.2577031,
+https://doi.org/10.1007/s11263-013-0620-5]
 
 draft: false
 
-date: 2022-12-01T21:54:52-06:00
-featured_image: ''
-include_toc: true
-markup: md
-outputs: []
-show_comments: false
-toc: false
-show_reading_time: true
----
+## date: 2022-12-01T21:54:52-06:00 featured_image: '' include_toc: true markup: md outputs: [] show_comments: false toc: false show_reading_time: true
 
 # A summary of *Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks*
 

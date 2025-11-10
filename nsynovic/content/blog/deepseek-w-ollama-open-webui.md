@@ -1,22 +1,13 @@
----
-title: DeepSeek w/ Ollama + Open WebUI
-description: DeepSeek w/ Ollama + Open WebUI
-summary: DeepSeek w/ Ollama + Open WebUI
+______________________________________________________________________
 
-categories: [ai, docker, opensource, watercooler]
-citations: ['']
+title: DeepSeek w/ Ollama + Open WebUI description: DeepSeek w/ Ollama + Open
+WebUI summary: DeepSeek w/ Ollama + Open WebUI
+
+categories: [ai, docker, opensource, watercooler] citations: ['']
 
 draft: false
 
-date: 2025-01-28T10:33:47-05:00
-featured_image: ''
-include_toc: true
-markup: md
-outputs: []
-show_comments: false
-toc: false
-show_reading_time: true
----
+## date: 2025-01-28T10:33:47-05:00 featured_image: '' include_toc: true markup: md outputs: [] show_comments: false toc: false show_reading_time: true
 
 ## Table of Contents
 

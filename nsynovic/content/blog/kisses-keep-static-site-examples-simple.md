@@ -1,22 +1,14 @@
----
-title: 'KiSSES: Keep Static Site Examples Simple '
-description: 'KiSSES: Keep Static Site Examples Simple '
-summary: 'KiSSES: Keep Static Site Examples Simple '
+______________________________________________________________________
 
-categories: [webdev, watercooler, github]
-citations: ['']
+title: 'KiSSES: Keep Static Site Examples Simple ' description: 'KiSSES: Keep
+Static Site Examples Simple ' summary: 'KiSSES: Keep Static Site Examples Simple
+'
+
+categories: [webdev, watercooler, github] citations: ['']
 
 draft: false
 
-date: 2025-03-04T10:30:52-05:00
-featured_image: ''
-include_toc: true
-markup: md
-outputs: []
-show_comments: false
-toc: false
-show_reading_time: true
----
+## date: 2025-03-04T10:30:52-05:00 featured_image: '' include_toc: true markup: md outputs: [] show_comments: false toc: false show_reading_time: true
 
 I don't know about you, but every time that I check out a static site
 generator's example GitHub page, I'm both over and underwhelmed at the same

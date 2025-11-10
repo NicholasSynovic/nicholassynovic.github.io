@@ -1,22 +1,13 @@
----
-title: 'Polyglot: Lua (Part 1)'
-description: 'Polyglot: Lua (Part 1)'
-summary: 'Polyglot: Lua (Part 1)'
+______________________________________________________________________
 
-categories: [programming, beginners, lua, learning]
-citations: ['']
+title: 'Polyglot: Lua (Part 1)' description: 'Polyglot: Lua (Part 1)' summary:
+'Polyglot: Lua (Part 1)'
+
+categories: [programming, beginners, lua, learning] citations: ['']
 
 draft: false
 
-date: 2025-01-12T08:05:41-05:00
-featured_image: ''
-include_toc: true
-markup: md
-outputs: []
-show_comments: false
-toc: false
-show_reading_time: true
----
+## date: 2025-01-12T08:05:41-05:00 featured_image: '' include_toc: true markup: md outputs: [] show_comments: false toc: false show_reading_time: true
 
 In my previous post, I talked about the reasons why I want to learn more
 programming language, the Lua programming language, and the developer tooling

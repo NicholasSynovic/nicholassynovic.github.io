@@ -1,22 +1,13 @@
----
-title: Install Tailscale With Ansible
-description: Install Tailscale With Ansible
-summary: Install Tailscale With Ansible
+______________________________________________________________________
 
-categories: [linux, ansible, network, watercooler]
-citations: ['']
+title: Install Tailscale With Ansible description: Install Tailscale With
+Ansible summary: Install Tailscale With Ansible
+
+categories: [linux, ansible, network, watercooler] citations: ['']
 
 draft: false
 
-date: 2024-12-28T08:09:27-05:00
-featured_image: ''
-include_toc: true
-markup: md
-outputs: []
-show_comments: false
-toc: false
-show_reading_time: true
----
+## date: 2024-12-28T08:09:27-05:00 featured_image: '' include_toc: true markup: md outputs: [] show_comments: false toc: false show_reading_time: true
 
 I recently found out about [Tailscale](https://tailscale.com/) from the
 [Level1Tech's interview with its founder](https://www.youtube.com/watch?v=UyczOQTx5Gg).
