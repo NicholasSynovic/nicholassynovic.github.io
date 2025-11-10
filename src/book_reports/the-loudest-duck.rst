@@ -1,6 +1,8 @@
-#####################################
- *The Loudest Duck* by Laura Liswood
-#####################################
+####################
+ *The Loudest Duck*
+####################
+
+by Laura Liswood
 
 .. contents:: Table of Contents
    :depth: 3

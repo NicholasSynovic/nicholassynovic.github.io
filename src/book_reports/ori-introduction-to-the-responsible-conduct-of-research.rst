@@ -1,6 +1,8 @@
-##################################################################################
- *ORI Introduction to the Responsible Conduct of Research* by Nicholas H. Steneck
-##################################################################################
+###########################################################
+ *ORI Introduction to the Responsible Conduct of Research*
+###########################################################
+
+by Nicholas H. Steneck
 
 .. contents:: Table of Contents
    :depth: 3

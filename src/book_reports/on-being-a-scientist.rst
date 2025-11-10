@@ -1,6 +1,9 @@
-############################################################################################################################################################################################
- *On Being a Scientist: A Guide To Responsible Conduct In Research* by the National Academy of Science, National Academy of Engineering and Institute of Medicine of the National Academies
-############################################################################################################################################################################################
+####################################################################
+ *On Being a Scientist: A Guide To Responsible Conduct In Research*
+####################################################################
+
+by the National Academy of Science, National Academy of Engineering and
+Institute of Medicine of the National Academies
 
 .. contents:: Table of Contents
    :depth: 3
