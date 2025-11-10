@@ -1,75 +1,75 @@
---------------
-
-title: ‘A summary of On Being a Scientist: A Guide To Responsible
-Conduct In Research by the National Academy of Science, National Academy
-of Engineering and Institute of Medicine of the National Academies'
-description: Authored by the National Academy of Science, National
-Academy of Engineering and Institute of Medicine of the National
-Academies summary: Authored by the National Academy of Science, National
-Academy of Engineering and Institute of Medicine of the National
-Academies
-
-categories: [summary, book, responsible conduct in research, ethics]
-citations:
-[https://nap.nationalacademies.org/catalog/12192/on-being-a-scientist-a-guide-to-responsible-conduct-in,
-https://nap.nationalacademies.org/catalog/5789/adviser-teacher-role-model-friend-on-being-a-mentor-to]
-
-draft: false
-
-date: 2023-02-01T12:48:53-06:00 featured_image: '' include_toc: true markup: md outputs: [] show_comments: false toc: false show_reading_time: true
----------------------------------------------------------------------------------------------------------------------------------------------------
-
-A summary of *On Being a Scientist: A Guide To Responsible Conduct In Research*
-===============================================================================
+#################################################################################
+ A summary of *On Being a Scientist: A Guide To Responsible Conduct In Research*
+#################################################################################
 
    Written by the National Academy of Science, National Academy of
    Engineering and Institute of Medicine of the National Academies
 
-Table of Contents
------------------
+*******************
+ Table of Contents
+*******************
 
-- `A summary of On Being a Scientist: A Guide To Responsible Conduct In
-  Research <#a-summary-of-on-being-a-scientist-a-guide-to-responsible-conduct-in-research>`__
+-  `A summary of On Being a Scientist: A Guide To Responsible Conduct In
+   Research
+   <#a-summary-of-on-being-a-scientist-a-guide-to-responsible-conduct-in-research>`__
 
-  - `Table of Contents <#table-of-contents>`__
-  - `Chapter Summaries <#chapter-summaries>`__
+   -  `Table of Contents <#table-of-contents>`__
 
-    - `The National Academies Advisors to the Nation on Science,
-      Engineering, and
-      Medicine <#the-national-academies-advisors-to-the-nation-on-science-engineering-and-medicine>`__
-    - `Preface <#preface>`__
-    - `A Note on Using On Being a
-      Scientist <#a-note-on-using-on-being-a-scientist>`__
-    - `Introduction to the Responsible Conduct of
-      Research <#introduction-to-the-responsible-conduct-of-research>`__
-    - `Advising and Mentoring <#advising-and-mentoring>`__
-    - `Treatment of Data <#treatment-of-data>`__
-    - `Mistakes and Negligence <#mistakes-and-negligence>`__
-    - `Research Misconduct <#research-misconduct>`__
-    - `Responding to Suspected Violations of Professional
-      Standards <#responding-to-suspected-violations-of-professional-standards>`__
-    - `Human Participants and Animal Subjects in
-      Research <#human-participants-and-animal-subjects-in-research>`__
-    - `Laboratory Safety in Research <#laboratory-safety-in-research>`__
-    - `Sharing of Research Results <#sharing-of-research-results>`__
-    - `Authorship and the Allocation of
-      Credit <#authorship-and-the-allocation-of-credit>`__
-    - `Intellectual Property <#intellectual-property>`__
-    - `Competing Interests, Commitments, and
-      Values <#competing-interests-commitments-and-values>`__
-    - `The Researcher in Society <#the-researcher-in-society>`__
+   -  `Chapter Summaries <#chapter-summaries>`__
 
-  - `Citations <#citations>`__
+      -  `The National Academies Advisors to the Nation on Science,
+         Engineering, and Medicine
+         <#the-national-academies-advisors-to-the-nation-on-science-engineering-and-medicine>`__
 
---------------
+      -  `Preface <#preface>`__
 
-Chapter Summaries
------------------
+      -  `A Note on Using On Being a Scientist
+         <#a-note-on-using-on-being-a-scientist>`__
+
+      -  `Introduction to the Responsible Conduct of Research
+         <#introduction-to-the-responsible-conduct-of-research>`__
+
+      -  `Advising and Mentoring <#advising-and-mentoring>`__
+
+      -  `Treatment of Data <#treatment-of-data>`__
+
+      -  `Mistakes and Negligence <#mistakes-and-negligence>`__
+
+      -  `Research Misconduct <#research-misconduct>`__
+
+      -  `Responding to Suspected Violations of Professional Standards
+         <#responding-to-suspected-violations-of-professional-standards>`__
+
+      -  `Human Participants and Animal Subjects in Research
+         <#human-participants-and-animal-subjects-in-research>`__
+
+      -  `Laboratory Safety in Research
+         <#laboratory-safety-in-research>`__
+
+      -  `Sharing of Research Results <#sharing-of-research-results>`__
+
+      -  `Authorship and the Allocation of Credit
+         <#authorship-and-the-allocation-of-credit>`__
+
+      -  `Intellectual Property <#intellectual-property>`__
+
+      -  `Competing Interests, Commitments, and Values
+         <#competing-interests-commitments-and-values>`__
+
+      -  `The Researcher in Society <#the-researcher-in-society>`__
+
+   -  `Citations <#citations>`__
+
+----
+
+*******************
+ Chapter Summaries
+*******************
 
    Chapter specific summaries
 
 The National Academies Advisors to the Nation on Science, Engineering, and Medicine
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+===================================================================================
 
 The **National Academy of Science** (NAS) (created in 1863) is a
 private, non-profit, self-perpetuating society of distinguished scholars
@@ -86,7 +86,7 @@ The **National Research Council** was created in 1916 to broadly advise
 on research matters. It is now the primary concern of both NAS and NAE.
 
 Preface
-~~~~~~~
+=======
 
 Science is built upon trust. When trust is misplaced and professional
 standards are violated, researchers feel attacked and that the base of
@@ -105,7 +105,7 @@ promulgating high standards in science. They should be role models,
 teachers, and mentors to junior researchers.
 
 A Note on Using *On Being a Scientist*
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+======================================
 
 This book explores options for handling situations, not defining what
 exactly to do in a particular situation. This book should be read by a
@@ -124,7 +124,7 @@ Furthermore, if your professional has an established code of conduct or
 professional standards, those should be referred to for specifics.
 
 Introduction to the Responsible Conduct of Research
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+===================================================
 
 Researchers pride themselves on observing or explaining phenomenon which
 haven't been seen or explained previously. However, researchers are
@@ -165,7 +165,7 @@ science, but *scientific practices* (application of standards) differs
 from field to field.
 
 Advising and Mentoring
-~~~~~~~~~~~~~~~~~~~~~~
+======================
 
 It is often best to build a diverse community of mentors as not one
 person has the same experience, education, or background as another.
@@ -187,7 +187,7 @@ please read *Adviser, Teacher, Role Model, Friend: On Being a Mentor to
 Students in Science and Engineering* by Philip A. Grififths [1].
 
 Treatment of Data
-~~~~~~~~~~~~~~~~~
+=================
 
 Researchers who maliciously manipulate data to deceive others violate
 the basic values and accepted professional standards of science. In
@@ -216,7 +216,7 @@ available. If a researcher refuses to share the data, then they fail to
 maintain the standards of science.
 
 Mistakes and Negligence
-~~~~~~~~~~~~~~~~~~~~~~~
+=======================
 
 All science is susceptible to error. However, researchers have an
 obligation to be as accurate and as careful as possible both for their
@@ -231,7 +231,7 @@ the scientific record as soon as they are identified so as to allow the
 continue proliferation of science.
 
 Research Misconduct
-~~~~~~~~~~~~~~~~~~~
+===================
 
 Scientific misconduct, as defined by the U.S. Office of Science and
 Technology Policy, defines it as, “fabrication, falsification, or
@@ -266,7 +266,7 @@ It can also draw the eye of the public and policy makers to make
 decisions that are negative for the progression of science.
 
 Responding to Suspected Violations of Professional Standards
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+============================================================
 
 Science typically self-regulates itself. It is the research community
 that sets the standards and practices that researchers should follow.
@@ -297,7 +297,7 @@ mind your own motivations and biases prior to raising questions so as to
 be courteous and kind.
 
 Human Participants and Animal Subjects in Research
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+==================================================
 
 Any research done on humans or animals is subject to federal, state,
 local, and institutional regulations.
@@ -337,7 +337,7 @@ Overseeing the ethical experimentation on animals is an institution's
 Institutional Animal Care and Use Committees (IACUCs).
 
 Laboratory Safety in Research
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=============================
 
 Researchers should review safety information and procedures at least
 once a year.
@@ -359,7 +359,7 @@ A shortlist of topics to review includes:
    - Applicable government regulations
 
 Sharing of Research Results
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+===========================
 
 In the 17th century, researchers kept their results secret in order to
 protect their results from others claiming them. To solve this, Henry
@@ -402,7 +402,7 @@ energy of reviewers and can give the researcher a reputation of
 producing shoddy or incomplete work.
 
 Authorship and the Allocation of Credit
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=======================================
 
 When a paper is published, all of those that contributed to the paper
 are considered authors and should be listed as such. Authorship
@@ -420,7 +420,7 @@ All authors on a paper must take responsibility for the content of the
 paper and must be able to answer questions about the research.
 
 Intellectual Property
-~~~~~~~~~~~~~~~~~~~~~
+=====================
 
 Researchers should be aware of the potential monetary value that their
 intellectual property has. Intellectual property is a legal right to
@@ -443,7 +443,7 @@ differ from country to country. Publication of work should not be
 delayed because of a potential patent though.
 
 Competing Interests, Commitments, and Values
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+============================================
 
 Conflict of interest refers to situations where researchers have
 personal, intellectual, financial, and professional interests that
@@ -471,7 +471,7 @@ from science, but should be acknowledged and understood while conducting
 science.
 
 The Researcher in Society
-~~~~~~~~~~~~~~~~~~~~~~~~~
+=========================
 
 Researchers have the duty to ensure that not only does their work
 further science, but also improves the public's welfare. They are put
@@ -480,7 +480,8 @@ wear many hats. However, it is paramount that they remain honest, fair,
 collegial, and open in society as these are all core scientific tenants
 that researchers should follow.
 
---------------
+----
 
-Citations
----------
+***********
+ Citations
+***********

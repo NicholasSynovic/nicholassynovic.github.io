@@ -1,126 +1,22 @@
---------------
+#####################################
+ *The Loudest Duck* by Laura Liswood
+#####################################
 
-title: A summary of The Loudest Duck by Laura Liswood description:
-Authored by Laura Liswood summary: Authored by Laura Liswood
+.. contents:: Table of Contents
+   :depth: 3
 
-categories: [summary, book, diversity, leadership]
-
-citations: [
-============
-
-https://www.amazon.com/Loudest-Duck-Diversity-Embracing-Differences/dp/0470485841/ref=sr_1_1?keywords=the+loudest+duck&sr=8-1,
-==============================================================================================================================
-
-https://www.amazon.com/Composing-Life-Mary-Catherine-Bateson/dp/0802138047/ref=sr_1_1?keywords=Composing+a+Life&sr=8-1,
-=======================================================================================================================
-
-https://www.amazon.com/Leading-Minds-Howard-Gardner-audiobook/dp/B006IL6SCO/ref=sr_1_1?keywords=leading+minds&sr=8-1,
-=====================================================================================================================
-
-https://interculturalstudies.org/main.html, https://cawp.rutgers.edu/,
-======================================================================
-
-https://www.amazon.com/The-Wisdom-of-Crowds-audiobook/dp/B0002P0CHY/ref=sr_1_1?keywords=the+wisdom+of+crowds&sr=8-1]
-====================================================================================================================
-
-draft: false
-
-date: 2023-02-07T13:19:03-06:00 featured_image: '' include_toc: true markup: md outputs: [] show_comments: false toc: false show_reading_time: true
----------------------------------------------------------------------------------------------------------------------------------------------------
-
-A summary of *The Loudest Duck*
-===============================
-
-   Written by Laura Liswood
-
-Table of Contents
------------------
-
-- `A summary of The Loudest Duck <#a-summary-of-the-loudest-duck>`__
-
-  - `Table of Contents <#table-of-contents>`__
-  - `Chapter Summaries <#chapter-summaries>`__
-
-    - `Acknowledgments <#acknowledgments>`__
-    - `Introduction <#introduction>`__
-    - `Chapter 1: Beware of Noah's
-      Ark <#chapter-1-beware-of-noahs-ark>`__
-
-      - `Objections to Diversity <#objections-to-diversity>`__
-
-    - `Chapter 2: The Elephant and the
-      Mouse <#chapter-2-the-elephant-and-the-mouse>`__
-
-      - `Combining Forces <#combining-forces>`__
-      - `Point of View <#point-of-view>`__
-
-    - `Chapter 3: Tell Your Grandma to Go
-      Home <#chapter-3-tell-your-grandma-to-go-home>`__
-    - `Necessary but not Sufficient <#necessary-but-not-sufficient>`__
-
-      - `Preconceived Notions Have
-        Roots <#preconceived-notions-have-roots>`__
-
-    - `Chapter 4: What's Easy for You Is Hard for Me and How to Navigate
-      the
-      Differences <#chapter-4-whats-easy-for-you-is-hard-for-me-and-how-to-navigate-the-differences>`__
-
-      - `Getting Noticed in Noah's
-        Ark <#getting-noticed-in-noahs-ark>`__
-      - `Getting Out of Your Own Comfort
-        Zone <#getting-out-of-your-own-comfort-zone>`__
-      - `Critical Feedback <#critical-feedback>`__
-      - `Who Apologizes and Who
-        Interrupts <#who-apologizes-and-who-interrupts>`__
-      - `Mentoring <#mentoring>`__
-
-    - `Chapter 5: Unwritten Rules <#chapter-5-unwritten-rules>`__
-
-      - `Subtle Inequities <#subtle-inequities>`__
-
-    - `Chapter 6: We Hire for Difference and Fire Because They Are Not
-      the
-      Same <#chapter-6-we-hire-for-difference-and-fire-because-they-are-not-the-same>`__
-
-      - `The Danger of Unconscious Thinking, Speaking, and
-        Acting <#the-danger-of-unconscious-thinking-speaking-and-acting>`__
-
-    - `Chapter 7: The Tools in Your
-      Toolbox <#chapter-7-the-tools-in-your-toolbox>`__
-
-      - `Think About the People on Your
-        Team <#think-about-the-people-on-your-team>`__
-      - `Learn to Recognize Other People's
-        “Grandmas” <#learn-to-recognize-other-peoples-grandmas>`__
-      - `Fair and Equal With Access, Knowledge, and
-        Feedback <#fair-and-equal-with-access-knowledge-and-feedback>`__
-      - `Be Careful With Your Words, and How You Interpret the Words of
-        Others <#be-careful-with-your-words-and-how-you-interpret-the-words-of-others>`__
-      - `The Silent Have Something to
-        Say <#the-silent-have-something-to-say>`__
-      - `Results Should be the
-        Determinant <#results-should-be-the-determinant>`__
-      - `Conclusion <#conclusion>`__
-
-  - `Citations <#citations>`__
-
---------------
-
-Chapter Summaries
------------------
-
-   Chapter specific summaries
-
-Acknowledgments
-~~~~~~~~~~~~~~~
+*****************
+ Acknowledgments
+*****************
 
 “No book is an island”. In other words, it takes many authors and
 contributors who, while not the primary author(s), deserve to be
 recognized for their contributions. However, all errors in the book are
 the primary author's responsibility.
 
-Introduction
-~~~~~~~~~~~~
+**************
+ Introduction
+**************
 
 The need for a diverse workforce has only grown as we as a species have
 become increasingly more interconnected. However, diversity efforts
@@ -202,8 +98,9 @@ at fault for failing to make diversity work. Rather, it is the
 unconscious handling of diversity that is at fault and causes many of
 the issues that we experience with respect to diversity.
 
-Chapter 1: Beware of Noah's Ark
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*********************************
+ Chapter 1: Beware of Noah's Ark
+*********************************
 
 Too many leaders think that if you take two of each kind of diversity,
 that you have achieved diversity. This incentives creating a numbers
@@ -299,21 +196,22 @@ I know it”. But organizations will not benefit from hiring for diversity
 as long as they continue to hire what they know is best.
 
 Objections to Diversity
-^^^^^^^^^^^^^^^^^^^^^^^
+=======================
 
 The following objections are common to hear from the dominant group when
 presented with diversity related decisions:
 
-- Reverse discrimination
-- Defies the meritocracy of the organization
-- Coddling the diverse individuals
-- Lack of evidence
-- Rocking the boat
-- It's all about the law
-- Don't blame me for the success that I've had
+-  Reverse discrimination
+-  Defies the meritocracy of the organization
+-  Coddling the diverse individuals
+-  Lack of evidence
+-  Rocking the boat
+-  It's all about the law
+-  Don't blame me for the success that I've had
 
-Chapter 2: The Elephant and the Mouse
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+***************************************
+ Chapter 2: The Elephant and the Mouse
+***************************************
 
 In power structures their are elephants and mice. Elephants don't need
 to know much about mice when they walk into the room. Mice need to know
@@ -344,7 +242,7 @@ types from `Chapter 1 <#chapter-1-beware-of-noahs-ark>`__ and identify
 different elephant and mouse positions.
 
 Combining Forces
-^^^^^^^^^^^^^^^^
+================
 
 Being a leader requires flexibility and the desire to learn new
 qualities to better lead. For example, if a leader can't communicate,
@@ -352,7 +250,7 @@ they can't lead. It is important to relate to people, and to have others
 perceive leaders as one of their own.
 
 Point of View
-^^^^^^^^^^^^^
+=============
 
 Someone's point of view of their working style can be seen as the
 correct way and other's as wrong because they don't do this. Being able
@@ -361,8 +259,9 @@ be the correct way or that others aren't experiencing the world as you
 do is crucial for leadership. These biases towards a particular
 viewpoint need to be understood and addressed to achieve diversity 2.0.
 
-Chapter 3: Tell Your Grandma to Go Home
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*****************************************
+ Chapter 3: Tell Your Grandma to Go Home
+*****************************************
 
 Grandma refers to societies implicit and explicit teachings that leaders
 carry with them. Experiences, the media, myths and legends, as well as
@@ -389,7 +288,7 @@ an example of how diversity failed as the cognitive diversity that was
 initially desired.
 
 Necessary but not Sufficient
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+============================
 
 Many corporations make strong business cases for diversity, such as the
 war for talent, higher profitability, the global nature of the firm,
@@ -401,7 +300,7 @@ diversity as we still bring Grandma, and thus all of our conscious and
 unconscious biases to work.
 
 Preconceived Notions Have Roots
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+===============================
 
 Harvard social psychologist Mahzarin Banaji has been studying the
 irreplaceable notions that are ingrained in the human brain. She has
@@ -413,16 +312,17 @@ naturally associated with positive and negative emotions.
 
 Our Unconscious thinking comes from the following sources:
 
-- Our parents, as they lay out expectations and guide them to the best
-  of their knowledge
-- Our experiences, as they tell us not only how the world works but also
-  how it should work
-- Our peers, as they show us what to do to fit in
-- Myths, fairy tales, fables, and the media as they carry long standing
-  archetypes throughout the generations
+-  Our parents, as they lay out expectations and guide them to the best
+   of their knowledge
+-  Our experiences, as they tell us not only how the world works but
+   also how it should work
+-  Our peers, as they show us what to do to fit in
+-  Myths, fairy tales, fables, and the media as they carry long standing
+   archetypes throughout the generations
 
-Chapter 4: What's Easy for You Is Hard for Me and How to Navigate the Differences
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+***********************************************************************************
+ Chapter 4: What's Easy for You Is Hard for Me and How to Navigate the Differences
+***********************************************************************************
 
 Most manager's would say that an underappreciated, hardworking employee
 gets left behind, that they should speak up. However, what if that
@@ -433,7 +333,7 @@ greater degree of awareness and set of tools than merely suggesting what
 the employee should or shouldn't do.
 
 Getting Noticed in Noah's Ark
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+=============================
 
 To be successful at work, employees must get their work noticed.
 However, as diverse individuals, they might believe that the opposite
@@ -451,7 +351,7 @@ Management is responsible for getting the benefits of diversity out of
 their team.
 
 Getting Out of Your Own Comfort Zone
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+====================================
 
 Managers can't take everything on themselves. To some degree, employees
 are expected to take it into their own hands to adjust to the company's
@@ -489,7 +389,7 @@ your comfort zone does pay off, however it can be an uphill battle if
 your company doesn't support diverse initiatives.
 
 Critical Feedback
-^^^^^^^^^^^^^^^^^
+=================
 
 Managers need to give employees critical feedback, stretch assignments,
 and mentoring in order for the employees to prosper. Typically though,
@@ -521,7 +421,7 @@ damned if they don't) prevents women and other non-dominant groups from
 prospering.
 
 Who Apologizes and Who Interrupts
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+=================================
 
 Women and other non-dominant groups have been taught by Grandma to
 perform ritual apologies even if they did nothing wrong. Interrupting
@@ -532,26 +432,31 @@ also be able to stand up for themselves and their voices when
 interrupted.
 
 Mentoring
-^^^^^^^^^
+=========
 
 Some mentoring pitfalls include:
 
-- Negative stereotypes about the mentee based on race, gender, religion,
-  etc..
-- Mirroring, or seeing themselves in a mentee will result in that mentee
-  getting special treatment.
-- Getting close or potentially inappropriate relationships between
-  mentors and mentees are highly discouraged. Furthermore, even the
-  appearance of an inappropriate relationship is discouraged. For
-  example, a male mentor taking a female mentee out to dinner.
-- Risk in the mentee failing and ruining both of their relationships and
-  vice versa. This is especially true when mentoring someone in the
-  non-dominant group.
-- Resentment by others when mentoring those who are different from you,
-  particularly with gender roles.
+-  Negative stereotypes about the mentee based on race, gender,
+   religion, etc..
 
-Chapter 5: Unwritten Rules
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+-  Mirroring, or seeing themselves in a mentee will result in that
+   mentee getting special treatment.
+
+-  Getting close or potentially inappropriate relationships between
+   mentors and mentees are highly discouraged. Furthermore, even the
+   appearance of an inappropriate relationship is discouraged. For
+   example, a male mentor taking a female mentee out to dinner.
+
+-  Risk in the mentee failing and ruining both of their relationships
+   and vice versa. This is especially true when mentoring someone in the
+   non-dominant group.
+
+-  Resentment by others when mentoring those who are different from you,
+   particularly with gender roles.
+
+****************************
+ Chapter 5: Unwritten Rules
+****************************
 
 Organizations and group have unwritten rules and customs that everyone
 is expected to follow, regardless of if everyone knows them. These rules
@@ -562,26 +467,26 @@ aware of. Thus having a mentor to guide mentees into understanding these
 unspoken rules is crucial.
 
 Subtle Inequities
-^^^^^^^^^^^^^^^^^
+=================
 
 Subtle inequities are small, insignificant, and potentially undetectable
 inequities that build up over time that end up haunting the
 organization. Some subtle inequities involve:
 
-- Giving one employee a longer introduction than another
-- Leaders only talking to those that they personally know when first
-  arriving at divisional offices
-- Thinking that when non-dominant groups ask questions, that they are
-  perceived to be lacking knowledge or confidence
-- Expecting that one individual to speak for all individuals who are
-  similar to them
-- Not pronouncing foreign names correctly
-- Seating your buddies next to you at meetings
-- Making eye contact with some people but not others
-- Apologizing to women if you swear
-- Giving certain people bigger and better projects than others
-- Always favorably commenting on the input of specific people, but not
-  others
+-  Giving one employee a longer introduction than another
+-  Leaders only talking to those that they personally know when first
+   arriving at divisional offices
+-  Thinking that when non-dominant groups ask questions, that they are
+   perceived to be lacking knowledge or confidence
+-  Expecting that one individual to speak for all individuals who are
+   similar to them
+-  Not pronouncing foreign names correctly
+-  Seating your buddies next to you at meetings
+-  Making eye contact with some people but not others
+-  Apologizing to women if you swear
+-  Giving certain people bigger and better projects than others
+-  Always favorably commenting on the input of specific people, but not
+   others
 
 To reduce these, those in dominant groups or positions of power need to
 step outside of themselves, critically evaluate their actions, and
@@ -589,11 +494,12 @@ implement changes to level the playing field for everyone. Additionally,
 making small changes to reduce these subtle inequities can go a long way
 in improving the working relationship and culture of an organization.
 
-Chapter 6: We Hire for Difference and Fire Because They Are Not the Same
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**************************************************************************
+ Chapter 6: We Hire for Difference and Fire Because They Are Not the Same
+**************************************************************************
 
 The Danger of Unconscious Thinking, Speaking, and Acting
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+========================================================
 
 Words are the best way to get yourself into and out of trouble quickly.
 Thus conscious, intentional, and mindful speaking is critical to thrive.
@@ -625,8 +531,9 @@ the entire group. But a problem arises when a speaking type is expected
 of someone, but isn't the case as this can demerit the speaker to the
 listener.
 
-Chapter 7: The Tools in Your Toolbox
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**************************************
+ Chapter 7: The Tools in Your Toolbox
+**************************************
 
 The more tools that we have to handle diversity, the better leaders we
 will be within diverse organizations.
@@ -639,7 +546,7 @@ everyone is heard, and that promotions are given out based on merit and
 not personal relationships.
 
 Think About the People on Your Team
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+===================================
 
 If you are a manager, make sure that the events that you plan are
 accessible to everyone.
@@ -648,7 +555,7 @@ If you are an employee with unequal access to the manager, find ways to
 get to know each other. This could involve suppressing your Grandma.
 
 Learn to Recognize Other People's “Grandmas”
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+============================================
 
 If you are a manager, ask, listen, and be aware of who everyone is on
 your field. Try to understand the power dynamics between team members.
@@ -658,7 +565,7 @@ If you are an employee, find ways to make your voice and yourself heard
 to your manager. Staying silent is not always the best answer.
 
 Fair and Equal With Access, Knowledge, and Feedback
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+===================================================
 
 If you are a manager, understand that spending time with some employees
 means that you don't naturally spend time with other employees.
@@ -669,13 +576,13 @@ If you are an employee, understand the value and usefulness of having
 access to your managers.
 
 Be Careful With Your Words, and How You Interpret the Words of Others
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+=====================================================================
 
 Understand your own unconscious biases and work towards reducing them
 when others speak to you or when you speak to to others.
 
 The Silent Have Something to Say
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+================================
 
 If you are a manager, make sure everyone has the ability to speak to you
 during meetings or privately. An open-door policy works best for this.
@@ -684,14 +591,14 @@ If you are an employee, if you don't speak, your ideas won't be heard.
 Make sure that you either speak up when possible, or ask to speak.
 
 Results Should be the Determinant
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+=================================
 
 Make sure that rewards are given out based on the quality and
 (sometimes) quantity of the results of others, rather than on
 relationships.
 
 Conclusion
-^^^^^^^^^^
+==========
 
 Once you create a Noah's Ark of diversity, then you can start reaping
 the rewards of diversity. But to do so, you must be conscious of your
@@ -701,7 +608,7 @@ diversity. Company's must understand the power dynamics, subtle actions,
 unwritten rules, unconscious perceptions, and backgrounds of many
 different groups.
 
---------------
+----
 
 .. _citations-1:
 

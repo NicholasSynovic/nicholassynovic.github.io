@@ -1,75 +1,67 @@
---------------
-
-title: A summary of ORI Introduction to the Responsible Conduct of
-Research by Nicholas H. Steneck description: Authored by AUTHOR summary:
-Authored by AUTHOR
-
-categories: [summary, book, ethics, research, research ethics]
-citations:
-[https://ori.hhs.gov/ori-introduction-responsible-conduct-research]
-
-draft: false
-
-date: 2023-01-13T19:43:16-06:00 featured_image: '' include_toc: true markup: md outputs: [] show_comments: false toc: false show_reading_time: true
----------------------------------------------------------------------------------------------------------------------------------------------------
-
-A summary of *ORI Introduction to the Responsible Conduct of Research*
-======================================================================
+########################################################################
+ A summary of *ORI Introduction to the Responsible Conduct of Research*
+########################################################################
 
    Written by Nicholas H. Steneck
 
-Table of Contents
------------------
+*******************
+ Table of Contents
+*******************
 
-- `A summary of ORI Introduction to the Responsible Conduct of
-  Research <#a-summary-of-ori-introduction-to-the-responsible-conduct-of-research>`__
+-  `A summary of ORI Introduction to the Responsible Conduct of Research
+   <#a-summary-of-ori-introduction-to-the-responsible-conduct-of-research>`__
 
-  - `Table of Contents <#table-of-contents>`__
-  - `Chapter Summaries <#chapter-summaries>`__
+   -  `Table of Contents <#table-of-contents>`__
 
-    - `Foreward <#foreward>`__
-    - `Preface <#preface>`__
-    - `Part I <#part-i>`__
+   -  `Chapter Summaries <#chapter-summaries>`__
 
-      - `Chapter 1: Rules of the Road <#chapter-1-rules-of-the-road>`__
-      - `Chapter 2: Research
-        Misconduct <#chapter-2-research-misconduct>`__
+      -  `Foreward <#foreward>`__
 
-    - `Part II <#part-ii>`__
+      -  `Preface <#preface>`__
 
-      - `Chapter 3: The Protection of Human
-        Subjects <#chapter-3-the-protection-of-human-subjects>`__
-      - `Chapter 4: The Welfare of Laboratory
-        Animals <#chapter-4-the-welfare-of-laboratory-animals>`__
-      - `Chapter 5: Conflicts of
-        Interest <#chapter-5-conflicts-of-interest>`__
+      -  `Part I <#part-i>`__
 
-    - `Part III <#part-iii>`__
+         -  `Chapter 1: Rules of the Road
+            <#chapter-1-rules-of-the-road>`__
+         -  `Chapter 2: Research Misconduct
+            <#chapter-2-research-misconduct>`__
 
-      - `Chapter 6: Data Management
-        Practices <#chapter-6-data-management-practices>`__
-      - `Chapter 7: Mentor and Trainee
-        Responsibilities <#chapter-7-mentor-and-trainee-responsibilities>`__
-      - `Chapter 8: Collaborative
-        Research <#chapter-8-collaborative-research>`__
+      -  `Part II <#part-ii>`__
 
-    - `Part IV <#part-iv>`__
+         -  `Chapter 3: The Protection of Human Subjects
+            <#chapter-3-the-protection-of-human-subjects>`__
+         -  `Chapter 4: The Welfare of Laboratory Animals
+            <#chapter-4-the-welfare-of-laboratory-animals>`__
+         -  `Chapter 5: Conflicts of Interest
+            <#chapter-5-conflicts-of-interest>`__
 
-      - `Chapter 9: Authorship and
-        Publication <#chapter-9-authorship-and-publication>`__
-      - `Chapter 10: Peer Review <#chapter-10-peer-review>`__
+      -  `Part III <#part-iii>`__
 
-    - `Part V <#part-v>`__
+         -  `Chapter 6: Data Management Practices
+            <#chapter-6-data-management-practices>`__
+         -  `Chapter 7: Mentor and Trainee Responsibilities
+            <#chapter-7-mentor-and-trainee-responsibilities>`__
+         -  `Chapter 8: Collaborative Research
+            <#chapter-8-collaborative-research>`__
 
---------------
+      -  `Part IV <#part-iv>`__
 
-Chapter Summaries
------------------
+         -  `Chapter 9: Authorship and Publication
+            <#chapter-9-authorship-and-publication>`__
+         -  `Chapter 10: Peer Review <#chapter-10-peer-review>`__
+
+      -  `Part V <#part-v>`__
+
+----
+
+*******************
+ Chapter Summaries
+*******************
 
    Chapter specific summaries
 
 Foreward
-~~~~~~~~
+========
 
 This book is published by the Office of Research Integrity (ORI) as
 supplemental material to assist in the teaching of the responsible
@@ -81,7 +73,7 @@ sinced expanded to become more general and applicable to other
 disciplines.
 
 Preface
-~~~~~~~
+=======
 
 As the importance of science and technology increases, so too has the
 public's demand for the responsible conduct of research. Simply put,
@@ -91,13 +83,13 @@ professional life. However, as each field is different, so too does what
 briefly introduce researchers to what is generally accepted as
 responsible conduct regardless of their working field.
 
---------------
+----
 
 Part I
-~~~~~~
+======
 
 Chapter 1: Rules of the Road
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+----------------------------
 
 There aren't clear rules laid out to for researcher's to easily
 understand what is and isn't responsible research conduct. Rather, there
@@ -113,7 +105,7 @@ must be followed. Researchers are advised to seek help in understanding
 Federal rules.
 
 Chapter 2: Research Misconduct
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+------------------------------
 
 Research misconduct policies provide guidance on responsible conduct in
 these three areas:
@@ -153,13 +145,13 @@ misconduct is under reported. Regardless, this misconduct taints the
 public image of research, wastes donated or tax-funded dollars, and
 harms both the professional reputations of researchers and institutions.
 
---------------
+----
 
 Part II
-~~~~~~~
+=======
 
 Chapter 3: The Protection of Human Subjects
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-------------------------------------------
 
 Human subjects are used in order to find improvements to the human
 experience. This could involve the creation of new medicines, surgeries,
@@ -199,7 +191,7 @@ withdraw. Furthermore, there is an ethical concern in human subjects
 research that some experiments have risks without any benefits.
 
 Chapter 4: The Welfare of Laboratory Animals
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+--------------------------------------------
 
 Research on animal subjects is done to benefit humans without
 experimenting on humans. The 1966 Animal Welfare Act and the 1985 Health
@@ -244,7 +236,7 @@ animal subjects against the “three R's”:
    [in animal subjects].
 
 Chapter 5: Conflicts of Interest
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+--------------------------------
 
 Researchers can experience three different types of conflicts of
 interest:
@@ -270,13 +262,13 @@ their research objectives. As an example (not mentioned in this book;
 purely my own thought probably taken from someone else) is a pro-life
 reseacher working on abortificants.
 
---------------
+----
 
 Part III
-~~~~~~~~
+========
 
 Chapter 6: Data Management Practices
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+------------------------------------
 
 Research is not possible without data. Because of this, there are
 responsibilities that researchers have to the proper ownership,
@@ -319,7 +311,7 @@ about the release of such data must be taken into consideration prior to
 releasing said data.
 
 Chapter 7: Mentor and Trainee Responsibilities
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+----------------------------------------------
 
 Trainee refers to anyone learning to be a researcher learning from a
 senior researcher. To establish the basic understandings of the
@@ -366,7 +358,7 @@ been created to ensure that postdocs have the rights that they deserve
 with respect to transitioning to independent researchers.
 
 Chapter 8: Collaborative Research
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+---------------------------------
 
 Collaborative research involves any time when two or more researchers
 collaborate on the same project. This could involve researchers from the
@@ -395,13 +387,13 @@ With respect to compliance, it is best practice to work under the
 compliance guidelines of the institution or state that has the strictest
 policies to ensure that all researchers are following proper protocol.
 
---------------
+----
 
 Part IV
-~~~~~~~
+=======
 
 Chapter 9: Authorship and Publication
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-------------------------------------
 
 All forms of publication should present:
 
@@ -472,15 +464,15 @@ The following authorship practices should be avoided:
    - Premature public statments
 
 Chapter 10: Peer Review
-^^^^^^^^^^^^^^^^^^^^^^^
+-----------------------
 
 Peer reviewed is done by fellow researchers (typically within the same
 field) to asses:
 
-- Grant reviews,
-- Manuscript reviews,
-- Personnel reviews, and
-- Literature reviews and expert testimony
+-  Grant reviews,
+-  Manuscript reviews,
+-  Personnel reviews, and
+-  Literature reviews and expert testimony
 
 Peer reviews must be:
 
@@ -546,10 +538,10 @@ to:
    - Discuss personnel and hiring decisions with colleagues who are not part of the
    review process
 
---------------
+----
 
 Part V
-~~~~~~
+======
 
 It is well understood that many people early in their career have
 irresponsible research conduct. Additionally, what might be considered
