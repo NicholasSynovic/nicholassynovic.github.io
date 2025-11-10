@@ -12,7 +12,8 @@ documentation for details.
    :caption: Contents:
 
 .. toctree::
+   :glob:
    :maxdepth: 1
    :caption: Book Reports:
 
-   book_reports/the-loudest-duck
+   book_reports/*
