@@ -36,5 +36,8 @@ html_static_path = ["_static"]
 html_theme_options = {
     "repository_url": "https://github.com/NicholasSynovic/nicholassynovic.github.io",
     "use_repository_button": True,
+    "show_navbar_depth": 0,
+    "max_navbar_depth": 1,
+    "collapse_navbar": True,
 }
 html_title = project
