@@ -1,10 +1,9 @@
-###################
- Why Sign Commits?
-###################
+##################################
+ Why Should You Sign Your Commits?
+##################################
 
-   Why should you sign your commits?
-
-----
+.. contents:: Table of Contents
+   :depth: 3
 
 *********
  Preface
@@ -89,9 +88,3 @@ Setting up signed commits was trivial, and there were plenty of guides
 I strongly encourage all developers to sign their commits in order to
 improve the verification of work done by legitimate developers, instead
 of allowing the work of thieves to perforate throughout our community.
-
-----
-
-***********
- Citations
-***********

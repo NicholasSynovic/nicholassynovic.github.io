@@ -1,11 +1,27 @@
-############################
-Back To Basics With ``git``
-############################
+:blogpost:
+   true
+
+:date:
+   Oct 10, 2020
+
+:author:
+   Nabil Freij
+
+:location:
+   World
+
+:category:
+   Manual
+
+:language:
+   English
+
+#############################
+ Back To Basics With ``git``
+#############################
 
 .. contents:: Table of Contents
    :depth: 3
-
-
 
 ##################
  Not to brag, but

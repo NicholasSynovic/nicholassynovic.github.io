@@ -1,7 +1,8 @@
 Slurm logo taken from [0]
 
-Context
--------
+#########
+ Context
+#########
 
 The Computer Science department at Loyola University Chicago [1]
 utilizes a high-performance computing cluster to support both research
@@ -27,8 +28,9 @@ technology and its applications, providing a foundation for readers to
 pursue further research into the applications of job schedulers and
 their benefits.
 
-What is Slurm?
---------------
+################
+ What is Slurm?
+################
 
 Slurm is an open-source job scheduler software package that enables
 efficient management of workload execution on shared computing
@@ -45,8 +47,9 @@ More information about Slurm can be found here [3]. The user guide and
 documentation for Slurm can be found here [4]. Slurm's source code is
 available on GitHub here [5].
 
-Problem
--------
+#########
+ Problem
+#########
 
 Our department aims to integrate AI methods into our research and
 teaching programs, with a current focus on batch inferencing, training,
@@ -63,8 +66,9 @@ longer than expected to complete. In some cases, they may even stall or
 be terminated by the system, as it prioritizes freeing resources for
 other users over allowing a single task to run for an extended period.
 
-Solution
---------
+##########
+ Solution
+##########
 
 With Slurm, we can utilize a set of fully available computational
 resources to schedule jobs efficiently. Users can configure their jobs
@@ -92,21 +96,22 @@ running on multiple GPUs by default and will not scale with additional
 resources. To scale the code, you'll need to extend the code to support
 a multi-GPU, distributed training strategy as outlined in [8].
 
-Tutorial
-~~~~~~~~
+**********
+ Tutorial
+**********
 
    This tutorial will guide you through submitting jobs to Slurm in a
    series of easy-to-follow steps. Important notes and considerations
    will be highlighted in block quotes.
 
-- Connect to the cluster computer.
-- Clone your code from GitHub to a directory on the cluster computer.
+-  Connect to the cluster computer.
+-  Clone your code from GitHub to a directory on the cluster computer.
 
 ..
 
    You are using ``git`` and GitHub to keep track of versions, right?
 
-- Configure, build, and test your software.
+-  Configure, build, and test your software.
 
 ..
 
@@ -114,14 +119,14 @@ Tutorial
    provided by the Tensorflow team for training CNN model on the MNIST
    dataset [9].
 
-- Create a ``bash`` script called ``job.bash``
+-  Create a ``bash`` script called ``job.bash``
 
 ``touch job.bash``
 
    You can name this file whatever you want, but it will have to be a
    ``bash`` script
 
-- Add the following code to ``job.bash``:
+-  Add the following code to ``job.bash``:
 
 .. code:: shell
 
@@ -137,33 +142,38 @@ Tutorial
 
    Here's what the code is doing line-by-line:
 
-   1. ``#!/bin/bash``: shebang to inform the operating system what
+   #. ``#!/bin/bash``: shebang to inform the operating system what
       interpreter to use
-   2. ``#SBATCH --gres=gpu:1``: This defines an ``sbatch`` directive to
+
+   #. ``#SBATCH --gres=gpu:1``: This defines an ``sbatch`` directive to
       set Slurm to use a general resource (``--gres``) of a single GPU
       (``gpu:1``). If multiple GPUs are required, you would replace 1
       with the number of GPUs needed.
-   3. ``module load python/3.10``: Configure the user environment to use
+
+   #. ``module load python/3.10``: Configure the user environment to use
       ``python3.10``.
-   4. ``srun python train.py``: Submit the job (``python``) to the Slurm
+
+   #. ``srun python train.py``: Submit the job (``python``) to the Slurm
       queue with its arguments (``train.py``) and configure the job with
       the aforementioned directives (see 2).
 
-- Run ``sbatch job.bash`` to queue the job.
-- Run ``squeue`` to see the queued Slurm jobs.
-- Wait for the job to execute. A ``slurm-$(JOB_NUMBER).out`` file will
-  be created with any standard output or error piped into it.
+-  Run ``sbatch job.bash`` to queue the job.
+-  Run ``squeue`` to see the queued Slurm jobs.
+-  Wait for the job to execute. A ``slurm-$(JOB_NUMBER).out`` file will
+   be created with any standard output or error piped into it.
 
-Conclusion
-----------
+############
+ Conclusion
+############
 
 And that's it! You now have a basic understanding of how to use Slurm
 for running GPU-related jobs. For a comprehensive guide on directives,
 configuration options, and more advanced usage, please refer to the
 official Slurm documentation here [10 - 12].
 
-References
-----------
+############
+ References
+############
 
 [0] https://slurm.schedmd.com/slurm_logo.png [1] https://www.luc.edu/cs/
 [2] https://en.wikipedia.org/wiki/Job_scheduler [3]
