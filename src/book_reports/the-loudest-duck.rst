@@ -609,10 +609,3 @@ well to go beyond accepting, tolerating, including, and referencing
 diversity. Company's must understand the power dynamics, subtle actions,
 unwritten rules, unconscious perceptions, and backgrounds of many
 different groups.
-
-----
-
-.. _citations-1:
-
-Citations
----------
