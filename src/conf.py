@@ -20,11 +20,14 @@ release = "0.0.1"
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = []
+extensions = ["sphinxcontrib.bibtex"]
 
 templates_path = ["_templates"]
 exclude_patterns = []
 
+# Sphinx BibTex settings
+bibtex_bibfiles = ["refs.bib"]
+bibtex_default_style = "unsrt"
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output

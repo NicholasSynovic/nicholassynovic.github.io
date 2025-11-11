@@ -3,7 +3,8 @@
 ####################################################################
 
 by the National Academy of Science, National Academy of Engineering and
-Institute of Medicine of the National Academies
+Institute of Medicine of the National Academies :cite:p:`committee_on_science_engineering_and_public_policy_being_2009`
+
 
 .. contents:: Table of Contents
    :depth: 3
@@ -15,36 +16,62 @@ Institute of Medicine of the National Academies
 The **National Academy of Science** (NAS) (created in 1863) is a
 private, non-profit, self-perpetuating society of distinguished scholars
 that are required to advise the federal government on scientific and
-technical matters.
+technical matters. [1]_
 
 The **National Academy of Engineers** (NAE) (created in 1964) is a
 parallel organization to NAS that also advises the federal government.
+[2]_
 
 The **Institute of Medicine** (created in 1970) is a subsidiary of NAS
 aimed at advising the government about public health policy matters.
+[3]_
 
 The **National Research Council** was created in 1916 to broadly advise
 on research matters. It is now the primary concern of both NAS and NAE.
+[4]_
+
+.. [1]
+
+   https://www.nasonline.org/
+
+.. [2]
+
+   https://www.nae.edu/
+
+.. [3]
+
+   Now links to the National Academy of Medicine:
+   https://nam.edu/about-the-nam/
+
+.. [4]
+
+   https://www.nationalacademies.org/home
 
 *********
  Preface
 *********
 
-Science is built upon trust. When trust is misplaced and professional
-standards are violated, researchers feel attacked and that the base of
-their profession has been undermined.
+**Science is built upon trust**. When trust is misplaced and
+professional standards are violated, researchers feel attacked that the
+base of their profession has been undermined.
 
-Many new researchers are not learning about how to conduct themselves as
-scientists (a broad definition that includes anyone who is involved with
-the pursuit of knowledge). This task used to be placed on more senior
-researchers. However, as the speed of scientific developments, this task
-is often placed on the back burner. Furthermore, exciting opportunities
+New researchers are not learning how to conduct themselves as scientists
+(a broad definition that includes anyone who is involved with the
+pursuit of knowledge). [5]_ This used to be the responsiblility of more senior
+researchers, but as the speed of scientific developments accelerates, this task
+is often ignored. Furthermore, exciting opportunities
 keep appearing faster than science can keep up, further contributing to
 the problem of not educating new researchers on best practices.
 
 Senior researchers have a special responsibility of upholding and
 promulgating high standards in science. They should be role models,
 teachers, and mentors to junior researchers.
+
+.. [5]
+
+   *Very* broad. Within software engineering there are efforts to
+   distinguish Research Software Engineers --- who support collaborators by
+   developing software to support scientific pursuit --- and scientists.
 
 ****************************************
  A Note on Using *On Being a Scientist*
@@ -435,3 +462,9 @@ into an interesting situation within the public sphere and may have to
 wear many hats. However, it is paramount that they remain honest, fair,
 collegial, and open in society as these are all core scientific tenants
 that researchers should follow.
+
+*************
+ Bibliography
+*************
+
+ .. bibliography::
