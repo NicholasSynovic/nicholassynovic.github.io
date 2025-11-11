@@ -10,6 +10,20 @@ documentation for details.
 .. toctree::
    :glob:
    :maxdepth: 1
+   :caption: Blog Posts
+
+   blog_posts/*
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
    :caption: Book Reports
 
    book_reports/*
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+   :caption: Paper Reviews
+
+   paper_reviews/*

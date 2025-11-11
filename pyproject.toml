@@ -12,6 +12,7 @@ classifiers = [
     "Programming Language :: Python :: 3.13"
 ]
 dependencies = [
+    "ablog>=0.11.12",
     "sphinx>=8.2.3",
     "sphinx-book-theme>=1.1.4",
     "sphinxcontrib-bibtex>=2.6.5",
