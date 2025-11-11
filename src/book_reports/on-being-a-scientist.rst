@@ -41,7 +41,7 @@ on research matters. It is now the primary concern of both NAS and NAE.
 .. [3]
 
    Now links to the National Academy of Medicine:
-   https://nam.edu/about-the-nam/
+   https://nam.edu
 
 .. [4]
 
@@ -58,32 +58,28 @@ base of their profession has been undermined.
 New researchers are not learning how to conduct themselves as scientists
 (a broad definition that includes anyone who is involved with the
 pursuit of knowledge). [5]_ This used to be the responsiblility of more senior
-researchers, but as the speed of scientific developments accelerates, this task
+researchers, as they are role models, teachers, and mentors to junior researchers. But as the speed of scientific developments accelerates, this task
 is often ignored. Furthermore, exciting opportunities
 keep appearing faster than science can keep up, further contributing to
 the problem of not educating new researchers on best practices.
-
-Senior researchers have a special responsibility of upholding and
-promulgating high standards in science. They should be role models,
-teachers, and mentors to junior researchers.
 
 .. [5]
 
    *Very* broad. Within software engineering there are efforts to
    distinguish Research Software Engineers --- who support collaborators by
-   developing software to support scientific pursuit --- and scientists.
+   developing software to support scientific pursuit --- and scientists :cite:p:`goth_foundational_2025`.
+
 
 ****************************************
  A Note on Using *On Being a Scientist*
 ****************************************
 
-This book explores options for handling situations, not defining what
-exactly to do in a particular situation. This book should be read by a
-group of researchers that discuss the topics within and figure out how
-to apply the lessons to their practice.
 
-The material within this book is not exhaustive, and many texts and
-websites now exist to help supplement this material.
+This book explores options for handling situations, not defining what
+exactly to do in a particular situation. It should be read by a
+group of researchers that discuss the topics within and figure out how
+to apply the lessons to their practice. [6]_
+
 
 The existence of professional standards implies that there is a proper
 way to go about a task or field. However, this book doesn't aim to cover
@@ -92,6 +88,19 @@ diverse group of individuals from varying experience levels should be
 formed to identify and discuss what is the professional standards.
 Furthermore, if your professional has an established code of conduct or
 professional standards, those should be referred to for specifics.
+
+The material within this book is not exhaustive, and many texts and
+websites now exist to help supplement this material
+
+.. hint::
+   For software engineering, consider the ACM Software engineering code of
+   ethics :cite:p:`gotterbarn_software_1997`, or the Agile Manifesto
+   :cite:p:`kent_beck_manifesto_2001`.
+
+
+.. [6]
+
+   You brought friends right?
 
 *****************************************************
  Introduction to the Responsible Conduct of Research
