@@ -1,12 +1,14 @@
-Hello World
-===========
+#############
+ Hello World
+#############
 
    An introduction to me, this site, and the content I want to make.
 
---------------
+----
 
-Hi there!
----------
+***********
+ Hi there!
+***********
 
 My name is Nicholas M. Synovic.
 
@@ -43,8 +45,9 @@ platform [9].
 
 For further information on how to contact me, see my Contact page [10].
 
-What's up with this site?
--------------------------
+***************************
+ What's up with this site?
+***************************
 
 This site is generated from Markdown using Hugo [11] and the Ananke
 theme [12].
@@ -61,8 +64,9 @@ site, as well as my Dev.to [18] page. In addition, I intend to use my
 account at ``tilde.team`` [19] to add an additional backup of the HTTP
 site there as well.
 
-What content is coming?
------------------------
+*************************
+ What content is coming?
+*************************
 
 I don't have a set plan at the moment, however, I intend to provide less
 academically leaning posts on this site. Think more opinion pieces,
@@ -70,7 +74,8 @@ tutorials, or other ramblings. Primarily text based content will be
 posted on this site as there are other platforms that are better at
 hosting multimedia content.
 
---------------
+----
 
-Citations
----------
+***********
+ Citations
+***********

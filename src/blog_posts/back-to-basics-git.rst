@@ -1,3 +1,12 @@
+############################
+Back To Basics With ``git``
+############################
+
+.. contents:: Table of Contents
+   :depth: 3
+
+
+
 ##################
  Not to brag, but
 ##################

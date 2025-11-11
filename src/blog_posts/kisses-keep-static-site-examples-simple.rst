@@ -21,16 +21,16 @@ Text), I'd think that features such as starter or template GitHub
 repositories would be more common.
 
 Because of my frustrations, I've released two example GitHub
-repositories for two popular static site generators:
-`MkDocs <https://www.mkdocs.org/>`__ and
-`Sphinx <https://www.sphinx-doc.org/en/master/index.html>`__. The goal
-with these repositories is to be focussed on a minimal project using the
+repositories for two popular static site generators: `MkDocs
+<https://www.mkdocs.org/>`__ and `Sphinx
+<https://www.sphinx-doc.org/en/master/index.html>`__. The goal with
+these repositories is to be focussed on a minimal project using the
 static site generator, that builds into a Read The Docs theme compatible
 website, and provide supporting tooling regarding formatting of the
 underlying formatting language. It also provides the tooling needed to
 deploy to GitHub Pages both from the command line and via GitHub Actions
-(both are powered by the
-```ghp-import`` <https://pypi.org/project/ghp-import/>`__ project).
+(both are powered by the ```ghp-import``
+<https://pypi.org/project/ghp-import/>`__ project).
 
 Now I understand that my examples are not going to be complete to
 everyone. So I'd like to open my issue boards to the community to

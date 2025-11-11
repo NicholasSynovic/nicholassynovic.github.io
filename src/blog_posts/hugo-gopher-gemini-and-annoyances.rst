@@ -1,10 +1,11 @@
-Hugo, Gopher, Gemini, and Annoyances
-------------------------------------
+######################################
+ Hugo, Gopher, Gemini, and Annoyances
+######################################
 
    My story with setting up a Gopher and Gemini compatible website
    powered by Hugo.
 
---------------
+----
 
 A little while ago, I wanted to create my own website. I struggle with
 creating frontends for websites, so I choose to use the Hugo [0] static
@@ -20,8 +21,9 @@ Well then I saw these two videos from DistroTube [3] [4] and got
 interested in creating and hosting my own Gopher [5] phlog and Gemini
 [6] capsule. This is where the annoyances began.
 
-Gopher: The Bane of my Existence (for about a week)
----------------------------------------------------
+#####################################################
+ Gopher: The Bane of my Existence (for about a week)
+#####################################################
 
 I wanted to create a Gopher phlog because I thought it was just plain
 cool. Who wouldn't want a text only mirror of their site not indexed by
@@ -61,8 +63,9 @@ template that he provided to what I wanted, but that was minor work.
 In all, it took me a week to RTFM and move on from this arguably
 ridiculous project.
 
-Gemini: A lot easier than Gopher
---------------------------------
+##################################
+ Gemini: A lot easier than Gopher
+##################################
 
 It was significantly easier to create the Gemini capsule than a Gopher
 Phlog.
@@ -77,8 +80,9 @@ template was necessary, but that was minor.
 
 The new problem, was how to distribute this site.
 
-PubNix: What's Old is New Again
--------------------------------
+#################################
+ PubNix: What's Old is New Again
+#################################
 
 In my research of both the Gopher and Gemini protocols, I found out
 about PubNixs: community ran servers that run on low powered machines.
@@ -94,18 +98,20 @@ encourage the usage of these servers as it takes the problems of hosting
 content (maintainence, privacy, port forwarding, etc.) off of your
 shoulders
 
-The End
--------
+#########
+ The End
+#########
 
 If you ware interested in doing something similar, here is a link to my
 websites source code on GitHub [13]. There you can see my templates,
 scripts, and config options for generating Gemini, Gopher and HTTP
 sites. Best of luck, and happy hacking!
 
---------------
+----
 
-Citations
----------
+###########
+ Citations
+###########
 
 Citations availible at
 https://nsynovic.dev/posts/hugo-gopher-gemini-annoyance/

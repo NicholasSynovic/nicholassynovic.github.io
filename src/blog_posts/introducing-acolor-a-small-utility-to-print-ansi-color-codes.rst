@@ -9,9 +9,9 @@ terminal. Currently, only named color codes are supported (e.g., red,
 green, blue). Hex, HSL, VGA, and RGB color codes are currently not
 supported but ``acolor`` can easily be extended to include them.
 
-You can view the source code
-`here <https://github.com/NicholasSynovic/acolor>`__. You can install it
-with ``pipx`` via:
+You can view the source code `here
+<https://github.com/NicholasSynovic/acolor>`__. You can install it with
+``pipx`` via:
 
 ``pipx install git+https://github.com/NicholasSynovic/acolor``
 

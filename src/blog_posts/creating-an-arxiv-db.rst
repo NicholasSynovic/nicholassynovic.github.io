@@ -1,4 +1,4 @@
-As a Ph.D. student studying Deep Learning (DL) from the perspective of a
+As a Ph.D. student studying Deep Learning (DL) from the perspective of a
 Software Engineer, I rely upon academic resources to learn about DL
 models, techniques, and methods. `arXiv <https://arxiv.org>`__ is
 arguably the largest host of the latest academic (but not peer-reviewed)
@@ -18,13 +18,14 @@ on the site for other projects like testing retrieval augmented
 generation (RAG) techniques for finding information from manuscripts.
 
 To support users like me, the arXiv team releases the metadata of all
-papers submitted to the platform weekly on
-`Kaggle <https://www.kaggle.com/datasets/Cornell-University/arxiv>`__ as
-JSON. So for today's blog post, let's convert the JSON file into a
-queriable SQLite3 database!
+papers submitted to the platform weekly on `Kaggle
+<https://www.kaggle.com/datasets/Cornell-University/arxiv>`__ as JSON.
+So for today's blog post, let's convert the JSON file into a queriable
+SQLite3 database!
 
-Project Setup
--------------
+###############
+ Project Setup
+###############
 
 I'll leverage Python 3.10 and bash for this project primarily for the
 ```pandas`` library <https://pypi.org/project/pandas/>`__. ``pandas``
@@ -33,15 +34,16 @@ JSON files and writing to SQL databases respectfully.
 
 To start, I created a GitHub repository based on `my Python template
 repo <https://github.com/NicholasSynovic/template_python>`__. You can
-find all the project code
-`here <https://github.com/NicholasSynovic/tool_arXiv-db>`__.
+find all the project code `here
+<https://github.com/NicholasSynovic/tool_arXiv-db>`__.
 
-Getting And Cleaning The Data
------------------------------
+###############################
+ Getting And Cleaning The Data
+###############################
 
-As the arXiv Dataset is hosted on Kaggle, we can use their
-```kaggle`` <https://pypi.org/project/kaggle/>`__ Python library to
-download and unzip the data. Wrapping this as a bash script, we get:
+As the arXiv Dataset is hosted on Kaggle, we can use their ```kaggle``
+<https://pypi.org/project/kaggle/>`__ Python library to download and
+unzip the data. Wrapping this as a bash script, we get:
 
 .. code:: bash
 
@@ -51,10 +53,10 @@ download and unzip the data. Wrapping this as a bash script, we get:
 
 Where the ``--unzip`` argument decompresses the data, and the ``-p``
 argument specifies a path to download the data. We can improve this
-further by leveraging
-```optparse`` <https://github.com/nk412/optparse>`__ to provide
-command-line arguments for our script. All said and done, we have a
-download script that looks like this:
+further by leveraging ```optparse``
+<https://github.com/nk412/optparse>`__ to provide command-line arguments
+for our script. All said and done, we have a download script that looks
+like this:
 
 .. code:: bash
 
@@ -108,15 +110,15 @@ conversion with this script:
 With that, our data is finally in a format where we can start loading it
 into a database!
 
-Creating The Database
----------------------
+#######################
+ Creating The Database
+#######################
 
-We will define our database schema using
-`SQLAlchemy <https://www.sqlalchemy.org/>`__. First, we will store a
-subset of the information in a single table called ``documents``. This
-is to test that our database configuration is correct and avoid storing
-nested data now. The code is fairly simple to create a SQLite3 database
-with SQLAlchemy:
+We will define our database schema using `SQLAlchemy
+<https://www.sqlalchemy.org/>`__. First, we will store a subset of the
+information in a single table called ``documents``. This is to test that
+our database configuration is correct and avoid storing nested data now.
+The code is fairly simple to create a SQLite3 database with SQLAlchemy:
 
 .. code:: python
 
@@ -171,8 +173,9 @@ and columns have been created successfully:
 We will extend this later by adding tables and relationships between
 nested values and the documents table.
 
-Inserting Data Into The Database
---------------------------------
+##################################
+ Inserting Data Into The Database
+##################################
 
 With Pandas, we can read the data in from the JL file as chunks:
 
@@ -302,8 +305,8 @@ made to reinsert them into the database. Additionally, we now return the
 number of rows committed to the database.
 
 So our updated ``loadData`` method now looks like this (with a Spinner
-object to help report progress from the
-```progress`` <https://pypi.org/project/progress/>`__ library):
+object to help report progress from the ```progress``
+<https://pypi.org/project/progress/>`__ library):
 
 .. code:: python
 
@@ -315,8 +318,9 @@ object to help report progress from the
                db.toSQL(tableName=db.documentTable, df=documentsDF)
                spinner.next()
 
-Wrapping Up
------------
+#############
+ Wrapping Up
+#############
 
 Now that the basic structure of the application has been created, all
 that's left is to add the other tables.
@@ -359,11 +363,10 @@ And then access only the authors from the DataFrame with this method:
 
 Then we can use the ``DB.toSQL()`` method to write it to the database.
 
-The final database schema is as follows (generated with
-`SchemaCrawler <https://www.schemacrawler.com/>`__):
+The final database schema is as follows (generated with `SchemaCrawler
+<https://www.schemacrawler.com/>`__):
 
-.. figure::
-   https://dev-to-uploads.s3.amazonaws.com/uploads/articles/elvuus7uhhg49tsov9hh.png
+.. figure:: https://dev-to-uploads.s3.amazonaws.com/uploads/articles/elvuus7uhhg49tsov9hh.png
    :alt: Image description
 
    Image description
@@ -372,11 +375,12 @@ As seen here, there is additional complexity in storing this data. The
 versions table undergoes similar transformations as well.
 
 If you are interested in how the ``versions`` table is created and to
-leverage this tool, please visit the `GitHub project
-page <https://github.com/NicholasSynovic/tool_arXiv-db>`__.
+leverage this tool, please visit the `GitHub project page
+<https://github.com/NicholasSynovic/tool_arXiv-db>`__.
 
 Thanks for taking the time to read this post. I hope to be posting more
 in the future.
 
 .. |image1| image:: https://dev-to-uploads.s3.amazonaws.com/uploads/articles/f6ofhguzzn00nf2ei1lq.png
+
 .. |image2| image:: https://dev-to-uploads.s3.amazonaws.com/uploads/articles/5biwn7c5jxkklplrjrof.png

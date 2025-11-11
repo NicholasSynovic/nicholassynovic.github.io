@@ -1,19 +1,22 @@
-Why Sign Commits?
-=================
+###################
+ Why Sign Commits?
+###################
 
    Why should you sign your commits?
 
---------------
+----
 
-Preface
--------
+*********
+ Preface
+*********
 
 I recently read this article [0] by Alessandro Segala about why I should
 sign my commits. And I completely agree with, and would like to expand
 upon, their work.
 
-Identify Theft
---------------
+****************
+ Identify Theft
+****************
 
 Identify theft is not a joke [1].
 
@@ -38,8 +41,9 @@ user friendly way of viewing ``git`` commits. However, it also allows
 for an attacker to take advantage of these tools and publish commits to
 a project under someone else's identity.
 
-The Dangers of Developer Identity Theft
----------------------------------------
+*****************************************
+ The Dangers of Developer Identity Theft
+*****************************************
 
 The biggest threat to a developer who doesn't sign their commits is the
 lack of trust a community can have for a particular developer.
@@ -52,24 +56,28 @@ A malicious attacker could publish commits that actively ruin existing
 features. They could also introduce bugs into a repository under
 someone's name.
 
-Benefits of Signing
--------------------
+*********************
+ Benefits of Signing
+*********************
 
 To combat this, ``git`` allows for individuals to sign their commits
 with a GPG [4] key.
 
 This allows for a number of benefits:
 
-1. Commits in the ``git`` history that are signed have metadata attached
+#. Commits in the ``git`` history that are signed have metadata attached
    to them saying that they're signed.
-2. If the GPG key is published to an online VCS that supports this
+
+#. If the GPG key is published to an online VCS that supports this
    feature, a *verified* tag will be applied to commits that are signed
    and match a user's GPG key.
-3. Developer identity can be confirmed by running checks against the
+
+#. Developer identity can be confirmed by running checks against the
    public facing key of a commit and a developer's private key.
 
-Conclusion
-----------
+************
+ Conclusion
+************
 
 Since reading [0], I have implemented commit signing for my project
 going forward. I also now require all group projects to have signed
@@ -82,7 +90,8 @@ I strongly encourage all developers to sign their commits in order to
 improve the verification of work done by legitimate developers, instead
 of allowing the work of thieves to perforate throughout our community.
 
---------------
+----
 
-Citations
----------
+***********
+ Citations
+***********
