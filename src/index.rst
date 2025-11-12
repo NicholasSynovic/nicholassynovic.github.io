@@ -1,71 +1,54 @@
-#############
- Hello World
-#############
+############################
+ Nicholas M. Synovic's Blog
+############################
 
-My name is Nicholas M. Synovic.
+*************
+ Signposting
+*************
 
-At the time of writing, I'm a Research Assistant at Loyola University
-Chicago [0] with the Software and Systems Laboratory [1]. I graduated
-Loyola in May of 2022 with a B.S in Computer Science. Currently, I'm
-pursuing a M.S in Computer Science with a concentration in Artificial
-Intelligence. My concentration is more specifically targeting low power
-computer vision systems.
+Hi there! I'm Nicholas M. Synovic; a current Ph.D. student at Loyola
+University Chicago's' (LUC) Computer Science department. I'm actively
+researching software engineering for science --- particularly at the
+intersection of software engineering for science practices and
+pre-trained deep learning model reuse --- but have broader interests in
+software engineering.
 
-As an undergrad, I pursued and lead Software Engineering Metrics
-research and was successfully able to publish a paper into the IEEE ASE
-2022 [2] conference's tools track as the lead author [3]. In addition, I
-was fortunate enough to be an author on a Software Engineering paper
-focusing on deep learning model reuse with researchers from Purdue
-University [4]. I currently work on both Software Engineering and
-Computer Vision research.
+This website contains professional artifacts and writings. It also
+attempts to centralize my online activity for observability and rapid
+navigation. This website contains my latest:
 
-In addition to my academic work, I have experience leading IT teams and
-developing full stack software. I was one of the first in my high school
-to join the student IT program which performed real world maintenance on
-my district's network, personal, and tech infrastructure [5]. As a 2nd
-year student at Loyola, I won second place at the Fall Student Showcase
-for my work in identifying and providing solution for Congress.gov's
-search functionality as well as creating a dataset of all the content on
-Congress.gov [6]. And as a 4th year senior, I developed an application
-for Medline Industries [7] to facilitate their corporate wide Talent
-Planning Process. This application was used to assess ~30,000 employees
-in 2022 to find the next generation of leaders.
+-  CV,
+-  Resume,
+-  Pre-print Paper Manuscripts,
+-  Blog Posts, and
+-  Other writings (e.g., Book Reports, Paper Reviews)
 
-On the social side of things, I am currently a board member of the
-Loyola AI Club [8] as well as a student ambassador for Intel's oneAPI
-platform [9].
+*******************
+ Latest Blog Posts
+*******************
 
-For further information on how to contact me, see my Contact page [10].
+..
+   TODO: Use ABlog to organize this
 
-***************************
- What's up with this site?
-***************************
+*****************************
+ Pre-print Paper Manuscripts
+*****************************
 
-This site is generated from Markdown using Hugo [11] and the Ananke
-theme [12].
+..
+   TODO: Use ABlog to organize this
 
-This decision was made due to Hugo's extensive templating feature, which
-allows me to accessible to those using HTTP [13], Gopher [14], and
-Gemini [15] protocols. I intend to use this site to experiment with
-other alternative network protocols as they are developed.
+***********************
+ Latest Other Writings
+***********************
 
-This site is also mirrored across several different services. Currently,
-it is hosted on both GitHub Pages [16] as ``https://nsynovic.dev`` [17].
-Blog posts are mirrored on my the Gopher and Gemini versions of this
-site, as well as my Dev.to [18] page. In addition, I intend to use my
-account at ``tilde.team`` [19] to add an additional backup of the HTTP
-site there as well.
+..
+   TODO: Use ABlog to organize this
 
-*************************
- What content is coming?
-*************************
+..
+   Toctrees for the side bars
 
-I don't have a set plan at the moment, however, I intend to provide less
-academically leaning posts on this site. Think more opinion pieces,
-tutorials, or other ramblings. Primarily text based content will be
-posted on this site as there are other platforms that are better at
-hosting multimedia content.
 .. toctree::
+   :hidden:
    :glob:
    :maxdepth: 2
    :caption: Blog Posts
@@ -73,6 +56,7 @@ hosting multimedia content.
    blog_posts/*
 
 .. toctree::
+   :hidden:
    :glob:
    :maxdepth: 1
    :caption: Book Reports
@@ -80,8 +64,12 @@ hosting multimedia content.
    book_reports/*
 
 .. toctree::
+   :hidden:
    :glob:
    :maxdepth: 1
    :caption: Paper Reviews
 
    paper_reviews/*
+
+..
+   TODO: Add the following as a toc tree: CV, Resume, Google Scholar, ORCID, Instagram, Facebook, Bluesky, X, LinkedIn
