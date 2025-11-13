@@ -43,7 +43,7 @@ Table of Contents
 Summary
 -------
 
-   “Southern countries” refer to developing nations or countries.
+   "Southern countries" refer to developing nations or countries.
 
 Smart contracts are programs written on a blockchain that are executed
 once certain conditions are met. These contracts could be used to

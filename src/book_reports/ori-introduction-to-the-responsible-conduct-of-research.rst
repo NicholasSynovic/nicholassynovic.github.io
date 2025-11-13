@@ -5,20 +5,28 @@
 by Nicholas H. Steneck, David Zinn, and Tommy G. Thompson :cite:p:`stenek_ori_2007`
 
 .. contents:: Table of Contents
+   :class: toggle
    :depth: 3
 
 **********
  Foreward
 **********
 
-This book is published by the Office of Research Integrity (ORI) as
+This book is published by the Office of Research Integrity (ORI) [1]_ as
 supplemental material to assist in the teaching of the responsible
 conduct of research. The ORI oversees and directs the Public Health
-Service (PHS) research integrety on behalf of the Secretary of Health
-and Human Services as well as the American public. This book stems from
-the ethics that were raised in biology related fields in 1989 and has
-sinced expanded to become more general and applicable to other
-disciplines.
+Service (PHS) [2]_ research integrety on behalf of the Secretary of Health
+and Human Services [3]_ and the American public.
+
+This book stems from the ethical concerns that were raised in biology related
+fields in 1989 :cite:p:`lawrence_bioethics_2025` and has sinced expanded to
+become more general and applicable to other disciplines.
+
+.. [1] `<https://ori.hhs.gov/>`_
+
+.. [2] `<https://health.gov/>`_
+
+.. [3] `<https://www.hhs.gov/>`_
 
 *********
  Preface
@@ -27,10 +35,11 @@ disciplines.
 As the importance of science and technology increases, so too has the
 public's demand for the responsible conduct of research. Simply put,
 this means that good citizenship is applied to a researcher's
-professional life. However, as each field is different, so too does what
-“good citizenship” mean within each field. This book was written to
-briefly introduce researchers to what is generally accepted as
-responsible conduct regardless of their working field.
+professional life. However, as each field is different, so too is the definition
+of "good citizenship".
+
+This book is written to briefly introduce researchers to what is generally
+accepted as responsible conduct regardless of their working field.
 
 ********
  Part I
@@ -42,15 +51,33 @@ Chapter 1: Rules of the Road
 There aren't clear rules laid out to for researcher's to easily
 understand what is and isn't responsible research conduct. Rather, there
 are many organizing bodies, both official and non-official, that govern
-what is and isn't responsible. Furthermore, a researcher's personal
-judgement must also solve this ethical calculus. In order of importance
-of whose rules to listen too, it goes: Professional Codes, Federal,
-State, institutional policies, and personal judgement. Not all
-professions have Professional Codes. Federal regulations have to first
-be made available for public comment in the *Federal Register*, and once
-accepted, are incorporated into the *Code of Federal Regulations* and
+this [4]_ . Furthermore, a researcher's personal judgement contributes to this
+ethical calculus.
+
+Some of the ethical and legal guidelines researchers have to adhere to include:
+
+- Professional Codes,
+- Federal,
+- State,
+- institutional policies, and
+- personal judgement.
+
+Not all professions have Professional Codes. Federal regulations have to first
+be made available for public comment in the *Federal Register* [5]_ , and once
+accepted, are incorporated into the *Code of Federal Regulations* [6]_ and
 must be followed. Researchers are advised to seek help in understanding
 Federal rules.
+
+.. [4]
+
+   `IEEE <https://www.ieee.org/>`_ and `ACM <https://www.acm.org/>`_ come to
+   mind for software engineering
+
+.. [5] `<https://www.federalregister.gov/>`_
+
+.. [6] `<https://www.ecfr.gov/>`_
+
+.. _chapter-2:
 
 Chapter 2: Research Misconduct
 ==============================
@@ -58,25 +85,25 @@ Chapter 2: Research Misconduct
 Research misconduct policies provide guidance on responsible conduct in
 these three areas:
 
-.. code:: text
-
-   1. Establish definitions for misconduct in research,
-   2. Outline procedures for reporting and investigating misconduct, and
-   3. Provide protection for whistleblowers and person accused of misconduct.
+ 1. Establish definitions for misconduct in research,
+ 2. Outline procedures for reporting and investigating misconduct, and
+ 3. Provide protection for whistleblowers and person accused of misconduct.
 
 Federal regulations for research misconduct technically only apply at
 the Federal level, but many institutions incorporate and expand it
-within their own policies. The Office of Science and Technology Policy's
-(OSTP), a Federal agenct, definition of research misconduct is,
-“fabrication, falsification, or plagiarism in proposing, performing, or
-reviewing research, or in reporting research results”. For an action to
-be considered research misconduct, it must meet the following criteria:
+within their own policies. The Office of Science and Technology Policy [7]_
+(OSTP) --- a Federal agency --- defines research misconduct as:
 
-.. code:: text
+"fabrication, falsification, or plagiarism in proposing, performing, or
+reviewing research, or in reporting research results,"
+:cite:p:`office_of_science_and_technology_policy_office_2025` .
 
-   1. Represent a, "significant departure from accepted practices",
-   2. Have been, "committed intentionally, or knowingly, or recklessly"; and
-   3. Be, "proven by a prponderance of evidence".
+For an action to be considered research misconduct, it must meet the following
+criteria: [8]_
+
+1. Represent a, "significant departure from accepted practices",
+2. Have been, "committed intentionally, or knowingly, or recklessly", and
+3. Be, "proven by a preponderance of evidence".
 
 The federal policy puts the responsibility of research misconduct
 reporting and investigation on both *researchers* and *their research
@@ -93,6 +120,12 @@ misconduct is under reported. Regardless, this misconduct taints the
 public image of research, wastes donated or tax-funded dollars, and
 harms both the professional reputations of researchers and institutions.
 
+.. [7] `<https://www.whitehouse.gov/ostp/>`_
+
+.. [8]
+
+   Haven't we been here before? See :ref:`chapter-2`
+
 *********
  Part II
 *********
@@ -107,9 +140,9 @@ or experiments.
 Researchers who use human subjects are subject to Federal regulations.
 Both the Nuremberg Code and the Declaration of Helsinki are guidelines
 that are to be followed when testing on human subjects. Additionally,
-the Federal regulation 45 CFR 46 Subparts A - D, known as the “Common
-Rule”, are expected to be followed as well. Exempt research from the
-“Common Rule” include:
+the Federal regulation 45 CFR 46 Subparts A - D, known as the "Common
+Rule", are expected to be followed as well. Exempt research from the
+"Common Rule" include:
 
 .. code:: text
 
@@ -154,21 +187,21 @@ Care Panel (ACP) commonly reffered to as th Guide. The *Guide* is widely
 accepted both in public and private institutions as well as Federal
 laboratories.
 
-The definition of an animal from the PHS Policy is, “any live,
+The definition of an animal from the PHS Policy is, "any live,
 vertebrate animals used or inteded for use in research, research
 training, experimentation, or biological testing or for related
-purposes”. the definition of an animal from the Common Rule that
+purposes". the definition of an animal from the Common Rule that
 implements the Animal Welfare Act includes warm blooded animals
-(mammals) but excludes, “Birds, rats of the genus Rattus and mice of the
+(mammals) but excludes, "Birds, rats of the genus Rattus and mice of the
 genus Mus bred for use in research, and horses not used for research
-purposes and other farm animals”.
+purposes and other farm animals".
 
 Institutions testing on animals must create an Institutional Animal Care
 and Use Committee (IACUC) which acts similarly to an IRB but for
 animals. These, along with the OLAW, USDA, and accrediation programs,
 are responsible for the proper care and respect of animal subjects.
 Prior to using animal subjects, researchers must defend the usage of
-animal subjects against the “three R's”:
+animal subjects against the "three R's":
 
 .. code:: text
 
@@ -498,4 +531,8 @@ these is the responsibility of all researchers.
  Bibliography
 *************
 
- .. bibliography::
+.. bibliography::
+   :filter: False
+
+   stenek_ori_2007
+   lawrence_bioethics_2025

@@ -1,6 +1,6 @@
 In my previous post, I wrote about a tool I wanted to create to print
 ANSI color codes to the console. I currently need a this as I am
-“prettifying” my shell prompt at the moment and figured it would just be
+"prettifying" my shell prompt at the moment and figured it would just be
 faster to leverage this tool over Googling the necessary shell codes.
 
 So I created ``acolor``, an open-source Python utility built on top of

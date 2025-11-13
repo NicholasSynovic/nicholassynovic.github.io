@@ -13,7 +13,7 @@ DeepSeek R1 Exists
 It's the latest exciting open-source LLM model and the first (to my
 knowledge) open-source *reasoning* model. While I'm unfamiliar with the
 intricacies of reasoning models, the gist of it is that these LLMs
-“think through” the problem before responding. In other words, as part
+"think through" the problem before responding. In other words, as part
 of the output that you get from your prompt, you also get the chain of
 thought that supports the reasoning behind the model's output. This
 provides context as to why the model generated its final output.
@@ -21,7 +21,7 @@ provides context as to why the model generated its final output.
 To be clear, I wouldn't call these models self-explaining; at the end of
 the day, LLMs are still considered black boxes that generate text based
 on statistical and mathematical computations. Just because DeepSeek
-“thinks through” a problem does not mean that it is truly sentient,
+"thinks through" a problem does not mean that it is truly sentient,
 accurate, or correct. There is still a need for human-in-the-loop (i.e.,
 human reviewer) style usage when leveraging these models.
 

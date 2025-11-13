@@ -3,7 +3,7 @@ build_project:
 	rm -rf dist/
 	uv build
 	uv pip install dist/*.tar.gz
-	sphinx-build --write-all --fresh-env src build
+	sphinx-build -vvv --write-all --fresh-env src build
 
 create-dev:
 	pre-commit install

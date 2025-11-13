@@ -75,9 +75,9 @@ However, there are a few issues with out-of-order execution:
 3. Microcode assists that handle complex edge cases require that the
    instruction be thrown out and code from the processor firmware be
    used to handle that case.
-4. “When a Transactional Synchronization Extension (TSX) transaction
+4. "When a Transactional Synchronization Extension (TSX) transaction
    aborts, all of the instructions within that transaction are not a
-   part of the nominal program execution.”
+   part of the nominal program execution."
 
 Transient Execution Attacks
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -143,9 +143,9 @@ The CacheOut attack takes advantage of the fact that L1 cache tends to
 end up in the LFBs post cache flush, allowing data to be read from those
 locations.
 
-“The CrossTalk attack shows that data can be from a shared staging
+"The CrossTalk attack shows that data can be from a shared staging
 buffer can be loaded to an leaked from LFBs, allowing attackers to
-compromise the SGX's random number generator.”
+compromise the SGX's random number generator."
 
 The Load Value Injection (LVI) attack takes advantage of aborted
 instructions to get around the cache flushing of data. This allows for

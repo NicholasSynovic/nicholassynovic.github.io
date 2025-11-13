@@ -76,8 +76,8 @@ Problem
 
    What is the problem addressed in the paper?
 
-More and more CV models are getting better performance by “going
-deeper”. However, these models can not be run efficiently on mobile and
+More and more CV models are getting better performance by "going
+deeper". However, these models can not be run efficiently on mobile and
 low powered devices. Therefore, a new class of models (MobileNets) needs
 to be developed in order to accommodate for these low powered and
 resource constrained devices.

@@ -158,20 +158,20 @@ Relevant Work
 The following relevant work can be found in the
 `Citations <#citations>`__ section of this article.
 
-2. Y. Amit, D. Geman, and K. Wilder, “\ *Joint Induction of Shape
-   Features and Tree Classifiers*,” IEEE Trans. Pattern Analysis and
+2. Y. Amit, D. Geman, and K. Wilder, "\ *Joint Induction of Shape
+   Features and Tree Classifiers*," IEEE Trans. Pattern Analysis and
    Machine Intelligence, vol. 19, no. 11, pp. 1,300-1,305, Nov. 1997
 3. L. Breiman, J.H. Friedman, R.A. Olshen, and C.J. Stone,
    *Classification and Regression Trees*. Belmont, Calif.: Wadsworth,
    1984
-4. D. Heath, S. Kasif, and S. Salzberg, “\ *Induction of Oblique
-   Decision Trees*,” Proc. 13th Int'l Joint Conf. Artificial
+4. D. Heath, S. Kasif, and S. Salzberg, "\ *Induction of Oblique
+   Decision Trees*," Proc. 13th Int'l Joint Conf. Artificial
    Intelligence, vol. 2, pp. 1,002-1,007, Chambery, France, 28 Aug.-3
    Sept. 1993.
-5. T.K. Ho, “\ *Random Decision Forests*,” Proc. Third Int'l Conf.
+5. T.K. Ho, "\ *Random Decision Forests*," Proc. Third Int'l Conf.
    Document Analysis and Recognition, pp. 278-282, Montreal, Canada,
    14-18 Aug. 1995.
-6. T.K. Ho, “\ *C4.5 Decision Forests*,” Proc. 14th Int'l Conf. Pattern
+6. T.K. Ho, "\ *C4.5 Decision Forests*," Proc. 14th Int'l Conf. Pattern
    Recognition, Brisbane, Australia, 17-20 Aug. 1998.
 
 Methodology

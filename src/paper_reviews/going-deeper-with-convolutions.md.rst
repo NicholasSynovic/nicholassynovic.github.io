@@ -79,14 +79,14 @@ together, are wired together)and a constant computational budget. Their
 approach relies on creative algorithms and neuroscience principles and
 aims to be a more power efficient model for mobile devices by limiting
 the computations during inference. Additionally, their model is deep but
-not wide and is considered “sparse” by the authors. In other words,
+not wide and is considered "sparse" by the authors. In other words,
 there are as few nodes as possible within the neural network.
 
 Szegedy et al.'s contributions are a state of the art computer vision
-model that provides experimental evidence that, “… Approximating the
+model that provides experimental evidence that, "… Approximating the
 expected optimal sparse structure by readily available dense building
 blocks is a viable method for improving neural networks for computer
-vision”. This means that this model proves that dense neural networks
+vision". This means that this model proves that dense neural networks
 for computer vision are not necessary in the author's viewpoint.
 
 Category
@@ -196,14 +196,14 @@ two convolutional layers results in computation cost quadratic ally
 increasing) Their solutions relies on moving from fully connected to
 sparsely connected architectures including within convolutional layers.
 Also, their model architecture is based on the idea that computers are
-inefficient when, “… Computing numerical calculations on non-uniform
-sparse data structures”.
+inefficient when, "… Computing numerical calculations on non-uniform
+sparse data structures".
 
 They assume that 1x1, 3x3, and 5x5 filters are the proper filters to
 use, but did not test other size of filters. They also assume that
-using, “Inception modules” is only useful at higher levels, whereas the
+using, "Inception modules" is only useful at higher levels, whereas the
 initial levels are standard convolutional levels. However, this was not
-tested either and was due to, “infrastructural inefficiencies” in the
+tested either and was due to, "infrastructural inefficiencies" in the
 implementation.
 
 Finally, that the model that achieved state of the art performance was

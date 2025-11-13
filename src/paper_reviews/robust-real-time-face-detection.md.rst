@@ -65,8 +65,8 @@ The paper *Robust Real-Time Face Detection* by P. Viola and M.J. Jones
 detection. They due this through the usage of an integral image which is
 able to reduce the computational complexity to constant time (O(1)) of
 analyzing an image as it doesn't rely on scale invariance and thus an
-image pyramid. Additional, the classifier that they build is “simple and
-efficient” and allows for the engineer to specify a large number of
+image pyramid. Additional, the classifier that they build is "simple and
+efficient" and allows for the engineer to specify a large number of
 features to be analyzed without compromising on performance as it relies
 upon the Ada Boost algorithm to select important features. Furthermore,
 the authors propose a method for building a cascade of classifiers which
@@ -100,7 +100,7 @@ Contributions
 They create an integral image which is able to reduce the computational
 complexity to constant time (O(1)) of analyzing an image as it doesn't
 rely on scale invariance and thus an image pyramid. Additionally, the
-classifier that they build is “simple and efficient” and allows for the
+classifier that they build is "simple and efficient" and allows for the
 engineer to specify a large number of features to be analyzed without
 compromising on performance as it relies upon the Ada Boost algorithm to
 select important features. Furthermore, the authors propose a method for
@@ -183,8 +183,8 @@ The paper *Robust Real-Time Face Detection* by P. Viola and M.J. Jones
 detection. They due this through the usage of an integral image which is
 able to reduce the computational complexity to constant time (O(1)) of
 analyzing an image as it doesn't rely on scale invariance and thus an
-image pyramid. Additionally, the classifier that they build is “simple
-and efficient” and allows for the engineer to specify a large number of
+image pyramid. Additionally, the classifier that they build is "simple
+and efficient" and allows for the engineer to specify a large number of
 features to be analyzed without compromising on performance as it relies
 upon the Ada Boost algorithm to select important features. Furthermore,
 the authors propose a method for building a cascade of classifiers which
@@ -192,7 +192,7 @@ further reduces computation time as each classifier specifies . Finally,
 they propose experiments that can be ran on face detection data sets to
 conduct supervised learning.
 
-The main “wow” factor of this work is that it was built on a low powered
+The main "wow" factor of this work is that it was built on a low powered
 system. This same application could be more performant on modern
 smartphones in comparison to the system that it was originally tested
 on.

@@ -116,11 +116,11 @@ Background Work
 
 Quote from the *Previous systems* section of the paper:
 
-“Researchers have approached the face-detection problem with different
+"Researchers have approached the face-detection problem with different
 techniques in the last few years, including neural networks [2] [3],
 detection of face features and use of geometrical constraints [4],
 density estimation of the training data [5], labeled graphs [6], and
-clustering and distribution-based modeling [7] [8].”
+clustering and distribution-based modeling [7] [8]."
 
 Motivation
 ~~~~~~~~~~
@@ -137,8 +137,8 @@ Figures, Diagrams, Illustrations, and Graphs
    that conclusions are statistically significant?
 
 The figures are clear and explained well through their captions.
-However, Table 2 uses a metric called “False Alarms” to measure the
-number of times the system reported a “face” that wasn't a face. A more
+However, Table 2 uses a metric called "False Alarms" to measure the
+number of times the system reported a "face" that wasn't a face. A more
 appropriate metric, such as recall, would have been appropriate in this
 case.
 
@@ -232,7 +232,7 @@ ethnicity, lighting conditions, face orientations, etc.).
 
 Their real time image capture system works on full color images of
 vertically aligned faces by using a combination of a skin detector and a
-“primitive” motion detector. This system was capable of recognizing
+"primitive" motion detector. This system was capable of recognizing
 faces at 4 to 5 frames per second.
 
 --------------

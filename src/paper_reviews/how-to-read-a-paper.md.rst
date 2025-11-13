@@ -67,7 +67,7 @@ First Pass
    sub-section headings, and conclusion
 
 The paper, *How to Read a Paper* by S. Keshav is a tutorial for graduate
-students on how to read an academic paper. They propose a “three-pass”
+students on how to read an academic paper. They propose a "three-pass"
 approach that aims to reduce the frustration that graduate students face
 when reading papers. Additionally, they discuss how to perform a
 literature survey of a new field, their experience with this
@@ -81,7 +81,7 @@ Category
 
 This paper is definitely a more causal piece of academic work that aims
 at easing students into the reading papers. I would classify this paper
-as “meta”, educational, or as a formal letter to students. The later
+as "meta", educational, or as a formal letter to students. The later
 classification is due to the lack of surveys or qualitative/
 quantitative data from others that have applied this or similar methods
 to reading papers.
@@ -164,7 +164,7 @@ paper.
 Discussion of the Proofs
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-The only proof of the “three-pass” method that was discussed was the
+The only proof of the "three-pass" method that was discussed was the
 experience of the author. An awfully biased proof, however, I do
 appreciate at least some quantifiable data for this method.
 
@@ -194,7 +194,7 @@ Summary
 
    A summary of the paper
 
-The paper *How to Read a Paper* by S. Keshav is a “meta” or educational
+The paper *How to Read a Paper* by S. Keshav is a "meta" or educational
 paper about how to read an academic work. Their main contributions are a
 three step process on how to read a paper, as well as a framework for
 performing a literature review in a new field. This three step process

@@ -99,8 +99,8 @@ Some Shortcomings, Limitations, and Challenges
 
 There exists several shortcomings with using AI cybersecurity tools. For
 starters, it is difficult to explain what the tool is doing. Security
-professionals therefore prefer an, “Explainable First, Predictive
-Second” [1] approach to AI tools. Additionally, AI tools can not make
+professionals therefore prefer an, "Explainable First, Predictive
+Second" [1] approach to AI tools. Additionally, AI tools can not make
 security related decisions without human interventions.
 
 And as AI tools grow in popularity, bias will start to develop within
@@ -116,7 +116,7 @@ through.
 Finally, not all of the necessary data to properly train these tools is
 available due to federal regulation. Personally identifying information
 (PII) cannot be made publicly available for the purposes of training.
-Additionally, it is assumed that large “data lakes” of Americans exist
+Additionally, it is assumed that large "data lakes" of Americans exist
 under the control of foreign entities. It is therefore possible for an
 entity to utilize one of these data lakes to write attacks that would
 not be detected as the attack is coming from an American rather than a

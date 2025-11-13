@@ -1,11 +1,3 @@
-:blogpost: true
-:date: Oct 10, 2020
-:author: Nicholas Synovic
-:location: World
-:category: Book Report
-:tag: Research Methods
-:language: English
-
 ####################################################################
  *On Being a Scientist: A Guide To Responsible Conduct In Research*
 ####################################################################
@@ -14,6 +6,7 @@ by the National Academy of Science, National Academy of Engineering and
 Institute of Medicine of the National Academies :cite:p:`committee_on_science_engineering_and_public_policy_being_2009`
 
 .. contents:: Table of Contents
+   :class: toggle
    :depth: 3
 
 *************************************************************************************
@@ -71,7 +64,9 @@ professional standards, those should be referred to for specifics.
 The material within this book is not exhaustive, and many texts and
 websites now exist to help supplement this material.
 
-.. hint::
+.. admonition:: Further reading awaits...
+   :class: dropdown
+
    For software engineering, consider the ACM Software engineering code of
    ethics :cite:p:`gotterbarn_software_1997`, or the Agile Manifesto
    :cite:p:`kent_beck_manifesto_2001`.
@@ -99,8 +94,8 @@ properly report their results to the public as their work has the potential to
 impact policies at an international level. A researchers irresponsible actions
 --- or *scientific misconduct* --- can potentially undermine an entire field and
 cause permanent damage to their reputation. *Scientific misconduct* is defined
-as, “fabrication, falsification or plagiarism in proposing, performing, or
-reviewing researcher, or in reporting research results,” by the US
+as, "fabrication, falsification or plagiarism in proposing, performing, or
+reviewing researcher, or in reporting research results," by the US
 government [9]_ :cite:p:`the_office_of_research_integrity_definition_nodate`.
 
 ************************
@@ -124,7 +119,8 @@ develop clear expectations regarding meeting times and availability with
 their mentors, and need to seek out their mentors, rather than expect a
 mentor to be provided to them.
 
-.. hint::
+.. admonition:: Further reading awaits...
+   :class: dropdown
 
    For more information on this subject, please read *Adviser, Teacher, Role
    Model, Friend: On Being a Mentor to Students in Science and Engineering*
@@ -169,7 +165,7 @@ obligation to be as accurate and as careful as possible both for their
 profession and the public.
 
 To make progress, researchers must believe the works of other
-researchers. It is well known that by, “looking for an answer”, or
+researchers. It is well known that by, "looking for an answer", or
 believing that there exists an answer prior to running experiments, that
 researchers bias themselves to believe that something exists when it
 doesn't [13]_ . However, these inaccuracies and mistakes must be remedied in
@@ -181,9 +177,9 @@ continue proliferation of science [14]_ .
 *********************
 
 Scientific misconduct, as defined by the U.S. Office of Science and
-Technology Policy, defines it as, “fabrication, falsification, or
+Technology Policy, defines it as, "fabrication, falsification, or
 plagiarism in proposing, performing, or reviewing research, or in
-reporting research results”
+reporting research results"
 :cite:p:`the_office_of_research_integrity_definition_nodate`.
 
 The specific definitions for fabrication, falsification, and plagiarism are:
@@ -327,11 +323,11 @@ Publishing or announcing results prior to peer-review is dangerous.
 Without the peer-review checks, it is possible for misinformation to be
 misinterpreted by the public, policy makers, and other researchers as
 fact. Additionally, by posting information prior to a journal submission
-online, it can be considered to be a “prior publication”, thus making it
+online, it can be considered to be a "prior publication", thus making it
 unusable for publishing within the journal.
 
 Publication abuses are possible. For example, researchers may publish
-the “least publishable unit” of information. This is when the smallest
+the "least publishable unit" of information. This is when the smallest
 number of results are collected or written about to be published, rather
 than undergoing an intensive research process. This wastes the time and
 energy of reviewers and can give the researcher a reputation of
@@ -350,7 +346,7 @@ the author list order.
 
 Honorary authors (i.e., those that contributed zero to little actual content
 to the research) should not be added in the author list. They can be
-acknowledged in an “Acknowledgment” section however. Additionally,
+acknowledged in an "Acknowledgment" section however. Additionally,
 ghost-writers should not be used to write a paper.
 
 All authors on a paper must take responsibility for the content of the

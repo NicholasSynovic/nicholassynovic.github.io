@@ -74,8 +74,8 @@ Problem
 
 The problem is two fold:
 
-1. To build a face detector that is robust to occlusion and “in the
-   wild” images.
+1. To build a face detector that is robust to occlusion and "in the
+   wild" images.
 2. To incorporate facial landmarks via global and local features of the
    image to better isolate not only where the face(s) are within the
    image, but also the eyes, jaw, mouth, etc.

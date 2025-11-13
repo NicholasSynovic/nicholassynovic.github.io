@@ -196,10 +196,10 @@ Correctness
 
    Do the assumptions seem valid?
 
-No their assumption doesn't seem valid. In their own words, “Skew,
+No their assumption doesn't seem valid. In their own words, "Skew,
 anisotropic scaling, and perspective effects are assumed to be
 second-order effects, that are covered to some degree by the overall
-robustness of the descriptor,” [1] however, I would argue that with the
+robustness of the descriptor," [1] however, I would argue that with the
 advent of fish-eyed lenses on smartphones and action-cameras, skew is
 now (and should be) a first-order priority.
 

@@ -36,7 +36,7 @@ Slurm is an open-source job scheduler software package that enables
 efficient management of workload execution on shared computing
 resources, such as cluster computers [3]. A job scheduler like Slurm
 manages the order in which programs or applications (referred to as
-“jobs”) are executed on these resources. By queuing jobs and allocating
+"jobs") are executed on these resources. By queuing jobs and allocating
 access to computational resources on a managed basis (e.g.,
 first-in-first-out, last-in-last-out, or when specific hardware becomes
 available), Slurm ensures that each job has exclusive access to the

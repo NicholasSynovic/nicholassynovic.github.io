@@ -84,7 +84,7 @@ with 200,000 concepts map words to a sentiment.
 
 Automated sentiment and aspect extraction is of interest within the MSA
 field. Current solutions involve hand crafted features. The authors
-applied “commonsense knowledge” about topic extraction involving several
+applied "commonsense knowledge" about topic extraction involving several
 sentences.
 
 Methodology
@@ -132,8 +132,6 @@ of the video from the contextual information.
 Prediction Results
 ~~~~~~~~~~~~~~~~~~
 
-.. _speaker-topics-1:
-
 Speaker Topics
 ^^^^^^^^^^^^^^
 
@@ -141,8 +139,6 @@ The best performance measured achieved a score of 66.16% on the test
 dataset. This was better than the LSTM approach the authors also tried.
 However, Albert (an end-2-end NLP transformer for supervised NLP tasks)
 [4] still outperforms this solution.
-
-.. _emotions-1:
 
 Emotions
 ^^^^^^^^

@@ -142,16 +142,16 @@ ecosystem. Furthermore, they analyze the different threat models to
 ecosystem. In addition, they propose several different mitigations for
 their proposed threat models. These include:
 
-- a vetting process to create “trusted” maintainers
+- a vetting process to create "trusted" maintainers
 - a vetting process to analyze newly contributed code of specific
   packages
 
 If both process were to be created for a single package, that package
-would be considered to have, “perfect first-party security”. And if this
+would be considered to have, "perfect first-party security". And if this
 was to be extended to all transitive packages of that sole package, then
-it would be considered to have “perfect third-party security” If both of
+it would be considered to have "perfect third-party security" If both of
 the considerations were to be met, then the package would be considered
-to be a “fully secured package”.
+to be a "fully secured package".
 
 --------------
 
@@ -165,7 +165,7 @@ Background Work
 
    What has been done prior to this paper?
 
-Work has been done understanding the usage of “micro packages”, or
+Work has been done understanding the usage of "micro packages", or
 packages that accomplish a small functionality.
 
 Work has been done to understand the server and client security
@@ -322,16 +322,16 @@ The author's main contributions were (taken from the paper):
 In addition, they propose several different mitigations for their
 proposed threat models. These include:
 
-- a vetting process to create “trusted” maintainers
+- a vetting process to create "trusted" maintainers
 - a vetting process to analyze newly contributed code of specific
   packages
 
 If both process were to be created for a single package, that package
-would be considered to have, “perfect first-party security”. And if this
+would be considered to have, "perfect first-party security". And if this
 was to be extended to all transitive packages of that sole package, then
-it would be considered to have “perfect third-party security” If both of
+it would be considered to have "perfect third-party security" If both of
 the considerations were to be met, then the package would be considered
-to be a “fully secured package”.
+to be a "fully secured package".
 
 The threat models that the author's identified were:
 

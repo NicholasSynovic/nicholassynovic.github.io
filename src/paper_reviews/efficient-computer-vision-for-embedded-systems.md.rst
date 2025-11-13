@@ -94,7 +94,7 @@ hardware and software) to support CV applications on the edge.
 Therefore, LPCV research involves the union of power efficient designs
 and optimizations of both the deployment hardware and solution software.
 
-   *Can you describe one (or several) “grand challenges” using CV; the
+   *Can you describe one (or several) "grand challenges" using CV; the
    solutions will significantly change the world, but are they far
    beyond today's technologies?*
 

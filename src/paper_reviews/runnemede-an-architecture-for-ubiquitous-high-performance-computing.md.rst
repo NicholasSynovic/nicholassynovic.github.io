@@ -120,7 +120,7 @@ Motivation
 The justification for this work is that there exists a theory that
 larger and larger HPC computers will require more and more power,
 without fully utilizing the entire device array. Additionally, a test
-chip was designed, but never produced, called “Sunshine”. By designing
+chip was designed, but never produced, called "Sunshine". By designing
 this chip, the authors were able to theoretically test the ideas
 presented in the paper as well as develop new ones for the architecture.
 
@@ -155,11 +155,11 @@ Author Assumptions
    What assumptions does the author(s) make? Are they justified
    assumptions?
 
-The author's assumed that, “… The power consumed by logic is expected to
+The author's assumed that, "… The power consumed by logic is expected to
 scale well as feature sizes shrink, but not as well as transistor
 density, leading to the design of *over provisioned, energy-limited*
 systems that contain more hardware than they can operate
-simultaneously”. In other words, systems will have more and more *power
+simultaneously". In other words, systems will have more and more *power
 hungry* hardware that cannot be utilized in its entirety. Additionally,
 they assume that the current trend with DRAM will cause power
 consumption to decrement over time, but not fast enough.

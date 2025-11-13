@@ -4,7 +4,7 @@
 
 -  `Table of contents <#table-of-contents>`__
 
--  `What is “version control system mining”?
+-  `What is "version control system mining"?
    <#what-is-version-control-system-mining>`__
 
 -  `Who cares about version control mining?
@@ -22,7 +22,7 @@
 -  `How do I get started? <#how-do-i-get-started>`__
 
 ##########################################
- What is “version control system mining”?
+ What is "version control system mining"?
 ##########################################
 
 Version control system mining, other wise known as software repository
@@ -154,19 +154,19 @@ improve the system towards some goal.
  Papers
 ********
 
--  N. U. Eisty, G. K. Thiruvathukal, and J. C. Carver, “A Survey of
-   Software Metric Use in Research Software Development,” in 2018 IEEE
+-  N. U. Eisty, G. K. Thiruvathukal, and J. C. Carver, "A Survey of
+   Software Metric Use in Research Software Development," in 2018 IEEE
    14th International Conference on e-Science (e-Science), Amsterdam:
    IEEE, Oct. 2018, pp. 212–222. DOI: `10.1109/eScience.2018.00036
    <https://doi.org/10.1109/eScience.2018.00036>`__.
 
--  F. Rahman and P. Devanbu, “How, and why, process metrics are better,”
+-  F. Rahman and P. Devanbu, "How, and why, process metrics are better,"
    in 2013 35th International Conference on Software Engineering (ICSE),
    May 2013, pp. 432–441. DOI: `10.1109/ICSE.2013.6606589
    <https://doi.org/10.1109/ICSE.2013.6606589>`__.
 
--  N. M. Synovic et al., “Snapshot Metrics Are Not Enough: Analyzing
-   Software Repositories with Longitudinal Metrics,” in Proceedings of
+-  N. M. Synovic et al., "Snapshot Metrics Are Not Enough: Analyzing
+   Software Repositories with Longitudinal Metrics," in Proceedings of
    the 37th IEEE/ACM International Conference on Automated Software
    Engineering, in ASE '22. New York, NY, USA: Association for Computing
    Machinery, Jan. 2023, pp. 1–4. DOI: `10.1145/3551349.3559517

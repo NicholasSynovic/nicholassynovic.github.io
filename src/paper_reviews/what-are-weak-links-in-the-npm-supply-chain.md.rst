@@ -1,6 +1,6 @@
 --------------
 
-title: A summary of “What are Weak Links in the npm Supply Chain?”, by
+title: A summary of "What are Weak Links in the npm Supply Chain?", by
 Nusrat Zahan et al. description: Posted in the Proceedings of ICSE-SEIP
 2022 summary: Posted in the Proceedings of ICSE-SEIP 2022
 
@@ -32,7 +32,7 @@ draft: false
 date: 2022-10-31T09:50:49-05:00 featured_image: '' include_toc: true markup: md outputs: [] show_comments: false toc: false show_reading_time: true
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
-A summary of *“What are Weak Links in the npm Supply Chain?”*
+A summary of *"What are Weak Links in the npm Supply Chain?"*
 =============================================================
 
    Nusrat Zahan et al.; Proceedings of ICSE-SEIP 2022;
@@ -44,8 +44,8 @@ of this article.
 Table of Contents
 -----------------
 
-- `A summary of “What are Weak Links in the npm Supply
-  Chain?” <#a-summary-of-what-are-weak-links-in-the-npm-supply-chain>`__
+- `A summary of "What are Weak Links in the npm Supply
+  Chain?" <#a-summary-of-what-are-weak-links-in-the-npm-supply-chain>`__
 
   - `Table of Contents <#table-of-contents>`__
   - `First Pass <#first-pass>`__
@@ -110,7 +110,7 @@ and then insert malicious code into the package. This malicious code
 then propagates through the supply chain, thereby affecting many
 unsuspecting downstream users. The more signals a package has, the
 weaker it is considered to be within the supply chain - thereby earning
-the name: “weak link”. Weak links exposes a package to a higher risk of
+the name: "weak link". Weak links exposes a package to a higher risk of
 a supply chain attack and an attacker can exploit signals to execute a
 supply chain attack.
 
@@ -167,9 +167,9 @@ Background Work
 
 Work has been done to define supply chain attacks:
 
-- Supply Chain Attack: “A supply chain attack is a cyber-attack that
+- Supply Chain Attack: "A supply chain attack is a cyber-attack that
   aims to infect organizations and end-users by targeting less-secure
-  components in the supply chain”
+  components in the supply chain"
 
 Work has been done to define supply chain attacks:
 
@@ -313,7 +313,7 @@ between a feature complete and an unmaintained package.
 Finally, they were critiqued by their reviewers (to which I agree with
 on this point) that assuming that too many maintainers or contributors
 is an incorrect weak link as the nature of open source encourages
-collaboration and a “more the merrier” approach to developing software.
+collaboration and a "more the merrier" approach to developing software.
 
 Future Directions
 ~~~~~~~~~~~~~~~~~

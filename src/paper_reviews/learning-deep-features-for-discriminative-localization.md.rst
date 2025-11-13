@@ -69,8 +69,8 @@ Bolei Zhou et al. [1] describes using the global average pooling layer
 of CNNs to not only regularize data, but also to localize objects in an
 image **even if the network wasn't trained for object detection**. The
 authors propose a method for object localization that involves a simple
-modification to the layer to generate what they call “class activation
-maps” (CAMs), which are heat maps of where the CNN is “looking” at an
+modification to the layer to generate what they call "class activation
+maps" (CAMs), which are heat maps of where the CNN is "looking" at an
 image for labeling. The hotter the heat map, the more focus the CNN is
 putting on that specific image region.
 
@@ -136,7 +136,7 @@ Motivation
 
 We should care about this paper as it provides a methodology of
 utilizing existing CNNs trained on image classification to perform
-object localization tasks “for free”. In other words, this paper
+object localization tasks "for free". In other words, this paper
 presents a methodology for object localization by reusing existing SOTA
 CNNs.
 

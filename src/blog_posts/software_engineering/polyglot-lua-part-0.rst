@@ -13,7 +13,7 @@ scripting language.
  What Is Lua?
 ##############
 
-Lua is an `“efficient, lightweight, embeddable scripting language”
+Lua is an `"efficient, lightweight, embeddable scripting language"
 <https://www.lua.org/about.html>`__ in active development since 1993. It
 claims to be fast, but most importantly the interpreter is very small at
 only a few 552Kb for the latest (5.4.7) binary.

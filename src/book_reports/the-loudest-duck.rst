@@ -11,7 +11,7 @@ by Laura Liswood
  Acknowledgments
 *****************
 
-“No book is an island”. In other words, it takes many authors and
+"No book is an island". In other words, it takes many authors and
 contributors who, while not the primary author(s), deserve to be
 recognized for their contributions. However, all errors in the book are
 the primary author's responsibility.
@@ -63,7 +63,7 @@ moving beyond diversity 1.0 (Noah's Ark) to diversity 2.0 is so
 important.
 
 Unlike men, women often find that their lives often don't have much
-control and that, “things happen”. Mary Catherine Bateson is
+control and that, "things happen". Mary Catherine Bateson is
 anthropologist and resident of the Institute for Intercultural Studies
 [3] whose book, *Composing a Life* [1] talks about this topic.
 
@@ -73,7 +73,7 @@ having the following four traits:
 
 .. code:: text
 
-   1. A “True North” that serves as an internal compass of values
+   1. A "True North" that serves as an internal compass of values
    2. The willingness to challenge authority
    3. The practical skills to communicate to others
    4. The ability to travel outside their own worldview
@@ -153,7 +153,7 @@ age group is stereotyped as having.
 Culture refers to the cultural differences between coworkers. This could
 include formalities, dining, rituals, habits, and other differences
 based on where someone grew up. These can be best detected by thoughts
-along the line of, “That's not what we do here”.
+along the line of, "That's not what we do here".
 
 Religion is often polarizing. However, it also implicitly and explicitly
 affects how someone's culture is defined. Furthermore, holidays are
@@ -175,7 +175,7 @@ to cause harm.
 
 Languages and language dialects can be used to classify individuals.
 Additionally, as English is the predominant language in the workplace,
-the more English that a non-English speaker knows, the “smarter” they
+the more English that a non-English speaker knows, the "smarter" they
 appear to some. This is because they are finally able to communicate
 their already smart ideas in a different language.
 
@@ -193,8 +193,8 @@ Sometimes we go looking for a trait in someone. For example, building a
 leader from nothing simply because they meet physical definition of a
 leader.
 
-Confirmation bias is best characterized as, “I know what I know because
-I know it”. But organizations will not benefit from hiring for diversity
+Confirmation bias is best characterized as, "I know what I know because
+I know it". But organizations will not benefit from hiring for diversity
 as long as they continue to hire what they know is best.
 
 Objections to Diversity
@@ -271,13 +271,13 @@ our belief system make up Grandma. Additionally, the lessons that we
 learned from family or mentors also makes up Grandma.
 
 Grandma is different from nation to nation, or more broadly, culture to
-culture. In America the saying, “The squeaky wheel gets the grease,”
+culture. In America the saying, "The squeaky wheel gets the grease,"
 means that speaking up and being assertive is the best. However in Japan
-the equally popular saying, “The nail that sticks out gets hit on the
-head,” means to be punished if assertive. Likewise, in China they have
-the saying, “The loudest duck gets shot”. Furthermore, women in America
-are taught that, “If you can't say anything nice, don't say anything at
-all,” which means to not be assertive if they don't have an agreeing
+the equally popular saying, "The nail that sticks out gets hit on the
+head," means to be punished if assertive. Likewise, in China they have
+the saying, "The loudest duck gets shot". Furthermore, women in America
+are taught that, "If you can't say anything nice, don't say anything at
+all," which means to not be assertive if they don't have an agreeing
 opinion.
 
 So if a Wheel, Nail, Duck, and Nice were in a strategy meeting with
@@ -285,7 +285,7 @@ their boss, the Wheel would dominate the conversation and potential
 receive a merit because of their outspoken-ess whereas everyone else
 could be subtly or overtly punished for their lack of contributions.
 However, that was only because the Nail, Duck, and Nice learned from
-their Grandma, “proper etiquette,” which was wrong in this case. This is
+their Grandma, "proper etiquette," which was wrong in this case. This is
 an example of how diversity failed as the cognitive diversity that was
 initially desired.
 
@@ -404,19 +404,19 @@ However, managers dealing with diverse employees worry about their
 critical feedback not being received positively. Common concerns involve
 being called racist, sexist, or subject to litigation. So managers
 scrape by by telling their employees that they are fine. Fine could very
-well mean, “Feelings Inside Not Expressed” though.
+well mean, "Feelings Inside Not Expressed" though.
 
 Positive allusion is a sociological trait that men have developed where
 they hear the positives about themselves first. Women have developed
 negative allusion which is the converse of the above statement. This
 causes men to give other men direct, critical feedback, and women to
 approach the same subject in an indirect relational fashion. The best
-way to clearly give feedback is to ask, “What did you hear me say?” as
+way to clearly give feedback is to ask, "What did you hear me say?" as
 this then allows the two parties to make sure that they are on the same
 page.
 
 Men typically are allowed to get angry in the workplace and express
-frustration. Whereas women are labeled as “bitchy” for the same
+frustration. Whereas women are labeled as "bitchy" for the same
 behavior. However, if they don't, their frustrations are never heard.
 Thus this double bind position that women are in (damned if they do,
 damned if they don't) prevents women and other non-dominant groups from
@@ -509,12 +509,12 @@ Thus conscious, intentional, and mindful speaking is critical to thrive.
 Verbal Judo is using words to get someone to comply with or complete an
 action or task. It is useful for diffusing difficult situations. Rather
 than order someone to do something during a tough situation, talk to
-them calmly and give them options. Instead of, “Stop that, it's
-unsafe!”, a better option would be, “For your safety and mine, please
-stop doing that or [insert consequence]”.
+them calmly and give them options. Instead of, "Stop that, it's
+unsafe!", a better option would be, "For your safety and mine, please
+stop doing that or [insert consequence]".
 
 Speaking consciously means that each sentence is intentional. To
-American, “How are you doing?” means basically nothing. However, to a
+American, "How are you doing?" means basically nothing. However, to a
 foreigner, that is a meaningful question and when Americans don't
 listen, we are perceived as rude.
 
@@ -556,7 +556,7 @@ accessible to everyone.
 If you are an employee with unequal access to the manager, find ways to
 get to know each other. This could involve suppressing your Grandma.
 
-Learn to Recognize Other People's “Grandmas”
+Learn to Recognize Other People's "Grandmas"
 ============================================
 
 If you are a manager, ask, listen, and be aware of who everyone is on

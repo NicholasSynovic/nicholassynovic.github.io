@@ -103,11 +103,11 @@ autonomous flight.
 
 These include:
 
-- “… A stereo visual-inertial odometry (VIO) algorithm was used for
+- "… A stereo visual-inertial odometry (VIO) algorithm was used for
   state estimation, a 2-D light detection and ranging (LiDAR) mounted on
   a nodding gimbal was used for mapping and obstacle avoidance, and a
   search-based motion planner was used for motion primitives plans
-  collision-free and dynamically feasible trajectories,” [1]
+  collision-free and dynamically feasible trajectories," [1]
 - A vision based solution that can navigate in both structured and
   moderately unstructured environments (i.e., a collapsed building) [2]
 - A system of using many UAVs that work together and coordinate through
@@ -189,8 +189,6 @@ affected. It is possible to join LiDAR point cloud data and a spherical
 range image together and pass the union of this data into a CNN to
 reduce information loss [4].
 
-.. _challenges-1:
-
 Challenges
 ^^^^^^^^^^
 
@@ -213,8 +211,6 @@ Semantic features allows the robot to generate a meaningful map of the
 environment and assist in pose estimation. The usage of locating and
 representing trees as points of interests has been studied and found to
 be useful for identifying local regions.
-
-.. _challenges-2:
 
 Challenges
 ^^^^^^^^^^

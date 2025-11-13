@@ -53,7 +53,7 @@ scale accordingly and model complex, data driven systems.
 IoT devices are revolutionizing many sectors by providing near real time
 data feeds. These feeds, to be of use, need to be analyzed in real time.
 Because of this, there is a move towards understanding and modeling this
-“tactile internet”.
+"tactile internet".
 
 One of the problems with the tactile internet is that it generates
 Extreme Data, which is a step above Big Data. The challenges of Extreme

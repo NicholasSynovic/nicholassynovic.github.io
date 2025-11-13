@@ -354,9 +354,9 @@ The authors defined several areas where technical debt can accrue:
 
   - *Fixed Threshold in Dynamic Systems*: Manually selecting a decision
     threshold that a system has to abide by.
-  - *Monitoring and Testing*: “Comprehensive live monitoring of system
+  - *Monitoring and Testing*: "Comprehensive live monitoring of system
     behavior in real time combined with automated response is critical
-    for long-term system reliability”
+    for long-term system reliability"
 
     - ``Prediction Bias``
     - ``Action Limits``

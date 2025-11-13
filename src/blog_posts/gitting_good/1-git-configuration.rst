@@ -54,7 +54,7 @@ If you are following along, this is the file stored at:
 file itself. To start, we'll configure ``git blame``
 
 ####################
- “It's Your Fault!”
+ "It's Your Fault!"
 ####################
 
 ``git blame`` reports who contributed each line in a given file. This is
@@ -120,11 +120,11 @@ workstations, it does provide a layer of collaborator authentication.
 Some of the work that I do involves assessing the quality of software
 repositories longitudinally. Thus, I'm often checking out many commits
 sequentially in a ``git`` repository. Therefore, when I heard about the
-``core.fsmonitor`` config option, I was ecstatic. This option, “can
+``core.fsmonitor`` config option, I was ecstatic. This option, "can
 speed up Git commands that need to refresh the Git index (e.g. git
 status) in a working directory with many files. The built-in monitor
 eliminates the need to install and maintain an external third-party
-tool” (`Source
+tool" (`Source
 <https://git-scm.com/docs/git-config#Documentation/git-config.txt-corefsmonitor>`__).
 
 In my testing, I found that when checking out 500 commits sequentially

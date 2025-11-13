@@ -93,7 +93,7 @@ Category
 
    What type of paper is this work?
 
-This is a proposal paper. I would also call this a “futurist”, or
+This is a proposal paper. I would also call this a "futurist", or
 trend-analysis paper
 
 Context

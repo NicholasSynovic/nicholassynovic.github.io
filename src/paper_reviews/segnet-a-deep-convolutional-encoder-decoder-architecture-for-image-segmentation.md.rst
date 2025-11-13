@@ -155,9 +155,9 @@ Relevant Work
 The following relevant work can be found in the
 `Citations <#citations>`__ section of this article.
 
-2. M. Ranzato, F. J. Huang, Y. Boureau, and Y. LeCun, “Unsupervised
+2. M. Ranzato, F. J. Huang, Y. Boureau, and Y. LeCun, "Unsupervised
    learning of invariant feature hierarchies with applications to object
-   recognition,” in Proc. IEEE Conf. Comput. Vis. Pattern Recognit.,
+   recognition," in Proc. IEEE Conf. Comput. Vis. Pattern Recognit.,
    2007
 
 Methodology
