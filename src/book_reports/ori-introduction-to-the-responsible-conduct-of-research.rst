@@ -57,16 +57,16 @@ ethical calculus.
 Some of the ethical and legal guidelines researchers have to adhere to include:
 
 - Professional Codes,
-- Federal,
+- federal,
 - State,
 - institutional policies, and
 - personal judgement.
 
-Not all professions have Professional Codes. Federal regulations have to first
-be made available for public comment in the *Federal Register* [5]_ , and once
-accepted, are incorporated into the *Code of Federal Regulations* [6]_ and
+Not all professions have Professional Codes. federal regulations have to first
+be made available for public comment in the *federal Register* [5]_ , and once
+accepted, are incorporated into the *Code of federal Regulations* [6]_ and
 must be followed. Researchers are advised to seek help in understanding
-Federal rules.
+federal rules.
 
 .. [4]
 
@@ -77,10 +77,13 @@ Federal rules.
 
 .. [6] `<https://www.ecfr.gov/>`_
 
-.. _chapter-2:
 
 Chapter 2: Research Misconduct
 ==============================
+
+It is assumed that research misconduct is under reported. Regardless, misconduct
+taints the public image of research, wastes donated or tax-funded dollars, and
+harms both the professional reputations of researchers and institutions.
 
 Research misconduct policies provide guidance on responsible conduct in
 these three areas:
@@ -89,10 +92,10 @@ these three areas:
  2. Outline procedures for reporting and investigating misconduct, and
  3. Provide protection for whistleblowers and person accused of misconduct.
 
-Federal regulations for research misconduct technically only apply at
-the Federal level, but many institutions incorporate and expand it
+federal regulations for research misconduct technically only apply at
+the federal level, but many institutions incorporate and expand it
 within their own policies. The Office of Science and Technology Policy [7]_
-(OSTP) --- a Federal agency --- defines research misconduct as:
+(OSTP) --- a federal agency --- defines research misconduct as:
 
 "fabrication, falsification, or plagiarism in proposing, performing, or
 reviewing research, or in reporting research results,"
@@ -105,26 +108,32 @@ criteria: [8]_
 2. Have been, "committed intentionally, or knowingly, or recklessly", and
 3. Be, "proven by a preponderance of evidence".
 
-The federal policy puts the responsibility of research misconduct
-reporting and investigation on both *researchers* and *their research
-institutions*. Research misconduct puts a researcher's career on the
-line. Additionally, a whistleblower runs the risk of illegal
-retaliation. Furthermore, the accused researcher(s) only face punishment
-when proven guilty.
+The violation of
 
-The violation of Federal rules, abuse of confidentiality, authorship and
-publication violations, failure to report misconduct, obstruction of
-misconduct investigations, and other institutional level policies can be
-classified as research misconduct. It is assumed that research
-misconduct is under reported. Regardless, this misconduct taints the
-public image of research, wastes donated or tax-funded dollars, and
-harms both the professional reputations of researchers and institutions.
+- federal rules,
+- abuse of confidentiality,
+- authorship and publication violations,
+- failure to report misconduct,
+- obstruction of misconduct investigations, and
+- other institutional level policies
+
+can also be classified as research misconduct.
+
+Research misconduct puts a researcher's career on the
+line. However, researchers accused
+of research misconduct only face punishment when proven guilty.
+
+OSTP puts the responsibility of research misconduct
+reporting and investigation on both *researchers* and *their research
+institutions*. Research misconduct whistleblowers run the risk of illegal
+retaliation when reporting to governing bodies.
 
 .. [7] `<https://www.whitehouse.gov/ostp/>`_
 
 .. [8]
 
-   Haven't we been here before? See :ref:`chapter-2`
+   Haven't we been here before? See
+   :ref:`book_reports/on-being-a-scientist-a-guide-to-responsible-conduct-in-research:research misconduct`
 
 *********
  Part II
@@ -137,29 +146,23 @@ Human subjects are used in order to find improvements to the human
 experience. This could involve the creation of new medicines, surgeries,
 or experiments.
 
-Researchers who use human subjects are subject to Federal regulations.
+Researchers who use human subjects are subject to federal regulations.
 Both the Nuremberg Code and the Declaration of Helsinki are guidelines
 that are to be followed when testing on human subjects. Additionally,
-the Federal regulation 45 CFR 46 Subparts A - D, known as the "Common
+the federal regulation 45 CFR 46 Subparts A - D, known as the "Common
 Rule", are expected to be followed as well. Exempt research from the
 "Common Rule" include:
 
-.. code:: text
-
-   - Research conducted in established or commonly accepted educational settings,
-
-   - Research involving the use of educational tests,
-
-   - Research involving the collection or study of existing data, documents,
+ - Research conducted in established or commonly accepted educational settings,
+ - Research involving the use of educational tests,
+ - Research involving the collection or study of existing data, documents,
    records, pathological specimens, or diagnostic specimens, if unidentifiable or
    publicly availible,
+ - Research and demonstration projects which are conducted by or subject to the
+   approval of department or agency heads, and
+ - Taste and food quality evaluation and consumer acceptance studies.
 
-   - Research and demonstration projects which are conducted by or subject to the
-   approval of department or agency heads; or
-
-   - Taste and food quality evaluation and consumer acceptance studies.
-
-Any institution that performs human research must have a Federally
+Any institution that performs human research must have a federally
 mandated Internal Review Board (IRB) consisting of at least 5 people,
 one of which is a scientist, one of which is a non-scientist, and one
 who is not affiliated with the institution. Furthermore, all researchers
@@ -175,7 +178,7 @@ Chapter 4: The Welfare of Laboratory Animals
 
 Research on animal subjects is done to benefit humans without
 experimenting on humans. The 1966 Animal Welfare Act and the 1985 Health
-and Research Extension Act both act as Federal regulations that
+and Research Extension Act both act as federal regulations that
 researcher's experimenting on human subjects must abide by. The United
 States Department of Agriculture (USDA) is responsible for the
 transportation, care, and use of animals. The usage of animals for
@@ -184,7 +187,7 @@ and Human Services (HHS), acting through the National Institutes of
 Health (NIH) and the Office of Laboratory Animal Welfare (OLAW), NIH.
 Furthermore, activists have put together guidelines through the Animal
 Care Panel (ACP) commonly reffered to as th Guide. The *Guide* is widely
-accepted both in public and private institutions as well as Federal
+accepted both in public and private institutions as well as federal
 laboratories.
 
 The definition of an animal from the PHS Policy is, "any live,
@@ -534,5 +537,6 @@ these is the responsibility of all researchers.
 .. bibliography::
    :filter: False
 
-   stenek_ori_2007
    lawrence_bioethics_2025
+   office_of_science_and_technology_policy_office_2025
+   stenek_ori_2007

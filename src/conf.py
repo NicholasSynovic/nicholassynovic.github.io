@@ -22,7 +22,7 @@ release = "0.0.1"
 
 extensions = [
     "ablog",
-    # "sphinx.ext.autosectionlabel",
+    "sphinx.ext.autosectionlabel",
     "sphinx.ext.intersphinx",
     "sphinx_togglebutton",
     "sphinxcontrib.bibtex",
@@ -32,8 +32,8 @@ templates_path = ["_templates"]
 exclude_patterns = []
 
 # Sphinx auto section label settings
-# autosectionlabel_prefix_document = False
-# autosectionlabel_maxdepth = 2
+autosectionlabel_prefix_document = True
+autosectionlabel_maxdepth = 2
 
 # Sphinx BibTex settings
 bibtex_bibfiles = ["refs.bib"]

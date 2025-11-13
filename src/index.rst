@@ -29,8 +29,7 @@ navigation. This website contains my latest:
  Latest Blog Posts
 *******************
 
-..
-   TODO: Use ABlog to organize this
+.. TODO: Use ABlog to organize this
 
 *****************************
  Pre-print Paper Manuscripts
@@ -51,26 +50,10 @@ navigation. This website contains my latest:
 .. toctree::
    :hidden:
    :glob:
-   :maxdepth: 2
-   :caption: Blog Posts
-
-   blog_posts/*
-
-.. toctree::
-   :hidden:
-   :glob:
    :maxdepth: 1
    :caption: Book Reports
 
    book_reports/*
-
-.. toctree::
-   :hidden:
-   :glob:
-   :maxdepth: 1
-   :caption: Paper Reviews
-
-   paper_reviews/*
 
 ..
    TODO: Add the following as a toc tree: CV, Resume, Google Scholar, ORCID, Instagram, Facebook, Bluesky, X, LinkedIn
