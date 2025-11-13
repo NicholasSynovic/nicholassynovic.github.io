@@ -38,6 +38,7 @@ bibtex_default_style = "unsrt"
 
 html_theme = "sphinx_book_theme"
 html_static_path = ["_static"]
+html_css_files = ["custom.css"]
 
 # https://sphinx-book-theme.readthedocs.io/en/latest/tutorials/get-started.html#add-a-source-repository-button-to-your-theme
 html_theme_options = {
