@@ -1,3 +1,11 @@
+:blogpost: true
+:date: Oct 10, 2020
+:author: Nicholas Synovic
+:location: World
+:category: Book Report
+:tag: Research Methods
+:language: English
+
 ####################################################################
  *On Being a Scientist: A Guide To Responsible Conduct In Research*
 ####################################################################

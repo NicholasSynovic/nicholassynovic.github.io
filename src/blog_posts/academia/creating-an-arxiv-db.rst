@@ -1,3 +1,19 @@
+###############################################
+``arXiv DB``: A Vector Database Of arXiv papers
+###############################################
+
+`arXiv <https://arxiv.org>`_ is the largest academic pre-print server containing articles from most natural science, mathematics, and computer sciences.
+It (and services similar to it) provide a treasure trove of information and early results to researchers, engineers, and the public at the cost of limited peer-review.
+Since **XYZ** year, arXiv has rapidly become the go-to destination for publishing techincal reports, methods, and other findings regarding machine and deep learning research; often foregoing a submission to an established conference series or journal.
+This has resulted in an average of **XYZ** manuscripts per day being published on arXiv; enough to overwhelm most researchers with the amount of reading they would have to do to keep up with the field.
+
+.. TODO: Add a figure that compares the number of arXiv publications tagged Machine and Deep Learning 3 years prior and up till present as a line chart
+
+As a Ph.D. student, I have found it increasingly difficult to keep up with the latest on-goings in my research field.
+
+
+
+.. OLD PROSE
 As a Ph.D. student studying Deep Learning (DL) from the perspective of a
 Software Engineer, I rely upon academic resources to learn about DL
 models, techniques, and methods. `arXiv <https://arxiv.org>`__ is

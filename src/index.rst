@@ -1,6 +1,6 @@
-############################
- Nicholas M. Synovic's Blog
-############################
+###############################
+ Nicholas M. Synovic's Website
+###############################
 
 *************
  Signposting
@@ -16,6 +16,8 @@ software engineering.
 This website contains professional artifacts and writings. It also
 attempts to centralize my online activity for observability and rapid
 navigation. This website contains my latest:
+
+.. TODO: Make each of these links
 
 -  CV,
 -  Resume,
@@ -41,8 +43,7 @@ navigation. This website contains my latest:
  Latest Other Writings
 ***********************
 
-..
-   TODO: Use ABlog to organize this
+..   TODO: Use ABlog to organize this
 
 ..
    Toctrees for the side bars
