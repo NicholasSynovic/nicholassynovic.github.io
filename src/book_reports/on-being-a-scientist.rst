@@ -261,7 +261,7 @@ The U.S. Public Health Service's *Policy on the Human Care and Use of Laboratory
 Animals* :cite:p:`us_department_of_health_and_human_services_phs_2015` applies
 to all research supported by the National Institute of Health (NIH).
 Additionally, the *Guide for the Care and Use of Laboratory Animals*
-:cite:p:`national_research_council_guide_2011`is required to be followed by all
+:cite:p:`national_research_council_guide_2011` is required to be followed by all
 NIH funded research institutions. This ensures that all animal testing follows
 the three R's:
 
@@ -420,7 +420,27 @@ that researchers should follow.
  Bibliography
 *************
 
- .. bibliography::
+.. bibliography::
+   :filter: False
+
+   committee_on_science_engineering_and_public_policy_adviser_1997
+   committee_on_science_engineering_and_public_policy_being_2009
+   george_w_bush_presidents_2001
+   goth_foundational_2025
+   gotterbarn_software_1997
+   he_authorship_2024
+   ieee_author_center_research_2025
+   kent_beck_manifesto_2001
+   long_fundamental_2019
+   national_research_council_guide_2011
+   noauthor_henry_2025
+   the_office_of_research_integrity_definition_nodate
+   the_office_of_research_integrity_ori_2025
+   the_royal_society_royal_2025
+   us_department_of_agriculture_animal_2025
+   us_department_of_health_and_human_services_federal_2009
+   us_department_of_health_and_human_services_phs_2015
+   yudkowsky_meditation_2007
 
 .. [1]
 

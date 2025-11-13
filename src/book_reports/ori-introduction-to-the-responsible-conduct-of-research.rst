@@ -2,7 +2,7 @@
  *ORI Introduction to the Responsible Conduct of Research*
 ###########################################################
 
-by Nicholas H. Steneck
+by Nicholas H. Steneck, David Zinn, and Tommy G. Thompson :cite:p:`stenek_ori_2007`
 
 .. contents:: Table of Contents
    :depth: 3
@@ -493,3 +493,9 @@ responsible conduct in one field may not apply to all fields. None the
 less, there is no justification for comprimising the core tennants of
 research: honesty, accuracy, efficiency, and objectivity. Upholding
 these is the responsibility of all researchers.
+
+*************
+ Bibliography
+*************
+
+ .. bibliography::
