@@ -56,11 +56,12 @@ Book Summaries
    Toctrees for the side bars
 
 .. toctree::
-   :hidden:
    :glob:
-   :maxdepth: 1
+   :hidden:
+   :maxdepth: 2
    :caption: Book Summaries
 
+   All Book Summaries <book_summaries/index>
    book_summaries/*
 
 ..

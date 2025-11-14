@@ -1,7 +1,7 @@
 :blogpost: true
 :date: November 14, 2025
 :category: Book Summary
-:tag: Research
+:tags: Research 11-14-2025
 :nocomments:
 
 ###########################################################
@@ -92,7 +92,7 @@ reviewing research, or in reporting research results,"
 :cite:p:`office_of_science_and_technology_policy_office_2025` .
 
 For an action to be considered research misconduct, it must meet the following
-criteria: [8]_
+criteria:
 
 1. Represent a, "significant departure from accepted practices",
 2. Have been, "committed intentionally, or knowingly, or recklessly", and
@@ -511,29 +511,24 @@ these is the responsibility of all researchers.
 
 .. [7] `<https://www.whitehouse.gov/ostp/>`_
 
-.. [8]
-
-   Haven't we been here before? See
-   :ref:`book_reports/on-being-a-scientist-a-guide-to-responsible-conduct-in-research:research misconduct`
-
 .. [9]
 
    For example, getting `pig organs to work in humans for extended periods of
    time <https://www.nature.com/articles/d41586-025-03750-w>`_
 
-.. [10] `<https://www.nih.gov/>`_
+.. [9] `<https://www.nih.gov/>`_
 
-.. [11] `<https://www.usda.gov/>`_
+.. [10] `<https://www.usda.gov/>`_
 
-.. [12] `<https://olaw.nih.gov/>`_
+.. [11] `<https://olaw.nih.gov/>`_
 
-.. [13]
+.. [12]
 
    For example, `Globus <https://www.globus.org/>`_,
    `Zenodo <https://zenodo.org/>`_, and `figshare <https://figshare.com/>`_.
 
-.. [14] Garbage in, garbage out
+.. [13] Garbage in, garbage out
 
-.. [15] `<https://www.nationalpostdoc.org/>`_
+.. [14] `<https://www.nationalpostdoc.org/>`_
 
-.. [16] `<https://www.icmje.org/>`_
+.. [15] `<https://www.icmje.org/>`_

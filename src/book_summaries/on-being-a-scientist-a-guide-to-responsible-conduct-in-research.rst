@@ -1,7 +1,7 @@
 :blogpost: true
 :date: November 10, 2025
 :category: Book Summary
-:tag: Research
+:tags: Research, 11-10-2025
 :nocomments:
 
 ####################################################################
