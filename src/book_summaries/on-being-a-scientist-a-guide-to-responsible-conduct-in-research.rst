@@ -1,3 +1,9 @@
+:blogpost: true
+:date: November 10, 2025
+:category: Book Summary
+:tag: Research
+:nocomments:
+
 ####################################################################
  *On Being a Scientist: A Guide To Responsible Conduct In Research*
 ####################################################################

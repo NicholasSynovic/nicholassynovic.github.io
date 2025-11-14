@@ -42,7 +42,15 @@ navigation. This website contains my latest:
  Latest Other Writings
 ***********************
 
-..   TODO: Use ABlog to organize this
+Book Summaries
+===============
+
+.. postlist:: 5
+   :category: Book Summary
+   :date: %A, %B %d, %Y
+   :format: {date}: {title}
+   :excerpts:
+   :expand: Read more ...
 
 ..
    Toctrees for the side bars
@@ -51,9 +59,9 @@ navigation. This website contains my latest:
    :hidden:
    :glob:
    :maxdepth: 1
-   :caption: Book Reports
+   :caption: Book Summaries
 
-   book_reports/*
+   book_summaries/*
 
 ..
    TODO: Add the following as a toc tree: CV, Resume, Google Scholar, ORCID, Instagram, Facebook, Bluesky, X, LinkedIn

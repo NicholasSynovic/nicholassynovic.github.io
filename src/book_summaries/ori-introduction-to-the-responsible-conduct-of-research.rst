@@ -1,3 +1,9 @@
+:blogpost: true
+:date: November 14, 2025
+:category: Book Summary
+:tag: Research
+:nocomments:
+
 ###########################################################
  *ORI Introduction to the Responsible Conduct of Research*
 ###########################################################

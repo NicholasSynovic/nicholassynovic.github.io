@@ -31,6 +31,19 @@ extensions = [
 templates_path = ["_templates"]
 exclude_patterns = []
 
+# Ablog configuration options
+blog_authors = {
+    "NMS": ("Nicholas M. Synovic", "https://nicholassynovic.github.io/"),
+}
+blog_default_author = "NMS"
+blog_languages = {
+    "en": ("English", None),
+}
+blog_default_language = "en"
+post_show_prev_next = False
+blog_title = "Nicholas M. Synovic's Blog"
+blog_feed_fulltext = True
+
 # Sphinx auto section label settings
 autosectionlabel_prefix_document = True
 autosectionlabel_maxdepth = 2
