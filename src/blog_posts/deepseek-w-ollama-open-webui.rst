@@ -4,9 +4,11 @@
 :tags: Artificial Intelligence, 01-28-2025
 :nocomments:
 
-#######################################################
-Running Deepseek-R1 Locally with Ollama and Open WebUI
-#######################################################
+########################################################
+*Running Deepseek-R1 Locally with Ollama and Open WebUI*
+########################################################
+
+:bdg-primary:`Blog Post` :bdg-primary-line:`Artificial Intelligence`
 
 ************************
 DeepSeek R1 Has Dropped

@@ -8,6 +8,8 @@
  *ORI Introduction to the Responsible Conduct of Research*
 ###########################################################
 
+:bdg-primary:`Book Summary` :bdg-primary-line:`Research`
+
 by Nicholas H. Steneck, David Zinn, and Tommy G. Thompson :cite:p:`stenek_ori_2007`
 
 **********

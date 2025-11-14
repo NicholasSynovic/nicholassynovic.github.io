@@ -8,8 +8,11 @@
  *On Being a Scientist: A Guide To Responsible Conduct In Research*
 ####################################################################
 
+:bdg-primary:`Book Summary` :bdg-primary-line:`Research`
+
 by the National Academy of Science, National Academy of Engineering and
-Institute of Medicine of the National Academies :cite:p:`committee_on_science_engineering_and_public_policy_being_2009`
+Institute of Medicine of the National Academies
+:cite:p:`committee_on_science_engineering_and_public_policy_being_2009`
 
 *************************************************************************************
  The National Academies Advisors to the Nation on Science, Engineering, and Medicine

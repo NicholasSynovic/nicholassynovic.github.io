@@ -15,4 +15,5 @@ Blog Posts Tagged As `Artificial Intelligence`
          :tags: 01-28-2025
          :date: %A, %B %d, %Y
          :format: {title}
+         :excerpts:
          :expand: Read more ...

@@ -7,7 +7,7 @@
 *************
 
 Hi there! I'm Nicholas M. Synovic; a current Ph.D. student at Loyola
-University Chicago's' (LUC) Computer Science department. I'm actively
+University Chicago's (LUC) Computer Science department. I'm actively
 researching software engineering for science --- particularly at the
 intersection of software engineering for science practices and
 pre-trained deep learning model reuse --- but have broader interests in
@@ -17,13 +17,17 @@ This website contains professional artifacts and writings. It also
 attempts to centralize my online activity for observability and rapid
 navigation. This website contains my latest:
 
-.. TODO: Make each of these links
+.. grid:: 2
 
--  CV,
--  Resume,
--  Pre-print Paper Manuscripts,
--  Blog Posts, and
--  Other writings (e.g., Book Reports, Paper Reviews)
+   .. grid-item-card:: CV
+
+
+
+   .. grid-item-card:: Resume
+
+   .. grid-item-card:: Blog Posts
+
+   .. grid-item-card:: Pre-print Paper Manuscripts
 
 *******************
  Latest Blog Posts

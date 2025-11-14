@@ -12,7 +12,7 @@ Copyright (C) 2025 Nicholas M. Synovic.
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = "Nicholas M. Synovic"
+project = "Nicholas M. Synovic's Blog"
 copyright = "2025, Nicholas M. Synovic"  # noqa: A001
 author = "Nicholas M. Synovic"
 release = "0.0.1"
@@ -71,3 +71,5 @@ html_theme_options = {
     "use_sidenotes": True,
 }
 html_title = project
+html_logo = "_static/images/headshot.jpg"
+html_favicon = "_static/favicon.png"
