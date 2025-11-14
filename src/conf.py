@@ -61,7 +61,7 @@ html_theme = "sphinx_book_theme"
 html_static_path = ["_static"]
 html_css_files = ["custom.css"]
 
-# https://sphinx-book-theme.readthedocs.io/en/latest/tutorials/get-started.html#add-a-source-repository-button-to-your-theme
+# Sphinx Book Theme Settings
 html_theme_options = {
     "repository_url": "https://github.com/NicholasSynovic/nicholassynovic.github.io",
     "use_repository_button": True,
@@ -69,6 +69,23 @@ html_theme_options = {
     "max_navbar_depth": 2,
     "collapse_navbar": True,
     "use_sidenotes": True,
+    "icon_links": [
+        {
+            "name": "GitHub",
+            "url": "https://github.com/NicholasSynovic",
+            "icon": "fa-brands fa-github",
+        },
+        {
+            "name": "LinkedIn",
+            "url": "https://www.linkedin.com/in/nsynovic",
+            "icon": "fa-brands fa-linkedin",
+        },
+        {
+            "name": "Google Scholar",
+            "url": "https://scholar.google.com/citations?user=H3VvTOIAAAAJ&hl=en",
+            "icon": "fa-brands fa-google-scholar",
+        },
+    ],
 }
 html_title = project
 html_logo = "_static/images/headshot.jpg"

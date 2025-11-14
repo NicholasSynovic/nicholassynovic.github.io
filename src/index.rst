@@ -81,3 +81,17 @@ Book Summaries
 
    All Blog Posts <blog_posts/index>
    blog_posts/*
+
+
+.. toctree::
+   :hidden:
+   :maxdepth: 1
+   :caption: Socials
+
+   🐦 Bluesky <https://bsky.app/profile/nicholassynovic.bsky.social>
+   📢 Facebook
+   📘 GoodReads <https://www.goodreads.com/user/show/121365011-nicholas-synovic>
+   🐘 Mastodon
+   🪡 Threads
+   💬 X
+   🎥 Youtube
