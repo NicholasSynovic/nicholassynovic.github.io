@@ -24,6 +24,7 @@ extensions = [
     "ablog",
     "sphinx.ext.autosectionlabel",
     "sphinx.ext.intersphinx",
+    "sphinx_copybutton",
     "sphinx_design",
     "sphinx_togglebutton",
     "sphinxcontrib.bibtex",

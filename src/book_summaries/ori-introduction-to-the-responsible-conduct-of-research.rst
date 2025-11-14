@@ -10,10 +10,6 @@
 
 by Nicholas H. Steneck, David Zinn, and Tommy G. Thompson :cite:p:`stenek_ori_2007`
 
-.. contents:: Table of Contents
-   :class: toggle
-   :depth: 3
-
 **********
  Foreward
 **********

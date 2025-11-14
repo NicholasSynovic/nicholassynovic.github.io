@@ -2,9 +2,6 @@
  Why Should You Sign Your Commits?
 ###################################
 
-.. contents:: Table of Contents
-   :depth: 3
-
 *********
  Preface
 *********

@@ -29,7 +29,12 @@ navigation. This website contains my latest:
  Latest Blog Posts
 *******************
 
-.. TODO: Use ABlog to organize this
+.. postlist:: 5
+   :category: Blog Post
+   :date: %A, %B %d, %Y
+   :format: {date}: {title}
+   :excerpts:
+   :expand: Read more ...
 
 *****************************
  Pre-print Paper Manuscripts
@@ -64,5 +69,11 @@ Book Summaries
    All Book Summaries <book_summaries/index>
    book_summaries/*
 
-..
-   TODO: Add the following as a toc tree: CV, Resume, Google Scholar, ORCID, Instagram, Facebook, Bluesky, X, LinkedIn
+.. toctree::
+   :glob:
+   :hidden:
+   :maxdepth: 2
+   :caption: Blog Posts
+
+   All Blog Posts <blog_posts/index>
+   blog_posts/*
