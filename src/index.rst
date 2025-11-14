@@ -21,8 +21,6 @@ navigation. This website contains my latest:
 
    .. grid-item-card:: CV
 
-
-
    .. grid-item-card:: Resume
 
    .. grid-item-card:: Blog Posts
