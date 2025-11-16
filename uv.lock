@@ -590,6 +590,19 @@ wheels = [
 ]
 
 [[package]]
+name = "sphinxcontrib-youtube"
+version = "1.4.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "requests" },
+    { name = "sphinx" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/0a/56/fcc4aa7ec202c90cdd74ba6cf13ed5c6f1210295af6e98598b47c7f3833f/sphinxcontrib_youtube-1.4.1.tar.gz", hash = "sha256:eb7871c8af47fd2b5c9727615354b7f95bce554be8be45b9fa8e5bc022f88059", size = 6023, upload-time = "2023-09-22T11:13:20.674Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/5c/18/02842653778221bae87147d343a85dcd7c86ae5d86d32c5ab34003623db3/sphinxcontrib_youtube-1.4.1-py2.py3-none-any.whl", hash = "sha256:de9cb454f066d580a1e7ad64efae7dd9e12c1b1567a31faa330b1aeaeed40460", size = 6511, upload-time = "2023-09-22T11:13:19.094Z" },
+]
+
+[[package]]
 name = "src"
 version = "0.0.1"
 source = { editable = "." }
@@ -601,6 +614,7 @@ dependencies = [
     { name = "sphinx-design" },
     { name = "sphinx-togglebutton" },
     { name = "sphinxcontrib-bibtex" },
+    { name = "sphinxcontrib-youtube" },
 ]
 
 [package.metadata]
@@ -612,6 +626,7 @@ requires-dist = [
     { name = "sphinx-design", specifier = ">=0.6.1" },
     { name = "sphinx-togglebutton", specifier = ">=0.3.2" },
     { name = "sphinxcontrib-bibtex", specifier = ">=2.6.5" },
+    { name = "sphinxcontrib-youtube", specifier = ">=1.4.1" },
 ]
 
 [[package]]

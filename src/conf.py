@@ -28,6 +28,7 @@ extensions = [
     "sphinx_design",
     "sphinx_togglebutton",
     "sphinxcontrib.bibtex",
+    "sphinxcontrib.youtube",
 ]
 
 templates_path = ["_templates"]
