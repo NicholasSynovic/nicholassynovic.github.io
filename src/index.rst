@@ -2,10 +2,6 @@
  Nicholas M. Synovic's Website
 ###############################
 
-*************
- Signposting
-*************
-
 Hi there! I'm Nicholas M. Synovic; a current Ph.D. student at Loyola
 University Chicago's (LUC) Computer Science department. I'm actively
 researching software engineering for science --- particularly at the
