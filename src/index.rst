@@ -26,20 +26,20 @@ navigation. This website contains my latest:
 
       .. button-link:: blog_posts/index.html
          :click-parent:
-         :color: secondary
+         :color: primary
          :expand:
 
-         Jump To All Blogs
+         View Blogs
 
-   .. grid-item-card:: 📖 Paper Manuscripts
+   .. grid-item-card:: 📖 Papers
       :text-align: center
 
       .. button-link:: papers/index.html
          :click-parent:
-         :color: secondary
+         :color: primary
          :expand:
 
-         Jump To All Papers
+         View Papers
 
    .. grid-item-card:: 📃 CV
       :margin: 3 0 0 0
@@ -50,7 +50,7 @@ navigation. This website contains my latest:
          :color: primary
          :expand:
 
-         Download Latest CV
+         Download
 
    .. grid-item-card:: 📄 Resume
       :margin: 3 0 0 0
@@ -61,7 +61,7 @@ navigation. This website contains my latest:
          :color: primary
          :expand:
 
-         Download Latest Resume
+         Download
 
 
 *******************
