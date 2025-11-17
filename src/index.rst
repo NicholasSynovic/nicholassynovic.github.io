@@ -15,13 +15,48 @@ navigation. This website contains my latest:
 
 .. grid:: 2
 
+   .. grid-item-card:: Blog Posts
+      :text-align: center
+
+      .. button-link:: blog_posts/index.html
+         :click-parent:
+         :color: secondary
+         :expand:
+
+         Jump To All Blogs
+
+   .. grid-item-card:: Paper Manuscripts
+      :text-align: center
+
+      .. button-link:: papers/index.html
+         :click-parent:
+         :color: secondary
+         :expand:
+
+         Jump To All Papers
+
    .. grid-item-card:: CV
+      :margin: 3 0 0 0
+      :text-align: center
+
+      .. button-link:: _static/NicholasMSynovic-CV.docx
+         :click-parent:
+         :color: primary
+         :expand:
+
+         Download Latest CV
 
    .. grid-item-card:: Resume
+      :margin: 3 0 0 0
+      :text-align: center
 
-   .. grid-item-card:: Blog Posts
+      .. button-link:: _static/NicholasMSynovic-Resume.docx
+         :click-parent:
+         :color: primary
+         :expand:
 
-   .. grid-item-card:: Pre-print Paper Manuscripts
+         Download Latest Resume
+
 
 *******************
  Latest Blog Posts
