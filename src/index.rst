@@ -41,22 +41,22 @@ navigation. This website contains my latest:
 
          View Papers
 
-   .. grid-item-card:: 📃 CV
+   .. grid-item-card:: 📄 Resume
       :margin: 3 0 0 0
       :text-align: center
 
-      .. button-link:: _static/NicholasMSynovic-CV.docx
+      .. button-link:: _static/NMSynovic_Resume.docx
          :click-parent:
          :color: primary
          :expand:
 
          Download
 
-   .. grid-item-card:: 📄 Resume
+   .. grid-item-card:: 📃 CV
       :margin: 3 0 0 0
       :text-align: center
 
-      .. button-link:: _static/NicholasMSynovic-Resume.docx
+      .. button-link:: _static/NMSynovic_CV.docx
          :click-parent:
          :color: primary
          :expand:
