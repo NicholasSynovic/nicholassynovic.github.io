@@ -21,7 +21,7 @@ navigation. This website contains my latest:
 
 .. grid:: 2
 
-   .. grid-item-card:: Blog Posts
+   .. grid-item-card:: 🖊️ Blog Posts
       :text-align: center
 
       .. button-link:: blog_posts/index.html
@@ -31,7 +31,7 @@ navigation. This website contains my latest:
 
          Jump To All Blogs
 
-   .. grid-item-card:: Paper Manuscripts
+   .. grid-item-card:: 📖 Paper Manuscripts
       :text-align: center
 
       .. button-link:: papers/index.html
@@ -41,7 +41,7 @@ navigation. This website contains my latest:
 
          Jump To All Papers
 
-   .. grid-item-card:: CV
+   .. grid-item-card:: 📃 CV
       :margin: 3 0 0 0
       :text-align: center
 
@@ -52,7 +52,7 @@ navigation. This website contains my latest:
 
          Download Latest CV
 
-   .. grid-item-card:: Resume
+   .. grid-item-card:: 📄 Resume
       :margin: 3 0 0 0
       :text-align: center
 
