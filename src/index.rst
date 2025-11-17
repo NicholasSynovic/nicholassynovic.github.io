@@ -9,6 +9,12 @@ intersection of software engineering for science practices and
 pre-trained deep learning model reuse --- but have broader interests in
 software engineering.
 
+.. warning::
+
+   This website is currently **under construction**. I am currently migrating
+   and centralizing all of my old blog posts and writings to this new website.
+   Thank you for your patience.
+
 This website contains professional artifacts and writings. It also
 attempts to centralize my online activity for observability and rapid
 navigation. This website contains my latest:
