@@ -117,6 +117,24 @@ Book Summaries
    All Blog Posts <blog_posts/index>
    blog_posts/*
 
+.. toctree::
+   :glob:
+   :hidden:
+   :maxdepth: 2
+   :caption: Papers
+
+   All Papers <papers/index>
+   papers/*
+
+.. toctree::
+   :glob:
+   :hidden:
+   :maxdepth: 2
+   :caption: Portfolio
+
+   Overview <portfolio/index>
+   portfolio/*
+
 
 .. toctree::
    :hidden:
