@@ -28,7 +28,7 @@ about process, not just product. In this work, we present PRIME
 (PRocess MEtrics), a tool to compute and visualize process metrics. The
 currently-supported metrics include productivity, issue density, issue spoilage,
 and bus factor. We illustrate the value of longitudinal data and conclude with a
-research agenda. The tool''s demo video can be watched at
+research agenda. The tool's demo video can be watched at
 `<https://bit.ly/ase2022-prime>`_ . Source code can be found at
 `<https://github.com/SoftwareSystemsLaboratory/prime>`_.
 
