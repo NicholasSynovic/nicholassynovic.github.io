@@ -1,8 +1,7 @@
-build_project:
+build:
 	git describe --tags --abbrev=0 | tail -n 1 | xargs -I % uv version %
 	rm -rf dist/
-	uv build
-	uv pip install dist/*.tar.gz
+	rm -rf build/
 	sphinx-build -vvv --write-all --fresh-env src build
 
 create-dev:
@@ -11,5 +10,17 @@ create-dev:
 	uv sync
 	uv build
 
+convert-cv-to-pdf:
+	flatpak run org.libreoffice.LibreOffice \
+		--convert-to pdf \
+		--outdir src/_static \
+		src/_static/NMSynovic_CV.docx
+
+convert-resume-to-pdf:
+	flatpak run org.libreoffice.LibreOffice \
+		--convert-to pdf \
+		--outdir src/_static \
+		src/_static/NMSynovic_Resume.docx
+
 serve:
-	python -m http.server -d build 12300
+	sphinx-autobuild src build
