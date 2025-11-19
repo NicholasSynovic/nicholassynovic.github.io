@@ -35,6 +35,9 @@ extensions = [
 templates_path = ["_templates"]
 exclude_patterns = []
 
+# sphinx.ext.todo options
+todo_include_todos = True
+
 # Ablog configuration options
 blog_authors = {
     "NMS": ("Nicholas M. Synovic", "https://nicholassynovic.github.io/"),
