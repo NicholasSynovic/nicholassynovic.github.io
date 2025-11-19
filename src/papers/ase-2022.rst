@@ -18,35 +18,47 @@
 .. grid:: 4
 
    .. grid-item-card:: Nicholas M. Synovic
+      :text-align: center
 
    .. grid-item-card:: Matt Hyatt
+      :text-align: center
 
    .. grid-item-card:: Rohan Sethi
+      :text-align: center
 
    .. grid-item-card:: Sohini Thota
+      :text-align: center
 
    .. grid-item-card:: Shilpika
+      :text-align: center
       :margin: 3 0 0 0
 
    .. grid-item-card:: Allan J. Miller
+      :text-align: center
       :margin: 3 0 0 0
 
    .. grid-item-card:: Emmanuel S. Amobi
+      :text-align: center
       :margin: 3 0 0 0
 
    .. grid-item-card:: Austin Pinderski
+      :text-align: center
       :margin: 3 0 0 0
 
    .. grid-item-card:: Konstantin Läufer
+      :text-align: center
       :margin: 3 0 0 0
 
    .. grid-item-card:: Nicholas J. Hayward
+      :text-align: center
       :margin: 3 0 0 0
 
    .. grid-item-card:: Neil Klingensmith
+      :text-align: center
       :margin: 3 0 0 0
 
    .. grid-item-card:: James C. Davis
+      :text-align: center
       :margin: 3 0 0 0
 
    .. grid-item-card:: George K. Thiruvathukal
