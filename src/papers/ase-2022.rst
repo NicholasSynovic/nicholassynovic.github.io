@@ -15,7 +15,7 @@
  Authors
 **********
 
-.. grid:: 4
+.. grid:: 3
 
    .. grid-item-card:: Nicholas M. Synovic
       :text-align: center
@@ -27,6 +27,7 @@
       :text-align: center
 
    .. grid-item-card:: Sohini Thota
+      :margin: 3 0 0 0
       :text-align: center
 
    .. grid-item-card:: Shilpika
@@ -65,7 +66,6 @@
       :margin: 3 0 0 0
       :columns: 12
       :text-align: center
-
 
 **********
  Abstract
