@@ -142,9 +142,9 @@ Book Summaries
    :caption: Socials
 
    🐦 Bluesky <https://bsky.app/profile/nicholassynovic.bsky.social>
-   📢 Facebook
+   📢 Facebook <https://www.facebook.com/nsynovic>
    📘 GoodReads <https://www.goodreads.com/user/show/121365011-nicholas-synovic>
-   🐘 Mastodon
-   🪡 Threads
-   💬 X
-   🎥 Youtube
+   📷 Instagram <https://www.instagram.com/nicholas_synovic>
+   🪡 Threads <https://www.threads.com/@nicholas_synovic>
+   💬 X <https://x.com/NMSynovic>
+   🎥 Youtube <https://www.youtube.com/@nicholassynovic>
