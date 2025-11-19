@@ -7,7 +7,7 @@ University Chicago's (LUC) Computer Science department. I'm actively
 researching software engineering for science --- particularly at the
 intersection of software engineering for science practices and
 pre-trained deep learning model reuse --- but have broader interests in
-software engineering.
+software engineering at large.
 
 .. warning::
 
@@ -45,6 +45,8 @@ navigation. This website contains my latest:
       :margin: 3 0 0 0
       :text-align: center
 
+      **Update resume and create PDF version of it**
+      ^^^
       .. grid:: 2
          :margin: 0 0 0 0
          :padding: 0 0 0 0
@@ -62,8 +64,6 @@ navigation. This website contains my latest:
             :tooltip: Download resume as .docx
 
             ``.docx``
-
-
 
    .. grid-item-card:: 📃 CV
       :margin: 3 0 0 0
@@ -87,6 +87,7 @@ navigation. This website contains my latest:
 
             ``.docx``
 
+----
 
 *******************
  Latest Blog Posts
