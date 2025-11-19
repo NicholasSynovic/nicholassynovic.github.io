@@ -45,23 +45,47 @@ navigation. This website contains my latest:
       :margin: 3 0 0 0
       :text-align: center
 
-      .. button-link:: _static/NMSynovic_Resume.docx
-         :click-parent:
-         :color: primary
-         :expand:
+      .. grid:: 2
+         :margin: 0 0 0 0
+         :padding: 0 0 0 0
 
-         Download
+         .. button-link:: _static/NMSynovic_Resume.docx
+            :color: primary
+            :expand:
+            :tooltip: Download resume as .pdf
+
+            ``.pdf``
+
+         .. button-link:: _static/NMSynovic_Resume.docx
+            :color: secondary
+            :expand:
+            :tooltip: Download resume as .docx
+
+            ``.docx``
+
+
 
    .. grid-item-card:: 📃 CV
       :margin: 3 0 0 0
       :text-align: center
 
-      .. button-link:: _static/NMSynovic_CV.docx
-         :click-parent:
-         :color: primary
-         :expand:
+      .. grid:: 2
+         :margin: 0 0 0 0
+         :padding: 0 0 0 0
 
-         Download
+         .. button-link:: _static/NMSynovic_CV.pdf
+            :color: primary
+            :expand:
+            :tooltip: Download CV as .pdf
+
+            ``.pdf``
+
+         .. button-link:: _static/NMSynovic_CV.docx
+            :color: secondary
+            :expand:
+            :tooltip: Download CV as .docx
+
+            ``.docx``
 
 
 *******************
