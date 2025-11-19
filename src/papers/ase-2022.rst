@@ -15,6 +15,46 @@
  Authors
 **********
 
+.. grid:: 4
+
+   .. grid-item-card:: Nicholas M. Synovic
+
+   .. grid-item-card:: Matt Hyatt
+
+   .. grid-item-card:: Rohan Sethi
+
+   .. grid-item-card:: Sohini Thota
+
+   .. grid-item-card:: Shilpika
+      :margin: 3 0 0 0
+
+   .. grid-item-card:: Allan J. Miller
+      :margin: 3 0 0 0
+
+   .. grid-item-card:: Emmanuel S. Amobi
+      :margin: 3 0 0 0
+
+   .. grid-item-card:: Austin Pinderski
+      :margin: 3 0 0 0
+
+   .. grid-item-card:: Konstantin Läufer
+      :margin: 3 0 0 0
+
+   .. grid-item-card:: Nicholas J. Hayward
+      :margin: 3 0 0 0
+
+   .. grid-item-card:: Neil Klingensmith
+      :margin: 3 0 0 0
+
+   .. grid-item-card:: James C. Davis
+      :margin: 3 0 0 0
+
+   .. grid-item-card:: George K. Thiruvathukal
+      :margin: 3 0 0 0
+      :columns: 12
+      :text-align: center
+
+
 **********
  Abstract
 **********
