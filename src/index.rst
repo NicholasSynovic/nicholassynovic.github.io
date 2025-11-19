@@ -49,7 +49,7 @@ navigation. This website contains my latest:
          :margin: 0 0 0 0
          :padding: 0 0 0 0
 
-         .. button-link:: _static/NMSynovic_Resume.docx
+         .. button-link:: _static/NMSynovic_Resume.pdf
             :color: primary
             :expand:
             :tooltip: Download resume as .pdf
