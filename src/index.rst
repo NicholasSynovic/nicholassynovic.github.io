@@ -45,8 +45,6 @@ navigation. This website contains my latest:
       :margin: 3 0 0 0
       :text-align: center
 
-      **Update resume and create PDF version of it**
-      ^^^
       .. grid:: 2
          :margin: 0 0 0 0
          :padding: 0 0 0 0
