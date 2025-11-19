@@ -1,6 +1,6 @@
 :blogpost: true
 :date: November 8, 2022
-:category: Blog Post
+:category: Paper
 :tags: SCORED, SCORED 22, 2022, PTM Supply Chain, 11-08-2022
 :nocomments:
 

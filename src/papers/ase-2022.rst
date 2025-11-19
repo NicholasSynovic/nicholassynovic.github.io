@@ -1,6 +1,6 @@
 :blogpost: true
 :date: January 5, 2023
-:category: Blog Post
+:category: Paper
 :tags: ASE, ASE 22, 2023, Process Metrics, 01-05-2023
 :nocomments:
 

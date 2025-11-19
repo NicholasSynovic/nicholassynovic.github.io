@@ -100,16 +100,20 @@ navigation. This website contains my latest:
    :excerpts:
    :expand: Read more ...
 
-*****************************
- Pre-print Paper Manuscripts
-*****************************
+************************
+ Latest Paper Preprints
+************************
 
-..
-   TODO: Use ABlog to organize this
+.. postlist:: 5
+   :category: Paper
+   :date: %A, %B %d, %Y
+   :format: {date}: {title}
+   :excerpts:
+   :expand: Read more ...
 
-***********************
- Latest Other Writings
-***********************
+********************
+ Other Site Updates
+********************
 
 Book Summaries
 ===============
