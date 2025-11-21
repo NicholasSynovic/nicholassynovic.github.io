@@ -74,7 +74,6 @@ security.
    - Add the paper preprint
    - Add the poster
    - Add link to the source code
-   - Update the bibtex
 
 .. grid:: 2
 
@@ -129,29 +128,22 @@ security.
 
          .. code:: BibTex
 
-            @inproceedings{synovic_snapshot_2023,
-               address = {New York, NY, USA},
-               series = {{ASE} '22},
-               title = {Snapshot {Metrics} {Are} {Not} {Enough}: {Analyzing} {Software} {Repositories} with {Longitudinal} {Metrics}},
-               isbn = {978-1-4503-9475-8},
-               shorttitle = {Snapshot {Metrics} {Are} {Not} {Enough}},
-               url = {https://dl.acm.org/doi/10.1145/3551349.3559517},
-               doi = {10.1145/3551349.3559517},
-               abstract = {Software metrics capture information about software development processes and products. These metrics support decision-making, e.g., in team management or dependency selection. However, existing metrics tools measure only a snapshot of a software project. Little attention has been given to enabling engineers to reason about metric trends over time—longitudinal metrics that give insight about process, not just product. In this work, we present PRIME (PRocess MEtrics), a tool to compute and visualize process metrics. The currently-supported metrics include productivity, issue density, issue spoilage, and bus factor. We illustrate the value of longitudinal data and conclude with a research agenda. The tool’s demo video can be watched at https://bit.ly/ase2022-prime. Source code can be found at https://github.com/SoftwareSystemsLaboratory/prime.},
-               urldate = {2023-09-06},
-               booktitle = {Proceedings of the 37th {IEEE}/{ACM} {International} {Conference} on {Automated} {Software} {Engineering}},
-               publisher = {Association for Computing Machinery},
-               author = {Synovic, Nicholas M. and Hyatt, Matt and Sethi, Rohan and Thota, Sohini and Shilpika and Miller, Allan J. and Jiang, Wenxin and Amobi, Emmanuel S. and Pinderski, Austin and Läufer, Konstantin and Hayward, Nicholas J. and Klingensmith, Neil and Davis, James C. and Thiruvathukal, George K.},
-               month = jan,
-               year = {2023},
-               keywords = {Empirical software engineering, Software metrics},
-               pages = {1--4},
+
+            @misc{shimmi_process-based_2025,
+               title = {Process-based {Indicators} of {Vulnerability} {Re}-{Introducing} {Code} {Changes}: {An} {Exploratory} {Case} {Study}},
+               shorttitle = {Process-based {Indicators} of {Vulnerability} {Re}-{Introducing} {Code} {Changes}},
+               url = {http://arxiv.org/abs/2510.26676},
+               doi = {10.48550/arXiv.2510.26676},
+               abstract = {Software vulnerabilities often persist or re-emerge even after being fixed, revealing the complex interplay between code evolution and socio-technical factors. While source code metrics provide useful indicators of vulnerabilities, software engineering process metrics can uncover patterns that lead to their introduction. Yet few studies have explored whether process metrics can reveal risky development activities over time -- insights that are essential for anticipating and mitigating software vulnerabilities. This work highlights the critical role of process metrics along with code changes in understanding and mitigating vulnerability reintroduction. We move beyond file-level prediction and instead analyze security fixes at the commit level, focusing not only on whether a single fix introduces a vulnerability but also on the longer sequences of changes through which vulnerabilities evolve and re-emerge. Our approach emphasizes that reintroduction is rarely the result of one isolated action, but emerges from cumulative development activities and socio-technical conditions. To support this analysis, we conducted a case study on the ImageMagick project by correlating longitudinal process metrics such as bus factor, issue density, and issue spoilage with vulnerability reintroduction activities, encompassing 76 instances of reintroduced vulnerabilities. Our findings show that reintroductions often align with increased issue spoilage and fluctuating issue density, reflecting short-term inefficiencies in issue management and team responsiveness. These observations provide a foundation for broader studies that combine process and code metrics to predict risky fixes and strengthen software security.},
+               urldate = {2025-11-17},
+               publisher = {arXiv},
+               author = {Shimmi, Samiha and Synovic, Nicholas M. and Rahimi, Mona and Thiruvathukal, George K.},
+               month = oct,
+               year = {2025},
+               note = {arXiv:2510.26676 [cs]},
+               keywords = {Computer Science - Software Engineering},
+               annote = {Comment: 9 pages, 6 figures; Samiha Shimmi and Nicholas M. Synovic contributed equally to this work (co-first authors); Mona Rahimi and George K. Thiruvathukal contributed equally to this work (co-supervisors)},
             }
-
-.. note::
-
-   I have continued to iterate upon the ``PRIME`` tool in a new repository. If
-   want to learn more, visit `<https://github.com/NicholasSynovic/prime>`_.
 
 *******
  Video

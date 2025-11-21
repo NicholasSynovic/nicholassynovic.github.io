@@ -75,7 +75,6 @@ chain.
    - Add the paper preprint
    - Add the poster
    - Add link to the source code
-   - Update the bibtex
 
 .. grid:: 2
 
@@ -130,21 +129,22 @@ chain.
 
          .. code:: BibTex
 
-            @inproceedings{synovic_snapshot_2023,
+            @inproceedings{jiang_empirical_2022,
                address = {New York, NY, USA},
-               series = {{ASE} '22},
-               title = {Snapshot {Metrics} {Are} {Not} {Enough}: {Analyzing} {Software} {Repositories} with {Longitudinal} {Metrics}},
-               isbn = {978-1-4503-9475-8},
-               shorttitle = {Snapshot {Metrics} {Are} {Not} {Enough}},
-               url = {https://dl.acm.org/doi/10.1145/3551349.3559517},
-               doi = {10.1145/3551349.3559517},
-               abstract = {Software metrics capture information about software development processes and products. These metrics support decision-making, e.g., in team management or dependency selection. However, existing metrics tools measure only a snapshot of a software project. Little attention has been given to enabling engineers to reason about metric trends over time—longitudinal metrics that give insight about process, not just product. In this work, we present PRIME (PRocess MEtrics), a tool to compute and visualize process metrics. The currently-supported metrics include productivity, issue density, issue spoilage, and bus factor. We illustrate the value of longitudinal data and conclude with a research agenda. The tool’s demo video can be watched at https://bit.ly/ase2022-prime. Source code can be found at https://github.com/SoftwareSystemsLaboratory/prime.},
+               series = {{SCORED}'22},
+               title = {An {Empirical} {Study} of {Artifacts} and {Security} {Risks} in the {Pre}-trained {Model} {Supply} {Chain}},
+               copyright = {All rights reserved},
+               isbn = {978-1-4503-9885-5},
+               url = {https://dl.acm.org/doi/10.1145/3560835.3564547},
+               doi = {10.1145/3560835.3564547},
+               abstract = {Deep neural networks achieve state-of-the-art performance on many tasks, but require increasingly complex architectures and costly training procedures. Engineers can reduce costs by reusing a pre-trained model (PTM) and fine-tuning it for their own tasks. To facilitate software reuse, engineers collaborate around model hubs, collections of PTMs and datasets organized by problem domain. Although model hubs are now comparable in popularity and size to other software ecosystems, the associated PTM supply chain has not yet been examined from a software engineering perspective. We present an empirical study of artifacts and security features in 8 model hubs. We indicate the potential threat models and show that the existing defenses are insufficient for ensuring the security of PTMs. We compare PTM and traditional supply chains, and propose directions for further measurements and tools to increase the reliability of the PTM supply chain.},
                urldate = {2023-09-06},
-               booktitle = {Proceedings of the 37th {IEEE}/{ACM} {International} {Conference} on {Automated} {Software} {Engineering}},
+               booktitle = {Proceedings of the 2022 {ACM} {Workshop} on {Software} {Supply} {Chain} {Offensive} {Research} and {Ecosystem} {Defenses}},
                publisher = {Association for Computing Machinery},
-               author = {Synovic, Nicholas M. and Hyatt, Matt and Sethi, Rohan and Thota, Sohini and Shilpika and Miller, Allan J. and Jiang, Wenxin and Amobi, Emmanuel S. and Pinderski, Austin and Läufer, Konstantin and Hayward, Nicholas J. and Klingensmith, Neil and Davis, James C. and Thiruvathukal, George K.},
-               month = jan,
-               year = {2023},
-               keywords = {Empirical software engineering, Software metrics},
-               pages = {1--4},
+               author = {Jiang, Wenxin and Synovic, Nicholas and Sethi, Rohan and Indarapu, Aryan and Hyatt, Matt and Schorlemmer, Taylor R. and Thiruvathukal, George K. and Davis, James C.},
+               month = nov,
+               year = {2022},
+               keywords = {empirical software engineering, machine learning, software reuse, software supply chain, deep neural networks, model hubs},
+               pages = {105--114},
+               file = {Full Text PDF:/home/nicholas/Zotero/storage/TT6JV3IL/Jiang et al. - 2022 - An Empirical Study of Artifacts and Security Risks.pdf:application/pdf},
             }

@@ -81,7 +81,6 @@ research agenda. The tool's demo video can be watched at
    - Add the paper preprint
    - Add the poster
    - Add link to the source code
-   - Update the bibtex
 
 .. grid:: 2
 
@@ -136,29 +135,22 @@ research agenda. The tool's demo video can be watched at
 
          .. code:: BibTex
 
-            @inproceedings{synovic_snapshot_2023,
-               address = {New York, NY, USA},
-               series = {{ASE} '22},
-               title = {Snapshot {Metrics} {Are} {Not} {Enough}: {Analyzing} {Software} {Repositories} with {Longitudinal} {Metrics}},
-               isbn = {978-1-4503-9475-8},
-               shorttitle = {Snapshot {Metrics} {Are} {Not} {Enough}},
-               url = {https://dl.acm.org/doi/10.1145/3551349.3559517},
-               doi = {10.1145/3551349.3559517},
-               abstract = {Software metrics capture information about software development processes and products. These metrics support decision-making, e.g., in team management or dependency selection. However, existing metrics tools measure only a snapshot of a software project. Little attention has been given to enabling engineers to reason about metric trends over time—longitudinal metrics that give insight about process, not just product. In this work, we present PRIME (PRocess MEtrics), a tool to compute and visualize process metrics. The currently-supported metrics include productivity, issue density, issue spoilage, and bus factor. We illustrate the value of longitudinal data and conclude with a research agenda. The tool’s demo video can be watched at https://bit.ly/ase2022-prime. Source code can be found at https://github.com/SoftwareSystemsLaboratory/prime.},
-               urldate = {2023-09-06},
-               booktitle = {Proceedings of the 37th {IEEE}/{ACM} {International} {Conference} on {Automated} {Software} {Engineering}},
-               publisher = {Association for Computing Machinery},
-               author = {Synovic, Nicholas M. and Hyatt, Matt and Sethi, Rohan and Thota, Sohini and Shilpika and Miller, Allan J. and Jiang, Wenxin and Amobi, Emmanuel S. and Pinderski, Austin and Läufer, Konstantin and Hayward, Nicholas J. and Klingensmith, Neil and Davis, James C. and Thiruvathukal, George K.},
+
+            @inproceedings{tung_automated_2024,
+               title = {An automated approach for improving the inference latency and energy efficiency of pretrained {CNNs} by removing irrelevant pixels with focused convolutions},
+               url = {https://ieeexplore.ieee.org/document/10473884},
+               doi = {10.1109/ASP-DAC58780.2024.10473884},
+               abstract = {Computer vision often uses highly accurate Convolutional Neural Networks (CNNs), but these deep learning models are associated with ever-increasing energy and computation requirements. Producing more energy-efficient CNNs often requires model training which can be cost-prohibitive. We propose a novel, automated method to make a pretrained CNN more energy-efficient without re-training. Given a pretrained CNN, we insert a threshold layer that filters activations from the preceding layers to identify regions of the image that are irrelevant, i.e. can be ignored by the following layers while maintaining accuracy. Our modified focused convolution operation saves inference latency (by up to 25\%) and energy costs (by up to 22\%) on various popular pretrained CNNs, with little to no loss in accuracy.},
+               urldate = {2025-11-21},
+               booktitle = {2024 29th {Asia} and {South} {Pacific} {Design} {Automation} {Conference} ({ASP}-{DAC})},
+               author = {Tung, Caleb and Eliopoulos, Nicholas and Jajal, Purvish and Ramshankar, Gowri and Yang, Cheng-Yun and Synovic, Nicholas and Zhang, Xuecen and Chaudhary, Vipin and Thiruvathukal, George K. and Lu, Yung-Hsiang},
                month = jan,
-               year = {2023},
-               keywords = {Empirical software engineering, Software metrics},
-               pages = {1--4},
+               year = {2024},
+               note = {ISSN: 2153-697X},
+               keywords = {Training, Computational modeling, Parallel processing, Computer vision, Search methods, Convolution, Energy conservation},
+               pages = {890--895},
+               file = {Snapshot:/home/nicholas/Zotero/storage/Q7N67M8A/10473884.html:text/html;Submitted Version:/home/nicholas/Zotero/storage/Z6EDP3LX/Tung et al. - 2024 - An automated approach for improving the inference latency and energy efficiency of pretrained CNNs b.pdf:application/pdf},
             }
-
-.. note::
-
-   I have continued to iterate upon the ``PRIME`` tool in a new repository. If
-   want to learn more, visit `<https://github.com/NicholasSynovic/prime>`_.
 
 *******
  Video

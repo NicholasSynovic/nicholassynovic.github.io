@@ -85,7 +85,6 @@ PTMs. A demo and link to the full dataset are available at:
    - Add the paper preprint
    - Add the poster
    - Add link to the source code
-   - Update the bibtex
 
 .. grid:: 2
 
@@ -140,29 +139,22 @@ PTMs. A demo and link to the full dataset are available at:
 
          .. code:: BibTex
 
-            @inproceedings{synovic_snapshot_2023,
-               address = {New York, NY, USA},
-               series = {{ASE} '22},
-               title = {Snapshot {Metrics} {Are} {Not} {Enough}: {Analyzing} {Software} {Repositories} with {Longitudinal} {Metrics}},
-               isbn = {978-1-4503-9475-8},
-               shorttitle = {Snapshot {Metrics} {Are} {Not} {Enough}},
-               url = {https://dl.acm.org/doi/10.1145/3551349.3559517},
-               doi = {10.1145/3551349.3559517},
-               abstract = {Software metrics capture information about software development processes and products. These metrics support decision-making, e.g., in team management or dependency selection. However, existing metrics tools measure only a snapshot of a software project. Little attention has been given to enabling engineers to reason about metric trends over time—longitudinal metrics that give insight about process, not just product. In this work, we present PRIME (PRocess MEtrics), a tool to compute and visualize process metrics. The currently-supported metrics include productivity, issue density, issue spoilage, and bus factor. We illustrate the value of longitudinal data and conclude with a research agenda. The tool’s demo video can be watched at https://bit.ly/ase2022-prime. Source code can be found at https://github.com/SoftwareSystemsLaboratory/prime.},
-               urldate = {2023-09-06},
-               booktitle = {Proceedings of the 37th {IEEE}/{ACM} {International} {Conference} on {Automated} {Software} {Engineering}},
-               publisher = {Association for Computing Machinery},
-               author = {Synovic, Nicholas M. and Hyatt, Matt and Sethi, Rohan and Thota, Sohini and Shilpika and Miller, Allan J. and Jiang, Wenxin and Amobi, Emmanuel S. and Pinderski, Austin and Läufer, Konstantin and Hayward, Nicholas J. and Klingensmith, Neil and Davis, James C. and Thiruvathukal, George K.},
-               month = jan,
+            @misc{jiang_peatmoss_2023,
+               title = {{PeaTMOSS}: {Mining} {Pre}-{Trained} {Models} in {Open}-{Source} {Software}},
+               copyright = {All rights reserved},
+               shorttitle = {{PeaTMOSS}},
+               url = {http://arxiv.org/abs/2310.03620},
+               doi = {10.48550/arXiv.2310.03620},
+               abstract = {Developing and training deep learning models is expensive, so software engineers have begun to reuse pre-trained deep learning models (PTMs) and fine-tune them for downstream tasks. Despite the wide-spread use of PTMs, we know little about the corresponding software engineering behaviors and challenges. To enable the study of software engineering with PTMs, we present the PeaTMOSS dataset: Pre-Trained Models in Open-Source Software. PeaTMOSS has three parts: a snapshot of (1) 281,638 PTMs, (2) 27,270 open-source software repositories that use PTMs, and (3) a mapping between PTMs and the projects that use them. We challenge PeaTMOSS miners to discover software engineering practices around PTMs. A demo and link to the full dataset are available at: https://github.com/PurdueDualityLab/PeaTMOSS-Demos.},
+               urldate = {2024-01-29},
+               publisher = {arXiv},
+               author = {Jiang, Wenxin and Jones, Jason and Yasmin, Jerin and Synovic, Nicholas and Sashti, Rajeev and Chen, Sophie and Thiruvathukal, George K. and Tian, Yuan and Davis, James C.},
+               month = oct,
                year = {2023},
-               keywords = {Empirical software engineering, Software metrics},
-               pages = {1--4},
+               note = {arXiv:2310.03620 [cs]},
+               keywords = {Computer Science - Software Engineering, Computer Science - Artificial Intelligence}
             }
 
-.. note::
-
-   I have continued to iterate upon the ``PRIME`` tool in a new repository. If
-   want to learn more, visit `<https://github.com/NicholasSynovic/prime>`_.
 
 *******
  Video

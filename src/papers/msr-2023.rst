@@ -92,7 +92,6 @@ Our dataset generation tools are available on GitHub:
    - Add the paper preprint
    - Add the poster
    - Add link to the source code
-   - Update the bibtex
 
 .. grid:: 2
 
@@ -147,21 +146,18 @@ Our dataset generation tools are available on GitHub:
 
          .. code:: BibTex
 
-            @inproceedings{synovic_snapshot_2023,
-               address = {New York, NY, USA},
-               series = {{ASE} '22},
-               title = {Snapshot {Metrics} {Are} {Not} {Enough}: {Analyzing} {Software} {Repositories} with {Longitudinal} {Metrics}},
-               isbn = {978-1-4503-9475-8},
-               shorttitle = {Snapshot {Metrics} {Are} {Not} {Enough}},
-               url = {https://dl.acm.org/doi/10.1145/3551349.3559517},
-               doi = {10.1145/3551349.3559517},
-               abstract = {Software metrics capture information about software development processes and products. These metrics support decision-making, e.g., in team management or dependency selection. However, existing metrics tools measure only a snapshot of a software project. Little attention has been given to enabling engineers to reason about metric trends over time—longitudinal metrics that give insight about process, not just product. In this work, we present PRIME (PRocess MEtrics), a tool to compute and visualize process metrics. The currently-supported metrics include productivity, issue density, issue spoilage, and bus factor. We illustrate the value of longitudinal data and conclude with a research agenda. The tool’s demo video can be watched at https://bit.ly/ase2022-prime. Source code can be found at https://github.com/SoftwareSystemsLaboratory/prime.},
-               urldate = {2023-09-06},
-               booktitle = {Proceedings of the 37th {IEEE}/{ACM} {International} {Conference} on {Automated} {Software} {Engineering}},
-               publisher = {Association for Computing Machinery},
-               author = {Synovic, Nicholas M. and Hyatt, Matt and Sethi, Rohan and Thota, Sohini and Shilpika and Miller, Allan J. and Jiang, Wenxin and Amobi, Emmanuel S. and Pinderski, Austin and Läufer, Konstantin and Hayward, Nicholas J. and Klingensmith, Neil and Davis, James C. and Thiruvathukal, George K.},
-               month = jan,
+            @inproceedings{jiang_ptmtorrent_2023,
+               title = {{PTMTorrent}: {A} {Dataset} for {Mining} {Open}-source {Pre}-trained {Model} {Packages}},
+               copyright = {All rights reserved},
+               shorttitle = {{PTMTorrent}},
+               doi = {10.1109/MSR59073.2023.00021},
+               abstract = {Due to the cost of developing and training deep learning models from scratch, machine learning engineers have begun to reuse pre-trained models (PTMs) and fine-tune them for downstream tasks. PTM registries known as “model hubs” support engineers in distributing and reusing deep learning models. PTM packages include pre-trained weights, documentation, model architectures, datasets, and metadata. Mining the information in PTM packages will enable the discovery of engineering phenomena and tools to support software engineers. However, accessing this information is difficult — there are many PTM registries, and both the registries and the individual packages may have rate limiting for accessing the data.We present an open-source dataset, PTMTorrent, to facilitate the evaluation and understanding of PTM packages. This paper describes the creation, structure, usage, and limitations of the dataset. The dataset includes a snapshot of 5 model hubs and a total of 15,913 PTM packages. These packages are represented in a uniform data schema for cross-hub mining. We describe prior uses of this data and suggest research opportunities for mining using our dataset.The PTMTorrent dataset (v1) is available at: https://app.globus.org/file-manager?origin\_id=55e17a6e-9d8f-11ed-a2a2-8383522b48d9\&origin\_path=\%2F\%7E\%2F.Our dataset generation tools are available on GitHub: https://doi.org/10.5281/zenodo.7570357},
+               booktitle = {2023 {IEEE}/{ACM} 20th {International} {Conference} on {Mining} {Software} {Repositories} ({MSR})},
+               author = {Jiang, Wenxin and Synovic, Nicholas and Jajal, Purvish and Schorlemmer, Taylor R. and Tewari, Arav and Pareek, Bhavesh and Thiruvathukal, George K. and Davis, James C.},
+               month = may,
                year = {2023},
-               keywords = {Empirical software engineering, Software metrics},
-               pages = {1--4},
+               note = {ISSN: 2574-3864},
+               keywords = {Software, Metadata, Data mining, Training, Deep learning, Empirical software engineering, Machine learning, Documentation, Limiting, Data Mining, Open-Source Software},
+               pages = {57--61},
+               file = {IEEE Xplore Abstract Record:/home/nicholas/Zotero/storage/IZWAMKYP/10173952.html:text/html;IEEE Xplore Full Text PDF:/home/nicholas/Zotero/storage/695U7APD/Jiang et al. - 2023 - PTMTorrent A Dataset for Mining Open-source Pre-t.pdf:application/pdf},
             }
