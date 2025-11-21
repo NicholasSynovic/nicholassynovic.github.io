@@ -72,7 +72,10 @@ chain.
 
 .. todo::
 
-   - Update all of the content below
+   - Add the paper preprint
+   - Add the poster
+   - Add link to the source code
+   - Update the bibtex
 
 .. grid:: 2
 

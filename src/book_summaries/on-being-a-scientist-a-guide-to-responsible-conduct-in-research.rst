@@ -42,7 +42,7 @@ base of their profession has been undermined.
 
 New researchers are not learning how to conduct themselves as scientists
 (a broad definition that includes anyone who is involved with the
-pursuit of knowledge) [5]_ . This used to be the responsiblility of more senior
+pursuit of knowledge) [5]_. This used to be the responsiblility of more senior
 researchers, as they are role models, teachers, and mentors to junior researchers. But as the speed of scientific developments accelerates, this task
 is often ignored. Furthermore, exciting opportunities
 keep appearing faster than science can keep up, further contributing to
@@ -55,7 +55,7 @@ the problem of not educating new researchers on best practices.
 This book explores options for handling situations, not defining what
 exactly to do in a particular situation. It should be read by a
 group of researchers that discuss the topics within and figure out how
-to apply the lessons to their practice [6]_ .
+to apply the lessons to their practice [6]_.
 
 
 The existence of professional standards implies that there is a proper
@@ -84,7 +84,7 @@ Researchers pride themselves on observing or explaining phenomenon which
 haven't been seen or explained previously. However, researchers are
 often under a great deal of personal and professional pressure; failure
 to properly collect, report, or handle data, experiments, or papers can
-result in lost time, money, and respect [7]_ .
+result in lost time, money, and respect [7]_.
 
 Researchers have created professional standards over many centuries
 for many different fields. It is therefore expected that researchers
@@ -140,7 +140,7 @@ the basic values and accepted professional standards of science. In
 doing so they mislead colleagues, potentially impede progress in their
 field, undermine their own authority and trustworthiness, and they
 introduce misinformation into both the scientific record and the public
-sphere [10]_ .
+sphere [10]_.
 
 To ensure the integrity of science, researchers have developed and
 continually improve upon methods such as statistical tests of
@@ -150,7 +150,7 @@ paramount that the integrity of the work is valid, papers must include a
 description of the methodology used to generate the data. This is
 because if the methodology to generate the data is incorrect or not
 present, then the integrity of the data and the work can be called into
-question. Furthermore, this helps ensure the reproducibility of science [11]_ .
+question. Furthermore, this helps ensure the reproducibility of science [11]_.
 
 New researchers are not trained on how to generate, share, store, and
 publish data. Additionally, new technologies to store, transmit,
@@ -159,7 +159,7 @@ researchers face a dilemma of how to store data permanently so that it
 can be used in future works (either by themselves or with others).
 However, when academic works are released the data must be made
 available. If a researcher refuses to share the data, then they fail to
-maintain the standards of science [12]_ .
+maintain the standards of science [12]_.
 
 *************************
  Mistakes and Negligence
@@ -173,9 +173,9 @@ To make progress, researchers must believe the works of other
 researchers. It is well known that by, "looking for an answer", or
 believing that there exists an answer prior to running experiments, that
 researchers bias themselves to believe that something exists when it
-doesn't [13]_ . However, these inaccuracies and mistakes must be remedied in
+doesn't [13]_. However, these inaccuracies and mistakes must be remedied in
 the scientific record as soon as they are identified so as to allow the
-continue proliferation of science [14]_ .
+continue proliferation of science [14]_.
 
 *********************
  Research Misconduct
@@ -199,9 +199,9 @@ The specific definitions for fabrication, falsification, and plagiarism are:
 Scientific misconduct significantly departs from accepted practices.
 Identification requires that misconduct be proven to be
 
-- intendend to decieve the scientific process [15]_ ,
+- intendend to decieve the scientific process [15]_,
 - knowingly or recklessly conducted against norms, and
-- a preponderance of evidence exists to prove the misconduct [16]_ .
+- a preponderance of evidence exists to prove the misconduct [16]_.
 
 To reduce scientific misconduct, co-authors should validate each others
 work, as well as have third parties review their results prior to
@@ -213,7 +213,7 @@ decisions that are negative for the progression of science.
  Responding to Suspected Violations of Professional Standards
 **************************************************************
 
-Science (typically) self-regulates itself [17]_ . Research communities
+Science (typically) self-regulates itself [17]_. Research communities
 set standards and practices that researchers should follow. When confronting
 others about results, retaliation can occur. Thankfully, this is prohibited by
 U.S. laws :cite:p:`the_office_of_research_integrity_ori_2025`.
@@ -223,9 +223,9 @@ to investigate and report misconduct. Anyone who is aware of misconduct
 must follow these procedures.
 
 All scientists and research institutions should discourage questionable
-research practices (QRPs) [18]_ . Additionally, they need to take
+research practices (QRPs) [18]_. Additionally, they need to take
 responsibility in determining what QRPs warren reprimands from the
-institution [19]_ .
+institution [19]_.
 
 To structure your thinking prior to confronting a researcher, consider talking
 to a friend or advisor who can keep the situation confidential. To raise
@@ -271,7 +271,7 @@ the three R's:
 - Replacement of conscious living higher animals with insentient material
 
 Overseeing the ethical experimentation on animals is an institution's
-Institutional Animal Care and Use Committees (IACUCs) [20]_ .
+Institutional Animal Care and Use Committees (IACUCs) [20]_.
 
 *******************************
  Laboratory Safety in Research
@@ -313,16 +313,16 @@ cite the author in their work. Unpublished manuscripts under review are
 to be treated as confidential.
 
 Citations need to be scrutinized during the peer-review process in order
-to assess their validity and usefulness [21]_ . Researchers have a duty to
+to assess their validity and usefulness [21]_. Researchers have a duty to
 thoroughly search the available literature on a subject and attribute
 all relevant authors.
 
 Information can be disseminated through seminars, conferences,
 abstracts, and posters as well as peer-reviewed journal papers. Often
 considered to be preliminary in nature, spreading data, results, or
-manuscripts that haven't been peer-reviewed online is possible as well [22]_ .
+manuscripts that haven't been peer-reviewed online is possible as well [22]_.
 However, by bypassing traditional quality assurance measures,
-researchers take on a risk that their work won't serve science well [23]_ .
+researchers take on a risk that their work won't serve science well [23]_.
 
 Publishing or announcing results prior to peer-review is dangerous.
 Without the peer-review checks, it is possible for misinformation to be

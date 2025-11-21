@@ -49,7 +49,7 @@ Chapter 1: Rules of the Road
 There aren't clear rules laid out to for researcher's to easily
 understand what is and isn't responsible research conduct. Rather, there
 are many organizing bodies, both official and non-official, that govern
-this [4]_ . Furthermore, a researcher's personal judgement contributes to this
+this [4]_. Furthermore, a researcher's personal judgement contributes to this
 ethical calculus.
 
 Some of the ethical and legal guidelines researchers have to adhere to include:
@@ -61,7 +61,7 @@ Some of the ethical and legal guidelines researchers have to adhere to include:
 - personal judgement.
 
 Not all professions have Professional Codes. federal regulations have to first
-be made available for public comment in the *federal Register* [5]_ , and once
+be made available for public comment in the *federal Register* [5]_, and once
 accepted, are incorporated into the *Code of federal Regulations* [6]_ and
 must be followed. Researchers are advised to seek help in understanding
 federal rules.
@@ -128,7 +128,7 @@ withdraw from experiments conducted on them.
 
 Human subjects are used in order to find improvements to the human
 experience. This could involve the creation of new medicines, surgeries,
-or experiments [9]_ . There is an ethical concern in human subjects
+or experiments [9]_. There is an ethical concern in human subjects
 research that some experiments have risks without any benefits.
 
 Researchers who use human subjects are subject to federal regulations.
@@ -170,8 +170,8 @@ subjects must abide by.
 The United States Department of Agriculture (USDA) [11]_ is
 responsible for the transportation, care, and use of animals. The usage of
 animals for biomedical and behavioral research is subject to the Secretary of
-Health and Human Services (HHS) [3]_ , acting through the National Institutes of
-Health (NIH) and the Office of Laboratory Animal Welfare (OLAW) [12]_ .
+Health and Human Services (HHS) [3]_, acting through the National Institutes of
+Health (NIH) and the Office of Laboratory Animal Welfare (OLAW) [12]_.
 Furthermore, activists have put together guidelines through the Animal
 Care Panel (ACP), commonly reffered to as the *Guide* :cite:p:`national_research_council_guide_2011`.
 The Guide is widely accepted both in public and private institutions and
@@ -240,7 +240,7 @@ Chapter 6: Data Management Practices
 
 Research is not possible without data. Because of this, there are
 responsibilities that researchers have to the proper ownership,
-collection, storage, and sharing of data [13]_ . When sharing data with others,
+collection, storage, and sharing of data [13]_. When sharing data with others,
 it must be fully validated, be finalized, and can be confidential until
 publication.
 
@@ -257,7 +257,7 @@ rights depending on their motive.
 
 Data must be collected responsibly through appropriate and reliable methods If
 these methods are unreliable, the the resulting data will also be
-unreliable [14]_ . The data  collected must be detailed enough to support the
+unreliable [14]_. The data  collected must be detailed enough to support the
 results. It must also be authorized for collection, and when recorded, proper
 metadata must be captured to include the date, time, source, and other important
 facts about the source of the data.

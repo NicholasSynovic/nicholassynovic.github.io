@@ -56,7 +56,7 @@ play for installing Tailscale. The following is the play that I created:
 
 
 This play is my attempt at a direct translation from the Tailscale
-download instructions [3]_ .
+download instructions [3]_.
 
 .. [1] `<https://tailscale.com/>`_
 

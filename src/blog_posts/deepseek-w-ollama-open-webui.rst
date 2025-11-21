@@ -40,7 +40,7 @@ Ollama As An Inference Server
 
 You leverage Ollama [2]_, an open-source *inference engine* that is designed
 to work with *quantized LLMs* :cite:p:`han_deep_2016` via the
-*GGUF file format* [3]_ on models hosted on the *Ollama Model Hub* [4]_ .
+*GGUF file format* [3]_ on models hosted on the *Ollama Model Hub* [4]_.
 
 An inference engine is a utility to run machine and deep learning
 models efficiently by optimizing the model's underlying computational
@@ -93,7 +93,7 @@ Having gone through all of this now, how can we install these tools?
 If you are on an M series Mac, you should install Ollama locally and
 ignore all references to Ollama docker installation hereafter. This is
 because Ollama via Docker does not support M series Mac GPU
-acceleration, but the compiled binary does [7]_ .
+acceleration, but the compiled binary does [7]_.
 
 For everyone else, I recommend installing Ollama and Open Web UI via
 Docker Compose via this YAML file:
@@ -154,7 +154,7 @@ Copy this to a ``docker-compose.yml`` file and then run:
       docker compose --file ./docker-compose.yml start
 
 This installs Ollama at its latest version (as of writing) with NVIDIA
-GPU acceleration support [8]_ . It also installs the latest
+GPU acceleration support [8]_. It also installs the latest
 version of Open WebUI (as of writing). The Ollama HTTP REST API is
 exposed on port ``11434`` and Open WebUI is exposed on port ``3000``.
 

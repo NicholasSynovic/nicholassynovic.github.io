@@ -1,15 +1,15 @@
 :blogpost: true
-:date: May 16, 2023
+:date: January 1, 2024
 :category: Paper
-:tags: MSR, MSR 20, 2023, Dataset, 05-16-2023
+:tags: ASP-DAC, ASP-DAC 29, 2024, Computer vision, 01-01-2024
 :nocomments:
 
-###########################################################################
- *PTMTorrent: A Dataset for Mining Open-source Pre-trained Model Packages*
-###########################################################################
+##############################################################################################################################################################
+ *An automated approach for improving the inference latency and energy efficiency of pretrained CNNs by removing irrelevant pixels with focused convolutions*
+##############################################################################################################################################################
 
-:bdg-primary:`Conference Paper` :bdg-primary-line:`MSR 2023`
-:bdg-primary-line:`Dataset`
+:bdg-primary:`Conference Paper` :bdg-primary-line:`ASP-DAC 2024`
+:bdg-primary-line:`Computer Vision`
 
 **********
  Authors
@@ -17,71 +17,60 @@
 
 .. grid:: 3
 
-   .. grid-item-card:: Wenxin Jiang
+   .. grid-item-card:: Caleb Tung
       :text-align: center
 
-      Co-First Author
-      ^^^
-
-   .. grid-item-card:: Nicholas M. Synovic
+   .. grid-item-card:: Nicholas Eliopoulos
       :text-align: center
-
-      Co-First Author
-      ^^^
 
    .. grid-item-card:: Purvish Jajal
       :text-align: center
 
-   .. grid-item-card:: Taylor R. Schorlemmer
+   .. grid-item-card:: Gowri Ramshankar
       :margin: 3 0 0 0
       :text-align: center
 
-   .. grid-item-card:: Arav Tewari
+   .. grid-item-card:: Cheng-Yun Yang
       :text-align: center
       :margin: 3 0 0 0
 
-   .. grid-item-card:: Bhavesh Pareek
+   .. grid-item-card:: Nicholas M. Synovic
+      :text-align: center
+      :margin: 3 0 0 0
+
+   .. grid-item-card:: Xuecen Zhang
+      :text-align: center
+      :margin: 3 0 0 0
+
+   .. grid-item-card:: Vipin Chaudhary
       :text-align: center
       :margin: 3 0 0 0
 
    .. grid-item-card:: George K. Thiruvathukal
       :text-align: center
       :margin: 3 0 0 0
-      :columns: 6
 
-   .. grid-item-card:: James C. Davis
+   .. grid-item-card:: Yung-Hsiang Lu
       :text-align: center
       :margin: 3 0 0 0
-      :columns: 6
+      :columns: 12
 
 **********
  Abstract
 **********
 
-Due to the cost of developing and training deep learning models from scratch,
-machine learning engineers have begun to reuse pre-trained models (PTMs) and
-fine-tune them for downstream tasks. PTM registries known as "model hubs"
-support engineers in distributing and reusing deep learning models. PTM packages
-include pre-trained weights, documentation, model architectures, datasets, and
-metadata. Mining the information in PTM packages will enable the discovery of
-engineering phenomena and tools to support software engineers. However,
-accessing this information is difficult — there are many PTM registries, and
-both the registries and the individual packages may have rate limiting for
-accessing the data.
-
-We present an open-source dataset, PTMTorrent, to facilitate the evaluation and
-understanding of PTM packages. This paper describes the creation, structure,
-usage, and limitations of the dataset. The dataset includes a snapshot of 5
-model hubs and a total of 15,913 PTM packages. These packages are represented in
-a uniform data schema for cross-hub mining. We describe prior uses of this data
-and suggest research opportunities for mining using our dataset.
-
-The PTMTorrent dataset (v1) is available at:
-`<https://app.globus.org/file-manager?origin_id=55e17a6e-9d8f-11ed-a2a2-8383522b48d9&origin_path=%2F%7E%2F>`_.
-
-Our dataset generation tools are available on GitHub:
-`<https://doi.org/10.5281/zenodo.7570357>`_.
-
+Software metrics capture information about software development processes and
+products. These metrics support decision-making, e.g., in team management or
+dependency selection. However, existing metrics tools measure only a snapshot of
+a software project. Little attention has been given to enabling engineers to
+reason about metric trends over time—longitudinal metrics that give insight
+about process, not just product. In this work, we present PRIME
+(PRocess MEtrics), a tool to compute and visualize process metrics. The
+currently-supported metrics include productivity, issue density, issue spoilage,
+and bus factor. We illustrate the value of longitudinal data and conclude with a
+research agenda. The tool's demo video can be watched at
+`<https://bit.ly/ase2022-prime>`_. Source code can be found at
+`<https://github.com/SoftwareSystemsLaboratory/prime>`_.
 
 ***********
  Artifacts
@@ -165,3 +154,14 @@ Our dataset generation tools are available on GitHub:
                keywords = {Empirical software engineering, Software metrics},
                pages = {1--4},
             }
+
+.. note::
+
+   I have continued to iterate upon the ``PRIME`` tool in a new repository. If
+   want to learn more, visit `<https://github.com/NicholasSynovic/prime>`_.
+
+*******
+ Video
+*******
+
+.. youtube:: YigEHy3_JCo

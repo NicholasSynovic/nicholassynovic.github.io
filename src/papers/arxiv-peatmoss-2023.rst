@@ -1,14 +1,14 @@
 :blogpost: true
-:date: May 16, 2023
+:date: October 5, 2023
 :category: Paper
-:tags: MSR, MSR 20, 2023, Dataset, 05-16-2023
+:tags: arXiv, arXiv 2023, 2023, Dataset, 10-05-2023
 :nocomments:
 
-###########################################################################
- *PTMTorrent: A Dataset for Mining Open-source Pre-trained Model Packages*
-###########################################################################
+###############################################################
+ *PeaTMOSS: Mining Pre-Trained Models in Open-Source Software*
+###############################################################
 
-:bdg-primary:`Conference Paper` :bdg-primary-line:`MSR 2023`
+:bdg-primary:`Preprint Manuscript` :bdg-primary-line:`arXiv 2023`
 :bdg-primary-line:`Dataset`
 
 **********
@@ -23,65 +23,58 @@
       Co-First Author
       ^^^
 
-   .. grid-item-card:: Nicholas M. Synovic
+   .. grid-item-card:: Jason Jones
       :text-align: center
 
       Co-First Author
       ^^^
 
-   .. grid-item-card:: Purvish Jajal
+   .. grid-item-card:: Jerin Yasmin
       :text-align: center
 
-   .. grid-item-card:: Taylor R. Schorlemmer
+      Co-First Author
+      ^^^
+
+   .. grid-item-card:: Nicholas M. Synovic
       :margin: 3 0 0 0
       :text-align: center
 
-   .. grid-item-card:: Arav Tewari
-      :text-align: center
+   .. grid-item-card:: Rajeev Sashti
       :margin: 3 0 0 0
+      :text-align: center
 
-   .. grid-item-card:: Bhavesh Pareek
-      :text-align: center
+   .. grid-item-card:: Sophie Chen
       :margin: 3 0 0 0
+      :text-align: center
 
    .. grid-item-card:: George K. Thiruvathukal
-      :text-align: center
       :margin: 3 0 0 0
-      :columns: 6
+      :text-align: center
+
+   .. grid-item-card:: Yuan Tian
+      :margin: 3 0 0 0
+      :text-align: center
 
    .. grid-item-card:: James C. Davis
-      :text-align: center
       :margin: 3 0 0 0
-      :columns: 6
+      :text-align: center
 
 **********
  Abstract
 **********
 
-Due to the cost of developing and training deep learning models from scratch,
-machine learning engineers have begun to reuse pre-trained models (PTMs) and
-fine-tune them for downstream tasks. PTM registries known as "model hubs"
-support engineers in distributing and reusing deep learning models. PTM packages
-include pre-trained weights, documentation, model architectures, datasets, and
-metadata. Mining the information in PTM packages will enable the discovery of
-engineering phenomena and tools to support software engineers. However,
-accessing this information is difficult — there are many PTM registries, and
-both the registries and the individual packages may have rate limiting for
-accessing the data.
+Developing and training deep learning models is expensive, so software engineers
+have begun to reuse pre-trained deep learning models (PTMs) and fine-tune them
+for downstream tasks. Despite the wide-spread use of PTMs, we know little about
+the corresponding software engineering behaviors and challenges.
 
-We present an open-source dataset, PTMTorrent, to facilitate the evaluation and
-understanding of PTM packages. This paper describes the creation, structure,
-usage, and limitations of the dataset. The dataset includes a snapshot of 5
-model hubs and a total of 15,913 PTM packages. These packages are represented in
-a uniform data schema for cross-hub mining. We describe prior uses of this data
-and suggest research opportunities for mining using our dataset.
-
-The PTMTorrent dataset (v1) is available at:
-`<https://app.globus.org/file-manager?origin_id=55e17a6e-9d8f-11ed-a2a2-8383522b48d9&origin_path=%2F%7E%2F>`_.
-
-Our dataset generation tools are available on GitHub:
-`<https://doi.org/10.5281/zenodo.7570357>`_.
-
+To enable the study of software engineering with PTMs, we present the PeaTMOSS
+dataset: Pre-Trained Models in Open-Source Software. PeaTMOSS has three parts:
+a snapshot of (1) 281,638 PTMs, (2) 27,270 open-source software repositories
+that use PTMs, and (3) a mapping between PTMs and the projects that use them. We
+challenge PeaTMOSS miners to discover software engineering practices around
+PTMs. A demo and link to the full dataset are available at:
+`<https://github.com/PurdueDualityLab/PeaTMOSS-Demos>`_.
 
 ***********
  Artifacts
@@ -165,3 +158,14 @@ Our dataset generation tools are available on GitHub:
                keywords = {Empirical software engineering, Software metrics},
                pages = {1--4},
             }
+
+.. note::
+
+   I have continued to iterate upon the ``PRIME`` tool in a new repository. If
+   want to learn more, visit `<https://github.com/NicholasSynovic/prime>`_.
+
+*******
+ Video
+*******
+
+.. youtube:: YigEHy3_JCo

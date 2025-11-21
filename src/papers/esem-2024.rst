@@ -1,15 +1,15 @@
 :blogpost: true
-:date: May 16, 2023
+:date: October 10, 2024
 :category: Paper
-:tags: MSR, MSR 20, 2023, Dataset, 05-16-2023
+:tags: ESEM, ESEM 18, 2024, Literature Review, 10-24-2024
 :nocomments:
 
-###########################################################################
- *PTMTorrent: A Dataset for Mining Open-source Pre-trained Model Packages*
-###########################################################################
+########################################################################################################################
+ *What do we know about Hugging Face? A systematic literature review and quantitative validation of qualitative claims*
+########################################################################################################################
 
-:bdg-primary:`Conference Paper` :bdg-primary-line:`MSR 2023`
-:bdg-primary-line:`Dataset`
+:bdg-primary:`Conference Paper` :bdg-primary-line:`ESEM 2024`
+:bdg-primary-line:`Literature Review`
 
 **********
  Authors
@@ -17,71 +17,88 @@
 
 .. grid:: 3
 
-   .. grid-item-card:: Wenxin Jiang
-      :text-align: center
-
-      Co-First Author
-      ^^^
-
    .. grid-item-card:: Nicholas M. Synovic
       :text-align: center
 
-      Co-First Author
-      ^^^
-
-   .. grid-item-card:: Purvish Jajal
+   .. grid-item-card:: Matt Hyatt
       :text-align: center
 
-   .. grid-item-card:: Taylor R. Schorlemmer
+   .. grid-item-card:: Rohan Sethi
+      :text-align: center
+
+   .. grid-item-card:: Sohini Thota
       :margin: 3 0 0 0
       :text-align: center
 
-   .. grid-item-card:: Arav Tewari
+   .. grid-item-card:: Shilpika
       :text-align: center
       :margin: 3 0 0 0
 
-   .. grid-item-card:: Bhavesh Pareek
+   .. grid-item-card:: Allan J. Miller
       :text-align: center
       :margin: 3 0 0 0
 
-   .. grid-item-card:: George K. Thiruvathukal
+   .. grid-item-card:: Emmanuel S. Amobi
       :text-align: center
       :margin: 3 0 0 0
-      :columns: 6
+
+   .. grid-item-card:: Austin Pinderski
+      :text-align: center
+      :margin: 3 0 0 0
+
+   .. grid-item-card:: Konstantin Läufer
+      :text-align: center
+      :margin: 3 0 0 0
+
+   .. grid-item-card:: Nicholas J. Hayward
+      :text-align: center
+      :margin: 3 0 0 0
+
+   .. grid-item-card:: Neil Klingensmith
+      :text-align: center
+      :margin: 3 0 0 0
 
    .. grid-item-card:: James C. Davis
       :text-align: center
       :margin: 3 0 0 0
-      :columns: 6
+
+   .. grid-item-card:: George K. Thiruvathukal
+      :margin: 3 0 0 0
+      :columns: 12
+      :text-align: center
 
 **********
  Abstract
 **********
 
-Due to the cost of developing and training deep learning models from scratch,
-machine learning engineers have begun to reuse pre-trained models (PTMs) and
-fine-tune them for downstream tasks. PTM registries known as "model hubs"
-support engineers in distributing and reusing deep learning models. PTM packages
-include pre-trained weights, documentation, model architectures, datasets, and
-metadata. Mining the information in PTM packages will enable the discovery of
-engineering phenomena and tools to support software engineers. However,
-accessing this information is difficult — there are many PTM registries, and
-both the registries and the individual packages may have rate limiting for
-accessing the data.
+Background: Software Package Registries (SPRs) are an integral part of the
+software supply chain. These collaborative platforms unite contributors, users,
+and code for streamlined package management. Prior work has characterized the
+SPRs associated with traditional software, such as NPM (JavaScript) and PyPI
+(Python). Pre-Trained Model (PTM) Registries are an emerging class of SPR of
+increasing importance, because they support the deep learning supply chain.
+A growing body of empirical research has examined PTM registries from various
+angles, such as vulnerabilities, reuse processes, and evolution. However, no
+synthesis provides a systematic understanding of current knowledge. Furthermore,
+much of the existing research includes non-quantified qualitative observations.
 
-We present an open-source dataset, PTMTorrent, to facilitate the evaluation and
-understanding of PTM packages. This paper describes the creation, structure,
-usage, and limitations of the dataset. The dataset includes a snapshot of 5
-model hubs and a total of 15,913 PTM packages. These packages are represented in
-a uniform data schema for cross-hub mining. We describe prior uses of this data
-and suggest research opportunities for mining using our dataset.
+Aims: First, we aim to provide a systematic knowledge synthesis. Second, we
+quantify qualitative claims. Methods: We conducted a systematic literature
+review (SLR). We then observed that some of the claims are qualitative, lacking
+quantitative evidence. We identify quantifiable metrics associated with those
+claims, and measure in order to substantiate these claims.
 
-The PTMTorrent dataset (v1) is available at:
-`<https://app.globus.org/file-manager?origin_id=55e17a6e-9d8f-11ed-a2a2-8383522b48d9&origin_path=%2F%7E%2F>`_.
+Results: We identify 12 claims about PTM reuse on the HuggingFace platform, 4 of
+which lack quantitative support. We tested 3 of these claims through a
+quantitative analysis, and directly compare the fourth with traditional
+software. Our most notable findings are: (1) PTMs have a significantly higher
+turnover rate than traditional software, indicating more rapid evolution; and
+(2) There is a strong correlation between documentation quality and PTM
+popularity.
 
-Our dataset generation tools are available on GitHub:
-`<https://doi.org/10.5281/zenodo.7570357>`_.
-
+Conclusions: Our findings validate several qualitative research claims with
+concrete metrics, confirming prior research. Our measures motivate further
+research on the dynamics of PTM reuse.
 
 ***********
  Artifacts
@@ -165,3 +182,14 @@ Our dataset generation tools are available on GitHub:
                keywords = {Empirical software engineering, Software metrics},
                pages = {1--4},
             }
+
+.. note::
+
+   I have continued to iterate upon the ``PRIME`` tool in a new repository. If
+   want to learn more, visit `<https://github.com/NicholasSynovic/prime>`_.
+
+*******
+ Video
+*******
+
+.. youtube:: YigEHy3_JCo
