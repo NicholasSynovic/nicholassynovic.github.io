@@ -19,8 +19,8 @@
 :bdg-secondary-line:`Google Scholar`
 
 .. Mona Rahimi
-:bdg-link-primary-line:`ORCID <https://orcid.org/0009-0000-1431-2249>`
-:bdg-secondary-line:`Google Scholar`
+:bdg-secondary-line:`ORCID`
+:bdg-link-primary-line:`Google Scholar <https://scholar.google.com/citations?user=SOI1CZ4AAAAJ>`
 
 .. Nathaniel Bielanski
 :bdg-link-primary-line:`ORCID <https://orcid.org/0009-0001-1453-9168>`

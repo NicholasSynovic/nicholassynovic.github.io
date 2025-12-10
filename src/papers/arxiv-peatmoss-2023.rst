@@ -124,19 +124,12 @@ PTMs. A demo and link to the full dataset are available at:
  Artifacts
 ***********
 
-.. todo::
-
-   - Add the paper pre-print
-   - Add the poster
-   - Add link to the source code
-
 .. grid:: 2
 
    .. grid-item-card:: Paper Pre-print
       :text-align: center
-      :columns: 12
 
-      .. button-link:: blog_posts/index.html
+      .. button-link:: https://doi.org/10.48550/arXiv.2310.03620
          :click-parent:
          :color: primary
          :expand:
@@ -145,7 +138,6 @@ PTMs. A demo and link to the full dataset are available at:
 
    .. grid-item-card:: Source Code
       :text-align: center
-      :margin: 3 0 0 0
 
       .. button-link:: https://github.com/PurdueDualityLab/PeaTMOSS-Demos
          :click-parent:
@@ -157,6 +149,7 @@ PTMs. A demo and link to the full dataset are available at:
    .. grid-item-card:: Dataset
       :text-align: center
       :margin: 3 0 0 0
+      :columns: 12
 
       .. button-link:: https://transfer.rcac.purdue.edu/file-manager?origin_id=c4ec6812-3315-11ee-b543-e72de9e39f95&origin_path=%2F
          :click-parent:
@@ -171,6 +164,7 @@ PTMs. A demo and link to the full dataset are available at:
       :columns: 12
 
       .. dropdown:: BibTex
+         :open:
 
          .. code:: BibTex
 
@@ -189,10 +183,3 @@ PTMs. A demo and link to the full dataset are available at:
                note = {arXiv:2310.03620 [cs]},
                keywords = {Computer Science - Software Engineering, Computer Science - Artificial Intelligence}
             }
-
-
-*******
- Video
-*******
-
-.. youtube:: YigEHy3_JCo
