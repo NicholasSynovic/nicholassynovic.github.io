@@ -85,44 +85,6 @@ navigation. This website contains my latest:
 
             ``.docx``
 
-----
-
-*******************
- Latest Blog Posts
-*******************
-
-.. postlist:: 5
-   :category: Blog Post
-   :date: %A, %B %d, %Y
-   :format: {date}: {title}
-   :excerpts:
-   :expand: Read more ...
-
-************************
- Latest Paper Pre-prints
-************************
-
-.. postlist:: 5
-   :category: Paper
-   :date: %A, %B %d, %Y
-   :format: {date}: {title}
-   :excerpts:
-   :expand: Read more ...
-
-********************
- Other Site Updates
-********************
-
-Book Summaries
-===============
-
-.. postlist:: 5
-   :category: Book Summary
-   :date: %A, %B %d, %Y
-   :format: {date}: {title}
-   :excerpts:
-   :expand: Read more ...
-
 ..
    Toctrees for the side bars
 
