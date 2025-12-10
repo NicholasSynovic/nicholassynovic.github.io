@@ -23,6 +23,11 @@
    .. grid-item-card:: Nicholas M. Synovic
       :text-align: center
 
+      +++
+      .. include:: ../authors.rst
+         :start-line: 24
+         :end-line: 27
+
    .. grid-item-card:: Matt Hyatt
       :text-align: center
 
@@ -41,6 +46,11 @@
    .. grid-item-card:: George K. Thiruvathukal
       :margin: 3 0 0 0
       :text-align: center
+
+      +++
+      .. include:: ../authors.rst
+         :start-line: 0
+         :end-line: 3
 
    .. grid-item-card:: James C. Davis
       :margin: 3 0 0 0

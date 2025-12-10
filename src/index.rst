@@ -92,19 +92,19 @@ navigation. This website contains my latest:
    :glob:
    :hidden:
    :maxdepth: 2
-   :caption: Book Summaries
+   :caption: Blog Posts
 
-   All Book Summaries <book_summaries/index>
-   book_summaries/*
+   All Blog Posts <blog_posts/index>
+   blog_posts/*
 
 .. toctree::
    :glob:
    :hidden:
    :maxdepth: 2
-   :caption: Blog Posts
+   :caption: Book Summaries
 
-   All Blog Posts <blog_posts/index>
-   blog_posts/*
+   All Book Summaries <book_summaries/index>
+   book_summaries/*
 
 .. toctree::
    :glob:

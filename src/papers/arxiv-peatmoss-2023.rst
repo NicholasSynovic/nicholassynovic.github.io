@@ -17,47 +17,90 @@
 
 .. grid:: 3
 
+
    .. grid-item-card:: Wenxin Jiang
       :text-align: center
 
       Co-First Author
       ^^^
-
-   .. grid-item-card:: Jason Jones
-      :text-align: center
-
-      Co-First Author
-      ^^^
+      +++
+      .. include:: ../authors.rst
+         :start-after: .. Wenxin Jiang
+         :end-before: ..
 
    .. grid-item-card:: Jerin Yasmin
       :text-align: center
 
       Co-First Author
       ^^^
+      +++
+      .. include:: ../authors.rst
+         :start-after: .. Jerin Yasmin
+         :end-before: ..
+
+   .. grid-item-card:: Jason Jones
+      :text-align: center
+
+      Co-First Author
+      ^^^
+      +++
+      .. include:: ../authors.rst
+         :start-after: .. Jason Jones
+         :end-before: ..
 
    .. grid-item-card:: Nicholas M. Synovic
       :margin: 3 0 0 0
       :text-align: center
 
-   .. grid-item-card:: Rajeev Sashti
+      +++
+      .. include:: ../authors.rst
+         :start-after: .. Nicholas M. Synovic
+         :end-before: ..
+
+   .. grid-item-card:: Jiashen Kuo
       :margin: 3 0 0 0
       :text-align: center
 
-   .. grid-item-card:: Sophie Chen
+      +++
+      .. include:: ../authors.rst
+         :start-after: .. Jiashen Kuo
+         :end-before: ..
+
+   .. grid-item-card:: Nathaniel Bielanski
       :margin: 3 0 0 0
       :text-align: center
 
-   .. grid-item-card:: George K. Thiruvathukal
-      :margin: 3 0 0 0
-      :text-align: center
+      +++
+      .. include:: ../authors.rst
+         :start-after: .. Nathaniel Bielanski
+         :end-before: ..
 
    .. grid-item-card:: Yuan Tian
       :margin: 3 0 0 0
       :text-align: center
 
+      +++
+      .. include:: ../authors.rst
+         :start-after: .. Yuan Tian
+         :end-before: ..
+
+   .. grid-item-card:: George K. Thiruvathukal
+      :margin: 3 0 0 0
+      :text-align: center
+
+      +++
+      .. include:: ../authors.rst
+         :start-after: .. George K. Thiruvathukal
+         :end-before: ..
+
    .. grid-item-card:: James C. Davis
       :margin: 3 0 0 0
       :text-align: center
+
+      +++
+      .. include:: ../authors.rst
+         :start-after: .. James C. Davis
+         :end-before: ..
 
 **********
  Abstract

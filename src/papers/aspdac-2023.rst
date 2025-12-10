@@ -38,6 +38,11 @@
       :text-align: center
       :margin: 3 0 0 0
 
+      +++
+      .. include:: ../authors.rst
+         :start-line: 24
+         :end-line: 27
+
    .. grid-item-card:: Xuecen Zhang
       :text-align: center
       :margin: 3 0 0 0
@@ -49,6 +54,11 @@
    .. grid-item-card:: George K. Thiruvathukal
       :text-align: center
       :margin: 3 0 0 0
+
+      +++
+      .. include:: ../authors.rst
+         :start-line: 0
+         :end-line: 3
 
    .. grid-item-card:: Yung-Hsiang Lu
       :text-align: center

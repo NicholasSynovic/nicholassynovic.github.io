@@ -20,6 +20,11 @@
    .. grid-item-card:: Nicholas M. Synovic
       :text-align: center
 
+      +++
+      .. include:: ../authors.rst
+         :start-line: 24
+         :end-line: 27
+
    .. grid-item-card:: Matt Hyatt
       :text-align: center
 
@@ -66,6 +71,11 @@
       :margin: 3 0 0 0
       :columns: 12
       :text-align: center
+
+      +++
+      .. include:: ../authors.rst
+         :start-line: 0
+         :end-line: 3
 
 **********
  Abstract

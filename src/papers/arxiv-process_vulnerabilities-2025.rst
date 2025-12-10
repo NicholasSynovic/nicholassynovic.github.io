@@ -22,20 +22,41 @@
 
       Co-First Author
       ^^^
+      .. include:: ../authors.rst
+         :start-after: .. Shimmi Samiha
+         :end-before: ..
 
    .. grid-item-card:: Nicholas M. Synovic
       :text-align: center
 
       Co-First Author
       ^^^
+      +++
+      .. include:: ../authors.rst
+         :start-after: .. Nicholas M. Synovic
+         :end-before: ..
 
    .. grid-item-card:: Mona Rahimi
       :text-align: center
+
+      Co-Advisor
+      ^^^
+      +++
+      .. include:: ../authors.rst
+         :start-after: .. Mona Rahimi
+         :end-before: ..
 
    .. grid-item-card:: George K. Thiruvathukal
       :margin: 3 0 0 0
       :text-align: center
       :columns: 12
+
+      Co-Advisor
+      ^^^
+      +++
+      .. include:: ../authors.rst
+         :start-after: .. George K. Thiruvathukal
+         :end-before: ..
 
 **********
  Abstract

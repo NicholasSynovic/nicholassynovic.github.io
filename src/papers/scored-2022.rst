@@ -23,6 +23,11 @@
    .. grid-item-card:: Nicholas M. Synovic
       :text-align: center
 
+      +++
+      .. include:: ../authors.rst
+         :start-line: 24
+         :end-line: 27
+
    .. grid-item-card:: Rohan Sethi
       :text-align: center
 
@@ -42,6 +47,11 @@
       :text-align: center
       :margin: 3 0 0 0
       :columns: 6
+
+      +++
+      .. include:: ../authors.rst
+         :start-line: 0
+         :end-line: 3
 
    .. grid-item-card:: James C. Davis
       :text-align: center
