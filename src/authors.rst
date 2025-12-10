@@ -30,9 +30,17 @@
 :bdg-link-primary-line:`ORCID <https://orcid.org/0000-0003-0413-4594>`
 :bdg-link-primary-line:`Google Scholar <https://scholar.google.com/citations?user=H3VvTOIAAAAJ>`
 
+.. Rajeev Sashti
+:bdg-secondary-line:`ORCID`
+:bdg-secondary-line:`Google Scholar`
+
 .. Shimmi Samiha
 :bdg-link-primary-line:`ORCID <https://orcid.org/0000-0002-5307-8819>`
 :bdg-link-primary-line:`Google Scholar <https://scholar.google.com/citations?user=GPjTq-QAAAAJ>`
+
+.. Sophie Chen
+:bdg-secondary-line:`ORCID`
+:bdg-secondary-line:`Google Scholar`
 
 .. Wenxin Jiang
 :bdg-link-primary-line:`ORCID <https://orcid.org/0000-0003-2608-8576>`

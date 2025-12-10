@@ -10,6 +10,7 @@
 
 :bdg-primary:`Pre-print Manuscript` :bdg-primary-line:`arXiv 2023`
 :bdg-primary-line:`Dataset`
+:bdg-link-primary-line:`arXiv:10.48550/arXiv.2310.03620 <https://doi.org/10.48550/arXiv.2310.03620>`
 
 **********
  Authors
@@ -28,16 +29,6 @@
          :start-after: .. Wenxin Jiang
          :end-before: ..
 
-   .. grid-item-card:: Jerin Yasmin
-      :text-align: center
-
-      Co-First Author
-      ^^^
-      +++
-      .. include:: ../authors.rst
-         :start-after: .. Jerin Yasmin
-         :end-before: ..
-
    .. grid-item-card:: Jason Jones
       :text-align: center
 
@@ -46,6 +37,16 @@
       +++
       .. include:: ../authors.rst
          :start-after: .. Jason Jones
+         :end-before: ..
+
+   .. grid-item-card:: Jerin Yasmin
+      :text-align: center
+
+      Co-First Author
+      ^^^
+      +++
+      .. include:: ../authors.rst
+         :start-after: .. Jerin Yasmin
          :end-before: ..
 
    .. grid-item-card:: Nicholas M. Synovic
@@ -57,31 +58,22 @@
          :start-after: .. Nicholas M. Synovic
          :end-before: ..
 
-   .. grid-item-card:: Jiashen Kuo
+   .. grid-item-card:: Rajeev Sashti
       :margin: 3 0 0 0
       :text-align: center
 
       +++
       .. include:: ../authors.rst
-         :start-after: .. Jiashen Kuo
+         :start-after: .. Rajeev Sashti
          :end-before: ..
 
-   .. grid-item-card:: Nathaniel Bielanski
+   .. grid-item-card:: Sophie Chen
       :margin: 3 0 0 0
       :text-align: center
 
       +++
       .. include:: ../authors.rst
-         :start-after: .. Nathaniel Bielanski
-         :end-before: ..
-
-   .. grid-item-card:: Yuan Tian
-      :margin: 3 0 0 0
-      :text-align: center
-
-      +++
-      .. include:: ../authors.rst
-         :start-after: .. Yuan Tian
+         :start-after: .. Sophie Chen
          :end-before: ..
 
    .. grid-item-card:: George K. Thiruvathukal
@@ -91,6 +83,15 @@
       +++
       .. include:: ../authors.rst
          :start-after: .. George K. Thiruvathukal
+         :end-before: ..
+
+   .. grid-item-card:: Yuan Tian
+      :margin: 3 0 0 0
+      :text-align: center
+
+      +++
+      .. include:: ../authors.rst
+         :start-after: .. Yuan Tian
          :end-before: ..
 
    .. grid-item-card:: James C. Davis
@@ -133,29 +134,9 @@ PTMs. A demo and link to the full dataset are available at:
 
    .. grid-item-card:: Paper Pre-print
       :text-align: center
+      :columns: 12
 
       .. button-link:: blog_posts/index.html
-         :click-parent:
-         :color: primary
-         :expand:
-
-         Download
-
-   .. grid-item-card:: Published Paper
-      :text-align: center
-
-      .. button-link:: https://doi.org/10.1145/3551349.3559517
-         :click-parent:
-         :color: primary
-         :expand:
-
-         View
-
-   .. grid-item-card:: Poster
-      :text-align: center
-      :margin: 3 0 0 0
-
-      .. button-link:: https://doi.org/10.1145/3551349.3559517
          :click-parent:
          :color: primary
          :expand:
@@ -166,7 +147,18 @@ PTMs. A demo and link to the full dataset are available at:
       :text-align: center
       :margin: 3 0 0 0
 
-      .. button-link:: https://doi.org/10.1145/3551349.3559517
+      .. button-link:: https://github.com/PurdueDualityLab/PeaTMOSS-Demos
+         :click-parent:
+         :color: primary
+         :expand:
+
+         View
+
+   .. grid-item-card:: Dataset
+      :text-align: center
+      :margin: 3 0 0 0
+
+      .. button-link:: https://transfer.rcac.purdue.edu/file-manager?origin_id=c4ec6812-3315-11ee-b543-e72de9e39f95&origin_path=%2F
          :click-parent:
          :color: primary
          :expand:
