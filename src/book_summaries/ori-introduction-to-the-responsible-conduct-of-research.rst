@@ -13,17 +13,17 @@
 by Nicholas H. Steneck, David Zinn, and Tommy G. Thompson :cite:p:`stenek_ori_2007`
 
 **********
- Foreward
+ Forward
 **********
 
 This book is published by the Office of Research Integrity (ORI) [1]_ as
 supplemental material to assist in the teaching of the responsible
 conduct of research. The ORI oversees and directs the Public Health
-Service (PHS) [2]_ research integrety on behalf of the Secretary of Health
+Service (PHS) [2]_ research integrity on behalf of the Secretary of Health
 and Human Services [3]_ and the American public.
 
 This book stems from the ethical concerns that were raised in biology related
-fields in 1989 :cite:p:`lawrence_bioethics_2025` and has sinced expanded to
+fields in 1989 :cite:p:`lawrence_bioethics_2025` and has since expanded to
 become more general and applicable to other disciplines.
 
 *********
@@ -49,7 +49,7 @@ Chapter 1: Rules of the Road
 There aren't clear rules laid out to for researcher's to easily
 understand what is and isn't responsible research conduct. Rather, there
 are many organizing bodies, both official and non-official, that govern
-this [4]_. Furthermore, a researcher's personal judgement contributes to this
+this [4]_. Furthermore, a researcher's personal judgment contributes to this
 ethical calculus.
 
 Some of the ethical and legal guidelines researchers have to adhere to include:
@@ -58,7 +58,7 @@ Some of the ethical and legal guidelines researchers have to adhere to include:
 - federal,
 - State,
 - institutional policies, and
-- personal judgement.
+- personal judgment.
 
 Not all professions have Professional Codes. federal regulations have to first
 be made available for public comment in the *federal Register* [5]_, and once
@@ -78,7 +78,7 @@ these three areas:
 
  1. Establish definitions for misconduct in research,
  2. Outline procedures for reporting and investigating misconduct, and
- 3. Provide protection for whistleblowers and person accused of misconduct.
+ 3. Provide protection for whistle blowers and person accused of misconduct.
 
 federal regulations for research misconduct technically only apply at
 the federal level, but many institutions incorporate and expand it
@@ -113,7 +113,7 @@ when proven guilty.
 
 OSTP puts the responsibility of research misconduct
 reporting and investigation on both *researchers* and *their research
-institutions*. Research misconduct whistleblowers run the risk of illegal
+institutions*. Research misconduct whistle blowers run the risk of illegal
 retaliation when reporting to governing bodies.
 
 *********
@@ -145,7 +145,7 @@ include:
 - Research involving the use of educational tests,
 - Research involving the collection or study of existing data, documents,
   records, pathological specimens, or diagnostic specimens, if unidentifiable or
-  publicly availible,
+  publicly available,
 - Research and demonstration projects which are conducted by or subject to the
   approval of department or agency heads, and
 - Taste and food quality evaluation and consumer acceptance studies.
@@ -173,13 +173,13 @@ animals for biomedical and behavioral research is subject to the Secretary of
 Health and Human Services (HHS) [3]_, acting through the National Institutes of
 Health (NIH) and the Office of Laboratory Animal Welfare (OLAW) [12]_.
 Furthermore, activists have put together guidelines through the Animal
-Care Panel (ACP), commonly reffered to as the *Guide* :cite:p:`national_research_council_guide_2011`.
+Care Panel (ACP), commonly refereed to as the *Guide* :cite:p:`national_research_council_guide_2011`.
 The Guide is widely accepted both in public and private institutions and
 federal laboratories.
 
 The definition of an animal from the PHS Policy is:
 
-   "any live, vertebrate animals used or inteded for use in research, research
+   "any live, vertebrate animals used or intended for use in research, research
    training, experimentation, or biological testing or for related
    purposes." :cite:p:`us_department_of_health_and_human_services_phs_2015`
 
@@ -193,8 +193,8 @@ animals (mammals) but excludes:
 Prior to using animal subjects, researchers must defend the usage of
 animal subjects against the "three R's":
 
-1. **Replacement** - using non-animal models such asmicroorganisms or cell culture
-   techniques, computer simulations, or species lower on the phulogenetic scale,
+1. **Replacement** - using non-animal models such as microorganisms or cell culture
+   techniques, computer simulations, or species lower on the phylogenetic scale,
 
 2. **Reduction** - using methods aimed at reducing the numbers of animals such as
    minimization of variability, appropriate selection of animal model,
@@ -205,7 +205,7 @@ animal subjects against the "three R's":
 
 Institutions testing on animals must create an Institutional Animal Care
 and Use Committee (IACUC) which acts similarly to an IRB but for
-animals. These, along with the OLAW, USDA, and accrediation programs,
+animals. These, along with the OLAW, USDA, and accreditation programs,
 are responsible for the proper care and respect of animal subjects.
 
 Chapter 5: Conflicts of Interest
@@ -218,7 +218,7 @@ interest:
 2. Work commitments, and
 3. Intellectual and personal matters.
 
-Financial gains involve reciving money from an institute that the
+Financial gains involve receiving money from an institute that the
 researcher has a vested in. This could involve having stock in the
 company, or being a member of the company.
 
@@ -228,7 +228,7 @@ work is being used to further a research objective or vice versa, it is
 a conflict of interest.
 
 Intellectual and personal matter conflicts of interest occur when the
-idealogy, beliefs, or viewpoint of a researcher could interfere with
+ideology, beliefs, or viewpoint of a researcher could interfere with
 their research objectives.
 
 **********
@@ -252,7 +252,7 @@ Data can be owned by one or many sources. This includes:
 
 Typically, government funded research allows the data to be shared for the
 public good, privately funded research retain the right to disseminate the data,
-and philinthropic funding sources retain or give away their data ownership
+and philanthropic funding sources retain or give away their data ownership
 rights depending on their motive.
 
 Data must be collected responsibly through appropriate and reliable methods If
@@ -263,12 +263,12 @@ metadata must be captured to include the date, time, source, and other important
 facts about the source of the data.
 
 After collecting the data, it must be stored properly so as to prevent
-the theivery or loss of data. This includes securing lab notebooks and
+the thievery or loss of data. This includes securing lab notebooks and
 regularly backing up data files. Additionally, any data that includes
 personal identifying information or is otherwise confidential, must go
 through a process of anonymizing the data so as to respect the source's
 privacy. Furthermore, some data may be subject to a period of retention
-and if not, data should otherwise be retained indefinetly.
+and if not, data should otherwise be retained indefinitely.
 
 Finally, future considerations about the data must be taken into
 account. For example, the generated data of an experiment can be larger
@@ -300,7 +300,7 @@ Whereas mentors expect from their trainees that they:
 - Live by agreements established for authorship and ownership
 
 To make sure these expectations are clear, the mentor should lay them
-out initally. Furthermore, mentors have are expected to supervise the
+out initially. Furthermore, mentors have are expected to supervise the
 work of a trainee. This results in the monitoring, support, and review
 of a trainees work, as well as imparting the ethos of being a researcher
 onto them.
@@ -325,9 +325,9 @@ Chapter 8: Collaborative Research
 
 Collaborative research involves any time when two or more researchers
 collaborate on the same project. This could involve researchers from the
-same institution or different insititutions. This work is led by a
+same institution or different institutions. This work is led by a
 primary investigator (PI) who heads the project and is responsible for
-the compliance of rules and responsible research conduct, financials,
+the compliance of rules and responsible research conduct, financial,
 and training.
 
 Collaborative research projects need to initially solve many problems
@@ -341,8 +341,8 @@ with respect to:
 - The criteria to identify and rank authorship,
 - Who is responsible for submitting reports and meeting other requirements,
 - Who is responsible for publicly speaking about the work,
-- How intellectural property rights and ownership issues will be resolved, and
-- How collaboration can be changed and when it comes ot an end.
+- How intellectual property rights and ownership issues will be resolved, and
+- How collaboration can be changed and when it comes to an end.
 
 With respect to compliance, it is best practice to work under the
 compliance guidelines of the institution or state that has the strictest
@@ -408,9 +408,9 @@ A manuscript should include:
 The following authorship practices should be avoided:
 
 - Honorary authorship,
-- Salami publications (using the same data/ study in two seperate papers),
+- Salami publications (using the same data/ study in two separate papers),
 - Duplicate publications, and
-- Premature public statments
+- Premature public statements
 
 Chapter 10: Peer Review
 =======================
@@ -452,7 +452,7 @@ reference any sources or prior work that shaped their assessments.
 Confidentiality is a cornerstone of the peer-review process, protecting both
 authors and reviewers and encouraging frank, honest evaluations without fear of
 personal or professional repercussions. Many venues employ double-blind review
-systems in which neither the authors nor the reviewers know one another's
+systems in which neither the authors nor the reviewers know one anther's
 identities. To maintain the integrity of this system, reviewers must follow
 strict ethical guidelines. It is inappropriate to delegate a review to students
 or colleagues, to use ideas or information from a confidential proposal or
@@ -469,7 +469,7 @@ formally part of the review process.
 It is well understood that many people early in their career have
 irresponsible research conduct. Additionally, what might be considered
 responsible conduct in one field may not apply to all fields. None the
-less, there is no justification for comprimising the core tennants of
+less, there is no justification for compromising the core tenants of
 research: honesty, accuracy, efficiency, and objectivity. Upholding
 these is the responsibility of all researchers.
 

@@ -99,7 +99,7 @@ navigation. This website contains my latest:
    :expand: Read more ...
 
 ************************
- Latest Paper Preprints
+ Latest Paper Pre-prints
 ************************
 
 .. postlist:: 5

@@ -8,7 +8,7 @@
  *Process-based Indicators of Vulnerability Re-Introducing Code Changes: An Exploratory Case Study*
 ####################################################################################################
 
-:bdg-primary:`Preprint Manuscript` :bdg-primary-line:`arXiv 2025`
+:bdg-primary:`Pre-print Manuscript` :bdg-primary-line:`arXiv 2025`
 :bdg-primary-line:`Vulnerabilities`
 
 **********
@@ -71,13 +71,13 @@ security.
 
 .. todo::
 
-   - Add the paper preprint
+   - Add the paper pre-print
    - Add the poster
    - Add link to the source code
 
 .. grid:: 2
 
-   .. grid-item-card:: Paper Preprint
+   .. grid-item-card:: Paper Pre-print
       :text-align: center
 
       .. button-link:: blog_posts/index.html

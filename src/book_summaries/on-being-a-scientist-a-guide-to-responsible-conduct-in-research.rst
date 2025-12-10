@@ -42,7 +42,7 @@ base of their profession has been undermined.
 
 New researchers are not learning how to conduct themselves as scientists
 (a broad definition that includes anyone who is involved with the
-pursuit of knowledge) [5]_. This used to be the responsiblility of more senior
+pursuit of knowledge) [5]_. This used to be the responsibility of more senior
 researchers, as they are role models, teachers, and mentors to junior researchers. But as the speed of scientific developments accelerates, this task
 is often ignored. Furthermore, exciting opportunities
 keep appearing faster than science can keep up, further contributing to
@@ -199,7 +199,7 @@ The specific definitions for fabrication, falsification, and plagiarism are:
 Scientific misconduct significantly departs from accepted practices.
 Identification requires that misconduct be proven to be
 
-- intendend to decieve the scientific process [15]_,
+- intended to deceive the scientific process [15]_,
 - knowingly or recklessly conducted against norms, and
 - a preponderance of evidence exists to prove the misconduct [16]_.
 
@@ -491,9 +491,9 @@ that researchers should follow.
 
 .. [11]
 
-   Well... It's getting there. A lot of science is irreproducible, as explained `in this video <https://www.youtube.com/watch?v=42QuXLucH3Q>`_.
+   Well... It's getting there. A lot of science is not reproducible, as explained `in this video <https://www.youtube.com/watch?v=42QuXLucH3Q>`_.
    And thanks to computers, AI, and digital analysis, if the codes necessary to
-   reproduce the findings in the paper are not made availible, it can be
+   reproduce the findings in the paper are not made available, it can be
    difficult to reproduce the study :cite:p:`ieee_author_center_research_2025`.
 
 .. [12]
@@ -507,7 +507,7 @@ that researchers should follow.
 
 .. [14]
 
-   Shoutout `Retraction Watch <https://retractionwatch.com/>`_!
+   Shout out `Retraction Watch <https://retractionwatch.com/>`_!
 
 .. [15]
 
@@ -537,7 +537,7 @@ that researchers should follow.
 
 .. [20]
 
-   Here is `my alma mater's IACUC page
+   Here is `my alma-mater's IACUC page
    <https://www.luc.edu/hsc/researchservices/researchcompliance/institutionalanimalcareandusecommitteeiacuc/>`_.
 
 .. [21]

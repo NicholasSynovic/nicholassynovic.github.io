@@ -24,7 +24,7 @@
       :text-align: center
 
    .. grid-item-card:: Rohan Sethi
-      :text-align: centerProcess Metrics
+      :text-align: center Process Metrics
 
    .. grid-item-card:: Naveen Vivek
       :margin: 3 0 0 0

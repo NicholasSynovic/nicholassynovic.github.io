@@ -5,7 +5,7 @@
 :nocomments:
 
 ########################################################
-*Running Deepseek-R1 Locally with Ollama and Open WebUI*
+*Running DeepSeek-R1 Locally with Ollama and Open WebUI*
 ########################################################
 
 :bdg-primary:`Blog Post` :bdg-primary-line:`Artificial Intelligence`
@@ -95,7 +95,7 @@ ignore all references to Ollama docker installation hereafter. This is
 because Ollama via Docker does not support M series Mac GPU
 acceleration, but the compiled binary does [7]_.
 
-For everyone else, I recommend installing Ollama and Open Web UI via
+For everyone else, I recommend installing Ollama and Open WebUI via
 Docker Compose via this YAML file:
 
 .. dropdown:: ``docker-compose.yml`` file contents

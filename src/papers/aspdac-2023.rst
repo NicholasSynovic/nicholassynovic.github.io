@@ -78,13 +78,13 @@ research agenda. The tool's demo video can be watched at
 
 .. todo::
 
-   - Add the paper preprint
+   - Add the paper pre-print
    - Add the poster
    - Add link to the source code
 
 .. grid:: 2
 
-   .. grid-item-card:: Paper Preprint
+   .. grid-item-card:: Paper Pre-print
       :text-align: center
 
       .. button-link:: blog_posts/index.html

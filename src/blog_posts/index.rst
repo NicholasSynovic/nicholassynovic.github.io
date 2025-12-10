@@ -10,7 +10,7 @@
 
    .. grid-item-card:: 01-28-2025
 
-      .. postlist:: 1
+      .. postlist::
          :category: Blog Post
          :tags: 01-28-2025
          :date: %A, %B %d, %Y
