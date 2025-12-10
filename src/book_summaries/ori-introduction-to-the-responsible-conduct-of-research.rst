@@ -9,6 +9,7 @@
 ###########################################################
 
 :bdg-primary:`Book Summary` :bdg-primary-line:`Research`
+:bdg-link-primary-line:`isbn:978-1-4223-0078-7 <https://isbnsearch.org/isbn/9781422300787>`
 
 by Nicholas H. Steneck, David Zinn, and Tommy G. Thompson :cite:p:`stenek_ori_2007`
 

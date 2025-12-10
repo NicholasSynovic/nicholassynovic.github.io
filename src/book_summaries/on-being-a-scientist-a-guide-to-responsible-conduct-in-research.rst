@@ -9,8 +9,9 @@
 ####################################################################
 
 :bdg-primary:`Book Summary` :bdg-primary-line:`Research`
+:bdg-link-primary-line:`doi:10.17226/12192 <https://doi.org/10.17226/12192>`
 
-by the National Academy of Science, National Academy of Engineering and
+by the National Academy of Science, National Academy of Engineering, and
 Institute of Medicine of the National Academies
 :cite:p:`committee_on_science_engineering_and_public_policy_being_2009`
 
