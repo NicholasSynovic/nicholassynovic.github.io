@@ -22,54 +22,119 @@
 
       +++
       .. include:: ../authors.rst
-         :start-line: 24
-         :end-line: 27
+         :start-line: 29
+         :end-line: 32
 
    .. grid-item-card:: Matt Hyatt
       :text-align: center
 
+      +++
+      .. include:: ../authors.rst
+         :start-line: 53
+         :end-line: 56
+
+
    .. grid-item-card:: Rohan Sethi
       :text-align: center
+
+      +++
+      .. include:: ../authors.rst
+         :start-line: 57
+         :end-line: 60
 
    .. grid-item-card:: Sohini Thota
       :margin: 3 0 0 0
       :text-align: center
 
+      +++
+      .. include:: ../authors.rst
+         :start-line: 61
+         :end-line: 64
+
    .. grid-item-card:: Shilpika
       :text-align: center
       :margin: 3 0 0 0
+
+      +++
+      .. include:: ../authors.rst
+         :start-line: 65
+         :end-line: 68
 
    .. grid-item-card:: Allan J. Miller
       :text-align: center
       :margin: 3 0 0 0
 
+      +++
+      .. include:: ../authors.rst
+         :start-line: 69
+         :end-line: 72
+
+   .. grid-item-card:: Wenxin Jiang
+      :text-align: center
+
+      +++
+      .. include:: ../authors.rst
+         :start-after: .. Wenxin Jiang
+         :end-before: ..
+
    .. grid-item-card:: Emmanuel S. Amobi
       :text-align: center
       :margin: 3 0 0 0
+
+      +++
+      .. include:: ../authors.rst
+         :start-line: 73
+         :end-line: 76
 
    .. grid-item-card:: Austin Pinderski
       :text-align: center
       :margin: 3 0 0 0
 
+      +++
+      .. include:: ../authors.rst
+         :start-line: 77
+         :end-line: 80
+
    .. grid-item-card:: Konstantin Läufer
       :text-align: center
       :margin: 3 0 0 0
+
+      +++
+      .. include:: ../authors.rst
+         :start-line: 81
+         :end-line: 84
 
    .. grid-item-card:: Nicholas J. Hayward
       :text-align: center
       :margin: 3 0 0 0
 
+      +++
+      .. include:: ../authors.rst
+         :start-line: 85
+         :end-line: 88
+
    .. grid-item-card:: Neil Klingensmith
       :text-align: center
       :margin: 3 0 0 0
 
+      +++
+      .. include:: ../authors.rst
+         :start-line: 89
+         :end-line: 92
+
    .. grid-item-card:: James C. Davis
       :text-align: center
       :margin: 3 0 0 0
+      :columns: 6
+
+      +++
+      .. include:: ../authors.rst
+         :start-line: 5
+         :end-line: 8
 
    .. grid-item-card:: George K. Thiruvathukal
       :margin: 3 0 0 0
-      :columns: 12
+      :columns: 6
       :text-align: center
 
       +++
@@ -98,27 +163,11 @@ research agenda. The tool's demo video can be watched at
  Artifacts
 ***********
 
-.. todo::
-
-   - Add the paper pre-print
-   - Add the poster
-   - Add link to the source code
-   - Update the BibTex
-
 .. grid:: 2
-
-   .. grid-item-card:: Paper Pre-print
-      :text-align: center
-
-      .. button-link:: blog_posts/index.html
-         :click-parent:
-         :color: primary
-         :expand:
-
-         Download
 
    .. grid-item-card:: Published Paper
       :text-align: center
+      :columns: 12
 
       .. button-link:: https://doi.org/10.1145/3551349.3559517
          :click-parent:

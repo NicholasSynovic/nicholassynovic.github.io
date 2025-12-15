@@ -50,4 +50,42 @@
 :bdg-link-primary-line:`ORCID <https://orcid.org/0000-0003-0413-4594>`
 :bdg-link-primary-line:`Google Scholar <https://scholar.google.com/citations?user=wX4le_QAAAAJ>`
 
-..
+.. Matt Hyatt
+:bdg-link-primary-line:`ORCID <https://orcid.org/0000-0002-6356-6832>`
+:bdg-link-primary-line:`Google Scholar <https://scholar.google.com/citations?&user=SXv-oqYAAAAJ>`
+
+.. Rohan Sethi
+:bdg-secondary-line:`ORCID`
+:bdg-secondary-line:`Google Scholar`
+
+.. Sohini Thota
+:bdg-secondary-line:`ORCID`
+:bdg-secondary-line:`Google Scholar`
+
+.. Shilpika
+:bdg-secondary-line:`ORCID`
+:bdg-link-primary-line:`Google Scholar <https://scholar.google.com/citations?user=0lEZkT0AAAAJ>`
+
+.. Allan J. Miller
+:bdg-secondary-line:`ORCID`
+:bdg-secondary-line:`Google Scholar`
+
+.. Emmanuel S. Amobi
+:bdg-secondary-line:`ORCID`
+:bdg-secondary-line:`Google Scholar`
+
+.. Austin Pinderksi
+:bdg-secondary-line:`ORCID`
+:bdg-secondary-line:`Google Scholar`
+
+.. Konstantin Läufer
+:bdg-link-primary-line:`ORCID <https://orcid.org/0000-0002-7548-0876>`
+:bdg-link-primary-line:`Google Scholar <https://scholar.google.com/citations?user=Rs0f_nMAAAAJ>`
+
+.. Nicholas J. Hayward
+:bdg-secondary-line:`ORCID`
+:bdg-link-primary-line:`Google Scholar <https://scholar.google.com/citations?user=1og-lvwAAAAJ>`
+
+.. Neil Klingensmith
+:bdg-secondary-line:`ORCID`
+:bdg-link-primary-line:`Google Scholar <https://scholar.google.com/citations?hl=en&user=HnqsJ5QAAAAJ>`
