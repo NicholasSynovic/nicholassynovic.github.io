@@ -8,12 +8,12 @@
  *Data Parallel C++: Mastering DPC++ for Programming of Heterogeneous Systems using C++ and SYCL*
 #################################################################################################
 
-:bdg-primary:`Book Summary` :bdg-primary-line:`HPC` :bdg-primary-line:`CPP`
-:bdg-link-primary-line:`doi:10.1007/978-1-4842-5574-2 <https://doi.org/10.1007/978-1-4842-5574-2>`
+:bdg-primary:``Book Summary`` :bdg-primary-line:``HPC`` :bdg-primary-line:``CPP``
+:bdg-link-primary-line:``doi:10.1007/978-1-4842-5574-2 <https://doi.org/10.1007/978-1-4842-5574-2>``
 
 by James Reinders, Ben Ashbaugh, James Brodman, Michael Kinser, John Pennycook,
 and Xinmin Tian
-:cite:p:`reinders_data_2021`
+:cite:p:``reinders_data_2021``
 
 *************
  Introduction
@@ -24,12 +24,12 @@ unit), GPU (graphics processing unit), GPGPU (general purpose graphics
 processing unit), FPGA (full programmable gate array), DSP (digital signal
 processing), ASIC (application-specific integrated circuit) devices.
 
-SYCK 1.2.1 vs. SYCL 2020, and DPC++
+SYCL 1.2.1 vs. SYCL 2020, and DPC++
 ===================================
 
-This book teaches data parallel C++ using the Khronos SYCL 1.2.1 language to
-support parallel programming on *heterogeneous* systems (systems with more than
-one device processing data together).
+This book teaches data parallel C++ using the Khronos SYCL 1.2.1 language specification
+to support parallel programming on *heterogeneous* systems (systems with more
+than one device processing data together).
 
 Getting a DPC++ Compiler
 ========================
@@ -65,15 +65,15 @@ throughput can be done for large batch jobs.
 Amdahl and Gustafson
 ====================
 
-Amdahl's Law (as stated by Gene Amdahl in 1967) :cite:p:`amdahl_validity_1967`
+Amdahl's Law (as stated by Gene Amdahl in 1967) :cite:p:``amdahl_validity_1967``
 defines the theoretical maximum scaling (colloquially known as speed-up) as
 
 .. math::
 
    \frac{1}{(1-p)}
 
-where :math:`p` is the fraction of the program that runs in parallel. So if
-:math:`\frac{2}{3}` of the program runs in parallel, then the math works out to be
+where :math:``p`` is the fraction of the program that runs in parallel. So if
+:math:``\frac{2}{3}`` of the program runs in parallel, then the math works out to be
 
 .. math::
 
@@ -102,6 +102,74 @@ A device is a hardware compute that work is distributed and executed on. This
 can be the same as the host device, but it is usually a GPU or other hardware
 device.
 
+********************
+ Where Code Executes
+********************
+
+Parallelism isn't about executing code in the fast lane, it's about executing
+code fast in all lanes. This code goes over where code can execute, when it will
+execute, and the mechanisms used to control the locations of execution.
+
+Single-Source
+=============
+
+SYCL programs can be written within a single C++ file that defines all host,
+device, and device kernel code. This is useful for debugging and organizing
+code. However, this can lead to large, complex files. Breaking the file down
+into discrete chunks (e.g., isolating functionality to specific libraries,
+classes) can improve maintainability in the long run.
+
+Host Code
+---------
+
+All SYCL applications contain C++ host code which is executed on the host
+device. This code organizes and defines units of work for devices to operate on
+and manages application state.
+
+Device Code
+-----------
+
+Device code contains the kernels that operate on data loaded onto the device.
+This code opperates asynchonusly from host code. Using a ``queue`` (a SYCL
+provided class) enables orgnazing work into command groups. More on this later.
+
+Choosing Devices
+================
+
+Five methods:
+
+1. Letting the compiler decide where to run the device code. This is the least
+   controllable option and is not recommended for application development.
+2. Running device code on the host device. This is useful for debugging the
+   application.
+3. Running device code on *a* GPU or another accelerator.
+4. Running device code on *multiple* GPUs or accelerators.
+5. Selecting a specific device from a set of device classes (e.g., selecting a
+   specifc GPU in a 4 GPU system).
+
+Queues
+======
+
+A ``queue`` is a way of organizing and submitting actions to a specific device. A
+``queue`` can only ever be assigned to one device, but a device can have multiple
+``queues`` assigned to it.
+
+``queue`` device assignment is handled at the creation of the ``queue`` through one
+of the ``device_selector`` inhereting classes.
+
+Actions
+=======
+
+Actions are functions that are executed on the device to manage kernels and
+data. Built-in actions include:
+
+- ``single_task`` for executing a single instance of a kernel on a device,
+- ``parallel_for`` for executing a kernel multiple times,
+- ``parallel_for_work_group`` kernel execution with hierarchical parallelism,
+- ``copy`` for copying data between device locations or shared pointers,
+- ``update_host`` for updating the host to backfill buffers, and
+- ``fill`` initialize data in a buffer.
+
 *************
  Bibliography
 *************
@@ -121,4 +189,4 @@ device.
    It should be noted that Amdahl's Law was used as justification *against*
    parallelism and it wasn't until John Gustafson recontextualized the law with
    respect to scaling up the amount of work that could be done in the same
-   period of time :cite:p:`gustafson_reevaluating_1988`.
+   period of time :cite:p:``gustafson_reevaluating_1988``.
