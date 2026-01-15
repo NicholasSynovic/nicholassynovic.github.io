@@ -8,12 +8,12 @@
  *Data Parallel C++: Mastering DPC++ for Programming of Heterogeneous Systems using C++ and SYCL*
 #################################################################################################
 
-:bdg-primary:``Book Summary`` :bdg-primary-line:``HPC`` :bdg-primary-line:``CPP``
-:bdg-link-primary-line:``doi:10.1007/978-1-4842-5574-2 <https://doi.org/10.1007/978-1-4842-5574-2>``
+:bdg-primary:`Book Summary` :bdg-primary-line:`HPC` :bdg-primary-line:`CPP`
+:bdg-link-primary-line:`doi:10.1007/978-1-4842-5574-2 <https://doi.org/10.1007/978-1-4842-5574-2>`
 
 by James Reinders, Ben Ashbaugh, James Brodman, Michael Kinser, John Pennycook,
 and Xinmin Tian
-:cite:p:``reinders_data_2021``
+:cite:p:`reinders_data_2021`
 
 *************
  Introduction
@@ -65,7 +65,7 @@ throughput can be done for large batch jobs.
 Amdahl and Gustafson
 ====================
 
-Amdahl's Law (as stated by Gene Amdahl in 1967) :cite:p:``amdahl_validity_1967``
+Amdahl's Law (as stated by Gene Amdahl in 1967) :cite:p:`amdahl_validity_1967`
 defines the theoretical maximum scaling (colloquially known as speed-up) as
 
 .. math::
@@ -170,6 +170,57 @@ data. Built-in actions include:
 - ``update_host`` for updating the host to backfill buffers, and
 - ``fill`` initialize data in a buffer.
 
+****************
+ Data Management
+****************
+
+A major problem with writing and using parallized applications is "feeding the
+beast", where the beast is the application and the food its being fed is data.
+There are two ways to manage data via DPC++ and SYCL: Unified Shared Memory
+(USM) and buffers. USM is pointer based, whereas buffers are a higher level
+abstraction [3]_ .
+
+The Data Management Problem
+===========================
+
+Heterogeneous applications have to deal with both host and device memory models.
+A USM memory management solution is sometimes preferred as it simplifies the
+interface for managing memory. Thus, the programmer only has to worry about the
+traditional parallel memory challenges (e.g., race conditions, memory
+synchronization).
+
+Data can be stored locally on the compute device, or remotely in a different
+memory pool. Remotely doesn't necessarily mean over the internet a remote memory
+pool could be system's RAM pool from the perspective of an attached GPU device
+with its own DRAM pool. Accessing remote memory comes at the cost of speed due
+to bandwidth and latency restrictions.
+
+Managing Multiple Memories
+**************************
+
+Multiple memories can be handled explicitly or implictely. Explicitly handling
+memories can improve speed and ensure that data is handled efficiently at the
+cost of introducing errors into the application. Implictely handling memories
+by letting the runtime handle it can reduce errors at the cost of slower data
+speeds [4]_ .
+
+USM, Buffers, and Images
+========================
+
+USM is a pointer based approach for managing memory which is useful for
+integrating into existing C++ applications. Buffers provide an interface for
+one, two, and three dimensional arrays that hosts and devices can operate on.
+Images are a subclasss of buffers that are specific for image processing.
+
+USM provides an interface similar to ``memcpy()`` through the ``queue`` and
+``handler`` classes. This is useful for explict memory management. Implicit
+memory management is handled by just calling pointers inside the kernel code.
+
+Buffers can contain many objects. Thus reading and writing to them is different
+than operating on C++ arrays. To interface with a buffer, an ``accessor`` class
+is necessary. Buffers can be set to be read, write, or read-write access modes.
+
+
 *************
  Bibliography
 *************
@@ -189,4 +240,10 @@ data. Built-in actions include:
    It should be noted that Amdahl's Law was used as justification *against*
    parallelism and it wasn't until John Gustafson recontextualized the law with
    respect to scaling up the amount of work that could be done in the same
-   period of time :cite:p:``gustafson_reevaluating_1988``.
+   period of time :cite:p:`gustafson_reevaluating_1988`.
+
+.. [3]
+   In my opinion, I prefer the abstraction. Less likely to create memory-based
+   security vulnerabilities at the cost of speed.
+
+.. [4] Similar to the previous comment, I prefer implicit over explict handling.
