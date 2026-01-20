@@ -220,6 +220,150 @@ Buffers can contain many objects. Thus reading and writing to them is different
 than operating on C++ arrays. To interface with a buffer, an ``accessor`` class
 is necessary. Buffers can be set to be read, write, or read-write access modes.
 
+***********************
+ Expressing Parallelism
+***********************
+
+This chapter covers
+
+- why's there more than one way to express parallelism,
+- which method to use, and
+- how much should you know about the execution models
+
+Parallelism Within Kernels
+==========================
+
+Parallel kernels are abstract methods that are independent from device
+implementation. They enable program portability and programmer productivity.
+
+Multidimensional Kernels
+------------------------
+
+Many languages use one-dimensional parallism; mapping work on data directly to
+corresponding hardware threads. Parallel kernels utilize multidimensional
+representations of work. Understanding this can enable improvements to memory
+tuning and access [5]_ . The following paragraph better explains this [5]_ :
+
+.. code:: text
+
+   In DPC++ using the SYCL standard, multidimensional kernels are a convenience
+   that allows programmers to express parallel work in a way that matches the
+   natural dimensionality of their data (such as vectors, matrices, or volumes),
+   even though the underlying hardware ultimately executes work in a
+   one-dimensional linear space. SYCL defines a precise and consistent rule for
+   mapping this multidimensional index space onto that linear execution order:
+   dimensions are numbered from 0 to N-1, and the last dimension (N-1) is the
+   contiguous, or unit-stride, dimension that varies fastest in the linearized
+   space. This convention applies uniformly to all multidimensional SYCL
+   constructs, including range, id, and nd_range, and it is reflected
+   left-to-right in constructors and subscript operators. As a result, SYCL's
+   indexing semantics exactly mirror the row-major layout of multidimensional
+   arrays in standard C++, where the rightmost index is contiguous in memory.
+   Understanding this mapping is important for performance, because work-items
+   that are adjacent in the linear execution space will differ first in the last
+   dimension, so aligning that dimension with contiguous memory access leads to
+   better cache utilization and memory coalescing, especially on GPUs.
+
+Loops vs. Kernels
+-----------------
+
+Loops iterate over data. Kernels define a single operation that is then mapped
+to all data values.
+
+Basic Data-Parallel Kernels
+===========================
+
+Basic data-parallel kernels are "embarissingly parallel", meaning that a single
+operation can be applied to all data values. These are writting using the
+"Single Program, Multiple Data" (SPMD) format where the "program" is the kernel
+to be applied to the data. This is particularly useful for operations on data
+that are not dependent upon one another.
+
+The execution model for these kernels is that the while the kernel can be
+executed in parallel, it does not garuntee it or require it.
+
+Explicit ND-Range Kernels
+=========================
+
+These kernels group work items in order to express locality. In practice this
+means that when we write our kernel (still using SPMD style), we can query the
+position of the data value and perform conditional operations based on it.
+
+Key terminology to understand when writing ND-Range Kernels includes:
+
+- *Work items* are individual instances of the kernel,
+- *Work groups* which organize individual work items and can execute in any order,
+- Work groups have access to *work group local memory*, and
+- *Sub-groups* which are groups of work items in an individual work group
+
+The number of work groups can exceed the number of availible compute devices.
+
+Hierarchicial Parallel Kernels
+==============================
+
+Similar to ND-range kernels, except that hierarachical kernels create individual
+SPMD environments per work group.
+
+Choosing A Kernel Form
+======================
+
+The following figure from the book provides a flow chart for identifying which
+kernel to use.
+
+.. figure:: ../_static/images/data-parallel-cpp_figure-4.png
+
+   This is Figure 4-26 taken from Chapter 4: Expressing Parallelism from
+   :cite:p:`reinders_data_2021` .
+
+***************
+ Error Handling
+***************
+
+Synchronus Error Handling
+=========================
+
+SYCL synchronus errors are just C++ errors.
+
+Asynchronous Error Handling
+===========================
+
+Async errors are detected by the SYCL runtime are are typically caused on device.
+
+The Asynchronous Handler
+------------------------
+
+The async error handler handles device errors and propogates them to the host
+device. From there, it is on the programmer to handle the error accordingly.
+
+****************************
+ Unified Shared Memory (USM)
+****************************
+
+USM exposes memory operations using C++ pointers. This makes it useful for
+parallelizing existing C++ applications.
+
+********
+ Buffers
+********
+
+Buffers enable us to create one, two, and three dimensional representations of
+our data. While we can store data in the buffer, we are unable to access it
+directly. To do so, we need to create an ``accessor`` object that can read the
+data in the buffer.
+
+*************************************
+ Scheduling Kernels and Data Movement
+*************************************
+
+Parallel jobs can be thought of as graphs. Each node in the graph is made up of
+a command group. A command group contains:
+
+- an action (required),
+- data dependencies, and
+- the necessary prerequisite host code to run
+
+Command groups can be created via the ``parallel_for`` set of ``Queue`` class
+methods. Then to execute them all together, execute the ``wait()`` method.
 
 *************
  Bibliography
@@ -247,3 +391,5 @@ is necessary. Buffers can be set to be read, write, or read-write access modes.
    security vulnerabilities at the cost of speed.
 
 .. [4] Similar to the previous comment, I prefer implicit over explict handling.
+
+.. [5] Copied from this `ChatGPT conversation I had <https://chatgpt.com/share/696fa284-bc98-800e-839d-1ad69679ad3c>`_
