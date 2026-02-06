@@ -88,42 +88,6 @@ navigation. This website contains my latest:
 ..
    Toctrees for the side bars
 
-.. toctree::
-   :glob:
-   :hidden:
-   :maxdepth: 2
-   :caption: Blog Posts
-
-   All Blog Posts <blog_posts/index>
-   blog_posts/*
-
-.. toctree::
-   :glob:
-   :hidden:
-   :maxdepth: 2
-   :caption: Book Summaries
-
-   All Book Summaries <book_summaries/index>
-   book_summaries/*
-
-.. toctree::
-   :glob:
-   :hidden:
-   :maxdepth: 2
-   :caption: Papers
-
-   All Papers <papers/index>
-   papers/*
-
-.. toctree::
-   :glob:
-   :hidden:
-   :maxdepth: 2
-   :caption: Portfolio
-
-   Overview <portfolio/index>
-   portfolio/*
-
 
 .. toctree::
    :hidden:
