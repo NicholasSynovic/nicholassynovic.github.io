@@ -4,9 +4,9 @@
 :tags: Software Engineering, Artificial Intelligence, OpenCode, 03-03-2026
 :nocomments:
 
-#######################################################################################
-*Beyond Auto Complete: Coding with ``OpenCode``, Gemini, and the GitHub Education Tier*
-#######################################################################################
+############################################################################
+*Beyond Auto Complete: Coding with OpenCode, Gemini, and the GitHub CoPilot*
+############################################################################
 
 :bdg-primary:`Blog Post` :bdg-primary-line:`Software Engineering` :bdg-primary-line:`Artificial Intelligence` :bdg-primary-line:`OpenCode`
 
