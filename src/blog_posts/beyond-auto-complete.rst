@@ -18,13 +18,12 @@ Coding assistance tools have long served as reliable "copilots." For years,
 features like syntax highlighting, basic autocomplete, and snippet insertion
 enabled engineers to write more correct code with fewer iterations. However, we
 have recently moved past the era of mere assistance and into the era of *conding
-agents*. Unlike the tools of two years ago, modern agents like ``OpenCode``
-don't just suggest the next line of text; they manage and understand the context
-of an entire repository.
+agents*. Unlike the tools of two years ago, modern agents like don't just
+suggest the next line of text; they manage and understand the context of an
+entire repository.
 
 Previously, these assistance methods were powered by a mix of heuristic-based
-systems (like the Language Server Protocol), traditional machine learning
-(e.g., Tabnine), and early deep learning models (e.g., OpenAI's Codex). Today,
+systems, traditional machine learning, and early deep learning models. Today,
 the software engineering community has access to advanced, Large Language Model
 (LLM) powered agents. These tools leverage the next-token prediction and
 attention mechanisms that make models like OpenAI's ChatGPT and Google's Gemini
@@ -105,10 +104,11 @@ portable, and stays out of the way --- is what led me to my current setup.
 ``OpenCode`` as an Enabler of  Agent Diversity
 **********************************************
 
-My preferred environment for this agentic workflow is ``OpenCode``, a Terminal User
-Interface (TUI). While dedicated AI IDEs like Cursor or Windsurf are impressive,
-they often feel like walled gardens. I chose ``OpenCode`` for its lean architecture
-and its alignment with the "Unix philosophy" of doing one thing well.
+My preferred environment for this agentic workflow is ``OpenCode`` [1]_, a
+Terminal User Interface (TUI). While dedicated AI IDEs like Cursor or Windsurf
+are impressive, they often feel like walled gardens. I chose ``OpenCode`` for
+its lean architecture and its alignment with the "Unix philosophy" of doing one
+thing well.
 
 The advantages of this TUI-first approach, among others, are:
 
@@ -241,3 +241,5 @@ Connecting To Google Gemini via OAuth
    **Stability Tip**: In my testing for research-heavy workloads, Gemini 2.5
    Flash via OAuth has proven to be the most stable and responsive model within
    the ``OpenCode`` TUI environment.
+
+.. [1] https://opencode.ai
