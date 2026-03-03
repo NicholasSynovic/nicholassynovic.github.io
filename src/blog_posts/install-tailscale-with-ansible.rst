@@ -1,4 +1,3 @@
-
 :blogpost: true
 :date: December 28, 2024
 :category: Blog Post
