@@ -175,8 +175,8 @@ This exercise isn't just about documentation; **it's about learning the
 Once you understand the agent's baseline, move into active validation:
 
 - **Tooling Audit**: Ask the agent to identify all the explicit and implicit
-   configuration options within your codebase. See if it can find the
-   "ghosts" in your architecture.
+  configuration options within your codebase. See if it can find the
+  "ghosts" in your architecture.
 - **Security & Memory Loops**: Ask the agent to generate a memory-safe
   implementation of a function, then validate that code against a tool like
   ``valgrind``. If it fails, pass the valgrind error log back into the agent.
