@@ -220,7 +220,7 @@ Connecting To Google Gemini via OAuth
    credentials, use ``opencode auth logout`` to clear existing provider tokens.
 
 1. **Initialize Configuration**: Create or open your ``opencode.json`` config
-   file (see `here <https://opencode.ai/docs/config/#precedence-order>__` for
+   file (see `here <https://opencode.ai/docs/config/#precedence-order>`__ for
    where this file is located).
 2. **Enable the Plugin**: Add the Gemini authentication plugin to your config:
 
