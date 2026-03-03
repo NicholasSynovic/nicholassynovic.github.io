@@ -103,14 +103,5 @@ html_sidebars = {
         "icon-links.html",
         "search-button-field.html",
         "sbt-sidebar-nav.html",
-        # Ablog sidebars
-        # "ablog/postcard.html",
-        "recent_posts.html",
-        # "ablog/tagcloud.html",
-        # "ablog/categories.html",
-        # "ablog/archives.html",
-        # "ablog/authors.html",
-        # "ablog/languages.html",
-        # "ablog/locations.html",
     ]
 }
