@@ -95,3 +95,22 @@ html_theme_options = {
 html_title = project
 html_logo = "_static/images/headshot.png"
 html_favicon = "_static/favicon.png"
+
+html_sidebars = {
+    "**": [
+        # sphinx-book sidebars
+        "navbar-logo.html",
+        "icon-links.html",
+        "search-button-field.html",
+        "sbt-sidebar-nav.html",
+        # Ablog sidebars
+        # "ablog/postcard.html",
+        "recent_posts.html",
+        # "ablog/tagcloud.html",
+        # "ablog/categories.html",
+        # "ablog/archives.html",
+        # "ablog/authors.html",
+        # "ablog/languages.html",
+        # "ablog/locations.html",
+    ]
+}
