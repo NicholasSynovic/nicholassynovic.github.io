@@ -96,8 +96,8 @@ to interact with an agent is a performance killer. It introduces unnecessary
 friction when you need to stay close to the raw output of the machine.
 
 To maintain high standards without leaving the environment where my code
-actually lives, I need an agent that exists exactly where I do: the command
-line. This need for a "terminal-first" philosophy --- one that is performant,
+actually lives, I need an agent that exists exactly where I do: *the command
+line*. This need for a "terminal-first" philosophy --- one that is performant,
 portable, and stays out of the way --- is what led me to my current setup.
 
 **********************************************
