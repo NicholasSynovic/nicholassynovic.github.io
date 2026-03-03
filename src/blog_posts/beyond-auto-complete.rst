@@ -18,7 +18,7 @@ Coding assistance tools have long served as reliable "copilots." For years,
 features like syntax highlighting, basic autocomplete, and snippet insertion
 enabled engineers to write more correct code with fewer iterations. However, we
 have recently moved past the era of mere assistance and into the era of *conding
-agents*. Unlike the tools of two years ago, modern agents like don't just
+agents*. Unlike the tools of two years ago, modern agents don't just
 suggest the next line of text; they manage and understand the context of an
 entire repository.
 
