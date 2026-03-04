@@ -106,22 +106,18 @@ node which I was able to squash.
 It Has To Be Slurm.. Right?
 ===========================
 
-In a previous attempt to modernize ``dijkstra``, the department installed Slurm,
+In a previous attempt to modernize ``dijkstra``, the department installed Slurm [1]_,
 a workload manager designed to queue and schedule high-performance computing
 jobs. To ensure the cluster remained stable, Slurm had been configured with a
 strict "no-direct-entry" policy: users could only execute code on compute nodes
 via a scheduled job, effectively blocking direct ssh access to prevent unmanaged
 resource consumption.
 
-.. todo:: margin note slurm
-
 At some point, Slurm was disabled for reasons unknown to me. However, because
 the cluster's previous state was so restrictive, I assumed a "ghost"
 configuration was still haunting the system. I suspected a lingering PAM
-(Pluggable Authentication Module) or a configuration flag was still enforcing
+(Pluggable Authentication Module) [2]_ or a configuration flag was still enforcing
 that "Slurm-only" access rule.
-
-.. todo:: Note on PAM
 
 After a quick consultation with Google Gemini and a deep dive into the Slurm
 documentation, I identified several candidate files that might be causing the
@@ -208,9 +204,9 @@ Ansible, I had to resolve this manually:
 3. Restarted the LDAP daemon.
 4. Verified the fix by logging in with a standard user account—success!
 
-***************************
-Takeaways for Junior Admins
-***************************
+*********
+Takeaways
+*********
 
 1. **Log Veracity is King:** Client-side logs (``ssh -v``) are helpful,
    but the **target** node's logs  are the final authority.
@@ -223,3 +219,6 @@ Takeaways for Junior Admins
    We are now moving toward an **Ansible** based "Infrastructure as Code"
    approach to ensure every node in the cluster has the exact same
    software and configurations.
+
+.. [1] https://slurm.schedmd.com/overview.html
+.. [2] https://en.wikipedia.org/wiki/Pluggable_Authentication_Module
