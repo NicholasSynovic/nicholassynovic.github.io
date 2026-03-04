@@ -228,7 +228,7 @@ Connecting To Google Gemini via OAuth
 
    {
       "$schema": "https://opencode.ai/config.json",
-      "plugins": ["opencode-gemini-auth@latest"]
+      "plugin": ["opencode-gemini-auth@latest"]
    }
 
 3. **Login**: Run ``opencode auth login`` in your terminal.
