@@ -10,6 +10,13 @@
 
 :bdg-primary:`Blog Post` :bdg-primary-line:`Software Engineering` :bdg-primary-line:`Artificial Intelligence` :bdg-primary-line:`OpenCode`
 
+.. note::
+   **Edits To This Page**
+
+   - **03-04-2026**: Added links to the Gemini CLI Free Tier API calling
+     documentation and clarified the capabilities of connecting
+     ``OpenCode`` to Google Gemini via OAuth
+
 *****************************************
 From Autocomplete to Agentic Independence
 *****************************************
@@ -214,10 +221,18 @@ Connecting To GitHub CoPilot
 Connecting To Google Gemini via OAuth
 *************************************
 
-.. tip::
-   **Streamline Your Auth**: To keep your configuration manageable, I recommend
-   using either OAuth or an API key, but not both. If you need to reset your
-   credentials, use ``opencode auth logout`` to clear existing provider tokens.
+.. warning::
+   By using the OAuth connector to Google Gemini, you are effectively connecting
+   to the Gemini Code Assistance service via the Gemini CLI authentication flow [2]_.
+   For more information regarding usage limits for free and paying users, see `this
+   Gemini CLI documentation page <https://geminicli.com/docs/resources/quota-and-pricing/#free-usage>`__.
+
+To keep your configuration manageable, I recommend using either OAuth or an API
+key, but not both. If you need to reset your credentials, use
+``opencode auth logout`` to clear existing provider tokens.
+
+In my testing for research-heavy workloads, Gemini 2.5 Flash via OAuth has
+proven to be the most stable and responsive model within ``OpenCode``.
 
 1. **Initialize Configuration**: Create or open your ``opencode.json`` config
    file (see `here <https://opencode.ai/docs/config/#precedence-order>`__ for
@@ -237,9 +252,5 @@ Connecting To Google Gemini via OAuth
 5. **Set the Model**: Use the ``/models`` in ``opencode`` command to select your
    Gemini variant.
 
-.. note::
-   **Stability Tip**: In my testing for research-heavy workloads, Gemini 2.5
-   Flash via OAuth has proven to be the most stable and responsive model within
-   the ``OpenCode`` TUI environment.
-
 .. [1] https://opencode.ai
+.. [2] https://github.com/jenslys/opencode-gemini-auth?tab=readme-ov-file#parity-notes
