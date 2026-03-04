@@ -4,9 +4,9 @@
 :tags: System Administration, HPC, 03-04-2026
 :nocomments:
 
-#####################################################################################
-*Bouncers and Guest Lists: Troubleshooting SSH and LDAP Desync on a Research Cluster*
-#####################################################################################
+###########################################################
+*Troubleshooting SSH and LDAP Desync on a Research Cluster*
+###########################################################
 
 :bdg-primary:`Blog Post` :bdg-primary-line:`System Administration` :bdg-primary-line:`HPC`
 
