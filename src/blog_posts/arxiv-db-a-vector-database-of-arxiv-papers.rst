@@ -1,5 +1,4 @@
 :blogpost: true
-:date: April 24, 2026
 :category: Blog Post
 :tags: Academia, Machine Learning, Data Engineering, 04-24-2026
 :nocomments:
