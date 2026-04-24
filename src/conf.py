@@ -65,6 +65,7 @@ bibtex_default_style = "unsrt"
 html_theme = "sphinx_book_theme"
 html_static_path = ["_static"]
 html_css_files = ["custom.css"]
+html_js_files = ["consent.js"]
 
 # Sphinx Book Theme Settings
 html_theme_options = {

@@ -79,10 +79,6 @@ navigation. This website contains my latest:
 
             ``.docx``
 
-..
-   Toctrees for the side bars
-
-
 .. toctree::
    :hidden:
    :maxdepth: 1
