@@ -1,4 +1,4 @@
-build:
+build-proj:
 	git describe --tags --abbrev=0 | tail -n 1 | xargs -I % uv version %
 	rm -rf dist/
 	rm -rf build/
@@ -22,5 +22,5 @@ convert-resume-to-pdf:
 		--outdir src/_static \
 		src/_static/NMSynovic_Resume.docx
 
-serve:
+serve-site:
 	sphinx-autobuild src build
