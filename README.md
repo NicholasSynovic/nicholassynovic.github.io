@@ -139,6 +139,23 @@ This project supports two release tracks.
 
 - Contribution process: `.github/CONTRIBUTING.md`
 
+## Privacy Notice
+
+This site uses Google Analytics (GA4) to collect aggregate usage insights.
+
+- Measurement ID: `G-0Y7Y4XLQHD`
+- Script source: `https://www.googletagmanager.com/gtag/js?id=G-0Y7Y4XLQHD`
+
+### Tracking Behavior
+
+- Analytics is loaded by default on page load.
+- Page usage is measured via the GA4 tag.
+
+### Managing Data
+
+- You can block analytics requests using browser privacy controls, script blockers, or network-level filtering.
+- You can clear site data and cookies through your browser settings.
+
 ## Agent Guidance
 
 - Agent-specific repository rules are documented in `AGENTS.md`.
