@@ -1,11 +1,11 @@
 default_language_version:
-    python: python3.13
+    python: python3.14
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v6.0.0
     hooks:
       - id: check-added-large-files
-        args: ['--maxkb=10000']  # Block files >10MB
+        args: ['--maxkb=1000']  # Block files >1MB
       - id: check-case-conflict
       - id: check-json
       - id: check-shebang-scripts-are-executable
@@ -23,23 +23,13 @@ repos:
       - id: sort-simple-yaml
       - id: trailing-whitespace
 
-  - repo: https://github.com/astral-sh/ruff-pre-commit
-    # Ruff version.
-    rev: v0.15.0
+  - repo: https://github.com/DavidAnson/markdownlint-cli2
+    rev: v0.22.1 # Use the latest version
     hooks:
-      # Run the formatter.
-      - id: ruff-format
-        types_or: [ python, pyi ]
-      # Run the linter.
-      - id: ruff-check
+      - id: markdownlint-cli2
+        args: ["--fix"] # Automatically fix simple issues like trailing spaces
 
-  - repo: https://github.com/pycqa/isort
-    rev: 7.0.0
+  - repo: https://github.com/executablebooks/mdformat
+    rev: 1.0.0
     hooks:
-      - id: isort
-
-  - repo: https://github.com/PyCQA/bandit
-    rev: 1.9.3
-    hooks:
-    - id: bandit
-      files: '\.py$'
+      - id: mdformat
