@@ -65,14 +65,14 @@ navigation. This website contains my latest:
          :margin: 0 0 0 0
          :padding: 0 0 0 0
 
-         .. button-link:: _static/NMSynovic_CV.pdf
+         .. button-link:: https://github.com/NicholasSynovic/cv/releases/latest/download/NicholasMSynovic_cv.pdf
             :color: primary
             :expand:
             :tooltip: Download CV as .pdf
 
             ``.pdf``
 
-         .. button-link:: _static/NMSynovic_CV.docx
+         .. button-link:: https://github.com/NicholasSynovic/cv/releases/latest/download/NicholasMSynovic_cv.docx
             :color: secondary
             :expand:
             :tooltip: Download CV as .docx
