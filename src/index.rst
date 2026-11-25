@@ -43,14 +43,14 @@ navigation. This website contains my latest:
          :margin: 0 0 0 0
          :padding: 0 0 0 0
 
-         .. button-link:: _static/NMSynovic_Resume.pdf
+         .. button-link:: https://github.com/NicholasSynovic/resume/releases/latest/download/NicholasMSynovic_resume.pdf
             :color: primary
             :expand:
             :tooltip: Download resume as .pdf
 
             ``.pdf``
 
-         .. button-link:: _static/NMSynovic_Resume.docx
+         .. button-link:: https://github.com/NicholasSynovic/resume/releases/latest/download/NicholasMSynovic_resume.docx
             :color: secondary
             :expand:
             :tooltip: Download resume as .docx
