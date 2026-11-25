@@ -82,6 +82,14 @@ navigation. This website contains my latest:
 .. toctree::
    :hidden:
    :maxdepth: 1
+   :caption: Content
+
+   blog_posts/index
+   papers/index
+
+.. toctree::
+   :hidden:
+   :maxdepth: 1
    :caption: Socials
 
    🐦 Bluesky <https://bsky.app/profile/nicholassynovic.bsky.social>

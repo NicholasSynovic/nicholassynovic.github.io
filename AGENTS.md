@@ -1,202 +1,110 @@
 # AGENTS.md
 
-Operating guide for autonomous coding agents in this repository.
-Use this file as the default runbook for setup, validation, coding style, and PR readiness.
+Operating guide for coding agents in this repository.
 
 ## Project Snapshot
 
-- Project: `nicholassynovic.github.io`
-- Type: Sphinx static site/blog
-- Python target: `~=3.13`
-- Dependency manager: `uv`
-- Build backend: `hatchling`
-- Main source directory: `src/`
-- Generated outputs: `build/`, `dist/`
-- CI workflow: `.github/workflows/build.yml`
+- Sphinx static site/blog (ablog) for Nicholas M. Synovic.
+- Python ~=3.13, managed with `uv`, build backend `hatchling`, lockfile
+  `uv.lock`.
+- Source in `src/`; generated outputs `build/` (site) and `dist/` (package)
+  are gitignored — never commit them.
+- CI (`.github/workflows/build.yml`) builds on push to `main` and deploys
+  `build/` to GitHub Pages.
 
 ## Important Paths
 
-- `src/conf.py`: Sphinx config and theme options
-- `src/index.rst`: homepage
-- `src/blog_posts/`: blog content
-- `src/papers/`: paper/publication content
-- `src/_static/`: CSS, JS, images, and downloadable assets
-- `src/_templates/`: Sphinx template overrides
-- `.pre-commit-config.yaml`: lint/format hooks
-- `.editorconfig`: formatting baseline
-- `.github/CONTRIBUTING.md`: contribution process
-- `Makefile`: common command entry points
+- `src/conf.py`: Sphinx config — extensions, theme, `bibtex_bibfiles`.
+- `src/index.rst`: homepage.
+- `src/blog_posts/`: dated blog posts (`YYYY-MM-DD.rst`).
+- `src/papers/`: paper summary pages.
+- `src/refs.bib`: BibTeX database used by `:cite:p:` citations.
+- `src/_static/`: CSS, JS, images, and resume assets (`.docx` + PDF).
+- `src/_templates/layout.html`: Sphinx template override.
+- `Makefile`, `.pre-commit-config.yaml`, `.editorconfig`,
+  `.github/CONTRIBUTING.md`.
 
 ## Environment Setup
 
 1. Install Python 3.13 and `uv`.
-1. Sync dependencies: `uv sync`
-1. Optional bootstrap: `make create-dev`
-1. Optional hook install: `pre-commit install`
+1. `uv sync` (creates `.venv`).
+1. Optional bootstrap: `make create-dev` — installs/updates pre-commit
+   hooks, syncs dependencies, and builds the package.
 
-## Build, Lint, and Test Commands
+## Build, Preview, Lint
 
-### Build Commands
+- Build: `make build-proj` — rewrites `project.version` in `pyproject.toml`
+  from the latest git tag, wipes `build/` and `dist/`, then runs
+  `sphinx-build -vvv --write-all --fresh-env src build`. Bare `make` runs
+  this target too (it is first).
+- Preview: `make serve-site` — `sphinx-autobuild src build`.
+- CI-equivalent build: `uv run sphinx-build --write-all src build`.
+- Lint: `pre-commit run --all-files` (or `pre-commit run` for changed
+  files).
 
-- Preferred local build: `make build`
-- CI-style build: `uv run sphinx-build --write-all src build`
-- Verbose/clean build: `uv run sphinx-build -vvv --write-all --fresh-env src build`
+Makefile targets call bare `sphinx-build`/`sphinx-autobuild`, so they only
+work inside an activated `.venv` (`source .venv/bin/activate`). Prefix with
+`uv run` instead if no venv is active.
 
-### Preview Commands
+## Content Conventions
 
-- Local live preview: `make serve`
-- Equivalent direct command: `uv run sphinx-autobuild src build`
+- Blog posts: dated `.rst` files in `src/blog_posts/` that start with ablog
+  field-list metadata: `:blogpost: true`, `:date:`, `:category:`,
+  `:tags:`, `:nocomments:`.
+- Posts and papers are auto-collected by `.. postlist::` directives in
+  `src/blog_posts/index.rst` and `src/papers/index.rst` — no toctree edit
+  needed. Use category `Blog Post` for posts and `Paper` for papers.
+- Citations: add BibTeX entries to `src/refs.bib`, cite with `:cite:p:`
+  (unsrt style).
+- Cross-references: `autosectionlabel_prefix_document = True`, so `:ref:`
+  labels are `docname:Section Title`.
+- Resume PDFs are generated from the `.docx` files in `src/_static/` via
+  `make convert-resume-to-pdf` (requires flatpak LibreOffice).
+  `make convert-cv-to-pdf` fails: `NMSynovic_CV.docx` is not in this repo
+  (the CV lives in the separate `NicholasSynovic/cv` repo).
 
-### Lint and Formatting
+## Formatting
 
-- All hooks on all files: `pre-commit run --all-files`
-- Hooks on changed files only: `pre-commit run`
-- Run one hook example:
-  - `pre-commit run markdownlint-cli2 --all-files`
-  - `pre-commit run mdformat --all-files`
+From `.editorconfig`: LF line endings, final newline required, UTF-8, trim
+trailing whitespace (except JSON). Indents: Python 4 spaces, Markdown 2,
+YAML 2, JSON 4, reStructuredText 3, Makefile tabs.
 
-### Test Commands (Including Single Test)
+## Pre-commit Hooks
 
-There is currently no `tests/` directory.
-If tests are added (recommended: `pytest`), use:
+Runs locally only — CI never runs pre-commit. Standard checks (large files
+over 1MB, merge conflicts, private keys, debug statements, trailing
+whitespace, final newlines, YAML/TOML/JSON/XML validity) plus
+markdownlint-cli2 `--fix` and mdformat for Markdown.
 
-- Full suite: `uv run pytest -q`
-- Single test file: `uv run pytest tests/test_example.py -q`
-- Single test case: `uv run pytest tests/test_example.py::test_case_name -q`
-- Name filter: `uv run pytest -k "keyword" -q`
-
-If `pytest` is missing, add it to development dependencies before relying on these.
-
-## Validation Sequence Before PR
-
-Run in this order:
+## Validation Before PR
 
 1. `uv sync`
 1. `pre-commit run --all-files`
-1. `make build`
-1. Optional visual check: `make serve`
-
-## Code Style and Conventions
-
-Prefer existing local style first.
-When no precedent exists, follow these conventions.
-
-### Global Formatting Rules
-
-From `.editorconfig`:
-
-- End-of-line: LF
-- Final newline: required
-- Charset: UTF-8
-- Trim trailing whitespace: enabled by default
-- Python indentation: 4 spaces
-- Markdown indentation: 2 spaces
-- YAML indentation: 2 spaces
-- JSON indentation: 4 spaces
-- reStructuredText indentation: 3 spaces
-- Makefile indentation: tabs
-
-Notes:
-
-- JSON overrides trimming (`trim_trailing_whitespace = false`).
-- Preserve surrounding style when editing mixed-content docs.
-
-### Python Conventions
-
-- Keep code explicit, readable, and moderately small in scope.
-- Add docstrings for non-trivial modules/functions.
-- Prefer deterministic behavior over hidden side effects.
-
-Imports:
-
-- Group order: standard library, third-party, local.
-- Use one blank line between groups.
-- Prefer absolute imports.
-- Remove unused imports in touched files.
-
-Types:
-
-- Add type hints for new functions and non-obvious variables.
-- Prefer built-in generics (`list[str]`, `dict[str, int]`).
-- Avoid `Any` unless unavoidable.
-
-Naming:
-
-- `snake_case`: functions, methods, variables
-- `PascalCase`: classes
-- `UPPER_SNAKE_CASE`: constants
-- Prefer descriptive names over abbreviations
-
-Error handling:
-
-- Fail fast on invalid states using clear exceptions.
-- Catch specific exceptions where possible.
-- Avoid broad `except Exception` unless re-raising with context.
-- Keep error messages actionable and concrete.
-
-Logging/diagnostics:
-
-- Keep messages concise and useful.
-- Avoid noisy debug output in committed code.
-
-### Documentation and Content Conventions
-
-- Keep heading hierarchy and spacing consistent in `*.rst`.
-- Use concise, descriptive section titles.
-- Prefer explicit links/references.
-- Match the tone and structure of nearby content.
-- For Markdown, use fenced code blocks with language tags when possible.
-
-### YAML/TOML/JSON Conventions
-
-- Keep key ordering stable and logical when practical.
-- Avoid unnecessary quoting.
-- Respect `.editorconfig` indentation/whitespace rules.
+1. `make build-proj` (or `uv run sphinx-build --write-all src build`)
+1. Optional visual check: `make serve-site`
 
 ## CI Expectations
 
-- CI runs on Ubuntu with Python 3.13.
-- Dependencies are installed using `uv sync`.
-- CI build step uses `./.venv/bin/sphinx-build --write-all src build`.
-- Changes that break Sphinx build are considered blockers.
+- CI: Ubuntu, Python 3.13, `uv sync`, then
+  `./.venv/bin/sphinx-build --write-all src build`.
+- A broken Sphinx build is a blocker.
 
 ## Contribution Workflow
 
-From `.github/CONTRIBUTING.md`:
+From `.github/CONTRIBUTING.md`: branch `issue-<number>` from `main`, keep
+changes scoped to the issue, open a PR to `main` with closing keywords
+(`Closes #<n>`, `Fixes #<n>`).
 
-1. Open or identify an issue.
-1. Create branch `issue-<number>` from `main`.
-1. Keep changes scoped to that issue.
-1. Open PR to `main` with closing keywords (`Closes #<n>`, `Fixes #<n>`, etc.).
+## Tests
 
-## Pre-commit Hooks in Use
-
-Configured hooks include checks for:
-
-- Large files, case conflicts, merge conflicts, symlink issues
-- JSON/TOML/XML/YAML validity
-- Private keys and debug statements
-- Trailing whitespace and final newline normalization
-- Markdown linting via `markdownlint-cli2 --fix`
-- Markdown formatting via `mdformat`
-
-Assume hooks may run both locally and in CI.
-
-## Cursor and Copilot Rule Files
-
-Checked locations:
-
-- `.cursorrules`
-- `.cursor/rules/`
-- `.github/copilot-instructions.md`
-
-Current status: none of these files are present in this repository.
-If these files are added later, treat them as high-priority agent instructions and update this document.
+No test suite exists. Verification = pre-commit passing plus a clean
+Sphinx build.
 
 ## Agent Notes
 
-- Prefer minimal, targeted diffs.
-- Do not commit generated artifacts from `build/` or `dist/` unless explicitly requested.
-- Keep changes aligned with the existing `src/` architecture.
-- Prefer commands already used in `Makefile`, CI, and tool configs.
-- If tests or tooling change, update this file (especially single-test guidance).
+- Prefer minimal, targeted diffs; keep changes aligned with the existing
+  `src/` structure.
+- Prefer commands already used in the Makefile and CI.
+- Releases: push a SemVer tag (e.g. `v1.2.3`) and create a GitHub Release;
+  `make build-proj` stamps the package version from the latest tag.
+- If commands or tooling change, update this file and the README.
