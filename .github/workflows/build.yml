@@ -38,11 +38,6 @@ jobs:
         with:
           python-version: '3.13'
 
-      - name: Install dependencies
-        run: |
-          python3 -m pip install uv && \
-          python3 -m uv sync
-
       - name: Cache restore
         id: cache-restore
         uses: actions/cache/restore@v4
@@ -51,6 +46,11 @@ jobs:
           key: uv-${{ github.run_id }}
           restore-keys:
             uv-
+
+      - name: Install dependencies
+        run: |
+          python3 -m pip install uv && \
+          python3 -m uv sync
 
       - name: Build the site
         run: |
